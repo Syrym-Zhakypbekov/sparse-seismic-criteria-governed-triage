@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Results: CC BY 4.0](https://img.shields.io/badge/results-CC%20BY%204.0-lightgrey.svg)](LICENSE-results.md)
 [![OSF registration](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FY8QXZ-blue.svg)](https://doi.org/10.17605/OSF.IO/Y8QXZ)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24053125.svg)](https://doi.org/10.5281/zenodo.24053125)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
 [![Networks](https://img.shields.io/badge/seismic%20networks-38-green.svg)](results/v2/NETWORK_CHECK.md)
 
@@ -13,6 +14,8 @@ Code, pre-registered test plans, per-episode decision records and result files f
 
 International Information Technology University, Almaty, Kazakhstan. Correspondence: s.zhakypbekov@iitu.edu.kz.
 Test plans are registered on OSF: https://osf.io/y8qxz (DOI [10.17605/OSF.IO/Y8QXZ](https://doi.org/10.17605/OSF.IO/Y8QXZ)).
+Archived release v1.0.0: Zenodo, DOI [10.5281/zenodo.24053125](https://doi.org/10.5281/zenodo.24053125)
+(all versions: [10.5281/zenodo.24053124](https://doi.org/10.5281/zenodo.24053124)).
 
 ## Claim
 
@@ -127,8 +130,8 @@ classDiagram
     class NeighbourSite {
         rank
         dist_km
-        members[] (sta, stream, dist_km, lat, lon)
-        state(): YES if any member YES, NO if any NO, else MISSING
+        members[] = sta, stream, dist_km, lat, lon
+        state = YES if any member YES, NO if any NO, else MISSING
     }
     class Episode {
         t_on_utc
@@ -136,7 +139,7 @@ classDiagram
         peak_cft
         snr_db
         snr_status
-        n_S1_1, n_S2_1, n_S3_1 (YES / NO / MISSING)
+        n_S1_1, n_S2_1, n_S3_1 = YES, NO or MISSING
         cov_S1_1, cov_S2_1, cov_S3_1
         assoc_event
         assoc_residual_s
@@ -153,7 +156,7 @@ classDiagram
         tau dB for P1t 8.0, P2 10.5, P3 7.5
     }
     class Decision {
-        den (sum w q)
+        den = sum w q
         D
         action: ALERT, DISMISS, ESCALATE
         s_i, q_i, contrib_i
@@ -609,8 +612,8 @@ identical decisions ([replicate_TX.json](results/v2/replicate_TX.json), [replica
 | Record | Link |
 |---|---|
 | OSF registration of the test plans | https://osf.io/y8qxz (DOI [10.17605/OSF.IO/Y8QXZ](https://doi.org/10.17605/OSF.IO/Y8QXZ)) |
-| OSF project | https://osf.io/6ay27 |
-| Archived release of this repository (Zenodo) | DOI to be added |
+| OSF project | the working project behind the registration is private; the registration above is its public, frozen copy |
+| Archived release of this repository (Zenodo) | https://zenodo.org/records/24053125 (DOI [10.5281/zenodo.24053125](https://doi.org/10.5281/zenodo.24053125); all versions [10.5281/zenodo.24053124](https://doi.org/10.5281/zenodo.24053124)) |
 | Journal Special Issue | [Sensors, "Sensor-Based Seismic Network: Issues and Challenges"](https://www.mdpi.com/journal/sensors/special_issues/3uuc1584a0) |
 
 ## Pre-registration
@@ -691,8 +694,8 @@ Code: MIT ([LICENSE](LICENSE)). Results, tables and figures in `results/` and `f
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). Until the paper is published, please cite this repository and the OSF registration
-(DOI 10.17605/OSF.IO/Y8QXZ).
+See [CITATION.cff](CITATION.cff). Until the paper is published, please cite this repository (Zenodo DOI
+10.5281/zenodo.24053125) and the OSF registration (DOI 10.17605/OSF.IO/Y8QXZ).
 
 Related work by the authors: Zhakypbekov, S.; Bykov, A.; Yermakova, V.; Zhuginissova, A.; Vasquez, M.A. A Criteria-Governed
 Human-in-the-Loop Information System Architecture for Explainable AI-Assisted Learning and Preliminary Assessment.

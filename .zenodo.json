@@ -92,11 +92,6 @@
       "identifier": "10.17605/OSF.IO/Y8QXZ",
       "relation": "isDocumentedBy",
       "scheme": "doi"
-    },
-    {
-      "identifier": "https://osf.io/6ay27",
-      "relation": "isDocumentedBy",
-      "scheme": "url"
     }
   ],
   "version": "v1.0.0"

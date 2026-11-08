@@ -22,9 +22,16 @@ authors:
     orcid: "https://orcid.org/0000-0002-2657-3697"
 license: MIT
 repository-code: "https://github.com/Syrym-Zhakypbekov/sparse-seismic-criteria-governed-triage"
-version: "1.0"
+version: "1.0.0"
 date-released: "2026-11-08"
+doi: 10.5281/zenodo.24053125
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24053125
+    description: "Zenodo archive of release v1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.24053124
+    description: "Zenodo concept DOI, all versions"
   - type: doi
     value: 10.17605/OSF.IO/Y8QXZ
     description: "OSF registration of the test plans"
