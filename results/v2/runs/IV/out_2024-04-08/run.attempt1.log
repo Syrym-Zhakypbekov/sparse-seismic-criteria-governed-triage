@@ -1,0 +1,175 @@
+thresholds {'MAKZ': 3.9337584650993733, 'S1_1': 4.338362800770845, 'S2_1': 4.45111259840932, 'S3_1': 4.482808486156803, 'S3_2': 5.080867683810387}
+{'day': '2024-04-08', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9976, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0205}
+{'day': '2024-04-09', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9945, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.058}
+{'day': '2024-04-10', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6928}
+{'day': '2024-04-11', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9947, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-12', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9967, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.3872}
+{'day': '2024-04-13', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9942, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0149}
+{'day': '2024-04-14', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9934, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0081}
+{'day': '2024-04-15', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9864, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.1491}
+{'day': '2024-04-16', 'MAKZ_valid_share': 0.9977, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9955, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6929}
+{'day': '2024-04-17', 'MAKZ_valid_share': 0.9461, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-18', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9977, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.3607}
+{'day': '2024-04-19', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6928}
+{'day': '2024-04-20', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-21', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9863, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-22', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9468, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-23', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-24', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-25', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-26', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9957, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-04-27', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6904}
+{'day': '2024-04-28', 'MAKZ_valid_share': 0.9901, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.3445}
+{'day': '2024-04-29', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9953, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0173}
+{'day': '2024-04-30', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0357}
+{'day': '2024-05-01', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9886, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6919}
+{'day': '2024-05-02', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9923, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-05-03', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-05-04', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9891, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-05-05', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.4113}
+{'day': '2024-05-06', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9796, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0189}
+{'day': '2024-05-07', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.991, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0505}
+{'day': '2024-05-08', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9956, 'S3_1_valid_share': 0.9986, 'S3_2_valid_share': 0.6925}
+{'day': '2024-05-09', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9572, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-05-10', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-05-11', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9916, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.4887}
+{'day': '2024-05-12', 'MAKZ_valid_share': 0.9959, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.985, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.03}
+{'day': '2024-05-13', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9895, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.054}
+{'day': '2024-05-14', 'MAKZ_valid_share': 0.9891, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.034}
+{'day': '2024-05-15', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9903, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.1259}
+{'day': '2024-05-16', 'MAKZ_valid_share': 0.9987, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9931, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0095}
+{'day': '2024-05-17', 'MAKZ_valid_share': 0.9987, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0084}
+{'day': '2024-05-18', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9957, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.007}
+{'day': '2024-05-19', 'MAKZ_valid_share': 0.9973, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9938, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.2332}
+{'day': '2024-05-20', 'MAKZ_valid_share': 0.9961, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9954, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0065}
+{'day': '2024-05-21', 'MAKZ_valid_share': 0.9947, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9926, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6927}
+{'day': '2024-05-22', 'MAKZ_valid_share': 0.9961, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-05-23', 'MAKZ_valid_share': 0.9973, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.3811}
+{'day': '2024-05-24', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0255}
+{'day': '2024-05-25', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9977, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.1192}
+{'day': '2024-05-26', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6922}
+{'day': '2024-05-27', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.4053}
+{'day': '2024-05-28', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0626}
+{'day': '2024-05-29', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.1367}
+{'day': '2024-05-30', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 0.9973, 'S3_2_valid_share': 0.0867}
+{'day': '2024-05-31', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.1371}
+{'day': '2024-06-01', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9972, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0312}
+{'day': '2024-06-02', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0158}
+{'day': '2024-06-03', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9917, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6921}
+{'day': '2024-06-04', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 0.9977, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.3852}
+{'day': '2024-06-05', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9931, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6894}
+{'day': '2024-06-06', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9917, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-06-07', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9944, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.3131}
+{'day': '2024-06-08', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9953, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0107}
+{'day': '2024-06-09', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9871, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0031}
+{'day': '2024-06-10', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9912, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0123}
+{'day': '2024-06-11', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9955, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0}
+{'day': '2024-06-12', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.998, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6845}
+{'day': '2024-06-13', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9934, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-06-14', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-06-15', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9934, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.4122}
+{'day': '2024-06-16', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0976}
+{'day': '2024-06-17', 'MAKZ_valid_share': 0.9987, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9857, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.073}
+{'day': '2024-06-18', 'MAKZ_valid_share': 0.9961, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0}
+{'day': '2024-06-19', 'MAKZ_valid_share': 0.9614, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9615, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0}
+{'day': '2024-06-20', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9944, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0}
+{'day': '2024-06-21', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9957, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0}
+{'day': '2024-06-22', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.2351}
+{'day': '2024-06-23', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9931, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0656}
+{'day': '2024-06-24', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9737, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6894}
+{'day': '2024-06-25', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9925, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-06-26', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9945, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-06-27', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9907, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.391}
+{'day': '2024-06-28', 'MAKZ_valid_share': 0.9608, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9955, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0335}
+{'day': '2024-06-29', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0}
+{'day': '2024-06-30', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.04}
+{'day': '2024-07-01', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9959, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0032}
+{'day': '2024-07-02', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.6896}
+{'day': '2024-07-03', 'MAKZ_valid_share': 0.9973, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.991, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-07-04', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.961, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-07-05', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9944, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 1.0}
+{'day': '2024-07-06', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.391}
+{'day': '2024-07-07', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.991, 'S3_1_valid_share': 1.0, 'S3_2_valid_share': 0.0696}
+S1_1 distance_km 109.0 window_s 24.8
+S2_1 distance_km 195.8 window_s 40.6
+S3_1 distance_km 336.4 window_s 66.2
+S3_2 distance_km 343.0 window_s 67.4
+{
+ "version": "v3",
+ "dev_days": 91,
+ "thresholds_q99.9": {
+  "MAKZ": 3.9337584650993733,
+  "S1_1": 4.338362800770845,
+  "S2_1": 4.45111259840932,
+  "S3_1": 4.482808486156803,
+  "S3_2": 5.080867683810387
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "IV.CGL..BHZ"
+  ],
+  "S1_1": [
+   "IV.DGI..HHZ"
+  ],
+  "S2_1": [
+   "IV.AGLI..HHZ"
+  ],
+  "S3_1": [
+   "IV.MARS..HHZ"
+  ],
+  "S3_2": [
+   "IV.MTGR..HHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 4513,
+  "S1_1": 2024,
+  "S2_1": 2704,
+  "S3_1": 1256,
+  "S3_2": 432
+ },
+ "ref_episodes_per_day": 49.59340659340659,
+ "catalog_failures": [],
+ "fetch_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 17,
+ "catalog": {
+  "regional": 4100,
+  "tele": 94
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2024-04-08T00:00:00.000000Z",
+   "2024-04-08T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2024-04-08T00:00:00.000000Z",
+   "2024-07-08T00:00:00.000000Z"
+  ]
+ }
+}

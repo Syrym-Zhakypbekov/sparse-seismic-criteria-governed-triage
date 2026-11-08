@@ -1,0 +1,2883 @@
+{
+ "plan": "PLAN_TIME_DISJOINT_2023_2026-11-08.md",
+ "networks": [
+  {
+   "rule_order": 48,
+   "network": "AE",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AE.X18A..HHZ",
+   "lat": 34.529301,
+   "lon": -109.950104,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    10,
+    2,
+    2
+   ],
+   "reference_good_day_share": 0.951,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 68.3,
+     "members": [
+      {
+       "sta": "W18A",
+       "dist_km": 68.3,
+       "stream": "AE.W18A..HHZ",
+       "lat": 35.118099,
+       "lon": -109.735703
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 115.0,
+     "members": [
+      {
+       "sta": "HANNA",
+       "dist_km": 115.0,
+       "stream": "AE.HANNA..HHZ",
+       "lat": 33.63636,
+       "lon": -109.32029
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 137.2,
+     "members": [
+      {
+       "sta": "X16A",
+       "dist_km": 137.2,
+       "stream": "AE.X16A..HHZ",
+       "lat": 34.417801,
+       "lon": -111.441101
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "AE.X18A..HHZ",
+    "S1_1": "AE.W18A..HHZ",
+    "S2_1": "AE.HANNA..HHZ",
+    "S3_1": "AE.X16A..HHZ"
+   },
+   "id": "AE_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 6.3657850669752625,
+    "S1_1": 5.040362093622987,
+    "S2_1": 6.333332153605122,
+    "S3_1": 7.083071820891001
+   },
+   "thresholds_source": "results/v2/runs/AE/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 51,
+   "network": "AG",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AG.WLAR.00.HHZ",
+   "lat": 33.688,
+   "lon": -93.112,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    0,
+    0,
+    48
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 55.8,
+     "members": [
+      {
+       "sta": "Z41A",
+       "dist_km": 55.8,
+       "stream": "AG.Z41A.00.HHZ",
+       "lat": 33.2577,
+       "lon": -92.803
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 92.5,
+     "members": [
+      {
+       "sta": "X40A",
+       "dist_km": 92.5,
+       "stream": "AG.X40A.00.HHZ",
+       "lat": 34.4873,
+       "lon": -92.8342
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 126.4,
+     "members": [
+      {
+       "sta": "CCAR",
+       "dist_km": 126.4,
+       "stream": "AG.CCAR.00.HHZ",
+       "lat": 33.917,
+       "lon": -91.772
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "AG.WLAR.00.HHZ",
+    "S1_1": "AG.Z41A.00.HHZ",
+    "S2_1": "AG.X40A.00.HHZ",
+    "S3_1": "AG.CCAR.00.HHZ"
+   },
+   "id": "AG_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 9.724146699635147,
+    "S1_1": 5.235430659495747,
+    "S2_1": 4.71118213872145,
+    "S3_1": 7.768024681338662
+   },
+   "thresholds_source": "results/v2/runs/AG/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "AU",
+   "region": "New Zealand-SW Pacific",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AU.RKGY.00.BHZ",
+   "lat": -34.6094,
+   "lon": 116.9773,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    45,
+    19,
+    0
+   ],
+   "reference_good_day_share": 0.997,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 154.5,
+     "members": [
+      {
+       "sta": "ONGER",
+       "dist_km": 154.5,
+       "stream": "AU.ONGER..BHZ",
+       "lat": -33.86366,
+       "lon": 118.39563
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 188.6,
+     "members": [
+      {
+       "sta": "NWAO",
+       "dist_km": 188.6,
+       "stream": "AU.NWAO..BHZ",
+       "lat": -32.9277,
+       "lon": 117.239
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 301.1,
+     "members": [
+      {
+       "sta": "MUN",
+       "dist_km": 301.1,
+       "stream": "AU.MUN.00.BHZ",
+       "lat": -31.9783,
+       "lon": 116.212
+      },
+      {
+       "sta": "CARL",
+       "dist_km": 307.9,
+       "stream": "AU.CARL.00.BHZ",
+       "lat": -31.9835,
+       "lon": 115.926697
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "AU.RKGY.00.BHZ",
+    "S1_1": "AU.ONGER..BHZ",
+    "S2_1": "AU.NWAO..BHZ",
+    "S3_1": "AU.MUN.00.BHZ",
+    "S3_2": "AU.CARL.00.BHZ"
+   },
+   "id": "AU_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.6640712308954555,
+    "S1_1": 5.685287992381959,
+    "S2_1": 4.558678848627855,
+    "S3_1": 4.517449364825817,
+    "S3_2": 8.609239015565594
+   },
+   "thresholds_source": "results/v2/runs/AU/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "AV",
+   "region": "Alaska-Aleutians-Canada",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AV.DOL..BHZ",
+   "lat": 55.149621,
+   "lon": -161.86472,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    13,
+    0,
+    9
+   ],
+   "reference_good_day_share": 0.951,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 21.8,
+     "members": [
+      {
+       "sta": "PS4A",
+       "dist_km": 21.8,
+       "stream": "AV.PS4A..BHZ",
+       "lat": 55.34604,
+       "lon": -161.85648
+      },
+      {
+       "sta": "DTN",
+       "dist_km": 25.1,
+       "stream": "AV.DTN..BHZ",
+       "lat": 55.1448,
+       "lon": -162.259
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 35.4,
+     "members": [
+      {
+       "sta": "DEER",
+       "dist_km": 35.4,
+       "stream": "AV.DEER..BHZ",
+       "lat": 54.97127,
+       "lon": -162.32437
+      },
+      {
+       "sta": "BLDW",
+       "dist_km": 58.8,
+       "stream": "AV.BLDW..BHZ",
+       "lat": 55.190907,
+       "lon": -162.787687
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 127.1,
+     "members": [
+      {
+       "sta": "ISLZ",
+       "dist_km": 127.1,
+       "stream": "AV.ISLZ..BHZ",
+       "lat": 54.7249,
+       "lon": -163.7129
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "AV.DOL..BHZ",
+    "S1_1": "AV.PS4A..BHZ",
+    "S1_2": "AV.DTN..BHZ",
+    "S2_1": "AV.DEER..BHZ",
+    "S2_2": "AV.BLDW..BHZ",
+    "S3_1": "AV.ISLZ..BHZ"
+   },
+   "id": "AV_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.709676985246788,
+    "S1_1": 5.156819764578658,
+    "S1_2": 4.89973947097502,
+    "S2_1": 5.278277241947054,
+    "S2_2": 4.538879133339432,
+    "S3_1": 5.177753391967141
+   },
+   "thresholds_source": "results/v2/runs/AV/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 29,
+   "network": "BW",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "LMU",
+   "dataselect": "https://erde.geophysik.uni-muenchen.de/fdsnws/dataselect/1/",
+   "fdsn_base": "https://erde.geophysik.uni-muenchen.de",
+   "reference_stream": "BW.WARN..BHZ",
+   "lat": 48.705232,
+   "lon": 10.558995,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    0,
+    75,
+    0
+   ],
+   "reference_good_day_share": 0.997,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 79.0,
+     "members": [
+      {
+       "sta": "GELB",
+       "dist_km": 79.0,
+       "stream": "BW.GELB..BHZ",
+       "lat": 48.1629,
+       "lon": 11.2514
+      },
+      {
+       "sta": "BIB",
+       "dist_km": 79.8,
+       "stream": "BW.BIB..BHZ",
+       "lat": 48.1522,
+       "lon": 11.2473
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 130.7,
+     "members": [
+      {
+       "sta": "WRNG",
+       "dist_km": 130.7,
+       "stream": "BW.WRNG..BHZ",
+       "lat": 47.826206,
+       "lon": 11.731584
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 140.6,
+     "members": [
+      {
+       "sta": "PART",
+       "dist_km": 140.6,
+       "stream": "BW.PART..BHZ",
+       "lat": 47.4964529,
+       "lon": 11.1155508
+      },
+      {
+       "sta": "ZUGS",
+       "dist_km": 146.6,
+       "stream": "BW.ZUGS..HHZ",
+       "lat": 47.416721,
+       "lon": 10.979318
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "BW.WARN..BHZ",
+    "S1_1": "BW.GELB..BHZ",
+    "S1_2": "BW.BIB..BHZ",
+    "S2_1": "BW.WRNG..BHZ",
+    "S3_1": "BW.PART..BHZ",
+    "S3_2": "BW.ZUGS..HHZ"
+   },
+   "id": "BW_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.988521550496504,
+    "S1_1": 7.000941380111526,
+    "S1_2": 8.420137119075026,
+    "S2_1": 5.793888169646712,
+    "S3_1": 6.220811154250687,
+    "S3_2": 9.836485754685297
+   },
+   "thresholds_source": "results/v2/runs/BW/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 23,
+   "network": "C0",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "C0.Q24A.00.HHZ",
+   "lat": 38.9641,
+   "lon": -105.1492,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    31,
+    0,
+    21
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 170.5,
+     "members": [
+      {
+       "sta": "CHIL",
+       "dist_km": 170.5,
+       "stream": "C0.CHIL.00.HHZ",
+       "lat": 40.446466,
+       "lon": -104.638217
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 182.3,
+     "members": [
+      {
+       "sta": "MCSU",
+       "dist_km": 182.3,
+       "stream": "C0.MCSU.00.HHZ",
+       "lat": 40.568455,
+       "lon": -105.587774
+      },
+      {
+       "sta": "N23A",
+       "dist_km": 225.1,
+       "stream": "C0.N23A.00.HHZ",
+       "lat": 40.8947,
+       "lon": -105.944
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 187.4,
+     "members": [
+      {
+       "sta": "SPVA",
+       "dist_km": 187.4,
+       "stream": "C0.SPVA.00.HHZ",
+       "lat": 39.472632,
+       "lon": -107.223353
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "C0.Q24A.00.HHZ",
+    "S1_1": "C0.CHIL.00.HHZ",
+    "S2_1": "C0.MCSU.00.HHZ",
+    "S2_2": "C0.N23A.00.HHZ",
+    "S3_1": "C0.SPVA.00.HHZ"
+   },
+   "id": "C0_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.752928617003533,
+    "S1_1": 7.737510824498093,
+    "S2_1": 12.05300626339135,
+    "S2_2": 11.606469448313485,
+    "S3_1": 6.551437451196002
+   },
+   "thresholds_source": "results/v2/runs/C0/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "C1",
+   "region": "South America",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "C1.BO02..BHZ",
+   "lat": -34.7924,
+   "lon": -70.7814,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    15,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.923,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 52.5,
+     "members": [
+      {
+       "sta": "BO01",
+       "dist_km": 52.5,
+       "stream": "C1.BO01..BHZ",
+       "lat": -34.3917,
+       "lon": -71.0848
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 90.7,
+     "members": [
+      {
+       "sta": "BO04",
+       "dist_km": 90.7,
+       "stream": "C1.BO04..BHZ",
+       "lat": -33.98884,
+       "lon": -70.60902
+      },
+      {
+       "sta": "MT09",
+       "dist_km": 114.6,
+       "stream": "C1.MT09..BHZ",
+       "lat": -33.77622,
+       "lon": -70.98867
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 111.9,
+     "members": [
+      {
+       "sta": "MT01",
+       "dist_km": 111.9,
+       "stream": "C1.MT01..BHZ",
+       "lat": -33.8641,
+       "lon": -71.2509
+      },
+      {
+       "sta": "VA05",
+       "dist_km": 147.6,
+       "stream": "C1.VA05..BHZ",
+       "lat": -33.65711,
+       "lon": -71.61428
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "C1.BO02..BHZ",
+    "S1_1": "C1.BO01..BHZ",
+    "S2_1": "C1.BO04..BHZ",
+    "S2_2": "C1.MT09..BHZ",
+    "S3_1": "C1.MT01..BHZ",
+    "S3_2": "C1.VA05..BHZ"
+   },
+   "id": "C1_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 12.182003892242399,
+    "S1_1": 8.282966249476669,
+    "S2_1": 3.4044525001076598,
+    "S2_2": 11.04735206077084,
+    "S3_1": 10.623052601770489,
+    "S3_2": 8.542781639664748
+   },
+   "thresholds_source": "results/v2/runs/C1/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 18,
+   "network": "CN",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "CN.KGNO..HHZ",
+   "lat": 44.2272,
+   "lon": -76.4934,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    34,
+    0,
+    5
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 129.2,
+     "members": [
+      {
+       "sta": "WBO",
+       "dist_km": 129.2,
+       "stream": "CN.WBO..HHZ",
+       "lat": 45.0012,
+       "lon": -75.2753
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OTT",
+       "dist_km": 143.5,
+       "stream": "CN.OTT..HHZ",
+       "lat": 45.3939,
+       "lon": -75.7148
+      },
+      {
+       "sta": "ORIO",
+       "dist_km": 156.6,
+       "stream": "CN.ORIO..HHZ",
+       "lat": 45.4515,
+       "lon": -75.511
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 213.0,
+     "members": [
+      {
+       "sta": "CHRO",
+       "dist_km": 213.0,
+       "stream": "CN.CHRO..HHZ",
+       "lat": 46.0376,
+       "lon": -77.3794
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "CN.KGNO..HHZ",
+    "S1_1": "CN.WBO..HHZ",
+    "S2_1": "CN.OTT..HHZ",
+    "S2_2": "CN.ORIO..HHZ",
+    "S3_1": "CN.CHRO..HHZ"
+   },
+   "id": "CN_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 3.356552779557651,
+    "S1_1": 4.095240300495177,
+    "S2_1": 5.696317469800844,
+    "S2_2": 5.4652014287441055,
+    "S3_1": 4.769210218041712
+   },
+   "thresholds_source": "results/v2/runs/CN/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 35,
+   "network": "EE",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "fdsn_base": "https://geofon.gfz.de",
+   "reference_stream": "EE.EE02..HHZ",
+   "lat": 59.19057,
+   "lon": 24.69683,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    22,
+    0,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 73.2,
+     "members": [
+      {
+       "sta": "MTSE",
+       "dist_km": 73.2,
+       "stream": "EE.MTSE..BHZ",
+       "lat": 58.7144,
+       "lon": 23.8146
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 78.0,
+     "members": [
+      {
+       "sta": "ARBE",
+       "dist_km": 78.0,
+       "stream": "EE.ARBE..BHZ",
+       "lat": 59.4365,
+       "lon": 25.9841
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 108.4,
+     "members": [
+      {
+       "sta": "EE06",
+       "dist_km": 108.4,
+       "stream": "EE.EE06..HHZ",
+       "lat": 58.9695,
+       "lon": 22.8482
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "EE.EE02..HHZ",
+    "S1_1": "EE.MTSE..BHZ",
+    "S2_1": "EE.ARBE..BHZ",
+    "S3_1": "EE.EE06..HHZ"
+   },
+   "id": "EE_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.842404050864778,
+    "S1_1": 7.508528037955921,
+    "S2_1": 7.8784676936708165,
+    "S3_1": 4.188565854409883
+   },
+   "thresholds_source": "results/v2/runs/EE/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 46,
+   "network": "ET",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "ET.FPAL.00.HHZ",
+   "lat": 34.54,
+   "lon": -85.611,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    54,
+    31,
+    3
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 80.7,
+     "members": [
+      {
+       "sta": "SWET",
+       "dist_km": 80.7,
+       "stream": "ET.SWET.00.HHZ",
+       "lat": 35.216,
+       "lon": -85.932
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 141.7,
+     "members": [
+      {
+       "sta": "CPCT",
+       "dist_km": 141.7,
+       "stream": "ET.CPCT.00.HHZ",
+       "lat": 35.45,
+       "lon": -84.522
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 386.8,
+     "members": [
+      {
+       "sta": "GFM",
+       "dist_km": 386.8,
+       "stream": "ET.GFM.00.HHZ",
+       "lat": 36.111,
+       "lon": -81.807
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "ET.FPAL.00.HHZ",
+    "S1_1": "ET.SWET.00.HHZ",
+    "S2_1": "ET.CPCT.00.HHZ",
+    "S3_1": "ET.GFM.00.HHZ"
+   },
+   "id": "ET_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.0689892771694876,
+    "S1_1": 5.100438102661969,
+    "S2_1": 4.583255171578614,
+    "S3_1": 13.495432675245137
+   },
+   "thresholds_source": "results/v2/runs/ET/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 39,
+   "network": "FN",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "fdsn_base": "https://geofon.gfz.de",
+   "reference_stream": "FN.MSF..BHZ",
+   "lat": 65.91131,
+   "lon": 29.04019,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    0,
+    102,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 156.4,
+     "members": [
+      {
+       "sta": "RNF",
+       "dist_km": 156.4,
+       "stream": "FN.RNF..BHZ",
+       "lat": 66.61216,
+       "lon": 26.01074
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 171.7,
+     "members": [
+      {
+       "sta": "OUL",
+       "dist_km": 171.7,
+       "stream": "FN.OUL..BHZ",
+       "lat": 65.0859,
+       "lon": 25.8926
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 203.0,
+     "members": [
+      {
+       "sta": "SGF",
+       "dist_km": 203.0,
+       "stream": "FN.SGF..BHZ",
+       "lat": 67.44211,
+       "lon": 26.52611
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "FN.MSF..BHZ",
+    "S1_1": "FN.RNF..BHZ",
+    "S2_1": "FN.OUL..BHZ",
+    "S3_1": "FN.SGF..BHZ"
+   },
+   "id": "FN_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.523898126728392,
+    "S1_1": 4.900648580491963,
+    "S2_1": 4.462170415068389,
+    "S3_1": 4.571310560810218
+   },
+   "thresholds_source": "results/v2/runs/FN/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 13,
+   "network": "HC",
+   "region": "Caucasus-Turkey-Iran",
+   "datacentre": "NOA",
+   "dataselect": "https://eida.gein.noa.gr/fdsnws/dataselect/1/",
+   "fdsn_base": "https://eida.gein.noa.gr",
+   "reference_stream": "HC.KOSP..HHZ",
+   "lat": 36.881,
+   "lon": 27.281,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    4,
+    120,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 215.2,
+     "members": [
+      {
+       "sta": "STIA",
+       "dist_km": 215.2,
+       "stream": "HC.STIA..HHZ",
+       "lat": 35.2021,
+       "lon": 26.0909
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 217.6,
+     "members": [
+      {
+       "sta": "THNO",
+       "dist_km": 217.6,
+       "stream": "HC.THNO..HHZ",
+       "lat": 37.6541,
+       "lon": 25.0221
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 257.6,
+     "members": [
+      {
+       "sta": "KNSS",
+       "dist_km": 257.6,
+       "stream": "HC.KNSS..HHZ",
+       "lat": 35.304187,
+       "lon": 25.18017
+      },
+      {
+       "sta": "PFKS",
+       "dist_km": 261.2,
+       "stream": "HC.PFKS..HHZ",
+       "lat": 35.0429,
+       "lon": 25.4733
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "HC.KOSP..HHZ",
+    "S1_1": "HC.STIA..HHZ",
+    "S2_1": "HC.THNO..HHZ",
+    "S3_1": "HC.KNSS..HHZ",
+    "S3_2": "HC.PFKS..HHZ"
+   },
+   "id": "HC_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.242063862056188,
+    "S1_1": 7.008077389212351,
+    "S2_1": 7.256652667968655,
+    "S3_1": 6.285858803958149,
+    "S3_2": 9.126211296447126
+   },
+   "thresholds_source": "results/v2/runs/HC/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 37,
+   "network": "HE",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "fdsn_base": "https://geofon.gfz.de",
+   "reference_stream": "HE.TOF..HHZ",
+   "lat": 66.077745,
+   "lon": 24.332007,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    20,
+    0,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 191.1,
+     "members": [
+      {
+       "sta": "OUF",
+       "dist_km": 191.1,
+       "stream": "HE.OUF..HHZ",
+       "lat": 64.3673,
+       "lon": 24.7314
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 250.9,
+     "members": [
+      {
+       "sta": "KU6",
+       "dist_km": 250.9,
+       "stream": "HE.KU6..HHZ",
+       "lat": 66.02547,
+       "lon": 29.89067
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 260.5,
+     "members": [
+      {
+       "sta": "HEF",
+       "dist_km": 260.5,
+       "stream": "HE.HEF..HHZ",
+       "lat": 68.4062,
+       "lon": 23.6643
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "HE.TOF..HHZ",
+    "S1_1": "HE.OUF..HHZ",
+    "S2_1": "HE.KU6..HHZ",
+    "S3_1": "HE.HEF..HHZ"
+   },
+   "id": "HE_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.883247285014572,
+    "S1_1": 4.43999941108193,
+    "S2_1": 4.53453580613664,
+    "S3_1": 4.646902009151679
+   },
+   "thresholds_source": "results/v2/runs/HE/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 41,
+   "network": "HL",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "HL.RDO..HHZ",
+   "lat": 41.145031,
+   "lon": 25.53553,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    0,
+    10,
+    10
+   ],
+   "reference_good_day_share": 0.986,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 511.1,
+     "members": [
+      {
+       "sta": "KEK",
+       "dist_km": 511.1,
+       "stream": "HL.KEK..HHZ",
+       "lat": 39.7127,
+       "lon": 19.79623
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 539.7,
+     "members": [
+      {
+       "sta": "ITM",
+       "dist_km": 539.7,
+       "stream": "HL.ITM..HHZ",
+       "lat": 37.178719,
+       "lon": 21.92522
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 592.4,
+     "members": [
+      {
+       "sta": "ARG",
+       "dist_km": 592.4,
+       "stream": "HL.ARG..HHZ",
+       "lat": 36.213558,
+       "lon": 28.12122
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "HL.RDO..HHZ",
+    "S1_1": "HL.KEK..HHZ",
+    "S2_1": "HL.ITM..HHZ",
+    "S3_1": "HL.ARG..HHZ"
+   },
+   "id": "HL_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 6.30181924957565,
+    "S1_1": 4.6497307166305495,
+    "S2_1": 9.256610308328707,
+    "S3_1": 10.24954186740773
+   },
+   "thresholds_source": "results/v2/runs/HL/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "IV",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "fdsn_base": "https://webservices.ingv.it",
+   "reference_stream": "IV.CGL..BHZ",
+   "lat": 39.366,
+   "lon": 9.296,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    165,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.981,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 109.1,
+     "members": [
+      {
+       "sta": "DGI",
+       "dist_km": 109.1,
+       "stream": "IV.DGI..HHZ",
+       "lat": 40.31802,
+       "lon": 9.60668
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 196.1,
+     "members": [
+      {
+       "sta": "AGLI",
+       "dist_km": 196.1,
+       "stream": "IV.AGLI..HHZ",
+       "lat": 41.1269,
+       "lon": 9.1733
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 336.0,
+     "members": [
+      {
+       "sta": "MARS",
+       "dist_km": 336.0,
+       "stream": "IV.MARS..HHZ",
+       "lat": 37.7532,
+       "lon": 12.5647
+      },
+      {
+       "sta": "MTGR",
+       "dist_km": 342.5,
+       "stream": "IV.MTGR..HHZ",
+       "lat": 37.89337,
+       "lon": 12.75932
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "IV.CGL..BHZ",
+    "S1_1": "IV.DGI..HHZ",
+    "S2_1": "IV.AGLI..HHZ",
+    "S3_1": "IV.MARS..HHZ",
+    "S3_2": "IV.MTGR..HHZ"
+   },
+   "id": "IV_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 3.9337584650993733,
+    "S1_1": 4.338362800770845,
+    "S2_1": 4.45111259840932,
+    "S3_1": 4.482808486156803,
+    "S3_2": 5.080867683810387
+   },
+   "thresholds_source": "results/v2/runs/IV/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 32,
+   "network": "IW",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "IW.MFID.00.BHZ",
+   "lat": 43.4151,
+   "lon": -115.8278,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    4,
+    0,
+    2
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 186.5,
+     "members": [
+      {
+       "sta": "PLID",
+       "dist_km": 186.5,
+       "stream": "IW.PLID.00.BHZ",
+       "lat": 45.08757,
+       "lon": -116.00025
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 335.8,
+     "members": [
+      {
+       "sta": "DLMT",
+       "dist_km": 335.8,
+       "stream": "IW.DLMT.00.BHZ",
+       "lat": 45.3625,
+       "lon": -112.5964
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 387.8,
+     "members": [
+      {
+       "sta": "FXWY",
+       "dist_km": 387.8,
+       "stream": "IW.FXWY.00.BHZ",
+       "lat": 43.6381,
+       "lon": -111.0268
+      },
+      {
+       "sta": "TPAW",
+       "dist_km": 393.2,
+       "stream": "IW.TPAW.00.BHZ",
+       "lat": 43.48965,
+       "lon": -110.95675
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "IW.MFID.00.BHZ",
+    "S1_1": "IW.PLID.00.BHZ",
+    "S2_1": "IW.DLMT.00.BHZ",
+    "S3_1": "IW.FXWY.00.BHZ",
+    "S3_2": "IW.TPAW.00.BHZ"
+   },
+   "id": "IW_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 8.704505917493831,
+    "S1_1": 9.229761424900916,
+    "S2_1": 8.070426803112978,
+    "S3_1": 7.826506713174599,
+    "S3_2": 9.789412566407512
+   },
+   "thresholds_source": "results/v2/runs/IW/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "JP",
+   "region": "East Asia-West Pacific",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "JP.JEM..BHZ",
+   "lat": 42.018501,
+   "lon": 143.153503,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    16,
+    16,
+    16
+   ],
+   "reference_good_day_share": 0.954,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 167.4,
+     "members": [
+      {
+       "sta": "JEW",
+       "dist_km": 167.4,
+       "stream": "JP.JEW..BHZ",
+       "lat": 42.84267,
+       "lon": 141.446167
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 221.4,
+     "members": [
+      {
+       "sta": "JTM",
+       "dist_km": 221.4,
+       "stream": "JP.JTM..BHZ",
+       "lat": 40.789501,
+       "lon": 141.064667
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 237.9,
+     "members": [
+      {
+       "sta": "JKA",
+       "dist_km": 237.9,
+       "stream": "JP.JKA..BHZ",
+       "lat": 44.11883,
+       "lon": 142.593002
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "JP.JEM..BHZ",
+    "S1_1": "JP.JEW..BHZ",
+    "S2_1": "JP.JTM..BHZ",
+    "S3_1": "JP.JKA..BHZ"
+   },
+   "id": "JP_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.113336388068286,
+    "S1_1": 3.5876383537109366,
+    "S2_1": 8.986490082794955,
+    "S3_1": 5.338727064240934
+   },
+   "thresholds_source": "results/v2/runs/JP/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "KR",
+   "region": "Central Asia",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "KR.DRK.00.HHZ",
+   "lat": 39.477613,
+   "lon": 71.799456,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    43,
+    5,
+    7
+   ],
+   "reference_good_day_share": 0.995,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 106.6,
+     "members": [
+      {
+       "sta": "BTK",
+       "dist_km": 106.6,
+       "stream": "KR.BTK..BHZ",
+       "lat": 40.06675,
+       "lon": 70.81572
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OHH",
+       "dist_km": 143.5,
+       "stream": "KR.OHH..BHZ",
+       "lat": 40.52444,
+       "lon": 72.785
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 157.8,
+     "members": [
+      {
+       "sta": "SFK",
+       "dist_km": 157.8,
+       "stream": "KR.SFK.00.HHZ",
+       "lat": 40.017151,
+       "lon": 73.506289
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "KR.DRK.00.HHZ",
+    "S1_1": "KR.BTK..BHZ",
+    "S2_1": "KR.OHH..BHZ",
+    "S3_1": "KR.SFK.00.HHZ"
+   },
+   "id": "KR_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 11.301608456853009,
+    "S1_1": 8.192605885797208,
+    "S2_1": 10.805564758436045,
+    "S3_1": 10.942018754347576
+   },
+   "thresholds_source": "results/v2/runs/KR/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 50,
+   "network": "MB",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "MB.LDM.01.HHZ",
+   "lat": 48.45384,
+   "lon": -115.31912,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    2,
+    138,
+    2
+   ],
+   "reference_good_day_share": 0.989,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 110.0,
+     "members": [
+      {
+       "sta": "JTMT",
+       "dist_km": 110.0,
+       "stream": "MB.JTMT.01.HHZ",
+       "lat": 47.74667,
+       "lon": -114.2825
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 215.0,
+     "members": [
+      {
+       "sta": "SRMT",
+       "dist_km": 215.0,
+       "stream": "MB.SRMT.01.HHZ",
+       "lat": 47.775002,
+       "lon": -112.607201
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 278.2,
+     "members": [
+      {
+       "sta": "GBMT",
+       "dist_km": 278.2,
+       "stream": "MB.GBMT.01.HHZ",
+       "lat": 46.859202,
+       "lon": -112.456997
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "MB.LDM.01.HHZ",
+    "S1_1": "MB.JTMT.01.HHZ",
+    "S2_1": "MB.SRMT.01.HHZ",
+    "S3_1": "MB.GBMT.01.HHZ"
+   },
+   "id": "MB_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 6.172520981688634,
+    "S1_1": 5.192990278236729,
+    "S2_1": 8.32755975233207,
+    "S3_1": 5.071865413109361
+   },
+   "thresholds_source": "results/v2/runs/MB/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 21,
+   "network": "ND",
+   "region": "New Zealand-SW Pacific",
+   "datacentre": "EPOSFR",
+   "dataselect": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+   "fdsn_base": "https://seisdata.epos-france.fr",
+   "reference_stream": "ND.PINNC.00.BHZ",
+   "lat": -22.6129,
+   "lon": 167.4465,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    1,
+    3,
+    2
+   ],
+   "reference_good_day_share": 0.97,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 65.8,
+     "members": [
+      {
+       "sta": "OUENC",
+       "dist_km": 65.8,
+       "stream": "ND.OUENC.00.BHZ",
+       "lat": -22.4183,
+       "lon": 166.8416
+      },
+      {
+       "sta": "ONTNC",
+       "dist_km": 107.5,
+       "stream": "ND.ONTNC.00.BHZ",
+       "lat": -22.3073,
+       "lon": 166.454
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 139.5,
+     "members": [
+      {
+       "sta": "MARNC",
+       "dist_km": 139.5,
+       "stream": "ND.MARNC.00.BHZ",
+       "lat": -21.4809,
+       "lon": 168.0305
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 399.2,
+     "members": [
+      {
+       "sta": "KOUNC",
+       "dist_km": 399.2,
+       "stream": "ND.KOUNC.00.BHZ",
+       "lat": -20.5507,
+       "lon": 164.2861
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "ND.PINNC.00.BHZ",
+    "S1_1": "ND.OUENC.00.BHZ",
+    "S1_2": "ND.ONTNC.00.BHZ",
+    "S2_1": "ND.MARNC.00.BHZ",
+    "S3_1": "ND.KOUNC.00.BHZ"
+   },
+   "id": "ND_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 7.859787936571199,
+    "S1_1": 4.8011793094626265,
+    "S1_2": 4.409159240882836,
+    "S2_1": 6.061432771900351,
+    "S3_1": 4.867747037915955
+   },
+   "thresholds_source": "results/v2/runs/ND/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 53,
+   "network": "NE",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "NE.TRY.00.HHZ",
+   "lat": 42.7313,
+   "lon": -73.6664,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    0,
+    0,
+    6
+   ],
+   "reference_good_day_share": 0.995,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 155.6,
+     "members": [
+      {
+       "sta": "HNH",
+       "dist_km": 155.6,
+       "stream": "NE.HNH.00.HHZ",
+       "lat": 43.7051,
+       "lon": -72.2865
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 175.7,
+     "members": [
+      {
+       "sta": "WSPT",
+       "dist_km": 175.7,
+       "stream": "NE.WSPT.00.HHZ",
+       "lat": 41.1712,
+       "lon": -73.3278
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 191.5,
+     "members": [
+      {
+       "sta": "VT1",
+       "dist_km": 191.5,
+       "stream": "NE.VT1.00.HHZ",
+       "lat": 44.3206,
+       "lon": -72.7513
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "NE.TRY.00.HHZ",
+    "S1_1": "NE.HNH.00.HHZ",
+    "S2_1": "NE.WSPT.00.HHZ",
+    "S3_1": "NE.VT1.00.HHZ"
+   },
+   "id": "NE_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 3.9415037314093775,
+    "S1_1": 5.713026427194156,
+    "S2_1": 3.7016053615872724,
+    "S3_1": 7.957090943268025
+   },
+   "thresholds_source": "results/v2/runs/NE/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 11,
+   "network": "NM",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "NM.BLO..BHZ",
+   "lat": 39.1719,
+   "lon": -86.5222,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    39,
+    39,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 144.8,
+     "members": [
+      {
+       "sta": "OLIL",
+       "dist_km": 144.8,
+       "stream": "NM.OLIL..BHZ",
+       "lat": 38.7338,
+       "lon": -88.0991
+      },
+      {
+       "sta": "FFIL",
+       "dist_km": 184.2,
+       "stream": "NM.FFIL.00.BHZ",
+       "lat": 38.381345,
+       "lon": -88.389648
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 167.0,
+     "members": [
+      {
+       "sta": "USIN",
+       "dist_km": 167.0,
+       "stream": "NM.USIN..BHZ",
+       "lat": 37.965,
+       "lon": -87.666
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 285.2,
+     "members": [
+      {
+       "sta": "SIUC",
+       "dist_km": 285.2,
+       "stream": "NM.SIUC.00.HHZ",
+       "lat": 37.7148,
+       "lon": -89.2174
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "NM.BLO..BHZ",
+    "S1_1": "NM.OLIL..BHZ",
+    "S1_2": "NM.FFIL.00.BHZ",
+    "S2_1": "NM.USIN..BHZ",
+    "S3_1": "NM.SIUC.00.HHZ"
+   },
+   "id": "NM_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.046734485175821,
+    "S1_1": 8.097369432763424,
+    "S1_2": 11.340709102098673,
+    "S2_1": 4.565927717718171,
+    "S3_1": 7.014927848543962
+   },
+   "thresholds_source": "results/v2/runs/NM/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 12,
+   "network": "NS",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "UIB-NORSAR",
+   "dataselect": "https://eida.geo.uib.no/fdsnws/dataselect/1/",
+   "fdsn_base": "https://eida.geo.uib.no",
+   "reference_stream": "NS.ROEST.00.HHZ",
+   "lat": 67.52016,
+   "lon": 12.1045,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    145,
+    18,
+    18
+   ],
+   "reference_good_day_share": 0.951,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 90.9,
+     "members": [
+      {
+       "sta": "LOF",
+       "dist_km": 90.9,
+       "stream": "NS.LOF.00.HHZ",
+       "lat": 68.1325,
+       "lon": 13.53983
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 101.3,
+     "members": [
+      {
+       "sta": "VAGH",
+       "dist_km": 101.3,
+       "stream": "NS.VAGH.00.HHZ",
+       "lat": 66.73033,
+       "lon": 13.2705
+      },
+      {
+       "sta": "GILDE",
+       "dist_km": 111.2,
+       "stream": "NS.GILDE.00.HHZ",
+       "lat": 66.92934,
+       "lon": 14.18967
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 136.6,
+     "members": [
+      {
+       "sta": "FAUS",
+       "dist_km": 136.6,
+       "stream": "NS.FAUS.00.HHZ",
+       "lat": 67.382,
+       "lon": 15.28767
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "NS.ROEST.00.HHZ",
+    "S1_1": "NS.LOF.00.HHZ",
+    "S2_1": "NS.VAGH.00.HHZ",
+    "S2_2": "NS.GILDE.00.HHZ",
+    "S3_1": "NS.FAUS.00.HHZ"
+   },
+   "id": "NS_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.32630775897177,
+    "S1_1": 4.523302259732247,
+    "S2_1": 4.364925109280282,
+    "S2_2": 4.580896329838367,
+    "S3_1": 4.647185483491391
+   },
+   "thresholds_source": "results/v2/runs/NS/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 25,
+   "network": "NY",
+   "region": "Alaska-Aleutians-Canada",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "NY.MAYO..HHZ",
+   "lat": 63.59581,
+   "lon": -135.89209,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    44,
+    42,
+    37
+   ],
+   "reference_good_day_share": 0.992,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 256.9,
+     "members": [
+      {
+       "sta": "MMPY",
+       "dist_km": 256.9,
+       "stream": "NY.MMPY..HHZ",
+       "lat": 62.61891,
+       "lon": -131.26246
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 452.7,
+     "members": [
+      {
+       "sta": "TGTN",
+       "dist_km": 452.7,
+       "stream": "NY.TGTN..HHZ",
+       "lat": 61.5267,
+       "lon": -128.27268
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 536.5,
+     "members": [
+      {
+       "sta": "WTLY",
+       "dist_km": 536.5,
+       "stream": "NY.WTLY..HHZ",
+       "lat": 60.11326,
+       "lon": -128.79605
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "NY.MAYO..HHZ",
+    "S1_1": "NY.MMPY..HHZ",
+    "S2_1": "NY.TGTN..HHZ",
+    "S3_1": "NY.WTLY..HHZ"
+   },
+   "id": "NY_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 14.880217105353283,
+    "S1_1": 10.11637590930273,
+    "S2_1": 7.73917551519386,
+    "S3_1": 15.522552881125259
+   },
+   "thresholds_source": "results/v2/runs/NY/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "OH",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "OH.BSPO..HHZ",
+   "lat": 40.04307,
+   "lon": -81.009361,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    136,
+    0,
+    33
+   ],
+   "reference_good_day_share": 0.984,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 28.7,
+     "members": [
+      {
+       "sta": "O53A",
+       "dist_km": 28.7,
+       "stream": "OH.O53A..BHZ",
+       "lat": 40.249298,
+       "lon": -81.212898
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 111.2,
+     "members": [
+      {
+       "sta": "WODO",
+       "dist_km": 111.2,
+       "stream": "OH.WODO.10.HHZ",
+       "lat": 39.529552,
+       "lon": -82.126205
+      },
+      {
+       "sta": "FOXO",
+       "dist_km": 130.1,
+       "stream": "OH.FOXO.10.HHZ",
+       "lat": 39.304695,
+       "lon": -82.187988
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 121.8,
+     "members": [
+      {
+       "sta": "SROH",
+       "dist_km": 121.8,
+       "stream": "OH.SROH..HHZ",
+       "lat": 39.127095,
+       "lon": -81.789765
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "OH.BSPO..HHZ",
+    "S1_1": "OH.O53A..BHZ",
+    "S2_1": "OH.WODO.10.HHZ",
+    "S2_2": "OH.FOXO.10.HHZ",
+    "S3_1": "OH.SROH..HHZ"
+   },
+   "id": "OH_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 3.7748954631558216,
+    "S1_1": 6.49128780125223,
+    "S2_1": 5.3354646884427845,
+    "S2_2": 4.45805054210468,
+    "S3_1": 4.928592907177728
+   },
+   "thresholds_source": "results/v2/runs/OH/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 34,
+   "network": "OK",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "OK.BLOK..HHZ",
+   "lat": 36.760615,
+   "lon": -97.215026,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    3,
+    0,
+    7
+   ],
+   "reference_good_day_share": 0.986,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 74.2,
+     "members": [
+      {
+       "sta": "CROK",
+       "dist_km": 74.2,
+       "stream": "OK.CROK..HHZ",
+       "lat": 36.504737,
+       "lon": -97.983354
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 79.7,
+     "members": [
+      {
+       "sta": "QUOK",
+       "dist_km": 79.7,
+       "stream": "OK.QUOK..HHZ",
+       "lat": 36.171423,
+       "lon": -96.707911
+      },
+      {
+       "sta": "DEOK",
+       "dist_km": 120.6,
+       "stream": "OK.DEOK..HHZ",
+       "lat": 35.842652,
+       "lon": -96.498262
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 129.8,
+     "members": [
+      {
+       "sta": "HTCH",
+       "dist_km": 129.8,
+       "stream": "OK.HTCH..HHZ",
+       "lat": 36.017058,
+       "lon": -98.332692
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "OK.BLOK..HHZ",
+    "S1_1": "OK.CROK..HHZ",
+    "S2_1": "OK.QUOK..HHZ",
+    "S2_2": "OK.DEOK..HHZ",
+    "S3_1": "OK.HTCH..HHZ"
+   },
+   "id": "OK_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.829773374637556,
+    "S1_1": 4.755133227889196,
+    "S2_1": 19.98636431678587,
+    "S2_2": 4.200179293106597,
+    "S3_1": 8.55494127160333
+   },
+   "thresholds_source": "results/v2/runs/OK/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 31,
+   "network": "PL",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "PL.KSP..BHZ",
+   "lat": 50.8428,
+   "lon": 16.2931,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    157,
+    70,
+    11
+   ],
+   "reference_good_day_share": 0.981,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 257.2,
+     "members": [
+      {
+       "sta": "OJC",
+       "dist_km": 257.2,
+       "stream": "PL.OJC..BHZ",
+       "lat": 50.219501,
+       "lon": 19.798401
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 277.5,
+     "members": [
+      {
+       "sta": "GKP",
+       "dist_km": 277.5,
+       "stream": "PL.GKP..BHZ",
+       "lat": 53.269699,
+       "lon": 17.2367
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 327.3,
+     "members": [
+      {
+       "sta": "NIE",
+       "dist_km": 327.3,
+       "stream": "PL.NIE..BHZ",
+       "lat": 49.4189,
+       "lon": 20.313101
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "PL.KSP..BHZ",
+    "S1_1": "PL.OJC..BHZ",
+    "S2_1": "PL.GKP..BHZ",
+    "S3_1": "PL.NIE..BHZ"
+   },
+   "id": "PL_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 5.004907948648306,
+    "S1_1": 9.36826977566829,
+    "S2_1": 6.035676415561358,
+    "S3_1": 6.601467133180756
+   },
+   "thresholds_source": "results/v2/runs/PL/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 16,
+   "network": "RV",
+   "region": "Alaska-Aleutians-Canada",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "RV.STPRA..HHZ",
+   "lat": 55.660629,
+   "lon": -115.832321,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    0,
+    182,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 102.5,
+     "members": [
+      {
+       "sta": "PECRA",
+       "dist_km": 102.5,
+       "stream": "RV.PECRA..HHZ",
+       "lat": 56.295647,
+       "lon": -117.027029
+      },
+      {
+       "sta": "DEDWA",
+       "dist_km": 145.8,
+       "stream": "RV.DEDWA..HHZ",
+       "lat": 56.644562,
+       "lon": -117.389069
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 102.7,
+     "members": [
+      {
+       "sta": "SWHSA",
+       "dist_km": 102.7,
+       "stream": "RV.SWHSA..HHZ",
+       "lat": 54.899441,
+       "lon": -116.751793
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 139.3,
+     "members": [
+      {
+       "sta": "EGLEA",
+       "dist_km": 139.3,
+       "stream": "RV.EGLEA..HHZ",
+       "lat": 54.457111,
+       "lon": -116.440483
+      },
+      {
+       "sta": "FOXCA",
+       "dist_km": 153.6,
+       "stream": "RV.FOXCA..HHZ",
+       "lat": 54.397968,
+       "lon": -116.808167
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "RV.STPRA..HHZ",
+    "S1_1": "RV.PECRA..HHZ",
+    "S1_2": "RV.DEDWA..HHZ",
+    "S2_1": "RV.SWHSA..HHZ",
+    "S3_1": "RV.EGLEA..HHZ",
+    "S3_2": "RV.FOXCA..HHZ"
+   },
+   "id": "RV_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 8.236309500025781,
+    "S1_1": 8.006100730695996,
+    "S1_2": 7.08627273828524,
+    "S2_1": 11.459709127326644,
+    "S3_1": 8.284939395869252,
+    "S3_2": 9.671862065520981
+   },
+   "thresholds_source": "results/v2/runs/RV/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 27,
+   "network": "SI",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "fdsn_base": "https://webservices.ingv.it",
+   "reference_stream": "SI.LUSI..HHZ",
+   "lat": 45.9595,
+   "lon": 10.9436,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    1,
+    52,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 65.2,
+     "members": [
+      {
+       "sta": "KOSI",
+       "dist_km": 65.2,
+       "stream": "SI.KOSI..BHZ",
+       "lat": 46.463,
+       "lon": 11.3778
+      },
+      {
+       "sta": "BOSI",
+       "dist_km": 66.2,
+       "stream": "SI.BOSI..BHZ",
+       "lat": 46.4952,
+       "lon": 11.3185
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 79.1,
+     "members": [
+      {
+       "sta": "MOSI",
+       "dist_km": 79.1,
+       "stream": "SI.MOSI..BHZ",
+       "lat": 46.6164,
+       "lon": 10.5495
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 113.5,
+     "members": [
+      {
+       "sta": "ROSI",
+       "dist_km": 113.5,
+       "stream": "SI.ROSI..BHZ",
+       "lat": 46.9281,
+       "lon": 11.4118
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "SI.LUSI..HHZ",
+    "S1_1": "SI.KOSI..BHZ",
+    "S1_2": "SI.BOSI..BHZ",
+    "S2_1": "SI.MOSI..BHZ",
+    "S3_1": "SI.ROSI..BHZ"
+   },
+   "id": "SI_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 4.232122895224139,
+    "S1_1": 4.168023375565565,
+    "S1_2": 4.912340310149944,
+    "S2_1": 6.146357127700004,
+    "S3_1": 6.3175781291252076
+   },
+   "thresholds_source": "results/v2/runs/SI/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 54,
+   "network": "UO",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "UO.CBARC..HHZ",
+   "lat": 45.71915,
+   "lon": -118.62193,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    0,
+    4,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 96.8,
+     "members": [
+      {
+       "sta": "JOBT",
+       "dist_km": 96.8,
+       "stream": "UO.JOBT..HHZ",
+       "lat": 45.46674,
+       "lon": -119.81254
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 108.4,
+     "members": [
+      {
+       "sta": "WALLO",
+       "dist_km": 108.4,
+       "stream": "UO.WALLO..HHZ",
+       "lat": 45.41537,
+       "lon": -117.29863
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 207.0,
+     "members": [
+      {
+       "sta": "VIP2",
+       "dist_km": 207.0,
+       "stream": "UO.VIP2..HHZ",
+       "lat": 44.50486,
+       "lon": -120.62191
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "UO.CBARC..HHZ",
+    "S1_1": "UO.JOBT..HHZ",
+    "S2_1": "UO.WALLO..HHZ",
+    "S3_1": "UO.VIP2..HHZ"
+   },
+   "id": "UO_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 6.240841439943855,
+    "S1_1": 4.19192751250781,
+    "S2_1": 7.833369033246054,
+    "S3_1": 4.789073839598945
+   },
+   "thresholds_source": "results/v2/runs/UO/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 36,
+   "network": "UU",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "UU.SRU.01.BHZ",
+   "lat": 39.110828,
+   "lon": -110.523827,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    2,
+    3,
+    3
+   ],
+   "reference_good_day_share": 0.967,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 38.8,
+     "members": [
+      {
+       "sta": "LIUT",
+       "dist_km": 38.8,
+       "stream": "UU.LIUT.01.HHZ",
+       "lat": 39.4241,
+       "lon": -110.3251
+      },
+      {
+       "sta": "BRPU",
+       "dist_km": 44.4,
+       "stream": "UU.BRPU.01.HHZ",
+       "lat": 39.473,
+       "lon": -110.74
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 59.9,
+     "members": [
+      {
+       "sta": "CVRU",
+       "dist_km": 59.9,
+       "stream": "UU.CVRU.01.HHZ",
+       "lat": 38.9176,
+       "lon": -111.1716
+      },
+      {
+       "sta": "TMU",
+       "dist_km": 62.5,
+       "stream": "UU.TMU.01.HHZ",
+       "lat": 39.2965,
+       "lon": -111.20817
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 131.8,
+     "members": [
+      {
+       "sta": "HMU",
+       "dist_km": 131.8,
+       "stream": "UU.HMU.01.HHZ",
+       "lat": 37.938,
+       "lon": -110.7418
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "UU.SRU.01.BHZ",
+    "S1_1": "UU.LIUT.01.HHZ",
+    "S1_2": "UU.BRPU.01.HHZ",
+    "S2_1": "UU.CVRU.01.HHZ",
+    "S2_2": "UU.TMU.01.HHZ",
+    "S3_1": "UU.HMU.01.HHZ"
+   },
+   "id": "UU_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 6.46925395609976,
+    "S1_1": 7.642766629243007,
+    "S1_2": 2.571129852462623,
+    "S2_1": 8.572923294377556,
+    "S2_2": 9.679536760469386,
+    "S3_1": 7.868690669444382
+   },
+   "thresholds_source": "results/v2/runs/UU/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 40,
+   "network": "UW",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "UW.RVSD..HHZ",
+   "lat": 47.96477,
+   "lon": -117.3568,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    0,
+    0,
+    24
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 54.0,
+     "members": [
+      {
+       "sta": "BHCR",
+       "dist_km": 54.0,
+       "stream": "UW.BHCR..HHZ",
+       "lat": 48.12877,
+       "lon": -118.04087
+      },
+      {
+       "sta": "DAVN",
+       "dist_km": 70.8,
+       "stream": "UW.DAVN..HHZ",
+       "lat": 47.8006,
+       "lon": -118.2741
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 64.8,
+     "members": [
+      {
+       "sta": "LBRT",
+       "dist_km": 64.8,
+       "stream": "UW.LBRT..HHZ",
+       "lat": 47.38237,
+       "lon": -117.32492
+      },
+      {
+       "sta": "LMONT",
+       "dist_km": 93.9,
+       "stream": "UW.LMONT..HHZ",
+       "lat": 47.20364,
+       "lon": -117.89986
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 120.0,
+     "members": [
+      {
+       "sta": "OD2",
+       "dist_km": 120.0,
+       "stream": "UW.OD2..HHZ",
+       "lat": 47.387351,
+       "lon": -118.711613
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "UW.RVSD..HHZ",
+    "S1_1": "UW.BHCR..HHZ",
+    "S1_2": "UW.DAVN..HHZ",
+    "S2_1": "UW.LBRT..HHZ",
+    "S2_2": "UW.LMONT..HHZ",
+    "S3_1": "UW.OD2..HHZ"
+   },
+   "id": "UW_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 10.652504475168064,
+    "S1_1": 4.474214262550684,
+    "S1_2": 10.270272448102277,
+    "S2_1": 4.537838128295018,
+    "S2_2": 5.362788442009825,
+    "S3_1": 4.964041099520407
+   },
+   "thresholds_source": "results/v2/runs/UW/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "rule_order": 49,
+   "network": "WW",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "WW.TBID.00.HHZ",
+   "lat": 46.70853,
+   "lon": -116.93362,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    8,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 57.9,
+     "members": [
+      {
+       "sta": "BILL",
+       "dist_km": 57.9,
+       "stream": "WW.BILL.00.HHZ",
+       "lat": 47.033115,
+       "lon": -116.337673
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 240.5,
+     "members": [
+      {
+       "sta": "TYLR",
+       "dist_km": 240.5,
+       "stream": "WW.TYLR.00.HHZ",
+       "lat": 45.101977,
+       "lon": -114.851741
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 297.2,
+     "members": [
+      {
+       "sta": "CTNW",
+       "dist_km": 297.2,
+       "stream": "WW.CTNW.00.HHZ",
+       "lat": 44.06506,
+       "lon": -116.36919
+      }
+     ]
+    }
+   ],
+   "tune_start": null,
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "roles": {
+    "MAKZ": "WW.TBID.00.HHZ",
+    "S1_1": "WW.BILL.00.HHZ",
+    "S2_1": "WW.TYLR.00.HHZ",
+    "S3_1": "WW.CTNW.00.HHZ"
+   },
+   "id": "WW_TDH23",
+   "frozen_thresholds": {
+    "MAKZ": 6.65915076317332,
+    "S1_1": 8.925270753213008,
+    "S2_1": 9.279124011065191,
+    "S3_1": 9.29845396398586
+   },
+   "thresholds_source": "results/v2/runs/WW/status.json",
+   "detector": "frozen (no re-tuning)",
+   "unit": "reviewed-33"
+  },
+  {
+   "network": "A2",
+   "id": "A2_TDH23",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "A2.KCHK.00.HHZ",
+   "lat": 39.610717,
+   "lon": 45.199504,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 41.6,
+     "members": [
+      {
+       "sta": "SVZR",
+       "dist_km": 41.6,
+       "stream": "A2.SVZR.00.HHZ",
+       "lat": 39.920301,
+       "lon": 45.471962
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 104.7,
+     "members": [
+      {
+       "sta": "ARZK",
+       "dist_km": 104.7,
+       "stream": "A2.ARZK.00.HHZ",
+       "lat": 40.428408,
+       "lon": 44.589914
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 110.6,
+     "members": [
+      {
+       "sta": "TTJR",
+       "dist_km": 110.6,
+       "stream": "A2.TTJR.00.HHZ",
+       "lat": 40.597151,
+       "lon": 45.365255
+      }
+     ]
+    }
+   ],
+   "selection_window": "T23",
+   "eval_start": "2023-06-01",
+   "eval_end": "2023-08-30",
+   "tune_start": "2023-05-25",
+   "frozen_thresholds": null,
+   "detector": "tuned once on 2023-05-25 .. 05-31 (frozen procedure)",
+   "unit": "candidate"
+  }
+ ],
+ "candidates_not_included": {
+  "CA": "not included: no configuration passes sections 4-5 in the 2023 window",
+  "OT": "not included: fewer than 4 eligible stations covering the window (3)"
+ }
+}

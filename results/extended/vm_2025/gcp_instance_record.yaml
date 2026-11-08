@@ -1,0 +1,14 @@
+creationTimestamp: '2026-11-07T03:38:46.007-08:00'
+disks:
+- licenses:
+  - https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-12-bookworm
+labels:
+  owner: REDACTED
+  purpose: p10-seismic
+machineType: https://www.googleapis.com/compute/v1/projects/PROJECT/zones/us-central1-a/machineTypes/e2-standard-8
+name: p10-seismic
+networkInterfaces:
+- accessConfigs:
+  - natIP: 35.253.87.226
+status: RUNNING
+zone: https://www.googleapis.com/compute/v1/projects/PROJECT/zones/us-central1-a

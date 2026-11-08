@@ -1,0 +1,16 @@
+2026-11-08T07:04:36Z QZ_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-08T07:04:36Z QZ_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 10.176174908484777, 'S1_1': 7.5176448110543586, 'S2_1': 6.475769040004449, 'S3_1': 6.985311858780649}
+2026-11-08T07:04:40Z QZ_EXT12B out_2024-07-08 attempt 1: rc=1 4s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:05:10Z QZ_EXT12B out_2024-07-08 attempt 2: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:05:36Z QZ_EXT12B out_2024-10-08 attempt 1: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:06:07Z QZ_EXT12B out_2024-10-08 attempt 2: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:06:11Z QZ_EXT12B out_2024-07-08 attempt 3: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:07:07Z QZ_EXT12B out_2024-10-08 attempt 3: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:07:41Z QZ_EXT12B out_2024-07-08 attempt 4: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:13:18Z QZ_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-08T07:13:18Z QZ_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 10.176174908484777, 'S1_1': 7.5176448110543586, 'S2_1': 6.475769040004449, 'S3_1': 6.985311858780649}
+2026-11-08T07:41:02Z QZ_EXT12B out_2024-07-08 attempt 1: rc=0 1664s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:41:56Z QZ_EXT12B out_2024-10-08 attempt 1: rc=0 1658s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:41:56Z QZ_EXT12B FINISHED state=done
+2026-11-08T07:41:56Z NY_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-08T07:41:56Z NY_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 14.880217105353283, 'S1_1': 10.11637590930273, 'S2_1': 7.73917551519386, 'S3_1': 15.522552881125259}

@@ -1,0 +1,50 @@
+"""P10 second alarm source: PhaseNet (SeisBench, pretrained "instance") on every MAKZ episode.
+For each STA/LTA episode (development 1077 + held-out 317) a 3-component window [t_on-30 s, t_on+60 s] is fetched
+from EarthScope FDSN (IU.MAKZ.00.BH?) and annotated. Output per episode: max detection probability and max P/S pick
+probability within [t_on-5 s, t_on+30 s]. Question answered: are STA/LTA alarms without a catalogue event also
+earthquake-like for a modern detector? Runs on Kaggle (GPU if enabled). Output: phasenet_episodes.csv in the working dir.
+"""
+import subprocess, sys, os, gzip, base64, time
+pass
+import numpy as np, pandas as pd, torch
+from obspy import UTCDateTime
+from obspy.clients.fdsn import Client
+import seisbench.models as sbm
+
+W = os.environ.get("P10_OUT", ".")
+EP = gzip.decompress(base64.b64decode("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")).decode().splitlines()
+dev = "cuda" if torch.cuda.is_available() else "cpu"
+model = sbm.PhaseNet.from_pretrained("instance")
+model.to(dev)
+print("seisbench model loaded on", dev, flush=True)
+cl = Client("https://service.earthscope.org")
+out = []
+t0 = time.time()
+for k, line in enumerate(EP):
+    tag, ts = line.split(",")
+    t = UTCDateTime(float(ts))
+    rec = dict(set=tag, t_on=float(ts), det=np.nan, p=np.nan, s=np.nan, n_comp=0, error="")
+    try:
+        st = cl.get_waveforms("IU", "MAKZ", "00", "BH?", t - 30, t + 60)
+        st.merge(fill_value=0)
+        rec["n_comp"] = len(st)
+        ann = model.annotate(st)
+        for tr in ann:
+            win = tr.slice(t - 5, t + 30)
+            v = float(np.max(win.data)) if len(win.data) else np.nan
+            ch = tr.stats.channel
+            if ch.endswith("_Detection"):
+                rec["det"] = v
+            elif ch.endswith("_P"):
+                rec["p"] = v
+            elif ch.endswith("_S"):
+                rec["s"] = v
+    except Exception as e:
+        rec["error"] = type(e).__name__ + ": " + str(e)[:120]
+    out.append(rec)
+    if k % 100 == 0:
+        print(k, len(EP), round(time.time() - t0), "s", flush=True)
+        pd.DataFrame(out).to_csv(os.path.join(W, "phasenet_episodes.csv"), index=False)
+df = pd.DataFrame(out)
+df.to_csv(os.path.join(W, "phasenet_episodes.csv"), index=False)
+print("done", len(df), "errors", int((df.error != "").sum()), "device", dev, "seconds", round(time.time() - t0))

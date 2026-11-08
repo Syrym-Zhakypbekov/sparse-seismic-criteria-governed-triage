@@ -1,0 +1,433 @@
+{
+ "preregistration": "PREREGISTRATION_GROUND_TRUTH_2026-11-08.md",
+ "scorer": "analysis/ground_truth_v2.py",
+ "episodes": 17126,
+ "calendar_days_with_episodes": 537,
+ "label_counts": {
+  "CONFIRMED": 42705,
+  "REJECTED": 3485,
+  "DELETED_DUPLICATE": 229,
+  "AUTOMATIC_CURRENT": 1
+ },
+ "episode_classes": {
+  "CONFIRMED": 3943,
+  "REJECTED": 114,
+  "UNLABELLED": 13069
+ },
+ "confirmed_by_event_type": {
+  "earthquake": 3928,
+  "explosion": 9,
+  "ice quake": 6
+ },
+ "cross_with_original_association": {
+  "CONFIRMED": {
+   "associated": 1806,
+   "unassociated": 2137
+  },
+  "REJECTED": {
+   "associated": 3,
+   "unassociated": 111
+  },
+  "UNLABELLED": {
+   "associated": 225,
+   "unassociated": 12844
+  }
+ },
+ "action_share_within_class_pct": {
+  "P1": {
+   "CONFIRMED": {
+    "DISMISS": 15.6,
+    "ESCALATE": 0.0,
+    "ALERT": 84.4
+   },
+   "REJECTED": {
+    "DISMISS": 32.46,
+    "ESCALATE": 0.0,
+    "ALERT": 67.54
+   },
+   "UNLABELLED": {
+    "DISMISS": 82.73,
+    "ESCALATE": 0.0,
+    "ALERT": 17.27
+   }
+  },
+  "P1t": {
+   "CONFIRMED": {
+    "DISMISS": 0.68,
+    "ESCALATE": 0.0,
+    "ALERT": 99.32
+   },
+   "REJECTED": {
+    "DISMISS": 1.75,
+    "ESCALATE": 0.0,
+    "ALERT": 98.25
+   },
+   "UNLABELLED": {
+    "DISMISS": 9.78,
+    "ESCALATE": 0.0,
+    "ALERT": 90.22
+   }
+  },
+  "P2": {
+   "CONFIRMED": {
+    "DISMISS": 2.99,
+    "ESCALATE": 16.59,
+    "ALERT": 80.42
+   },
+   "REJECTED": {
+    "DISMISS": 7.02,
+    "ESCALATE": 30.7,
+    "ALERT": 62.28
+   },
+   "UNLABELLED": {
+    "DISMISS": 32.96,
+    "ESCALATE": 54.89,
+    "ALERT": 12.15
+   }
+  },
+  "P3": {
+   "CONFIRMED": {
+    "DISMISS": 0.53,
+    "ESCALATE": 15.47,
+    "ALERT": 84.0
+   },
+   "REJECTED": {
+    "DISMISS": 0.0,
+    "ESCALATE": 32.46,
+    "ALERT": 67.54
+   },
+   "UNLABELLED": {
+    "DISMISS": 6.27,
+    "ESCALATE": 77.35,
+    "ALERT": 16.37
+   }
+  },
+  "P3_8.0": {
+   "CONFIRMED": {
+    "DISMISS": 0.68,
+    "ESCALATE": 15.57,
+    "ALERT": 83.74
+   },
+   "REJECTED": {
+    "DISMISS": 1.75,
+    "ESCALATE": 31.58,
+    "ALERT": 66.67
+   },
+   "UNLABELLED": {
+    "DISMISS": 9.78,
+    "ESCALATE": 74.18,
+    "ALERT": 16.05
+   }
+  },
+  "CG": {
+   "CONFIRMED": {
+    "DISMISS": 4.29,
+    "ESCALATE": 64.54,
+    "ALERT": 31.17
+   },
+   "REJECTED": {
+    "DISMISS": 10.53,
+    "ESCALATE": 79.82,
+    "ALERT": 9.65
+   },
+   "UNLABELLED": {
+    "DISMISS": 43.78,
+    "ESCALATE": 53.26,
+    "ALERT": 2.95
+   }
+  },
+  "CG-D": {
+   "CONFIRMED": {
+    "DISMISS": 0.81,
+    "ESCALATE": 57.44,
+    "ALERT": 41.74
+   },
+   "REJECTED": {
+    "DISMISS": 1.75,
+    "ESCALATE": 82.46,
+    "ALERT": 15.79
+   },
+   "UNLABELLED": {
+    "DISMISS": 12.76,
+    "ESCALATE": 83.94,
+    "ALERT": 3.31
+   }
+  }
+ },
+ "class_counts_within_action": {
+  "P1": {
+   "DISMISS": {
+    "CONFIRMED": 615,
+    "REJECTED": 37,
+    "UNLABELLED": 10812,
+    "confirmed_share_of_labelled_pct": 94.33
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 0,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 3328,
+    "REJECTED": 77,
+    "UNLABELLED": 2257,
+    "confirmed_share_of_labelled_pct": 97.74
+   }
+  },
+  "P1t": {
+   "DISMISS": {
+    "CONFIRMED": 27,
+    "REJECTED": 2,
+    "UNLABELLED": 1278,
+    "confirmed_share_of_labelled_pct": 93.1
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 0,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 3916,
+    "REJECTED": 112,
+    "UNLABELLED": 11791,
+    "confirmed_share_of_labelled_pct": 97.22
+   }
+  },
+  "P2": {
+   "DISMISS": {
+    "CONFIRMED": 118,
+    "REJECTED": 8,
+    "UNLABELLED": 4308,
+    "confirmed_share_of_labelled_pct": 93.65
+   },
+   "ESCALATE": {
+    "CONFIRMED": 654,
+    "REJECTED": 35,
+    "UNLABELLED": 7173,
+    "confirmed_share_of_labelled_pct": 94.92
+   },
+   "ALERT": {
+    "CONFIRMED": 3171,
+    "REJECTED": 71,
+    "UNLABELLED": 1588,
+    "confirmed_share_of_labelled_pct": 97.81
+   }
+  },
+  "P3": {
+   "DISMISS": {
+    "CONFIRMED": 21,
+    "REJECTED": 0,
+    "UNLABELLED": 820,
+    "confirmed_share_of_labelled_pct": 100.0
+   },
+   "ESCALATE": {
+    "CONFIRMED": 610,
+    "REJECTED": 37,
+    "UNLABELLED": 10109,
+    "confirmed_share_of_labelled_pct": 94.28
+   },
+   "ALERT": {
+    "CONFIRMED": 3312,
+    "REJECTED": 77,
+    "UNLABELLED": 2140,
+    "confirmed_share_of_labelled_pct": 97.73
+   }
+  },
+  "P3_8.0": {
+   "DISMISS": {
+    "CONFIRMED": 27,
+    "REJECTED": 2,
+    "UNLABELLED": 1278,
+    "confirmed_share_of_labelled_pct": 93.1
+   },
+   "ESCALATE": {
+    "CONFIRMED": 614,
+    "REJECTED": 36,
+    "UNLABELLED": 9694,
+    "confirmed_share_of_labelled_pct": 94.46
+   },
+   "ALERT": {
+    "CONFIRMED": 3302,
+    "REJECTED": 76,
+    "UNLABELLED": 2097,
+    "confirmed_share_of_labelled_pct": 97.75
+   }
+  },
+  "CG": {
+   "DISMISS": {
+    "CONFIRMED": 169,
+    "REJECTED": 12,
+    "UNLABELLED": 5722,
+    "confirmed_share_of_labelled_pct": 93.37
+   },
+   "ESCALATE": {
+    "CONFIRMED": 2545,
+    "REJECTED": 91,
+    "UNLABELLED": 6961,
+    "confirmed_share_of_labelled_pct": 96.55
+   },
+   "ALERT": {
+    "CONFIRMED": 1229,
+    "REJECTED": 11,
+    "UNLABELLED": 386,
+    "confirmed_share_of_labelled_pct": 99.11
+   }
+  },
+  "CG-D": {
+   "DISMISS": {
+    "CONFIRMED": 32,
+    "REJECTED": 2,
+    "UNLABELLED": 1667,
+    "confirmed_share_of_labelled_pct": 94.12
+   },
+   "ESCALATE": {
+    "CONFIRMED": 2265,
+    "REJECTED": 94,
+    "UNLABELLED": 10970,
+    "confirmed_share_of_labelled_pct": 96.02
+   },
+   "ALERT": {
+    "CONFIRMED": 1646,
+    "REJECTED": 18,
+    "UNLABELLED": 432,
+    "confirmed_share_of_labelled_pct": 98.92
+   }
+  }
+ },
+ "G1_CG_vs_P3_confirmed_dismissed": {
+  "diff_pp": 3.75,
+  "ci95_pp": [
+   3.14,
+   4.41
+  ],
+  "holds": false,
+  "confirmed": 3943
+ },
+ "G2_CGD_vs_P3_confirmed_dismissed": {
+  "diff_pp": 0.28,
+  "ci95_pp": [
+   0.1,
+   0.46
+  ],
+  "holds": true,
+  "confirmed": 3943
+ },
+ "G3_rejected_alert_share": {
+  "P1t": {
+   "CG_pct": 9.65,
+   "P1t_pct": 98.25,
+   "diff_pp": -88.6,
+   "ci95_pp": [
+    -94.0,
+    -82.3
+   ],
+   "holds": true
+  },
+  "P3": {
+   "CG_pct": 9.65,
+   "P3_pct": 67.54,
+   "diff_pp": -57.89,
+   "ci95_pp": [
+    -67.18,
+    -48.7
+   ],
+   "holds": true
+  },
+  "holds": true,
+  "rejected": 114
+ },
+ "G4_CG_separation": {
+  "P1": {
+   "diff_pp": 16.86,
+   "ci95_pp": [
+    8.89,
+    25.75
+   ]
+  },
+  "P1t": {
+   "diff_pp": 1.07,
+   "ci95_pp": [
+    -0.76,
+    3.97
+   ]
+  },
+  "P2": {
+   "diff_pp": 4.02,
+   "ci95_pp": [
+    -0.13,
+    9.47
+   ]
+  },
+  "P3": {
+   "diff_pp": -0.53,
+   "ci95_pp": [
+    -0.78,
+    -0.3
+   ]
+  },
+  "P3_8.0": {
+   "diff_pp": 1.07,
+   "ci95_pp": [
+    -0.76,
+    3.97
+   ]
+  },
+  "CG": {
+   "diff_pp": 6.24,
+   "ci95_pp": [
+    1.09,
+    12.43
+   ]
+  },
+  "CG-D": {
+   "diff_pp": 0.94,
+   "ci95_pp": [
+    -0.91,
+    3.87
+   ]
+  },
+  "holds": true,
+  "rejected": 114,
+  "confirmed": 3943
+ },
+ "control_shifted_labels": {
+  "per_shift_days": {
+   "-3": {
+    "CONFIRMED": 323,
+    "REJECTED": 19
+   },
+   "-2": {
+    "CONFIRMED": 330,
+    "REJECTED": 16
+   },
+   "-1": {
+    "CONFIRMED": 299,
+    "REJECTED": 26
+   },
+   "1": {
+    "CONFIRMED": 299,
+    "REJECTED": 22
+   },
+   "2": {
+    "CONFIRMED": 319,
+    "REJECTED": 24
+   },
+   "3": {
+    "CONFIRMED": 303,
+    "REJECTED": 24
+   }
+  },
+  "mean": {
+   "CONFIRMED": 312.1666666666667,
+   "REJECTED": 21.833333333333332
+  },
+  "chance_fraction": {
+   "CONFIRMED": 0.079,
+   "REJECTED": 0.192
+  },
+  "rejected_dominated_by_chance": false,
+  "confirmed_dominated_by_chance": false
+ }
+}

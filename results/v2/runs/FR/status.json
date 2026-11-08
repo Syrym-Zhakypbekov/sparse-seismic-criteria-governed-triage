@@ -1,0 +1,91 @@
+{
+ "network": "FR",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-3",
+ "platform": "p10-fleet-3-a",
+ "fdsn_base": "https://seisdata.epos-france.fr",
+ "stations": {
+  "MAKZ": [
+   "FR",
+   "AJAC",
+   "00",
+   "HHZ",
+   41.9279,
+   8.763
+  ],
+  "S1_1": [
+   "FR",
+   "SMPL",
+   "00",
+   "BHZ",
+   42.0945,
+   9.2847
+  ],
+  "S2_1": [
+   "FR",
+   "MORSI",
+   "00",
+   "HHZ",
+   42.953,
+   9.363
+  ],
+  "S3_1": [
+   "FR",
+   "EILF",
+   "00",
+   "BHZ",
+   43.5479,
+   7.1312
+  ],
+  "S3_2": [
+   "FR",
+   "MON",
+   "00",
+   "BHZ",
+   43.730343,
+   7.424688
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 197,
+     "end_utc": "2026-11-07T19:34:08Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:51Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 2.663100386882936,
+  "S1_1": NaN,
+  "S2_1": 4.425811745305869,
+  "S3_1": 6.864574094190632,
+  "S3_2": 7.956358679860779
+ }
+}

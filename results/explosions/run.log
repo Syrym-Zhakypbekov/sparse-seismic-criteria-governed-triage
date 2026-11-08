@@ -1,0 +1,103 @@
+self-check: AK actions reproduce results/ak/ak_eval.json for P1, P1t, P2, P3, CG, CG-D (17126 episodes)
+self-check: p_pred reproduces the pipeline on 200 AK catalogue rows, max error 0.0000 s
+label consistency: {'explosion_filter_rows': 429, 'explosion_in_unfiltered': 429, 'explosion_filter_ids_missing_from_unfiltered': 0, 'earthquake_filter_rows': 41420, 'earthquake_in_unfiltered': 41420}
+self-check: label times equal ObsPy UTCDateTime on 503 rows, max error 0.000000 s
+label classes: {'EARTHQUAKE': 41420, 'OTHER_NONEQ': 857, 'EXPLOSION': 429}
+self-check: MAKZ actions equal results/nnc/episodes_nnc.csv for P1, P1t, P3, P2, CG (15208 episodes)
+{
+ "episode_classes": {
+  "EXPLOSION": 9,
+  "EARTHQUAKE": 3927,
+  "OTHER_NONEQ": 6,
+  "MIXED": 1,
+  "UNLABELLED": 13183
+ },
+ "chance_control": {
+  "EXPLOSION": {
+   "real": 9,
+   "shifted_counts": [
+    4,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "mean": 2.17,
+   "dominated_by_chance": false
+  },
+  "EARTHQUAKE": {
+   "real": 3927,
+   "shifted_counts": [
+    312,
+    322,
+    296,
+    287,
+    314,
+    294
+   ],
+   "mean": 304.17,
+   "dominated_by_chance": false
+  },
+  "OTHER_NONEQ": {
+   "real": 6,
+   "shifted_counts": [
+    7,
+    6,
+    2,
+    9,
+    3,
+    7
+   ],
+   "mean": 5.67,
+   "dominated_by_chance": true
+  }
+ },
+ "X1_CG_vs_P3_dismiss_explosion": {
+  "diff_pp": 11.11,
+  "ci95_pp": [
+   0.0,
+   40.0
+  ],
+  "margin_pp": 3.0,
+  "exercised": false,
+  "holds": null
+ },
+ "X2_CGD_vs_P3_dismiss_explosion": {
+  "diff_pp": 0.0,
+  "ci95_pp": [
+   0.0,
+   0.0
+  ],
+  "margin_pp": 3.0,
+  "exercised": false,
+  "holds": null
+ },
+ "X3_alert_explosion": {
+  "CG_minus_P1t": {
+   "diff_pp": -55.56,
+   "ci95_pp": [
+    -90.0,
+    -20.0
+   ]
+  },
+  "CG_minus_P3": {
+   "diff_pp": -33.33,
+   "ci95_pp": [
+    -66.67,
+    0.0
+   ]
+  },
+  "exercised": false,
+  "holds": null
+ },
+ "X4_CG_escalate_explosion_minus_earthquake": {
+  "diff_pp": -20.13,
+  "ci95_pp": [
+   -53.36,
+   15.8
+  ],
+  "exercised": false,
+  "holds": null
+ }
+}

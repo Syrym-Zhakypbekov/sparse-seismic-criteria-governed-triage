@@ -1,0 +1,135 @@
+{
+ "status": "post hoc checks after review R16",
+ "sanity_dismissed_counts": {
+  "recomputed": {
+   "P3": 3,
+   "CG": 33,
+   "CG-D": 5,
+   "CG(c=0.5)": 6
+  },
+  "ak_eval": {
+   "P3": 3,
+   "CG": 33,
+   "CG-D": 5,
+   "CG(c=0.5)": 6
+  },
+  "equal": true
+ },
+ "A_block_bootstrap": {
+  "R3": {
+   "contrast": "CG - P3",
+   "calendar_days": 540,
+   "point_pp": 1.47,
+   "block_1d": [
+    0.97,
+    2.01
+   ],
+   "block_7d": [
+    0.99,
+    1.99
+   ],
+   "block_14d": [
+    0.97,
+    2.02
+   ],
+   "block_28d": [
+    0.94,
+    2.05
+   ]
+  },
+  "R5": {
+   "contrast": "CG-D - P3",
+   "calendar_days": 540,
+   "point_pp": 0.1,
+   "block_1d": [
+    -0.1,
+    0.3
+   ],
+   "block_7d": [
+    -0.1,
+    0.3
+   ],
+   "block_14d": [
+    -0.1,
+    0.3
+   ],
+   "block_28d": [
+    -0.1,
+    0.29
+   ]
+  },
+  "R6": {
+   "contrast": "CG(c=0.5) - P3",
+   "calendar_days": 540,
+   "point_pp": 0.15,
+   "block_1d": [
+    0.0,
+    0.34
+   ],
+   "block_7d": [
+    0.0,
+    0.34
+   ],
+   "block_14d": [
+    0.0,
+    0.33
+   ],
+   "block_28d": [
+    0.0,
+    0.31
+   ]
+  }
+ },
+ "B_daily_availability": {
+  "MAKZ": {
+   "days": 540,
+   "lt10": 4,
+   "10to90": 4,
+   "ge90": 532,
+   "longest_run_below90_days": 5,
+   "min_share": 0.0
+  },
+  "MK31": {
+   "days": 540,
+   "lt10": 0,
+   "10to90": 164,
+   "ge90": 376,
+   "longest_run_below90_days": 18,
+   "min_share": 0.156
+  },
+  "KURK": {
+   "days": 540,
+   "lt10": 5,
+   "10to90": 8,
+   "ge90": 527,
+   "longest_run_below90_days": 4,
+   "min_share": 0.0
+  },
+  "WUS": {
+   "days": 540,
+   "lt10": 3,
+   "10to90": 71,
+   "ge90": 466,
+   "longest_run_below90_days": 27,
+   "min_share": 0.0
+  }
+ },
+ "C_stationxml": {
+  "channels": 4,
+  "file": "results/metadata/ak_station_comparison.json",
+  "method": "direct FDSN station-service HTTP request (obspy not installed on the laptop)"
+ },
+ "D_host_activity": [
+  {
+   "after": "4c04855",
+   "timestamp": "2026-11-07T17:36:41Z",
+   "activity_type": "push"
+  },
+  {
+   "after": "6825835",
+   "timestamp": "2026-11-07T16:46:31Z",
+   "activity_type": "push"
+  }
+ ],
+ "run_script_launch_time": "2026-11-07T16:47:07Z"
+}

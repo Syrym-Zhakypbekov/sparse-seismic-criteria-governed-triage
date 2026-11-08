@@ -1,0 +1,39 @@
+{
+ "preregistration": "PREREGISTRATION_BLAST.md, commit 3f77906",
+ "n": 1315,
+ "dev": 519,
+ "test": 796,
+ "blasts_dev": 131,
+ "blasts_test": 177,
+ "features": {
+  "f1": {
+   "dev_auc_raw": 0.35,
+   "orientation": -1,
+   "valid_dev": 483,
+   "valid_test": 758,
+   "test_auc_oriented": 0.507
+  },
+  "f2": {
+   "dev_auc_raw": 0.628,
+   "orientation": 1,
+   "valid_dev": 474,
+   "valid_test": 747,
+   "test_auc_oriented": 0.547
+  },
+  "f3": {
+   "dev_auc_raw": 0.766,
+   "orientation": 1,
+   "valid_dev": 519,
+   "valid_test": 796,
+   "test_auc_oriented": 0.805
+  }
+ },
+ "errors": 0,
+ "W (waveform only)": {
+  "thresholds": null
+ },
+ "WT (with time of day)": {
+  "thresholds": null
+ },
+ "B3_time_of_day_alone_test_accuracy": 0.721
+}

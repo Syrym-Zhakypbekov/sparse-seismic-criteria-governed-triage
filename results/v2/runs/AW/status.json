@@ -1,0 +1,82 @@
+{
+ "network": "AW",
+ "config_file": "results/v2/networks.json",
+ "host": "p10-fleet-1",
+ "platform": "p10-fleet-1-t",
+ "fdsn_base": "https://geofon.gfz.de",
+ "stations": {
+  "MAKZ": [
+   "AW",
+   "VNA1",
+   "",
+   "BHZ",
+   -70.672,
+   -8.29
+  ],
+  "S1_1": [
+   "AW",
+   "VNA2",
+   "",
+   "BHZ",
+   -70.925,
+   -7.393
+  ],
+  "S2_1": [
+   "AW",
+   "VNA3",
+   "",
+   "BHZ",
+   -71.242,
+   -9.664
+  ],
+  "S3_1": [
+   "AW",
+   "FRFJ",
+   "",
+   "HHZ",
+   -71.8359,
+   -5.7095
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 112,
+     "end_utc": "2026-11-07T19:32:46Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:54Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 5.108999950037172,
+  "S1_1": 8.325737065771984,
+  "S2_1": 7.147775734465867,
+  "S3_1": NaN
+ }
+}

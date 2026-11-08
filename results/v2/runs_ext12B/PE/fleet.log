@@ -1,0 +1,4 @@
+2026-11-08T07:40:40Z PE_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S3_1', 'S3_2']
+2026-11-08T07:40:40Z PE_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 11.993319439924807, 'S1_1': 7.533268868957869, 'S1_2': 4.295757670646499, 'S2_1': 6.681259886047456, 'S3_1': 6.37640585696654, 'S3_2': 6.152786759948751}
+2026-11-08T08:18:21Z PE_EXT12B out_2024-10-08 attempt 1: rc=0 2200s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:24:45Z PE_EXT12B out_2024-07-08 attempt 1: rc=0 2644s summary=True fetch_fail=2 cat_fail=[]

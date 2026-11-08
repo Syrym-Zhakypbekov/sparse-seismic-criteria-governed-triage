@@ -1,0 +1,3 @@
+2026-11-07T19:30:51Z FR plan base=https://seisdata.epos-france.fr tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1', 'S3_2']
+2026-11-07T19:34:08Z FR tune attempt 1: rc=-15 197s thresholds=yes
+2026-11-07T19:34:08Z FR TUNING FAILED thr={'MAKZ': 2.663100386882936, 'S1_1': nan, 'S2_1': 4.425811745305869, 'S3_1': 6.864574094190632, 'S3_2': 7.956358679860779}

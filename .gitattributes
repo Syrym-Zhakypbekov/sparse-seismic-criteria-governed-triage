@@ -1,0 +1,11 @@
+results/nnc/raw/*.xml -text
+*.tgz binary
+*.gz binary
+results/**/*.csv -text
+results/v2/runs/** -text
+results/v2/runs_ext12/** -text
+results/v2/_replicate_TX_laptop/** -text
+results/v2/_failed_attempts/** -text
+results/v2/_staging*/** -text
+results/v2/fleet_logs/** -text
+results/v2/_replicates/** -text

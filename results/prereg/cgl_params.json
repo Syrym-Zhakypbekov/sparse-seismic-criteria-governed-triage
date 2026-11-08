@@ -1,0 +1,14 @@
+{
+ "weights": {
+  "MK31": 0.2,
+  "KURK": 0.15,
+  "WUS": 0.1,
+  "SNR": 0.25,
+  "EQT": 0.3
+ },
+ "delta": 0.45,
+ "theta_A": 0.6,
+ "theta_D": 0.11,
+ "eqt_score": "max EQTransformer detection probability in the episode window (det)",
+ "detect_table": "MAKZ"
+}

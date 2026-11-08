@@ -1,0 +1,73 @@
+{
+ "training": {
+  "LR": {
+   "theta_D": 0.03,
+   "theta_A": 0.161,
+   "dev_oof": {
+    "missed": 7,
+    "assoc": 141,
+    "dismissed_share_pct": 4.965,
+    "alert_unassoc": 215,
+    "esc_per_day": 4.59,
+    "dismiss": 374,
+    "alert": 313,
+    "escalate": 390
+   },
+   "dev_oof_escalation_share": 0.3621,
+   "cg_dev_escalation_share": 0.364,
+   "coefficients_standardised": {
+    "yes1": 0.3052,
+    "no1": -0.4641,
+    "cov1": -0.219,
+    "yes2": 0.1205,
+    "no2": -0.1115,
+    "cov2": 0.0414,
+    "yes3": 0.183,
+    "no3": -0.1081,
+    "cov3": -0.1957,
+    "snr": 0.7041,
+    "snr_undef": 0.0
+   }
+  },
+  "GB": {
+   "theta_D": 0.019,
+   "theta_A": 0.079,
+   "dev_oof": {
+    "missed": 5,
+    "assoc": 141,
+    "dismissed_share_pct": 3.546,
+    "alert_unassoc": 305,
+    "esc_per_day": 4.61,
+    "dismiss": 260,
+    "alert": 425,
+    "escalate": 392
+   },
+   "dev_oof_escalation_share": 0.364,
+   "cg_dev_escalation_share": 0.364
+  },
+  "MLP": {
+   "theta_D": 0.023,
+   "theta_A": 0.165,
+   "dev_oof": {
+    "missed": 7,
+    "assoc": 141,
+    "dismissed_share_pct": 4.965,
+    "alert_unassoc": 215,
+    "esc_per_day": 4.61,
+    "dismiss": 372,
+    "alert": 313,
+    "escalate": 392
+   },
+   "dev_oof_escalation_share": 0.364,
+   "cg_dev_escalation_share": 0.364
+  }
+ },
+ "tally": {
+  "M1": "1/12",
+  "M2a": "11/12",
+  "M2r": "11/12",
+  "M3": "4/12",
+  "M5a": "3/3",
+  "M5b": "1/3"
+ }
+}

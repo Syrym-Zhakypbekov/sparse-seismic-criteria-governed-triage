@@ -1,0 +1,16 @@
+[{"stream_name":"stderr","time":10.045246495,"data":"/kaggle/working/repo/analysis/v2_fleet/run_network.py:34: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n"}
+,{"stream_name":"stderr","time":10.045371661,"data":"  def now(): return dt.datetime.utcnow().isoformat(timespec=\"seconds\") + \"Z\"\n"}
+,{"stream_name":"stdout","time":10.045252579,"data":"2026-11-07T19:29:49Z MB plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']\n"}
+,{"stream_name":"stdout","time":132.742112918,"data":"2026-11-07T19:31:52Z MB tune attempt 1: rc=0 123s summary=True fetch_fail=0 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":132.74291873,"data":"2026-11-07T19:31:52Z MB thresholds {'MAKZ': 6.172520981688634, 'S1_1': 5.192990278236729, 'S2_1': 8.32755975233207, 'S3_1': 5.071865413109361}\n"}
+,{"stream_name":"stdout","time":1446.364630184,"data":"2026-11-07T19:53:45Z MB out_2024-01-08 attempt 1: rc=0 1314s summary=True fetch_fail=0 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":1466.892189678,"data":"2026-11-07T19:54:06Z MB out_2024-04-08 attempt 1: rc=0 1274s summary=True fetch_fail=0 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":1466.893824983,"data":"2026-11-07T19:54:06Z MB FINISHED state=done\n"}
+,{"stream_name":"stdout","time":1467.026323096,"data":"run_network rc 0\n"}
+,{"stream_name":"stderr","time":1469.903839483,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1469.903874189,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1470.41418252,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1470.414216931,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1471.655471144,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1473.246212129,"data":"[NbConvertApp] Writing 506765 bytes to __results__.html\n"}
+]

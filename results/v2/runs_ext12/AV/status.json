@@ -1,0 +1,133 @@
+{
+ "network": "AV_EXT12",
+ "config_file": "results/v2/networks_ext12.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-x",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "AV",
+   "DOL",
+   "",
+   "BHZ",
+   55.149621,
+   -161.86472
+  ],
+  "S1_1": [
+   "AV",
+   "PS4A",
+   "",
+   "BHZ",
+   55.34604,
+   -161.85648
+  ],
+  "S1_2": [
+   "AV",
+   "DTN",
+   "",
+   "BHZ",
+   55.1448,
+   -162.259
+  ],
+  "S2_1": [
+   "AV",
+   "DEER",
+   "",
+   "BHZ",
+   54.97127,
+   -162.32437
+  ],
+  "S2_2": [
+   "AV",
+   "BLDW",
+   "",
+   "BHZ",
+   55.190907,
+   -162.787687
+  ],
+  "S3_1": [
+   "AV",
+   "ISLZ",
+   "",
+   "BHZ",
+   54.7249,
+   -163.7129
+  ]
+ },
+ "tune": "none (frozen batch-A)",
+ "eval": [
+  "2024-07-08",
+  "2025-01-08"
+ ],
+ "chunks": {
+  "out_2024-07-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6329,
+     "end_utc": "2026-11-07T22:07:29Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 694,
+     "end_utc": "2026-11-07T22:19:33Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-10-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6381,
+     "end_utc": "2026-11-07T22:09:21Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 694,
+     "end_utc": "2026-11-07T22:21:25Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:22:00Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-07-08",
+   "2024-10-08"
+  ],
+  [
+   "2024-10-08",
+   "2025-01-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 5.709676985246788,
+  "S1_1": 5.156819764578658,
+  "S1_2": 4.89973947097502,
+  "S2_1": 5.278277241947054,
+  "S2_2": 4.538879133339432,
+  "S3_1": 5.177753391967141
+ },
+ "thresholds_source": "results/v2/runs/AV/status.json",
+ "finished_utc": "2026-11-07T22:21:25Z"
+}

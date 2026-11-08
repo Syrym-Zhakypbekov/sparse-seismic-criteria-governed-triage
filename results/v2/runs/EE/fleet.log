@@ -1,0 +1,6 @@
+2026-11-07T19:56:34Z EE plan base=https://geofon.gfz.de tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T19:58:56Z EE tune attempt 1: rc=-15 142s thresholds=yes
+2026-11-07T19:58:56Z EE thresholds {'MAKZ': 4.842404050864778, 'S1_1': 7.508528037955921, 'S2_1': 7.8784676936708165, 'S3_1': 4.188565854409883}
+2026-11-07T20:35:46Z EE out_2024-01-08 attempt 1: rc=0 2209s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:36:52Z EE out_2024-04-08 attempt 1: rc=0 2216s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:36:52Z EE FINISHED state=done

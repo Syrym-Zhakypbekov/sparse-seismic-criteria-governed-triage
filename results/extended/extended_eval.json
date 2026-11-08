@@ -1,0 +1,245 @@
+{
+ "preregistration": "PREREGISTRATION_EXTENDED.md, commit 84e93ce",
+ "chunks": [
+  {
+   "chunk": "out_2025-01-01",
+   "source": "results\\extended\\vm_2025\\out_2025-01-01",
+   "days": 59,
+   "episodes": 1843,
+   "per_day": 31.2,
+   "regional_catalog": 1316,
+   "outage_days": 0,
+   "normal_days": 59,
+   "catalog_failures": [],
+   "usable": true
+  },
+  {
+   "chunk": "out_2025-03-01",
+   "source": "results\\extended\\vm_2025\\out_2025-03-01",
+   "days": 61,
+   "episodes": 2016,
+   "per_day": 33.0,
+   "regional_catalog": 2052,
+   "outage_days": 0,
+   "normal_days": 61,
+   "catalog_failures": [],
+   "usable": true
+  },
+  {
+   "chunk": "out_2025-05-01",
+   "source": "results\\extended\\vm_2025\\out_2025-05-01",
+   "days": 61,
+   "episodes": 2411,
+   "per_day": 39.5,
+   "regional_catalog": 1937,
+   "outage_days": 0,
+   "normal_days": 61,
+   "catalog_failures": [],
+   "usable": true
+  },
+  {
+   "chunk": "out_2025-07-01",
+   "source": "results\\extended\\vm_2025\\out_2025-07-01",
+   "days": 62,
+   "episodes": 3394,
+   "per_day": 54.7,
+   "regional_catalog": 2037,
+   "outage_days": 18,
+   "normal_days": 42,
+   "catalog_failures": [],
+   "usable": true
+  },
+  {
+   "chunk": "out_2025-09-01",
+   "source": "results\\extended\\vm_2025_rerun\\outA_2025-09-01",
+   "days": 61,
+   "episodes": 2847,
+   "per_day": 46.7,
+   "regional_catalog": 2221,
+   "outage_days": 3,
+   "normal_days": 56,
+   "catalog_failures": [],
+   "usable": true
+  },
+  {
+   "chunk": "out_2025-11-01",
+   "source": "results\\extended\\vm_2025\\out_2025-11-01",
+   "days": 61,
+   "episodes": 1233,
+   "per_day": 20.2,
+   "regional_catalog": 1705,
+   "outage_days": 0,
+   "normal_days": 60,
+   "catalog_failures": [],
+   "usable": true
+  },
+  {
+   "chunk": "kaggle_2026h1",
+   "source": "results\\extended\\kaggle_2026h1",
+   "days": 181,
+   "episodes": 4893,
+   "per_day": 27.0,
+   "regional_catalog": 3025,
+   "outage_days": 3,
+   "normal_days": 174,
+   "catalog_failures": [],
+   "usable": true
+  }
+ ],
+ "usable_days": 546,
+ "outage_days_usable": 24,
+ "all_usable": {
+  "P1": {
+   "episodes": 18637,
+   "assoc": 2455,
+   "missed": 244,
+   "alert_unassoc": 8147,
+   "escalate": 0,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "episodes": 18637,
+   "assoc": 2455,
+   "missed": 50,
+   "alert_unassoc": 12452,
+   "escalate": 0,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "episodes": 18637,
+   "assoc": 2455,
+   "missed": 38,
+   "alert_unassoc": 6350,
+   "escalate": 6943,
+   "esc_per_day": 12.72
+  },
+  "P2": {
+   "episodes": 18637,
+   "assoc": 2455,
+   "missed": 124,
+   "alert_unassoc": 4070,
+   "escalate": 7050,
+   "esc_per_day": 12.91
+  },
+  "CG": {
+   "episodes": 18637,
+   "assoc": 2455,
+   "missed": 98,
+   "alert_unassoc": 2870,
+   "escalate": 8849,
+   "esc_per_day": 16.21
+  }
+ },
+ "outage_usable": {
+  "P1": {
+   "episodes": 1065,
+   "assoc": 149,
+   "missed": 99,
+   "alert_unassoc": 188,
+   "escalate": 0,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "episodes": 1065,
+   "assoc": 149,
+   "missed": 10,
+   "alert_unassoc": 654,
+   "escalate": 0,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "episodes": 1065,
+   "assoc": 149,
+   "missed": 8,
+   "alert_unassoc": 164,
+   "escalate": 614,
+   "esc_per_day": 25.58
+  },
+  "P2": {
+   "episodes": 1065,
+   "assoc": 149,
+   "missed": 30,
+   "alert_unassoc": 114,
+   "escalate": 468,
+   "esc_per_day": 19.5
+  },
+  "CG": {
+   "episodes": 1065,
+   "assoc": 149,
+   "missed": 6,
+   "alert_unassoc": 117,
+   "escalate": 684,
+   "esc_per_day": 28.5
+  }
+ },
+ "normal_usable": {
+  "P1": {
+   "episodes": 17220,
+   "assoc": 2265,
+   "missed": 134,
+   "alert_unassoc": 7845,
+   "escalate": 0,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "episodes": 17220,
+   "assoc": 2265,
+   "missed": 39,
+   "alert_unassoc": 11572,
+   "escalate": 0,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "episodes": 17220,
+   "assoc": 2265,
+   "missed": 30,
+   "alert_unassoc": 6093,
+   "escalate": 6175,
+   "esc_per_day": 12.04
+  },
+  "P2": {
+   "episodes": 17220,
+   "assoc": 2265,
+   "missed": 89,
+   "alert_unassoc": 3890,
+   "escalate": 6463,
+   "esc_per_day": 12.6
+  },
+  "CG": {
+   "episodes": 17220,
+   "assoc": 2265,
+   "missed": 91,
+   "alert_unassoc": 2712,
+   "escalate": 7989,
+   "esc_per_day": 15.57
+  }
+ },
+ "E1": {
+  "testable": true,
+  "CG_missed": 6,
+  "P1_missed": 99,
+  "assoc": 149,
+  "holds": true
+ },
+ "E2": {
+  "CG": 2870,
+  "P3": 6350,
+  "P1t": 12452,
+  "holds": true
+ },
+ "E3": {
+  "diff_pp": 2.44,
+  "ci95_pp": [
+   1.74,
+   3.18
+  ],
+  "margin_pp": 3.0,
+  "holds": false
+ },
+ "E4": {
+  "all_missing_episodes": 0,
+  "escalated": 0,
+  "holds": null,
+  "note": "not exercised"
+ }
+}

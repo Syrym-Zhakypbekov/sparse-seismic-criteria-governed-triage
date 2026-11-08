@@ -1,0 +1,2592 @@
+[
+ {
+  "batch": "A",
+  "network": "OH",
+  "rule_order": 1,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 40.04307,
+  "lon": -81.009361,
+  "reference": "OH.BSPO..HHZ",
+  "platform": "p10-seismic-a",
+  "state": "done",
+  "merged_sites": [
+   [
+    "OH.WODO.10.HHZ",
+    "OH.FOXO.10.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   28.7,
+   111.2,
+   121.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 5617,
+  "associated": 65,
+  "association_rate": 0.0116,
+  "catalogue_regional_per_day": 2.48,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.994,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   132,
+   0,
+   32
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 4.43,
+  "chance_share": 0.068,
+  "chance_corrected_CG_minus_P3_pp": -0.31,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "A",
+  "network": "IV",
+  "rule_order": 2,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "INGV",
+  "lat": 39.366,
+  "lon": 9.296,
+  "reference": "IV.CGL..BHZ",
+  "platform": "p10-fleet-1-t",
+  "state": "done",
+  "merged_sites": [
+   [
+    "IV.MARS..HHZ",
+    "IV.MTGR..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   109.1,
+   196.1,
+   336.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 7149,
+  "associated": 217,
+  "association_rate": 0.0304,
+  "catalogue_regional_per_day": 47.13,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.983,
+  "reference_days_lt10": 2,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 73.02,
+  "chance_share": 0.336,
+  "chance_corrected_CG_minus_P3_pp": 8.52,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "A",
+  "network": "AB",
+  "rule_order": 3,
+  "region": "Caucasus-Turkey-Iran",
+  "datacentre": "EarthScope",
+  "lat": 41.760905,
+  "lon": 48.643566,
+  "reference": "AB.TELL.00.HHZ",
+  "platform": "p10-fleet-2-t",
+  "state": "tuning_failed",
+  "merged_sites": [
+   [
+    "AB.SHUR.00.HHZ",
+    "AB.MV12.00.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   72.0,
+   109.7,
+   131.7
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "A",
+  "network": "AU",
+  "rule_order": 4,
+  "region": "New Zealand-SW Pacific",
+  "datacentre": "EarthScope",
+  "lat": -34.6094,
+  "lon": 116.9773,
+  "reference": "AU.RKGY.00.BHZ",
+  "platform": "p10-fleet-3-t",
+  "state": "done",
+  "merged_sites": [
+   [
+    "AU.MUN.00.BHZ",
+    "AU.CARL.00.BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   154.5,
+   188.6,
+   301.1
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4301,
+  "associated": 104,
+  "association_rate": 0.0242,
+  "catalogue_regional_per_day": 0.71,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.998,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   20,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 1.53,
+  "chance_share": 0.015,
+  "chance_corrected_CG_minus_P3_pp": 0.0,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "A",
+  "network": "C1",
+  "rule_order": 5,
+  "region": "South America",
+  "datacentre": "EarthScope",
+  "lat": -34.7924,
+  "lon": -70.7814,
+  "reference": "C1.BO02..BHZ",
+  "platform": "p10-fleet-4-a",
+  "state": "done",
+  "merged_sites": [
+   [
+    "C1.BO04..BHZ",
+    "C1.MT09..BHZ"
+   ],
+   [
+    "C1.MT01..BHZ",
+    "C1.VA05..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   52.5,
+   90.7,
+   111.9
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4862,
+  "associated": 874,
+  "association_rate": 0.1798,
+  "catalogue_regional_per_day": 22.92,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.996,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 27.45,
+  "chance_share": 0.031,
+  "chance_corrected_CG_minus_P3_pp": 0.0,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "A",
+  "network": "AV",
+  "rule_order": 6,
+  "region": "Alaska-Aleutians-Canada",
+  "datacentre": "EarthScope",
+  "lat": 55.149621,
+  "lon": -161.86472,
+  "reference": "AV.DOL..BHZ",
+  "platform": "p10-fleet-5-a",
+  "state": "done",
+  "merged_sites": [
+   [
+    "AV.PS4A..BHZ",
+    "AV.DTN..BHZ"
+   ],
+   [
+    "AV.DEER..BHZ",
+    "AV.BLDW..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   21.8,
+   35.4,
+   127.1
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 2264,
+  "associated": 677,
+  "association_rate": 0.299,
+  "catalogue_regional_per_day": 29.64,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.991,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 18.12,
+  "chance_share": 0.027,
+  "chance_corrected_CG_minus_P3_pp": 2.81,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "A",
+  "network": "KR",
+  "rule_order": 7,
+  "region": "Central Asia",
+  "datacentre": "EarthScope",
+  "lat": 39.477613,
+  "lon": 71.799456,
+  "reference": "KR.DRK.00.HHZ",
+  "platform": "p10-fleet-6-a",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   106.6,
+   143.5,
+   157.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 2616,
+  "associated": 269,
+  "association_rate": 0.1028,
+  "catalogue_regional_per_day": 19.11,
+  "catalogue_tele_per_day": 0.92,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   34,
+   2,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 12.49,
+  "chance_share": 0.046,
+  "chance_corrected_CG_minus_P3_pp": 0.19,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "A",
+  "network": "JP",
+  "rule_order": 8,
+  "region": "East Asia-West Pacific",
+  "datacentre": "EarthScope",
+  "lat": 42.018501,
+  "lon": 143.153503,
+  "reference": "JP.JEM..BHZ",
+  "platform": "laptop",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   167.4,
+   221.4,
+   237.9
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 75455,
+  "associated": 1576,
+  "association_rate": 0.0209,
+  "catalogue_regional_per_day": 65.18,
+  "catalogue_tele_per_day": 0.92,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.998,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 1490.15,
+  "chance_share": 0.946,
+  "chance_corrected_CG_minus_P3_pp": -9.9,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": [
+   "chance-associated share > 0.5"
+  ]
+ },
+ {
+  "batch": "A",
+  "network": "AF",
+  "rule_order": 9,
+  "region": "Africa",
+  "datacentre": "EarthScope",
+  "lat": -29.941839,
+  "lon": 22.24667,
+  "reference": "AF.ALKP..BHZ",
+  "platform": "p10-seismic-t",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   200.4,
+   292.8,
+   320.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "A",
+  "network": "AW",
+  "rule_order": 10,
+  "region": "Antarctica",
+  "datacentre": "GEOFON",
+  "lat": -70.672,
+  "lon": -8.29,
+  "reference": "AW.VNA1..BHZ",
+  "platform": "p10-fleet-1-t",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   43.2,
+   80.6,
+   158.9
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "NM",
+  "rule_order": 11,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 39.1719,
+  "lon": -86.5222,
+  "reference": "NM.BLO..BHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [
+   [
+    "NM.OLIL..BHZ",
+    "NM.FFIL.00.BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   144.8,
+   167.0,
+   285.2
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4207,
+  "associated": 42,
+  "association_rate": 0.01,
+  "catalogue_regional_per_day": 4.39,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.984,
+  "reference_days_lt10": 1,
+  "site_outage_days_lt10": [
+   39,
+   39,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 5.05,
+  "chance_share": 0.12,
+  "chance_corrected_CG_minus_P3_pp": 1.3,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "NS",
+  "rule_order": 12,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "UIB-NORSAR",
+  "lat": 67.52016,
+  "lon": 12.1045,
+  "reference": "NS.ROEST.00.HHZ",
+  "platform": "p10-fleet-3-t",
+  "state": "done",
+  "merged_sites": [
+   [
+    "NS.VAGH.00.HHZ",
+    "NS.GILDE.00.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   90.9,
+   101.3,
+   136.6
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 3457,
+  "associated": 71,
+  "association_rate": 0.0205,
+  "catalogue_regional_per_day": 5.16,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   21,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 3.86,
+  "chance_share": 0.054,
+  "chance_corrected_CG_minus_P3_pp": -0.01,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "HC",
+  "rule_order": 13,
+  "region": "Caucasus-Turkey-Iran",
+  "datacentre": "NOA",
+  "lat": 36.881,
+  "lon": 27.281,
+  "reference": "HC.KOSP..HHZ",
+  "platform": "p10-fleet-4-b",
+  "state": "done",
+  "merged_sites": [
+   [
+    "HC.KNSS..HHZ",
+    "HC.PFKS..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   215.2,
+   217.6,
+   257.6
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 5591,
+  "associated": 318,
+  "association_rate": 0.0569,
+  "catalogue_regional_per_day": 56.54,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.999,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 74.27,
+  "chance_share": 0.234,
+  "chance_corrected_CG_minus_P3_pp": 10.45,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "S1",
+  "rule_order": 14,
+  "region": "New Zealand-SW Pacific",
+  "datacentre": "AusPass",
+  "lat": -32.2334,
+  "lon": 148.6278,
+  "reference": "S1.AUDCS..BHZ",
+  "platform": "p10-fleet-5-t",
+  "state": "tuning_failed",
+  "merged_sites": [
+   [
+    "S1.AUTKS..BHZ",
+    "S1.AUKHS..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   248.8,
+   282.4,
+   318.2
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "C",
+  "rule_order": 15,
+  "region": "South America",
+  "datacentre": "EarthScope",
+  "lat": -25.1626,
+  "lon": -69.5904,
+  "reference": "C.GO02..BHZ",
+  "platform": "p10-fleet-6-r",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   277.8,
+   569.7,
+   612.3
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "RV",
+  "rule_order": 16,
+  "region": "Alaska-Aleutians-Canada",
+  "datacentre": "EarthScope",
+  "lat": 55.660629,
+  "lon": -115.832321,
+  "reference": "RV.STPRA..HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [
+   [
+    "RV.PECRA..HHZ",
+    "RV.DEDWA..HHZ"
+   ],
+   [
+    "RV.EGLEA..HHZ",
+    "RV.FOXCA..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   102.5,
+   102.7,
+   139.3
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 7015,
+  "associated": 161,
+  "association_rate": 0.023,
+  "catalogue_regional_per_day": 10.9,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.986,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   182,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 17.84,
+  "chance_share": 0.111,
+  "chance_corrected_CG_minus_P3_pp": -0.06,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": [
+   "site 2 missing on >90% of days"
+  ]
+ },
+ {
+  "batch": "B",
+  "network": "QZ",
+  "rule_order": 17,
+  "region": "Central Asia",
+  "datacentre": "EarthScope",
+  "lat": 49.986897,
+  "lon": 57.210083,
+  "reference": "QZ.ALGA.00.HHZ",
+  "platform": "p10-fleet-1-a",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   409.3,
+   432.9,
+   633.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 5020,
+  "associated": 31,
+  "association_rate": 0.0062,
+  "catalogue_regional_per_day": 12.52,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.99,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   9,
+   5
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 14.0,
+  "chance_share": 0.452,
+  "chance_corrected_CG_minus_P3_pp": 10.71,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "CN",
+  "rule_order": 18,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 44.2272,
+  "lon": -76.4934,
+  "reference": "CN.KGNO..HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [
+   [
+    "CN.OTT..HHZ",
+    "CN.ORIO..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   129.2,
+   143.5,
+   213.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 7279,
+  "associated": 64,
+  "association_rate": 0.0088,
+  "catalogue_regional_per_day": 1.82,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   2
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 5.15,
+  "chance_share": 0.08,
+  "chance_corrected_CG_minus_P3_pp": -1.31,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "FR",
+  "rule_order": 19,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "EPOSFR",
+  "lat": 41.9279,
+  "lon": 8.763,
+  "reference": "FR.AJAC.00.HHZ",
+  "platform": "p10-fleet-3-a",
+  "state": "tuning_failed",
+  "merged_sites": [
+   [
+    "FR.EILF.00.BHZ",
+    "FR.MON.00.BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   46.9,
+   124.2,
+   224.1
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "KO",
+  "rule_order": 20,
+  "region": "Caucasus-Turkey-Iran",
+  "datacentre": "EarthScope",
+  "lat": 36.7483,
+  "lon": 29.9085,
+  "reference": "KO.ELL..HHZ",
+  "platform": "p10-fleet-4-a",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   368.9,
+   428.8,
+   571.7
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "ND",
+  "rule_order": 21,
+  "region": "New Zealand-SW Pacific",
+  "datacentre": "EPOSFR",
+  "lat": -22.6129,
+  "lon": 167.4465,
+  "reference": "ND.PINNC.00.BHZ",
+  "platform": "p10-fleet-5-a",
+  "state": "done",
+  "merged_sites": [
+   [
+    "ND.OUENC.00.BHZ",
+    "ND.ONTNC.00.BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   65.8,
+   139.5,
+   399.2
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4683,
+  "associated": 299,
+  "association_rate": 0.0638,
+  "catalogue_regional_per_day": 9.4,
+  "catalogue_tele_per_day": 0.92,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.975,
+  "reference_days_lt10": 1,
+  "site_outage_days_lt10": [
+   1,
+   2,
+   2
+  ],
+  "days_all_sites_lt10": 1,
+  "chance_associated_mean": 11.5,
+  "chance_share": 0.038,
+  "chance_corrected_CG_minus_P3_pp": -0.79,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "PQ",
+  "rule_order": 22,
+  "region": "Alaska-Aleutians-Canada",
+  "datacentre": "EarthScope",
+  "lat": 56.76629,
+  "lon": -121.25867,
+  "reference": "PQ.NAB1..HHZ",
+  "platform": "p10-fleet-6-a",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   61.0,
+   73.2,
+   120.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "C0",
+  "rule_order": 23,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 38.9641,
+  "lon": -105.1492,
+  "reference": "C0.Q24A.00.HHZ",
+  "platform": "laptop",
+  "state": "done",
+  "merged_sites": [
+   [
+    "C0.MCSU.00.HHZ",
+    "C0.N23A.00.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   170.5,
+   182.3,
+   187.4
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 5486,
+  "associated": 118,
+  "association_rate": 0.0215,
+  "catalogue_regional_per_day": 21.51,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 27.61,
+  "chance_share": 0.234,
+  "chance_corrected_CG_minus_P3_pp": 7.27,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "CZ",
+  "rule_order": 24,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "EarthScope",
+  "lat": 49.1309,
+  "lon": 13.5782,
+  "reference": "CZ.KHC..HHZ",
+  "platform": "p10-seismic-b",
+  "state": "incomplete",
+  "merged_sites": [
+   [
+    "CZ.PRU..HHZ",
+    "CZ.PRA..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   56.2,
+   88.5,
+   118.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "NY",
+  "rule_order": 25,
+  "region": "Alaska-Aleutians-Canada",
+  "datacentre": "EarthScope",
+  "lat": 63.59581,
+  "lon": -135.89209,
+  "reference": "NY.MAYO..HHZ",
+  "platform": "p10-fleet-1-b",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   256.9,
+   452.7,
+   536.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4303,
+  "associated": 51,
+  "association_rate": 0.0119,
+  "catalogue_regional_per_day": 18.21,
+  "catalogue_tele_per_day": 0.99,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.998,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   19,
+   170,
+   30
+  ],
+  "days_all_sites_lt10": 3,
+  "chance_associated_mean": 16.65,
+  "chance_share": 0.326,
+  "chance_corrected_CG_minus_P3_pp": -0.7,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": [
+   "site 2 missing on >90% of days"
+  ]
+ },
+ {
+  "batch": "B",
+  "network": "O2",
+  "rule_order": 26,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 35.3406,
+  "lon": -95.1056,
+  "reference": "O2.STIG..HHZ",
+  "platform": "p10-fleet-5-sO2",
+  "state": "tuning_failed",
+  "merged_sites": [
+   [
+    "O2.DUST..HHZ",
+    "O2.DRIP..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   36.4,
+   91.3,
+   130.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "SI",
+  "rule_order": 27,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "INGV",
+  "lat": 45.9595,
+  "lon": 10.9436,
+  "reference": "SI.LUSI..HHZ",
+  "platform": "p10-fleet-3-b",
+  "state": "done",
+  "merged_sites": [
+   [
+    "SI.KOSI..BHZ",
+    "SI.BOSI..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   65.2,
+   79.1,
+   113.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 26984,
+  "associated": 758,
+  "association_rate": 0.0281,
+  "catalogue_regional_per_day": 38.33,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   52,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 338.07,
+  "chance_share": 0.446,
+  "chance_corrected_CG_minus_P3_pp": 11.98,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "WU",
+  "rule_order": 28,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 43.09489,
+  "lon": -79.86992,
+  "reference": "WU.TYNO..HHZ",
+  "platform": "p10-fleet-5-sWU",
+  "state": "done",
+  "merged_sites": [
+   [
+    "WU.PKRO..HHZ",
+    "WU.DRCO..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   59.2,
+   115.1,
+   116.1
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 7974,
+  "associated": 29,
+  "association_rate": 0.0036,
+  "catalogue_regional_per_day": 1.88,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   8,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 4.79,
+  "chance_share": 0.165,
+  "chance_corrected_CG_minus_P3_pp": -5.49,
+  "included_in_pooled_by_scorer": false,
+  "auto_flags": [
+   "fewer than 30 associated episodes (pre-registered exclusion)"
+  ]
+ },
+ {
+  "batch": "B",
+  "network": "BW",
+  "rule_order": 29,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "LMU",
+  "lat": 48.705232,
+  "lon": 10.558995,
+  "reference": "BW.WARN..BHZ",
+  "platform": "p10-fleet-5-b",
+  "state": "done",
+  "merged_sites": [
+   [
+    "BW.GELB..BHZ",
+    "BW.BIB..BHZ"
+   ],
+   [
+    "BW.PART..BHZ",
+    "BW.ZUGS..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   79.0,
+   130.7,
+   140.6
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 12395,
+  "associated": 260,
+  "association_rate": 0.021,
+  "catalogue_regional_per_day": 31.43,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   75,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 95.8,
+  "chance_share": 0.368,
+  "chance_corrected_CG_minus_P3_pp": 14.07,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "LD",
+  "rule_order": 30,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 41.72612,
+  "lon": -73.48425,
+  "reference": "LD.KSCT..BHZ",
+  "platform": "p10-fleet-6-b",
+  "state": "done",
+  "merged_sites": [
+   [
+    "LD.NPNY..BHZ",
+    "LD.BRNY..BHZ"
+   ],
+   [
+    "LD.PAL..BHZ",
+    "LD.FOR..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   54.8,
+   87.6,
+   104.7
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4231,
+  "associated": 5,
+  "association_rate": 0.0012,
+  "catalogue_regional_per_day": 1.77,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.995,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 2.89,
+  "chance_share": 0.578,
+  "chance_corrected_CG_minus_P3_pp": -9.48,
+  "included_in_pooled_by_scorer": false,
+  "auto_flags": [
+   "fewer than 30 associated episodes (pre-registered exclusion)",
+   "chance-associated share > 0.5"
+  ]
+ },
+ {
+  "batch": "B",
+  "network": "PL",
+  "rule_order": 31,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "EarthScope",
+  "lat": 50.8428,
+  "lon": 16.2931,
+  "reference": "PL.KSP..BHZ",
+  "platform": "p10-fleet-6-sPL",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   257.2,
+   277.5,
+   327.3
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 3226,
+  "associated": 149,
+  "association_rate": 0.0462,
+  "catalogue_regional_per_day": 31.65,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.995,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   112,
+   38,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 25.88,
+  "chance_share": 0.174,
+  "chance_corrected_CG_minus_P3_pp": 3.81,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "IW",
+  "rule_order": 32,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 43.4151,
+  "lon": -115.8278,
+  "reference": "IW.MFID.00.BHZ",
+  "platform": "p10-fleet-1-a",
+  "state": "done",
+  "merged_sites": [
+   [
+    "IW.FXWY.00.BHZ",
+    "IW.TPAW.00.BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   186.5,
+   335.8,
+   387.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4948,
+  "associated": 354,
+  "association_rate": 0.0715,
+  "catalogue_regional_per_day": 22.84,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 30.25,
+  "chance_share": 0.085,
+  "chance_corrected_CG_minus_P3_pp": 0.41,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "EI",
+  "rule_order": 33,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "EarthScope",
+  "lat": 54.160708,
+  "lon": -9.379619,
+  "reference": "EI.IMAY..BHZ",
+  "platform": "p10-fleet-6-sEI",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   82.4,
+   150.7,
+   157.4
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "OK",
+  "rule_order": 34,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 36.760615,
+  "lon": -97.215026,
+  "reference": "OK.BLOK..HHZ",
+  "platform": "p10-fleet-3-a",
+  "state": "done",
+  "merged_sites": [
+   [
+    "OK.QUOK..HHZ",
+    "OK.DEOK..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   74.2,
+   79.7,
+   129.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 5902,
+  "associated": 135,
+  "association_rate": 0.0229,
+  "catalogue_regional_per_day": 9.48,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.992,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   3,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 14.1,
+  "chance_share": 0.104,
+  "chance_corrected_CG_minus_P3_pp": -0.73,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "EE",
+  "rule_order": 35,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "GEOFON",
+  "lat": 59.19057,
+  "lon": 24.69683,
+  "reference": "EE.EE02..HHZ",
+  "platform": "p10-fleet-4-a",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   73.2,
+   78.0,
+   108.4
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 13990,
+  "associated": 88,
+  "association_rate": 0.0063,
+  "catalogue_regional_per_day": 5.07,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 17.33,
+  "chance_share": 0.197,
+  "chance_corrected_CG_minus_P3_pp": 2.19,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "UU",
+  "rule_order": 36,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 39.110828,
+  "lon": -110.523827,
+  "reference": "UU.SRU.01.BHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [
+   [
+    "UU.LIUT.01.HHZ",
+    "UU.BRPU.01.HHZ"
+   ],
+   [
+    "UU.CVRU.01.HHZ",
+    "UU.TMU.01.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   38.8,
+   59.9,
+   131.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 3583,
+  "associated": 278,
+  "association_rate": 0.0776,
+  "catalogue_regional_per_day": 22.64,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.983,
+  "reference_days_lt10": 2,
+  "site_outage_days_lt10": [
+   2,
+   2,
+   2
+  ],
+  "days_all_sites_lt10": 2,
+  "chance_associated_mean": 21.05,
+  "chance_share": 0.076,
+  "chance_corrected_CG_minus_P3_pp": 4.41,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "HE",
+  "rule_order": 37,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "GEOFON",
+  "lat": 66.077745,
+  "lon": 24.332007,
+  "reference": "HE.TOF..HHZ",
+  "platform": "p10-fleet-6-a",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   191.1,
+   250.9,
+   260.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4647,
+  "associated": 179,
+  "association_rate": 0.0385,
+  "catalogue_regional_per_day": 4.48,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 5.71,
+  "chance_share": 0.032,
+  "chance_corrected_CG_minus_P3_pp": 0.99,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "TX",
+  "rule_order": 38,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 32.28884,
+  "lon": -94.22517,
+  "reference": "TX.CRHG.00.HHZ",
+  "platform": "p10-fleet-3-sTX",
+  "state": "done",
+  "merged_sites": [
+   [
+    "TX.SNAG.00.HHZ",
+    "TX.ET01.00.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   85.8,
+   152.4,
+   181.6
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 2014,
+  "associated": 35,
+  "association_rate": 0.0174,
+  "catalogue_regional_per_day": 8.21,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.999,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   33,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 4.19,
+  "chance_share": 0.12,
+  "chance_corrected_CG_minus_P3_pp": -2.53,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "FN",
+  "rule_order": 39,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "GEOFON",
+  "lat": 65.91131,
+  "lon": 29.04019,
+  "reference": "FN.MSF..BHZ",
+  "platform": "p10-fleet-3-sFN",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   156.4,
+   171.7,
+   203.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4792,
+  "associated": 218,
+  "association_rate": 0.0455,
+  "catalogue_regional_per_day": 4.21,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 5.39,
+  "chance_share": 0.025,
+  "chance_corrected_CG_minus_P3_pp": 1.77,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "UW",
+  "rule_order": 40,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 47.96477,
+  "lon": -117.3568,
+  "reference": "UW.RVSD..HHZ",
+  "platform": "p10-fleet-4-sUW",
+  "state": "done",
+  "merged_sites": [
+   [
+    "UW.BHCR..HHZ",
+    "UW.DAVN..HHZ"
+   ],
+   [
+    "UW.LBRT..HHZ",
+    "UW.LMONT..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   54.0,
+   64.8,
+   120.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 3857,
+  "associated": 46,
+  "association_rate": 0.0119,
+  "catalogue_regional_per_day": 15.95,
+  "catalogue_tele_per_day": 0.95,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.999,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 12.76,
+  "chance_share": 0.277,
+  "chance_corrected_CG_minus_P3_pp": 2.65,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "HL",
+  "rule_order": 41,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "EarthScope",
+  "lat": 41.145031,
+  "lon": 25.53553,
+  "reference": "HL.RDO..HHZ",
+  "platform": "p10-seismic-sHL",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   511.1,
+   539.7,
+   592.4
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4719,
+  "associated": 684,
+  "association_rate": 0.1449,
+  "catalogue_regional_per_day": 60.09,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.961,
+  "reference_days_lt10": 6,
+  "site_outage_days_lt10": [
+   1,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 67.05,
+  "chance_share": 0.098,
+  "chance_corrected_CG_minus_P3_pp": 12.92,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "SC",
+  "rule_order": 42,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 32.200802,
+  "lon": -104.363701,
+  "reference": "SC.GDL2.00.HHZ",
+  "platform": null,
+  "state": "no status.json",
+  "merged_sites": [
+   [
+    "SC.CL7.00.HHZ",
+    "SC.PDB.00.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   53.2,
+   57.3,
+   103.3
+  ],
+  "chunks_planned": null,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "PE",
+  "rule_order": 43,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 41.75666,
+  "lon": -79.171432,
+  "reference": "PE.PACH..HHZ",
+  "platform": "p10-fleet-4-b",
+  "state": "done",
+  "merged_sites": [
+   [
+    "PE.PACC..HHZ",
+    "PE.POV3.00.HHZ"
+   ],
+   [
+    "PE.PAKC..HHZ",
+    "PE.PALR..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   48.9,
+   50.1,
+   111.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 7726,
+  "associated": 35,
+  "association_rate": 0.0045,
+  "catalogue_regional_per_day": 1.92,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.981,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   3,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 4.9,
+  "chance_share": 0.14,
+  "chance_corrected_CG_minus_P3_pp": 2.16,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "US",
+  "rule_order": 44,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 40.2319,
+  "lon": -82.982,
+  "reference": "US.ACSO.00.BHZ",
+  "platform": "p10-fleet-5-b",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   236.9,
+   274.9,
+   326.6
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "N4",
+  "rule_order": 45,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 37.7605,
+  "lon": -78.9536,
+  "reference": "N4.S57A.00.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   88.8,
+   97.0,
+   117.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 8379,
+  "associated": 34,
+  "association_rate": 0.0041,
+  "catalogue_regional_per_day": 2.18,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   68,
+   0,
+   32
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 5.13,
+  "chance_share": 0.151,
+  "chance_corrected_CG_minus_P3_pp": 3.43,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "ET",
+  "rule_order": 46,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 34.54,
+  "lon": -85.611,
+  "reference": "ET.FPAL.00.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   80.7,
+   141.7,
+   386.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4644,
+  "associated": 79,
+  "association_rate": 0.017,
+  "catalogue_regional_per_day": 4.13,
+  "catalogue_tele_per_day": 1.01,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   41,
+   4,
+   3
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 5.16,
+  "chance_share": 0.065,
+  "chance_corrected_CG_minus_P3_pp": 0.07,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "CU",
+  "rule_order": 47,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 18.982121,
+  "lon": -71.287836,
+  "reference": "CU.SDDR.00.BHZ",
+  "platform": "kaggle",
+  "state": "tuning_failed",
+  "merged_sites": [],
+  "site_dist_km": [
+   281.7,
+   414.3,
+   663.6
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 0
+ },
+ {
+  "batch": "B",
+  "network": "AE",
+  "rule_order": 48,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 34.529301,
+  "lon": -109.950104,
+  "reference": "AE.X18A..HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   68.3,
+   115.0,
+   137.2
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 3642,
+  "associated": 300,
+  "association_rate": 0.0824,
+  "catalogue_regional_per_day": 21.39,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.978,
+  "reference_days_lt10": 2,
+  "site_outage_days_lt10": [
+   10,
+   2,
+   2
+  ],
+  "days_all_sites_lt10": 2,
+  "chance_associated_mean": 18.67,
+  "chance_share": 0.062,
+  "chance_corrected_CG_minus_P3_pp": 4.03,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "WW",
+  "rule_order": 49,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 46.70853,
+  "lon": -116.93362,
+  "reference": "WW.TBID.00.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   57.9,
+   240.5,
+   297.2
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4693,
+  "associated": 182,
+  "association_rate": 0.0388,
+  "catalogue_regional_per_day": 17.84,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.994,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   6,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 18.68,
+  "chance_share": 0.103,
+  "chance_corrected_CG_minus_P3_pp": 8.59,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "MB",
+  "rule_order": 50,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 48.45384,
+  "lon": -115.31912,
+  "reference": "MB.LDM.01.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   110.0,
+   215.0,
+   278.2
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 1654,
+  "associated": 187,
+  "association_rate": 0.1131,
+  "catalogue_regional_per_day": 15.53,
+  "catalogue_tele_per_day": 0.95,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.98,
+  "reference_days_lt10": 2,
+  "site_outage_days_lt10": [
+   2,
+   138,
+   2
+  ],
+  "days_all_sites_lt10": 2,
+  "chance_associated_mean": 7.02,
+  "chance_share": 0.038,
+  "chance_corrected_CG_minus_P3_pp": 2.39,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "AG",
+  "rule_order": 51,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 33.688,
+  "lon": -93.112,
+  "reference": "AG.WLAR.00.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   55.8,
+   92.5,
+   126.4
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 7418,
+  "associated": 56,
+  "association_rate": 0.0075,
+  "catalogue_regional_per_day": 8.31,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 15.07,
+  "chance_share": 0.269,
+  "chance_corrected_CG_minus_P3_pp": 6.84,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "CO",
+  "rule_order": 52,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 34.82097,
+  "lon": -81.8144,
+  "reference": "CO.PAULI.00.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   77.2,
+   78.6,
+   103.7
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 4287,
+  "associated": 34,
+  "association_rate": 0.0079,
+  "catalogue_regional_per_day": 3.86,
+  "catalogue_tele_per_day": 0.98,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 1.0,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 4.42,
+  "chance_share": 0.13,
+  "chance_corrected_CG_minus_P3_pp": -5.41,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "NE",
+  "rule_order": 53,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 42.7313,
+  "lon": -73.6664,
+  "reference": "NE.TRY.00.HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   155.6,
+   175.7,
+   191.5
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 5349,
+  "associated": 51,
+  "association_rate": 0.0095,
+  "catalogue_regional_per_day": 1.76,
+  "catalogue_tele_per_day": 0.97,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.997,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 3.07,
+  "chance_share": 0.06,
+  "chance_corrected_CG_minus_P3_pp": 1.54,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "B",
+  "network": "UO",
+  "rule_order": 54,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 45.71915,
+  "lon": -118.62193,
+  "reference": "UO.CBARC..HHZ",
+  "platform": "kaggle",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   96.8,
+   108.4,
+   207.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-01-08",
+   "2024-07-07"
+  ],
+  "calendar_days": 182,
+  "episodes": 2575,
+  "associated": 156,
+  "association_rate": 0.0606,
+  "catalogue_regional_per_day": 19.35,
+  "catalogue_tele_per_day": 0.96,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.999,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 12.3,
+  "chance_share": 0.079,
+  "chance_corrected_CG_minus_P3_pp": 1.06,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "EXT12",
+  "network": "OH",
+  "rule_order": 1,
+  "region": "USA-Mexico",
+  "datacentre": "EarthScope",
+  "lat": 40.04307,
+  "lon": -81.009361,
+  "reference": "OH.BSPO..HHZ",
+  "platform": null,
+  "state": "no status.json",
+  "merged_sites": [
+   [
+    "OH.WODO.10.HHZ",
+    "OH.FOXO.10.HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   28.7,
+   111.2,
+   121.8
+  ],
+  "chunks_planned": null,
+  "chunks_done": 0
+ },
+ {
+  "batch": "EXT12",
+  "network": "IV",
+  "rule_order": 2,
+  "region": "Europe incl. Alps-Balkans",
+  "datacentre": "INGV",
+  "lat": 39.366,
+  "lon": 9.296,
+  "reference": "IV.CGL..BHZ",
+  "platform": "p10-fleet-1-x",
+  "state": "done",
+  "merged_sites": [
+   [
+    "IV.MARS..HHZ",
+    "IV.MTGR..HHZ"
+   ]
+  ],
+  "site_dist_km": [
+   109.1,
+   196.1,
+   336.0
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-07-08",
+   "2025-01-07"
+  ],
+  "calendar_days": 184,
+  "episodes": 8209,
+  "associated": 221,
+  "association_rate": 0.0269,
+  "catalogue_regional_per_day": 42.2,
+  "catalogue_tele_per_day": 0.9,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.989,
+  "reference_days_lt10": 1,
+  "site_outage_days_lt10": [
+   36,
+   28,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 75.41,
+  "chance_share": 0.341,
+  "chance_corrected_CG_minus_P3_pp": 6.57,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "EXT12",
+  "network": "AU",
+  "rule_order": 4,
+  "region": "New Zealand-SW Pacific",
+  "datacentre": "EarthScope",
+  "lat": -34.6094,
+  "lon": 116.9773,
+  "reference": "AU.RKGY.00.BHZ",
+  "platform": "p10-fleet-3-x",
+  "state": "done",
+  "merged_sites": [
+   [
+    "AU.MUN.00.BHZ",
+    "AU.CARL.00.BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   154.5,
+   188.6,
+   301.1
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-07-08",
+   "2025-01-07"
+  ],
+  "calendar_days": 184,
+  "episodes": 4974,
+  "associated": 82,
+  "association_rate": 0.0165,
+  "catalogue_regional_per_day": 1.06,
+  "catalogue_tele_per_day": 0.9,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.998,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   167,
+   7,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 1.75,
+  "chance_share": 0.021,
+  "chance_corrected_CG_minus_P3_pp": -0.07,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": [
+   "site 1 missing on >90% of days"
+  ]
+ },
+ {
+  "batch": "EXT12",
+  "network": "C1",
+  "rule_order": 5,
+  "region": "South America",
+  "datacentre": "EarthScope",
+  "lat": -34.7924,
+  "lon": -70.7814,
+  "reference": "C1.BO02..BHZ",
+  "platform": "p10-fleet-4-x",
+  "state": "done",
+  "merged_sites": [
+   [
+    "C1.BO04..BHZ",
+    "C1.MT09..BHZ"
+   ],
+   [
+    "C1.MT01..BHZ",
+    "C1.VA05..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   52.5,
+   90.7,
+   111.9
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-07-08",
+   "2025-01-07"
+  ],
+  "calendar_days": 184,
+  "episodes": 4364,
+  "associated": 827,
+  "association_rate": 0.1895,
+  "catalogue_regional_per_day": 23.62,
+  "catalogue_tele_per_day": 0.85,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.922,
+  "reference_days_lt10": 3,
+  "site_outage_days_lt10": [
+   1,
+   5,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 25.3,
+  "chance_share": 0.031,
+  "chance_corrected_CG_minus_P3_pp": -0.2,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "EXT12",
+  "network": "AV",
+  "rule_order": 6,
+  "region": "Alaska-Aleutians-Canada",
+  "datacentre": "EarthScope",
+  "lat": 55.149621,
+  "lon": -161.86472,
+  "reference": "AV.DOL..BHZ",
+  "platform": "p10-fleet-5-x",
+  "state": "done",
+  "merged_sites": [
+   [
+    "AV.PS4A..BHZ",
+    "AV.DTN..BHZ"
+   ],
+   [
+    "AV.DEER..BHZ",
+    "AV.BLDW..BHZ"
+   ]
+  ],
+  "site_dist_km": [
+   21.8,
+   35.4,
+   127.1
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-07-08",
+   "2025-01-07"
+  ],
+  "calendar_days": 184,
+  "episodes": 2193,
+  "associated": 710,
+  "association_rate": 0.3238,
+  "catalogue_regional_per_day": 31.64,
+  "catalogue_tele_per_day": 0.83,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.991,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   0,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 18.52,
+  "chance_share": 0.026,
+  "chance_corrected_CG_minus_P3_pp": 3.14,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "EXT12",
+  "network": "KR",
+  "rule_order": 7,
+  "region": "Central Asia",
+  "datacentre": "EarthScope",
+  "lat": 39.477613,
+  "lon": 71.799456,
+  "reference": "KR.DRK.00.HHZ",
+  "platform": "p10-fleet-6-x",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   106.6,
+   143.5,
+   157.8
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-07-08",
+   "2025-01-07"
+  ],
+  "calendar_days": 184,
+  "episodes": 3061,
+  "associated": 271,
+  "association_rate": 0.0885,
+  "catalogue_regional_per_day": 16.5,
+  "catalogue_tele_per_day": 0.89,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.946,
+  "reference_days_lt10": 0,
+  "site_outage_days_lt10": [
+   0,
+   2,
+   0
+  ],
+  "days_all_sites_lt10": 0,
+  "chance_associated_mean": 11.53,
+  "chance_share": 0.043,
+  "chance_corrected_CG_minus_P3_pp": 0.07,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": []
+ },
+ {
+  "batch": "EXT12",
+  "network": "JP",
+  "rule_order": 8,
+  "region": "East Asia-West Pacific",
+  "datacentre": "EarthScope",
+  "lat": 42.018501,
+  "lon": 143.153503,
+  "reference": "JP.JEM..BHZ",
+  "platform": "colab",
+  "state": "done",
+  "merged_sites": [],
+  "site_dist_km": [
+   167.4,
+   221.4,
+   237.9
+  ],
+  "chunks_planned": 2,
+  "chunks_done": 2,
+  "period": [
+   "2024-07-08",
+   "2025-01-07"
+  ],
+  "calendar_days": 184,
+  "episodes": 8094,
+  "associated": 84,
+  "association_rate": 0.0104,
+  "catalogue_regional_per_day": 48.82,
+  "catalogue_tele_per_day": 0.83,
+  "catalogue_failures": [],
+  "fetch_failures": 0,
+  "reference_valid_share_mean": 0.912,
+  "reference_days_lt10": 16,
+  "site_outage_days_lt10": [
+   16,
+   16,
+   16
+  ],
+  "days_all_sites_lt10": 16,
+  "chance_associated_mean": 82.89,
+  "chance_share": 0.987,
+  "chance_corrected_CG_minus_P3_pp": -234.23,
+  "included_in_pooled_by_scorer": true,
+  "auto_flags": [
+   "chance-associated share > 0.5"
+  ]
+ }
+]

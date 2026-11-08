@@ -1,0 +1,6 @@
+2026-11-08T07:21:33Z SC rescue candidates ['2024-01-01']
+2026-11-08T07:24:10Z SC tune attempt 1: rc=-15 157s thresholds=yes
+2026-11-08T07:24:10Z SC rescue thresholds {'MAKZ': 13.098952060070218, 'S1_1': 12.869858680447939, 'S2_1': 7.720500504424409, 'S2_2': 6.925961187171191, 'S3_1': 7.629622040986917} (window 2024-01-01)
+2026-11-08T07:56:28Z SC out_2024-01-08 attempt 1: rc=0 1938s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:03:30Z SC out_2024-04-08 attempt 1: rc=0 2300s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:03:30Z SC FINISHED state=done

@@ -1,0 +1,169 @@
+thresholds {'MAKZ': 7.010977, 'MK31': 7.384668, 'KURK': 6.796058, 'WUS': 3.490711}
+{'day': '2024-07-01', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-02', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-03', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-04', 'MAKZ_valid_share': 0.9953, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-05', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-06', 'MAKZ_valid_share': 0.994, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-07', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-08', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-09', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-10', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-11', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-12', 'MAKZ_valid_share': 0.9894, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-13', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-14', 'MAKZ_valid_share': 0.9976, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-15', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 0.9979, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-16', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-17', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-18', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-19', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-20', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-21', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.997, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-22', 'MAKZ_valid_share': 0.9868, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-23', 'MAKZ_valid_share': 0.2884, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-24', 'MAKZ_valid_share': 0.5615, 'MK31_valid_share': 0.9888, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.9984}
+{'day': '2024-07-25', 'MAKZ_valid_share': 0.9964, 'MK31_valid_share': 0.9914, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-26', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-27', 'MAKZ_valid_share': 0.9941, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-28', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-29', 'MAKZ_valid_share': 0.9906, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-30', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-07-31', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-01', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-02', 'MAKZ_valid_share': 0.9871, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-03', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-04', 'MAKZ_valid_share': 0.9472, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-05', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-06', 'MAKZ_valid_share': 0.9739, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-07', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-08', 'MAKZ_valid_share': 0.9906, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-09', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-10', 'MAKZ_valid_share': 0.9953, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-11', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-12', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-13', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-14', 'MAKZ_valid_share': 0.9976, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-15', 'MAKZ_valid_share': 0.3094, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-16', 'MAKZ_valid_share': 0.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-17', 'MAKZ_valid_share': 0.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-18', 'MAKZ_valid_share': 0.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-19', 'MAKZ_valid_share': 0.8207, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-20', 'MAKZ_valid_share': 0.9906, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-21', 'MAKZ_valid_share': 0.9881, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-22', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-23', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-24', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-25', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-26', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-27', 'MAKZ_valid_share': 0.994, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-28', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-29', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-30', 'MAKZ_valid_share': 0.9885, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-08-31', 'MAKZ_valid_share': 0.9925, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-01', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-02', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-03', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-04', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-05', 'MAKZ_valid_share': 0.994, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-06', 'MAKZ_valid_share': 0.9977, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-07', 'MAKZ_valid_share': 0.9834, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-08', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 0.9979, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-09', 'MAKZ_valid_share': 0.9856, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-10', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-11', 'MAKZ_valid_share': 0.9941, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-12', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-13', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-14', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-15', 'MAKZ_valid_share': 0.9869, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-16', 'MAKZ_valid_share': 0.9881, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-17', 'MAKZ_valid_share': 0.993, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-18', 'MAKZ_valid_share': 0.9917, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-19', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 0.9936, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-20', 'MAKZ_valid_share': 0.9918, 'MK31_valid_share': 0.9486, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-21', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 0.9757, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-22', 'MAKZ_valid_share': 0.9882, 'MK31_valid_share': 0.9957, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-23', 'MAKZ_valid_share': 0.9927, 'MK31_valid_share': 0.9817, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-24', 'MAKZ_valid_share': 0.9515, 'MK31_valid_share': 0.8695, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-25', 'MAKZ_valid_share': 0.9918, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-26', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-27', 'MAKZ_valid_share': 0.9947, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-28', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-29', 'MAKZ_valid_share': 0.9888, 'MK31_valid_share': 0.9987, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-09-30', 'MAKZ_valid_share': 0.9894, 'MK31_valid_share': 0.9936, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+MK31 distance_km 24.0 window_s 9.4
+KURK distance_km 499.6 window_s 95.8
+WUS distance_km 661.1 window_s 125.2
+{
+ "version": "v3",
+ "dev_days": 92,
+ "thresholds_q99.9": {
+  "MAKZ": 7.010977,
+  "MK31": 7.384668,
+  "KURK": 6.796058,
+  "WUS": 3.490711
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "IU.MAKZ.00.BHZ"
+  ],
+  "MK31": [
+   "IM.MK31..BHZ"
+  ],
+  "KURK": [
+   "II.KURK.00.BHZ"
+  ],
+  "WUS": [
+   "G.WUS.00.BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 3156,
+  "MK31": 3118,
+  "KURK": 1760,
+  "WUS": 22425
+ },
+ "ref_episodes_per_day": 34.30434782608695,
+ "catalog_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 23,
+ "catalog": {
+  "regional": 2759,
+  "tele": 76
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2024-07-01T00:00:00.000000Z",
+   "2024-07-01T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2024-07-01T00:00:00.000000Z",
+   "2024-10-01T00:00:00.000000Z"
+  ]
+ }
+}

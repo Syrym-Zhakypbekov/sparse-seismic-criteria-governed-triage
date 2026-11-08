@@ -1,0 +1,176 @@
+{
+ "network": "CZ",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-seismic",
+ "platform": "p10-seismic-b",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "CZ",
+   "KHC",
+   "",
+   "HHZ",
+   49.1309,
+   13.5782
+  ],
+  "S1_1": [
+   "CZ",
+   "ZVC",
+   "",
+   "HHZ",
+   49.4392,
+   14.1928
+  ],
+  "S2_1": [
+   "CZ",
+   "PRIC",
+   "",
+   "HHZ",
+   49.6693,
+   12.6782
+  ],
+  "S3_1": [
+   "CZ",
+   "PRU",
+   "",
+   "HHZ",
+   49.9883,
+   14.5417
+  ],
+  "S3_2": [
+   "CZ",
+   "PRA",
+   "",
+   "BHZ",
+   50.0703,
+   14.4331
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 117,
+     "end_utc": "2026-11-07T19:32:47Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 1,
+     "seconds": 2027,
+     "end_utc": "2026-11-07T20:06:34Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 2,
+     "rc": 1,
+     "seconds": 183,
+     "end_utc": "2026-11-07T20:10:07Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 3,
+     "rc": 1,
+     "seconds": 123,
+     "end_utc": "2026-11-07T20:13:10Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 4,
+     "rc": 1,
+     "seconds": 125,
+     "end_utc": "2026-11-07T20:16:45Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    }
+   ],
+   "ok": false,
+   "final": "summary missing"
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 1,
+     "seconds": 425,
+     "end_utc": "2026-11-07T19:40:52Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 2,
+     "rc": 1,
+     "seconds": 67,
+     "end_utc": "2026-11-07T19:42:29Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 3,
+     "rc": 1,
+     "seconds": 49,
+     "end_utc": "2026-11-07T19:44:19Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 4,
+     "rc": 1,
+     "seconds": 50,
+     "end_utc": "2026-11-07T19:46:39Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    }
+   ],
+   "ok": false,
+   "final": "summary missing"
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:50Z",
+ "state": "incomplete",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 5.272934152879962,
+  "S1_1": 12.045071541310064,
+  "S2_1": 8.745431301130992,
+  "S3_1": 3.777412330559737,
+  "S3_2": 6.250958608900778
+ },
+ "finished_utc": "2026-11-07T20:18:45Z"
+}

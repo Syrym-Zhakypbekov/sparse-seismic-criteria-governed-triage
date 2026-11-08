@@ -1,0 +1,120 @@
+{
+ "network": "IV",
+ "config_file": "results/v2/networks.json",
+ "host": "p10-fleet-1",
+ "platform": "p10-fleet-1-t",
+ "fdsn_base": "https://webservices.ingv.it",
+ "stations": {
+  "MAKZ": [
+   "IV",
+   "CGL",
+   "",
+   "BHZ",
+   39.366,
+   9.296
+  ],
+  "S1_1": [
+   "IV",
+   "DGI",
+   "",
+   "HHZ",
+   40.31802,
+   9.60668
+  ],
+  "S2_1": [
+   "IV",
+   "AGLI",
+   "",
+   "HHZ",
+   41.1269,
+   9.1733
+  ],
+  "S3_1": [
+   "IV",
+   "MARS",
+   "",
+   "HHZ",
+   37.7532,
+   12.5647
+  ],
+  "S3_2": [
+   "IV",
+   "MTGR",
+   "",
+   "HHZ",
+   37.89337,
+   12.75932
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 332,
+     "end_utc": "2026-11-07T19:38:18Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 3654,
+     "end_utc": "2026-11-07T20:39:12Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 3542,
+     "end_utc": "2026-11-07T20:38:20Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:32:46Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 3.9337584650993733,
+  "S1_1": 4.338362800770845,
+  "S2_1": 4.45111259840932,
+  "S3_1": 4.482808486156803,
+  "S3_2": 5.080867683810387
+ },
+ "finished_utc": "2026-11-07T20:39:12Z"
+}

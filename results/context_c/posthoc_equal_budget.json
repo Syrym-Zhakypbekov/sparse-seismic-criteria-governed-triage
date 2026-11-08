@@ -1,0 +1,237 @@
+{
+ "note": "exploratory, post hoc; not a pre-specified test",
+ "sets": {
+  "T1": {
+   "CG_ctx": {
+    "esc": 87915,
+    "dis": 61,
+    "alert_unassoc": 6521
+   },
+   "mean_ctx_on_NO": 0.348,
+   "constant_c_grid": {
+    "0.05": {
+     "esc": 147916,
+     "dis": 0,
+     "alert_unassoc": 10701
+    },
+    "0.1": {
+     "esc": 104207,
+     "dis": 18,
+     "alert_unassoc": 12830
+    },
+    "0.15": {
+     "esc": 96530,
+     "dis": 29,
+     "alert_unassoc": 12515
+    },
+    "0.2": {
+     "esc": 92725,
+     "dis": 35,
+     "alert_unassoc": 11428
+    },
+    "0.25": {
+     "esc": 89033,
+     "dis": 42,
+     "alert_unassoc": 10372
+    },
+    "0.3": {
+     "esc": 85343,
+     "dis": 53,
+     "alert_unassoc": 9501
+    },
+    "0.35": {
+     "esc": 80908,
+     "dis": 60,
+     "alert_unassoc": 8917
+    },
+    "0.4": {
+     "esc": 77357,
+     "dis": 68,
+     "alert_unassoc": 8307
+    },
+    "0.45": {
+     "esc": 74555,
+     "dis": 78,
+     "alert_unassoc": 7195
+    },
+    "0.5": {
+     "esc": 71251,
+     "dis": 81,
+     "alert_unassoc": 6842
+    },
+    "0.55": {
+     "esc": 68098,
+     "dis": 91,
+     "alert_unassoc": 6554
+    },
+    "0.6": {
+     "esc": 65237,
+     "dis": 100,
+     "alert_unassoc": 6288
+    },
+    "0.65": {
+     "esc": 62546,
+     "dis": 109,
+     "alert_unassoc": 6046
+    },
+    "0.7": {
+     "esc": 60029,
+     "dis": 124,
+     "alert_unassoc": 5775
+    },
+    "0.75": {
+     "esc": 57642,
+     "dis": 131,
+     "alert_unassoc": 5579
+    },
+    "0.8": {
+     "esc": 55424,
+     "dis": 144,
+     "alert_unassoc": 5422
+    },
+    "0.85": {
+     "esc": 53385,
+     "dis": 152,
+     "alert_unassoc": 5250
+    },
+    "0.9": {
+     "esc": 51555,
+     "dis": 160,
+     "alert_unassoc": 5114
+    },
+    "0.95": {
+     "esc": 49864,
+     "dis": 165,
+     "alert_unassoc": 4995
+    },
+    "1.0": {
+     "esc": 48224,
+     "dis": 175,
+     "alert_unassoc": 4890
+    }
+   },
+   "constant_c_with_at_least_ctx_escalations": 0.25,
+   "at_that_c": {
+    "esc": 89033,
+    "dis": 42,
+    "alert_unassoc": 10372
+   }
+  },
+  "T2": {
+   "CG_ctx": {
+    "esc": 111619,
+    "dis": 418,
+    "alert_unassoc": 6671
+   },
+   "mean_ctx_on_NO": 0.364,
+   "constant_c_grid": {
+    "0.05": {
+     "esc": 172638,
+     "dis": 0,
+     "alert_unassoc": 12491
+    },
+    "0.1": {
+     "esc": 126192,
+     "dis": 231,
+     "alert_unassoc": 16129
+    },
+    "0.15": {
+     "esc": 118463,
+     "dis": 288,
+     "alert_unassoc": 15151
+    },
+    "0.2": {
+     "esc": 114890,
+     "dis": 331,
+     "alert_unassoc": 13404
+    },
+    "0.25": {
+     "esc": 110892,
+     "dis": 362,
+     "alert_unassoc": 11909
+    },
+    "0.3": {
+     "esc": 107044,
+     "dis": 414,
+     "alert_unassoc": 10703
+    },
+    "0.35": {
+     "esc": 102326,
+     "dis": 453,
+     "alert_unassoc": 9835
+    },
+    "0.4": {
+     "esc": 98390,
+     "dis": 492,
+     "alert_unassoc": 9039
+    },
+    "0.45": {
+     "esc": 95227,
+     "dis": 546,
+     "alert_unassoc": 7738
+    },
+    "0.5": {
+     "esc": 91420,
+     "dis": 576,
+     "alert_unassoc": 7284
+    },
+    "0.55": {
+     "esc": 87779,
+     "dis": 612,
+     "alert_unassoc": 6905
+    },
+    "0.6": {
+     "esc": 84390,
+     "dis": 654,
+     "alert_unassoc": 6552
+    },
+    "0.65": {
+     "esc": 81232,
+     "dis": 697,
+     "alert_unassoc": 6228
+    },
+    "0.7": {
+     "esc": 78235,
+     "dis": 752,
+     "alert_unassoc": 5894
+    },
+    "0.75": {
+     "esc": 75338,
+     "dis": 784,
+     "alert_unassoc": 5644
+    },
+    "0.8": {
+     "esc": 72641,
+     "dis": 825,
+     "alert_unassoc": 5439
+    },
+    "0.85": {
+     "esc": 70169,
+     "dis": 852,
+     "alert_unassoc": 5227
+    },
+    "0.9": {
+     "esc": 67884,
+     "dis": 889,
+     "alert_unassoc": 5067
+    },
+    "0.95": {
+     "esc": 65747,
+     "dis": 915,
+     "alert_unassoc": 4931
+    },
+    "1.0": {
+     "esc": 63676,
+     "dis": 948,
+     "alert_unassoc": 4807
+    }
+   },
+   "constant_c_with_at_least_ctx_escalations": 0.2,
+   "at_that_c": {
+    "esc": 114890,
+    "dis": 331,
+    "alert_unassoc": 13404
+   }
+  }
+ }
+}

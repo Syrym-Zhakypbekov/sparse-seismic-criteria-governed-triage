@@ -1,0 +1,6 @@
+2026-11-08T07:21:41Z AW rescue candidates ['2024-01-11', '2024-01-12', '2024-01-13']
+2026-11-08T07:23:48Z AW tune attempt 1: rc=-15 127s thresholds=yes
+2026-11-08T07:23:48Z AW rescue thresholds {'MAKZ': 4.90385628919209, 'S1_1': 6.715761459600785, 'S2_1': 6.915062442103828, 'S3_1': 4.51393858071618} (window 2024-01-11)
+2026-11-08T07:47:07Z AW out_2024-04-18 attempt 1: rc=0 1338s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:50:20Z AW out_2024-01-18 attempt 1: rc=0 1591s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:50:20Z AW FINISHED state=done

@@ -1,0 +1,3831 @@
+{
+ "status": "post hoc (internal review, 08.11.2026); not pre-specified",
+ "sources": "results/* only; frozen policies P1t 8.0 dB, P3 7.5 dB, CG theta_D 0.16 theta_A 0.60 delta 0.45, CG-D development tables",
+ "1_chance_association": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "rule": "episode associated iff a predicted P (catalogue p_pred, any kind) lies in [t_on - 15 s, t_off]; shifted p_pred wrapped circularly inside the set's calendar span",
+  "shifts": {
+   "days": "100 offsets, uniform 1..7 days, random sign, seed 7",
+   "minutes": "20 offsets, uniform 10..60 min, random sign, seed 7"
+  },
+  "sets": {
+   "development (IU.MAKZ)": {
+    "real": {
+     "associated": 141,
+     "rule_reproduces_pipeline": 1077,
+     "of_episodes": 1077,
+     "dismissed_assoc_P1t": 7,
+     "dismissed_assoc_P3": 5,
+     "dismissed_assoc_CG": 6,
+     "dismissed_assoc_CG-D": 2,
+     "CG_minus_P3_excess": 1,
+     "CGD_minus_P3_excess": -3,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 134,
+     "CG_only_dismissed_associated": 3
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      1.65,
+      0.0,
+      4.5
+     ],
+     "chance_share_of_real_associated_pct": 1.17,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      0.33,
+      0.0,
+      1.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      0.28,
+      0.0,
+      1.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      0.52,
+      0.0,
+      2.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      0.27,
+      0.0,
+      1.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 0.24,
+     "chance_CGD_minus_P3_excess_mean": -0.01,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.18,
+     "real_rate_in_CG_only_dismissed_set_pct": 2.24,
+     "chance_corrected_CG_minus_P3_excess": 0.8,
+     "chance_corrected_CG_minus_P3_pp_approx": 0.55,
+     "real_CG_minus_P3_pp": 0.71
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      1.85,
+      0.0,
+      5.0
+     ],
+     "chance_share_of_real_associated_pct": 1.31,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      0.35,
+      0.0,
+      1.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      0.25,
+      0.0,
+      1.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      0.5,
+      0.0,
+      2.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      0.25,
+      0.0,
+      1.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 0.25,
+     "chance_CGD_minus_P3_excess_mean": 0.0,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.19,
+     "real_rate_in_CG_only_dismissed_set_pct": 2.24,
+     "chance_corrected_CG_minus_P3_excess": 0.8,
+     "chance_corrected_CG_minus_P3_pp_approx": 0.54,
+     "real_CG_minus_P3_pp": 0.71
+    }
+   },
+   "held-out (IU.MAKZ)": {
+    "real": {
+     "associated": 57,
+     "rule_reproduces_pipeline": 317,
+     "of_episodes": 317,
+     "dismissed_assoc_P1t": 0,
+     "dismissed_assoc_P3": 0,
+     "dismissed_assoc_CG": 2,
+     "dismissed_assoc_CG-D": 0,
+     "CG_minus_P3_excess": 2,
+     "CGD_minus_P3_excess": 0,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 37,
+     "CG_only_dismissed_associated": 2
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      0.36,
+      0.0,
+      2.0
+     ],
+     "chance_share_of_real_associated_pct": 0.63,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      0.04,
+      0.0,
+      1.0
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      0.03,
+      0.0,
+      0.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      0.04,
+      0.0,
+      1.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      0.04,
+      0.0,
+      1.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 0.01,
+     "chance_CGD_minus_P3_excess_mean": 0.01,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.03,
+     "real_rate_in_CG_only_dismissed_set_pct": 5.41,
+     "chance_corrected_CG_minus_P3_excess": 2.0,
+     "chance_corrected_CG_minus_P3_pp_approx": 3.51,
+     "real_CG_minus_P3_pp": 3.51
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      0.55,
+      0.0,
+      2.0
+     ],
+     "chance_share_of_real_associated_pct": 0.96,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      0.1,
+      0.0,
+      1.0
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      0.1,
+      0.0,
+      1.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      0.15,
+      0.0,
+      1.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      0.1,
+      0.0,
+      1.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 0.05,
+     "chance_CGD_minus_P3_excess_mean": 0.0,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.14,
+     "real_rate_in_CG_only_dismissed_set_pct": 5.41,
+     "chance_corrected_CG_minus_P3_excess": 1.9,
+     "chance_corrected_CG_minus_P3_pp_approx": 3.45,
+     "real_CG_minus_P3_pp": 3.51
+    }
+   },
+   "extended IU.MAKZ": {
+    "real": {
+     "associated": 2455,
+     "rule_reproduces_pipeline": 18637,
+     "of_episodes": 18637,
+     "dismissed_assoc_P1t": 50,
+     "dismissed_assoc_P3": 38,
+     "dismissed_assoc_CG": 98,
+     "dismissed_assoc_CG-D": 38,
+     "CG_minus_P3_excess": 60,
+     "CGD_minus_P3_excess": 0,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 2480,
+     "CG_only_dismissed_associated": 62
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      119.6,
+      98.0,
+      151.0
+     ],
+     "chance_share_of_real_associated_pct": 4.87,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      21.47,
+      12.5,
+      31.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      18.54,
+      10.0,
+      26.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      32.67,
+      23.0,
+      45.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      20.42,
+      11.9,
+      29.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 14.13,
+     "chance_CGD_minus_P3_excess_mean": 1.88,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.58,
+     "real_rate_in_CG_only_dismissed_set_pct": 2.5,
+     "chance_corrected_CG_minus_P3_excess": 45.9,
+     "chance_corrected_CG_minus_P3_pp_approx": 1.96,
+     "real_CG_minus_P3_pp": 2.44
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      116.9,
+      98.4,
+      135.1
+     ],
+     "chance_share_of_real_associated_pct": 4.76,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      19.35,
+      14.5,
+      26.0
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      16.2,
+      9.5,
+      22.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      30.85,
+      23.5,
+      40.6
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      18.6,
+      13.5,
+      26.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 14.65,
+     "chance_CGD_minus_P3_excess_mean": 2.4,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.6,
+     "real_rate_in_CG_only_dismissed_set_pct": 2.5,
+     "chance_corrected_CG_minus_P3_excess": 45.4,
+     "chance_corrected_CG_minus_P3_pp_approx": 1.94,
+     "real_CG_minus_P3_pp": 2.44
+    }
+   },
+   "extended II.KURK": {
+    "real": {
+     "associated": 1757,
+     "rule_reproduces_pipeline": 17488,
+     "of_episodes": 17488,
+     "dismissed_assoc_P1t": 68,
+     "dismissed_assoc_P3": 49,
+     "dismissed_assoc_CG": 228,
+     "dismissed_assoc_CG-D": 70,
+     "CG_minus_P3_excess": 179,
+     "CGD_minus_P3_excess": 21,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 2859,
+     "CG_only_dismissed_associated": 180
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      107.44,
+      83.4,
+      140.0
+     ],
+     "chance_share_of_real_associated_pct": 6.11,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      13.96,
+      7.5,
+      21.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      11.14,
+      4.5,
+      18.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      27.45,
+      18.0,
+      38.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      12.99,
+      6.0,
+      20.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 16.31,
+     "chance_CGD_minus_P3_excess_mean": 1.85,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.57,
+     "real_rate_in_CG_only_dismissed_set_pct": 6.3,
+     "chance_corrected_CG_minus_P3_excess": 162.7,
+     "chance_corrected_CG_minus_P3_pp_approx": 9.86,
+     "real_CG_minus_P3_pp": 10.19
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      134.05,
+      121.5,
+      154.6
+     ],
+     "chance_share_of_real_associated_pct": 7.63,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      15.8,
+      10.5,
+      21.0
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      13.05,
+      9.0,
+      17.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      36.1,
+      28.9,
+      44.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      15.5,
+      9.9,
+      19.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 23.05,
+     "chance_CGD_minus_P3_excess_mean": 2.45,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.81,
+     "real_rate_in_CG_only_dismissed_set_pct": 6.3,
+     "chance_corrected_CG_minus_P3_excess": 155.9,
+     "chance_corrected_CG_minus_P3_pp_approx": 9.61,
+     "real_CG_minus_P3_pp": 10.19
+    }
+   },
+   "2024 IU.MAKZ": {
+    "real": {
+     "associated": 1238,
+     "rule_reproduces_pipeline": 12300,
+     "of_episodes": 12300,
+     "dismissed_assoc_P1t": 14,
+     "dismissed_assoc_P3": 11,
+     "dismissed_assoc_CG": 34,
+     "dismissed_assoc_CG-D": 17,
+     "CG_minus_P3_excess": 23,
+     "CGD_minus_P3_excess": 6,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 1420,
+     "CG_only_dismissed_associated": 23
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      90.16,
+      67.0,
+      113.5
+     ],
+     "chance_share_of_real_associated_pct": 7.28,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      11.5,
+      6.0,
+      18.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      9.78,
+      5.0,
+      17.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      19.69,
+      12.0,
+      28.5
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      12.56,
+      6.0,
+      19.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 9.91,
+     "chance_CGD_minus_P3_excess_mean": 2.78,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.7,
+     "real_rate_in_CG_only_dismissed_set_pct": 1.62,
+     "chance_corrected_CG_minus_P3_excess": 13.1,
+     "chance_corrected_CG_minus_P3_pp_approx": 1.14,
+     "real_CG_minus_P3_pp": 1.86
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      97.85,
+      81.5,
+      111.0
+     ],
+     "chance_share_of_real_associated_pct": 7.9,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      12.0,
+      6.5,
+      19.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      10.05,
+      5.5,
+      17.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      22.45,
+      15.0,
+      28.5
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      13.6,
+      8.5,
+      20.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 12.4,
+     "chance_CGD_minus_P3_excess_mean": 3.55,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.87,
+     "real_rate_in_CG_only_dismissed_set_pct": 1.62,
+     "chance_corrected_CG_minus_P3_excess": 10.6,
+     "chance_corrected_CG_minus_P3_pp_approx": 0.93,
+     "real_CG_minus_P3_pp": 1.86
+    }
+   },
+   "2024 II.KURK": {
+    "real": {
+     "associated": 947,
+     "rule_reproduces_pipeline": 10322,
+     "of_episodes": 10322,
+     "dismissed_assoc_P1t": 20,
+     "dismissed_assoc_P3": 13,
+     "dismissed_assoc_CG": 101,
+     "dismissed_assoc_CG-D": 30,
+     "CG_minus_P3_excess": 88,
+     "CGD_minus_P3_excess": 17,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 1394,
+     "CG_only_dismissed_associated": 88
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      79.15,
+      57.5,
+      111.0
+     ],
+     "chance_share_of_real_associated_pct": 8.36,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      6.47,
+      2.0,
+      12.0
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      5.41,
+      1.0,
+      11.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      15.46,
+      6.5,
+      28.5
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      7.51,
+      2.0,
+      13.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 10.05,
+     "chance_CGD_minus_P3_excess_mean": 2.1,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.72,
+     "real_rate_in_CG_only_dismissed_set_pct": 6.31,
+     "chance_corrected_CG_minus_P3_excess": 78.0,
+     "chance_corrected_CG_minus_P3_pp_approx": 8.98,
+     "real_CG_minus_P3_pp": 9.29
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      113.45,
+      95.4,
+      132.2
+     ],
+     "chance_share_of_real_associated_pct": 11.98,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      8.6,
+      5.0,
+      12.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      7.25,
+      2.5,
+      11.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      24.15,
+      15.9,
+      32.5
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      10.15,
+      5.0,
+      15.6
+     ],
+     "chance_CG_minus_P3_excess_mean": 16.9,
+     "chance_CGD_minus_P3_excess_mean": 2.9,
+     "chance_rate_in_CG_only_dismissed_set_pct": 1.21,
+     "real_rate_in_CG_only_dismissed_set_pct": 6.31,
+     "chance_corrected_CG_minus_P3_excess": 71.1,
+     "chance_corrected_CG_minus_P3_pp_approx": 8.53,
+     "real_CG_minus_P3_pp": 9.29
+    }
+   },
+   "KZ network": {
+    "real": {
+     "associated": 2250,
+     "rule_reproduces_pipeline": 15739,
+     "of_episodes": 15739,
+     "dismissed_assoc_P1t": 24,
+     "dismissed_assoc_P3": 17,
+     "dismissed_assoc_CG": 102,
+     "dismissed_assoc_CG-D": 36,
+     "CG_minus_P3_excess": 85,
+     "CGD_minus_P3_excess": 19,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 3159,
+     "CG_only_dismissed_associated": 85
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      116.46,
+      90.0,
+      150.0
+     ],
+     "chance_share_of_real_associated_pct": 5.18,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      16.21,
+      9.0,
+      26.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      12.68,
+      5.5,
+      20.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      35.19,
+      25.0,
+      49.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      19.3,
+      12.0,
+      30.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 22.51,
+     "chance_CGD_minus_P3_excess_mean": 6.62,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.71,
+     "real_rate_in_CG_only_dismissed_set_pct": 2.69,
+     "chance_corrected_CG_minus_P3_excess": 62.5,
+     "chance_corrected_CG_minus_P3_pp_approx": 2.93,
+     "real_CG_minus_P3_pp": 3.78
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      119.0,
+      99.0,
+      136.0
+     ],
+     "chance_share_of_real_associated_pct": 5.29,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      14.2,
+      6.0,
+      25.5
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      10.0,
+      4.0,
+      17.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      33.7,
+      21.5,
+      49.3
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      17.4,
+      8.4,
+      29.1
+     ],
+     "chance_CG_minus_P3_excess_mean": 23.7,
+     "chance_CGD_minus_P3_excess_mean": 7.4,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.75,
+     "real_rate_in_CG_only_dismissed_set_pct": 2.69,
+     "chance_corrected_CG_minus_P3_excess": 61.3,
+     "chance_corrected_CG_minus_P3_pp_approx": 2.88,
+     "real_CG_minus_P3_pp": 3.78
+    }
+   },
+   "AK network": {
+    "real": {
+     "associated": 2034,
+     "rule_reproduces_pipeline": 17126,
+     "of_episodes": 17126,
+     "dismissed_assoc_P1t": 5,
+     "dismissed_assoc_P3": 3,
+     "dismissed_assoc_CG": 33,
+     "dismissed_assoc_CG-D": 5,
+     "CG_minus_P3_excess": 30,
+     "CGD_minus_P3_excess": 2,
+     "CG_only_dismissed_episodes(CG=D,P3!=D)": 5064,
+     "CG_only_dismissed_associated": 30
+    },
+    "shift_days": {
+     "chance_associated_mean_lo_hi": [
+      91.6,
+      77.0,
+      110.0
+     ],
+     "chance_share_of_real_associated_pct": 4.5,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      6.64,
+      1.5,
+      12.0
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      4.4,
+      1.0,
+      9.0
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      29.14,
+      19.4,
+      40.0
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      8.49,
+      3.5,
+      14.0
+     ],
+     "chance_CG_minus_P3_excess_mean": 24.74,
+     "chance_CGD_minus_P3_excess_mean": 4.09,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.49,
+     "real_rate_in_CG_only_dismissed_set_pct": 0.59,
+     "chance_corrected_CG_minus_P3_excess": 5.3,
+     "chance_corrected_CG_minus_P3_pp_approx": 0.27,
+     "real_CG_minus_P3_pp": 1.47
+    },
+    "shift_minutes": {
+     "chance_associated_mean_lo_hi": [
+      90.7,
+      71.7,
+      114.2
+     ],
+     "chance_share_of_real_associated_pct": 4.46,
+     "chance_dismissed_P1t_mean_lo_hi": [
+      6.9,
+      2.5,
+      11.6
+     ],
+     "chance_dismissed_P3_mean_lo_hi": [
+      4.1,
+      1.0,
+      6.5
+     ],
+     "chance_dismissed_CG_mean_lo_hi": [
+      29.8,
+      20.5,
+      41.5
+     ],
+     "chance_dismissed_CG-D_mean_lo_hi": [
+      9.15,
+      4.0,
+      13.5
+     ],
+     "chance_CG_minus_P3_excess_mean": 25.7,
+     "chance_CGD_minus_P3_excess_mean": 5.05,
+     "chance_rate_in_CG_only_dismissed_set_pct": 0.51,
+     "real_rate_in_CG_only_dismissed_set_pct": 0.59,
+     "chance_corrected_CG_minus_P3_excess": 4.3,
+     "chance_corrected_CG_minus_P3_pp_approx": 0.22,
+     "real_CG_minus_P3_pp": 1.47
+    }
+   }
+  }
+ },
+ "2_catalogue_density": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "definition": "regional = catalogue kind 'regional' (<= 15 deg of the reference, ISC + USGS de-duplicated); per calendar day of the month in the set's availability; associated episodes per day; CG-P3 = difference of dismissed share of associated episodes in that month",
+  "sets": {
+   "development (IU.MAKZ)": {
+    "months": {
+     "2026-07": {
+      "days": 24,
+      "regional_events_per_day": 6.83,
+      "tele_events_per_day": 1.5,
+      "episodes_per_day": 18.96,
+      "associated_episodes_per_day": 1.92,
+      "associated_share_pct": 10.11,
+      "CG_minus_P3_pp": 2.17,
+      "CG_minus_P3_excess": 1
+     },
+     "2026-08": {
+      "days": 31,
+      "regional_events_per_day": 5.45,
+      "tele_events_per_day": 1.65,
+      "episodes_per_day": 11.65,
+      "associated_episodes_per_day": 1.77,
+      "associated_share_pct": 15.24,
+      "CG_minus_P3_pp": 1.82,
+      "CG_minus_P3_excess": 1
+     },
+     "2026-09": {
+      "days": 30,
+      "regional_events_per_day": 3.9,
+      "tele_events_per_day": 0.83,
+      "episodes_per_day": 8.7,
+      "associated_episodes_per_day": 1.33,
+      "associated_share_pct": 15.33,
+      "CG_minus_P3_pp": -2.5,
+      "CG_minus_P3_excess": -1
+     }
+    },
+    "regional_per_day_median": 5.45,
+    "regional_per_day_min": 3.9,
+    "regional_per_day_max": 6.83
+   },
+   "held-out (IU.MAKZ)": {
+    "months": {
+     "2026-10": {
+      "days": 31,
+      "regional_events_per_day": 3.68,
+      "tele_events_per_day": 1.74,
+      "episodes_per_day": 8.74,
+      "associated_episodes_per_day": 1.61,
+      "associated_share_pct": 18.45,
+      "CG_minus_P3_pp": 4.0,
+      "CG_minus_P3_excess": 2
+     },
+     "2026-11": {
+      "days": 6,
+      "regional_events_per_day": 2.33,
+      "tele_events_per_day": 0.5,
+      "episodes_per_day": 7.67,
+      "associated_episodes_per_day": 1.17,
+      "associated_share_pct": 15.22,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     }
+    },
+    "regional_per_day_median": 3.0,
+    "regional_per_day_min": 2.33,
+    "regional_per_day_max": 3.68
+   },
+   "extended IU.MAKZ": {
+    "months": {
+     "2025-01": {
+      "days": 31,
+      "regional_events_per_day": 16.29,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 30.55,
+      "associated_episodes_per_day": 4.03,
+      "associated_share_pct": 13.2,
+      "CG_minus_P3_pp": 4.0,
+      "CG_minus_P3_excess": 5
+     },
+     "2025-02": {
+      "days": 28,
+      "regional_events_per_day": 28.96,
+      "tele_events_per_day": 0.82,
+      "episodes_per_day": 32.0,
+      "associated_episodes_per_day": 3.86,
+      "associated_share_pct": 12.05,
+      "CG_minus_P3_pp": 7.41,
+      "CG_minus_P3_excess": 8
+     },
+     "2025-03": {
+      "days": 31,
+      "regional_events_per_day": 35.68,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 31.29,
+      "associated_episodes_per_day": 3.87,
+      "associated_share_pct": 12.37,
+      "CG_minus_P3_pp": 0.83,
+      "CG_minus_P3_excess": 1
+     },
+     "2025-04": {
+      "days": 30,
+      "regional_events_per_day": 31.53,
+      "tele_events_per_day": 1.2,
+      "episodes_per_day": 34.87,
+      "associated_episodes_per_day": 4.87,
+      "associated_share_pct": 13.96,
+      "CG_minus_P3_pp": 2.74,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-05": {
+      "days": 31,
+      "regional_events_per_day": 30.26,
+      "tele_events_per_day": 1.32,
+      "episodes_per_day": 32.71,
+      "associated_episodes_per_day": 5.87,
+      "associated_share_pct": 17.95,
+      "CG_minus_P3_pp": 2.2,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-06": {
+      "days": 30,
+      "regional_events_per_day": 33.3,
+      "tele_events_per_day": 0.97,
+      "episodes_per_day": 46.57,
+      "associated_episodes_per_day": 5.23,
+      "associated_share_pct": 11.24,
+      "CG_minus_P3_pp": 2.55,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-07": {
+      "days": 31,
+      "regional_events_per_day": 33.61,
+      "tele_events_per_day": 3.16,
+      "episodes_per_day": 64.48,
+      "associated_episodes_per_day": 6.29,
+      "associated_share_pct": 9.75,
+      "CG_minus_P3_pp": 2.05,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-08": {
+      "days": 31,
+      "regional_events_per_day": 32.1,
+      "tele_events_per_day": 1.65,
+      "episodes_per_day": 45.0,
+      "associated_episodes_per_day": 6.06,
+      "associated_share_pct": 13.48,
+      "CG_minus_P3_pp": -1.06,
+      "CG_minus_P3_excess": -2
+     },
+     "2025-09": {
+      "days": 30,
+      "regional_events_per_day": 37.87,
+      "tele_events_per_day": 1.2,
+      "episodes_per_day": 69.3,
+      "associated_episodes_per_day": 7.73,
+      "associated_share_pct": 11.16,
+      "CG_minus_P3_pp": 5.17,
+      "CG_minus_P3_excess": 12
+     },
+     "2025-10": {
+      "days": 31,
+      "regional_events_per_day": 35.0,
+      "tele_events_per_day": 1.65,
+      "episodes_per_day": 24.77,
+      "associated_episodes_per_day": 6.48,
+      "associated_share_pct": 26.17,
+      "CG_minus_P3_pp": 2.49,
+      "CG_minus_P3_excess": 5
+     },
+     "2025-11": {
+      "days": 30,
+      "regional_events_per_day": 27.93,
+      "tele_events_per_day": 1.3,
+      "episodes_per_day": 20.57,
+      "associated_episodes_per_day": 4.7,
+      "associated_share_pct": 22.85,
+      "CG_minus_P3_pp": 0.71,
+      "CG_minus_P3_excess": 1
+     },
+     "2025-12": {
+      "days": 31,
+      "regional_events_per_day": 27.97,
+      "tele_events_per_day": 1.23,
+      "episodes_per_day": 19.87,
+      "associated_episodes_per_day": 3.97,
+      "associated_share_pct": 19.97,
+      "CG_minus_P3_pp": 0.81,
+      "CG_minus_P3_excess": 1
+     },
+     "2026-01": {
+      "days": 31,
+      "regional_events_per_day": 31.29,
+      "tele_events_per_day": 1.16,
+      "episodes_per_day": 29.48,
+      "associated_episodes_per_day": 4.29,
+      "associated_share_pct": 14.55,
+      "CG_minus_P3_pp": 0.75,
+      "CG_minus_P3_excess": 1
+     },
+     "2026-02": {
+      "days": 28,
+      "regional_events_per_day": 39.0,
+      "tele_events_per_day": 1.07,
+      "episodes_per_day": 19.64,
+      "associated_episodes_per_day": 2.39,
+      "associated_share_pct": 12.18,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2026-03": {
+      "days": 31,
+      "regional_events_per_day": 8.23,
+      "tele_events_per_day": 1.26,
+      "episodes_per_day": 45.58,
+      "associated_episodes_per_day": 2.94,
+      "associated_share_pct": 6.44,
+      "CG_minus_P3_pp": 5.49,
+      "CG_minus_P3_excess": 5
+     },
+     "2026-04": {
+      "days": 30,
+      "regional_events_per_day": 8.6,
+      "tele_events_per_day": 1.1,
+      "episodes_per_day": 23.9,
+      "associated_episodes_per_day": 2.67,
+      "associated_share_pct": 11.16,
+      "CG_minus_P3_pp": 2.5,
+      "CG_minus_P3_excess": 2
+     },
+     "2026-05": {
+      "days": 31,
+      "regional_events_per_day": 7.16,
+      "tele_events_per_day": 1.19,
+      "episodes_per_day": 15.29,
+      "associated_episodes_per_day": 2.19,
+      "associated_share_pct": 14.35,
+      "CG_minus_P3_pp": 1.47,
+      "CG_minus_P3_excess": 1
+     },
+     "2026-06": {
+      "days": 30,
+      "regional_events_per_day": 7.6,
+      "tele_events_per_day": 1.47,
+      "episodes_per_day": 27.5,
+      "associated_episodes_per_day": 3.27,
+      "associated_share_pct": 11.88,
+      "CG_minus_P3_pp": 4.08,
+      "CG_minus_P3_excess": 4
+     }
+    },
+    "regional_per_day_median": 30.77,
+    "regional_per_day_min": 7.16,
+    "regional_per_day_max": 39.0
+   },
+   "extended II.KURK": {
+    "months": {
+     "2025-01": {
+      "days": 31,
+      "regional_events_per_day": 15.42,
+      "tele_events_per_day": 1.03,
+      "episodes_per_day": 41.39,
+      "associated_episodes_per_day": 2.97,
+      "associated_share_pct": 7.17,
+      "CG_minus_P3_pp": 7.61,
+      "CG_minus_P3_excess": 7
+     },
+     "2025-02": {
+      "days": 28,
+      "regional_events_per_day": 29.54,
+      "tele_events_per_day": 0.82,
+      "episodes_per_day": 35.82,
+      "associated_episodes_per_day": 3.96,
+      "associated_share_pct": 11.07,
+      "CG_minus_P3_pp": 20.72,
+      "CG_minus_P3_excess": 23
+     },
+     "2025-03": {
+      "days": 31,
+      "regional_events_per_day": 36.13,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 41.13,
+      "associated_episodes_per_day": 4.55,
+      "associated_share_pct": 11.06,
+      "CG_minus_P3_pp": 16.31,
+      "CG_minus_P3_excess": 23
+     },
+     "2025-04": {
+      "days": 30,
+      "regional_events_per_day": 31.63,
+      "tele_events_per_day": 1.27,
+      "episodes_per_day": 20.33,
+      "associated_episodes_per_day": 3.23,
+      "associated_share_pct": 15.9,
+      "CG_minus_P3_pp": 11.34,
+      "CG_minus_P3_excess": 11
+     },
+     "2025-05": {
+      "days": 31,
+      "regional_events_per_day": 29.94,
+      "tele_events_per_day": 1.32,
+      "episodes_per_day": 18.16,
+      "associated_episodes_per_day": 3.26,
+      "associated_share_pct": 17.94,
+      "CG_minus_P3_pp": 9.9,
+      "CG_minus_P3_excess": 10
+     },
+     "2025-06": {
+      "days": 30,
+      "regional_events_per_day": 33.47,
+      "tele_events_per_day": 0.97,
+      "episodes_per_day": 18.3,
+      "associated_episodes_per_day": 3.3,
+      "associated_share_pct": 18.03,
+      "CG_minus_P3_pp": 19.19,
+      "CG_minus_P3_excess": 19
+     },
+     "2025-07": {
+      "days": 31,
+      "regional_events_per_day": 34.77,
+      "tele_events_per_day": 3.13,
+      "episodes_per_day": 41.55,
+      "associated_episodes_per_day": 4.87,
+      "associated_share_pct": 11.72,
+      "CG_minus_P3_pp": 7.28,
+      "CG_minus_P3_excess": 11
+     },
+     "2025-08": {
+      "days": 31,
+      "regional_events_per_day": 32.23,
+      "tele_events_per_day": 1.68,
+      "episodes_per_day": 40.68,
+      "associated_episodes_per_day": 3.58,
+      "associated_share_pct": 8.8,
+      "CG_minus_P3_pp": 9.01,
+      "CG_minus_P3_excess": 10
+     },
+     "2025-09": {
+      "days": 30,
+      "regional_events_per_day": 37.73,
+      "tele_events_per_day": 1.23,
+      "episodes_per_day": 33.53,
+      "associated_episodes_per_day": 3.77,
+      "associated_share_pct": 11.23,
+      "CG_minus_P3_pp": 8.85,
+      "CG_minus_P3_excess": 10
+     },
+     "2025-10": {
+      "days": 31,
+      "regional_events_per_day": 35.03,
+      "tele_events_per_day": 1.65,
+      "episodes_per_day": 25.9,
+      "associated_episodes_per_day": 3.71,
+      "associated_share_pct": 14.32,
+      "CG_minus_P3_pp": 6.96,
+      "CG_minus_P3_excess": 8
+     },
+     "2025-11": {
+      "days": 30,
+      "regional_events_per_day": 28.1,
+      "tele_events_per_day": 1.33,
+      "episodes_per_day": 23.0,
+      "associated_episodes_per_day": 3.03,
+      "associated_share_pct": 13.19,
+      "CG_minus_P3_pp": 7.69,
+      "CG_minus_P3_excess": 7
+     },
+     "2025-12": {
+      "days": 31,
+      "regional_events_per_day": 29.23,
+      "tele_events_per_day": 1.23,
+      "episodes_per_day": 25.48,
+      "associated_episodes_per_day": 2.87,
+      "associated_share_pct": 11.27,
+      "CG_minus_P3_pp": 13.48,
+      "CG_minus_P3_excess": 12
+     },
+     "2026-01": {
+      "days": 31,
+      "regional_events_per_day": 30.1,
+      "tele_events_per_day": 1.16,
+      "episodes_per_day": 52.16,
+      "associated_episodes_per_day": 3.58,
+      "associated_share_pct": 6.86,
+      "CG_minus_P3_pp": 11.71,
+      "CG_minus_P3_excess": 13
+     },
+     "2026-02": {
+      "days": 28,
+      "regional_events_per_day": 37.79,
+      "tele_events_per_day": 1.11,
+      "episodes_per_day": 51.57,
+      "associated_episodes_per_day": 3.29,
+      "associated_share_pct": 6.37,
+      "CG_minus_P3_pp": 5.43,
+      "CG_minus_P3_excess": 5
+     },
+     "2026-03": {
+      "days": 31,
+      "regional_events_per_day": 6.77,
+      "tele_events_per_day": 1.26,
+      "episodes_per_day": 31.42,
+      "associated_episodes_per_day": 2.26,
+      "associated_share_pct": 7.19,
+      "CG_minus_P3_pp": 8.57,
+      "CG_minus_P3_excess": 6
+     },
+     "2026-04": {
+      "days": 30,
+      "regional_events_per_day": 7.17,
+      "tele_events_per_day": 1.13,
+      "episodes_per_day": 29.47,
+      "associated_episodes_per_day": 2.4,
+      "associated_share_pct": 8.14,
+      "CG_minus_P3_pp": 2.78,
+      "CG_minus_P3_excess": 2
+     },
+     "2026-05": {
+      "days": 31,
+      "regional_events_per_day": 6.13,
+      "tele_events_per_day": 1.23,
+      "episodes_per_day": 22.26,
+      "associated_episodes_per_day": 1.61,
+      "associated_share_pct": 7.25,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2026-06": {
+      "days": 30,
+      "regional_events_per_day": 4.3,
+      "tele_events_per_day": 1.53,
+      "episodes_per_day": 25.27,
+      "associated_episodes_per_day": 1.7,
+      "associated_share_pct": 6.73,
+      "CG_minus_P3_pp": 3.92,
+      "CG_minus_P3_excess": 2
+     }
+    },
+    "regional_per_day_median": 30.02,
+    "regional_per_day_min": 4.3,
+    "regional_per_day_max": 37.79
+   },
+   "2024 IU.MAKZ": {
+    "months": {
+     "2024-01": {
+      "days": 31,
+      "regional_events_per_day": 42.9,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 33.45,
+      "associated_episodes_per_day": 5.39,
+      "associated_share_pct": 16.1,
+      "CG_minus_P3_pp": 1.2,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-02": {
+      "days": 29,
+      "regional_events_per_day": 40.55,
+      "tele_events_per_day": 0.48,
+      "episodes_per_day": 29.34,
+      "associated_episodes_per_day": 4.62,
+      "associated_share_pct": 15.75,
+      "CG_minus_P3_pp": 1.49,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-03": {
+      "days": 31,
+      "regional_events_per_day": 34.65,
+      "tele_events_per_day": 1.03,
+      "episodes_per_day": 40.61,
+      "associated_episodes_per_day": 3.74,
+      "associated_share_pct": 9.21,
+      "CG_minus_P3_pp": 2.59,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-04": {
+      "days": 30,
+      "regional_events_per_day": 37.3,
+      "tele_events_per_day": 1.13,
+      "episodes_per_day": 40.17,
+      "associated_episodes_per_day": 4.7,
+      "associated_share_pct": 11.7,
+      "CG_minus_P3_pp": 2.13,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-05": {
+      "days": 31,
+      "regional_events_per_day": 31.0,
+      "tele_events_per_day": 1.06,
+      "episodes_per_day": 47.16,
+      "associated_episodes_per_day": 3.35,
+      "associated_share_pct": 7.11,
+      "CG_minus_P3_pp": 0.96,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-06": {
+      "days": 30,
+      "regional_events_per_day": 31.8,
+      "tele_events_per_day": 1.07,
+      "episodes_per_day": 40.37,
+      "associated_episodes_per_day": 3.0,
+      "associated_share_pct": 7.43,
+      "CG_minus_P3_pp": 3.33,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-07": {
+      "days": 31,
+      "regional_events_per_day": 29.29,
+      "tele_events_per_day": 0.9,
+      "episodes_per_day": 34.32,
+      "associated_episodes_per_day": 2.55,
+      "associated_share_pct": 7.42,
+      "CG_minus_P3_pp": 2.53,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-08": {
+      "days": 31,
+      "regional_events_per_day": 30.52,
+      "tele_events_per_day": 0.74,
+      "episodes_per_day": 32.55,
+      "associated_episodes_per_day": 2.52,
+      "associated_share_pct": 7.73,
+      "CG_minus_P3_pp": 2.56,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-09": {
+      "days": 30,
+      "regional_events_per_day": 30.17,
+      "tele_events_per_day": 0.83,
+      "episodes_per_day": 36.1,
+      "associated_episodes_per_day": 2.6,
+      "associated_share_pct": 7.2,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2024-10": {
+      "days": 31,
+      "regional_events_per_day": 31.87,
+      "tele_events_per_day": 0.71,
+      "episodes_per_day": 25.06,
+      "associated_episodes_per_day": 2.23,
+      "associated_share_pct": 8.88,
+      "CG_minus_P3_pp": 1.45,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-11": {
+      "days": 30,
+      "regional_events_per_day": 29.67,
+      "tele_events_per_day": 0.73,
+      "episodes_per_day": 19.33,
+      "associated_episodes_per_day": 2.7,
+      "associated_share_pct": 13.97,
+      "CG_minus_P3_pp": 2.47,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-12": {
+      "days": 31,
+      "regional_events_per_day": 30.1,
+      "tele_events_per_day": 1.26,
+      "episodes_per_day": 24.58,
+      "associated_episodes_per_day": 3.26,
+      "associated_share_pct": 13.25,
+      "CG_minus_P3_pp": 1.98,
+      "CG_minus_P3_excess": 2
+     }
+    },
+    "regional_per_day_median": 31.4,
+    "regional_per_day_min": 29.29,
+    "regional_per_day_max": 42.9
+   },
+   "2024 II.KURK": {
+    "months": {
+     "2024-01": {
+      "days": 31,
+      "regional_events_per_day": 42.45,
+      "tele_events_per_day": 1.03,
+      "episodes_per_day": 60.77,
+      "associated_episodes_per_day": 5.13,
+      "associated_share_pct": 8.44,
+      "CG_minus_P3_pp": 6.29,
+      "CG_minus_P3_excess": 10
+     },
+     "2024-02": {
+      "days": 29,
+      "regional_events_per_day": 39.48,
+      "tele_events_per_day": 0.48,
+      "episodes_per_day": 48.62,
+      "associated_episodes_per_day": 3.59,
+      "associated_share_pct": 7.38,
+      "CG_minus_P3_pp": 11.54,
+      "CG_minus_P3_excess": 12
+     },
+     "2024-03": {
+      "days": 31,
+      "regional_events_per_day": 34.13,
+      "tele_events_per_day": 1.03,
+      "episodes_per_day": 42.29,
+      "associated_episodes_per_day": 3.35,
+      "associated_share_pct": 7.93,
+      "CG_minus_P3_pp": 17.31,
+      "CG_minus_P3_excess": 18
+     },
+     "2024-04": {
+      "days": 30,
+      "regional_events_per_day": 35.57,
+      "tele_events_per_day": 1.17,
+      "episodes_per_day": 24.2,
+      "associated_episodes_per_day": 3.1,
+      "associated_share_pct": 12.81,
+      "CG_minus_P3_pp": 8.6,
+      "CG_minus_P3_excess": 8
+     },
+     "2024-05": {
+      "days": 31,
+      "regional_events_per_day": 30.68,
+      "tele_events_per_day": 1.06,
+      "episodes_per_day": 20.77,
+      "associated_episodes_per_day": 2.23,
+      "associated_share_pct": 10.71,
+      "CG_minus_P3_pp": 4.35,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-06": {
+      "days": 30,
+      "regional_events_per_day": 30.13,
+      "tele_events_per_day": 1.1,
+      "episodes_per_day": 18.83,
+      "associated_episodes_per_day": 1.8,
+      "associated_share_pct": 9.56,
+      "CG_minus_P3_pp": 3.7,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-07": {
+      "days": 31,
+      "regional_events_per_day": 27.97,
+      "tele_events_per_day": 0.9,
+      "episodes_per_day": 20.06,
+      "associated_episodes_per_day": 2.06,
+      "associated_share_pct": 10.29,
+      "CG_minus_P3_pp": 12.5,
+      "CG_minus_P3_excess": 8
+     },
+     "2024-08": {
+      "days": 31,
+      "regional_events_per_day": 29.52,
+      "tele_events_per_day": 0.74,
+      "episodes_per_day": 20.03,
+      "associated_episodes_per_day": 1.61,
+      "associated_share_pct": 8.05,
+      "CG_minus_P3_pp": 6.0,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-09": {
+      "days": 30,
+      "regional_events_per_day": 29.7,
+      "tele_events_per_day": 0.83,
+      "episodes_per_day": 17.23,
+      "associated_episodes_per_day": 1.63,
+      "associated_share_pct": 9.48,
+      "CG_minus_P3_pp": 6.12,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-10": {
+      "days": 31,
+      "regional_events_per_day": 31.35,
+      "tele_events_per_day": 0.74,
+      "episodes_per_day": 17.77,
+      "associated_episodes_per_day": 1.74,
+      "associated_share_pct": 9.8,
+      "CG_minus_P3_pp": 12.96,
+      "CG_minus_P3_excess": 7
+     },
+     "2024-11": {
+      "days": 30,
+      "regional_events_per_day": 29.43,
+      "tele_events_per_day": 0.73,
+      "episodes_per_day": 19.03,
+      "associated_episodes_per_day": 2.07,
+      "associated_share_pct": 10.86,
+      "CG_minus_P3_pp": 9.68,
+      "CG_minus_P3_excess": 6
+     },
+     "2024-12": {
+      "days": 31,
+      "regional_events_per_day": 29.55,
+      "tele_events_per_day": 1.26,
+      "episodes_per_day": 29.03,
+      "associated_episodes_per_day": 2.74,
+      "associated_share_pct": 9.44,
+      "CG_minus_P3_pp": 9.41,
+      "CG_minus_P3_excess": 8
+     }
+    },
+    "regional_per_day_median": 30.41,
+    "regional_per_day_min": 27.97,
+    "regional_per_day_max": 42.45
+   },
+   "KZ network": {
+    "months": {
+     "2024-01": {
+      "days": 24,
+      "regional_events_per_day": 48.58,
+      "tele_events_per_day": 0.79,
+      "episodes_per_day": 20.5,
+      "associated_episodes_per_day": 4.96,
+      "associated_share_pct": 24.19,
+      "CG_minus_P3_pp": 2.52,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-02": {
+      "days": 29,
+      "regional_events_per_day": 40.55,
+      "tele_events_per_day": 0.48,
+      "episodes_per_day": 19.52,
+      "associated_episodes_per_day": 3.9,
+      "associated_share_pct": 19.96,
+      "CG_minus_P3_pp": 3.54,
+      "CG_minus_P3_excess": 4
+     },
+     "2024-03": {
+      "days": 31,
+      "regional_events_per_day": 34.65,
+      "tele_events_per_day": 1.03,
+      "episodes_per_day": 25.71,
+      "associated_episodes_per_day": 3.32,
+      "associated_share_pct": 12.92,
+      "CG_minus_P3_pp": 3.88,
+      "CG_minus_P3_excess": 4
+     },
+     "2024-04": {
+      "days": 30,
+      "regional_events_per_day": 37.3,
+      "tele_events_per_day": 1.13,
+      "episodes_per_day": 27.1,
+      "associated_episodes_per_day": 4.27,
+      "associated_share_pct": 15.74,
+      "CG_minus_P3_pp": 2.34,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-05": {
+      "days": 31,
+      "regional_events_per_day": 31.0,
+      "tele_events_per_day": 1.06,
+      "episodes_per_day": 29.0,
+      "associated_episodes_per_day": 2.87,
+      "associated_share_pct": 9.9,
+      "CG_minus_P3_pp": 4.49,
+      "CG_minus_P3_excess": 4
+     },
+     "2024-06": {
+      "days": 30,
+      "regional_events_per_day": 31.8,
+      "tele_events_per_day": 1.07,
+      "episodes_per_day": 25.2,
+      "associated_episodes_per_day": 2.53,
+      "associated_share_pct": 10.05,
+      "CG_minus_P3_pp": 5.26,
+      "CG_minus_P3_excess": 4
+     },
+     "2024-07": {
+      "days": 31,
+      "regional_events_per_day": 29.29,
+      "tele_events_per_day": 0.9,
+      "episodes_per_day": 21.48,
+      "associated_episodes_per_day": 2.16,
+      "associated_share_pct": 10.06,
+      "CG_minus_P3_pp": 1.49,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-08": {
+      "days": 31,
+      "regional_events_per_day": 30.52,
+      "tele_events_per_day": 0.74,
+      "episodes_per_day": 19.06,
+      "associated_episodes_per_day": 1.9,
+      "associated_share_pct": 9.98,
+      "CG_minus_P3_pp": 3.39,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-09": {
+      "days": 30,
+      "regional_events_per_day": 30.17,
+      "tele_events_per_day": 0.83,
+      "episodes_per_day": 24.6,
+      "associated_episodes_per_day": 2.2,
+      "associated_share_pct": 8.94,
+      "CG_minus_P3_pp": 1.52,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-10": {
+      "days": 31,
+      "regional_events_per_day": 31.87,
+      "tele_events_per_day": 0.71,
+      "episodes_per_day": 16.97,
+      "associated_episodes_per_day": 2.16,
+      "associated_share_pct": 12.74,
+      "CG_minus_P3_pp": 4.48,
+      "CG_minus_P3_excess": 3
+     },
+     "2024-11": {
+      "days": 30,
+      "regional_events_per_day": 29.67,
+      "tele_events_per_day": 0.73,
+      "episodes_per_day": 12.63,
+      "associated_episodes_per_day": 2.3,
+      "associated_share_pct": 18.21,
+      "CG_minus_P3_pp": 7.25,
+      "CG_minus_P3_excess": 5
+     },
+     "2024-12": {
+      "days": 31,
+      "regional_events_per_day": 30.1,
+      "tele_events_per_day": 1.26,
+      "episodes_per_day": 15.45,
+      "associated_episodes_per_day": 2.84,
+      "associated_share_pct": 18.37,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2025-01": {
+      "days": 31,
+      "regional_events_per_day": 16.29,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 20.71,
+      "associated_episodes_per_day": 3.45,
+      "associated_share_pct": 16.67,
+      "CG_minus_P3_pp": 3.74,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-02": {
+      "days": 28,
+      "regional_events_per_day": 28.96,
+      "tele_events_per_day": 0.82,
+      "episodes_per_day": 19.93,
+      "associated_episodes_per_day": 3.18,
+      "associated_share_pct": 15.95,
+      "CG_minus_P3_pp": 2.25,
+      "CG_minus_P3_excess": 2
+     },
+     "2025-03": {
+      "days": 31,
+      "regional_events_per_day": 35.68,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 19.06,
+      "associated_episodes_per_day": 3.13,
+      "associated_share_pct": 16.41,
+      "CG_minus_P3_pp": 6.19,
+      "CG_minus_P3_excess": 6
+     },
+     "2025-04": {
+      "days": 30,
+      "regional_events_per_day": 31.53,
+      "tele_events_per_day": 1.2,
+      "episodes_per_day": 21.23,
+      "associated_episodes_per_day": 3.97,
+      "associated_share_pct": 18.68,
+      "CG_minus_P3_pp": 4.2,
+      "CG_minus_P3_excess": 5
+     },
+     "2025-05": {
+      "days": 31,
+      "regional_events_per_day": 30.26,
+      "tele_events_per_day": 1.32,
+      "episodes_per_day": 19.58,
+      "associated_episodes_per_day": 5.0,
+      "associated_share_pct": 25.54,
+      "CG_minus_P3_pp": 3.23,
+      "CG_minus_P3_excess": 5
+     },
+     "2025-06": {
+      "days": 30,
+      "regional_events_per_day": 33.3,
+      "tele_events_per_day": 0.97,
+      "episodes_per_day": 32.27,
+      "associated_episodes_per_day": 4.33,
+      "associated_share_pct": 13.43,
+      "CG_minus_P3_pp": 5.38,
+      "CG_minus_P3_excess": 7
+     },
+     "2025-07": {
+      "days": 31,
+      "regional_events_per_day": 33.61,
+      "tele_events_per_day": 3.16,
+      "episodes_per_day": 46.32,
+      "associated_episodes_per_day": 4.97,
+      "associated_share_pct": 10.72,
+      "CG_minus_P3_pp": 4.55,
+      "CG_minus_P3_excess": 7
+     },
+     "2025-08": {
+      "days": 31,
+      "regional_events_per_day": 32.1,
+      "tele_events_per_day": 1.65,
+      "episodes_per_day": 32.84,
+      "associated_episodes_per_day": 5.19,
+      "associated_share_pct": 15.82,
+      "CG_minus_P3_pp": 3.11,
+      "CG_minus_P3_excess": 5
+     },
+     "2025-09": {
+      "days": 30,
+      "regional_events_per_day": 37.87,
+      "tele_events_per_day": 1.2,
+      "episodes_per_day": 52.67,
+      "associated_episodes_per_day": 6.47,
+      "associated_share_pct": 12.28,
+      "CG_minus_P3_pp": 5.15,
+      "CG_minus_P3_excess": 10
+     }
+    },
+    "regional_per_day_median": 31.8,
+    "regional_per_day_min": 16.29,
+    "regional_per_day_max": 48.58
+   },
+   "AK network": {
+    "months": {
+     "2024-01": {
+      "days": 24,
+      "regional_events_per_day": 27.42,
+      "tele_events_per_day": 1.04,
+      "episodes_per_day": 56.79,
+      "associated_episodes_per_day": 5.17,
+      "associated_share_pct": 9.1,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2024-02": {
+      "days": 29,
+      "regional_events_per_day": 24.86,
+      "tele_events_per_day": 0.52,
+      "episodes_per_day": 25.24,
+      "associated_episodes_per_day": 3.76,
+      "associated_share_pct": 14.89,
+      "CG_minus_P3_pp": 3.67,
+      "CG_minus_P3_excess": 4
+     },
+     "2024-03": {
+      "days": 31,
+      "regional_events_per_day": 25.94,
+      "tele_events_per_day": 1.06,
+      "episodes_per_day": 27.45,
+      "associated_episodes_per_day": 4.06,
+      "associated_share_pct": 14.81,
+      "CG_minus_P3_pp": 0.79,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-04": {
+      "days": 30,
+      "regional_events_per_day": 21.5,
+      "tele_events_per_day": 1.2,
+      "episodes_per_day": 28.9,
+      "associated_episodes_per_day": 3.93,
+      "associated_share_pct": 13.61,
+      "CG_minus_P3_pp": 1.69,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-05": {
+      "days": 31,
+      "regional_events_per_day": 24.32,
+      "tele_events_per_day": 1.16,
+      "episodes_per_day": 21.39,
+      "associated_episodes_per_day": 3.52,
+      "associated_share_pct": 16.44,
+      "CG_minus_P3_pp": 0.92,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-06": {
+      "days": 30,
+      "regional_events_per_day": 18.8,
+      "tele_events_per_day": 1.13,
+      "episodes_per_day": 19.5,
+      "associated_episodes_per_day": 2.7,
+      "associated_share_pct": 13.85,
+      "CG_minus_P3_pp": 2.47,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-07": {
+      "days": 31,
+      "regional_events_per_day": 20.29,
+      "tele_events_per_day": 0.94,
+      "episodes_per_day": 19.68,
+      "associated_episodes_per_day": 3.23,
+      "associated_share_pct": 16.39,
+      "CG_minus_P3_pp": 1.0,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-08": {
+      "days": 31,
+      "regional_events_per_day": 19.45,
+      "tele_events_per_day": 0.71,
+      "episodes_per_day": 12.94,
+      "associated_episodes_per_day": 2.74,
+      "associated_share_pct": 21.2,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2024-09": {
+      "days": 30,
+      "regional_events_per_day": 19.27,
+      "tele_events_per_day": 0.87,
+      "episodes_per_day": 16.63,
+      "associated_episodes_per_day": 2.83,
+      "associated_share_pct": 17.03,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     },
+     "2024-10": {
+      "days": 31,
+      "regional_events_per_day": 31.61,
+      "tele_events_per_day": 0.74,
+      "episodes_per_day": 38.23,
+      "associated_episodes_per_day": 4.32,
+      "associated_share_pct": 11.31,
+      "CG_minus_P3_pp": 0.75,
+      "CG_minus_P3_excess": 1
+     },
+     "2024-11": {
+      "days": 30,
+      "regional_events_per_day": 22.5,
+      "tele_events_per_day": 0.73,
+      "episodes_per_day": 46.3,
+      "associated_episodes_per_day": 3.73,
+      "associated_share_pct": 8.06,
+      "CG_minus_P3_pp": 1.79,
+      "CG_minus_P3_excess": 2
+     },
+     "2024-12": {
+      "days": 31,
+      "regional_events_per_day": 26.39,
+      "tele_events_per_day": 1.26,
+      "episodes_per_day": 46.13,
+      "associated_episodes_per_day": 4.77,
+      "associated_share_pct": 10.35,
+      "CG_minus_P3_pp": 2.7,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-01": {
+      "days": 31,
+      "regional_events_per_day": 25.26,
+      "tele_events_per_day": 1.0,
+      "episodes_per_day": 40.45,
+      "associated_episodes_per_day": 3.81,
+      "associated_share_pct": 9.41,
+      "CG_minus_P3_pp": 3.39,
+      "CG_minus_P3_excess": 4
+     },
+     "2025-02": {
+      "days": 28,
+      "regional_events_per_day": 25.68,
+      "tele_events_per_day": 0.82,
+      "episodes_per_day": 80.75,
+      "associated_episodes_per_day": 3.57,
+      "associated_share_pct": 4.42,
+      "CG_minus_P3_pp": 3.0,
+      "CG_minus_P3_excess": 3
+     },
+     "2025-03": {
+      "days": 31,
+      "regional_events_per_day": 22.52,
+      "tele_events_per_day": 1.1,
+      "episodes_per_day": 38.84,
+      "associated_episodes_per_day": 4.39,
+      "associated_share_pct": 11.3,
+      "CG_minus_P3_pp": 0.74,
+      "CG_minus_P3_excess": 1
+     },
+     "2025-04": {
+      "days": 30,
+      "regional_events_per_day": 22.3,
+      "tele_events_per_day": 1.3,
+      "episodes_per_day": 26.8,
+      "associated_episodes_per_day": 4.4,
+      "associated_share_pct": 16.42,
+      "CG_minus_P3_pp": 2.27,
+      "CG_minus_P3_excess": 3
+     },
+     "2025-05": {
+      "days": 31,
+      "regional_events_per_day": 21.0,
+      "tele_events_per_day": 1.32,
+      "episodes_per_day": 18.19,
+      "associated_episodes_per_day": 3.48,
+      "associated_share_pct": 19.15,
+      "CG_minus_P3_pp": 0.93,
+      "CG_minus_P3_excess": 1
+     },
+     "2025-06": {
+      "days": 30,
+      "regional_events_per_day": 19.87,
+      "tele_events_per_day": 0.97,
+      "episodes_per_day": 15.47,
+      "associated_episodes_per_day": 3.63,
+      "associated_share_pct": 23.49,
+      "CG_minus_P3_pp": 0.0,
+      "CG_minus_P3_excess": 0
+     }
+    },
+    "regional_per_day_median": 22.51,
+    "regional_per_day_min": 18.8,
+    "regional_per_day_max": 31.61
+   }
+  },
+  "truncated_before_2026-03": {
+   "note": "sensitivity: extended sets without 2026-03..2026-06, the months whose regional catalogue density fell to 4-9 per day",
+   "sets": {
+    "extended IU.MAKZ": {
+     "calendar_days": 424,
+     "associated": 2118,
+     "P3": {
+      "dismissed_assoc": 36,
+      "unassoc_alerts": 5075,
+      "esc_per_day": 13.54
+     },
+     "CG": {
+      "dismissed_assoc": 84,
+      "unassoc_alerts": 2340,
+      "esc_per_day": 17.56
+     },
+     "CG-D": {
+      "dismissed_assoc": 36,
+      "unassoc_alerts": 2729,
+      "esc_per_day": 19.82
+     },
+     "CG_minus_P3": {
+      "diff_pp": 2.27,
+      "ci95_pp": [
+       1.58,
+       2.99
+      ]
+     }
+    },
+    "extended II.KURK": {
+     "calendar_days": 424,
+     "associated": 1514,
+     "P3": {
+      "dismissed_assoc": 47,
+      "unassoc_alerts": 5918,
+      "esc_per_day": 12.86
+     },
+     "CG": {
+      "dismissed_assoc": 216,
+      "unassoc_alerts": 2859,
+      "esc_per_day": 15.67
+     },
+     "CG-D": {
+      "dismissed_assoc": 64,
+      "unassoc_alerts": 3080,
+      "esc_per_day": 19.79
+     },
+     "CG_minus_P3": {
+      "diff_pp": 11.16,
+      "ci95_pp": [
+       9.55,
+       12.91
+      ]
+     }
+    }
+   }
+  }
+ },
+ "3_GWUS": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "note": "role WUS = G.WUS on these sets; on the KZ set it is KZ.PDGK and on the AK set an AK station, so those are not ablated",
+  "sets": {
+   "development (IU.MAKZ)": {
+    "availability": {
+     "calendar_days": 85,
+     "mean_daily_valid_share": 0.01,
+     "days_valid_ge_90pct": 0,
+     "days_valid_lt_10pct": 85,
+     "episodes": 1077,
+     "episodes_WUS_valid": 10,
+     "WUS_YES": 6,
+     "WUS_NO": 4,
+     "associated_WUS_YES": 2,
+     "associated_WUS_NO": 0,
+     "WUS_weight_by_rank": 0.15
+    },
+    "ablation": {
+     "CG": {
+      "dismissed_assoc": 6,
+      "unassoc_alerts": 216,
+      "esc_per_day": 5.02
+     },
+     "CG_WUS_missing": {
+      "dismissed_assoc": 6,
+      "unassoc_alerts": 217,
+      "esc_per_day": 5.01
+     },
+     "P3": {
+      "dismissed_assoc": 5,
+      "unassoc_alerts": 375,
+      "esc_per_day": 4.31
+     },
+     "P3_WUS_missing": {
+      "dismissed_assoc": 5,
+      "unassoc_alerts": 374,
+      "esc_per_day": 4.32
+     },
+     "note": "development: CG at the fixed theta_D 0.16 of Table B1 (the main development table uses fold thresholds 0.16-0.21)",
+     "CG_excess_dismissals_with_WUS_NO": 0,
+     "CG_excess_dismissals_total": 3
+    }
+   },
+   "held-out (IU.MAKZ)": {
+    "availability": {
+     "calendar_days": 37,
+     "mean_daily_valid_share": 0.007,
+     "days_valid_ge_90pct": 0,
+     "days_valid_lt_10pct": 37,
+     "episodes": 317,
+     "episodes_WUS_valid": 3,
+     "WUS_YES": 3,
+     "WUS_NO": 0,
+     "associated_WUS_YES": 0,
+     "associated_WUS_NO": 0,
+     "WUS_weight_by_rank": 0.15
+    },
+    "ablation": {
+     "CG": {
+      "dismissed_assoc": 2,
+      "unassoc_alerts": 93,
+      "esc_per_day": 3.0
+     },
+     "CG_WUS_missing": {
+      "dismissed_assoc": 2,
+      "unassoc_alerts": 93,
+      "esc_per_day": 3.0
+     },
+     "P3": {
+      "dismissed_assoc": 0,
+      "unassoc_alerts": 149,
+      "esc_per_day": 2.19
+     },
+     "P3_WUS_missing": {
+      "dismissed_assoc": 0,
+      "unassoc_alerts": 149,
+      "esc_per_day": 2.19
+     },
+     "CG_minus_P3": {
+      "diff_pp": 3.51,
+      "ci95_pp": [
+       0.0,
+       9.09
+      ]
+     },
+     "CG_WUS_missing_minus_P3_frozen": {
+      "diff_pp": 3.51,
+      "ci95_pp": [
+       0.0,
+       9.09
+      ]
+     },
+     "CG_WUS_missing_minus_P3_WUS_missing": {
+      "diff_pp": 3.51,
+      "ci95_pp": [
+       0.0,
+       9.09
+      ]
+     },
+     "CG_excess_dismissals_with_WUS_NO": 0,
+     "CG_excess_dismissals_total": 2
+    }
+   },
+   "extended IU.MAKZ": {
+    "availability": {
+     "calendar_days": 546,
+     "mean_daily_valid_share": 0.658,
+     "days_valid_ge_90pct": 348,
+     "days_valid_lt_10pct": 176,
+     "episodes": 18637,
+     "episodes_WUS_valid": 10782,
+     "WUS_YES": 5437,
+     "WUS_NO": 5345,
+     "associated_WUS_YES": 1125,
+     "associated_WUS_NO": 418,
+     "WUS_weight_by_rank": 0.15
+    },
+    "ablation": {
+     "CG": {
+      "dismissed_assoc": 98,
+      "unassoc_alerts": 2870,
+      "esc_per_day": 16.21
+     },
+     "CG_WUS_missing": {
+      "dismissed_assoc": 152,
+      "unassoc_alerts": 3028,
+      "esc_per_day": 13.49
+     },
+     "P3": {
+      "dismissed_assoc": 38,
+      "unassoc_alerts": 6350,
+      "esc_per_day": 12.72
+     },
+     "P3_WUS_missing": {
+      "dismissed_assoc": 61,
+      "unassoc_alerts": 4988,
+      "esc_per_day": 13.49
+     },
+     "CG_minus_P3": {
+      "diff_pp": 2.44,
+      "ci95_pp": [
+       1.74,
+       3.18
+      ]
+     },
+     "CG_WUS_missing_minus_P3_frozen": {
+      "diff_pp": 4.64,
+      "ci95_pp": [
+       3.74,
+       5.62
+      ]
+     },
+     "CG_WUS_missing_minus_P3_WUS_missing": {
+      "diff_pp": 3.71,
+      "ci95_pp": [
+       2.91,
+       4.55
+      ]
+     },
+     "CG_excess_dismissals_with_WUS_NO": 26,
+     "CG_excess_dismissals_total": 62
+    }
+   },
+   "extended II.KURK": {
+    "availability": {
+     "calendar_days": 546,
+     "mean_daily_valid_share": 0.658,
+     "days_valid_ge_90pct": 348,
+     "days_valid_lt_10pct": 176,
+     "episodes": 17488,
+     "episodes_WUS_valid": 10644,
+     "WUS_YES": 5825,
+     "WUS_NO": 4819,
+     "associated_WUS_YES": 712,
+     "associated_WUS_NO": 416,
+     "WUS_weight_by_rank": 0.15
+    },
+    "ablation": {
+     "CG": {
+      "dismissed_assoc": 228,
+      "unassoc_alerts": 3511,
+      "esc_per_day": 14.99
+     },
+     "CG_WUS_missing": {
+      "dismissed_assoc": 274,
+      "unassoc_alerts": 3587,
+      "esc_per_day": 12.41
+     },
+     "P3": {
+      "dismissed_assoc": 49,
+      "unassoc_alerts": 7444,
+      "esc_per_day": 12.22
+     },
+     "P3_WUS_missing": {
+      "dismissed_assoc": 73,
+      "unassoc_alerts": 5432,
+      "esc_per_day": 14.54
+     },
+     "CG_minus_P3": {
+      "diff_pp": 10.19,
+      "ci95_pp": [
+       8.72,
+       11.76
+      ]
+     },
+     "CG_WUS_missing_minus_P3_frozen": {
+      "diff_pp": 12.81,
+      "ci95_pp": [
+       11.19,
+       14.46
+      ]
+     },
+     "CG_WUS_missing_minus_P3_WUS_missing": {
+      "diff_pp": 11.44,
+      "ci95_pp": [
+       10.0,
+       12.94
+      ]
+     },
+     "CG_excess_dismissals_with_WUS_NO": 115,
+     "CG_excess_dismissals_total": 180
+    }
+   },
+   "2024 IU.MAKZ": {
+    "availability": {
+     "calendar_days": 366,
+     "mean_daily_valid_share": 1.0,
+     "days_valid_ge_90pct": 366,
+     "days_valid_lt_10pct": 0,
+     "episodes": 12300,
+     "episodes_WUS_valid": 12300,
+     "WUS_YES": 6926,
+     "WUS_NO": 5374,
+     "associated_WUS_YES": 1001,
+     "associated_WUS_NO": 237,
+     "WUS_weight_by_rank": 0.15
+    },
+    "ablation": {
+     "CG": {
+      "dismissed_assoc": 34,
+      "unassoc_alerts": 1765,
+      "esc_per_day": 18.76
+     },
+     "CG_WUS_missing": {
+      "dismissed_assoc": 71,
+      "unassoc_alerts": 1766,
+      "esc_per_day": 12.96
+     },
+     "P3": {
+      "dismissed_assoc": 11,
+      "unassoc_alerts": 5619,
+      "esc_per_day": 11.04
+     },
+     "P3_WUS_missing": {
+      "dismissed_assoc": 27,
+      "unassoc_alerts": 3862,
+      "esc_per_day": 12.07
+     },
+     "CG_minus_P3": {
+      "diff_pp": 1.86,
+      "ci95_pp": [
+       1.13,
+       2.64
+      ]
+     },
+     "CG_WUS_missing_minus_P3_frozen": {
+      "diff_pp": 4.85,
+      "ci95_pp": [
+       3.65,
+       6.05
+      ]
+     },
+     "CG_WUS_missing_minus_P3_WUS_missing": {
+      "diff_pp": 3.55,
+      "ci95_pp": [
+       2.52,
+       4.61
+      ]
+     },
+     "CG_excess_dismissals_with_WUS_NO": 23,
+     "CG_excess_dismissals_total": 23
+    }
+   },
+   "2024 II.KURK": {
+    "availability": {
+     "calendar_days": 366,
+     "mean_daily_valid_share": 1.0,
+     "days_valid_ge_90pct": 366,
+     "days_valid_lt_10pct": 0,
+     "episodes": 10322,
+     "episodes_WUS_valid": 10322,
+     "WUS_YES": 6523,
+     "WUS_NO": 3799,
+     "associated_WUS_YES": 655,
+     "associated_WUS_NO": 292,
+     "WUS_weight_by_rank": 0.15
+    },
+    "ablation": {
+     "CG": {
+      "dismissed_assoc": 101,
+      "unassoc_alerts": 1799,
+      "esc_per_day": 16.19
+     },
+     "CG_WUS_missing": {
+      "dismissed_assoc": 142,
+      "unassoc_alerts": 1893,
+      "esc_per_day": 10.79
+     },
+     "P3": {
+      "dismissed_assoc": 13,
+      "unassoc_alerts": 5235,
+      "esc_per_day": 9.79
+     },
+     "P3_WUS_missing": {
+      "dismissed_assoc": 40,
+      "unassoc_alerts": 2749,
+      "esc_per_day": 13.69
+     },
+     "CG_minus_P3": {
+      "diff_pp": 9.29,
+      "ci95_pp": [
+       7.48,
+       11.14
+      ]
+     },
+     "CG_WUS_missing_minus_P3_frozen": {
+      "diff_pp": 13.62,
+      "ci95_pp": [
+       11.4,
+       15.87
+      ]
+     },
+     "CG_WUS_missing_minus_P3_WUS_missing": {
+      "diff_pp": 10.77,
+      "ci95_pp": [
+       8.79,
+       12.77
+      ]
+     },
+     "CG_excess_dismissals_with_WUS_NO": 88,
+     "CG_excess_dismissals_total": 88
+    }
+   }
+  }
+ },
+ "4_KURK_merged_site": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "merge": "state YES if either YES; NO if either NO and none YES; MISSING if both MISSING",
+  "variants": {
+   "a": "merged site 0.25, G.WUS 0.20 (weights re-assigned by distance rank, two neighbours)",
+   "b": "merged site 0.25, G.WUS 0.15 (G.WUS keeps its original weight)"
+  },
+  "sets": {
+   "extended II.KURK": {
+    "neighbours_km": {
+     "MAKZ": 499.6,
+     "MK31": 512.7,
+     "WUS": 1058.6
+    },
+    "same_state_MAKZ_MK31_pct_all": 75.4,
+    "same_state_MAKZ_MK31_pct_associated": 73.8,
+    "CG_excess_dismissals": 180,
+    "of_which_NO_from_both_MAKZ_and_MK31": 179,
+    "P3": {
+     "dismissed_assoc": 49,
+     "unassoc_alerts": 7444,
+     "esc_per_day": 12.22
+    },
+    "CG_frozen": {
+     "dismissed_assoc": 228,
+     "unassoc_alerts": 3511,
+     "esc_per_day": 14.99
+    },
+    "CG_merged_a": {
+     "dismissed_assoc": 132,
+     "unassoc_alerts": 4254,
+     "esc_per_day": 16.24
+    },
+    "CG_merged_b": {
+     "dismissed_assoc": 106,
+     "unassoc_alerts": 4276,
+     "esc_per_day": 16.62
+    },
+    "CG_frozen_minus_P3": {
+     "diff_pp": 10.19,
+     "ci95_pp": [
+      8.72,
+      11.76
+     ]
+    },
+    "CG_merged_a_minus_P3": {
+     "diff_pp": 4.72,
+     "ci95_pp": [
+      3.8,
+      5.72
+     ]
+    },
+    "CG_merged_b_minus_P3": {
+     "diff_pp": 3.24,
+     "ci95_pp": [
+      2.48,
+      4.06
+     ]
+    },
+    "note": "P3 is unchanged by the merge (it only asks whether any neighbour said YES); CG-D not computed: no development detectability table exists for a merged site"
+   },
+   "2024 II.KURK": {
+    "neighbours_km": {
+     "MAKZ": 499.6,
+     "MK31": 512.7,
+     "WUS": 1058.6
+    },
+    "same_state_MAKZ_MK31_pct_all": 81.9,
+    "same_state_MAKZ_MK31_pct_associated": 77.3,
+    "CG_excess_dismissals": 88,
+    "of_which_NO_from_both_MAKZ_and_MK31": 86,
+    "P3": {
+     "dismissed_assoc": 13,
+     "unassoc_alerts": 5235,
+     "esc_per_day": 9.79
+    },
+    "CG_frozen": {
+     "dismissed_assoc": 101,
+     "unassoc_alerts": 1799,
+     "esc_per_day": 16.19
+    },
+    "CG_merged_a": {
+     "dismissed_assoc": 65,
+     "unassoc_alerts": 2296,
+     "esc_per_day": 15.92
+    },
+    "CG_merged_b": {
+     "dismissed_assoc": 56,
+     "unassoc_alerts": 2262,
+     "esc_per_day": 16.59
+    },
+    "CG_frozen_minus_P3": {
+     "diff_pp": 9.29,
+     "ci95_pp": [
+      7.48,
+      11.14
+     ]
+    },
+    "CG_merged_a_minus_P3": {
+     "diff_pp": 5.49,
+     "ci95_pp": [
+      4.09,
+      6.96
+     ]
+    },
+    "CG_merged_b_minus_P3": {
+     "diff_pp": 4.54,
+     "ci95_pp": [
+      3.25,
+      5.84
+     ]
+    },
+    "note": "P3 is unchanged by the merge (it only asks whether any neighbour said YES); CG-D not computed: no development detectability table exists for a merged site"
+   }
+  }
+ },
+ "5_AK_L22K_missing": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "station": "AK.L22K (role MK31, 29.4 km)",
+  "associated": 2034,
+  "associated_L22K_missing": 215,
+  "associated_L22K_missing_on_partial_days": 197,
+  "partial_days(10-90% valid)": 164,
+  "calendar_days": 540,
+  "dismissed_in_subset": {
+   "P1t": 1,
+   "P3": 1,
+   "CG": 2,
+   "CG-D": 0,
+   "CG(c=0.5)": 1
+  },
+  "escalated_in_subset": {
+   "P3": 107,
+   "CG": 123,
+   "CG-D": 99
+  },
+  "dismissed_associated_L22K_valid": {
+   "P3": 2,
+   "CG": 31,
+   "CG-D": 5
+  },
+  "all_associated_dismissed": {
+   "P3": 3,
+   "CG": 33,
+   "CG-D": 5
+  },
+  "share_of_CG_dismissals_in_L22K_missing_subset_pct": 6.1
+ },
+ "6_AK_out_of_sample": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "method": "operating points selected on IU.MAKZ development by analysis/oos_operating_points.py (selection code executed unchanged), applied to the AK episodes; CG-D uses the IU.MAKZ development table by role, as in the AK plan",
+  "cost_lowest_family_counts_of_9": {
+   "CG(c=1)": 5,
+   "CG(c=0.5)": 3,
+   "CG-D": 1
+  },
+  "cost": {
+   "rm100_re0.1": {
+    "lowest": "CG(c=0.5)",
+    "order": [
+     "CG(c=0.5) 0.1027",
+     "P3 0.1063",
+     "P2 0.1063",
+     "CG(c=1) 0.1064",
+     "CG-D 0.1083",
+     "P1t 0.8775",
+     "P1 1.2321"
+    ],
+    "best_CG_vs_best_P3_pct": -3.35
+   },
+   "rm100_re0.25": {
+    "lowest": "CG(c=0.5)",
+    "order": [
+     "CG(c=0.5) 0.2479",
+     "CG(c=1) 0.2482",
+     "P3 0.2498",
+     "P2 0.2498",
+     "CG-D 0.2531",
+     "P1t 0.8775",
+     "P1 1.2321"
+    ],
+    "best_CG_vs_best_P3_pct": -0.74
+   },
+   "rm100_re0.5": {
+    "lowest": "CG(c=1)",
+    "order": [
+     "CG(c=1) 0.4833",
+     "P3 0.4860",
+     "P2 0.4860",
+     "CG(c=0.5) 0.4886",
+     "CG-D 0.4931",
+     "P1t 0.8775",
+     "P1 1.2321"
+    ],
+    "best_CG_vs_best_P3_pct": -0.55
+   },
+   "rm20_re0.1": {
+    "lowest": "CG(c=1)",
+    "order": [
+     "CG(c=1) 0.0970",
+     "CG(c=0.5) 0.0981",
+     "CG-D 0.0990",
+     "P3 0.1016",
+     "P2 0.1016",
+     "P1 0.4240",
+     "P1t 0.5346"
+    ],
+    "best_CG_vs_best_P3_pct": -4.54
+   },
+   "rm20_re0.25": {
+    "lowest": "CG(c=1)",
+    "order": [
+     "CG(c=1) 0.2388",
+     "CG(c=0.5) 0.2432",
+     "CG-D 0.2437",
+     "P3 0.2451",
+     "P2 0.2451",
+     "P1 0.4240",
+     "P1t 0.5346"
+    ],
+    "best_CG_vs_best_P3_pct": -2.55
+   },
+   "rm20_re0.5": {
+    "lowest": "CG-D",
+    "order": [
+     "CG-D 0.2918",
+     "CG(c=1) 0.3010",
+     "CG(c=0.5) 0.3063",
+     "P1 0.4240",
+     "P3 0.4813",
+     "P2 0.4813",
+     "P1t 0.5346"
+    ],
+    "best_CG_vs_best_P3_pct": -39.38
+   },
+   "rm50_re0.1": {
+    "lowest": "CG(c=0.5)",
+    "order": [
+     "CG(c=0.5) 0.0998",
+     "CG(c=1) 0.1005",
+     "CG-D 0.1025",
+     "P3 0.1034",
+     "P2 0.1034",
+     "P1 0.7270",
+     "P1t 0.8746"
+    ],
+    "best_CG_vs_best_P3_pct": -3.45
+   },
+   "rm50_re0.25": {
+    "lowest": "CG(c=1)",
+    "order": [
+     "CG(c=1) 0.2424",
+     "CG(c=0.5) 0.2450",
+     "P3 0.2468",
+     "P2 0.2468",
+     "CG-D 0.2472",
+     "P1 0.7270",
+     "P1t 0.8746"
+    ],
+    "best_CG_vs_best_P3_pct": -1.82
+   },
+   "rm50_re0.5": {
+    "lowest": "CG(c=1)",
+    "order": [
+     "CG(c=1) 0.4775",
+     "P3 0.4831",
+     "P2 0.4831",
+     "CG(c=0.5) 0.4857",
+     "CG-D 0.4872",
+     "P1 0.7270",
+     "P1t 0.8746"
+    ],
+    "best_CG_vs_best_P3_pct": -1.15
+   }
+  },
+  "constraints_met_out_of_sample": {
+   "m0.03_e0.3": [
+    "P1t"
+   ],
+   "m0.03_e0.4": [
+    "P1t"
+   ],
+   "m0.03_e0.5": [
+    "P1t"
+   ],
+   "m0.05_e0.3": [
+    "P1t"
+   ],
+   "m0.05_e0.4": [
+    "P1t"
+   ],
+   "m0.05_e0.5": [
+    "P1t"
+   ]
+  },
+  "raw": {
+   "constraint": {
+    "m0.03_e0.3|P1t": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.852504963213827,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 14600,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": true
+    },
+    "m0.03_e0.3|CG(c=1)": {
+     "dismissed_assoc_share": 0.004916420845624385,
+     "unassoc_alert_per_ep": 0.1535092841293939,
+     "escalated_share": 0.5548873058507532,
+     "dismissed_assoc": 10,
+     "unassoc_alerts": 2629,
+     "escalations": 9503,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.3|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.00344149459193707,
+     "unassoc_alert_per_ep": 0.19356533925026276,
+     "escalated_share": 0.5682587878080112,
+     "dismissed_assoc": 7,
+     "unassoc_alerts": 3315,
+     "escalations": 9732,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.3|CG-D": {
+     "dismissed_assoc_share": 0.005408062930186824,
+     "unassoc_alert_per_ep": 0.16483708980497488,
+     "escalated_share": 0.5710615438514539,
+     "dismissed_assoc": 11,
+     "unassoc_alerts": 2823,
+     "escalations": 9780,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.4|P1t": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.852504963213827,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 14600,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": true
+    },
+    "m0.03_e0.4|P3": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.21137451827630505,
+     "escalated_share": 0.6514072170968118,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 3620,
+     "escalations": 11156,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.4|P2": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.19934602358986336,
+     "escalated_share": 0.6439332009809646,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 3414,
+     "escalations": 11028,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.4|CG(c=1)": {
+     "dismissed_assoc_share": 0.004916420845624385,
+     "unassoc_alert_per_ep": 0.09044727315193274,
+     "escalated_share": 0.6310288450309471,
+     "dismissed_assoc": 10,
+     "unassoc_alerts": 1549,
+     "escalations": 10807,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.4|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.00344149459193707,
+     "unassoc_alert_per_ep": 0.12448908092958075,
+     "escalated_share": 0.6447506714936354,
+     "dismissed_assoc": 7,
+     "unassoc_alerts": 2132,
+     "escalations": 11042,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.4|CG-D": {
+     "dismissed_assoc_share": 0.005408062930186824,
+     "unassoc_alert_per_ep": 0.09862197827864067,
+     "escalated_share": 0.6476118182879832,
+     "dismissed_assoc": 11,
+     "unassoc_alerts": 1689,
+     "escalations": 11091,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.5|P1t": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.852504963213827,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 14600,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": true
+    },
+    "m0.03_e0.5|P3": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.1758729417260306,
+     "escalated_share": 0.6890692514305734,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 3012,
+     "escalations": 11801,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.5|P2": {
+     "dismissed_assoc_share": 0.0014749262536873156,
+     "unassoc_alert_per_ep": 0.1591731869671844,
+     "escalated_share": 0.686558449141656,
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 2726,
+     "escalations": 11758,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.5|CG(c=1)": {
+     "dismissed_assoc_share": 0.004916420845624385,
+     "unassoc_alert_per_ep": 0.02569193039822492,
+     "escalated_share": 0.7312857643349293,
+     "dismissed_assoc": 10,
+     "unassoc_alerts": 440,
+     "escalations": 12524,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.5|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.00344149459193707,
+     "unassoc_alert_per_ep": 0.05389466308536728,
+     "escalated_share": 0.7368912764218147,
+     "dismissed_assoc": 7,
+     "unassoc_alerts": 923,
+     "escalations": 12620,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.03_e0.5|CG-D": {
+     "dismissed_assoc_share": 0.005408062930186824,
+     "unassoc_alert_per_ep": 0.03807076959009693,
+     "escalated_share": 0.736132196660049,
+     "dismissed_assoc": 11,
+     "unassoc_alerts": 652,
+     "escalations": 12607,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.3|P1t": {
+     "dismissed_assoc_share": 0.0024582104228121925,
+     "unassoc_alert_per_ep": 0.805208454980731,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 13790,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": true
+    },
+    "m0.05_e0.3|P2": {
+     "dismissed_assoc_share": 0.008849557522123894,
+     "unassoc_alert_per_ep": 0.1758729417260306,
+     "escalated_share": 0.4590680836155553,
+     "dismissed_assoc": 18,
+     "unassoc_alerts": 3012,
+     "escalations": 7862,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.3|CG(c=1)": {
+     "dismissed_assoc_share": 0.016224188790560472,
+     "unassoc_alert_per_ep": 0.09044727315193274,
+     "escalated_share": 0.46852738526217447,
+     "dismissed_assoc": 33,
+     "unassoc_alerts": 1549,
+     "escalations": 8024,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.3|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.012291052114060964,
+     "unassoc_alert_per_ep": 0.10843162443069018,
+     "escalated_share": 0.4705710615438515,
+     "dismissed_assoc": 25,
+     "unassoc_alerts": 1857,
+     "escalations": 8059,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.3|CG-D": {
+     "dismissed_assoc_share": 0.015732546705998034,
+     "unassoc_alert_per_ep": 0.09862197827864067,
+     "escalated_share": 0.4590680836155553,
+     "dismissed_assoc": 32,
+     "unassoc_alerts": 1689,
+     "escalations": 7862,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.4|P1t": {
+     "dismissed_assoc_share": 0.0024582104228121925,
+     "unassoc_alert_per_ep": 0.805208454980731,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 13790,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": true
+    },
+    "m0.05_e0.4|P3": {
+     "dismissed_assoc_share": 0.0024582104228121925,
+     "unassoc_alert_per_ep": 0.18387247460002334,
+     "escalated_share": 0.6331309120635291,
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 3149,
+     "escalations": 10843,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.4|P2": {
+     "dismissed_assoc_share": 0.008849557522123894,
+     "unassoc_alert_per_ep": 0.1197010393553661,
+     "escalated_share": 0.5216045778348709,
+     "dismissed_assoc": 18,
+     "unassoc_alerts": 2050,
+     "escalations": 8933,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.4|CG(c=1)": {
+     "dismissed_assoc_share": 0.016224188790560472,
+     "unassoc_alert_per_ep": 0.0281443419362373,
+     "escalated_share": 0.5642882167464673,
+     "dismissed_assoc": 33,
+     "unassoc_alerts": 482,
+     "escalations": 9664,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.4|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.012291052114060964,
+     "unassoc_alert_per_ep": 0.04169099614621044,
+     "escalated_share": 0.5627116664720309,
+     "dismissed_assoc": 25,
+     "unassoc_alerts": 714,
+     "escalations": 9637,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.4|CG-D": {
+     "dismissed_assoc_share": 0.015732546705998034,
+     "unassoc_alert_per_ep": 0.03807076959009693,
+     "escalated_share": 0.5475884619876211,
+     "dismissed_assoc": 32,
+     "unassoc_alerts": 652,
+     "escalations": 9378,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.5|P1t": {
+     "dismissed_assoc_share": 0.0024582104228121925,
+     "unassoc_alert_per_ep": 0.805208454980731,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 13790,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": true
+    },
+    "m0.05_e0.5|P3": {
+     "dismissed_assoc_share": 0.0024582104228121925,
+     "unassoc_alert_per_ep": 0.13967067616489548,
+     "escalated_share": 0.6815368445638211,
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 2392,
+     "escalations": 11672,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.5|P2": {
+     "dismissed_assoc_share": 0.008849557522123894,
+     "unassoc_alert_per_ep": 0.061076725446689246,
+     "escalated_share": 0.5966950834987738,
+     "dismissed_assoc": 18,
+     "unassoc_alerts": 1046,
+     "escalations": 10219,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.5|CG(c=1)": {
+     "dismissed_assoc_share": 0.016224188790560472,
+     "unassoc_alert_per_ep": 0.011970103935536611,
+     "escalated_share": 0.6048113978745767,
+     "dismissed_assoc": 33,
+     "unassoc_alerts": 205,
+     "escalations": 10358,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.5|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.012291052114060964,
+     "unassoc_alert_per_ep": 0.018159523531472616,
+     "escalated_share": 0.6060376036435828,
+     "dismissed_assoc": 25,
+     "unassoc_alerts": 311,
+     "escalations": 10379,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    },
+    "m0.05_e0.5|CG-D": {
+     "dismissed_assoc_share": 0.015732546705998034,
+     "unassoc_alert_per_ep": 0.012962746700922574,
+     "escalated_share": 0.6044610533691464,
+     "dismissed_assoc": 32,
+     "unassoc_alerts": 222,
+     "escalations": 10352,
+     "episodes": 17126,
+     "assoc": 2034,
+     "constraints_held": false
+    }
+   },
+   "cost": {
+    "rm20_re0.1|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.42397524232161626
+    },
+    "rm20_re0.1|P1t": {
+     "dismissed_assoc_share": 0.022123893805309734,
+     "unassoc_alert_per_ep": 0.48201564872124253,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 45,
+     "unassoc_alerts": 8255,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.5345673245357935
+    },
+    "rm20_re0.1|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.004963213826929815,
+     "escalated_share": 0.9549807310522014,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 85,
+     "escalations": 16355,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10162910195025109
+    },
+    "rm20_re0.1|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.004963213826929815,
+     "escalated_share": 0.9549807310522014,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 85,
+     "escalations": 16355,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10162910195025109
+    },
+    "rm20_re0.1|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9455798201564872,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16194,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.0970103935536611
+    },
+    "rm20_re0.1|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9678266962513138,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 2,
+     "escalations": 16575,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.09806726614504263
+    },
+    "rm20_re0.1|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9650823309587762,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16528,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.09896064463389
+    },
+    "rm20_re0.25|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.42397524232161626
+    },
+    "rm20_re0.25|P1t": {
+     "dismissed_assoc_share": 0.022123893805309734,
+     "unassoc_alert_per_ep": 0.48201564872124253,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 45,
+     "unassoc_alerts": 8255,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.5345673245357935
+    },
+    "rm20_re0.25|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24509517692397526
+    },
+    "rm20_re0.25|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24509517692397526
+    },
+    "rm20_re0.25|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9455798201564872,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16194,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.23884736657713418
+    },
+    "rm20_re0.25|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9678266962513138,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 2,
+     "escalations": 16575,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.2432412705827397
+    },
+    "rm20_re0.25|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9650823309587762,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16528,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.2437229942777064
+    },
+    "rm20_re0.5|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.42397524232161626
+    },
+    "rm20_re0.5|P1t": {
+     "dismissed_assoc_share": 0.022123893805309734,
+     "unassoc_alert_per_ep": 0.48201564872124253,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 45,
+     "unassoc_alerts": 8255,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.5345673245357935
+    },
+    "rm20_re0.5|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.48131495971038185
+    },
+    "rm20_re0.5|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.48131495971038185
+    },
+    "rm20_re0.5|CG(c=1)": {
+     "dismissed_assoc_share": 0.029006882989183875,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.46309704542800423,
+     "dismissed_assoc": 59,
+     "unassoc_alerts": 9,
+     "escalations": 7931,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.30097512554011446
+    },
+    "rm20_re0.5|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.029006882989183875,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.4737241620927245,
+     "dismissed_assoc": 59,
+     "unassoc_alerts": 9,
+     "escalations": 8113,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.3062886838724746
+    },
+    "rm20_re0.5|CG-D": {
+     "dismissed_assoc_share": 0.030973451327433628,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.4353614387481023,
+     "dismissed_assoc": 63,
+     "unassoc_alerts": 9,
+     "escalations": 7456,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.29177858227256803
+    },
+    "rm50_re0.1|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.7270232395188602
+    },
+    "rm50_re0.1|P1t": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.8716571295106855,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 14928,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.8745766670559384
+    },
+    "rm50_re0.1|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.004963213826929815,
+     "escalated_share": 0.9549807310522014,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 85,
+     "escalations": 16355,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10338082447740278
+    },
+    "rm50_re0.1|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.004963213826929815,
+     "escalated_share": 0.9549807310522014,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 85,
+     "escalations": 16355,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10338082447740278
+    },
+    "rm50_re0.1|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9455798201564872,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16194,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.1005138386079645
+    },
+    "rm50_re0.1|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9678266962513138,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 2,
+     "escalations": 16575,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.09981898867219433
+    },
+    "rm50_re0.1|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9650823309587762,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16528,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.1024640896881934
+    },
+    "rm50_re0.25|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.7270232395188602
+    },
+    "rm50_re0.25|P1t": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.8716571295106855,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 14928,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.8745766670559384
+    },
+    "rm50_re0.25|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24684689945112695
+    },
+    "rm50_re0.25|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24684689945112695
+    },
+    "rm50_re0.25|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9455798201564872,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16194,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24235081163143757
+    },
+    "rm50_re0.25|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9678266962513138,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 2,
+     "escalations": 16575,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.2449929931098914
+    },
+    "rm50_re0.25|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9650823309587762,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16528,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.2472264393320098
+    },
+    "rm50_re0.5|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.7270232395188602
+    },
+    "rm50_re0.5|P1t": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.8716571295106855,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 14928,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.8745766670559384
+    },
+    "rm50_re0.5|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4830666822375336
+    },
+    "rm50_re0.5|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4830666822375336
+    },
+    "rm50_re0.5|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.942251547354899,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 9,
+     "escalations": 16137,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4774903655261007
+    },
+    "rm50_re0.5|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.9644984234497256,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 9,
+     "escalations": 16518,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4856942660282611
+    },
+    "rm50_re0.5|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.961754058157188,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 9,
+     "escalations": 16471,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4872416209272451
+    },
+    "rm100_re0.1|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 1.2321032348476002
+    },
+    "rm100_re0.1|P1t": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.8716571295106855,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 14928,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.8774962046011912
+    },
+    "rm100_re0.1|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.004963213826929815,
+     "escalated_share": 0.9549807310522014,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 85,
+     "escalations": 16355,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10630036202265561
+    },
+    "rm100_re0.1|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.004963213826929815,
+     "escalated_share": 0.9549807310522014,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 85,
+     "escalations": 16355,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10630036202265561
+    },
+    "rm100_re0.1|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9455798201564872,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16194,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10635291369847016
+    },
+    "rm100_re0.1|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9678266962513138,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 2,
+     "escalations": 16575,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10273852621744715
+    },
+    "rm100_re0.1|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9650823309587762,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16528,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.10830316477869907
+    },
+    "rm100_re0.25|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 1.2321032348476002
+    },
+    "rm100_re0.25|P1t": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.8716571295106855,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 14928,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.8774962046011912
+    },
+    "rm100_re0.25|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24976643699637976
+    },
+    "rm100_re0.25|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24976643699637976
+    },
+    "rm100_re0.25|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9455798201564872,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16194,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24818988672194325
+    },
+    "rm100_re0.25|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9678266962513138,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 2,
+     "escalations": 16575,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.24791253065514424
+    },
+    "rm100_re0.25|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.00011678150181011328,
+     "escalated_share": 0.9650823309587762,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 2,
+     "escalations": 16528,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.25306551442251546
+    },
+    "rm100_re0.5|P1": {
+     "dismissed_assoc_share": 0.08505408062930186,
+     "unassoc_alert_per_ep": 0.2219432441901203,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 173,
+     "unassoc_alerts": 3801,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 1.2321032348476002
+    },
+    "rm100_re0.5|P1t": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.8716571295106855,
+     "escalated_share": 0.0,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 14928,
+     "escalations": 0,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.8774962046011912
+    },
+    "rm100_re0.5|P3": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4859862197827864
+    },
+    "rm100_re0.5|P2": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.007707579119467477,
+     "escalated_share": 0.9448791311456265,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 132,
+     "escalations": 16182,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4859862197827864
+    },
+    "rm100_re0.5|CG(c=1)": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.942251547354899,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 9,
+     "escalations": 16137,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4833294406166063
+    },
+    "rm100_re0.5|CG(c=0.5)": {
+     "dismissed_assoc_share": 0.0004916420845624386,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.9644984234497256,
+     "dismissed_assoc": 1,
+     "unassoc_alerts": 9,
+     "escalations": 16518,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.48861380357351397
+    },
+    "rm100_re0.5|CG-D": {
+     "dismissed_assoc_share": 0.0009832841691248771,
+     "unassoc_alert_per_ep": 0.0005255167581455098,
+     "escalated_share": 0.961754058157188,
+     "dismissed_assoc": 2,
+     "unassoc_alerts": 9,
+     "escalations": 16471,
+     "episodes": 17126,
+     "assoc": 2034,
+     "cost_per_ep": 0.4930806960177508
+    }
+   }
+  }
+ },
+ "7_multiplicity": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "family": "the nine pre-specified margin contrasts (E3, K3, D1 x2, N3, N5, R3, R5, R6)",
+  "test": "H0: difference >= 3 pp; p = (draws >= 3 + 1)/(draws + 1) from the published day bootstrap (days with episodes, 2000, seed 7) recomputed here; one-sided alpha 0.025, which is the 95 % two-sided interval rule of the plans; Holm step-down over the nine",
+  "rows": [
+   {
+    "test": "E3",
+    "contrast": "CG - P3",
+    "published": {
+     "diff_pp": 2.44,
+     "ci95_pp": [
+      1.74,
+      3.18
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 2.44,
+     "ci95_pp": [
+      1.74,
+      3.18
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 148,
+    "p_one_sided": 0.07446,
+    "holm_adjusted_p": 0.22339,
+    "unadjusted_noninferior_at_0.025": false,
+    "holm_noninferior_at_0.025": false
+   },
+   {
+    "test": "K3",
+    "contrast": "CG - P3",
+    "published": {
+     "diff_pp": 10.19,
+     "ci95_pp": [
+      8.72,
+      11.76
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 10.19,
+     "ci95_pp": [
+      8.72,
+      11.76
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 2000,
+    "p_one_sided": 1.0,
+    "holm_adjusted_p": 1.0,
+    "unadjusted_noninferior_at_0.025": false,
+    "holm_noninferior_at_0.025": false
+   },
+   {
+    "test": "D1 IU.MAKZ",
+    "contrast": "CG-D - P3",
+    "published": {
+     "diff_pp": 0.48,
+     "ci95_pp": [
+      0.16,
+      0.89
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 0.48,
+     "ci95_pp": [
+      0.16,
+      0.89
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 0,
+    "p_one_sided": 0.0005,
+    "holm_adjusted_p": 0.0045,
+    "unadjusted_noninferior_at_0.025": true,
+    "holm_noninferior_at_0.025": true
+   },
+   {
+    "test": "D1 II.KURK",
+    "contrast": "CG-D - P3",
+    "published": {
+     "diff_pp": 1.8,
+     "ci95_pp": [
+      1.04,
+      2.68
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 1.8,
+     "ci95_pp": [
+      1.04,
+      2.68
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 7,
+    "p_one_sided": 0.004,
+    "holm_adjusted_p": 0.01599,
+    "unadjusted_noninferior_at_0.025": true,
+    "holm_noninferior_at_0.025": true
+   },
+   {
+    "test": "N3",
+    "contrast": "CG - P3",
+    "published": {
+     "diff_pp": 3.78,
+     "ci95_pp": [
+      2.98,
+      4.69
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 3.78,
+     "ci95_pp": [
+      2.98,
+      4.69
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 1941,
+    "p_one_sided": 0.97051,
+    "holm_adjusted_p": 1.0,
+    "unadjusted_noninferior_at_0.025": false,
+    "holm_noninferior_at_0.025": false
+   },
+   {
+    "test": "N5",
+    "contrast": "CG-D - P3",
+    "published": {
+     "diff_pp": 0.84,
+     "ci95_pp": [
+      0.5,
+      1.23
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 0.84,
+     "ci95_pp": [
+      0.5,
+      1.23
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 0,
+    "p_one_sided": 0.0005,
+    "holm_adjusted_p": 0.0045,
+    "unadjusted_noninferior_at_0.025": true,
+    "holm_noninferior_at_0.025": true
+   },
+   {
+    "test": "R3",
+    "contrast": "CG - P3",
+    "published": {
+     "diff_pp": 1.47,
+     "ci95_pp": [
+      1.01,
+      2.02
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 1.47,
+     "ci95_pp": [
+      1.01,
+      2.02
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 0,
+    "p_one_sided": 0.0005,
+    "holm_adjusted_p": 0.0045,
+    "unadjusted_noninferior_at_0.025": true,
+    "holm_noninferior_at_0.025": true
+   },
+   {
+    "test": "R5",
+    "contrast": "CG-D - P3",
+    "published": {
+     "diff_pp": 0.1,
+     "ci95_pp": [
+      -0.1,
+      0.3
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 0.1,
+     "ci95_pp": [
+      -0.1,
+      0.3
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 0,
+    "p_one_sided": 0.0005,
+    "holm_adjusted_p": 0.0045,
+    "unadjusted_noninferior_at_0.025": true,
+    "holm_noninferior_at_0.025": true
+   },
+   {
+    "test": "R6",
+    "contrast": "CG(c=0.5) - P3",
+    "published": {
+     "diff_pp": 0.15,
+     "ci95_pp": [
+      0.0,
+      0.34
+     ]
+    },
+    "recomputed": {
+     "diff_pp": 0.15,
+     "ci95_pp": [
+      0.0,
+      0.34
+     ]
+    },
+    "reproduced": true,
+    "draws": 2000,
+    "draws_at_or_above_margin": 0,
+    "p_one_sided": 0.0005,
+    "holm_adjusted_p": 0.0045,
+    "unadjusted_noninferior_at_0.025": true,
+    "holm_noninferior_at_0.025": true
+   }
+  ]
+ },
+ "8_detector_and_Pn": {
+  "label": "post hoc (internal review, 08.11.2026); not pre-specified",
+  "source": "results/stage1_v3/detector_coverage.json (development, IU.MAKZ, 85 days)",
+  "detector_miss_rate": {
+   "regional_all": {
+    "events": 450,
+    "with_episode": 92,
+    "miss_rate_pct": 79.6
+   },
+   "magnitude M<=3": {
+    "events": 118,
+    "with_episode": 3,
+    "miss_rate_pct": 97.5
+   },
+   "magnitude 3<M<=4": {
+    "events": 247,
+    "with_episode": 46,
+    "miss_rate_pct": 81.4
+   },
+   "magnitude M>4": {
+    "events": 85,
+    "with_episode": 43,
+    "miss_rate_pct": 49.4
+   },
+   "distance <=7deg": {
+    "events": 79,
+    "with_episode": 40,
+    "miss_rate_pct": 49.4
+   },
+   "distance 7-15deg": {
+    "events": 371,
+    "with_episode": 52,
+    "miss_rate_pct": 86.0
+   },
+   "teleseismic": {
+    "events": 109,
+    "with_episode": 49,
+    "miss_rate_pct": 55.0
+   }
+  },
+  "Pn_travel_time_check": "not derivable from detector_coverage.json: it holds counts only, no arrival-time residuals by distance or phase. Two facts from the code (not data): catalogue association uses the TauP iasp91 first arrival (pipeline/stage1_pipeline.py, min over arrivals), which is Pn beyond the crossover distance, not 5.5 km/s; the 5.5 km/s figure only sets the neighbour coincidence half-width d/5.5 + 5 s, and since the arrival-time difference between two stations for a phase of apparent velocity v is at most d/v, a Pn moveout (v ~ 8 km/s) fits inside a window built for 5.5 km/s (the window is wider than Pn needs, which admits more chance coincidences rather than missing Pn confirmations)."
+ }
+}

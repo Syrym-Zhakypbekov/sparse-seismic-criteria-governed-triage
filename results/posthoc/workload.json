@@ -1,0 +1,3067 @@
+{
+ "status": "post hoc, method fixed in PLAN_WORKLOAD_2026-11-08.md (5e1863c) before computing; descriptive",
+ "minutes_per_escalation": 2.0,
+ "reviewed": {
+  "labels": "reviewed",
+  "frozen_operating_points": {
+   "networks": 33,
+   "network_days": 6006,
+   "pooled": {
+    "P1": {
+     "escalations": 0,
+     "escalations_per_network_day": 0.0,
+     "analyst_min_per_network_day": 0.0,
+     "alerts": 39995,
+     "alerts_per_network_day": 6.66,
+     "alert_associated_share_pct": 9.7,
+     "unassociated_alerts_per_network_day": 6.01,
+     "dismissed_associated": 448,
+     "dismissed_associated_share_pct": 10.37
+    },
+    "P3": {
+     "escalations": 113239,
+     "escalations_per_network_day": 18.85,
+     "analyst_min_per_network_day": 37.7,
+     "alerts": 26617,
+     "alerts_per_network_day": 4.43,
+     "alert_associated_share_pct": 13.4,
+     "unassociated_alerts_per_network_day": 3.84,
+     "dismissed_associated": 151,
+     "dismissed_associated_share_pct": 3.49
+    },
+    "CG": {
+     "escalations": 77133,
+     "escalations_per_network_day": 12.84,
+     "analyst_min_per_network_day": 25.7,
+     "alerts": 10823,
+     "alerts_per_network_day": 1.8,
+     "alert_associated_share_pct": 25.4,
+     "unassociated_alerts_per_network_day": 1.34,
+     "dismissed_associated": 319,
+     "dismissed_associated_share_pct": 7.38
+    },
+    "CG-D": {
+     "escalations": 112053,
+     "escalations_per_network_day": 18.66,
+     "analyst_min_per_network_day": 37.3,
+     "alerts": 12801,
+     "alerts_per_network_day": 2.13,
+     "alert_associated_share_pct": 23.4,
+     "unassociated_alerts_per_network_day": 1.63,
+     "dismissed_associated": 193,
+     "dismissed_associated_share_pct": 4.47
+    },
+    "CG_c05": {
+     "escalations": 113316,
+     "escalations_per_network_day": 18.87,
+     "analyst_min_per_network_day": 37.7,
+     "alerts": 13991,
+     "alerts_per_network_day": 2.33,
+     "alert_associated_share_pct": 21.9,
+     "unassociated_alerts_per_network_day": 1.82,
+     "dismissed_associated": 183,
+     "dismissed_associated_share_pct": 4.24
+    }
+   },
+   "per_network_summary": {
+    "P1": {
+     "median_min_per_day": 0.0,
+     "max_min_per_day": 0.0
+    },
+    "P3": {
+     "median_min_per_day": 21.1,
+     "max_min_per_day": 406.8
+    },
+    "CG": {
+     "median_min_per_day": 15.3,
+     "max_min_per_day": 238.2
+    },
+    "CG-D": {
+     "median_min_per_day": 21.2,
+     "max_min_per_day": 367.2
+    },
+    "CG_c05": {
+     "median_min_per_day": 21.4,
+     "max_min_per_day": 372.9
+    }
+   },
+   "per_network": {
+    "AE": {
+     "calendar_days": 182,
+     "associated": 242,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 6.96,
+      "dismissed_associated": 20
+     },
+     "P3": {
+      "escalations_per_day": 8.09,
+      "analyst_min_per_day": 16.2,
+      "alerts_per_day": 5.81,
+      "dismissed_associated": 5
+     },
+     "CG": {
+      "escalations_per_day": 6.53,
+      "analyst_min_per_day": 13.1,
+      "alerts_per_day": 2.19,
+      "dismissed_associated": 18
+     },
+     "CG-D": {
+      "escalations_per_day": 9.98,
+      "analyst_min_per_day": 20.0,
+      "alerts_per_day": 2.45,
+      "dismissed_associated": 9
+     },
+     "CG_c05": {
+      "escalations_per_day": 9.67,
+      "analyst_min_per_day": 19.3,
+      "alerts_per_day": 2.94,
+      "dismissed_associated": 8
+     }
+    },
+    "AG": {
+     "calendar_days": 182,
+     "associated": 37,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.45,
+      "dismissed_associated": 6
+     },
+     "P3": {
+      "escalations_per_day": 26.22,
+      "analyst_min_per_day": 52.4,
+      "alerts_per_day": 2.64,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 13.81,
+      "analyst_min_per_day": 27.6,
+      "alerts_per_day": 0.42,
+      "dismissed_associated": 6
+     },
+     "CG-D": {
+      "escalations_per_day": 24.32,
+      "analyst_min_per_day": 48.6,
+      "alerts_per_day": 0.52,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 24.69,
+      "analyst_min_per_day": 49.4,
+      "alerts_per_day": 0.68,
+      "dismissed_associated": 3
+     }
+    },
+    "AU": {
+     "calendar_days": 182,
+     "associated": 90,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.26,
+      "dismissed_associated": 0
+     },
+     "P3": {
+      "escalations_per_day": 3.08,
+      "analyst_min_per_day": 6.2,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 2.77,
+      "analyst_min_per_day": 5.5,
+      "alerts_per_day": 1.49,
+      "dismissed_associated": 0
+     },
+     "CG-D": {
+      "escalations_per_day": 2.71,
+      "analyst_min_per_day": 5.4,
+      "alerts_per_day": 1.57,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 2.72,
+      "analyst_min_per_day": 5.4,
+      "alerts_per_day": 1.56,
+      "dismissed_associated": 0
+     }
+    },
+    "AV": {
+     "calendar_days": 182,
+     "associated": 433,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.83,
+      "dismissed_associated": 36
+     },
+     "P3": {
+      "escalations_per_day": 2.92,
+      "analyst_min_per_day": 5.8,
+      "alerts_per_day": 6.18,
+      "dismissed_associated": 17
+     },
+     "CG": {
+      "escalations_per_day": 4.3,
+      "analyst_min_per_day": 8.6,
+      "alerts_per_day": 3.61,
+      "dismissed_associated": 34
+     },
+     "CG-D": {
+      "escalations_per_day": 4.09,
+      "analyst_min_per_day": 8.2,
+      "alerts_per_day": 4.53,
+      "dismissed_associated": 26
+     },
+     "CG_c05": {
+      "escalations_per_day": 4.13,
+      "analyst_min_per_day": 8.3,
+      "alerts_per_day": 4.53,
+      "dismissed_associated": 26
+     }
+    },
+    "BW": {
+     "calendar_days": 182,
+     "associated": 99,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.84,
+      "dismissed_associated": 16
+     },
+     "P3": {
+      "escalations_per_day": 30.74,
+      "analyst_min_per_day": 61.5,
+      "alerts_per_day": 3.26,
+      "dismissed_associated": 5
+     },
+     "CG": {
+      "escalations_per_day": 15.43,
+      "analyst_min_per_day": 30.9,
+      "alerts_per_day": 0.59,
+      "dismissed_associated": 13
+     },
+     "CG-D": {
+      "escalations_per_day": 28.65,
+      "analyst_min_per_day": 57.3,
+      "alerts_per_day": 0.64,
+      "dismissed_associated": 5
+     },
+     "CG_c05": {
+      "escalations_per_day": 30.66,
+      "analyst_min_per_day": 61.3,
+      "alerts_per_day": 0.93,
+      "dismissed_associated": 4
+     }
+    },
+    "C0": {
+     "calendar_days": 182,
+     "associated": 92,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.27,
+      "dismissed_associated": 15
+     },
+     "P3": {
+      "escalations_per_day": 15.01,
+      "analyst_min_per_day": 30.0,
+      "alerts_per_day": 2.82,
+      "dismissed_associated": 4
+     },
+     "CG": {
+      "escalations_per_day": 7.01,
+      "analyst_min_per_day": 14.0,
+      "alerts_per_day": 0.28,
+      "dismissed_associated": 12
+     },
+     "CG-D": {
+      "escalations_per_day": 13.95,
+      "analyst_min_per_day": 27.9,
+      "alerts_per_day": 0.38,
+      "dismissed_associated": 6
+     },
+     "CG_c05": {
+      "escalations_per_day": 14.07,
+      "analyst_min_per_day": 28.1,
+      "alerts_per_day": 0.75,
+      "dismissed_associated": 5
+     }
+    },
+    "C1": {
+     "calendar_days": 182,
+     "associated": 190,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 16.09,
+      "dismissed_associated": 5
+     },
+     "P3": {
+      "escalations_per_day": 10.57,
+      "analyst_min_per_day": 21.1,
+      "alerts_per_day": 16.09,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 13.19,
+      "analyst_min_per_day": 26.4,
+      "alerts_per_day": 11.39,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 14.56,
+      "analyst_min_per_day": 29.1,
+      "alerts_per_day": 11.99,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.28,
+      "analyst_min_per_day": 26.6,
+      "alerts_per_day": 13.27,
+      "dismissed_associated": 0
+     }
+    },
+    "CN": {
+     "calendar_days": 182,
+     "associated": 55,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 8.29,
+      "dismissed_associated": 3
+     },
+     "P3": {
+      "escalations_per_day": 10.92,
+      "analyst_min_per_day": 21.8,
+      "alerts_per_day": 1.73,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 8.14,
+      "analyst_min_per_day": 16.3,
+      "alerts_per_day": 0.69,
+      "dismissed_associated": 3
+     },
+     "CG-D": {
+      "escalations_per_day": 10.17,
+      "analyst_min_per_day": 20.3,
+      "alerts_per_day": 0.82,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.37,
+      "analyst_min_per_day": 20.7,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 3
+     }
+    },
+    "EE": {
+     "calendar_days": 182,
+     "associated": 73,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.93,
+      "dismissed_associated": 4
+     },
+     "P3": {
+      "escalations_per_day": 14.4,
+      "analyst_min_per_day": 28.8,
+      "alerts_per_day": 2.21,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 5.2,
+      "analyst_min_per_day": 10.4,
+      "alerts_per_day": 1.24,
+      "dismissed_associated": 4
+     },
+     "CG-D": {
+      "escalations_per_day": 9.88,
+      "analyst_min_per_day": 19.8,
+      "alerts_per_day": 1.43,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.38,
+      "analyst_min_per_day": 20.8,
+      "alerts_per_day": 1.39,
+      "dismissed_associated": 3
+     }
+    },
+    "ET": {
+     "calendar_days": 182,
+     "associated": 69,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.1,
+      "dismissed_associated": 5
+     },
+     "P3": {
+      "escalations_per_day": 8.69,
+      "analyst_min_per_day": 17.4,
+      "alerts_per_day": 4.73,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 7.64,
+      "analyst_min_per_day": 15.3,
+      "alerts_per_day": 1.13,
+      "dismissed_associated": 3
+     },
+     "CG-D": {
+      "escalations_per_day": 10.93,
+      "analyst_min_per_day": 21.9,
+      "alerts_per_day": 1.62,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.86,
+      "analyst_min_per_day": 21.7,
+      "alerts_per_day": 1.72,
+      "dismissed_associated": 3
+     }
+    },
+    "FN": {
+     "calendar_days": 182,
+     "associated": 101,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 11.27,
+      "dismissed_associated": 1
+     },
+     "P3": {
+      "escalations_per_day": 6.05,
+      "analyst_min_per_day": 12.1,
+      "alerts_per_day": 6.31,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 7.35,
+      "analyst_min_per_day": 14.7,
+      "alerts_per_day": 4.03,
+      "dismissed_associated": 1
+     },
+     "CG-D": {
+      "escalations_per_day": 7.04,
+      "analyst_min_per_day": 14.1,
+      "alerts_per_day": 4.69,
+      "dismissed_associated": 1
+     },
+     "CG_c05": {
+      "escalations_per_day": 7.19,
+      "analyst_min_per_day": 14.4,
+      "alerts_per_day": 4.61,
+      "dismissed_associated": 1
+     }
+    },
+    "HC": {
+     "calendar_days": 182,
+     "associated": 90,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.12,
+      "dismissed_associated": 2
+     },
+     "P3": {
+      "escalations_per_day": 11.28,
+      "analyst_min_per_day": 22.6,
+      "alerts_per_day": 2.26,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 6.07,
+      "analyst_min_per_day": 12.1,
+      "alerts_per_day": 0.6,
+      "dismissed_associated": 1
+     },
+     "CG-D": {
+      "escalations_per_day": 10.04,
+      "analyst_min_per_day": 20.1,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.43,
+      "analyst_min_per_day": 20.9,
+      "alerts_per_day": 0.75,
+      "dismissed_associated": 0
+     }
+    },
+    "HE": {
+     "calendar_days": 182,
+     "associated": 112,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 15.49,
+      "dismissed_associated": 4
+     },
+     "P3": {
+      "escalations_per_day": 7.9,
+      "analyst_min_per_day": 15.8,
+      "alerts_per_day": 9.19,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 12.69,
+      "analyst_min_per_day": 25.4,
+      "alerts_per_day": 3.12,
+      "dismissed_associated": 4
+     },
+     "CG-D": {
+      "escalations_per_day": 12.49,
+      "analyst_min_per_day": 25.0,
+      "alerts_per_day": 3.92,
+      "dismissed_associated": 2
+     },
+     "CG_c05": {
+      "escalations_per_day": 12.52,
+      "analyst_min_per_day": 25.0,
+      "alerts_per_day": 3.95,
+      "dismissed_associated": 2
+     }
+    },
+    "HL": {
+     "calendar_days": 182,
+     "associated": 263,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.96,
+      "dismissed_associated": 41
+     },
+     "P3": {
+      "escalations_per_day": 14.98,
+      "analyst_min_per_day": 30.0,
+      "alerts_per_day": 4.8,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 9.83,
+      "analyst_min_per_day": 19.7,
+      "alerts_per_day": 1.34,
+      "dismissed_associated": 17
+     },
+     "CG-D": {
+      "escalations_per_day": 15.92,
+      "analyst_min_per_day": 31.8,
+      "alerts_per_day": 1.57,
+      "dismissed_associated": 6
+     },
+     "CG_c05": {
+      "escalations_per_day": 16.06,
+      "analyst_min_per_day": 32.1,
+      "alerts_per_day": 1.71,
+      "dismissed_associated": 4
+     }
+    },
+    "IV": {
+     "calendar_days": 182,
+     "associated": 122,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.31,
+      "dismissed_associated": 24
+     },
+     "P3": {
+      "escalations_per_day": 5.23,
+      "analyst_min_per_day": 10.5,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 16
+     },
+     "CG": {
+      "escalations_per_day": 4.16,
+      "analyst_min_per_day": 8.3,
+      "alerts_per_day": 0.56,
+      "dismissed_associated": 23
+     },
+     "CG-D": {
+      "escalations_per_day": 5.13,
+      "analyst_min_per_day": 10.3,
+      "alerts_per_day": 0.75,
+      "dismissed_associated": 19
+     },
+     "CG_c05": {
+      "escalations_per_day": 5.19,
+      "analyst_min_per_day": 10.4,
+      "alerts_per_day": 0.76,
+      "dismissed_associated": 18
+     }
+    },
+    "IW": {
+     "calendar_days": 182,
+     "associated": 245,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 15.07,
+      "dismissed_associated": 5
+     },
+     "P3": {
+      "escalations_per_day": 11.59,
+      "analyst_min_per_day": 23.2,
+      "alerts_per_day": 13.97,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 16.82,
+      "analyst_min_per_day": 33.6,
+      "alerts_per_day": 3.33,
+      "dismissed_associated": 3
+     },
+     "CG-D": {
+      "escalations_per_day": 19.82,
+      "analyst_min_per_day": 39.6,
+      "alerts_per_day": 4.42,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 19.45,
+      "analyst_min_per_day": 38.9,
+      "alerts_per_day": 4.99,
+      "dismissed_associated": 0
+     }
+    },
+    "JP": {
+     "calendar_days": 182,
+     "associated": 218,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 20.86,
+      "dismissed_associated": 115
+     },
+     "P3": {
+      "escalations_per_day": 203.42,
+      "analyst_min_per_day": 406.8,
+      "alerts_per_day": 10.57,
+      "dismissed_associated": 48
+     },
+     "CG": {
+      "escalations_per_day": 119.1,
+      "analyst_min_per_day": 238.2,
+      "alerts_per_day": 0.49,
+      "dismissed_associated": 83
+     },
+     "CG-D": {
+      "escalations_per_day": 183.6,
+      "analyst_min_per_day": 367.2,
+      "alerts_per_day": 0.73,
+      "dismissed_associated": 57
+     },
+     "CG_c05": {
+      "escalations_per_day": 186.47,
+      "analyst_min_per_day": 372.9,
+      "alerts_per_day": 1.69,
+      "dismissed_associated": 56
+     }
+    },
+    "KR": {
+     "calendar_days": 182,
+     "associated": 206,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.96,
+      "dismissed_associated": 2
+     },
+     "P3": {
+      "escalations_per_day": 9.35,
+      "analyst_min_per_day": 18.7,
+      "alerts_per_day": 3.88,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 7.06,
+      "analyst_min_per_day": 14.1,
+      "alerts_per_day": 2.2,
+      "dismissed_associated": 0
+     },
+     "CG-D": {
+      "escalations_per_day": 9.88,
+      "analyst_min_per_day": 19.8,
+      "alerts_per_day": 2.67,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 9.86,
+      "analyst_min_per_day": 19.7,
+      "alerts_per_day": 2.81,
+      "dismissed_associated": 0
+     }
+    },
+    "MB": {
+     "calendar_days": 182,
+     "associated": 129,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.49,
+      "dismissed_associated": 6
+     },
+     "P3": {
+      "escalations_per_day": 2.38,
+      "analyst_min_per_day": 4.8,
+      "alerts_per_day": 3.96,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 3.1,
+      "analyst_min_per_day": 6.2,
+      "alerts_per_day": 2.29,
+      "dismissed_associated": 6
+     },
+     "CG-D": {
+      "escalations_per_day": 3.69,
+      "analyst_min_per_day": 7.4,
+      "alerts_per_day": 2.5,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 3.82,
+      "analyst_min_per_day": 7.6,
+      "alerts_per_day": 2.6,
+      "dismissed_associated": 2
+     }
+    },
+    "ND": {
+     "calendar_days": 182,
+     "associated": 284,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.58,
+      "dismissed_associated": 2
+     },
+     "P3": {
+      "escalations_per_day": 17.87,
+      "analyst_min_per_day": 35.7,
+      "alerts_per_day": 5.27,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 10.49,
+      "analyst_min_per_day": 21.0,
+      "alerts_per_day": 2.84,
+      "dismissed_associated": 1
+     },
+     "CG-D": {
+      "escalations_per_day": 17.29,
+      "analyst_min_per_day": 34.6,
+      "alerts_per_day": 3.43,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 17.71,
+      "analyst_min_per_day": 35.4,
+      "alerts_per_day": 3.41,
+      "dismissed_associated": 0
+     }
+    },
+    "NE": {
+     "calendar_days": 182,
+     "associated": 42,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.95,
+      "dismissed_associated": 2
+     },
+     "P3": {
+      "escalations_per_day": 5.09,
+      "analyst_min_per_day": 10.2,
+      "alerts_per_day": 0.88,
+      "dismissed_associated": 1
+     },
+     "CG": {
+      "escalations_per_day": 3.38,
+      "analyst_min_per_day": 6.8,
+      "alerts_per_day": 0.23,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 4.59,
+      "analyst_min_per_day": 9.2,
+      "alerts_per_day": 0.37,
+      "dismissed_associated": 1
+     },
+     "CG_c05": {
+      "escalations_per_day": 4.65,
+      "analyst_min_per_day": 9.3,
+      "alerts_per_day": 0.38,
+      "dismissed_associated": 1
+     }
+    },
+    "NM": {
+     "calendar_days": 182,
+     "associated": 37,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.16,
+      "dismissed_associated": 9
+     },
+     "P3": {
+      "escalations_per_day": 5.68,
+      "analyst_min_per_day": 11.4,
+      "alerts_per_day": 1.07,
+      "dismissed_associated": 5
+     },
+     "CG": {
+      "escalations_per_day": 4.74,
+      "analyst_min_per_day": 9.5,
+      "alerts_per_day": 0.34,
+      "dismissed_associated": 5
+     },
+     "CG-D": {
+      "escalations_per_day": 6.08,
+      "analyst_min_per_day": 12.2,
+      "alerts_per_day": 0.47,
+      "dismissed_associated": 5
+     },
+     "CG_c05": {
+      "escalations_per_day": 6.14,
+      "analyst_min_per_day": 12.3,
+      "alerts_per_day": 0.51,
+      "dismissed_associated": 5
+     }
+    },
+    "NS": {
+     "calendar_days": 182,
+     "associated": 60,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.07,
+      "dismissed_associated": 2
+     },
+     "P3": {
+      "escalations_per_day": 1.63,
+      "analyst_min_per_day": 3.3,
+      "alerts_per_day": 0.48,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 1.48,
+      "analyst_min_per_day": 3.0,
+      "alerts_per_day": 0.6,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 1.51,
+      "analyst_min_per_day": 3.0,
+      "alerts_per_day": 0.6,
+      "dismissed_associated": 2
+     },
+     "CG_c05": {
+      "escalations_per_day": 1.5,
+      "analyst_min_per_day": 3.0,
+      "alerts_per_day": 0.61,
+      "dismissed_associated": 2
+     }
+    },
+    "NY": {
+     "calendar_days": 182,
+     "associated": 38,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.26,
+      "dismissed_associated": 10
+     },
+     "P3": {
+      "escalations_per_day": 21.37,
+      "analyst_min_per_day": 42.7,
+      "alerts_per_day": 2.26,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 22.59,
+      "analyst_min_per_day": 45.2,
+      "alerts_per_day": 0.76,
+      "dismissed_associated": 0
+     },
+     "CG-D": {
+      "escalations_per_day": 22.54,
+      "analyst_min_per_day": 45.1,
+      "alerts_per_day": 1.07,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 21.92,
+      "analyst_min_per_day": 43.8,
+      "alerts_per_day": 1.71,
+      "dismissed_associated": 0
+     }
+    },
+    "OH": {
+     "calendar_days": 182,
+     "associated": 53,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.01,
+      "dismissed_associated": 3
+     },
+     "P3": {
+      "escalations_per_day": 8.86,
+      "analyst_min_per_day": 17.7,
+      "alerts_per_day": 2.52,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 8.25,
+      "analyst_min_per_day": 16.5,
+      "alerts_per_day": 2.1,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 10.24,
+      "analyst_min_per_day": 20.5,
+      "alerts_per_day": 2.41,
+      "dismissed_associated": 2
+     },
+     "CG_c05": {
+      "escalations_per_day": 9.48,
+      "analyst_min_per_day": 19.0,
+      "alerts_per_day": 2.62,
+      "dismissed_associated": 2
+     }
+    },
+    "OK": {
+     "calendar_days": 182,
+     "associated": 81,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.58,
+      "dismissed_associated": 5
+     },
+     "P3": {
+      "escalations_per_day": 14.58,
+      "analyst_min_per_day": 29.2,
+      "alerts_per_day": 2.92,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 7.86,
+      "analyst_min_per_day": 15.7,
+      "alerts_per_day": 0.98,
+      "dismissed_associated": 4
+     },
+     "CG-D": {
+      "escalations_per_day": 13.3,
+      "analyst_min_per_day": 26.6,
+      "alerts_per_day": 1.19,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.64,
+      "analyst_min_per_day": 27.3,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 2
+     }
+    },
+    "PL": {
+     "calendar_days": 182,
+     "associated": 97,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 6.05,
+      "dismissed_associated": 12
+     },
+     "P3": {
+      "escalations_per_day": 7.58,
+      "analyst_min_per_day": 15.2,
+      "alerts_per_day": 4.09,
+      "dismissed_associated": 4
+     },
+     "CG": {
+      "escalations_per_day": 8.27,
+      "analyst_min_per_day": 16.5,
+      "alerts_per_day": 1.48,
+      "dismissed_associated": 5
+     },
+     "CG-D": {
+      "escalations_per_day": 10.58,
+      "analyst_min_per_day": 21.2,
+      "alerts_per_day": 1.74,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.28,
+      "analyst_min_per_day": 20.6,
+      "alerts_per_day": 1.87,
+      "dismissed_associated": 4
+     }
+    },
+    "RV": {
+     "calendar_days": 182,
+     "associated": 72,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.88,
+      "dismissed_associated": 7
+     },
+     "P3": {
+      "escalations_per_day": 27.16,
+      "analyst_min_per_day": 54.3,
+      "alerts_per_day": 3.27,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 22.31,
+      "analyst_min_per_day": 44.6,
+      "alerts_per_day": 1.04,
+      "dismissed_associated": 1
+     },
+     "CG-D": {
+      "escalations_per_day": 28.7,
+      "analyst_min_per_day": 57.4,
+      "alerts_per_day": 1.11,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 29.79,
+      "analyst_min_per_day": 59.6,
+      "alerts_per_day": 1.76,
+      "dismissed_associated": 0
+     }
+    },
+    "SI": {
+     "calendar_days": 182,
+     "associated": 170,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 10.28,
+      "dismissed_associated": 23
+     },
+     "P3": {
+      "escalations_per_day": 62.96,
+      "analyst_min_per_day": 125.9,
+      "alerts_per_day": 6.26,
+      "dismissed_associated": 12
+     },
+     "CG": {
+      "escalations_per_day": 36.86,
+      "analyst_min_per_day": 73.7,
+      "alerts_per_day": 2.15,
+      "dismissed_associated": 20
+     },
+     "CG-D": {
+      "escalations_per_day": 57.67,
+      "analyst_min_per_day": 115.3,
+      "alerts_per_day": 2.61,
+      "dismissed_associated": 13
+     },
+     "CG_c05": {
+      "escalations_per_day": 58.63,
+      "analyst_min_per_day": 117.3,
+      "alerts_per_day": 2.85,
+      "dismissed_associated": 12
+     }
+    },
+    "UO": {
+     "calendar_days": 182,
+     "associated": 123,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.51,
+      "dismissed_associated": 4
+     },
+     "P3": {
+      "escalations_per_day": 6.93,
+      "analyst_min_per_day": 13.9,
+      "alerts_per_day": 2.02,
+      "dismissed_associated": 1
+     },
+     "CG": {
+      "escalations_per_day": 5.29,
+      "analyst_min_per_day": 10.6,
+      "alerts_per_day": 0.96,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 6.82,
+      "analyst_min_per_day": 13.6,
+      "alerts_per_day": 1.23,
+      "dismissed_associated": 1
+     },
+     "CG_c05": {
+      "escalations_per_day": 6.91,
+      "analyst_min_per_day": 13.8,
+      "alerts_per_day": 1.22,
+      "dismissed_associated": 1
+     }
+    },
+    "UU": {
+     "calendar_days": 182,
+     "associated": 245,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 9.98,
+      "dismissed_associated": 20
+     },
+     "P3": {
+      "escalations_per_day": 7.54,
+      "analyst_min_per_day": 15.1,
+      "alerts_per_day": 9.17,
+      "dismissed_associated": 1
+     },
+     "CG": {
+      "escalations_per_day": 8.09,
+      "analyst_min_per_day": 16.2,
+      "alerts_per_day": 3.97,
+      "dismissed_associated": 16
+     },
+     "CG-D": {
+      "escalations_per_day": 10.62,
+      "analyst_min_per_day": 21.2,
+      "alerts_per_day": 4.94,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.69,
+      "analyst_min_per_day": 21.4,
+      "alerts_per_day": 5.03,
+      "dismissed_associated": 4
+     }
+    },
+    "UW": {
+     "calendar_days": 182,
+     "associated": 35,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 0.99,
+      "dismissed_associated": 9
+     },
+     "P3": {
+      "escalations_per_day": 17.3,
+      "analyst_min_per_day": 34.6,
+      "alerts_per_day": 0.91,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 7.61,
+      "analyst_min_per_day": 15.2,
+      "alerts_per_day": 0.24,
+      "dismissed_associated": 8
+     },
+     "CG-D": {
+      "escalations_per_day": 15.41,
+      "analyst_min_per_day": 30.8,
+      "alerts_per_day": 0.27,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 15.76,
+      "analyst_min_per_day": 31.5,
+      "alerts_per_day": 0.3,
+      "dismissed_associated": 4
+     }
+    },
+    "WW": {
+     "calendar_days": 182,
+     "associated": 118,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.91,
+      "dismissed_associated": 30
+     },
+     "P3": {
+      "escalations_per_day": 14.81,
+      "analyst_min_per_day": 29.6,
+      "alerts_per_day": 2.29,
+      "dismissed_associated": 5
+     },
+     "CG": {
+      "escalations_per_day": 6.36,
+      "analyst_min_per_day": 12.7,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 18
+     },
+     "CG-D": {
+      "escalations_per_day": 13.45,
+      "analyst_min_per_day": 26.9,
+      "alerts_per_day": 0.89,
+      "dismissed_associated": 8
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.69,
+      "analyst_min_per_day": 27.4,
+      "alerts_per_day": 0.95,
+      "dismissed_associated": 8
+     }
+    }
+   }
+  },
+  "sweep_CG_c": {
+   "0.0": {
+    "escalations": 242884,
+    "escalations_per_network_day": 40.44,
+    "analyst_min_per_network_day": 80.9,
+    "alerts": 20419,
+    "alerts_per_network_day": 3.4,
+    "alert_associated_share_pct": 16.8,
+    "unassociated_alerts_per_network_day": 2.83,
+    "dismissed_associated": 0,
+    "dismissed_associated_share_pct": 0.0
+   },
+   "0.1": {
+    "escalations": 161873,
+    "escalations_per_network_day": 26.95,
+    "analyst_min_per_network_day": 53.9,
+    "alerts": 27534,
+    "alerts_per_network_day": 4.58,
+    "alert_associated_share_pct": 12.1,
+    "unassociated_alerts_per_network_day": 4.03,
+    "dismissed_associated": 67,
+    "dismissed_associated_share_pct": 1.55
+   },
+   "0.2": {
+    "escalations": 143643,
+    "escalations_per_network_day": 23.92,
+    "analyst_min_per_network_day": 47.8,
+    "alerts": 24039,
+    "alerts_per_network_day": 4.0,
+    "alert_associated_share_pct": 13.6,
+    "unassociated_alerts_per_network_day": 3.46,
+    "dismissed_associated": 98,
+    "dismissed_associated_share_pct": 2.27
+   },
+   "0.3": {
+    "escalations": 132188,
+    "escalations_per_network_day": 22.01,
+    "analyst_min_per_network_day": 44.0,
+    "alerts": 20662,
+    "alerts_per_network_day": 3.44,
+    "alert_associated_share_pct": 15.5,
+    "unassociated_alerts_per_network_day": 2.91,
+    "dismissed_associated": 129,
+    "dismissed_associated_share_pct": 2.99
+   },
+   "0.4": {
+    "escalations": 120411,
+    "escalations_per_network_day": 20.05,
+    "analyst_min_per_network_day": 40.1,
+    "alerts": 18569,
+    "alerts_per_network_day": 3.09,
+    "alert_associated_share_pct": 16.9,
+    "unassociated_alerts_per_network_day": 2.57,
+    "dismissed_associated": 152,
+    "dismissed_associated_share_pct": 3.52
+   },
+   "0.5": {
+    "escalations": 113316,
+    "escalations_per_network_day": 18.87,
+    "analyst_min_per_network_day": 37.7,
+    "alerts": 13991,
+    "alerts_per_network_day": 2.33,
+    "alert_associated_share_pct": 21.9,
+    "unassociated_alerts_per_network_day": 1.82,
+    "dismissed_associated": 183,
+    "dismissed_associated_share_pct": 4.24
+   },
+   "0.6": {
+    "escalations": 103905,
+    "escalations_per_network_day": 17.3,
+    "analyst_min_per_network_day": 34.6,
+    "alerts": 13164,
+    "alerts_per_network_day": 2.19,
+    "alert_associated_share_pct": 22.7,
+    "unassociated_alerts_per_network_day": 1.69,
+    "dismissed_associated": 213,
+    "dismissed_associated_share_pct": 4.93
+   },
+   "0.7": {
+    "escalations": 95758,
+    "escalations_per_network_day": 15.94,
+    "analyst_min_per_network_day": 31.9,
+    "alerts": 12422,
+    "alerts_per_network_day": 2.07,
+    "alert_associated_share_pct": 23.6,
+    "unassociated_alerts_per_network_day": 1.58,
+    "dismissed_associated": 243,
+    "dismissed_associated_share_pct": 5.62
+   },
+   "0.8": {
+    "escalations": 88659,
+    "escalations_per_network_day": 14.76,
+    "analyst_min_per_network_day": 29.5,
+    "alerts": 11823,
+    "alerts_per_network_day": 1.97,
+    "alert_associated_share_pct": 24.2,
+    "unassociated_alerts_per_network_day": 1.49,
+    "dismissed_associated": 270,
+    "dismissed_associated_share_pct": 6.25
+   },
+   "0.9": {
+    "escalations": 82507,
+    "escalations_per_network_day": 13.74,
+    "analyst_min_per_network_day": 27.5,
+    "alerts": 11232,
+    "alerts_per_network_day": 1.87,
+    "alert_associated_share_pct": 24.9,
+    "unassociated_alerts_per_network_day": 1.4,
+    "dismissed_associated": 298,
+    "dismissed_associated_share_pct": 6.9
+   },
+   "1.0": {
+    "escalations": 77133,
+    "escalations_per_network_day": 12.84,
+    "analyst_min_per_network_day": 25.7,
+    "alerts": 10823,
+    "alerts_per_network_day": 1.8,
+    "alert_associated_share_pct": 25.4,
+    "unassociated_alerts_per_network_day": 1.34,
+    "dismissed_associated": 319,
+    "dismissed_associated_share_pct": 7.38
+   }
+  },
+  "sweep_P3_t": {
+   "5.0": {
+    "escalations": 160251,
+    "escalations_per_network_day": 26.68,
+    "analyst_min_per_network_day": 53.4,
+    "alerts": 34059,
+    "alerts_per_network_day": 5.67,
+    "alert_associated_share_pct": 11.1,
+    "unassociated_alerts_per_network_day": 5.04,
+    "dismissed_associated": 61,
+    "dismissed_associated_share_pct": 1.41
+   },
+   "5.5": {
+    "escalations": 149678,
+    "escalations_per_network_day": 24.92,
+    "analyst_min_per_network_day": 49.8,
+    "alerts": 32646,
+    "alerts_per_network_day": 5.44,
+    "alert_associated_share_pct": 11.5,
+    "unassociated_alerts_per_network_day": 4.81,
+    "dismissed_associated": 74,
+    "dismissed_associated_share_pct": 1.71
+   },
+   "6.0": {
+    "escalations": 139870,
+    "escalations_per_network_day": 23.29,
+    "analyst_min_per_network_day": 46.6,
+    "alerts": 31184,
+    "alerts_per_network_day": 5.19,
+    "alert_associated_share_pct": 11.9,
+    "unassociated_alerts_per_network_day": 4.57,
+    "dismissed_associated": 93,
+    "dismissed_associated_share_pct": 2.15
+   },
+   "6.5": {
+    "escalations": 130186,
+    "escalations_per_network_day": 21.68,
+    "analyst_min_per_network_day": 43.4,
+    "alerts": 29765,
+    "alerts_per_network_day": 4.96,
+    "alert_associated_share_pct": 12.4,
+    "unassociated_alerts_per_network_day": 4.34,
+    "dismissed_associated": 114,
+    "dismissed_associated_share_pct": 2.64
+   },
+   "7.0": {
+    "escalations": 121347,
+    "escalations_per_network_day": 20.2,
+    "analyst_min_per_network_day": 40.4,
+    "alerts": 28194,
+    "alerts_per_network_day": 4.69,
+    "alert_associated_share_pct": 12.9,
+    "unassociated_alerts_per_network_day": 4.09,
+    "dismissed_associated": 131,
+    "dismissed_associated_share_pct": 3.03
+   },
+   "7.5": {
+    "escalations": 113239,
+    "escalations_per_network_day": 18.85,
+    "analyst_min_per_network_day": 37.7,
+    "alerts": 26617,
+    "alerts_per_network_day": 4.43,
+    "alert_associated_share_pct": 13.4,
+    "unassociated_alerts_per_network_day": 3.84,
+    "dismissed_associated": 151,
+    "dismissed_associated_share_pct": 3.49
+   },
+   "8.0": {
+    "escalations": 105885,
+    "escalations_per_network_day": 17.63,
+    "analyst_min_per_network_day": 35.3,
+    "alerts": 25103,
+    "alerts_per_network_day": 4.18,
+    "alert_associated_share_pct": 14.0,
+    "unassociated_alerts_per_network_day": 3.6,
+    "dismissed_associated": 175,
+    "dismissed_associated_share_pct": 4.05
+   },
+   "8.5": {
+    "escalations": 99389,
+    "escalations_per_network_day": 16.55,
+    "analyst_min_per_network_day": 33.1,
+    "alerts": 23552,
+    "alerts_per_network_day": 3.92,
+    "alert_associated_share_pct": 14.6,
+    "unassociated_alerts_per_network_day": 3.35,
+    "dismissed_associated": 201,
+    "dismissed_associated_share_pct": 4.65
+   },
+   "9.0": {
+    "escalations": 93406,
+    "escalations_per_network_day": 15.55,
+    "analyst_min_per_network_day": 31.1,
+    "alerts": 22160,
+    "alerts_per_network_day": 3.69,
+    "alert_associated_share_pct": 15.1,
+    "unassociated_alerts_per_network_day": 3.13,
+    "dismissed_associated": 222,
+    "dismissed_associated_share_pct": 5.14
+   },
+   "9.5": {
+    "escalations": 88286,
+    "escalations_per_network_day": 14.7,
+    "analyst_min_per_network_day": 29.4,
+    "alerts": 20721,
+    "alerts_per_network_day": 3.45,
+    "alert_associated_share_pct": 15.8,
+    "unassociated_alerts_per_network_day": 2.91,
+    "dismissed_associated": 239,
+    "dismissed_associated_share_pct": 5.53
+   },
+   "10.0": {
+    "escalations": 83671,
+    "escalations_per_network_day": 13.93,
+    "analyst_min_per_network_day": 27.9,
+    "alerts": 19496,
+    "alerts_per_network_day": 3.25,
+    "alert_associated_share_pct": 16.3,
+    "unassociated_alerts_per_network_day": 2.72,
+    "dismissed_associated": 262,
+    "dismissed_associated_share_pct": 6.06
+   },
+   "10.5": {
+    "escalations": 79627,
+    "escalations_per_network_day": 13.26,
+    "analyst_min_per_network_day": 26.5,
+    "alerts": 18259,
+    "alerts_per_network_day": 3.04,
+    "alert_associated_share_pct": 16.9,
+    "unassociated_alerts_per_network_day": 2.53,
+    "dismissed_associated": 283,
+    "dismissed_associated_share_pct": 6.55
+   },
+   "11.0": {
+    "escalations": 75893,
+    "escalations_per_network_day": 12.64,
+    "analyst_min_per_network_day": 25.3,
+    "alerts": 17089,
+    "alerts_per_network_day": 2.85,
+    "alert_associated_share_pct": 17.4,
+    "unassociated_alerts_per_network_day": 2.35,
+    "dismissed_associated": 302,
+    "dismissed_associated_share_pct": 6.99
+   },
+   "11.5": {
+    "escalations": 72691,
+    "escalations_per_network_day": 12.1,
+    "analyst_min_per_network_day": 24.2,
+    "alerts": 15991,
+    "alerts_per_network_day": 2.66,
+    "alert_associated_share_pct": 18.1,
+    "unassociated_alerts_per_network_day": 2.18,
+    "dismissed_associated": 313,
+    "dismissed_associated_share_pct": 7.24
+   },
+   "12.0": {
+    "escalations": 69776,
+    "escalations_per_network_day": 11.62,
+    "analyst_min_per_network_day": 23.2,
+    "alerts": 14975,
+    "alerts_per_network_day": 2.49,
+    "alert_associated_share_pct": 18.7,
+    "unassociated_alerts_per_network_day": 2.03,
+    "dismissed_associated": 331,
+    "dismissed_associated_share_pct": 7.66
+   }
+  },
+  "matched": {
+   "CG_c05": {
+    "P3_threshold_dB": 7.5,
+    "escalations_per_network_day": {
+     "CG_c05": 18.87,
+     "P3_7.5": 18.85
+    },
+    "policy": {
+     "escalations": 113316,
+     "escalations_per_network_day": 18.87,
+     "analyst_min_per_network_day": 37.7,
+     "alerts": 13991,
+     "alerts_per_network_day": 2.33,
+     "alert_associated_share_pct": 21.9,
+     "unassociated_alerts_per_network_day": 1.82,
+     "dismissed_associated": 183,
+     "dismissed_associated_share_pct": 4.24
+    },
+    "P3_7.5": {
+     "escalations": 113239,
+     "escalations_per_network_day": 18.85,
+     "analyst_min_per_network_day": 37.7,
+     "alerts": 26617,
+     "alerts_per_network_day": 4.43,
+     "alert_associated_share_pct": 13.4,
+     "unassociated_alerts_per_network_day": 3.84,
+     "dismissed_associated": 151,
+     "dismissed_associated_share_pct": 3.49
+    },
+    "dismissed_associated_diff_vs_matched_P3": {
+     "networks": 33,
+     "pooled_diff_pp": 0.74,
+     "pooled_ci95_pp": [
+      0.246,
+      1.317
+     ],
+     "pooled_noninferior": true,
+     "equal_weight_diff_pp": 0.52,
+     "equal_weight_ci95_pp": [
+      0.057,
+      1.068
+     ],
+     "ratio": 1.211,
+     "ratio_ci95": [
+      1.082,
+      1.392
+     ],
+     "ratio_criterion_holds": true
+    }
+   },
+   "CG-D": {
+    "P3_threshold_dB": 7.5,
+    "escalations_per_network_day": {
+     "CG-D": 18.66,
+     "P3_7.5": 18.85
+    },
+    "policy": {
+     "escalations": 112053,
+     "escalations_per_network_day": 18.66,
+     "analyst_min_per_network_day": 37.3,
+     "alerts": 12801,
+     "alerts_per_network_day": 2.13,
+     "alert_associated_share_pct": 23.4,
+     "unassociated_alerts_per_network_day": 1.63,
+     "dismissed_associated": 193,
+     "dismissed_associated_share_pct": 4.47
+    },
+    "P3_7.5": {
+     "escalations": 113239,
+     "escalations_per_network_day": 18.85,
+     "analyst_min_per_network_day": 37.7,
+     "alerts": 26617,
+     "alerts_per_network_day": 4.43,
+     "alert_associated_share_pct": 13.4,
+     "unassociated_alerts_per_network_day": 3.84,
+     "dismissed_associated": 151,
+     "dismissed_associated_share_pct": 3.49
+    },
+    "dismissed_associated_diff_vs_matched_P3": {
+     "networks": 33,
+     "pooled_diff_pp": 0.97,
+     "pooled_ci95_pp": [
+      0.443,
+      1.568
+     ],
+     "pooled_noninferior": true,
+     "equal_weight_diff_pp": 0.73,
+     "equal_weight_ci95_pp": [
+      0.246,
+      1.3
+     ],
+     "ratio": 1.277,
+     "ratio_ci95": [
+      1.145,
+      1.494
+     ],
+     "ratio_criterion_holds": true
+    }
+   }
+  },
+  "equal_minutes_curve_comparison": {
+   "0.2": {
+    "analyst_min_per_network_day": 47.8,
+    "dismissed_pct_CG": 2.27,
+    "dismissed_pct_P3_curve": 1.99,
+    "dismissed_diff_pp": 0.28,
+    "unassoc_alerts_CG": 3.46,
+    "unassoc_alerts_P3_curve": 4.66,
+    "unassoc_alert_reduction_pct": 25.8
+   },
+   "0.3": {
+    "analyst_min_per_network_day": 44.0,
+    "dismissed_pct_CG": 2.99,
+    "dismissed_pct_P3_curve": 2.55,
+    "dismissed_diff_pp": 0.44,
+    "unassoc_alerts_CG": 2.91,
+    "unassoc_alerts_P3_curve": 4.38,
+    "unassoc_alert_reduction_pct": 33.6
+   },
+   "0.4": {
+    "analyst_min_per_network_day": 40.1,
+    "dismissed_pct_CG": 3.52,
+    "dismissed_pct_P3_curve": 3.08,
+    "dismissed_diff_pp": 0.44,
+    "unassoc_alerts_CG": 2.57,
+    "unassoc_alerts_P3_curve": 4.06,
+    "unassoc_alert_reduction_pct": 36.7
+   },
+   "0.5": {
+    "analyst_min_per_network_day": 37.7,
+    "dismissed_pct_CG": 4.24,
+    "dismissed_pct_P3_curve": 3.49,
+    "dismissed_diff_pp": 0.75,
+    "unassoc_alerts_CG": 1.82,
+    "unassoc_alerts_P3_curve": 3.84,
+    "unassoc_alert_reduction_pct": 52.6
+   },
+   "0.6": {
+    "analyst_min_per_network_day": 34.6,
+    "dismissed_pct_CG": 4.93,
+    "dismissed_pct_P3_curve": 4.24,
+    "dismissed_diff_pp": 0.69,
+    "unassoc_alerts_CG": 1.69,
+    "unassoc_alerts_P3_curve": 3.52,
+    "unassoc_alert_reduction_pct": 52.0
+   },
+   "0.7": {
+    "analyst_min_per_network_day": 31.9,
+    "dismissed_pct_CG": 5.62,
+    "dismissed_pct_P3_curve": 4.94,
+    "dismissed_diff_pp": 0.68,
+    "unassoc_alerts_CG": 1.58,
+    "unassoc_alerts_P3_curve": 3.22,
+    "unassoc_alert_reduction_pct": 50.9
+   },
+   "0.8": {
+    "analyst_min_per_network_day": 29.5,
+    "dismissed_pct_CG": 6.25,
+    "dismissed_pct_P3_curve": 5.51,
+    "dismissed_diff_pp": 0.74,
+    "unassoc_alerts_CG": 1.49,
+    "unassoc_alerts_P3_curve": 2.92,
+    "unassoc_alert_reduction_pct": 49.0
+   },
+   "0.9": {
+    "analyst_min_per_network_day": 27.5,
+    "dismissed_pct_CG": 6.9,
+    "dismissed_pct_P3_curve": 6.2,
+    "dismissed_diff_pp": 0.7,
+    "unassoc_alerts_CG": 1.4,
+    "unassoc_alerts_P3_curve": 2.67,
+    "unassoc_alert_reduction_pct": 47.5
+   },
+   "1.0": {
+    "analyst_min_per_network_day": 25.7,
+    "dismissed_pct_CG": 7.38,
+    "dismissed_pct_P3_curve": 6.84,
+    "dismissed_diff_pp": 0.54,
+    "unassoc_alerts_CG": 1.34,
+    "unassoc_alerts_P3_curve": 2.41,
+    "unassoc_alert_reduction_pct": 44.4
+   }
+  }
+ },
+ "catalogue": {
+  "labels": "catalogue",
+  "frozen_operating_points": {
+   "networks": 38,
+   "network_days": 6916,
+   "pooled": {
+    "P1": {
+     "escalations": 0,
+     "escalations_per_network_day": 0.0,
+     "analyst_min_per_network_day": 0.0,
+     "alerts": 44655,
+     "alerts_per_network_day": 6.46,
+     "alert_associated_share_pct": 13.8,
+     "unassociated_alerts_per_network_day": 5.57,
+     "dismissed_associated": 3078,
+     "dismissed_associated_share_pct": 33.33
+    },
+    "P3": {
+     "escalations": 131260,
+     "escalations_per_network_day": 18.98,
+     "analyst_min_per_network_day": 38.0,
+     "alerts": 30606,
+     "alerts_per_network_day": 4.43,
+     "alert_associated_share_pct": 18.4,
+     "unassociated_alerts_per_network_day": 3.61,
+     "dismissed_associated": 1203,
+     "dismissed_associated_share_pct": 13.03
+    },
+    "CG": {
+     "escalations": 92585,
+     "escalations_per_network_day": 13.39,
+     "analyst_min_per_network_day": 26.8,
+     "alerts": 11367,
+     "alerts_per_network_day": 1.64,
+     "alert_associated_share_pct": 36.7,
+     "unassociated_alerts_per_network_day": 1.04,
+     "dismissed_associated": 2036,
+     "dismissed_associated_share_pct": 22.05
+    },
+    "CG-D": {
+     "escalations": 132527,
+     "escalations_per_network_day": 19.16,
+     "analyst_min_per_network_day": 38.3,
+     "alerts": 13640,
+     "alerts_per_network_day": 1.97,
+     "alert_associated_share_pct": 33.2,
+     "unassociated_alerts_per_network_day": 1.32,
+     "dismissed_associated": 1401,
+     "dismissed_associated_share_pct": 15.17
+    },
+    "CG_c05": {
+     "escalations": 133485,
+     "escalations_per_network_day": 19.3,
+     "analyst_min_per_network_day": 38.6,
+     "alerts": 15160,
+     "alerts_per_network_day": 2.19,
+     "alert_associated_share_pct": 30.8,
+     "unassociated_alerts_per_network_day": 1.52,
+     "dismissed_associated": 1362,
+     "dismissed_associated_share_pct": 14.75
+    }
+   },
+   "per_network_summary": {
+    "P1": {
+     "median_min_per_day": 0.0,
+     "max_min_per_day": 0.0
+    },
+    "P3": {
+     "median_min_per_day": 22.2,
+     "max_min_per_day": 406.8
+    },
+    "CG": {
+     "median_min_per_day": 15.9,
+     "max_min_per_day": 238.2
+    },
+    "CG-D": {
+     "median_min_per_day": 23.4,
+     "max_min_per_day": 367.2
+    },
+    "CG_c05": {
+     "median_min_per_day": 23.4,
+     "max_min_per_day": 372.9
+    }
+   },
+   "per_network": {
+    "AE": {
+     "calendar_days": 182,
+     "associated": 300,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 6.96,
+      "dismissed_associated": 30
+     },
+     "P3": {
+      "escalations_per_day": 8.09,
+      "analyst_min_per_day": 16.2,
+      "alerts_per_day": 5.81,
+      "dismissed_associated": 10
+     },
+     "CG": {
+      "escalations_per_day": 6.53,
+      "analyst_min_per_day": 13.1,
+      "alerts_per_day": 2.19,
+      "dismissed_associated": 26
+     },
+     "CG-D": {
+      "escalations_per_day": 9.98,
+      "analyst_min_per_day": 20.0,
+      "alerts_per_day": 2.45,
+      "dismissed_associated": 14
+     },
+     "CG_c05": {
+      "escalations_per_day": 9.67,
+      "analyst_min_per_day": 19.3,
+      "alerts_per_day": 2.94,
+      "dismissed_associated": 13
+     }
+    },
+    "AG": {
+     "calendar_days": 182,
+     "associated": 56,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.45,
+      "dismissed_associated": 14
+     },
+     "P3": {
+      "escalations_per_day": 26.22,
+      "analyst_min_per_day": 52.4,
+      "alerts_per_day": 2.64,
+      "dismissed_associated": 5
+     },
+     "CG": {
+      "escalations_per_day": 13.81,
+      "analyst_min_per_day": 27.6,
+      "alerts_per_day": 0.42,
+      "dismissed_associated": 13
+     },
+     "CG-D": {
+      "escalations_per_day": 24.32,
+      "analyst_min_per_day": 48.6,
+      "alerts_per_day": 0.52,
+      "dismissed_associated": 7
+     },
+     "CG_c05": {
+      "escalations_per_day": 24.69,
+      "analyst_min_per_day": 49.4,
+      "alerts_per_day": 0.68,
+      "dismissed_associated": 7
+     }
+    },
+    "AU": {
+     "calendar_days": 182,
+     "associated": 104,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.26,
+      "dismissed_associated": 0
+     },
+     "P3": {
+      "escalations_per_day": 3.08,
+      "analyst_min_per_day": 6.2,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 2.77,
+      "analyst_min_per_day": 5.5,
+      "alerts_per_day": 1.49,
+      "dismissed_associated": 0
+     },
+     "CG-D": {
+      "escalations_per_day": 2.71,
+      "analyst_min_per_day": 5.4,
+      "alerts_per_day": 1.57,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 2.72,
+      "analyst_min_per_day": 5.4,
+      "alerts_per_day": 1.56,
+      "dismissed_associated": 0
+     }
+    },
+    "AV": {
+     "calendar_days": 182,
+     "associated": 677,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.83,
+      "dismissed_associated": 44
+     },
+     "P3": {
+      "escalations_per_day": 2.92,
+      "analyst_min_per_day": 5.8,
+      "alerts_per_day": 6.18,
+      "dismissed_associated": 22
+     },
+     "CG": {
+      "escalations_per_day": 4.3,
+      "analyst_min_per_day": 8.6,
+      "alerts_per_day": 3.61,
+      "dismissed_associated": 42
+     },
+     "CG-D": {
+      "escalations_per_day": 4.09,
+      "analyst_min_per_day": 8.2,
+      "alerts_per_day": 4.53,
+      "dismissed_associated": 32
+     },
+     "CG_c05": {
+      "escalations_per_day": 4.13,
+      "analyst_min_per_day": 8.3,
+      "alerts_per_day": 4.53,
+      "dismissed_associated": 32
+     }
+    },
+    "BW": {
+     "calendar_days": 182,
+     "associated": 260,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.84,
+      "dismissed_associated": 138
+     },
+     "P3": {
+      "escalations_per_day": 30.74,
+      "analyst_min_per_day": 61.5,
+      "alerts_per_day": 3.26,
+      "dismissed_associated": 56
+     },
+     "CG": {
+      "escalations_per_day": 15.43,
+      "analyst_min_per_day": 30.9,
+      "alerts_per_day": 0.59,
+      "dismissed_associated": 105
+     },
+     "CG-D": {
+      "escalations_per_day": 28.65,
+      "analyst_min_per_day": 57.3,
+      "alerts_per_day": 0.64,
+      "dismissed_associated": 67
+     },
+     "CG_c05": {
+      "escalations_per_day": 30.66,
+      "analyst_min_per_day": 61.3,
+      "alerts_per_day": 0.93,
+      "dismissed_associated": 62
+     }
+    },
+    "C0": {
+     "calendar_days": 182,
+     "associated": 118,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.27,
+      "dismissed_associated": 35
+     },
+     "P3": {
+      "escalations_per_day": 15.01,
+      "analyst_min_per_day": 30.0,
+      "alerts_per_day": 2.82,
+      "dismissed_associated": 10
+     },
+     "CG": {
+      "escalations_per_day": 7.01,
+      "analyst_min_per_day": 14.0,
+      "alerts_per_day": 0.28,
+      "dismissed_associated": 26
+     },
+     "CG-D": {
+      "escalations_per_day": 13.95,
+      "analyst_min_per_day": 27.9,
+      "alerts_per_day": 0.38,
+      "dismissed_associated": 14
+     },
+     "CG_c05": {
+      "escalations_per_day": 14.07,
+      "analyst_min_per_day": 28.1,
+      "alerts_per_day": 0.75,
+      "dismissed_associated": 12
+     }
+    },
+    "C1": {
+     "calendar_days": 182,
+     "associated": 874,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 16.09,
+      "dismissed_associated": 42
+     },
+     "P3": {
+      "escalations_per_day": 10.57,
+      "analyst_min_per_day": 21.1,
+      "alerts_per_day": 16.09,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 13.19,
+      "analyst_min_per_day": 26.4,
+      "alerts_per_day": 11.39,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 14.56,
+      "analyst_min_per_day": 29.1,
+      "alerts_per_day": 11.99,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.28,
+      "analyst_min_per_day": 26.6,
+      "alerts_per_day": 13.27,
+      "dismissed_associated": 0
+     }
+    },
+    "CN": {
+     "calendar_days": 182,
+     "associated": 64,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 8.29,
+      "dismissed_associated": 4
+     },
+     "P3": {
+      "escalations_per_day": 10.92,
+      "analyst_min_per_day": 21.8,
+      "alerts_per_day": 1.73,
+      "dismissed_associated": 4
+     },
+     "CG": {
+      "escalations_per_day": 8.14,
+      "analyst_min_per_day": 16.3,
+      "alerts_per_day": 0.69,
+      "dismissed_associated": 4
+     },
+     "CG-D": {
+      "escalations_per_day": 10.17,
+      "analyst_min_per_day": 20.3,
+      "alerts_per_day": 0.82,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.37,
+      "analyst_min_per_day": 20.7,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 4
+     }
+    },
+    "CO": {
+     "calendar_days": 182,
+     "associated": 34,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.53,
+      "dismissed_associated": 2
+     },
+     "P3": {
+      "escalations_per_day": 13.55,
+      "analyst_min_per_day": 27.1,
+      "alerts_per_day": 3.66,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 8.38,
+      "analyst_min_per_day": 16.8,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 0
+     },
+     "CG-D": {
+      "escalations_per_day": 13.71,
+      "analyst_min_per_day": 27.4,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.98,
+      "analyst_min_per_day": 28.0,
+      "alerts_per_day": 1.24,
+      "dismissed_associated": 0
+     }
+    },
+    "EE": {
+     "calendar_days": 182,
+     "associated": 88,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.93,
+      "dismissed_associated": 12
+     },
+     "P3": {
+      "escalations_per_day": 14.4,
+      "analyst_min_per_day": 28.8,
+      "alerts_per_day": 2.21,
+      "dismissed_associated": 8
+     },
+     "CG": {
+      "escalations_per_day": 5.2,
+      "analyst_min_per_day": 10.4,
+      "alerts_per_day": 1.24,
+      "dismissed_associated": 12
+     },
+     "CG-D": {
+      "escalations_per_day": 9.88,
+      "analyst_min_per_day": 19.8,
+      "alerts_per_day": 1.43,
+      "dismissed_associated": 9
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.38,
+      "analyst_min_per_day": 20.8,
+      "alerts_per_day": 1.39,
+      "dismissed_associated": 9
+     }
+    },
+    "ET": {
+     "calendar_days": 182,
+     "associated": 79,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.1,
+      "dismissed_associated": 10
+     },
+     "P3": {
+      "escalations_per_day": 8.69,
+      "analyst_min_per_day": 17.4,
+      "alerts_per_day": 4.73,
+      "dismissed_associated": 7
+     },
+     "CG": {
+      "escalations_per_day": 7.64,
+      "analyst_min_per_day": 15.3,
+      "alerts_per_day": 1.13,
+      "dismissed_associated": 8
+     },
+     "CG-D": {
+      "escalations_per_day": 10.93,
+      "analyst_min_per_day": 21.9,
+      "alerts_per_day": 1.62,
+      "dismissed_associated": 8
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.86,
+      "analyst_min_per_day": 21.7,
+      "alerts_per_day": 1.72,
+      "dismissed_associated": 8
+     }
+    },
+    "FN": {
+     "calendar_days": 182,
+     "associated": 218,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 11.27,
+      "dismissed_associated": 20
+     },
+     "P3": {
+      "escalations_per_day": 6.05,
+      "analyst_min_per_day": 12.1,
+      "alerts_per_day": 6.31,
+      "dismissed_associated": 16
+     },
+     "CG": {
+      "escalations_per_day": 7.35,
+      "analyst_min_per_day": 14.7,
+      "alerts_per_day": 4.03,
+      "dismissed_associated": 20
+     },
+     "CG-D": {
+      "escalations_per_day": 7.04,
+      "analyst_min_per_day": 14.1,
+      "alerts_per_day": 4.69,
+      "dismissed_associated": 19
+     },
+     "CG_c05": {
+      "escalations_per_day": 7.19,
+      "analyst_min_per_day": 14.4,
+      "alerts_per_day": 4.61,
+      "dismissed_associated": 19
+     }
+    },
+    "HC": {
+     "calendar_days": 182,
+     "associated": 318,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.12,
+      "dismissed_associated": 160
+     },
+     "P3": {
+      "escalations_per_day": 11.28,
+      "analyst_min_per_day": 22.6,
+      "alerts_per_day": 2.26,
+      "dismissed_associated": 66
+     },
+     "CG": {
+      "escalations_per_day": 6.07,
+      "analyst_min_per_day": 12.1,
+      "alerts_per_day": 0.6,
+      "dismissed_associated": 109
+     },
+     "CG-D": {
+      "escalations_per_day": 10.04,
+      "analyst_min_per_day": 20.1,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 75
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.43,
+      "analyst_min_per_day": 20.9,
+      "alerts_per_day": 0.75,
+      "dismissed_associated": 73
+     }
+    },
+    "HE": {
+     "calendar_days": 182,
+     "associated": 179,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 15.49,
+      "dismissed_associated": 7
+     },
+     "P3": {
+      "escalations_per_day": 7.9,
+      "analyst_min_per_day": 15.8,
+      "alerts_per_day": 9.19,
+      "dismissed_associated": 4
+     },
+     "CG": {
+      "escalations_per_day": 12.69,
+      "analyst_min_per_day": 25.4,
+      "alerts_per_day": 3.12,
+      "dismissed_associated": 6
+     },
+     "CG-D": {
+      "escalations_per_day": 12.49,
+      "analyst_min_per_day": 25.0,
+      "alerts_per_day": 3.92,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 12.52,
+      "analyst_min_per_day": 25.0,
+      "alerts_per_day": 3.95,
+      "dismissed_associated": 4
+     }
+    },
+    "HL": {
+     "calendar_days": 182,
+     "associated": 684,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.96,
+      "dismissed_associated": 371
+     },
+     "P3": {
+      "escalations_per_day": 14.98,
+      "analyst_min_per_day": 30.0,
+      "alerts_per_day": 4.8,
+      "dismissed_associated": 17
+     },
+     "CG": {
+      "escalations_per_day": 9.83,
+      "analyst_min_per_day": 19.7,
+      "alerts_per_day": 1.34,
+      "dismissed_associated": 118
+     },
+     "CG-D": {
+      "escalations_per_day": 15.92,
+      "analyst_min_per_day": 31.8,
+      "alerts_per_day": 1.57,
+      "dismissed_associated": 37
+     },
+     "CG_c05": {
+      "escalations_per_day": 16.06,
+      "analyst_min_per_day": 32.1,
+      "alerts_per_day": 1.71,
+      "dismissed_associated": 32
+     }
+    },
+    "IV": {
+     "calendar_days": 182,
+     "associated": 217,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.31,
+      "dismissed_associated": 96
+     },
+     "P3": {
+      "escalations_per_day": 5.23,
+      "analyst_min_per_day": 10.5,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 74
+     },
+     "CG": {
+      "escalations_per_day": 4.16,
+      "analyst_min_per_day": 8.3,
+      "alerts_per_day": 0.56,
+      "dismissed_associated": 90
+     },
+     "CG-D": {
+      "escalations_per_day": 5.13,
+      "analyst_min_per_day": 10.3,
+      "alerts_per_day": 0.75,
+      "dismissed_associated": 77
+     },
+     "CG_c05": {
+      "escalations_per_day": 5.19,
+      "analyst_min_per_day": 10.4,
+      "alerts_per_day": 0.76,
+      "dismissed_associated": 76
+     }
+    },
+    "IW": {
+     "calendar_days": 182,
+     "associated": 354,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 15.07,
+      "dismissed_associated": 15
+     },
+     "P3": {
+      "escalations_per_day": 11.59,
+      "analyst_min_per_day": 23.2,
+      "alerts_per_day": 13.97,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 16.82,
+      "analyst_min_per_day": 33.6,
+      "alerts_per_day": 3.33,
+      "dismissed_associated": 6
+     },
+     "CG-D": {
+      "escalations_per_day": 19.82,
+      "analyst_min_per_day": 39.6,
+      "alerts_per_day": 4.42,
+      "dismissed_associated": 1
+     },
+     "CG_c05": {
+      "escalations_per_day": 19.45,
+      "analyst_min_per_day": 38.9,
+      "alerts_per_day": 4.99,
+      "dismissed_associated": 1
+     }
+    },
+    "JP": {
+     "calendar_days": 182,
+     "associated": 1576,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 20.86,
+      "dismissed_associated": 1356
+     },
+     "P3": {
+      "escalations_per_day": 203.42,
+      "analyst_min_per_day": 406.8,
+      "alerts_per_day": 10.57,
+      "dismissed_associated": 604
+     },
+     "CG": {
+      "escalations_per_day": 119.1,
+      "analyst_min_per_day": 238.2,
+      "alerts_per_day": 0.49,
+      "dismissed_associated": 945
+     },
+     "CG-D": {
+      "escalations_per_day": 183.6,
+      "analyst_min_per_day": 367.2,
+      "alerts_per_day": 0.73,
+      "dismissed_associated": 684
+     },
+     "CG_c05": {
+      "escalations_per_day": 186.47,
+      "analyst_min_per_day": 372.9,
+      "alerts_per_day": 1.69,
+      "dismissed_associated": 671
+     }
+    },
+    "KR": {
+     "calendar_days": 182,
+     "associated": 269,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.96,
+      "dismissed_associated": 21
+     },
+     "P3": {
+      "escalations_per_day": 9.35,
+      "analyst_min_per_day": 18.7,
+      "alerts_per_day": 3.88,
+      "dismissed_associated": 1
+     },
+     "CG": {
+      "escalations_per_day": 7.06,
+      "analyst_min_per_day": 14.1,
+      "alerts_per_day": 2.2,
+      "dismissed_associated": 5
+     },
+     "CG-D": {
+      "escalations_per_day": 9.88,
+      "analyst_min_per_day": 19.8,
+      "alerts_per_day": 2.67,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 9.86,
+      "analyst_min_per_day": 19.7,
+      "alerts_per_day": 2.81,
+      "dismissed_associated": 3
+     }
+    },
+    "MB": {
+     "calendar_days": 182,
+     "associated": 187,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.49,
+      "dismissed_associated": 12
+     },
+     "P3": {
+      "escalations_per_day": 2.38,
+      "analyst_min_per_day": 4.8,
+      "alerts_per_day": 3.96,
+      "dismissed_associated": 4
+     },
+     "CG": {
+      "escalations_per_day": 3.1,
+      "analyst_min_per_day": 6.2,
+      "alerts_per_day": 2.29,
+      "dismissed_associated": 9
+     },
+     "CG-D": {
+      "escalations_per_day": 3.69,
+      "analyst_min_per_day": 7.4,
+      "alerts_per_day": 2.5,
+      "dismissed_associated": 5
+     },
+     "CG_c05": {
+      "escalations_per_day": 3.82,
+      "analyst_min_per_day": 7.6,
+      "alerts_per_day": 2.6,
+      "dismissed_associated": 4
+     }
+    },
+    "N4": {
+     "calendar_days": 182,
+     "associated": 34,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.81,
+      "dismissed_associated": 11
+     },
+     "P3": {
+      "escalations_per_day": 26.42,
+      "analyst_min_per_day": 52.8,
+      "alerts_per_day": 2.86,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 19.29,
+      "analyst_min_per_day": 38.6,
+      "alerts_per_day": 0.4,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 30.38,
+      "analyst_min_per_day": 60.8,
+      "alerts_per_day": 0.65,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 29.57,
+      "analyst_min_per_day": 59.1,
+      "alerts_per_day": 0.69,
+      "dismissed_associated": 0
+     }
+    },
+    "ND": {
+     "calendar_days": 182,
+     "associated": 299,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 5.58,
+      "dismissed_associated": 4
+     },
+     "P3": {
+      "escalations_per_day": 17.87,
+      "analyst_min_per_day": 35.7,
+      "alerts_per_day": 5.27,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 10.49,
+      "analyst_min_per_day": 21.0,
+      "alerts_per_day": 2.84,
+      "dismissed_associated": 2
+     },
+     "CG-D": {
+      "escalations_per_day": 17.29,
+      "analyst_min_per_day": 34.6,
+      "alerts_per_day": 3.43,
+      "dismissed_associated": 1
+     },
+     "CG_c05": {
+      "escalations_per_day": 17.71,
+      "analyst_min_per_day": 35.4,
+      "alerts_per_day": 3.41,
+      "dismissed_associated": 0
+     }
+    },
+    "NE": {
+     "calendar_days": 182,
+     "associated": 51,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.95,
+      "dismissed_associated": 3
+     },
+     "P3": {
+      "escalations_per_day": 5.09,
+      "analyst_min_per_day": 10.2,
+      "alerts_per_day": 0.88,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 3.38,
+      "analyst_min_per_day": 6.8,
+      "alerts_per_day": 0.23,
+      "dismissed_associated": 3
+     },
+     "CG-D": {
+      "escalations_per_day": 4.59,
+      "analyst_min_per_day": 9.2,
+      "alerts_per_day": 0.37,
+      "dismissed_associated": 2
+     },
+     "CG_c05": {
+      "escalations_per_day": 4.65,
+      "analyst_min_per_day": 9.3,
+      "alerts_per_day": 0.38,
+      "dismissed_associated": 2
+     }
+    },
+    "NM": {
+     "calendar_days": 182,
+     "associated": 42,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.16,
+      "dismissed_associated": 13
+     },
+     "P3": {
+      "escalations_per_day": 5.68,
+      "analyst_min_per_day": 11.4,
+      "alerts_per_day": 1.07,
+      "dismissed_associated": 8
+     },
+     "CG": {
+      "escalations_per_day": 4.74,
+      "analyst_min_per_day": 9.5,
+      "alerts_per_day": 0.34,
+      "dismissed_associated": 9
+     },
+     "CG-D": {
+      "escalations_per_day": 6.08,
+      "analyst_min_per_day": 12.2,
+      "alerts_per_day": 0.47,
+      "dismissed_associated": 8
+     },
+     "CG_c05": {
+      "escalations_per_day": 6.14,
+      "analyst_min_per_day": 12.3,
+      "alerts_per_day": 0.51,
+      "dismissed_associated": 8
+     }
+    },
+    "NS": {
+     "calendar_days": 182,
+     "associated": 71,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.07,
+      "dismissed_associated": 7
+     },
+     "P3": {
+      "escalations_per_day": 1.63,
+      "analyst_min_per_day": 3.3,
+      "alerts_per_day": 0.48,
+      "dismissed_associated": 7
+     },
+     "CG": {
+      "escalations_per_day": 1.48,
+      "analyst_min_per_day": 3.0,
+      "alerts_per_day": 0.6,
+      "dismissed_associated": 7
+     },
+     "CG-D": {
+      "escalations_per_day": 1.51,
+      "analyst_min_per_day": 3.0,
+      "alerts_per_day": 0.6,
+      "dismissed_associated": 7
+     },
+     "CG_c05": {
+      "escalations_per_day": 1.5,
+      "analyst_min_per_day": 3.0,
+      "alerts_per_day": 0.61,
+      "dismissed_associated": 7
+     }
+    },
+    "NY": {
+     "calendar_days": 182,
+     "associated": 51,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.26,
+      "dismissed_associated": 22
+     },
+     "P3": {
+      "escalations_per_day": 21.37,
+      "analyst_min_per_day": 42.7,
+      "alerts_per_day": 2.26,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 22.59,
+      "analyst_min_per_day": 45.2,
+      "alerts_per_day": 0.76,
+      "dismissed_associated": 0
+     },
+     "CG-D": {
+      "escalations_per_day": 22.54,
+      "analyst_min_per_day": 45.1,
+      "alerts_per_day": 1.07,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 21.92,
+      "analyst_min_per_day": 43.8,
+      "alerts_per_day": 1.71,
+      "dismissed_associated": 0
+     }
+    },
+    "OH": {
+     "calendar_days": 182,
+     "associated": 65,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.01,
+      "dismissed_associated": 5
+     },
+     "P3": {
+      "escalations_per_day": 8.86,
+      "analyst_min_per_day": 17.7,
+      "alerts_per_day": 2.52,
+      "dismissed_associated": 4
+     },
+     "CG": {
+      "escalations_per_day": 8.25,
+      "analyst_min_per_day": 16.5,
+      "alerts_per_day": 2.1,
+      "dismissed_associated": 4
+     },
+     "CG-D": {
+      "escalations_per_day": 10.24,
+      "analyst_min_per_day": 20.5,
+      "alerts_per_day": 2.41,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 9.48,
+      "analyst_min_per_day": 19.0,
+      "alerts_per_day": 2.62,
+      "dismissed_associated": 4
+     }
+    },
+    "OK": {
+     "calendar_days": 182,
+     "associated": 135,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 4.58,
+      "dismissed_associated": 10
+     },
+     "P3": {
+      "escalations_per_day": 14.58,
+      "analyst_min_per_day": 29.2,
+      "alerts_per_day": 2.92,
+      "dismissed_associated": 5
+     },
+     "CG": {
+      "escalations_per_day": 7.86,
+      "analyst_min_per_day": 15.7,
+      "alerts_per_day": 0.98,
+      "dismissed_associated": 8
+     },
+     "CG-D": {
+      "escalations_per_day": 13.3,
+      "analyst_min_per_day": 26.6,
+      "alerts_per_day": 1.19,
+      "dismissed_associated": 6
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.64,
+      "analyst_min_per_day": 27.3,
+      "alerts_per_day": 1.21,
+      "dismissed_associated": 5
+     }
+    },
+    "PE": {
+     "calendar_days": 182,
+     "associated": 35,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 8.37,
+      "dismissed_associated": 8
+     },
+     "P3": {
+      "escalations_per_day": 33.61,
+      "analyst_min_per_day": 67.2,
+      "alerts_per_day": 8.21,
+      "dismissed_associated": 0
+     },
+     "CG": {
+      "escalations_per_day": 37.36,
+      "analyst_min_per_day": 74.7,
+      "alerts_per_day": 0.9,
+      "dismissed_associated": 1
+     },
+     "CG-D": {
+      "escalations_per_day": 39.71,
+      "analyst_min_per_day": 79.4,
+      "alerts_per_day": 1.52,
+      "dismissed_associated": 0
+     },
+     "CG_c05": {
+      "escalations_per_day": 38.34,
+      "analyst_min_per_day": 76.7,
+      "alerts_per_day": 2.98,
+      "dismissed_associated": 0
+     }
+    },
+    "PL": {
+     "calendar_days": 182,
+     "associated": 149,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 6.05,
+      "dismissed_associated": 43
+     },
+     "P3": {
+      "escalations_per_day": 7.58,
+      "analyst_min_per_day": 15.2,
+      "alerts_per_day": 4.09,
+      "dismissed_associated": 10
+     },
+     "CG": {
+      "escalations_per_day": 8.27,
+      "analyst_min_per_day": 16.5,
+      "alerts_per_day": 1.48,
+      "dismissed_associated": 17
+     },
+     "CG-D": {
+      "escalations_per_day": 10.58,
+      "analyst_min_per_day": 21.2,
+      "alerts_per_day": 1.74,
+      "dismissed_associated": 9
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.28,
+      "analyst_min_per_day": 20.6,
+      "alerts_per_day": 1.87,
+      "dismissed_associated": 9
+     }
+    },
+    "QZ": {
+     "calendar_days": 182,
+     "associated": 31,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 7.62,
+      "dismissed_associated": 14
+     },
+     "P3": {
+      "escalations_per_day": 18.02,
+      "analyst_min_per_day": 36.0,
+      "alerts_per_day": 6.18,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 16.27,
+      "analyst_min_per_day": 32.5,
+      "alerts_per_day": 0.66,
+      "dismissed_associated": 7
+     },
+     "CG-D": {
+      "escalations_per_day": 21.79,
+      "analyst_min_per_day": 43.6,
+      "alerts_per_day": 0.94,
+      "dismissed_associated": 3
+     },
+     "CG_c05": {
+      "escalations_per_day": 21.8,
+      "analyst_min_per_day": 43.6,
+      "alerts_per_day": 1.2,
+      "dismissed_associated": 3
+     }
+    },
+    "RV": {
+     "calendar_days": 182,
+     "associated": 161,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 3.88,
+      "dismissed_associated": 18
+     },
+     "P3": {
+      "escalations_per_day": 27.16,
+      "analyst_min_per_day": 54.3,
+      "alerts_per_day": 3.27,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 22.31,
+      "analyst_min_per_day": 44.6,
+      "alerts_per_day": 1.04,
+      "dismissed_associated": 5
+     },
+     "CG-D": {
+      "escalations_per_day": 28.7,
+      "analyst_min_per_day": 57.4,
+      "alerts_per_day": 1.11,
+      "dismissed_associated": 2
+     },
+     "CG_c05": {
+      "escalations_per_day": 29.79,
+      "analyst_min_per_day": 59.6,
+      "alerts_per_day": 1.76,
+      "dismissed_associated": 1
+     }
+    },
+    "SI": {
+     "calendar_days": 182,
+     "associated": 758,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 10.28,
+      "dismissed_associated": 430
+     },
+     "P3": {
+      "escalations_per_day": 62.96,
+      "analyst_min_per_day": 125.9,
+      "alerts_per_day": 6.26,
+      "dismissed_associated": 230
+     },
+     "CG": {
+      "escalations_per_day": 36.86,
+      "analyst_min_per_day": 73.7,
+      "alerts_per_day": 2.15,
+      "dismissed_associated": 351
+     },
+     "CG-D": {
+      "escalations_per_day": 57.67,
+      "analyst_min_per_day": 115.3,
+      "alerts_per_day": 2.61,
+      "dismissed_associated": 266
+     },
+     "CG_c05": {
+      "escalations_per_day": 58.63,
+      "analyst_min_per_day": 117.3,
+      "alerts_per_day": 2.85,
+      "dismissed_associated": 260
+     }
+    },
+    "TX": {
+     "calendar_days": 182,
+     "associated": 35,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 1.27,
+      "dismissed_associated": 4
+     },
+     "P3": {
+      "escalations_per_day": 7.41,
+      "analyst_min_per_day": 14.8,
+      "alerts_per_day": 1.01,
+      "dismissed_associated": 2
+     },
+     "CG": {
+      "escalations_per_day": 3.6,
+      "analyst_min_per_day": 7.2,
+      "alerts_per_day": 0.24,
+      "dismissed_associated": 3
+     },
+     "CG-D": {
+      "escalations_per_day": 6.9,
+      "analyst_min_per_day": 13.8,
+      "alerts_per_day": 0.28,
+      "dismissed_associated": 2
+     },
+     "CG_c05": {
+      "escalations_per_day": 7.14,
+      "analyst_min_per_day": 14.3,
+      "alerts_per_day": 0.3,
+      "dismissed_associated": 2
+     }
+    },
+    "UO": {
+     "calendar_days": 182,
+     "associated": 156,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.51,
+      "dismissed_associated": 15
+     },
+     "P3": {
+      "escalations_per_day": 6.93,
+      "analyst_min_per_day": 13.9,
+      "alerts_per_day": 2.02,
+      "dismissed_associated": 7
+     },
+     "CG": {
+      "escalations_per_day": 5.29,
+      "analyst_min_per_day": 10.6,
+      "alerts_per_day": 0.96,
+      "dismissed_associated": 11
+     },
+     "CG-D": {
+      "escalations_per_day": 6.82,
+      "analyst_min_per_day": 13.6,
+      "alerts_per_day": 1.23,
+      "dismissed_associated": 7
+     },
+     "CG_c05": {
+      "escalations_per_day": 6.91,
+      "analyst_min_per_day": 13.8,
+      "alerts_per_day": 1.22,
+      "dismissed_associated": 7
+     }
+    },
+    "UU": {
+     "calendar_days": 182,
+     "associated": 278,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 9.98,
+      "dismissed_associated": 25
+     },
+     "P3": {
+      "escalations_per_day": 7.54,
+      "analyst_min_per_day": 15.1,
+      "alerts_per_day": 9.17,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 8.09,
+      "analyst_min_per_day": 16.2,
+      "alerts_per_day": 3.97,
+      "dismissed_associated": 19
+     },
+     "CG-D": {
+      "escalations_per_day": 10.62,
+      "analyst_min_per_day": 21.2,
+      "alerts_per_day": 4.94,
+      "dismissed_associated": 6
+     },
+     "CG_c05": {
+      "escalations_per_day": 10.69,
+      "analyst_min_per_day": 21.4,
+      "alerts_per_day": 5.03,
+      "dismissed_associated": 6
+     }
+    },
+    "UW": {
+     "calendar_days": 182,
+     "associated": 46,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 0.99,
+      "dismissed_associated": 13
+     },
+     "P3": {
+      "escalations_per_day": 17.3,
+      "analyst_min_per_day": 34.6,
+      "alerts_per_day": 0.91,
+      "dismissed_associated": 3
+     },
+     "CG": {
+      "escalations_per_day": 7.61,
+      "analyst_min_per_day": 15.2,
+      "alerts_per_day": 0.24,
+      "dismissed_associated": 10
+     },
+     "CG-D": {
+      "escalations_per_day": 15.41,
+      "analyst_min_per_day": 30.8,
+      "alerts_per_day": 0.27,
+      "dismissed_associated": 4
+     },
+     "CG_c05": {
+      "escalations_per_day": 15.76,
+      "analyst_min_per_day": 31.5,
+      "alerts_per_day": 0.3,
+      "dismissed_associated": 4
+     }
+    },
+    "WW": {
+     "calendar_days": 182,
+     "associated": 182,
+     "P1": {
+      "escalations_per_day": 0.0,
+      "analyst_min_per_day": 0.0,
+      "alerts_per_day": 2.91,
+      "dismissed_associated": 44
+     },
+     "P3": {
+      "escalations_per_day": 14.81,
+      "analyst_min_per_day": 29.6,
+      "alerts_per_day": 2.29,
+      "dismissed_associated": 10
+     },
+     "CG": {
+      "escalations_per_day": 6.36,
+      "analyst_min_per_day": 12.7,
+      "alerts_per_day": 0.79,
+      "dismissed_associated": 31
+     },
+     "CG-D": {
+      "escalations_per_day": 13.45,
+      "analyst_min_per_day": 26.9,
+      "alerts_per_day": 0.89,
+      "dismissed_associated": 14
+     },
+     "CG_c05": {
+      "escalations_per_day": 13.69,
+      "analyst_min_per_day": 27.4,
+      "alerts_per_day": 0.95,
+      "dismissed_associated": 14
+     }
+    }
+   }
+  }
+ }
+}

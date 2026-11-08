@@ -1,0 +1,6 @@
+2026-11-07T19:53:05Z UO plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T19:55:22Z UO tune attempt 1: rc=-15 137s thresholds=yes
+2026-11-07T19:55:22Z UO thresholds {'MAKZ': 6.240841439943855, 'S1_1': 4.19192751250781, 'S2_1': 7.833369033246054, 'S3_1': 4.789073839598945}
+2026-11-07T20:23:31Z UO out_2024-01-08 attempt 1: rc=0 1689s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:24:34Z UO out_2024-04-08 attempt 1: rc=0 1692s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:24:34Z UO FINISHED state=done

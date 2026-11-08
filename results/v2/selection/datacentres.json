@@ -1,0 +1,379 @@
+[
+ {
+  "name": "AusPass",
+  "repository": "ARCHIVE",
+  "station": "https://auspass.edu.au/fdsnws/station/1/",
+  "dataselect": "https://auspass.edu.au/fdsnws/dataselect/1/",
+  "availability": "https://auspass.edu.au/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 796,
+  "errors": []
+ },
+ {
+  "name": "BGR",
+  "repository": "archive",
+  "station": "https://eida.bgr.de/fdsnws/station/1/",
+  "dataselect": "https://eida.bgr.de/fdsnws/dataselect/1/",
+  "availability": "https://eida.bgr.de/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 335,
+  "errors": []
+ },
+ {
+  "name": "BGS",
+  "repository": "archive",
+  "station": "https://eida.bgs.ac.uk/fdsnws/station/1/",
+  "dataselect": "https://eida.bgs.ac.uk/fdsnws/dataselect/1/",
+  "availability": "https://eida.bgs.ac.uk/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 113,
+  "errors": []
+ },
+ {
+  "name": "CATAC",
+  "repository": "archive",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "EarthScope",
+  "repository": "PRIMARY",
+  "station": "http://service.earthscope.org/fdsnws/station/1",
+  "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+  "availability": "http://service.earthscope.org/fdsnws/availability/1",
+  "availability_source": "MUSTANG percent_availability",
+  "channel_rows": 10046,
+  "errors": []
+ },
+ {
+  "name": "EarthScope",
+  "repository": "PH5",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "EMSC",
+  "repository": "archive",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "EPOSFR",
+  "repository": "archive",
+  "station": "https://seisdata.epos-france.fr/fdsnws/station/1/",
+  "dataselect": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+  "availability": "https://seisdata.epos-france.fr/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 719,
+  "errors": []
+ },
+ {
+  "name": "EPOSFR",
+  "repository": "event",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "ETH",
+  "repository": "archive",
+  "station": "https://eida.ethz.ch/fdsnws/station/1/",
+  "dataselect": "https://eida.ethz.ch/fdsnws/dataselect/1/",
+  "availability": "https://eida.ethz.ch/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 221,
+  "errors": []
+ },
+ {
+  "name": "ETH",
+  "repository": "event",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "GEOFON",
+  "repository": "archive",
+  "station": "https://geofon.gfz.de/fdsnws/station/1/",
+  "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+  "availability": "https://geofon.gfz.de/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 1789,
+  "errors": []
+ },
+ {
+  "name": "GEOFON",
+  "repository": "event",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "GeoNet",
+  "repository": "ARCHIVE",
+  "station": "https://service.geonet.org.nz/fdsnws/station/1/",
+  "dataselect": "https://service.geonet.org.nz/fdsnws/dataselect/1/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 166,
+  "errors": []
+ },
+ {
+  "name": "GEOSHAKE",
+  "repository": "PRIMARY",
+  "station": "https://api.geoshake.org/fdsnws/station/1/",
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "ICGC",
+  "repository": "archive",
+  "station": "https://ws.icgc.cat/fdsnws/station/1/",
+  "dataselect": "https://ws.icgc.cat/fdsnws/dataselect/1/",
+  "availability": "https://ws.icgc.cat/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 66,
+  "errors": []
+ },
+ {
+  "name": "IESDMC",
+  "repository": "archive",
+  "station": "http://batsws.earth.sinica.edu.tw/fdsnws/station/1/",
+  "dataselect": "http://batsws.earth.sinica.edu.tw/fdsnws/dataselect/1/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 0,
+  "errors": []
+ },
+ {
+  "name": "IGN",
+  "repository": "archive",
+  "station": "http://fdsnws.sismologia.ign.es/fdsnws/station/",
+  "dataselect": "http://fdsnws.sismologia.ign.es/fdsnws/dataselect/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 0,
+  "errors": []
+ },
+ {
+  "name": "INGV",
+  "repository": "archive",
+  "station": "https://webservices.ingv.it/fdsnws/station/1/",
+  "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+  "availability": "https://webservices.ingv.it/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 757,
+  "errors": []
+ },
+ {
+  "name": "IPGP",
+  "repository": "archive",
+  "station": "http://ws.ipgp.fr/fdsnws/station/1/",
+  "dataselect": "http://ws.ipgp.fr/fdsnws/dataselect/1/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 170,
+  "errors": []
+ },
+ {
+  "name": "ISC",
+  "repository": "archive",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "KAGSR",
+  "repository": "archive",
+  "station": "http://sdis.emsd.ru/fdsnws/station/1/",
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "KIT",
+  "repository": "archive",
+  "station": "http://ws.gpi.kit.edu/fdsnws/station/1",
+  "dataselect": "http://ws.gpi.kit.edu/fdsnws/dataselect/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 0,
+  "errors": [
+   "BHZ: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+   "HHZ: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  ]
+ },
+ {
+  "name": "KOERI",
+  "repository": "archive",
+  "station": "https://eida.koeri.boun.edu.tr/fdsnws/station/1/",
+  "dataselect": "https://eida.koeri.boun.edu.tr/fdsnws/dataselect/1/",
+  "availability": "https://eida.koeri.boun.edu.tr/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 208,
+  "errors": []
+ },
+ {
+  "name": "LMU",
+  "repository": "archive",
+  "station": "https://erde.geophysik.uni-muenchen.de/fdsnws/station/1/",
+  "dataselect": "https://erde.geophysik.uni-muenchen.de/fdsnws/dataselect/1/",
+  "availability": "https://erde.geophysik.uni-muenchen.de/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 388,
+  "errors": []
+ },
+ {
+  "name": "NCEDC",
+  "repository": "archive",
+  "station": "https://service.ncedc.org/fdsnws/station/1",
+  "dataselect": "https://service.ncedc.org/fdsnws/dataselect/1",
+  "availability": "https://service.ncedc.org/fdsnws/availability/1",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 0,
+  "errors": [
+   "BHZ: HTTP 400",
+   "HHZ: HTTP 400"
+  ]
+ },
+ {
+  "name": "NIEP",
+  "repository": "archive",
+  "station": "https://eida-sc3.infp.ro/fdsnws/station/1/",
+  "dataselect": "https://eida-sc3.infp.ro/fdsnws/dataselect/1/",
+  "availability": "https://eida-sc3.infp.ro/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 399,
+  "errors": []
+ },
+ {
+  "name": "NOA",
+  "repository": "archive",
+  "station": "https://eida.gein.noa.gr/fdsnws/station/1/",
+  "dataselect": "https://eida.gein.noa.gr/fdsnws/dataselect/1/",
+  "availability": "https://eida.gein.noa.gr/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 330,
+  "errors": []
+ },
+ {
+  "name": "NOA",
+  "repository": "event",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "NRCAN",
+  "repository": "archive",
+  "station": "https://earthquakescanada.nrcan.gc.ca/fdsnws/station/1/",
+  "dataselect": "https://earthquakescanada.nrcan.gc.ca/fdsnws/dataselect/1/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 186,
+  "errors": []
+ },
+ {
+  "name": "ODC",
+  "repository": "archive",
+  "station": "https://www.orfeus-eu.org/fdsnws/station/1/",
+  "dataselect": "https://www.orfeus-eu.org/fdsnws/dataselect/1/",
+  "availability": "https://www.orfeus-eu.org/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 1391,
+  "errors": []
+ },
+ {
+  "name": "OSDC",
+  "repository": "archive",
+  "station": "http://osdc.obslab.cn/fdsnws/station/1/query",
+  "dataselect": "http://osdc.obslab.cn/fdsnws/dataselect/1/queryauth",
+  "availability": null,
+  "excluded": "dataselect requires authentication",
+  "availability_source": null
+ },
+ {
+  "name": "RASPISHAKE",
+  "repository": "archive",
+  "station": "https://data.raspberryshake.org/fdsnws/station/1/",
+  "dataselect": "https://data.raspberryshake.org/fdsnws/dataselect/1/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 0,
+  "errors": []
+ },
+ {
+  "name": "RSBR",
+  "repository": "archive",
+  "station": "http://rsbr.iag.usp.br/fdsnws/station/1/",
+  "dataselect": "http://rsbr.iag.usp.br/fdsnws/dataselect/1/",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 124,
+  "errors": []
+ },
+ {
+  "name": "SCEDC",
+  "repository": "archive",
+  "station": "https://service.scedc.caltech.edu/fdsnws/station/1/",
+  "dataselect": "https://service.scedc.caltech.edu/fdsnws/dataselect/1/",
+  "availability": "https://service.scedc.caltech.edu/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 0,
+  "errors": [
+   "BHZ: HTTP 400",
+   "HHZ: HTTP 400"
+  ]
+ },
+ {
+  "name": "UIB-NORSAR",
+  "repository": "archive",
+  "station": "https://eida.geo.uib.no/fdsnws/station/1/",
+  "dataselect": "https://eida.geo.uib.no/fdsnws/dataselect/1/",
+  "availability": "https://eida.geo.uib.no/fdsnws/availability/1/",
+  "availability_source": "fdsnws-availability-1",
+  "channel_rows": 218,
+  "errors": []
+ },
+ {
+  "name": "USGS",
+  "repository": "ComCat",
+  "station": null,
+  "dataselect": null,
+  "availability": null,
+  "excluded": "no fdsnws-station-1 and fdsnws-dataselect-1 pair",
+  "availability_source": null
+ },
+ {
+  "name": "USP",
+  "repository": "archive",
+  "station": "http://seisrequest.iag.usp.br/fdsnws/station/1",
+  "dataselect": "http://seisrequest.iag.usp.br/fdsnws/dataselect/1",
+  "availability": null,
+  "availability_source": null,
+  "channel_rows": 101,
+  "errors": []
+ }
+]

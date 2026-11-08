@@ -1,0 +1,14 @@
+{
+ "events": 5882,
+ "same_event_set_as_nnc_events_csv": true,
+ "origin_agency_counts": {
+  "NNC": 5882
+ },
+ "event_type_certainty_counts": {
+  "suspected": 4987,
+  "known": 895
+ },
+ "linked_episodes": 1315,
+ "links_with_alternatives": 2,
+ "label_mismatch_vs_table10": 0
+}

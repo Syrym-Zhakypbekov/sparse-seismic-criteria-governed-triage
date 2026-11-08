@@ -1,0 +1,62 @@
+{
+ "window": "2025-01-01..2026-02-28",
+ "nnc_events": 5882,
+ "nnc_by_type": {
+  "earthquake": 4342,
+  "mining explosion": 1540
+ },
+ "episodes": 15208,
+ "episodes_nnc_earthquake": 1007,
+ "episodes_nnc_explosion": 308,
+ "episodes_global_catalogue": 2118,
+ "episodes_any_event": 2320,
+ "policies": {
+  "P1": {
+   "nnc_eq_dismissed": 138,
+   "nnc_eq_dismissed_share_pct": 13.7,
+   "nnc_expl_dismissed": 24,
+   "nnc_expl_alert": 284,
+   "alerts_no_event_any_catalogue": 6366,
+   "alerts_nnc_earthquake": 869
+  },
+  "P1t": {
+   "nnc_eq_dismissed": 24,
+   "nnc_eq_dismissed_share_pct": 2.38,
+   "nnc_expl_dismissed": 5,
+   "nnc_expl_alert": 303,
+   "alerts_no_event_any_catalogue": 9938,
+   "alerts_nnc_earthquake": 983
+  },
+  "P3": {
+   "nnc_eq_dismissed": 17,
+   "nnc_eq_dismissed_share_pct": 1.69,
+   "nnc_expl_dismissed": 3,
+   "nnc_expl_alert": 268,
+   "alerts_no_event_any_catalogue": 4918,
+   "alerts_nnc_earthquake": 811
+  },
+  "P2": {
+   "nnc_eq_dismissed": 63,
+   "nnc_eq_dismissed_share_pct": 6.26,
+   "nnc_expl_dismissed": 12,
+   "nnc_expl_alert": 193,
+   "alerts_no_event_any_catalogue": 3129,
+   "alerts_nnc_earthquake": 647
+  },
+  "CG": {
+   "nnc_eq_dismissed": 46,
+   "nnc_eq_dismissed_share_pct": 4.57,
+   "nnc_expl_dismissed": 5,
+   "nnc_expl_alert": 90,
+   "alerts_no_event_any_catalogue": 2300,
+   "alerts_nnc_earthquake": 271
+  }
+ },
+ "CG_minus_P3_dismissed_share_nnc_eq_pp": {
+  "observed": 2.88,
+  "ci95": [
+   1.72,
+   4.0
+  ]
+ }
+}

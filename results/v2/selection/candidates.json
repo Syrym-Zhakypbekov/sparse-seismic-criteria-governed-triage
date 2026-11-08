@@ -1,0 +1,5997 @@
+{
+ "networks_seen": [
+  {
+   "datacentre": "AusPass",
+   "network": "2P",
+   "channels": 8
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "3B",
+   "channels": 5
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "4B",
+   "channels": 35
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "6T",
+   "channels": 26
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "9V",
+   "channels": 1
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "DU",
+   "channels": 1
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "IU",
+   "channels": 17
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "M8",
+   "channels": 24
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "OA",
+   "channels": 20
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "OZ",
+   "channels": 42
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "S1",
+   "channels": 106
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "WG",
+   "channels": 467
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "X5",
+   "channels": 7
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "XX",
+   "channels": 1
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "YW",
+   "channels": 22
+  },
+  {
+   "datacentre": "AusPass",
+   "network": "Z9",
+   "channels": 14
+  },
+  {
+   "datacentre": "BGR",
+   "network": "5R",
+   "channels": 7
+  },
+  {
+   "datacentre": "BGR",
+   "network": "BQ",
+   "channels": 13
+  },
+  {
+   "datacentre": "BGR",
+   "network": "GQ",
+   "channels": 1
+  },
+  {
+   "datacentre": "BGR",
+   "network": "GR",
+   "channels": 114
+  },
+  {
+   "datacentre": "BGR",
+   "network": "HS",
+   "channels": 17
+  },
+  {
+   "datacentre": "BGR",
+   "network": "KQ",
+   "channels": 17
+  },
+  {
+   "datacentre": "BGR",
+   "network": "LE",
+   "channels": 32
+  },
+  {
+   "datacentre": "BGR",
+   "network": "RN",
+   "channels": 1
+  },
+  {
+   "datacentre": "BGR",
+   "network": "SX",
+   "channels": 32
+  },
+  {
+   "datacentre": "BGR",
+   "network": "TH",
+   "channels": 90
+  },
+  {
+   "datacentre": "BGR",
+   "network": "YV",
+   "channels": 11
+  },
+  {
+   "datacentre": "BGS",
+   "network": "9U",
+   "channels": 10
+  },
+  {
+   "datacentre": "BGS",
+   "network": "BN",
+   "channels": 10
+  },
+  {
+   "datacentre": "BGS",
+   "network": "GB",
+   "channels": 75
+  },
+  {
+   "datacentre": "BGS",
+   "network": "UR",
+   "channels": 18
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "16",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "1E",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "1G",
+   "channels": 16
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "1U",
+   "channels": 25
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "1W",
+   "channels": 14
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "28",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "2F",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "2H",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "2K",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "2O",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "2T",
+   "channels": 25
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "2U",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "3B",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "3C",
+   "channels": 73
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "3E",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "3H",
+   "channels": 49
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "3J",
+   "channels": 27
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "3L",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "4A",
+   "channels": 56
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "4J",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "4N",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "4Q",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "4T",
+   "channels": 8
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "5L",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "5S",
+   "channels": 12
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "6G",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "6I",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "6N",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "6O",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "6Q",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "6W",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "7D",
+   "channels": 12
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "7G",
+   "channels": 11
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "7O",
+   "channels": 24
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "8E",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "8F",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "8H",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "8U",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "8W",
+   "channels": 7
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "9P",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "A0",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "A2",
+   "channels": 8
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "A7",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AB",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AC",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AD",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AE",
+   "channels": 18
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AF",
+   "channels": 80
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AG",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AI",
+   "channels": 16
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AK",
+   "channels": 238
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AO",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AT",
+   "channels": 17
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AU",
+   "channels": 279
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AV",
+   "channels": 217
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AY",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "AZ",
+   "channels": 32
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "BC",
+   "channels": 33
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "BE",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "BK",
+   "channels": 560
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "BL",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "BN",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "BX",
+   "channels": 21
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "C",
+   "channels": 25
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "C0",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "C1",
+   "channels": 166
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "C8",
+   "channels": 24
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CA",
+   "channels": 24
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CB",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CC",
+   "channels": 87
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CH",
+   "channels": 18
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CI",
+   "channels": 1112
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CM",
+   "channels": 29
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CN",
+   "channels": 158
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CO",
+   "channels": 14
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CU",
+   "channels": 32
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CW",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CY",
+   "channels": 8
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "CZ",
+   "channels": 25
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "DE",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "DK",
+   "channels": 68
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "DR",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "DU",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "EC",
+   "channels": 27
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "EI",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "EO",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "EP",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ER",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ET",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "G",
+   "channels": 68
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "G7",
+   "channels": 13
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GB",
+   "channels": 170
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GE",
+   "channels": 124
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GG",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GH",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GI",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GM",
+   "channels": 48
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GO",
+   "channels": 28
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GR",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GS",
+   "channels": 64
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "GT",
+   "channels": 8
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "HK",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "HL",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "HT",
+   "channels": 12
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "HU",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "HV",
+   "channels": 62
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "HZ",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "I0",
+   "channels": 140
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IC",
+   "channels": 27
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IE",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "II",
+   "channels": 130
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IM",
+   "channels": 65
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IN",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IO",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IP",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IU",
+   "channels": 352
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "IW",
+   "channels": 13
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "JM",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "JP",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "JW",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "K5",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KC",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KG",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KN",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KO",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KP",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KR",
+   "channels": 23
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KS",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KW",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KY",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "KZ",
+   "channels": 70
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "LB",
+   "channels": 8
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "LD",
+   "channels": 70
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "LI",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "LM",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "LX",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "M8",
+   "channels": 24
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MB",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MC",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MG",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MI",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MM",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MN",
+   "channels": 48
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MP",
+   "channels": 19
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MR",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MS",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MU",
+   "channels": 11
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MX",
+   "channels": 18
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MY",
+   "channels": 14
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "MZ",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "N4",
+   "channels": 197
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NA",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NC",
+   "channels": 94
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NE",
+   "channels": 13
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NJ",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NK",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NL",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NM",
+   "channels": 61
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NN",
+   "channels": 70
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NO",
+   "channels": 21
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NP",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NR",
+   "channels": 37
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NU",
+   "channels": 33
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NV",
+   "channels": 7
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NW",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NX",
+   "channels": 34
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NY",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "NZ",
+   "channels": 11
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "O2",
+   "channels": 72
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OC",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OE",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OH",
+   "channels": 40
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OI",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OK",
+   "channels": 40
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ON",
+   "channels": 32
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OO",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OV",
+   "channels": 94
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OX",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "OZ",
+   "channels": 58
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PA",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PB",
+   "channels": 12
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PE",
+   "channels": 36
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PI",
+   "channels": 945
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PL",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PM",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PN",
+   "channels": 73
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PO",
+   "channels": 73
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PP",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PQ",
+   "channels": 26
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PR",
+   "channels": 47
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PS",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PT",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "PY",
+   "channels": 32
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "QN",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "QZ",
+   "channels": 12
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RB",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RC",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RE",
+   "channels": 49
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RI",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RM",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RO",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "RV",
+   "channels": 37
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "S1",
+   "channels": 104
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "S8",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SB",
+   "channels": 9
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SC",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SE",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SL",
+   "channels": 50
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SN",
+   "channels": 17
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SS",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "SV",
+   "channels": 17
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TC",
+   "channels": 15
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TD",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TJ",
+   "channels": 14
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TM",
+   "channels": 36
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TR",
+   "channels": 16
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TT",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TW",
+   "channels": 36
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TX",
+   "channels": 161
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "TZ",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UI",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UK",
+   "channels": 5
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UM",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UO",
+   "channels": 96
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "US",
+   "channels": 109
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UT",
+   "channels": 4
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UU",
+   "channels": 64
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "UW",
+   "channels": 207
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "VE",
+   "channels": 60
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "VU",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WA",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WC",
+   "channels": 2
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WI",
+   "channels": 31
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WM",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WU",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WW",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "WY",
+   "channels": 27
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "X7",
+   "channels": 11
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "XA",
+   "channels": 32
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "XB",
+   "channels": 7
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "XL",
+   "channels": 11
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "XM",
+   "channels": 74
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "XN",
+   "channels": 114
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "XV",
+   "channels": 37
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YB",
+   "channels": 10
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YC",
+   "channels": 8
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YE",
+   "channels": 3
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YF",
+   "channels": 14
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YG",
+   "channels": 14
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YN",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YT",
+   "channels": 28
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YU",
+   "channels": 1
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YW",
+   "channels": 22
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "YX",
+   "channels": 7
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "Z1",
+   "channels": 32
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "Z5",
+   "channels": 20
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ZC",
+   "channels": 49
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ZP",
+   "channels": 6
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ZX",
+   "channels": 42
+  },
+  {
+   "datacentre": "EarthScope",
+   "network": "ZZ",
+   "channels": 6
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "1N",
+   "channels": 1
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "1T",
+   "channels": 2
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "6B",
+   "channels": 24
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "8C",
+   "channels": 3
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "9C",
+   "channels": 3
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "CL",
+   "channels": 10
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "FO",
+   "channels": 3
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "FR",
+   "channels": 301
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "G",
+   "channels": 67
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "GL",
+   "channels": 14
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "MQ",
+   "channels": 15
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "MT",
+   "channels": 15
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "ND",
+   "channels": 14
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "PF",
+   "channels": 35
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "QM",
+   "channels": 8
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "RD",
+   "channels": 12
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "WI",
+   "channels": 31
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "XF",
+   "channels": 66
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "XP",
+   "channels": 41
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "XQ",
+   "channels": 5
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "XR",
+   "channels": 5
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "XZ",
+   "channels": 24
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "YR",
+   "channels": 9
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "Z4",
+   "channels": 5
+  },
+  {
+   "datacentre": "EPOSFR",
+   "network": "ZR",
+   "channels": 6
+  },
+  {
+   "datacentre": "ETH",
+   "network": "3Z",
+   "channels": 6
+  },
+  {
+   "datacentre": "ETH",
+   "network": "5A",
+   "channels": 1
+  },
+  {
+   "datacentre": "ETH",
+   "network": "8D",
+   "channels": 1
+  },
+  {
+   "datacentre": "ETH",
+   "network": "8R",
+   "channels": 6
+  },
+  {
+   "datacentre": "ETH",
+   "network": "9S",
+   "channels": 3
+  },
+  {
+   "datacentre": "ETH",
+   "network": "C4",
+   "channels": 3
+  },
+  {
+   "datacentre": "ETH",
+   "network": "CH",
+   "channels": 161
+  },
+  {
+   "datacentre": "ETH",
+   "network": "DK",
+   "channels": 8
+  },
+  {
+   "datacentre": "ETH",
+   "network": "G2",
+   "channels": 12
+  },
+  {
+   "datacentre": "ETH",
+   "network": "Y5",
+   "channels": 20
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "1D",
+   "channels": 2
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "1O",
+   "channels": 33
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "1P",
+   "channels": 106
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "2D",
+   "channels": 4
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "2Z",
+   "channels": 3
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "3S",
+   "channels": 7
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "4E",
+   "channels": 9
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "4R",
+   "channels": 1
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "4V",
+   "channels": 18
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "6E",
+   "channels": 61
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "6H",
+   "channels": 35
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "6X",
+   "channels": 11
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "7I",
+   "channels": 34
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "8Z",
+   "channels": 5
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "9I",
+   "channels": 10
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "AF",
+   "channels": 13
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "AW",
+   "channels": 5
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "CK",
+   "channels": 7
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "CP",
+   "channels": 2
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "CX",
+   "channels": 46
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "CZ",
+   "channels": 27
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "DK",
+   "channels": 79
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "DL",
+   "channels": 1
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "EE",
+   "channels": 11
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "EI",
+   "channels": 20
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "FN",
+   "channels": 18
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "GE",
+   "channels": 171
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "GF",
+   "channels": 1
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "GX",
+   "channels": 6
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "HE",
+   "channels": 26
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "HU",
+   "channels": 44
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "IO",
+   "channels": 2
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "IQ",
+   "channels": 28
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "IS",
+   "channels": 24
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "JS",
+   "channels": 16
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "KC",
+   "channels": 6
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "KP",
+   "channels": 2
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "KV",
+   "channels": 68
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "LU",
+   "channels": 34
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "NR",
+   "channels": 1
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "NU",
+   "channels": 18
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "PL",
+   "channels": 14
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "PM",
+   "channels": 12
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "PZ",
+   "channels": 1
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "SJ",
+   "channels": 21
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "SK",
+   "channels": 7
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "TQ",
+   "channels": 12
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "TT",
+   "channels": 6
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "WM",
+   "channels": 36
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "X3",
+   "channels": 661
+  },
+  {
+   "datacentre": "GEOFON",
+   "network": "YL",
+   "channels": 4
+  },
+  {
+   "datacentre": "GeoNet",
+   "network": "IU",
+   "channels": 1
+  },
+  {
+   "datacentre": "GeoNet",
+   "network": "NZ",
+   "channels": 164
+  },
+  {
+   "datacentre": "GeoNet",
+   "network": "XX",
+   "channels": 1
+  },
+  {
+   "datacentre": "ICGC",
+   "network": "CA",
+   "channels": 39
+  },
+  {
+   "datacentre": "ICGC",
+   "network": "EB",
+   "channels": 2
+  },
+  {
+   "datacentre": "ICGC",
+   "network": "ES",
+   "channels": 6
+  },
+  {
+   "datacentre": "ICGC",
+   "network": "YH",
+   "channels": 19
+  },
+  {
+   "datacentre": "INGV",
+   "network": "2I",
+   "channels": 4
+  },
+  {
+   "datacentre": "INGV",
+   "network": "2Y",
+   "channels": 8
+  },
+  {
+   "datacentre": "INGV",
+   "network": "3D",
+   "channels": 5
+  },
+  {
+   "datacentre": "INGV",
+   "network": "3M",
+   "channels": 15
+  },
+  {
+   "datacentre": "INGV",
+   "network": "4P",
+   "channels": 17
+  },
+  {
+   "datacentre": "INGV",
+   "network": "7C",
+   "channels": 3
+  },
+  {
+   "datacentre": "INGV",
+   "network": "9O",
+   "channels": 4
+  },
+  {
+   "datacentre": "INGV",
+   "network": "AC",
+   "channels": 16
+  },
+  {
+   "datacentre": "INGV",
+   "network": "DY",
+   "channels": 10
+  },
+  {
+   "datacentre": "INGV",
+   "network": "GU",
+   "channels": 46
+  },
+  {
+   "datacentre": "INGV",
+   "network": "IV",
+   "channels": 482
+  },
+  {
+   "datacentre": "INGV",
+   "network": "IX",
+   "channels": 9
+  },
+  {
+   "datacentre": "INGV",
+   "network": "IY",
+   "channels": 16
+  },
+  {
+   "datacentre": "INGV",
+   "network": "K3",
+   "channels": 1
+  },
+  {
+   "datacentre": "INGV",
+   "network": "ML",
+   "channels": 4
+  },
+  {
+   "datacentre": "INGV",
+   "network": "MN",
+   "channels": 48
+  },
+  {
+   "datacentre": "INGV",
+   "network": "NI",
+   "channels": 5
+  },
+  {
+   "datacentre": "INGV",
+   "network": "OT",
+   "channels": 9
+  },
+  {
+   "datacentre": "INGV",
+   "network": "OX",
+   "channels": 25
+  },
+  {
+   "datacentre": "INGV",
+   "network": "RF",
+   "channels": 1
+  },
+  {
+   "datacentre": "INGV",
+   "network": "SI",
+   "channels": 11
+  },
+  {
+   "datacentre": "INGV",
+   "network": "ST",
+   "channels": 2
+  },
+  {
+   "datacentre": "INGV",
+   "network": "TV",
+   "channels": 2
+  },
+  {
+   "datacentre": "INGV",
+   "network": "VM",
+   "channels": 1
+  },
+  {
+   "datacentre": "INGV",
+   "network": "WE",
+   "channels": 2
+  },
+  {
+   "datacentre": "INGV",
+   "network": "XE",
+   "channels": 10
+  },
+  {
+   "datacentre": "INGV",
+   "network": "ZO",
+   "channels": 1
+  },
+  {
+   "datacentre": "IPGP",
+   "network": "G",
+   "channels": 67
+  },
+  {
+   "datacentre": "IPGP",
+   "network": "GL",
+   "channels": 14
+  },
+  {
+   "datacentre": "IPGP",
+   "network": "MQ",
+   "channels": 15
+  },
+  {
+   "datacentre": "IPGP",
+   "network": "PF",
+   "channels": 35
+  },
+  {
+   "datacentre": "IPGP",
+   "network": "QM",
+   "channels": 8
+  },
+  {
+   "datacentre": "IPGP",
+   "network": "WI",
+   "channels": 31
+  },
+  {
+   "datacentre": "KOERI",
+   "network": "6G",
+   "channels": 49
+  },
+  {
+   "datacentre": "KOERI",
+   "network": "KO",
+   "channels": 159
+  },
+  {
+   "datacentre": "LMU",
+   "network": "BW",
+   "channels": 100
+  },
+  {
+   "datacentre": "LMU",
+   "network": "X6",
+   "channels": 2
+  },
+  {
+   "datacentre": "LMU",
+   "network": "Z6",
+   "channels": 286
+  },
+  {
+   "datacentre": "NIEP",
+   "network": "BS",
+   "channels": 34
+  },
+  {
+   "datacentre": "NIEP",
+   "network": "MD",
+   "channels": 6
+  },
+  {
+   "datacentre": "NIEP",
+   "network": "RO",
+   "channels": 140
+  },
+  {
+   "datacentre": "NIEP",
+   "network": "UD",
+   "channels": 6
+  },
+  {
+   "datacentre": "NIEP",
+   "network": "UT",
+   "channels": 10
+  },
+  {
+   "datacentre": "NIEP",
+   "network": "Y8",
+   "channels": 203
+  },
+  {
+   "datacentre": "NOA",
+   "network": "1Y",
+   "channels": 75
+  },
+  {
+   "datacentre": "NOA",
+   "network": "5B",
+   "channels": 9
+  },
+  {
+   "datacentre": "NOA",
+   "network": "CQ",
+   "channels": 28
+  },
+  {
+   "datacentre": "NOA",
+   "network": "HA",
+   "channels": 31
+  },
+  {
+   "datacentre": "NOA",
+   "network": "HC",
+   "channels": 14
+  },
+  {
+   "datacentre": "NOA",
+   "network": "HL",
+   "channels": 73
+  },
+  {
+   "datacentre": "NOA",
+   "network": "HP",
+   "channels": 25
+  },
+  {
+   "datacentre": "NOA",
+   "network": "HT",
+   "channels": 64
+  },
+  {
+   "datacentre": "NOA",
+   "network": "ME",
+   "channels": 1
+  },
+  {
+   "datacentre": "NOA",
+   "network": "MK",
+   "channels": 10
+  },
+  {
+   "datacentre": "NRCAN",
+   "network": "AY",
+   "channels": 4
+  },
+  {
+   "datacentre": "NRCAN",
+   "network": "C8",
+   "channels": 25
+  },
+  {
+   "datacentre": "NRCAN",
+   "network": "CN",
+   "channels": 156
+  },
+  {
+   "datacentre": "NRCAN",
+   "network": "PO",
+   "channels": 1
+  },
+  {
+   "datacentre": "ODC",
+   "network": "2M",
+   "channels": 46
+  },
+  {
+   "datacentre": "ODC",
+   "network": "7B",
+   "channels": 29
+  },
+  {
+   "datacentre": "ODC",
+   "network": "9R",
+   "channels": 29
+  },
+  {
+   "datacentre": "ODC",
+   "network": "AB",
+   "channels": 3
+  },
+  {
+   "datacentre": "ODC",
+   "network": "AI",
+   "channels": 5
+  },
+  {
+   "datacentre": "ODC",
+   "network": "BE",
+   "channels": 37
+  },
+  {
+   "datacentre": "ODC",
+   "network": "CR",
+   "channels": 55
+  },
+  {
+   "datacentre": "ODC",
+   "network": "DZ",
+   "channels": 1
+  },
+  {
+   "datacentre": "ODC",
+   "network": "GO",
+   "channels": 6
+  },
+  {
+   "datacentre": "ODC",
+   "network": "HF",
+   "channels": 1
+  },
+  {
+   "datacentre": "ODC",
+   "network": "IP",
+   "channels": 2
+  },
+  {
+   "datacentre": "ODC",
+   "network": "LC",
+   "channels": 1
+  },
+  {
+   "datacentre": "ODC",
+   "network": "LX",
+   "channels": 6
+  },
+  {
+   "datacentre": "ODC",
+   "network": "NA",
+   "channels": 28
+  },
+  {
+   "datacentre": "ODC",
+   "network": "NL",
+   "channels": 943
+  },
+  {
+   "datacentre": "ODC",
+   "network": "NR",
+   "channels": 32
+  },
+  {
+   "datacentre": "ODC",
+   "network": "OE",
+   "channels": 51
+  },
+  {
+   "datacentre": "ODC",
+   "network": "SL",
+   "channels": 69
+  },
+  {
+   "datacentre": "ODC",
+   "network": "SS",
+   "channels": 2
+  },
+  {
+   "datacentre": "ODC",
+   "network": "TU",
+   "channels": 11
+  },
+  {
+   "datacentre": "ODC",
+   "network": "UP",
+   "channels": 21
+  },
+  {
+   "datacentre": "ODC",
+   "network": "VI",
+   "channels": 7
+  },
+  {
+   "datacentre": "ODC",
+   "network": "WC",
+   "channels": 2
+  },
+  {
+   "datacentre": "ODC",
+   "network": "Z3",
+   "channels": 4
+  },
+  {
+   "datacentre": "RSBR",
+   "network": "BL",
+   "channels": 36
+  },
+  {
+   "datacentre": "RSBR",
+   "network": "BR",
+   "channels": 22
+  },
+  {
+   "datacentre": "RSBR",
+   "network": "NB",
+   "channels": 43
+  },
+  {
+   "datacentre": "RSBR",
+   "network": "ON",
+   "channels": 23
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "5W",
+   "channels": 3
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "8J",
+   "channels": 5
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "9H",
+   "channels": 24
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "IU",
+   "channels": 2
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "NO",
+   "channels": 96
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "NS",
+   "channels": 79
+  },
+  {
+   "datacentre": "UIB-NORSAR",
+   "network": "QE",
+   "channels": 9
+  },
+  {
+   "datacentre": "USP",
+   "network": "BL",
+   "channels": 35
+  },
+  {
+   "datacentre": "USP",
+   "network": "BR",
+   "channels": 23
+  },
+  {
+   "datacentre": "USP",
+   "network": "VL",
+   "channels": 14
+  },
+  {
+   "datacentre": "USP",
+   "network": "XC",
+   "channels": 29
+  }
+ ],
+ "candidates_passing": {
+  "A2": {
+   "window": "W3",
+   "reference": "AGVN",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    18,
+    0
+   ],
+   "reference_good_day_share": 0.926,
+   "reference_stream": "A2.AGVN.00.HHZ",
+   "lat": 39.359078,
+   "lon": 46.318143,
+   "sites": [
+    {
+     "dist_km": 95.6,
+     "members": [
+      {
+       "sta": "SVZR",
+       "dist_km": 95.6,
+       "stream": "A2.SVZR.00.HHZ",
+       "lat": 39.920301,
+       "lon": 45.471962
+      },
+      {
+       "sta": "KCHK",
+       "dist_km": 100.0,
+       "stream": "A2.KCHK.00.HHZ",
+       "lat": 39.610717,
+       "lon": 45.199504
+      }
+     ]
+    },
+    {
+     "dist_km": 159.8,
+     "members": [
+      {
+       "sta": "TTJR",
+       "dist_km": 159.8,
+       "stream": "A2.TTJR.00.HHZ",
+       "lat": 40.597151,
+       "lon": 45.365255
+      }
+     ]
+    },
+    {
+     "dist_km": 189.4,
+     "members": [
+      {
+       "sta": "ARZK",
+       "dist_km": 189.4,
+       "stream": "A2.ARZK.00.HHZ",
+       "lat": 40.428408,
+       "lon": 44.589914
+      }
+     ]
+    }
+   ],
+   "network": "A2",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  "AB": {
+   "window": "W1",
+   "reference": "TELL",
+   "pair": true,
+   "site_outage_days": [
+    66,
+    29,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "AB.TELL.00.HHZ",
+   "lat": 41.760905,
+   "lon": 48.643566,
+   "sites": [
+    {
+     "dist_km": 72.0,
+     "members": [
+      {
+       "sta": "YLVJ",
+       "dist_km": 72.0,
+       "stream": "AB.YLVJ.00.HHZ",
+       "lat": 41.214037,
+       "lon": 49.106073
+      }
+     ]
+    },
+    {
+     "dist_km": 109.7,
+     "members": [
+      {
+       "sta": "ZRNV",
+       "dist_km": 109.7,
+       "stream": "AB.ZRNV.00.HHZ",
+       "lat": 40.800111,
+       "lon": 48.346606
+      }
+     ]
+    },
+    {
+     "dist_km": 131.7,
+     "members": [
+      {
+       "sta": "SHUR",
+       "dist_km": 131.7,
+       "stream": "AB.SHUR.00.HHZ",
+       "lat": 40.756199,
+       "lon": 49.477063
+      },
+      {
+       "sta": "MV12",
+       "dist_km": 148.8,
+       "stream": "AB.MV12.00.HHZ",
+       "lat": 40.505963,
+       "lon": 49.261836
+      }
+     ]
+    }
+   ],
+   "network": "AB",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  "AE": {
+   "window": "W1",
+   "reference": "X18A",
+   "pair": false,
+   "site_outage_days": [
+    10,
+    2,
+    2
+   ],
+   "reference_good_day_share": 0.951,
+   "reference_stream": "AE.X18A..HHZ",
+   "lat": 34.529301,
+   "lon": -109.950104,
+   "sites": [
+    {
+     "dist_km": 68.3,
+     "members": [
+      {
+       "sta": "W18A",
+       "dist_km": 68.3,
+       "stream": "AE.W18A..HHZ",
+       "lat": 35.118099,
+       "lon": -109.735703
+      }
+     ]
+    },
+    {
+     "dist_km": 115.0,
+     "members": [
+      {
+       "sta": "HANNA",
+       "dist_km": 115.0,
+       "stream": "AE.HANNA..HHZ",
+       "lat": 33.63636,
+       "lon": -109.32029
+      }
+     ]
+    },
+    {
+     "dist_km": 137.2,
+     "members": [
+      {
+       "sta": "X16A",
+       "dist_km": 137.2,
+       "stream": "AE.X16A..HHZ",
+       "lat": 34.417801,
+       "lon": -111.441101
+      }
+     ]
+    }
+   ],
+   "network": "AE",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "USA-Mexico"
+  },
+  "AF": {
+   "window": "W1",
+   "reference": "ALKP",
+   "pair": false,
+   "site_outage_days": [
+    6,
+    119,
+    10
+   ],
+   "reference_good_day_share": 0.97,
+   "reference_stream": "AF.ALKP..BHZ",
+   "lat": -29.941839,
+   "lon": 22.24667,
+   "sites": [
+    {
+     "dist_km": 200.4,
+     "members": [
+      {
+       "sta": "UPI",
+       "dist_km": 200.4,
+       "stream": "AF.UPI..BHZ",
+       "lat": -28.362,
+       "lon": 21.253
+      }
+     ]
+    },
+    {
+     "dist_km": 292.8,
+     "members": [
+      {
+       "sta": "CVNA",
+       "dist_km": 292.8,
+       "stream": "AF.CVNA..BHZ",
+       "lat": -31.482,
+       "lon": 19.762
+      }
+     ]
+    },
+    {
+     "dist_km": 320.5,
+     "members": [
+      {
+       "sta": "HVD",
+       "dist_km": 320.5,
+       "stream": "AF.HVD.00.BHZ",
+       "lat": -30.60454,
+       "lon": 25.49506
+      }
+     ]
+    }
+   ],
+   "network": "AF",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "Africa"
+  },
+  "AG": {
+   "window": "W2",
+   "reference": "WLAR",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    0,
+    48
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "AG.WLAR.00.HHZ",
+   "lat": 33.688,
+   "lon": -93.112,
+   "sites": [
+    {
+     "dist_km": 55.8,
+     "members": [
+      {
+       "sta": "Z41A",
+       "dist_km": 55.8,
+       "stream": "AG.Z41A.00.HHZ",
+       "lat": 33.2577,
+       "lon": -92.803
+      }
+     ]
+    },
+    {
+     "dist_km": 92.5,
+     "members": [
+      {
+       "sta": "X40A",
+       "dist_km": 92.5,
+       "stream": "AG.X40A.00.HHZ",
+       "lat": 34.4873,
+       "lon": -92.8342
+      }
+     ]
+    },
+    {
+     "dist_km": 126.4,
+     "members": [
+      {
+       "sta": "CCAR",
+       "dist_km": 126.4,
+       "stream": "AG.CCAR.00.HHZ",
+       "lat": 33.917,
+       "lon": -91.772
+      }
+     ]
+    }
+   ],
+   "network": "AG",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "USA-Mexico"
+  },
+  "AU": {
+   "window": "W1",
+   "reference": "RKGY",
+   "pair": true,
+   "site_outage_days": [
+    45,
+    19,
+    0
+   ],
+   "reference_good_day_share": 0.997,
+   "reference_stream": "AU.RKGY.00.BHZ",
+   "lat": -34.6094,
+   "lon": 116.9773,
+   "sites": [
+    {
+     "dist_km": 154.5,
+     "members": [
+      {
+       "sta": "ONGER",
+       "dist_km": 154.5,
+       "stream": "AU.ONGER..BHZ",
+       "lat": -33.86366,
+       "lon": 118.39563
+      }
+     ]
+    },
+    {
+     "dist_km": 188.6,
+     "members": [
+      {
+       "sta": "NWAO",
+       "dist_km": 188.6,
+       "stream": "AU.NWAO..BHZ",
+       "lat": -32.9277,
+       "lon": 117.239
+      }
+     ]
+    },
+    {
+     "dist_km": 301.1,
+     "members": [
+      {
+       "sta": "MUN",
+       "dist_km": 301.1,
+       "stream": "AU.MUN.00.BHZ",
+       "lat": -31.9783,
+       "lon": 116.212
+      },
+      {
+       "sta": "CARL",
+       "dist_km": 307.9,
+       "stream": "AU.CARL.00.BHZ",
+       "lat": -31.9835,
+       "lon": 115.926697
+      }
+     ]
+    }
+   ],
+   "network": "AU",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "New Zealand-SW Pacific"
+  },
+  "AV": {
+   "window": "W1",
+   "reference": "DOL",
+   "pair": true,
+   "site_outage_days": [
+    13,
+    0,
+    9
+   ],
+   "reference_good_day_share": 0.951,
+   "reference_stream": "AV.DOL..BHZ",
+   "lat": 55.149621,
+   "lon": -161.86472,
+   "sites": [
+    {
+     "dist_km": 21.8,
+     "members": [
+      {
+       "sta": "PS4A",
+       "dist_km": 21.8,
+       "stream": "AV.PS4A..BHZ",
+       "lat": 55.34604,
+       "lon": -161.85648
+      },
+      {
+       "sta": "DTN",
+       "dist_km": 25.1,
+       "stream": "AV.DTN..BHZ",
+       "lat": 55.1448,
+       "lon": -162.259
+      }
+     ]
+    },
+    {
+     "dist_km": 35.4,
+     "members": [
+      {
+       "sta": "DEER",
+       "dist_km": 35.4,
+       "stream": "AV.DEER..BHZ",
+       "lat": 54.97127,
+       "lon": -162.32437
+      },
+      {
+       "sta": "BLDW",
+       "dist_km": 58.8,
+       "stream": "AV.BLDW..BHZ",
+       "lat": 55.190907,
+       "lon": -162.787687
+      }
+     ]
+    },
+    {
+     "dist_km": 127.1,
+     "members": [
+      {
+       "sta": "ISLZ",
+       "dist_km": 127.1,
+       "stream": "AV.ISLZ..BHZ",
+       "lat": 54.7249,
+       "lon": -163.7129
+      }
+     ]
+    }
+   ],
+   "network": "AV",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  "AW": {
+   "window": "W2",
+   "reference": "VNA1",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    96,
+    38
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "AW.VNA1..BHZ",
+   "lat": -70.672,
+   "lon": -8.29,
+   "sites": [
+    {
+     "dist_km": 43.2,
+     "members": [
+      {
+       "sta": "VNA2",
+       "dist_km": 43.2,
+       "stream": "AW.VNA2..BHZ",
+       "lat": -70.925,
+       "lon": -7.393
+      }
+     ]
+    },
+    {
+     "dist_km": 80.6,
+     "members": [
+      {
+       "sta": "VNA3",
+       "dist_km": 80.6,
+       "stream": "AW.VNA3..BHZ",
+       "lat": -71.242,
+       "lon": -9.664
+      }
+     ]
+    },
+    {
+     "dist_km": 158.9,
+     "members": [
+      {
+       "sta": "FRFJ",
+       "dist_km": 158.9,
+       "stream": "AW.FRFJ..HHZ",
+       "lat": -71.8359,
+       "lon": -5.7095
+      }
+     ]
+    }
+   ],
+   "network": "AW",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Antarctica"
+  },
+  "BW": {
+   "window": "W1",
+   "reference": "WARN",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    75,
+    0
+   ],
+   "reference_good_day_share": 0.997,
+   "reference_stream": "BW.WARN..BHZ",
+   "lat": 48.705232,
+   "lon": 10.558995,
+   "sites": [
+    {
+     "dist_km": 79.0,
+     "members": [
+      {
+       "sta": "GELB",
+       "dist_km": 79.0,
+       "stream": "BW.GELB..BHZ",
+       "lat": 48.1629,
+       "lon": 11.2514
+      },
+      {
+       "sta": "BIB",
+       "dist_km": 79.8,
+       "stream": "BW.BIB..BHZ",
+       "lat": 48.1522,
+       "lon": 11.2473
+      }
+     ]
+    },
+    {
+     "dist_km": 130.7,
+     "members": [
+      {
+       "sta": "WRNG",
+       "dist_km": 130.7,
+       "stream": "BW.WRNG..BHZ",
+       "lat": 47.826206,
+       "lon": 11.731584
+      }
+     ]
+    },
+    {
+     "dist_km": 140.6,
+     "members": [
+      {
+       "sta": "PART",
+       "dist_km": 140.6,
+       "stream": "BW.PART..BHZ",
+       "lat": 47.4964529,
+       "lon": 11.1155508
+      },
+      {
+       "sta": "ZUGS",
+       "dist_km": 146.6,
+       "stream": "BW.ZUGS..HHZ",
+       "lat": 47.416721,
+       "lon": 10.979318
+      }
+     ]
+    }
+   ],
+   "network": "BW",
+   "datacentre": "LMU",
+   "dataselect": "https://erde.geophysik.uni-muenchen.de/fdsnws/dataselect/1/",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "C": {
+   "window": "W2",
+   "reference": "GO02",
+   "pair": false,
+   "site_outage_days": [
+    194,
+    95,
+    12
+   ],
+   "reference_good_day_share": 0.907,
+   "reference_stream": "C.GO02..BHZ",
+   "lat": -25.1626,
+   "lon": -69.5904,
+   "sites": [
+    {
+     "dist_km": 277.8,
+     "members": [
+      {
+       "sta": "GO03",
+       "dist_km": 277.8,
+       "stream": "C.GO03..BHZ",
+       "lat": -27.5937,
+       "lon": -70.2347
+      }
+     ]
+    },
+    {
+     "dist_km": 569.7,
+     "members": [
+      {
+       "sta": "GO04",
+       "dist_km": 569.7,
+       "stream": "C.GO04..BHZ",
+       "lat": -30.1727,
+       "lon": -70.7993
+      }
+     ]
+    },
+    {
+     "dist_km": 612.3,
+     "members": [
+      {
+       "sta": "GO01",
+       "dist_km": 612.3,
+       "stream": "C.GO01..BHZ",
+       "lat": -19.6685,
+       "lon": -69.1942
+      }
+     ]
+    }
+   ],
+   "network": "C",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "South America"
+  },
+  "C0": {
+   "window": "W1",
+   "reference": "Q24A",
+   "pair": true,
+   "site_outage_days": [
+    31,
+    0,
+    21
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "C0.Q24A.00.HHZ",
+   "lat": 38.9641,
+   "lon": -105.1492,
+   "sites": [
+    {
+     "dist_km": 170.5,
+     "members": [
+      {
+       "sta": "CHIL",
+       "dist_km": 170.5,
+       "stream": "C0.CHIL.00.HHZ",
+       "lat": 40.446466,
+       "lon": -104.638217
+      }
+     ]
+    },
+    {
+     "dist_km": 182.3,
+     "members": [
+      {
+       "sta": "MCSU",
+       "dist_km": 182.3,
+       "stream": "C0.MCSU.00.HHZ",
+       "lat": 40.568455,
+       "lon": -105.587774
+      },
+      {
+       "sta": "N23A",
+       "dist_km": 225.1,
+       "stream": "C0.N23A.00.HHZ",
+       "lat": 40.8947,
+       "lon": -105.944
+      }
+     ]
+    },
+    {
+     "dist_km": 187.4,
+     "members": [
+      {
+       "sta": "SPVA",
+       "dist_km": 187.4,
+       "stream": "C0.SPVA.00.HHZ",
+       "lat": 39.472632,
+       "lon": -107.223353
+      }
+     ]
+    }
+   ],
+   "network": "C0",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "USA-Mexico"
+  },
+  "C1": {
+   "window": "W1",
+   "reference": "BO02",
+   "pair": true,
+   "site_outage_days": [
+    15,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.923,
+   "reference_stream": "C1.BO02..BHZ",
+   "lat": -34.7924,
+   "lon": -70.7814,
+   "sites": [
+    {
+     "dist_km": 52.5,
+     "members": [
+      {
+       "sta": "BO01",
+       "dist_km": 52.5,
+       "stream": "C1.BO01..BHZ",
+       "lat": -34.3917,
+       "lon": -71.0848
+      }
+     ]
+    },
+    {
+     "dist_km": 90.7,
+     "members": [
+      {
+       "sta": "BO04",
+       "dist_km": 90.7,
+       "stream": "C1.BO04..BHZ",
+       "lat": -33.98884,
+       "lon": -70.60902
+      },
+      {
+       "sta": "MT09",
+       "dist_km": 114.6,
+       "stream": "C1.MT09..BHZ",
+       "lat": -33.77622,
+       "lon": -70.98867
+      }
+     ]
+    },
+    {
+     "dist_km": 111.9,
+     "members": [
+      {
+       "sta": "MT01",
+       "dist_km": 111.9,
+       "stream": "C1.MT01..BHZ",
+       "lat": -33.8641,
+       "lon": -71.2509
+      },
+      {
+       "sta": "VA05",
+       "dist_km": 147.6,
+       "stream": "C1.VA05..BHZ",
+       "lat": -33.65711,
+       "lon": -71.61428
+      }
+     ]
+    }
+   ],
+   "network": "C1",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 9,
+   "region": "South America"
+  },
+  "CA": {
+   "window": "W3",
+   "reference": "CCAS",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    15,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "reference_stream": "CA.CCAS..HHZ",
+   "lat": 41.882875,
+   "lon": 2.904141,
+   "sites": [
+    {
+     "dist_km": 41.2,
+     "members": [
+      {
+       "sta": "CFON",
+       "dist_km": 41.2,
+       "stream": "CA.CFON..HHZ",
+       "lat": 41.761185,
+       "lon": 2.434581
+      },
+      {
+       "sta": "CORI",
+       "dist_km": 71.5,
+       "stream": "CA.CORI..HHZ",
+       "lat": 41.972401,
+       "lon": 2.048795
+      }
+     ]
+    },
+    {
+     "dist_km": 45.5,
+     "members": [
+      {
+       "sta": "CBEU",
+       "dist_km": 45.5,
+       "stream": "CA.CBEU..HHZ",
+       "lat": 42.255629,
+       "lon": 2.675797
+      },
+      {
+       "sta": "CPAL",
+       "dist_km": 52.1,
+       "stream": "CA.CPAL..HHZ",
+       "lat": 42.310533,
+       "lon": 3.16244
+      }
+     ]
+    },
+    {
+     "dist_km": 101.3,
+     "members": [
+      {
+       "sta": "CLLI",
+       "dist_km": 101.3,
+       "stream": "CA.CLLI..HHZ",
+       "lat": 42.478105,
+       "lon": 1.972973
+      }
+     ]
+    }
+   ],
+   "network": "CA",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "CN": {
+   "window": "W1",
+   "reference": "KGNO",
+   "pair": true,
+   "site_outage_days": [
+    34,
+    0,
+    5
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "CN.KGNO..HHZ",
+   "lat": 44.2272,
+   "lon": -76.4934,
+   "sites": [
+    {
+     "dist_km": 129.2,
+     "members": [
+      {
+       "sta": "WBO",
+       "dist_km": 129.2,
+       "stream": "CN.WBO..HHZ",
+       "lat": 45.0012,
+       "lon": -75.2753
+      }
+     ]
+    },
+    {
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OTT",
+       "dist_km": 143.5,
+       "stream": "CN.OTT..HHZ",
+       "lat": 45.3939,
+       "lon": -75.7148
+      },
+      {
+       "sta": "ORIO",
+       "dist_km": 156.6,
+       "stream": "CN.ORIO..HHZ",
+       "lat": 45.4515,
+       "lon": -75.511
+      }
+     ]
+    },
+    {
+     "dist_km": 213.0,
+     "members": [
+      {
+       "sta": "CHRO",
+       "dist_km": 213.0,
+       "stream": "CN.CHRO..HHZ",
+       "lat": 46.0376,
+       "lon": -77.3794
+      }
+     ]
+    }
+   ],
+   "network": "CN",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 16,
+   "region": "USA-Mexico"
+  },
+  "CO": {
+   "window": "W1",
+   "reference": "PAULI",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    2,
+    9
+   ],
+   "reference_good_day_share": 0.997,
+   "reference_stream": "CO.PAULI.00.HHZ",
+   "lat": 34.82097,
+   "lon": -81.8144,
+   "sites": [
+    {
+     "dist_km": 77.2,
+     "members": [
+      {
+       "sta": "HODGE",
+       "dist_km": 77.2,
+       "stream": "CO.HODGE.00.HHZ",
+       "lat": 34.2315,
+       "lon": -82.2586
+      }
+     ]
+    },
+    {
+     "dist_km": 78.6,
+     "members": [
+      {
+       "sta": "JSC",
+       "dist_km": 78.6,
+       "stream": "CO.JSC.00.HHZ",
+       "lat": 34.2818,
+       "lon": -81.25966
+      }
+     ]
+    },
+    {
+     "dist_km": 103.7,
+     "members": [
+      {
+       "sta": "CASEE",
+       "dist_km": 103.7,
+       "stream": "CO.CASEE.00.HHZ",
+       "lat": 34.993,
+       "lon": -82.9317
+      }
+     ]
+    }
+   ],
+   "network": "CO",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "USA-Mexico"
+  },
+  "CU": {
+   "window": "W2",
+   "reference": "SDDR",
+   "pair": false,
+   "site_outage_days": [
+    25,
+    33,
+    0
+   ],
+   "reference_good_day_share": 0.992,
+   "reference_stream": "CU.SDDR.00.BHZ",
+   "lat": 18.982121,
+   "lon": -71.287836,
+   "sites": [
+    {
+     "dist_km": 281.7,
+     "members": [
+      {
+       "sta": "GRTK",
+       "dist_km": 281.7,
+       "stream": "CU.GRTK.00.BHZ",
+       "lat": 21.511472,
+       "lon": -71.13425
+      }
+     ]
+    },
+    {
+     "dist_km": 414.3,
+     "members": [
+      {
+       "sta": "GTBY",
+       "dist_km": 414.3,
+       "stream": "CU.GTBY.00.BHZ",
+       "lat": 19.9268,
+       "lon": -75.1108
+      }
+     ]
+    },
+    {
+     "dist_km": 663.6,
+     "members": [
+      {
+       "sta": "MTDJ",
+       "dist_km": 663.6,
+       "stream": "CU.MTDJ.00.BHZ",
+       "lat": 18.22605,
+       "lon": -77.53454
+      }
+     ]
+    }
+   ],
+   "network": "CU",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "USA-Mexico"
+  },
+  "CZ": {
+   "window": "W1",
+   "reference": "KHC",
+   "pair": true,
+   "site_outage_days": [
+    42,
+    44,
+    42
+   ],
+   "reference_good_day_share": 0.964,
+   "reference_stream": "CZ.KHC..HHZ",
+   "lat": 49.1309,
+   "lon": 13.5782,
+   "sites": [
+    {
+     "dist_km": 56.2,
+     "members": [
+      {
+       "sta": "ZVC",
+       "dist_km": 56.2,
+       "stream": "CZ.ZVC..HHZ",
+       "lat": 49.4392,
+       "lon": 14.1928
+      }
+     ]
+    },
+    {
+     "dist_km": 88.5,
+     "members": [
+      {
+       "sta": "PRIC",
+       "dist_km": 88.5,
+       "stream": "CZ.PRIC..HHZ",
+       "lat": 49.6693,
+       "lon": 12.6782
+      }
+     ]
+    },
+    {
+     "dist_km": 118.0,
+     "members": [
+      {
+       "sta": "PRU",
+       "dist_km": 118.0,
+       "stream": "CZ.PRU..HHZ",
+       "lat": 49.9883,
+       "lon": 14.5417
+      },
+      {
+       "sta": "PRA",
+       "dist_km": 121.3,
+       "stream": "CZ.PRA..BHZ",
+       "lat": 50.0703,
+       "lon": 14.4331
+      }
+     ]
+    }
+   ],
+   "network": "CZ",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "EE": {
+   "window": "W2",
+   "reference": "EE02",
+   "pair": false,
+   "site_outage_days": [
+    22,
+    0,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "EE.EE02..HHZ",
+   "lat": 59.19057,
+   "lon": 24.69683,
+   "sites": [
+    {
+     "dist_km": 73.2,
+     "members": [
+      {
+       "sta": "MTSE",
+       "dist_km": 73.2,
+       "stream": "EE.MTSE..BHZ",
+       "lat": 58.7144,
+       "lon": 23.8146
+      }
+     ]
+    },
+    {
+     "dist_km": 78.0,
+     "members": [
+      {
+       "sta": "ARBE",
+       "dist_km": 78.0,
+       "stream": "EE.ARBE..BHZ",
+       "lat": 59.4365,
+       "lon": 25.9841
+      }
+     ]
+    },
+    {
+     "dist_km": 108.4,
+     "members": [
+      {
+       "sta": "EE06",
+       "dist_km": 108.4,
+       "stream": "EE.EE06..HHZ",
+       "lat": 58.9695,
+       "lon": 22.8482
+      }
+     ]
+    }
+   ],
+   "network": "EE",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "EI": {
+   "window": "W2",
+   "reference": "IMAY",
+   "pair": false,
+   "site_outage_days": [
+    91,
+    0,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "EI.IMAY..BHZ",
+   "lat": 54.160708,
+   "lon": -9.379619,
+   "sites": [
+    {
+     "dist_km": 82.4,
+     "members": [
+      {
+       "sta": "IGLA",
+       "dist_km": 82.4,
+       "stream": "EI.IGLA..BHZ",
+       "lat": 53.4195,
+       "lon": -9.375
+      }
+     ]
+    },
+    {
+     "dist_km": 150.7,
+     "members": [
+      {
+       "sta": "ITIP",
+       "dist_km": 150.7,
+       "stream": "EI.ITIP..BHZ",
+       "lat": 53.046278,
+       "lon": -8.079468
+      }
+     ]
+    },
+    {
+     "dist_km": 157.4,
+     "members": [
+      {
+       "sta": "IDGL",
+       "dist_km": 157.4,
+       "stream": "EI.IDGL..BHZ",
+       "lat": 55.073,
+       "lon": -7.51
+      }
+     ]
+    }
+   ],
+   "network": "EI",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "ET": {
+   "window": "W1",
+   "reference": "FPAL",
+   "pair": false,
+   "site_outage_days": [
+    54,
+    31,
+    3
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "ET.FPAL.00.HHZ",
+   "lat": 34.54,
+   "lon": -85.611,
+   "sites": [
+    {
+     "dist_km": 80.7,
+     "members": [
+      {
+       "sta": "SWET",
+       "dist_km": 80.7,
+       "stream": "ET.SWET.00.HHZ",
+       "lat": 35.216,
+       "lon": -85.932
+      }
+     ]
+    },
+    {
+     "dist_km": 141.7,
+     "members": [
+      {
+       "sta": "CPCT",
+       "dist_km": 141.7,
+       "stream": "ET.CPCT.00.HHZ",
+       "lat": 35.45,
+       "lon": -84.522
+      }
+     ]
+    },
+    {
+     "dist_km": 386.8,
+     "members": [
+      {
+       "sta": "GFM",
+       "dist_km": 386.8,
+       "stream": "ET.GFM.00.HHZ",
+       "lat": 36.111,
+       "lon": -81.807
+      }
+     ]
+    }
+   ],
+   "network": "ET",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "USA-Mexico"
+  },
+  "FN": {
+   "window": "W1",
+   "reference": "MSF",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    102,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "FN.MSF..BHZ",
+   "lat": 65.91131,
+   "lon": 29.04019,
+   "sites": [
+    {
+     "dist_km": 156.4,
+     "members": [
+      {
+       "sta": "RNF",
+       "dist_km": 156.4,
+       "stream": "FN.RNF..BHZ",
+       "lat": 66.61216,
+       "lon": 26.01074
+      }
+     ]
+    },
+    {
+     "dist_km": 171.7,
+     "members": [
+      {
+       "sta": "OUL",
+       "dist_km": 171.7,
+       "stream": "FN.OUL..BHZ",
+       "lat": 65.0859,
+       "lon": 25.8926
+      }
+     ]
+    },
+    {
+     "dist_km": 203.0,
+     "members": [
+      {
+       "sta": "SGF",
+       "dist_km": 203.0,
+       "stream": "FN.SGF..BHZ",
+       "lat": 67.44211,
+       "lon": 26.52611
+      }
+     ]
+    }
+   ],
+   "network": "FN",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 3,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "FR": {
+   "window": "W1",
+   "reference": "AJAC",
+   "pair": true,
+   "site_outage_days": [
+    44,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "FR.AJAC.00.HHZ",
+   "lat": 41.9279,
+   "lon": 8.763,
+   "sites": [
+    {
+     "dist_km": 46.9,
+     "members": [
+      {
+       "sta": "SMPL",
+       "dist_km": 46.9,
+       "stream": "FR.SMPL.00.BHZ",
+       "lat": 42.0945,
+       "lon": 9.2847
+      }
+     ]
+    },
+    {
+     "dist_km": 124.2,
+     "members": [
+      {
+       "sta": "MORSI",
+       "dist_km": 124.2,
+       "stream": "FR.MORSI.00.HHZ",
+       "lat": 42.953,
+       "lon": 9.363
+      }
+     ]
+    },
+    {
+     "dist_km": 224.1,
+     "members": [
+      {
+       "sta": "EILF",
+       "dist_km": 224.1,
+       "stream": "FR.EILF.00.BHZ",
+       "lat": 43.5479,
+       "lon": 7.1312
+      },
+      {
+       "sta": "MON",
+       "dist_km": 228.2,
+       "stream": "FR.MON.00.BHZ",
+       "lat": 43.730343,
+       "lon": 7.424688
+      }
+     ]
+    }
+   ],
+   "network": "FR",
+   "datacentre": "EPOSFR",
+   "dataselect": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 6,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "HC": {
+   "window": "W1",
+   "reference": "KOSP",
+   "pair": true,
+   "site_outage_days": [
+    4,
+    120,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "HC.KOSP..HHZ",
+   "lat": 36.881,
+   "lon": 27.281,
+   "sites": [
+    {
+     "dist_km": 215.2,
+     "members": [
+      {
+       "sta": "STIA",
+       "dist_km": 215.2,
+       "stream": "HC.STIA..HHZ",
+       "lat": 35.2021,
+       "lon": 26.0909
+      }
+     ]
+    },
+    {
+     "dist_km": 217.6,
+     "members": [
+      {
+       "sta": "THNO",
+       "dist_km": 217.6,
+       "stream": "HC.THNO..HHZ",
+       "lat": 37.6541,
+       "lon": 25.0221
+      }
+     ]
+    },
+    {
+     "dist_km": 257.6,
+     "members": [
+      {
+       "sta": "KNSS",
+       "dist_km": 257.6,
+       "stream": "HC.KNSS..HHZ",
+       "lat": 35.304187,
+       "lon": 25.18017
+      },
+      {
+       "sta": "PFKS",
+       "dist_km": 261.2,
+       "stream": "HC.PFKS..HHZ",
+       "lat": 35.0429,
+       "lon": 25.4733
+      }
+     ]
+    }
+   ],
+   "network": "HC",
+   "datacentre": "NOA",
+   "dataselect": "https://eida.gein.noa.gr/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  "HE": {
+   "window": "W1",
+   "reference": "TOF",
+   "pair": false,
+   "site_outage_days": [
+    20,
+    0,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "HE.TOF..HHZ",
+   "lat": 66.077745,
+   "lon": 24.332007,
+   "sites": [
+    {
+     "dist_km": 191.1,
+     "members": [
+      {
+       "sta": "OUF",
+       "dist_km": 191.1,
+       "stream": "HE.OUF..HHZ",
+       "lat": 64.3673,
+       "lon": 24.7314
+      }
+     ]
+    },
+    {
+     "dist_km": 250.9,
+     "members": [
+      {
+       "sta": "KU6",
+       "dist_km": 250.9,
+       "stream": "HE.KU6..HHZ",
+       "lat": 66.02547,
+       "lon": 29.89067
+      }
+     ]
+    },
+    {
+     "dist_km": 260.5,
+     "members": [
+      {
+       "sta": "HEF",
+       "dist_km": 260.5,
+       "stream": "HE.HEF..HHZ",
+       "lat": 68.4062,
+       "lon": 23.6643
+      }
+     ]
+    }
+   ],
+   "network": "HE",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 1,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "HL": {
+   "window": "W1",
+   "reference": "RDO",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    10,
+    10
+   ],
+   "reference_good_day_share": 0.986,
+   "reference_stream": "HL.RDO..HHZ",
+   "lat": 41.145031,
+   "lon": 25.53553,
+   "sites": [
+    {
+     "dist_km": 511.1,
+     "members": [
+      {
+       "sta": "KEK",
+       "dist_km": 511.1,
+       "stream": "HL.KEK..HHZ",
+       "lat": 39.7127,
+       "lon": 19.79623
+      }
+     ]
+    },
+    {
+     "dist_km": 539.7,
+     "members": [
+      {
+       "sta": "ITM",
+       "dist_km": 539.7,
+       "stream": "HL.ITM..HHZ",
+       "lat": 37.178719,
+       "lon": 21.92522
+      }
+     ]
+    },
+    {
+     "dist_km": 592.4,
+     "members": [
+      {
+       "sta": "ARG",
+       "dist_km": 592.4,
+       "stream": "HL.ARG..HHZ",
+       "lat": 36.213558,
+       "lon": 28.12122
+      }
+     ]
+    }
+   ],
+   "network": "HL",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "IV": {
+   "window": "W1",
+   "reference": "CGL",
+   "pair": true,
+   "site_outage_days": [
+    165,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "IV.CGL..BHZ",
+   "lat": 39.366,
+   "lon": 9.296,
+   "sites": [
+    {
+     "dist_km": 109.1,
+     "members": [
+      {
+       "sta": "DGI",
+       "dist_km": 109.1,
+       "stream": "IV.DGI..HHZ",
+       "lat": 40.31802,
+       "lon": 9.60668
+      }
+     ]
+    },
+    {
+     "dist_km": 196.1,
+     "members": [
+      {
+       "sta": "AGLI",
+       "dist_km": 196.1,
+       "stream": "IV.AGLI..HHZ",
+       "lat": 41.1269,
+       "lon": 9.1733
+      }
+     ]
+    },
+    {
+     "dist_km": 336.0,
+     "members": [
+      {
+       "sta": "MARS",
+       "dist_km": 336.0,
+       "stream": "IV.MARS..HHZ",
+       "lat": 37.7532,
+       "lon": 12.5647
+      },
+      {
+       "sta": "MTGR",
+       "dist_km": 342.5,
+       "stream": "IV.MTGR..HHZ",
+       "lat": 37.89337,
+       "lon": 12.75932
+      }
+     ]
+    }
+   ],
+   "network": "IV",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 4,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "IW": {
+   "window": "W1",
+   "reference": "MFID",
+   "pair": true,
+   "site_outage_days": [
+    4,
+    0,
+    2
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "IW.MFID.00.BHZ",
+   "lat": 43.4151,
+   "lon": -115.8278,
+   "sites": [
+    {
+     "dist_km": 186.5,
+     "members": [
+      {
+       "sta": "PLID",
+       "dist_km": 186.5,
+       "stream": "IW.PLID.00.BHZ",
+       "lat": 45.08757,
+       "lon": -116.00025
+      }
+     ]
+    },
+    {
+     "dist_km": 335.8,
+     "members": [
+      {
+       "sta": "DLMT",
+       "dist_km": 335.8,
+       "stream": "IW.DLMT.00.BHZ",
+       "lat": 45.3625,
+       "lon": -112.5964
+      }
+     ]
+    },
+    {
+     "dist_km": 387.8,
+     "members": [
+      {
+       "sta": "FXWY",
+       "dist_km": 387.8,
+       "stream": "IW.FXWY.00.BHZ",
+       "lat": 43.6381,
+       "lon": -111.0268
+      },
+      {
+       "sta": "TPAW",
+       "dist_km": 393.2,
+       "stream": "IW.TPAW.00.BHZ",
+       "lat": 43.48965,
+       "lon": -110.95675
+      }
+     ]
+    }
+   ],
+   "network": "IW",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "USA-Mexico"
+  },
+  "JP": {
+   "window": "W2",
+   "reference": "JEM",
+   "pair": false,
+   "site_outage_days": [
+    16,
+    16,
+    16
+   ],
+   "reference_good_day_share": 0.954,
+   "reference_stream": "JP.JEM..BHZ",
+   "lat": 42.018501,
+   "lon": 143.153503,
+   "sites": [
+    {
+     "dist_km": 167.4,
+     "members": [
+      {
+       "sta": "JEW",
+       "dist_km": 167.4,
+       "stream": "JP.JEW..BHZ",
+       "lat": 42.84267,
+       "lon": 141.446167
+      }
+     ]
+    },
+    {
+     "dist_km": 221.4,
+     "members": [
+      {
+       "sta": "JTM",
+       "dist_km": 221.4,
+       "stream": "JP.JTM..BHZ",
+       "lat": 40.789501,
+       "lon": 141.064667
+      }
+     ]
+    },
+    {
+     "dist_km": 237.9,
+     "members": [
+      {
+       "sta": "JKA",
+       "dist_km": 237.9,
+       "stream": "JP.JKA..BHZ",
+       "lat": 44.11883,
+       "lon": 142.593002
+      }
+     ]
+    }
+   ],
+   "network": "JP",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 17,
+   "region": "East Asia-West Pacific"
+  },
+  "KO": {
+   "window": "W1",
+   "reference": "ELL",
+   "pair": false,
+   "site_outage_days": [
+    67,
+    44,
+    27
+   ],
+   "reference_good_day_share": 0.97,
+   "reference_stream": "KO.ELL..HHZ",
+   "lat": 36.7483,
+   "lon": 29.9085,
+   "sites": [
+    {
+     "dist_km": 368.9,
+     "members": [
+      {
+       "sta": "DKL",
+       "dist_km": 368.9,
+       "stream": "KO.DKL..HHZ",
+       "lat": 39.0713,
+       "lon": 26.9053
+      }
+     ]
+    },
+    {
+     "dist_km": 428.8,
+     "members": [
+      {
+       "sta": "MDUB",
+       "dist_km": 428.8,
+       "stream": "KO.MDUB..HHZ",
+       "lat": 40.4712,
+       "lon": 31.1976
+      }
+     ]
+    },
+    {
+     "dist_km": 571.7,
+     "members": [
+      {
+       "sta": "BNN",
+       "dist_km": 571.7,
+       "stream": "KO.BNN..HHZ",
+       "lat": 38.8521,
+       "lon": 35.8472
+      }
+     ]
+    }
+   ],
+   "network": "KO",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  "KR": {
+   "window": "W1",
+   "reference": "DRK",
+   "pair": false,
+   "site_outage_days": [
+    43,
+    5,
+    7
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "KR.DRK.00.HHZ",
+   "lat": 39.477613,
+   "lon": 71.799456,
+   "sites": [
+    {
+     "dist_km": 106.6,
+     "members": [
+      {
+       "sta": "BTK",
+       "dist_km": 106.6,
+       "stream": "KR.BTK..BHZ",
+       "lat": 40.06675,
+       "lon": 70.81572
+      }
+     ]
+    },
+    {
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OHH",
+       "dist_km": 143.5,
+       "stream": "KR.OHH..BHZ",
+       "lat": 40.52444,
+       "lon": 72.785
+      }
+     ]
+    },
+    {
+     "dist_km": 157.8,
+     "members": [
+      {
+       "sta": "SFK",
+       "dist_km": 157.8,
+       "stream": "KR.SFK.00.HHZ",
+       "lat": 40.017151,
+       "lon": 73.506289
+      }
+     ]
+    }
+   ],
+   "network": "KR",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "Central Asia"
+  },
+  "LD": {
+   "window": "W1",
+   "reference": "KSCT",
+   "pair": true,
+   "site_outage_days": [
+    23,
+    10,
+    10
+   ],
+   "reference_good_day_share": 0.964,
+   "reference_stream": "LD.KSCT..BHZ",
+   "lat": 41.72612,
+   "lon": -73.48425,
+   "sites": [
+    {
+     "dist_km": 54.8,
+     "members": [
+      {
+       "sta": "NPNY",
+       "dist_km": 54.8,
+       "stream": "LD.NPNY..BHZ",
+       "lat": 41.75459,
+       "lon": -74.143539
+      },
+      {
+       "sta": "BRNY",
+       "dist_km": 56.0,
+       "stream": "LD.BRNY..BHZ",
+       "lat": 41.414036,
+       "lon": -74.011889
+      }
+     ]
+    },
+    {
+     "dist_km": 87.6,
+     "members": [
+      {
+       "sta": "PAL",
+       "dist_km": 87.6,
+       "stream": "LD.PAL..BHZ",
+       "lat": 41.0056,
+       "lon": -73.9079
+      },
+      {
+       "sta": "FOR",
+       "dist_km": 101.9,
+       "stream": "LD.FOR..BHZ",
+       "lat": 40.8603,
+       "lon": -73.8852
+      }
+     ]
+    },
+    {
+     "dist_km": 104.7,
+     "members": [
+      {
+       "sta": "UCCT",
+       "dist_km": 104.7,
+       "stream": "LD.UCCT..BHZ",
+       "lat": 41.794323,
+       "lon": -72.225545
+      }
+     ]
+    }
+   ],
+   "network": "LD",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "USA-Mexico"
+  },
+  "MB": {
+   "window": "W1",
+   "reference": "LDM",
+   "pair": false,
+   "site_outage_days": [
+    2,
+    138,
+    2
+   ],
+   "reference_good_day_share": 0.989,
+   "reference_stream": "MB.LDM.01.HHZ",
+   "lat": 48.45384,
+   "lon": -115.31912,
+   "sites": [
+    {
+     "dist_km": 110.0,
+     "members": [
+      {
+       "sta": "JTMT",
+       "dist_km": 110.0,
+       "stream": "MB.JTMT.01.HHZ",
+       "lat": 47.74667,
+       "lon": -114.2825
+      }
+     ]
+    },
+    {
+     "dist_km": 215.0,
+     "members": [
+      {
+       "sta": "SRMT",
+       "dist_km": 215.0,
+       "stream": "MB.SRMT.01.HHZ",
+       "lat": 47.775002,
+       "lon": -112.607201
+      }
+     ]
+    },
+    {
+     "dist_km": 278.2,
+     "members": [
+      {
+       "sta": "GBMT",
+       "dist_km": 278.2,
+       "stream": "MB.GBMT.01.HHZ",
+       "lat": 46.859202,
+       "lon": -112.456997
+      }
+     ]
+    }
+   ],
+   "network": "MB",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "USA-Mexico"
+  },
+  "N4": {
+   "window": "W1",
+   "reference": "S57A",
+   "pair": false,
+   "site_outage_days": [
+    114,
+    0,
+    44
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "N4.S57A.00.HHZ",
+   "lat": 37.7605,
+   "lon": -78.9536,
+   "sites": [
+    {
+     "dist_km": 88.8,
+     "members": [
+      {
+       "sta": "T57A",
+       "dist_km": 88.8,
+       "stream": "N4.T57A.00.HHZ",
+       "lat": 36.9983,
+       "lon": -79.2538
+      }
+     ]
+    },
+    {
+     "dist_km": 97.0,
+     "members": [
+      {
+       "sta": "R58B",
+       "dist_km": 97.0,
+       "stream": "N4.R58B.00.HHZ",
+       "lat": 37.9636,
+       "lon": -77.8787
+      }
+     ]
+    },
+    {
+     "dist_km": 117.5,
+     "members": [
+      {
+       "sta": "R55A",
+       "dist_km": 117.5,
+       "stream": "N4.R55A.00.HHZ",
+       "lat": 38.2825,
+       "lon": -80.1195
+      }
+     ]
+    }
+   ],
+   "network": "N4",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 64,
+   "region": "USA-Mexico"
+  },
+  "ND": {
+   "window": "W1",
+   "reference": "PINNC",
+   "pair": true,
+   "site_outage_days": [
+    1,
+    3,
+    2
+   ],
+   "reference_good_day_share": 0.97,
+   "reference_stream": "ND.PINNC.00.BHZ",
+   "lat": -22.6129,
+   "lon": 167.4465,
+   "sites": [
+    {
+     "dist_km": 65.8,
+     "members": [
+      {
+       "sta": "OUENC",
+       "dist_km": 65.8,
+       "stream": "ND.OUENC.00.BHZ",
+       "lat": -22.4183,
+       "lon": 166.8416
+      },
+      {
+       "sta": "ONTNC",
+       "dist_km": 107.5,
+       "stream": "ND.ONTNC.00.BHZ",
+       "lat": -22.3073,
+       "lon": 166.454
+      }
+     ]
+    },
+    {
+     "dist_km": 139.5,
+     "members": [
+      {
+       "sta": "MARNC",
+       "dist_km": 139.5,
+       "stream": "ND.MARNC.00.BHZ",
+       "lat": -21.4809,
+       "lon": 168.0305
+      }
+     ]
+    },
+    {
+     "dist_km": 399.2,
+     "members": [
+      {
+       "sta": "KOUNC",
+       "dist_km": 399.2,
+       "stream": "ND.KOUNC.00.BHZ",
+       "lat": -20.5507,
+       "lon": 164.2861
+      }
+     ]
+    }
+   ],
+   "network": "ND",
+   "datacentre": "EPOSFR",
+   "dataselect": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 4,
+   "region": "New Zealand-SW Pacific"
+  },
+  "NE": {
+   "window": "W2",
+   "reference": "TRY",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    0,
+    6
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "NE.TRY.00.HHZ",
+   "lat": 42.7313,
+   "lon": -73.6664,
+   "sites": [
+    {
+     "dist_km": 155.6,
+     "members": [
+      {
+       "sta": "HNH",
+       "dist_km": 155.6,
+       "stream": "NE.HNH.00.HHZ",
+       "lat": 43.7051,
+       "lon": -72.2865
+      }
+     ]
+    },
+    {
+     "dist_km": 175.7,
+     "members": [
+      {
+       "sta": "WSPT",
+       "dist_km": 175.7,
+       "stream": "NE.WSPT.00.HHZ",
+       "lat": 41.1712,
+       "lon": -73.3278
+      }
+     ]
+    },
+    {
+     "dist_km": 191.5,
+     "members": [
+      {
+       "sta": "VT1",
+       "dist_km": 191.5,
+       "stream": "NE.VT1.00.HHZ",
+       "lat": 44.3206,
+       "lon": -72.7513
+      }
+     ]
+    }
+   ],
+   "network": "NE",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "USA-Mexico"
+  },
+  "NM": {
+   "window": "W1",
+   "reference": "BLO",
+   "pair": true,
+   "site_outage_days": [
+    39,
+    39,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "reference_stream": "NM.BLO..BHZ",
+   "lat": 39.1719,
+   "lon": -86.5222,
+   "sites": [
+    {
+     "dist_km": 144.8,
+     "members": [
+      {
+       "sta": "OLIL",
+       "dist_km": 144.8,
+       "stream": "NM.OLIL..BHZ",
+       "lat": 38.7338,
+       "lon": -88.0991
+      },
+      {
+       "sta": "FFIL",
+       "dist_km": 184.2,
+       "stream": "NM.FFIL.00.BHZ",
+       "lat": 38.381345,
+       "lon": -88.389648
+      }
+     ]
+    },
+    {
+     "dist_km": 167.0,
+     "members": [
+      {
+       "sta": "USIN",
+       "dist_km": 167.0,
+       "stream": "NM.USIN..BHZ",
+       "lat": 37.965,
+       "lon": -87.666
+      }
+     ]
+    },
+    {
+     "dist_km": 285.2,
+     "members": [
+      {
+       "sta": "SIUC",
+       "dist_km": 285.2,
+       "stream": "NM.SIUC.00.HHZ",
+       "lat": 37.7148,
+       "lon": -89.2174
+      }
+     ]
+    }
+   ],
+   "network": "NM",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "USA-Mexico"
+  },
+  "NS": {
+   "window": "W2",
+   "reference": "ROEST",
+   "pair": true,
+   "site_outage_days": [
+    145,
+    18,
+    18
+   ],
+   "reference_good_day_share": 0.951,
+   "reference_stream": "NS.ROEST.00.HHZ",
+   "lat": 67.52016,
+   "lon": 12.1045,
+   "sites": [
+    {
+     "dist_km": 90.9,
+     "members": [
+      {
+       "sta": "LOF",
+       "dist_km": 90.9,
+       "stream": "NS.LOF.00.HHZ",
+       "lat": 68.1325,
+       "lon": 13.53983
+      }
+     ]
+    },
+    {
+     "dist_km": 101.3,
+     "members": [
+      {
+       "sta": "VAGH",
+       "dist_km": 101.3,
+       "stream": "NS.VAGH.00.HHZ",
+       "lat": 66.73033,
+       "lon": 13.2705
+      },
+      {
+       "sta": "GILDE",
+       "dist_km": 111.2,
+       "stream": "NS.GILDE.00.HHZ",
+       "lat": 66.92934,
+       "lon": 14.18967
+      }
+     ]
+    },
+    {
+     "dist_km": 136.6,
+     "members": [
+      {
+       "sta": "FAUS",
+       "dist_km": 136.6,
+       "stream": "NS.FAUS.00.HHZ",
+       "lat": 67.382,
+       "lon": 15.28767
+      }
+     ]
+    }
+   ],
+   "network": "NS",
+   "datacentre": "UIB-NORSAR",
+   "dataselect": "https://eida.geo.uib.no/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 11,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "NY": {
+   "window": "W1",
+   "reference": "MAYO",
+   "pair": false,
+   "site_outage_days": [
+    44,
+    42,
+    37
+   ],
+   "reference_good_day_share": 0.992,
+   "reference_stream": "NY.MAYO..HHZ",
+   "lat": 63.59581,
+   "lon": -135.89209,
+   "sites": [
+    {
+     "dist_km": 256.9,
+     "members": [
+      {
+       "sta": "MMPY",
+       "dist_km": 256.9,
+       "stream": "NY.MMPY..HHZ",
+       "lat": 62.61891,
+       "lon": -131.26246
+      }
+     ]
+    },
+    {
+     "dist_km": 452.7,
+     "members": [
+      {
+       "sta": "TGTN",
+       "dist_km": 452.7,
+       "stream": "NY.TGTN..HHZ",
+       "lat": 61.5267,
+       "lon": -128.27268
+      }
+     ]
+    },
+    {
+     "dist_km": 536.5,
+     "members": [
+      {
+       "sta": "WTLY",
+       "dist_km": 536.5,
+       "stream": "NY.WTLY..HHZ",
+       "lat": 60.11326,
+       "lon": -128.79605
+      }
+     ]
+    }
+   ],
+   "network": "NY",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  "O2": {
+   "window": "W1",
+   "reference": "STIG",
+   "pair": true,
+   "site_outage_days": [
+    27,
+    0,
+    1
+   ],
+   "reference_good_day_share": 0.984,
+   "reference_stream": "O2.STIG..HHZ",
+   "lat": 35.3406,
+   "lon": -95.1056,
+   "sites": [
+    {
+     "dist_km": 36.4,
+     "members": [
+      {
+       "sta": "QUIN",
+       "dist_km": 36.4,
+       "stream": "O2.QUIN..HHZ",
+       "lat": 35.2021,
+       "lon": -95.4692
+      }
+     ]
+    },
+    {
+     "dist_km": 91.3,
+     "members": [
+      {
+       "sta": "DUST",
+       "dist_km": 91.3,
+       "stream": "O2.DUST..HHZ",
+       "lat": 35.2803,
+       "lon": -96.1087
+      },
+      {
+       "sta": "DRIP",
+       "dist_km": 92.0,
+       "stream": "O2.DRIP..HHZ",
+       "lat": 35.6127,
+       "lon": -96.065
+      }
+     ]
+    },
+    {
+     "dist_km": 130.5,
+     "members": [
+      {
+       "sta": "SAND",
+       "dist_km": 130.5,
+       "stream": "O2.SAND..HHZ",
+       "lat": 36.0576,
+       "lon": -96.2499
+      }
+     ]
+    }
+   ],
+   "network": "O2",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "USA-Mexico"
+  },
+  "OH": {
+   "window": "W1",
+   "reference": "BSPO",
+   "pair": true,
+   "site_outage_days": [
+    136,
+    0,
+    33
+   ],
+   "reference_good_day_share": 0.984,
+   "reference_stream": "OH.BSPO..HHZ",
+   "lat": 40.04307,
+   "lon": -81.009361,
+   "sites": [
+    {
+     "dist_km": 28.7,
+     "members": [
+      {
+       "sta": "O53A",
+       "dist_km": 28.7,
+       "stream": "OH.O53A..BHZ",
+       "lat": 40.249298,
+       "lon": -81.212898
+      }
+     ]
+    },
+    {
+     "dist_km": 111.2,
+     "members": [
+      {
+       "sta": "WODO",
+       "dist_km": 111.2,
+       "stream": "OH.WODO.10.HHZ",
+       "lat": 39.529552,
+       "lon": -82.126205
+      },
+      {
+       "sta": "FOXO",
+       "dist_km": 130.1,
+       "stream": "OH.FOXO.10.HHZ",
+       "lat": 39.304695,
+       "lon": -82.187988
+      }
+     ]
+    },
+    {
+     "dist_km": 121.8,
+     "members": [
+      {
+       "sta": "SROH",
+       "dist_km": 121.8,
+       "stream": "OH.SROH..HHZ",
+       "lat": 39.127095,
+       "lon": -81.789765
+      }
+     ]
+    }
+   ],
+   "network": "OH",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "USA-Mexico"
+  },
+  "OK": {
+   "window": "W1",
+   "reference": "BLOK",
+   "pair": true,
+   "site_outage_days": [
+    3,
+    0,
+    7
+   ],
+   "reference_good_day_share": 0.986,
+   "reference_stream": "OK.BLOK..HHZ",
+   "lat": 36.760615,
+   "lon": -97.215026,
+   "sites": [
+    {
+     "dist_km": 74.2,
+     "members": [
+      {
+       "sta": "CROK",
+       "dist_km": 74.2,
+       "stream": "OK.CROK..HHZ",
+       "lat": 36.504737,
+       "lon": -97.983354
+      }
+     ]
+    },
+    {
+     "dist_km": 79.7,
+     "members": [
+      {
+       "sta": "QUOK",
+       "dist_km": 79.7,
+       "stream": "OK.QUOK..HHZ",
+       "lat": 36.171423,
+       "lon": -96.707911
+      },
+      {
+       "sta": "DEOK",
+       "dist_km": 120.6,
+       "stream": "OK.DEOK..HHZ",
+       "lat": 35.842652,
+       "lon": -96.498262
+      }
+     ]
+    },
+    {
+     "dist_km": 129.8,
+     "members": [
+      {
+       "sta": "HTCH",
+       "dist_km": 129.8,
+       "stream": "OK.HTCH..HHZ",
+       "lat": 36.017058,
+       "lon": -98.332692
+      }
+     ]
+    }
+   ],
+   "network": "OK",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "USA-Mexico"
+  },
+  "OT": {
+   "window": "W3",
+   "reference": "TAR1",
+   "pair": true,
+   "site_outage_days": [
+    64,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.937,
+   "reference_stream": "OT.TAR1..HHZ",
+   "lat": 40.5259,
+   "lon": 17.2846,
+   "sites": [
+    {
+     "dist_km": 23.9,
+     "members": [
+      {
+       "sta": "CGL1",
+       "dist_km": 23.9,
+       "stream": "OT.CGL1..HHZ",
+       "lat": 40.648402,
+       "lon": 17.517326
+      }
+     ]
+    },
+    {
+     "dist_km": 168.6,
+     "members": [
+      {
+       "sta": "OT12",
+       "dist_km": 168.6,
+       "stream": "OT.OT12..HHZ",
+       "lat": 41.631801,
+       "lon": 15.90782
+      },
+      {
+       "sta": "OT05",
+       "dist_km": 189.1,
+       "stream": "OT.OT05..HHZ",
+       "lat": 41.65917,
+       "lon": 15.60256
+      }
+     ]
+    },
+    {
+     "dist_km": 229.1,
+     "members": [
+      {
+       "sta": "OT16",
+       "dist_km": 229.1,
+       "stream": "OT.OT16..HHZ",
+       "lat": 41.8344,
+       "lon": 15.1703
+      }
+     ]
+    }
+   ],
+   "network": "OT",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "PE": {
+   "window": "W1",
+   "reference": "PACH",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    5,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "reference_stream": "PE.PACH..HHZ",
+   "lat": 41.75666,
+   "lon": -79.171432,
+   "sites": [
+    {
+     "dist_km": 48.9,
+     "members": [
+      {
+       "sta": "PACC",
+       "dist_km": 48.9,
+       "stream": "PE.PACC..HHZ",
+       "lat": 41.32273,
+       "lon": -79.0769
+      },
+      {
+       "sta": "POV3",
+       "dist_km": 76.5,
+       "stream": "PE.POV3.00.HHZ",
+       "lat": 41.216468,
+       "lon": -78.60259
+      }
+     ]
+    },
+    {
+     "dist_km": 50.1,
+     "members": [
+      {
+       "sta": "PAOC",
+       "dist_km": 50.1,
+       "stream": "PE.PAOC..HHZ",
+       "lat": 41.515961,
+       "lon": -79.681091
+      }
+     ]
+    },
+    {
+     "dist_km": 111.5,
+     "members": [
+      {
+       "sta": "PAKC",
+       "dist_km": 111.5,
+       "stream": "PE.PAKC..HHZ",
+       "lat": 41.37471,
+       "lon": -77.932533
+      },
+      {
+       "sta": "PALR",
+       "dist_km": 117.2,
+       "stream": "PE.PALR..HHZ",
+       "lat": 41.725094,
+       "lon": -77.760063
+      }
+     ]
+    }
+   ],
+   "network": "PE",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "USA-Mexico"
+  },
+  "PL": {
+   "window": "W1",
+   "reference": "KSP",
+   "pair": false,
+   "site_outage_days": [
+    157,
+    70,
+    11
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "PL.KSP..BHZ",
+   "lat": 50.8428,
+   "lon": 16.2931,
+   "sites": [
+    {
+     "dist_km": 257.2,
+     "members": [
+      {
+       "sta": "OJC",
+       "dist_km": 257.2,
+       "stream": "PL.OJC..BHZ",
+       "lat": 50.219501,
+       "lon": 19.798401
+      }
+     ]
+    },
+    {
+     "dist_km": 277.5,
+     "members": [
+      {
+       "sta": "GKP",
+       "dist_km": 277.5,
+       "stream": "PL.GKP..BHZ",
+       "lat": 53.269699,
+       "lon": 17.2367
+      }
+     ]
+    },
+    {
+     "dist_km": 327.3,
+     "members": [
+      {
+       "sta": "NIE",
+       "dist_km": 327.3,
+       "stream": "PL.NIE..BHZ",
+       "lat": 49.4189,
+       "lon": 20.313101
+      }
+     ]
+    }
+   ],
+   "network": "PL",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "PQ": {
+   "window": "W1",
+   "reference": "NAB1",
+   "pair": false,
+   "site_outage_days": [
+    146,
+    7,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "PQ.NAB1..HHZ",
+   "lat": 56.76629,
+   "lon": -121.25867,
+   "sites": [
+    {
+     "dist_km": 61.0,
+     "members": [
+      {
+       "sta": "NBC7",
+       "dist_km": 61.0,
+       "stream": "PQ.NBC7..HHZ",
+       "lat": 56.26779,
+       "lon": -120.84262
+      }
+     ]
+    },
+    {
+     "dist_km": 73.2,
+     "members": [
+      {
+       "sta": "NBC8",
+       "dist_km": 73.2,
+       "stream": "PQ.NBC8..HHZ",
+       "lat": 56.57308,
+       "lon": -122.40441
+      }
+     ]
+    },
+    {
+     "dist_km": 120.0,
+     "members": [
+      {
+       "sta": "NBC5",
+       "dist_km": 120.0,
+       "stream": "PQ.NBC5..HHZ",
+       "lat": 57.523109,
+       "lon": -122.677628
+      }
+     ]
+    }
+   ],
+   "network": "PQ",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  "QZ": {
+   "window": "W1",
+   "reference": "ALGA",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    9,
+    5
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "QZ.ALGA.00.HHZ",
+   "lat": 49.986897,
+   "lon": 57.210083,
+   "sites": [
+    {
+     "dist_km": 409.3,
+     "members": [
+      {
+       "sta": "FDRN",
+       "dist_km": 409.3,
+       "stream": "QZ.FDRN.00.HHZ",
+       "lat": 51.26934,
+       "lon": 51.769418
+      }
+     ]
+    },
+    {
+     "dist_km": 432.9,
+     "members": [
+      {
+       "sta": "INDER",
+       "dist_km": 432.9,
+       "stream": "QZ.INDER.00.HHZ",
+       "lat": 48.501565,
+       "lon": 51.694986
+      }
+     ]
+    },
+    {
+     "dist_km": 633.0,
+     "members": [
+      {
+       "sta": "AKST",
+       "dist_km": 633.0,
+       "stream": "QZ.AKST.00.HHZ",
+       "lat": 45.734274,
+       "lon": 62.857266
+      }
+     ]
+    }
+   ],
+   "network": "QZ",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "Central Asia"
+  },
+  "RV": {
+   "window": "W1",
+   "reference": "STPRA",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    182,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "RV.STPRA..HHZ",
+   "lat": 55.660629,
+   "lon": -115.832321,
+   "sites": [
+    {
+     "dist_km": 102.5,
+     "members": [
+      {
+       "sta": "PECRA",
+       "dist_km": 102.5,
+       "stream": "RV.PECRA..HHZ",
+       "lat": 56.295647,
+       "lon": -117.027029
+      },
+      {
+       "sta": "DEDWA",
+       "dist_km": 145.8,
+       "stream": "RV.DEDWA..HHZ",
+       "lat": 56.644562,
+       "lon": -117.389069
+      }
+     ]
+    },
+    {
+     "dist_km": 102.7,
+     "members": [
+      {
+       "sta": "SWHSA",
+       "dist_km": 102.7,
+       "stream": "RV.SWHSA..HHZ",
+       "lat": 54.899441,
+       "lon": -116.751793
+      }
+     ]
+    },
+    {
+     "dist_km": 139.3,
+     "members": [
+      {
+       "sta": "EGLEA",
+       "dist_km": 139.3,
+       "stream": "RV.EGLEA..HHZ",
+       "lat": 54.457111,
+       "lon": -116.440483
+      },
+      {
+       "sta": "FOXCA",
+       "dist_km": 153.6,
+       "stream": "RV.FOXCA..HHZ",
+       "lat": 54.397968,
+       "lon": -116.808167
+      }
+     ]
+    }
+   ],
+   "network": "RV",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  "S1": {
+   "window": "W1",
+   "reference": "AUDCS",
+   "pair": true,
+   "site_outage_days": [
+    38,
+    4,
+    41
+   ],
+   "reference_good_day_share": 0.962,
+   "reference_stream": "S1.AUDCS..BHZ",
+   "lat": -32.2334,
+   "lon": 148.6278,
+   "sites": [
+    {
+     "dist_km": 248.8,
+     "members": [
+      {
+       "sta": "AUPHS",
+       "dist_km": 248.8,
+       "stream": "S1.AUPHS..BHZ",
+       "lat": -31.099,
+       "lon": 150.8943
+      }
+     ]
+    },
+    {
+     "dist_km": 282.4,
+     "members": [
+      {
+       "sta": "AUTKS",
+       "dist_km": 282.4,
+       "stream": "S1.AUTKS..BHZ",
+       "lat": -33.7846,
+       "lon": 151.0254
+      },
+      {
+       "sta": "AUKHS",
+       "dist_km": 291.5,
+       "stream": "S1.AUKHS..BHZ",
+       "lat": -33.4642,
+       "lon": 151.3827
+      }
+     ]
+    },
+    {
+     "dist_km": 318.2,
+     "members": [
+      {
+       "sta": "AULRC",
+       "dist_km": 318.2,
+       "stream": "S1.AULRC..BHZ",
+       "lat": -29.4262,
+       "lon": 147.979
+      }
+     ]
+    }
+   ],
+   "network": "S1",
+   "datacentre": "AusPass",
+   "dataselect": "https://auspass.edu.au/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 8,
+   "region": "New Zealand-SW Pacific"
+  },
+  "SC": {
+   "window": "W1",
+   "reference": "GDL2",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    0,
+    16
+   ],
+   "reference_good_day_share": 0.992,
+   "reference_stream": "SC.GDL2.00.HHZ",
+   "lat": 32.200802,
+   "lon": -104.363701,
+   "sites": [
+    {
+     "dist_km": 53.2,
+     "members": [
+      {
+       "sta": "DAG",
+       "dist_km": 53.2,
+       "stream": "SC.DAG.00.HHZ",
+       "lat": 32.591,
+       "lon": -104.691704
+      }
+     ]
+    },
+    {
+     "dist_km": 57.3,
+     "members": [
+      {
+       "sta": "CL7",
+       "dist_km": 57.3,
+       "stream": "SC.CL7.00.HHZ",
+       "lat": 32.413,
+       "lon": -103.8084
+      },
+      {
+       "sta": "PDB",
+       "dist_km": 73.6,
+       "stream": "SC.PDB.00.HHZ",
+       "lat": 32.0722,
+       "lon": -103.59662
+      }
+     ]
+    },
+    {
+     "dist_km": 103.3,
+     "members": [
+      {
+       "sta": "CPRX",
+       "dist_km": 103.3,
+       "stream": "SC.CPRX.00.HHZ",
+       "lat": 33.0308,
+       "lon": -103.867302
+      }
+     ]
+    }
+   ],
+   "network": "SC",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "USA-Mexico"
+  },
+  "SI": {
+   "window": "W1",
+   "reference": "LUSI",
+   "pair": true,
+   "site_outage_days": [
+    1,
+    52,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "reference_stream": "SI.LUSI..HHZ",
+   "lat": 45.9595,
+   "lon": 10.9436,
+   "sites": [
+    {
+     "dist_km": 65.2,
+     "members": [
+      {
+       "sta": "KOSI",
+       "dist_km": 65.2,
+       "stream": "SI.KOSI..BHZ",
+       "lat": 46.463,
+       "lon": 11.3778
+      },
+      {
+       "sta": "BOSI",
+       "dist_km": 66.2,
+       "stream": "SI.BOSI..BHZ",
+       "lat": 46.4952,
+       "lon": 11.3185
+      }
+     ]
+    },
+    {
+     "dist_km": 79.1,
+     "members": [
+      {
+       "sta": "MOSI",
+       "dist_km": 79.1,
+       "stream": "SI.MOSI..BHZ",
+       "lat": 46.6164,
+       "lon": 10.5495
+      }
+     ]
+    },
+    {
+     "dist_km": 113.5,
+     "members": [
+      {
+       "sta": "ROSI",
+       "dist_km": 113.5,
+       "stream": "SI.ROSI..BHZ",
+       "lat": 46.9281,
+       "lon": 11.4118
+      }
+     ]
+    }
+   ],
+   "network": "SI",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  "TX": {
+   "window": "W1",
+   "reference": "CRHG",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    108,
+    34
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "TX.CRHG.00.HHZ",
+   "lat": 32.28884,
+   "lon": -94.22517,
+   "sites": [
+    {
+     "dist_km": 85.8,
+     "members": [
+      {
+       "sta": "SNAG",
+       "dist_km": 85.8,
+       "stream": "TX.SNAG.00.HHZ",
+       "lat": 31.51818,
+       "lon": -94.17877
+      },
+      {
+       "sta": "ET01",
+       "dist_km": 92.5,
+       "stream": "TX.ET01.00.HHZ",
+       "lat": 31.46512,
+       "lon": -94.36497
+      }
+     ]
+    },
+    {
+     "dist_km": 152.4,
+     "members": [
+      {
+       "sta": "237B",
+       "dist_km": 152.4,
+       "stream": "TX.237B..BHZ",
+       "lat": 32.001499,
+       "lon": -95.808403
+      }
+     ]
+    },
+    {
+     "dist_km": 181.6,
+     "members": [
+      {
+       "sta": "TREL",
+       "dist_km": 181.6,
+       "stream": "TX.TREL.00.HHZ",
+       "lat": 32.73039,
+       "lon": -96.08933
+      }
+     ]
+    }
+   ],
+   "network": "TX",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 8,
+   "region": "USA-Mexico"
+  },
+  "UO": {
+   "window": "W2",
+   "reference": "CBARC",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    4,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "UO.CBARC..HHZ",
+   "lat": 45.71915,
+   "lon": -118.62193,
+   "sites": [
+    {
+     "dist_km": 96.8,
+     "members": [
+      {
+       "sta": "JOBT",
+       "dist_km": 96.8,
+       "stream": "UO.JOBT..HHZ",
+       "lat": 45.46674,
+       "lon": -119.81254
+      }
+     ]
+    },
+    {
+     "dist_km": 108.4,
+     "members": [
+      {
+       "sta": "WALLO",
+       "dist_km": 108.4,
+       "stream": "UO.WALLO..HHZ",
+       "lat": 45.41537,
+       "lon": -117.29863
+      }
+     ]
+    },
+    {
+     "dist_km": 207.0,
+     "members": [
+      {
+       "sta": "VIP2",
+       "dist_km": 207.0,
+       "stream": "UO.VIP2..HHZ",
+       "lat": 44.50486,
+       "lon": -120.62191
+      }
+     ]
+    }
+   ],
+   "network": "UO",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "USA-Mexico"
+  },
+  "US": {
+   "window": "W1",
+   "reference": "ACSO",
+   "pair": false,
+   "site_outage_days": [
+    128,
+    0,
+    13
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "US.ACSO.00.BHZ",
+   "lat": 40.2319,
+   "lon": -82.982,
+   "sites": [
+    {
+     "dist_km": 236.9,
+     "members": [
+      {
+       "sta": "AAM",
+       "dist_km": 236.9,
+       "stream": "US.AAM.00.BHZ",
+       "lat": 42.3012,
+       "lon": -83.6567
+      }
+     ]
+    },
+    {
+     "dist_km": 274.9,
+     "members": [
+      {
+       "sta": "MCWV",
+       "dist_km": 274.9,
+       "stream": "US.MCWV.00.BHZ",
+       "lat": 39.6581,
+       "lon": -79.8456
+      }
+     ]
+    },
+    {
+     "dist_km": 326.6,
+     "members": [
+      {
+       "sta": "ERPA",
+       "dist_km": 326.6,
+       "stream": "US.ERPA.00.BHZ",
+       "lat": 42.1175,
+       "lon": -79.9891
+      }
+     ]
+    }
+   ],
+   "network": "US",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 28,
+   "region": "USA-Mexico"
+  },
+  "UU": {
+   "window": "W1",
+   "reference": "SRU",
+   "pair": true,
+   "site_outage_days": [
+    2,
+    3,
+    3
+   ],
+   "reference_good_day_share": 0.967,
+   "reference_stream": "UU.SRU.01.BHZ",
+   "lat": 39.110828,
+   "lon": -110.523827,
+   "sites": [
+    {
+     "dist_km": 38.8,
+     "members": [
+      {
+       "sta": "LIUT",
+       "dist_km": 38.8,
+       "stream": "UU.LIUT.01.HHZ",
+       "lat": 39.4241,
+       "lon": -110.3251
+      },
+      {
+       "sta": "BRPU",
+       "dist_km": 44.4,
+       "stream": "UU.BRPU.01.HHZ",
+       "lat": 39.473,
+       "lon": -110.74
+      }
+     ]
+    },
+    {
+     "dist_km": 59.9,
+     "members": [
+      {
+       "sta": "CVRU",
+       "dist_km": 59.9,
+       "stream": "UU.CVRU.01.HHZ",
+       "lat": 38.9176,
+       "lon": -111.1716
+      },
+      {
+       "sta": "TMU",
+       "dist_km": 62.5,
+       "stream": "UU.TMU.01.HHZ",
+       "lat": 39.2965,
+       "lon": -111.20817
+      }
+     ]
+    },
+    {
+     "dist_km": 131.8,
+     "members": [
+      {
+       "sta": "HMU",
+       "dist_km": 131.8,
+       "stream": "UU.HMU.01.HHZ",
+       "lat": 37.938,
+       "lon": -110.7418
+      }
+     ]
+    }
+   ],
+   "network": "UU",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "USA-Mexico"
+  },
+  "UW": {
+   "window": "W1",
+   "reference": "RVSD",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    0,
+    24
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "UW.RVSD..HHZ",
+   "lat": 47.96477,
+   "lon": -117.3568,
+   "sites": [
+    {
+     "dist_km": 54.0,
+     "members": [
+      {
+       "sta": "BHCR",
+       "dist_km": 54.0,
+       "stream": "UW.BHCR..HHZ",
+       "lat": 48.12877,
+       "lon": -118.04087
+      },
+      {
+       "sta": "DAVN",
+       "dist_km": 70.8,
+       "stream": "UW.DAVN..HHZ",
+       "lat": 47.8006,
+       "lon": -118.2741
+      }
+     ]
+    },
+    {
+     "dist_km": 64.8,
+     "members": [
+      {
+       "sta": "LBRT",
+       "dist_km": 64.8,
+       "stream": "UW.LBRT..HHZ",
+       "lat": 47.38237,
+       "lon": -117.32492
+      },
+      {
+       "sta": "LMONT",
+       "dist_km": 93.9,
+       "stream": "UW.LMONT..HHZ",
+       "lat": 47.20364,
+       "lon": -117.89986
+      }
+     ]
+    },
+    {
+     "dist_km": 120.0,
+     "members": [
+      {
+       "sta": "OD2",
+       "dist_km": 120.0,
+       "stream": "UW.OD2..HHZ",
+       "lat": 47.387351,
+       "lon": -118.711613
+      }
+     ]
+    }
+   ],
+   "network": "UW",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "USA-Mexico"
+  },
+  "WU": {
+   "window": "W1",
+   "reference": "TYNO",
+   "pair": true,
+   "site_outage_days": [
+    24,
+    15,
+    0
+   ],
+   "reference_good_day_share": 0.951,
+   "reference_stream": "WU.TYNO..HHZ",
+   "lat": 43.09489,
+   "lon": -79.86992,
+   "sites": [
+    {
+     "dist_km": 59.2,
+     "members": [
+      {
+       "sta": "ACTO",
+       "dist_km": 59.2,
+       "stream": "WU.ACTO..HHZ",
+       "lat": 43.60869,
+       "lon": -80.0623
+      }
+     ]
+    },
+    {
+     "dist_km": 115.1,
+     "members": [
+      {
+       "sta": "MEDO",
+       "dist_km": 115.1,
+       "stream": "WU.MEDO..HHZ",
+       "lat": 43.16454,
+       "lon": -78.45465
+      }
+     ]
+    },
+    {
+     "dist_km": 116.1,
+     "members": [
+      {
+       "sta": "PKRO",
+       "dist_km": 116.1,
+       "stream": "WU.PKRO..HHZ",
+       "lat": 43.96427,
+       "lon": -79.07157
+      },
+      {
+       "sta": "DRCO",
+       "dist_km": 128.2,
+       "stream": "WU.DRCO..HHZ",
+       "lat": 43.87645,
+       "lon": -78.70218
+      }
+     ]
+    }
+   ],
+   "network": "WU",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 12,
+   "region": "USA-Mexico"
+  },
+  "WW": {
+   "window": "W1",
+   "reference": "TBID",
+   "pair": false,
+   "site_outage_days": [
+    8,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "WW.TBID.00.HHZ",
+   "lat": 46.70853,
+   "lon": -116.93362,
+   "sites": [
+    {
+     "dist_km": 57.9,
+     "members": [
+      {
+       "sta": "BILL",
+       "dist_km": 57.9,
+       "stream": "WW.BILL.00.HHZ",
+       "lat": 47.033115,
+       "lon": -116.337673
+      }
+     ]
+    },
+    {
+     "dist_km": 240.5,
+     "members": [
+      {
+       "sta": "TYLR",
+       "dist_km": 240.5,
+       "stream": "WW.TYLR.00.HHZ",
+       "lat": 45.101977,
+       "lon": -114.851741
+      }
+     ]
+    },
+    {
+     "dist_km": 297.2,
+     "members": [
+      {
+       "sta": "CTNW",
+       "dist_km": 297.2,
+       "stream": "WW.CTNW.00.HHZ",
+       "lat": 44.06506,
+       "lon": -116.36919
+      }
+     ]
+    }
+   ],
+   "network": "WW",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "USA-Mexico"
+  }
+ }
+}

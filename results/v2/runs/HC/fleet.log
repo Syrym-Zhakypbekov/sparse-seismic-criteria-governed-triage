@@ -1,0 +1,6 @@
+2026-11-07T19:21:19Z HC plan base=https://eida.gein.noa.gr tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1', 'S3_2']
+2026-11-07T19:25:51Z HC tune attempt 1: rc=0 272s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T19:25:51Z HC thresholds {'MAKZ': 5.242063862056188, 'S1_1': 7.008077389212351, 'S2_1': 7.256652667968655, 'S3_1': 6.285858803958149, 'S3_2': 9.126211296447126}
+2026-11-07T20:08:02Z HC out_2024-01-08 attempt 1: rc=0 2531s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:14:37Z HC out_2024-04-08 attempt 1: rc=0 2866s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:14:37Z HC FINISHED state=done

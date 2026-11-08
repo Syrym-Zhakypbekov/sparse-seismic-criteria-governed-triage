@@ -1,0 +1,41 @@
+{
+ "regional_all": {
+  "events": 450,
+  "with_episode": 92,
+  "share": 0.2044
+ },
+ "regional_by_magnitude": {
+  "M<=3": {
+   "events": 118,
+   "with_episode": 3,
+   "share": 0.0254
+  },
+  "3<M<=4": {
+   "events": 247,
+   "with_episode": 46,
+   "share": 0.1862
+  },
+  "M>4": {
+   "events": 85,
+   "with_episode": 43,
+   "share": 0.5059
+  }
+ },
+ "regional_by_distance": {
+  "<=7deg": {
+   "events": 79,
+   "with_episode": 40,
+   "share": 0.5063
+  },
+  "7-15deg": {
+   "events": 371,
+   "with_episode": 52,
+   "share": 0.1402
+  }
+ },
+ "teleseismic": {
+  "events": 109,
+  "with_episode": 49,
+  "share": 0.4495
+ }
+}

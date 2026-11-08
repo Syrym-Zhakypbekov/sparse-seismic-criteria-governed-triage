@@ -1,0 +1,120 @@
+{
+ "network": "ND",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-a",
+ "fdsn_base": "https://seisdata.epos-france.fr",
+ "stations": {
+  "MAKZ": [
+   "ND",
+   "PINNC",
+   "00",
+   "BHZ",
+   -22.6129,
+   167.4465
+  ],
+  "S1_1": [
+   "ND",
+   "OUENC",
+   "00",
+   "BHZ",
+   -22.4183,
+   166.8416
+  ],
+  "S1_2": [
+   "ND",
+   "ONTNC",
+   "00",
+   "BHZ",
+   -22.3073,
+   166.454
+  ],
+  "S2_1": [
+   "ND",
+   "MARNC",
+   "00",
+   "BHZ",
+   -21.4809,
+   168.0305
+  ],
+  "S3_1": [
+   "ND",
+   "KOUNC",
+   "00",
+   "BHZ",
+   -20.5507,
+   164.2861
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 112,
+     "end_utc": "2026-11-07T19:59:00Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1431,
+     "end_utc": "2026-11-07T20:22:50Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1426,
+     "end_utc": "2026-11-07T20:23:46Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:57:08Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 7.859787936571199,
+  "S1_1": 4.8011793094626265,
+  "S1_2": 4.409159240882836,
+  "S2_1": 6.061432771900351,
+  "S3_1": 4.867747037915955
+ },
+ "finished_utc": "2026-11-07T20:23:46Z"
+}

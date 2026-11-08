@@ -1,0 +1,16 @@
+networks 33 episodes 263303
+reproduction mismatches {'P1': 0, 'P3': 0, 'CG': 0, 'CG_c05': 0, 'CG-D': 0}
+1 / 100 35 s
+11 / 100 36 s
+21 / 100 45 s
+31 / 100 45 s
+41 / 100 54 s
+51 / 100 62 s
+61 / 100 63 s
+71 / 100 71 s
+81 / 100 79 s
+91 / 100 80 s
+{"S1_holds": true, "S2_holds": true, "S3_holds": true, "S1": {"mean_pp": 28.174, "seed_range_pp": [27.077, 29.299], "ci95_pp": [24.134, 32.461]}, "S2": {"mean_pp": 0.367, "seed_range_pp": [0.208, 0.532], "ci95_pp": [0.077, 0.879]}, "S3": {"mean_pp": -3.776, "seed_range_pp": [-4.235, -3.356], "ci95_pp": [-5.474, -2.319]}}
+{"S1_holds": true, "S2_holds": true, "S3_holds": true}
+thin {"S1_P1_minus_CGc05": {"diff_pp": 25.714, "ci95_pp": [0.0, 47.092]}, "S1_P1_minus_CG": {"diff_pp": 25.714, "ci95_pp": [0.0, 47.092]}, "S1_P1_minus_CGD": {"diff_pp": 25.714, "ci95_pp": [0.0, 47.092]}, "S2_CGc05_delta0_minus_045": {"diff_pp": 0.0, "ci95_pp": [0.0, 0.0]}, "S2_CG_delta0_minus_045": {"diff_pp": 0.0, "ci95_pp": [0.0, 0.0]}, "S2_CGD_delta0_minus_045": {"diff_pp": 0.0, "ci95_pp": [0.0, 0.0]}, "S2b_CGc05_delta055_minus_045": {"diff_pp": 0.0, "ci95_pp": [0.0, 0.0]}, "CGc05_minus_P3_2t": {"diff_pp": -2.857, "ci95_pp": [-14.286, 0.0]}}
+done 90 s

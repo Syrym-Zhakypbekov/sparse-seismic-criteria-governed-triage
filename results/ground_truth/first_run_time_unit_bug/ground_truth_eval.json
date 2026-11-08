@@ -1,0 +1,349 @@
+{
+ "preregistration": "PREREGISTRATION_GROUND_TRUTH_2026-11-08.md",
+ "scorer": "analysis/ground_truth_v2.py",
+ "episodes": 17126,
+ "calendar_days_with_episodes": 537,
+ "label_counts": {
+  "CONFIRMED": 42705,
+  "REJECTED": 2226,
+  "DELETED_DUPLICATE": 1488,
+  "AUTOMATIC_CURRENT": 1
+ },
+ "episode_classes": {
+  "CONFIRMED": 0,
+  "REJECTED": 0,
+  "UNLABELLED": 17126
+ },
+ "confirmed_by_event_type": {},
+ "cross_with_original_association": {
+  "CONFIRMED": {
+   "associated": 0,
+   "unassociated": 0
+  },
+  "REJECTED": {
+   "associated": 0,
+   "unassociated": 0
+  },
+  "UNLABELLED": {
+   "associated": 2034,
+   "unassociated": 15092
+  }
+ },
+ "action_share_within_class_pct": {
+  "P1": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 66.94,
+    "ESCALATE": 0.0,
+    "ALERT": 33.06
+   }
+  },
+  "P1t": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 7.63,
+    "ESCALATE": 0.0,
+    "ALERT": 92.37
+   }
+  },
+  "P2": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 25.89,
+    "ESCALATE": 45.91,
+    "ALERT": 28.2
+   }
+  },
+  "P3": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 4.91,
+    "ESCALATE": 62.81,
+    "ALERT": 32.28
+   }
+  },
+  "P3_8.0": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 7.63,
+    "ESCALATE": 60.4,
+    "ALERT": 31.97
+   }
+  },
+  "CG": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 34.47,
+    "ESCALATE": 56.04,
+    "ALERT": 9.49
+   }
+  },
+  "CG-D": {
+   "CONFIRMED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "REJECTED": {
+    "DISMISS": NaN,
+    "ESCALATE": NaN,
+    "ALERT": NaN
+   },
+   "UNLABELLED": {
+    "DISMISS": 9.93,
+    "ESCALATE": 77.83,
+    "ALERT": 12.24
+   }
+  }
+ },
+ "class_counts_within_action": {
+  "P1": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 11464,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 0,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 5662,
+    "confirmed_share_of_labelled_pct": null
+   }
+  },
+  "P1t": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 1307,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 0,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 15819,
+    "confirmed_share_of_labelled_pct": null
+   }
+  },
+  "P2": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 4434,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 7862,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 4830,
+    "confirmed_share_of_labelled_pct": null
+   }
+  },
+  "P3": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 841,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 10756,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 5529,
+    "confirmed_share_of_labelled_pct": null
+   }
+  },
+  "P3_8.0": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 1307,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 10344,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 5475,
+    "confirmed_share_of_labelled_pct": null
+   }
+  },
+  "CG": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 5903,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 9597,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 1626,
+    "confirmed_share_of_labelled_pct": null
+   }
+  },
+  "CG-D": {
+   "DISMISS": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 1701,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ESCALATE": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 13329,
+    "confirmed_share_of_labelled_pct": null
+   },
+   "ALERT": {
+    "CONFIRMED": 0,
+    "REJECTED": 0,
+    "UNLABELLED": 2096,
+    "confirmed_share_of_labelled_pct": null
+   }
+  }
+ },
+ "G1_CG_vs_P3_confirmed_dismissed": {
+  "exercised": false,
+  "confirmed": 0
+ },
+ "G2_CGD_vs_P3_confirmed_dismissed": {
+  "exercised": false,
+  "confirmed": 0
+ },
+ "G3_rejected_alert_share": {
+  "exercised": false,
+  "rejected": 0
+ },
+ "G4_CG_separation": {
+  "exercised": false,
+  "rejected": 0
+ },
+ "control_shifted_labels": {
+  "per_shift_days": {
+   "-3": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "-2": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "-1": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "1": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "2": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "3": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   }
+  },
+  "mean": {
+   "CONFIRMED": 0.0,
+   "REJECTED": 0.0
+  },
+  "chance_fraction": {
+   "CONFIRMED": null,
+   "REJECTED": null
+  },
+  "rejected_dominated_by_chance": null,
+  "confirmed_dominated_by_chance": null
+ }
+}

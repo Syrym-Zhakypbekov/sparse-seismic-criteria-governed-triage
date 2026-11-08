@@ -1,0 +1,3 @@
+2026-11-07T19:30:52Z S1 plan base=https://auspass.edu.au tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T19:33:24Z S1 tune attempt 1: rc=-15 152s thresholds=yes
+2026-11-07T19:33:24Z S1 TUNING FAILED thr={'MAKZ': 11.494500604334672, 'S1_1': nan, 'S2_1': 4.452926859163078, 'S2_2': 4.563651183328746, 'S3_1': nan}

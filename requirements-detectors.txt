@@ -1,0 +1,4 @@
+# Secondary detector runs (EQTransformer, PhaseNet); see docs/DETECTOR_ENVIRONMENT.md
+-r requirements.txt
+seisbench==0.12.7
+torch==2.15.0

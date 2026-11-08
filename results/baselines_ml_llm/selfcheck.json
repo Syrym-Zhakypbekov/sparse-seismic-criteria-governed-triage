@@ -1,0 +1,83 @@
+{
+ "EXT-MAKZ": {
+  "episodes": 18637,
+  "days": 546,
+  "neighbours": {
+   "MK31": 24.0,
+   "KURK": 499.6,
+   "WUS": 661.1
+  },
+  "P3": {
+   "missed": 38,
+   "alert_unassoc": 6350
+  },
+  "CG": {
+   "missed": 98,
+   "alert_unassoc": 2870
+  }
+ },
+ "EXT-KURK": {
+  "episodes": 17488,
+  "days": 546,
+  "neighbours": {
+   "MAKZ": 499.6,
+   "MK31": 512.7,
+   "WUS": 1058.6
+  },
+  "P3": {
+   "missed": 49,
+   "alert_unassoc": 7444
+  },
+  "CG": {
+   "missed": 228,
+   "alert_unassoc": 3511
+  }
+ },
+ "KZ": {
+  "episodes": 15739,
+  "days": 632,
+  "neighbours": {
+   "MK31": 23.9,
+   "WUS": 433.6,
+   "KURK": 499.6
+  },
+  "P3": {
+   "missed": 17,
+   "alert_unassoc": 5541
+  },
+  "CG": {
+   "missed": 102,
+   "alert_unassoc": 2442
+  },
+  "CG-D": {
+   "missed": 36,
+   "alert_unassoc": 3037
+  }
+ },
+ "AK": {
+  "episodes": 17126,
+  "days": 540,
+  "neighbours": {
+   "MK31": 29.4,
+   "KURK": 537.6,
+   "WUS": 642.7
+  },
+  "P3": {
+   "missed": 3,
+   "alert_unassoc": 3671
+  },
+  "CG": {
+   "missed": 33,
+   "alert_unassoc": 520
+  },
+  "CG-D": {
+   "missed": 5,
+   "alert_unassoc": 768
+  }
+ },
+ "AK-GT": {
+  "stored_actions_identical": true,
+  "CONFIRMED": 3943,
+  "REJECTED": 114
+ }
+}

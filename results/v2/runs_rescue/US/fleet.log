@@ -1,0 +1,7 @@
+2026-11-08T07:07:42Z US rescue candidates ['2024-03-05', '2024-03-06', '2024-03-07']
+2026-11-08T07:09:49Z US tune attempt 1: rc=1 127s thresholds=yes
+2026-11-08T07:09:49Z US rescue thresholds {'MAKZ': 6.877153972190306, 'S1_1': 5.051265799208251, 'S2_1': 6.636697347174128, 'S3_1': 4.498062910221623} (window 2024-03-05)
+2026-11-08T07:18:55Z US out_2024-06-12 attempt 1: rc=0 485s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:13:42Z US out_2024-03-12 attempt 1: rc=0 3833s summary=True fetch_fail=1 cat_fail=[]
+2026-11-08T08:18:23Z US out_2024-03-12 attempt 2: rc=0 250s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:18:23Z US FINISHED state=done

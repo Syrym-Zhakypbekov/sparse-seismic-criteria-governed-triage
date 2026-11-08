@@ -1,0 +1,6 @@
+2026-11-07T20:15:29Z FN plan base=https://geofon.gfz.de tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T20:17:31Z FN tune attempt 1: rc=-15 122s thresholds=yes
+2026-11-07T20:17:31Z FN thresholds {'MAKZ': 4.523898126728392, 'S1_1': 4.900648580491963, 'S2_1': 4.462170415068389, 'S3_1': 4.571310560810218}
+2026-11-07T20:43:13Z FN out_2024-01-08 attempt 1: rc=0 1543s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:44:05Z FN out_2024-04-08 attempt 1: rc=0 1534s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:44:05Z FN FINISHED state=done

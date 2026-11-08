@@ -1,0 +1,86 @@
+{
+ "2025-01": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-01-01&endtime=2025-02-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:24:41.718885Z",
+  "sha256": "d405a2d96250e45c09795b0ed3f18b0ef6552c9cdf886d811dcc4c3205c421a2",
+  "bytes": 432563
+ },
+ "2025-02": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-02-01&endtime=2025-03-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:24:55.862289Z",
+  "sha256": "b52547286b00298fed5ff870cc1424d1261ace87f4dbbba211a2b644e0e41095",
+  "bytes": 768154
+ },
+ "2025-03": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-03-01&endtime=2025-04-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:25:15.506974Z",
+  "sha256": "c951597e47f30f7925af91b8b0a2c8783b0602af84420e910034663a14dbbc83",
+  "bytes": 996634
+ },
+ "2025-04": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-04-01&endtime=2025-05-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:25:37.962856Z",
+  "sha256": "40194775c8a1f234e9ccb5296f7245eefd6162f16dc9c1b53dd79825cba7738b",
+  "bytes": 802780
+ },
+ "2025-05": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-05-01&endtime=2025-06-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:25:58.529286Z",
+  "sha256": "9802ea246db2df0a875bae604f72f5e17f2e5190f0afd378282f69c81a870cbd",
+  "bytes": 933150
+ },
+ "2025-06": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-06-01&endtime=2025-07-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:26:21.935458Z",
+  "sha256": "6de092c755d080dac95ce54604c7da769786471ce417780abefe1b4b1cf0b409",
+  "bytes": 1238725
+ },
+ "2025-07": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-07-01&endtime=2025-08-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:26:48.903532Z",
+  "sha256": "a6b40da36d532c898e9e678447a77b19f990a6300e7d77ef0edaa887bdb28bc6",
+  "bytes": 1307753
+ },
+ "2025-08": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-08-01&endtime=2025-09-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:27:16.060486Z",
+  "sha256": "fce473350ad4c2dcd938d4419933ea2a79dfc19f9d554d3891767961f4867de9",
+  "bytes": 1028801
+ },
+ "2025-09": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-09-01&endtime=2025-10-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:27:40.797007Z",
+  "sha256": "3cad43ad61e4ba7b7c8e522c4bd38f472b911f9ec4a090bbb3f87234522dc7d4",
+  "bytes": 1221731
+ },
+ "2025-10": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-10-01&endtime=2025-11-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:28:06.964889Z",
+  "sha256": "ec4ebec17d0b2e17316b4c9ecc428b9a3e4afe194f1e3d140886146b3b9187bc",
+  "bytes": 1192592
+ },
+ "2025-11": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-11-01&endtime=2025-12-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:28:33.278550Z",
+  "sha256": "2f45d29fc93f9bce04e29f545dddcd53000290f8d9fac882b7a92869be00bae9",
+  "bytes": 838393
+ },
+ "2025-12": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2025-12-01&endtime=2026-01-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:28:52.961288Z",
+  "sha256": "f2c79e72125981cd766ad45e854de8bb4fb89b0a4491c284f2b3e67b48ba3ba7",
+  "bytes": 772595
+ },
+ "2026-01": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2026-01-01&endtime=2026-02-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:29:12.084718Z",
+  "sha256": "cd87b0ad01f0c13e6538bd1075309826c8ea4391dcd2b08958e76b2846bf4dbb",
+  "bytes": 924887
+ },
+ "2026-02": {
+  "url": "https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2026-02-01&endtime=2026-03-01&latitude=46.808&longitude=81.977&maxradius=6&contributor=NNC",
+  "retrieved_utc": "2026-11-07T13:29:33.964348Z",
+  "sha256": "73439c39353f2d27a967d665dc6efb79e763a98416a9e89f684251b0ba3c961d",
+  "bytes": 1162884
+ }
+}

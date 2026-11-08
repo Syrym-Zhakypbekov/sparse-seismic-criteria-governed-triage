@@ -1,0 +1,86 @@
+{
+  "title": "Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation (code, decision records and results)",
+  "upload_type": "software",
+  "description": "Code, per-episode decision records, results and provenance for the manuscript «Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation» (S. Zhakypbekov, A. Bykov, A. Shaikemelova, T. Chinibayeva; in preparation for MDPI Sensors). Pre-registered tests on 38 seismic networks in eight regions (incl. Kazakhstan, Kyrgyzstan, Alaska) against catalogue association and analyst-reviewed bulletins; test plans registered on OSF: https://osf.io/y8qxz.",
+  "creators": [
+    {
+      "name": "Zhakypbekov, Syrym",
+      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0000-0001-9112-5922"
+    },
+    {
+      "name": "Bykov, Artem",
+      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0000-0002-9563-5185"
+    },
+    {
+      "name": "Shaikemelova, Akbota",
+      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0009-0003-4446-4683"
+    },
+    {
+      "name": "Chinibayeva, Tolganay",
+      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0000-0002-2657-3697"
+    }
+  ],
+  "keywords": [
+    "seismic monitoring",
+    "sparse seismic network",
+    "alarm triage",
+    "coincidence trigger",
+    "missing data",
+    "non-confirmation",
+    "three-way decisions",
+    "human-in-the-loop",
+    "STA/LTA",
+    "pre-specification",
+    "Kazakhstan",
+    "Alaska"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.3390/informatics13110179",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.7914/SN/IU",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.7914/SN/II",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.18715/GEOSCOPE.G",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.7914/SN/KZ",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.7914/SN/AK",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.31905/D808B830",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://osf.io/y8qxz",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-preregistration"
+    }
+  ]
+}

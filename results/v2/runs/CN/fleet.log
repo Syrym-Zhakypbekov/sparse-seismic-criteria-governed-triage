@@ -1,0 +1,8 @@
+2026-11-07T21:59:27Z CN plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T22:01:54Z CN tune attempt 1: rc=-15 147s thresholds=yes
+2026-11-07T22:01:54Z CN thresholds {'MAKZ': 3.356552779557651, 'S1_1': 4.095240300495177, 'S2_1': 5.696317469800844, 'S2_2': 5.4652014287441055, 'S3_1': 4.769210218041712}
+2026-11-07T23:09:24Z CN out_2024-01-08 attempt 1: rc=0 4050s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T23:10:41Z CN out_2024-04-08 attempt 1: rc=0 4066s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T23:16:19Z CN out_2024-01-08 attempt 2: rc=0 385s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T23:17:36Z CN out_2024-04-08 attempt 2: rc=0 386s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T23:17:36Z CN FINISHED state=done

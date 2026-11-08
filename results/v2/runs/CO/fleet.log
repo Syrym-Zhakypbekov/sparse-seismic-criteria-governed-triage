@@ -1,0 +1,6 @@
+2026-11-07T19:58:40Z CO plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T20:00:37Z CO tune attempt 1: rc=-15 117s thresholds=yes
+2026-11-07T20:00:37Z CO thresholds {'MAKZ': 6.834517027071724, 'S1_1': 9.965336504015443, 'S2_1': 8.360871273487115, 'S3_1': 6.3713717786595065}
+2026-11-07T20:23:41Z CO out_2024-01-08 attempt 1: rc=0 1384s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:24:49Z CO out_2024-04-08 attempt 1: rc=0 1392s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:24:49Z CO FINISHED state=done

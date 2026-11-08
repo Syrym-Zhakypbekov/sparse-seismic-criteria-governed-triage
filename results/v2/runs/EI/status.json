@@ -1,0 +1,98 @@
+{
+ "network": "EI",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-6",
+ "platform": "p10-fleet-6-sEI",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "EI",
+   "IMAY",
+   "",
+   "BHZ",
+   54.160708,
+   -9.379619
+  ],
+  "S1_1": [
+   "EI",
+   "IGLA",
+   "",
+   "BHZ",
+   53.4195,
+   -9.375
+  ],
+  "S2_1": [
+   "EI",
+   "ITIP",
+   "",
+   "BHZ",
+   53.046278,
+   -8.079468
+  ],
+  "S3_1": [
+   "EI",
+   "IDGL",
+   "",
+   "BHZ",
+   55.073,
+   -7.51
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 92,
+     "end_utc": "2026-11-07T20:16:59Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:15:27Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "tune_nan_evidence": {
+  "S1_1": {
+   "stream": "EI.IGLA..BHZ",
+   "no_data_days": [
+    "2024-01-01",
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-06",
+    "2024-01-07"
+   ],
+   "fetch_failed_days": [],
+   "data_days": []
+  }
+ },
+ "thresholds": {
+  "MAKZ": 4.4754370842794104,
+  "S1_1": NaN,
+  "S2_1": 4.635082618156257,
+  "S3_1": 4.506874104195668
+ }
+}

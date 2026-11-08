@@ -1,0 +1,125 @@
+{
+ "network": "HL_EXT12B",
+ "config_file": "results/v2/networks_ext12B.json",
+ "host": "p10-seismic",
+ "platform": "p10-seismic-xb_a",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "HL",
+   "RDO",
+   "",
+   "HHZ",
+   41.145031,
+   25.53553
+  ],
+  "S1_1": [
+   "HL",
+   "KEK",
+   "",
+   "HHZ",
+   39.7127,
+   19.79623
+  ],
+  "S2_1": [
+   "HL",
+   "ITM",
+   "",
+   "HHZ",
+   37.178719,
+   21.92522
+  ],
+  "S3_1": [
+   "HL",
+   "ARG",
+   "",
+   "HHZ",
+   36.213558,
+   28.12122
+  ]
+ },
+ "tune": "none (frozen batch-A)",
+ "eval": [
+  "2024-07-08",
+  "2025-01-08"
+ ],
+ "chunks": {
+  "out_2024-07-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 1,
+     "seconds": 1247,
+     "end_utc": "2026-11-08T07:53:05Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 2,
+     "rc": 1,
+     "seconds": 263,
+     "end_utc": "2026-11-08T07:57:57Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 3,
+     "rc": 1,
+     "seconds": 258,
+     "end_utc": "2026-11-08T08:03:15Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    },
+    {
+     "attempt": 4,
+     "rc": 1,
+     "seconds": 260,
+     "end_utc": "2026-11-08T08:09:05Z",
+     "summary": false,
+     "fetch_failures": null,
+     "catalog_failures": null
+    }
+   ],
+   "ok": false,
+   "final": "summary missing"
+  },
+  "out_2024-10-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1323,
+     "end_utc": "2026-11-08T07:55:21Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-08T07:32:18Z",
+ "state": "incomplete",
+ "chunk_plan": [
+  [
+   "2024-07-08",
+   "2024-10-08"
+  ],
+  [
+   "2024-10-08",
+   "2025-01-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 6.30181924957565,
+  "S1_1": 4.6497307166305495,
+  "S2_1": 9.256610308328707,
+  "S3_1": 10.24954186740773
+ },
+ "thresholds_source": "results/v2/runs/HL/status.json",
+ "finished_utc": "2026-11-08T08:11:05Z"
+}

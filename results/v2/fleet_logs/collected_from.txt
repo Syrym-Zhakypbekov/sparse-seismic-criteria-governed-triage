@@ -1,0 +1,117 @@
+p10-fleet-6 runs/C
+p10-fleet-6 runs/EI
+p10-fleet-6 runs/HE
+p10-fleet-6 runs/KR
+p10-fleet-6 runs/LD
+p10-fleet-6 runs/PL
+p10-fleet-6 runs/PQ
+p10-fleet-6 runs_ext12/KR
+p10-fleet-1 runs/AW
+p10-fleet-1 runs/IV
+p10-fleet-1 runs/IW
+p10-fleet-1 runs/NY
+p10-fleet-1 runs/QZ
+p10-fleet-1 runs_ext12/IV
+p10-fleet-4 runs/C1
+p10-fleet-4 runs/EE
+p10-fleet-4 runs/HC
+p10-fleet-4 runs/KO
+p10-fleet-4 runs/PE
+p10-fleet-4 runs/UW
+p10-fleet-4 runs_ext12/C1
+p10-fleet-3 runs/AU
+p10-fleet-3 runs/FN
+p10-fleet-3 runs/FR
+p10-fleet-3 runs/NS
+p10-fleet-3 runs/OK
+p10-fleet-3 runs/SI
+p10-fleet-3 runs/TX
+p10-fleet-3 runs_ext12/AU
+p10-fleet-5 runs/AV
+p10-fleet-5 runs/BW
+p10-fleet-5 runs/ND
+p10-fleet-5 runs/O2
+p10-fleet-5 runs/S1
+p10-fleet-5 runs/US
+p10-fleet-5 runs/WU
+p10-fleet-5 runs_ext12/AV
+p10-fleet-6 runs/C
+p10-fleet-6 runs/EI
+p10-fleet-6 runs/HE
+p10-fleet-6 runs/KR
+p10-fleet-6 runs/LD
+p10-fleet-6 runs/PL
+p10-fleet-6 runs/PQ
+p10-fleet-6 runs/UU
+p10-fleet-6 runs_ext12/KR
+p10-seismic runs/AF
+p10-seismic runs/CZ
+p10-seismic runs/HL
+p10-seismic runs/OH
+p10-seismic runs/RV still running, not collected
+p10-seismic runs/SC still running, not collected
+p10-seismic runs_ext12/OH still running, not collected
+p10-fleet-2 runs/AB
+p10-fleet-2 runs/CN still running, not collected
+p10-fleet-2 runs/NM still running, not collected
+p10-fleet-2 runs/UU still running, not collected
+p10-seismic runs/AF
+p10-seismic runs/CZ
+p10-seismic runs/HL
+p10-seismic runs/OH
+p10-seismic runs/RV
+p10-seismic runs/SC still running, not collected
+p10-seismic runs_ext12/OH still running, not collected
+p10-fleet-1 runs/AW
+p10-fleet-1 runs/CN
+p10-fleet-1 runs/IV
+p10-fleet-1 runs/IW
+p10-fleet-1 runs/NM
+p10-fleet-1 runs/NY
+p10-fleet-1 runs/QZ
+p10-fleet-1 runs_ext12/IV
+p10-fleet-2 runs/AB
+p10-fleet-2 runs/CN
+p10-fleet-2 runs/NM
+p10-fleet-2 runs/UU
+p10-seismic runs/AF
+p10-seismic runs/CZ
+p10-seismic runs/HL
+p10-seismic runs/OH
+p10-seismic runs/RV
+p10-seismic runs/SC still running, not collected
+p10-seismic runs_ext12/OH still running, not collected
+p10-fleet-1 runs/AW
+p10-fleet-1 runs/CN
+p10-fleet-1 runs/IV
+p10-fleet-1 runs/IW
+p10-fleet-1 runs/NM
+p10-fleet-1 runs/NY
+p10-fleet-1 runs/QZ
+p10-fleet-1 runs_ext12/IV
+p10-fleet-2 runs/AB
+p10-fleet-2 runs/CN
+p10-fleet-2 runs/NM
+p10-fleet-2 runs/UU
+p10-seismic runs_ext12B/HL
+p10-seismic runs_ext12B/MB still running, not collected
+p10-seismic runs_ext12B/PL
+p10-seismic runs_ext12B/SI still running, not collected
+p10-fleet-1 runs_ext12B/BW
+p10-fleet-1 runs_ext12B/IW
+p10-fleet-1 runs_ext12B/PE
+p10-fleet-2 runs_ext12B/N4 still running, not collected
+p10-fleet-2 runs_ext12B/OK
+p10-fleet-3 runs_ext12B/NE
+p10-fleet-3 runs_ext12B/UO
+p10-fleet-4 runs_ext12B/CN
+p10-fleet-4 runs_ext12B/NM
+p10-fleet-4 runs_ext12B/NS still running, not collected
+p10-fleet-4 runs_ext12B/UU still running, not collected
+p10-fleet-5 runs_ext12B/C0 still running, not collected
+p10-fleet-5 runs_ext12B/HC still running, not collected
+p10-fleet-5 runs_ext12B/RV
+p10-fleet-6 runs_ext12B/FN
+p10-fleet-6 runs_ext12B/ND
+p10-fleet-6 runs_ext12B/NY still running, not collected
+p10-fleet-6 runs_ext12B/QZ

@@ -1,0 +1,2130 @@
+{
+ "A": {
+  "file": "v2_eval_batchA.json",
+  "included": 7,
+  "listed": 10,
+  "excluded": {
+   "AB": "no run outputs",
+   "AF": "no run outputs",
+   "AW": "no run outputs"
+  },
+  "V6": {
+   "CG": 2392,
+   "P3": 5597,
+   "P1t": 45747,
+   "networks_CG_below_both": 6,
+   "networks": 7
+  },
+  "V8": {
+   "episodes": 20,
+   "CG_escalated": 20
+  },
+  "chance_share_pooled": 0.43,
+  "associated": 3782,
+  "pooled": {
+   "CG": {
+    "diff": 10.13,
+    "ci": [
+     0.712,
+     18.221
+    ],
+    "equal_weight": 4.81,
+    "equal_weight_ci": [
+     0.594,
+     10.574
+    ],
+    "ratio": 1.543,
+    "ratio_ci": [
+     1.22,
+     2.234
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   },
+   "CG-D": {
+    "diff": 2.51,
+    "ci": [
+     0.167,
+     4.391
+    ],
+    "equal_weight": 1.24,
+    "equal_weight_ci": [
+     0.184,
+     2.621
+    ],
+    "ratio": 1.135,
+    "ratio_ci": [
+     1.039,
+     1.576
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": true
+    }
+   },
+   "c=0.5": {
+    "diff": 2.14,
+    "ci": [
+     0.139,
+     3.713
+    ],
+    "equal_weight": 1.06,
+    "equal_weight_ci": [
+     0.161,
+     2.217
+    ],
+    "ratio": 1.115,
+    "ratio_ci": [
+     1.029,
+     1.576
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": true
+    }
+   },
+   "CG vs P3 8.0": {
+    "diff": 9.07,
+    "ci": [
+     0.512,
+     16.536
+    ],
+    "equal_weight": 4.3,
+    "equal_weight_ci": [
+     0.372,
+     9.473
+    ],
+    "ratio": 1.46,
+    "ratio_ci": [
+     1.194,
+     1.599
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   }
+  },
+  "zero_discordance_networks": {
+   "OH": {
+    "assoc": 65,
+    "exact_upper_975_pct": 5.52
+   },
+   "AU": {
+    "assoc": 104,
+    "exact_upper_975_pct": 3.48
+   }
+  },
+  "V7": {
+   "assoc": 84,
+   "CG": 4,
+   "P1": 8,
+   "networks": 2,
+   "exercised": true,
+   "holds": true
+  },
+  "rows": [
+   {
+    "net": "JP",
+    "assoc": 1576,
+    "P3": 604,
+    "CG": 945,
+    "CG-D": 684,
+    "c05": 671,
+    "diff": 21.64,
+    "ci": [
+     19.08,
+     23.97
+    ],
+    "chance_share": 0.946,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "C1",
+    "assoc": 874,
+    "P3": 0,
+    "CG": 2,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.23,
+    "ci": [
+     0.0,
+     0.58
+    ],
+    "chance_share": 0.031,
+    "holm_p": 0.0035,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AV",
+    "assoc": 677,
+    "P3": 22,
+    "CG": 42,
+    "CG-D": 32,
+    "c05": 32,
+    "diff": 2.95,
+    "ci": [
+     1.8,
+     4.22
+    ],
+    "chance_share": 0.027,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "KR",
+    "assoc": 269,
+    "P3": 1,
+    "CG": 5,
+    "CG-D": 3,
+    "c05": 3,
+    "diff": 1.49,
+    "ci": [
+     0.36,
+     3.14
+    ],
+    "chance_share": 0.046,
+    "holm_p": 0.14192,
+    "outage_assoc": 35
+   },
+   {
+    "net": "IV",
+    "assoc": 217,
+    "P3": 74,
+    "CG": 90,
+    "CG-D": 77,
+    "c05": 76,
+    "diff": 7.37,
+    "ci": [
+     4.22,
+     10.89
+    ],
+    "chance_share": 0.336,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AU",
+    "assoc": 104,
+    "P3": 0,
+    "CG": 0,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.015,
+    "holm_p": 0.0035,
+    "outage_assoc": 0
+   },
+   {
+    "net": "OH",
+    "assoc": 65,
+    "P3": 4,
+    "CG": 4,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.068,
+    "holm_p": 0.0035,
+    "outage_assoc": 49
+   }
+  ]
+ },
+ "EXT12": {
+  "file": "v2_eval_ext12.json",
+  "included": 6,
+  "listed": 7,
+  "excluded": {
+   "OH": "no run outputs"
+  },
+  "V6": {
+   "CG": 1555,
+   "P3": 2962,
+   "P1t": 10879,
+   "networks_CG_below_both": 6,
+   "networks": 6
+  },
+  "V8": {
+   "episodes": 35,
+   "CG_escalated": 35
+  },
+  "chance_share_pooled": 0.098,
+  "associated": 2195,
+  "pooled": {
+   "CG": {
+    "diff": 2.32,
+    "ci": [
+     0.467,
+     5.741
+    ],
+    "equal_weight": 4.03,
+    "equal_weight_ci": [
+     0.632,
+     8.603
+    ],
+    "ratio": 1.328,
+    "ratio_ci": [
+     1.139,
+     2.151
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   },
+   "CG-D": {
+    "diff": 0.64,
+    "ci": [
+     -0.238,
+     1.772
+    ],
+    "equal_weight": 1.18,
+    "equal_weight_ci": [
+     -0.356,
+     3.278
+    ],
+    "ratio": 1.09,
+    "ratio_ci": [
+     0.98,
+     1.488
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": true,
+     "3": true,
+     "5": true
+    }
+   },
+   "c=0.5": {
+    "diff": 0.55,
+    "ci": [
+     -0.27,
+     1.536
+    ],
+    "equal_weight": 0.95,
+    "equal_weight_ci": [
+     -0.388,
+     2.711
+    ],
+    "ratio": 1.077,
+    "ratio_ci": [
+     0.977,
+     1.453
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": true,
+     "3": true,
+     "5": true
+    }
+   },
+   "CG vs P3 8.0": {
+    "diff": 1.73,
+    "ci": [
+     0.377,
+     4.245
+    ],
+    "equal_weight": 2.95,
+    "equal_weight_ci": [
+     0.463,
+     6.452
+    ],
+    "ratio": 1.226,
+    "ratio_ci": [
+     1.083,
+     1.73
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": true
+    }
+   }
+  },
+  "zero_discordance_networks": {
+   "AU": {
+    "assoc": 82,
+    "exact_upper_975_pct": 4.4
+   }
+  },
+  "V7": {
+   "assoc": 114,
+   "CG": 17,
+   "P1": 31,
+   "networks": 3,
+   "exercised": true,
+   "holds": true
+  },
+  "rows": [
+   {
+    "net": "C1",
+    "assoc": 827,
+    "P3": 0,
+    "CG": 1,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.12,
+    "ci": [
+     0.0,
+     0.39
+    ],
+    "chance_share": 0.031,
+    "holm_p": 0.003,
+    "outage_assoc": 2
+   },
+   {
+    "net": "AV",
+    "assoc": 710,
+    "P3": 28,
+    "CG": 51,
+    "CG-D": 37,
+    "c05": 36,
+    "diff": 3.24,
+    "ci": [
+     1.95,
+     4.55
+    ],
+    "chance_share": 0.026,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "KR",
+    "assoc": 271,
+    "P3": 1,
+    "CG": 4,
+    "CG-D": 3,
+    "c05": 3,
+    "diff": 1.11,
+    "ci": [
+     0.0,
+     2.44
+    ],
+    "chance_share": 0.043,
+    "holm_p": 0.024,
+    "outage_assoc": 0
+   },
+   {
+    "net": "IV",
+    "assoc": 221,
+    "P3": 80,
+    "CG": 92,
+    "CG-D": 78,
+    "c05": 78,
+    "diff": 5.43,
+    "ci": [
+     2.17,
+     9.18
+    ],
+    "chance_share": 0.341,
+    "holm_p": 1.0,
+    "outage_assoc": 39
+   },
+   {
+    "net": "JP",
+    "assoc": 84,
+    "P3": 45,
+    "CG": 57,
+    "CG-D": 50,
+    "c05": 49,
+    "diff": 14.29,
+    "ci": [
+     5.06,
+     22.31
+    ],
+    "chance_share": 0.987,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AU",
+    "assoc": 82,
+    "P3": 1,
+    "CG": 1,
+    "CG-D": 1,
+    "c05": 1,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.021,
+    "holm_p": 0.003,
+    "outage_assoc": 73
+   }
+  ]
+ },
+ "B": {
+  "file": "v2_eval_batchB.json",
+  "included": 31,
+  "listed": 44,
+  "excluded": {
+   "S1": "no run outputs",
+   "C": "no run outputs",
+   "FR": "no run outputs",
+   "KO": "no run outputs",
+   "PQ": "no run outputs",
+   "CZ": "not completed (chunk without outputs)",
+   "O2": "no run outputs",
+   "WU": "fewer than 30 associated episodes (29)",
+   "LD": "fewer than 30 associated episodes (5)",
+   "EI": "no run outputs",
+   "SC": "no run outputs",
+   "US": "no run outputs",
+   "CU": "no run outputs"
+  },
+  "V6": {
+   "CG": 4807,
+   "P3": 19385,
+   "P1t": 98079,
+   "networks_CG_below_both": 30,
+   "networks": 31
+  },
+  "V8": {
+   "episodes": 66,
+   "CG_escalated": 66
+  },
+  "chance_share_pooled": 0.167,
+  "associated": 5453,
+  "pooled": {
+   "CG": {
+    "diff": 8.25,
+    "ci": [
+     4.587,
+     11.16
+    ],
+    "equal_weight": 6.0,
+    "equal_weight_ci": [
+     3.861,
+     8.437
+    ],
+    "ratio": 1.903,
+    "ratio_ci": [
+     1.597,
+     2.924
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   },
+   "CG-D": {
+    "diff": 1.89,
+    "ci": [
+     0.873,
+     2.837
+    ],
+    "equal_weight": 1.18,
+    "equal_weight_ci": [
+     0.528,
+     1.88
+    ],
+    "ratio": 1.207,
+    "ratio_ci": [
+     1.136,
+     1.395
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": true,
+     "5": true
+    }
+   },
+   "c=0.5": {
+    "diff": 1.43,
+    "ci": [
+     0.582,
+     2.243
+    ],
+    "equal_weight": 0.92,
+    "equal_weight_ci": [
+     0.337,
+     1.558
+    ],
+    "ratio": 1.156,
+    "ratio_ci": [
+     1.092,
+     1.3
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": true,
+     "5": true
+    }
+   },
+   "CG vs P3 8.0": {
+    "diff": 7.01,
+    "ci": [
+     3.909,
+     9.548
+    ],
+    "equal_weight": 5.08,
+    "equal_weight_ci": [
+     3.158,
+     7.299
+    ],
+    "ratio": 1.674,
+    "ratio_ci": [
+     1.444,
+     2.331
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   }
+  },
+  "zero_discordance_networks": {
+   "NS": {
+    "assoc": 71,
+    "exact_upper_975_pct": 5.06
+   },
+   "CN": {
+    "assoc": 64,
+    "exact_upper_975_pct": 5.6
+   },
+   "NY": {
+    "assoc": 51,
+    "exact_upper_975_pct": 6.98
+   },
+   "CO": {
+    "assoc": 34,
+    "exact_upper_975_pct": 10.28
+   }
+  },
+  "V7": {
+   "assoc": 185,
+   "CG": 13,
+   "P1": 59,
+   "networks": 11,
+   "exercised": true,
+   "holds": true
+  },
+  "rows": [
+   {
+    "net": "SI",
+    "assoc": 758,
+    "P3": 230,
+    "CG": 351,
+    "CG-D": 266,
+    "c05": 260,
+    "diff": 15.96,
+    "ci": [
+     13.15,
+     18.84
+    ],
+    "chance_share": 0.446,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "HL",
+    "assoc": 684,
+    "P3": 17,
+    "CG": 118,
+    "CG-D": 37,
+    "c05": 32,
+    "diff": 14.77,
+    "ci": [
+     12.09,
+     17.52
+    ],
+    "chance_share": 0.098,
+    "holm_p": 1.0,
+    "outage_assoc": 2
+   },
+   {
+    "net": "IW",
+    "assoc": 354,
+    "P3": 0,
+    "CG": 6,
+    "CG-D": 1,
+    "c05": 1,
+    "diff": 1.69,
+    "ci": [
+     0.53,
+     3.06
+    ],
+    "chance_share": 0.085,
+    "holm_p": 0.887,
+    "outage_assoc": 0
+   },
+   {
+    "net": "HC",
+    "assoc": 318,
+    "P3": 66,
+    "CG": 109,
+    "CG-D": 75,
+    "c05": 73,
+    "diff": 13.52,
+    "ci": [
+     9.62,
+     17.47
+    ],
+    "chance_share": 0.234,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AE",
+    "assoc": 300,
+    "P3": 10,
+    "CG": 26,
+    "CG-D": 14,
+    "c05": 13,
+    "diff": 5.33,
+    "ci": [
+     2.92,
+     8.01
+    ],
+    "chance_share": 0.062,
+    "holm_p": 1.0,
+    "outage_assoc": 9
+   },
+   {
+    "net": "ND",
+    "assoc": 299,
+    "P3": 0,
+    "CG": 2,
+    "CG-D": 1,
+    "c05": 0,
+    "diff": 0.67,
+    "ci": [
+     0.0,
+     1.66
+    ],
+    "chance_share": 0.038,
+    "holm_p": 0.0155,
+    "outage_assoc": 0
+   },
+   {
+    "net": "UU",
+    "assoc": 278,
+    "P3": 3,
+    "CG": 19,
+    "CG-D": 6,
+    "c05": 6,
+    "diff": 5.76,
+    "ci": [
+     3.24,
+     8.55
+    ],
+    "chance_share": 0.076,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "BW",
+    "assoc": 260,
+    "P3": 56,
+    "CG": 105,
+    "CG-D": 67,
+    "c05": 62,
+    "diff": 18.85,
+    "ci": [
+     14.52,
+     23.41
+    ],
+    "chance_share": 0.368,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "FN",
+    "assoc": 218,
+    "P3": 16,
+    "CG": 20,
+    "CG-D": 19,
+    "c05": 19,
+    "diff": 1.83,
+    "ci": [
+     0.41,
+     3.85
+    ],
+    "chance_share": 0.025,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "MB",
+    "assoc": 187,
+    "P3": 4,
+    "CG": 9,
+    "CG-D": 5,
+    "c05": 4,
+    "diff": 2.67,
+    "ci": [
+     0.56,
+     5.11
+    ],
+    "chance_share": 0.038,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "WW",
+    "assoc": 182,
+    "P3": 10,
+    "CG": 31,
+    "CG-D": 14,
+    "c05": 14,
+    "diff": 11.54,
+    "ci": [
+     7.0,
+     16.49
+    ],
+    "chance_share": 0.103,
+    "holm_p": 1.0,
+    "outage_assoc": 4
+   },
+   {
+    "net": "HE",
+    "assoc": 179,
+    "P3": 4,
+    "CG": 6,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 1.12,
+    "ci": [
+     0.0,
+     2.78
+    ],
+    "chance_share": 0.032,
+    "holm_p": 0.33774,
+    "outage_assoc": 0
+   },
+   {
+    "net": "RV",
+    "assoc": 161,
+    "P3": 2,
+    "CG": 5,
+    "CG-D": 2,
+    "c05": 1,
+    "diff": 1.86,
+    "ci": [
+     0.0,
+     4.27
+    ],
+    "chance_share": 0.111,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "UO",
+    "assoc": 156,
+    "P3": 7,
+    "CG": 11,
+    "CG-D": 7,
+    "c05": 7,
+    "diff": 2.56,
+    "ci": [
+     0.58,
+     5.59
+    ],
+    "chance_share": 0.079,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "PL",
+    "assoc": 149,
+    "P3": 10,
+    "CG": 17,
+    "CG-D": 9,
+    "c05": 9,
+    "diff": 4.7,
+    "ci": [
+     1.35,
+     8.79
+    ],
+    "chance_share": 0.174,
+    "holm_p": 1.0,
+    "outage_assoc": 102
+   },
+   {
+    "net": "OK",
+    "assoc": 135,
+    "P3": 5,
+    "CG": 8,
+    "CG-D": 6,
+    "c05": 5,
+    "diff": 2.22,
+    "ci": [
+     0.0,
+     4.88
+    ],
+    "chance_share": 0.104,
+    "holm_p": 1.0,
+    "outage_assoc": 1
+   },
+   {
+    "net": "C0",
+    "assoc": 118,
+    "P3": 10,
+    "CG": 26,
+    "CG-D": 14,
+    "c05": 12,
+    "diff": 13.56,
+    "ci": [
+     7.89,
+     20.0
+    ],
+    "chance_share": 0.234,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "EE",
+    "assoc": 88,
+    "P3": 8,
+    "CG": 12,
+    "CG-D": 9,
+    "c05": 9,
+    "diff": 4.55,
+    "ci": [
+     1.01,
+     9.47
+    ],
+    "chance_share": 0.197,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "ET",
+    "assoc": 79,
+    "P3": 7,
+    "CG": 8,
+    "CG-D": 8,
+    "c05": 8,
+    "diff": 1.27,
+    "ci": [
+     0.0,
+     4.29
+    ],
+    "chance_share": 0.065,
+    "holm_p": 1.0,
+    "outage_assoc": 22
+   },
+   {
+    "net": "NS",
+    "assoc": 71,
+    "P3": 7,
+    "CG": 7,
+    "CG-D": 7,
+    "c05": 7,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.054,
+    "holm_p": 0.0155,
+    "outage_assoc": 7
+   },
+   {
+    "net": "CN",
+    "assoc": 64,
+    "P3": 4,
+    "CG": 4,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.08,
+    "holm_p": 0.0155,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AG",
+    "assoc": 56,
+    "P3": 5,
+    "CG": 13,
+    "CG-D": 7,
+    "c05": 7,
+    "diff": 14.29,
+    "ci": [
+     5.55,
+     24.07
+    ],
+    "chance_share": 0.269,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "NY",
+    "assoc": 51,
+    "P3": 0,
+    "CG": 0,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.326,
+    "holm_p": 0.0155,
+    "outage_assoc": 11
+   },
+   {
+    "net": "NE",
+    "assoc": 51,
+    "P3": 2,
+    "CG": 3,
+    "CG-D": 2,
+    "c05": 2,
+    "diff": 1.96,
+    "ci": [
+     0.0,
+     6.98
+    ],
+    "chance_share": 0.06,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "UW",
+    "assoc": 46,
+    "P3": 3,
+    "CG": 10,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 15.22,
+    "ci": [
+     5.26,
+     27.03
+    ],
+    "chance_share": 0.277,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "NM",
+    "assoc": 42,
+    "P3": 8,
+    "CG": 9,
+    "CG-D": 8,
+    "c05": 8,
+    "diff": 2.38,
+    "ci": [
+     -5.88,
+     9.76
+    ],
+    "chance_share": 0.12,
+    "holm_p": 1.0,
+    "outage_assoc": 8
+   },
+   {
+    "net": "TX",
+    "assoc": 35,
+    "P3": 2,
+    "CG": 3,
+    "CG-D": 2,
+    "c05": 2,
+    "diff": 2.86,
+    "ci": [
+     0.0,
+     8.7
+    ],
+    "chance_share": 0.12,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "PE",
+    "assoc": 35,
+    "P3": 0,
+    "CG": 1,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 2.86,
+    "ci": [
+     0.0,
+     10.0
+    ],
+    "chance_share": 0.14,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "N4",
+    "assoc": 34,
+    "P3": 0,
+    "CG": 2,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 5.88,
+    "ci": [
+     0.0,
+     15.63
+    ],
+    "chance_share": 0.151,
+    "holm_p": 1.0,
+    "outage_assoc": 18
+   },
+   {
+    "net": "CO",
+    "assoc": 34,
+    "P3": 0,
+    "CG": 0,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.13,
+    "holm_p": 0.0155,
+    "outage_assoc": 0
+   },
+   {
+    "net": "QZ",
+    "assoc": 31,
+    "P3": 2,
+    "CG": 7,
+    "CG-D": 3,
+    "c05": 3,
+    "diff": 16.13,
+    "ci": [
+     3.7,
+     31.03
+    ],
+    "chance_share": 0.452,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   }
+  ]
+ },
+ "A+B": {
+  "file": "v2_eval_AB.json",
+  "included": 38,
+  "listed": 54,
+  "excluded": {
+   "AB": "no run outputs",
+   "AF": "no run outputs",
+   "AW": "no run outputs",
+   "S1": "no run outputs",
+   "C": "no run outputs",
+   "FR": "no run outputs",
+   "KO": "no run outputs",
+   "PQ": "no run outputs",
+   "CZ": "not completed (chunk without outputs)",
+   "O2": "no run outputs",
+   "WU": "fewer than 30 associated episodes (29)",
+   "LD": "fewer than 30 associated episodes (5)",
+   "EI": "no run outputs",
+   "SC": "no run outputs",
+   "US": "no run outputs",
+   "CU": "no run outputs"
+  },
+  "V6": {
+   "CG": 7199,
+   "P3": 24982,
+   "P1t": 143826,
+   "networks_CG_below_both": 36,
+   "networks": 38
+  },
+  "V8": {
+   "episodes": 86,
+   "CG_escalated": 86
+  },
+  "chance_share_pooled": 0.275,
+  "associated": 9235,
+  "pooled": {
+   "CG": {
+    "diff": 9.02,
+    "ci": [
+     3.859,
+     13.693
+    ],
+    "equal_weight": 5.78,
+    "equal_weight_ci": [
+     3.665,
+     8.072
+    ],
+    "ratio": 1.692,
+    "ratio_ci": [
+     1.545,
+     2.303
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   },
+   "CG-D": {
+    "diff": 2.14,
+    "ci": [
+     0.864,
+     3.284
+    ],
+    "equal_weight": 1.19,
+    "equal_weight_ci": [
+     0.628,
+     1.833
+    ],
+    "ratio": 1.165,
+    "ratio_ci": [
+     1.125,
+     1.288
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": true
+    }
+   },
+   "c=0.5": {
+    "diff": 1.72,
+    "ci": [
+     0.648,
+     2.705
+    ],
+    "equal_weight": 0.94,
+    "equal_weight_ci": [
+     0.425,
+     1.503
+    ],
+    "ratio": 1.132,
+    "ratio_ci": [
+     1.094,
+     1.23
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": true,
+     "5": true
+    }
+   },
+   "CG vs P3 8.0": {
+    "diff": 7.85,
+    "ci": [
+     3.132,
+     12.235
+    ],
+    "equal_weight": 4.94,
+    "equal_weight_ci": [
+     3.031,
+     6.988
+    ],
+    "ratio": 1.553,
+    "ratio_ci": [
+     1.424,
+     1.954
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   }
+  },
+  "zero_discordance_networks": {
+   "OH": {
+    "assoc": 65,
+    "exact_upper_975_pct": 5.52
+   },
+   "AU": {
+    "assoc": 104,
+    "exact_upper_975_pct": 3.48
+   },
+   "NS": {
+    "assoc": 71,
+    "exact_upper_975_pct": 5.06
+   },
+   "CN": {
+    "assoc": 64,
+    "exact_upper_975_pct": 5.6
+   },
+   "NY": {
+    "assoc": 51,
+    "exact_upper_975_pct": 6.98
+   },
+   "CO": {
+    "assoc": 34,
+    "exact_upper_975_pct": 10.28
+   }
+  },
+  "V7": {
+   "assoc": 269,
+   "CG": 17,
+   "P1": 67,
+   "networks": 13,
+   "exercised": true,
+   "holds": true
+  },
+  "rows": [
+   {
+    "net": "JP",
+    "assoc": 1576,
+    "P3": 604,
+    "CG": 945,
+    "CG-D": 684,
+    "c05": 671,
+    "diff": 21.64,
+    "ci": [
+     19.08,
+     23.97
+    ],
+    "chance_share": 0.946,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "C1",
+    "assoc": 874,
+    "P3": 0,
+    "CG": 2,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.23,
+    "ci": [
+     0.0,
+     0.58
+    ],
+    "chance_share": 0.031,
+    "holm_p": 0.019,
+    "outage_assoc": 0
+   },
+   {
+    "net": "SI",
+    "assoc": 758,
+    "P3": 230,
+    "CG": 351,
+    "CG-D": 266,
+    "c05": 260,
+    "diff": 15.96,
+    "ci": [
+     13.15,
+     18.84
+    ],
+    "chance_share": 0.446,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "HL",
+    "assoc": 684,
+    "P3": 17,
+    "CG": 118,
+    "CG-D": 37,
+    "c05": 32,
+    "diff": 14.77,
+    "ci": [
+     12.09,
+     17.52
+    ],
+    "chance_share": 0.098,
+    "holm_p": 1.0,
+    "outage_assoc": 2
+   },
+   {
+    "net": "AV",
+    "assoc": 677,
+    "P3": 22,
+    "CG": 42,
+    "CG-D": 32,
+    "c05": 32,
+    "diff": 2.95,
+    "ci": [
+     1.8,
+     4.22
+    ],
+    "chance_share": 0.027,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "IW",
+    "assoc": 354,
+    "P3": 0,
+    "CG": 6,
+    "CG-D": 1,
+    "c05": 1,
+    "diff": 1.69,
+    "ci": [
+     0.53,
+     3.06
+    ],
+    "chance_share": 0.085,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "HC",
+    "assoc": 318,
+    "P3": 66,
+    "CG": 109,
+    "CG-D": 75,
+    "c05": 73,
+    "diff": 13.52,
+    "ci": [
+     9.62,
+     17.47
+    ],
+    "chance_share": 0.234,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AE",
+    "assoc": 300,
+    "P3": 10,
+    "CG": 26,
+    "CG-D": 14,
+    "c05": 13,
+    "diff": 5.33,
+    "ci": [
+     2.92,
+     8.01
+    ],
+    "chance_share": 0.062,
+    "holm_p": 1.0,
+    "outage_assoc": 9
+   },
+   {
+    "net": "ND",
+    "assoc": 299,
+    "P3": 0,
+    "CG": 2,
+    "CG-D": 1,
+    "c05": 0,
+    "diff": 0.67,
+    "ci": [
+     0.0,
+     1.66
+    ],
+    "chance_share": 0.038,
+    "holm_p": 0.019,
+    "outage_assoc": 0
+   },
+   {
+    "net": "UU",
+    "assoc": 278,
+    "P3": 3,
+    "CG": 19,
+    "CG-D": 6,
+    "c05": 6,
+    "diff": 5.76,
+    "ci": [
+     3.24,
+     8.55
+    ],
+    "chance_share": 0.076,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "KR",
+    "assoc": 269,
+    "P3": 1,
+    "CG": 5,
+    "CG-D": 3,
+    "c05": 3,
+    "diff": 1.49,
+    "ci": [
+     0.36,
+     3.14
+    ],
+    "chance_share": 0.046,
+    "holm_p": 1.0,
+    "outage_assoc": 35
+   },
+   {
+    "net": "BW",
+    "assoc": 260,
+    "P3": 56,
+    "CG": 105,
+    "CG-D": 67,
+    "c05": 62,
+    "diff": 18.85,
+    "ci": [
+     14.52,
+     23.41
+    ],
+    "chance_share": 0.368,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "FN",
+    "assoc": 218,
+    "P3": 16,
+    "CG": 20,
+    "CG-D": 19,
+    "c05": 19,
+    "diff": 1.83,
+    "ci": [
+     0.41,
+     3.85
+    ],
+    "chance_share": 0.025,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "IV",
+    "assoc": 217,
+    "P3": 74,
+    "CG": 90,
+    "CG-D": 77,
+    "c05": 76,
+    "diff": 7.37,
+    "ci": [
+     4.22,
+     10.89
+    ],
+    "chance_share": 0.336,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "MB",
+    "assoc": 187,
+    "P3": 4,
+    "CG": 9,
+    "CG-D": 5,
+    "c05": 4,
+    "diff": 2.67,
+    "ci": [
+     0.56,
+     5.11
+    ],
+    "chance_share": 0.038,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "WW",
+    "assoc": 182,
+    "P3": 10,
+    "CG": 31,
+    "CG-D": 14,
+    "c05": 14,
+    "diff": 11.54,
+    "ci": [
+     7.0,
+     16.49
+    ],
+    "chance_share": 0.103,
+    "holm_p": 1.0,
+    "outage_assoc": 4
+   },
+   {
+    "net": "HE",
+    "assoc": 179,
+    "P3": 4,
+    "CG": 6,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 1.12,
+    "ci": [
+     0.0,
+     2.78
+    ],
+    "chance_share": 0.032,
+    "holm_p": 0.3897,
+    "outage_assoc": 0
+   },
+   {
+    "net": "RV",
+    "assoc": 161,
+    "P3": 2,
+    "CG": 5,
+    "CG-D": 2,
+    "c05": 1,
+    "diff": 1.86,
+    "ci": [
+     0.0,
+     4.27
+    ],
+    "chance_share": 0.111,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "UO",
+    "assoc": 156,
+    "P3": 7,
+    "CG": 11,
+    "CG-D": 7,
+    "c05": 7,
+    "diff": 2.56,
+    "ci": [
+     0.58,
+     5.59
+    ],
+    "chance_share": 0.079,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "PL",
+    "assoc": 149,
+    "P3": 10,
+    "CG": 17,
+    "CG-D": 9,
+    "c05": 9,
+    "diff": 4.7,
+    "ci": [
+     1.35,
+     8.79
+    ],
+    "chance_share": 0.174,
+    "holm_p": 1.0,
+    "outage_assoc": 102
+   },
+   {
+    "net": "OK",
+    "assoc": 135,
+    "P3": 5,
+    "CG": 8,
+    "CG-D": 6,
+    "c05": 5,
+    "diff": 2.22,
+    "ci": [
+     0.0,
+     4.88
+    ],
+    "chance_share": 0.104,
+    "holm_p": 1.0,
+    "outage_assoc": 1
+   },
+   {
+    "net": "C0",
+    "assoc": 118,
+    "P3": 10,
+    "CG": 26,
+    "CG-D": 14,
+    "c05": 12,
+    "diff": 13.56,
+    "ci": [
+     7.89,
+     20.0
+    ],
+    "chance_share": 0.234,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AU",
+    "assoc": 104,
+    "P3": 0,
+    "CG": 0,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.015,
+    "holm_p": 0.019,
+    "outage_assoc": 0
+   },
+   {
+    "net": "EE",
+    "assoc": 88,
+    "P3": 8,
+    "CG": 12,
+    "CG-D": 9,
+    "c05": 9,
+    "diff": 4.55,
+    "ci": [
+     1.01,
+     9.47
+    ],
+    "chance_share": 0.197,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "ET",
+    "assoc": 79,
+    "P3": 7,
+    "CG": 8,
+    "CG-D": 8,
+    "c05": 8,
+    "diff": 1.27,
+    "ci": [
+     0.0,
+     4.29
+    ],
+    "chance_share": 0.065,
+    "holm_p": 1.0,
+    "outage_assoc": 22
+   },
+   {
+    "net": "NS",
+    "assoc": 71,
+    "P3": 7,
+    "CG": 7,
+    "CG-D": 7,
+    "c05": 7,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.054,
+    "holm_p": 0.019,
+    "outage_assoc": 7
+   },
+   {
+    "net": "OH",
+    "assoc": 65,
+    "P3": 4,
+    "CG": 4,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.068,
+    "holm_p": 0.019,
+    "outage_assoc": 49
+   },
+   {
+    "net": "CN",
+    "assoc": 64,
+    "P3": 4,
+    "CG": 4,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.08,
+    "holm_p": 0.019,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AG",
+    "assoc": 56,
+    "P3": 5,
+    "CG": 13,
+    "CG-D": 7,
+    "c05": 7,
+    "diff": 14.29,
+    "ci": [
+     5.55,
+     24.07
+    ],
+    "chance_share": 0.269,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "NY",
+    "assoc": 51,
+    "P3": 0,
+    "CG": 0,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.326,
+    "holm_p": 0.019,
+    "outage_assoc": 11
+   },
+   {
+    "net": "NE",
+    "assoc": 51,
+    "P3": 2,
+    "CG": 3,
+    "CG-D": 2,
+    "c05": 2,
+    "diff": 1.96,
+    "ci": [
+     0.0,
+     6.98
+    ],
+    "chance_share": 0.06,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "UW",
+    "assoc": 46,
+    "P3": 3,
+    "CG": 10,
+    "CG-D": 4,
+    "c05": 4,
+    "diff": 15.22,
+    "ci": [
+     5.26,
+     27.03
+    ],
+    "chance_share": 0.277,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "NM",
+    "assoc": 42,
+    "P3": 8,
+    "CG": 9,
+    "CG-D": 8,
+    "c05": 8,
+    "diff": 2.38,
+    "ci": [
+     -5.88,
+     9.76
+    ],
+    "chance_share": 0.12,
+    "holm_p": 1.0,
+    "outage_assoc": 8
+   },
+   {
+    "net": "TX",
+    "assoc": 35,
+    "P3": 2,
+    "CG": 3,
+    "CG-D": 2,
+    "c05": 2,
+    "diff": 2.86,
+    "ci": [
+     0.0,
+     8.7
+    ],
+    "chance_share": 0.12,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "PE",
+    "assoc": 35,
+    "P3": 0,
+    "CG": 1,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 2.86,
+    "ci": [
+     0.0,
+     10.0
+    ],
+    "chance_share": 0.14,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "N4",
+    "assoc": 34,
+    "P3": 0,
+    "CG": 2,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 5.88,
+    "ci": [
+     0.0,
+     15.63
+    ],
+    "chance_share": 0.151,
+    "holm_p": 1.0,
+    "outage_assoc": 18
+   },
+   {
+    "net": "CO",
+    "assoc": 34,
+    "P3": 0,
+    "CG": 0,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.13,
+    "holm_p": 0.019,
+    "outage_assoc": 0
+   },
+   {
+    "net": "QZ",
+    "assoc": 31,
+    "P3": 2,
+    "CG": 7,
+    "CG-D": 3,
+    "c05": 3,
+    "diff": 16.13,
+    "ci": [
+     3.7,
+     31.03
+    ],
+    "chance_share": 0.452,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   }
+  ]
+ },
+ "A+EXT12": {
+  "file": "v2_eval_A_ext12.json",
+  "included": 6,
+  "listed": 7,
+  "excluded": {
+   "OH": "other: {\"catalogue_failures\": []}"
+  },
+  "V6": {
+   "CG": 3609,
+   "P3": 8146,
+   "P1t": 54721,
+   "networks_CG_below_both": 6,
+   "networks": 6
+  },
+  "V8": {
+   "episodes": 50,
+   "CG_escalated": 50
+  },
+  "chance_share_pooled": 0.31,
+  "associated": 5912,
+  "pooled": {
+   "CG": {
+    "diff": 7.34,
+    "ci": [
+     0.755,
+     16.717
+    ],
+    "equal_weight": 5.37,
+    "equal_weight_ci": [
+     0.824,
+     12.323
+    ],
+    "ratio": 1.507,
+    "ratio_ci": [
+     1.213,
+     2.142
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   },
+   "CG-D": {
+    "diff": 1.84,
+    "ci": [
+     0.062,
+     3.996
+    ],
+    "equal_weight": 1.24,
+    "equal_weight_ci": [
+     0.081,
+     2.901
+    ],
+    "ratio": 1.127,
+    "ratio_ci": [
+     1.013,
+     1.508
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": true
+    }
+   },
+   "c=0.5": {
+    "diff": 1.57,
+    "ci": [
+     0.028,
+     3.342
+    ],
+    "equal_weight": 1.05,
+    "equal_weight_ci": [
+     0.011,
+     2.438
+    ],
+    "ratio": 1.109,
+    "ratio_ci": [
+     1.006,
+     1.483
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": true
+    }
+   },
+   "CG vs P3 8.0": {
+    "diff": 6.44,
+    "ci": [
+     0.581,
+     15.167
+    ],
+    "equal_weight": 4.66,
+    "equal_weight_ci": [
+     0.592,
+     11.022
+    ],
+    "ratio": 1.419,
+    "ratio_ci": [
+     1.172,
+     1.636
+    ],
+    "met_at_margin_pp": {
+     "1": false,
+     "2": false,
+     "3": false,
+     "5": false
+    }
+   }
+  },
+  "zero_discordance_networks": {
+   "AU": {
+    "assoc": 186,
+    "exact_upper_975_pct": 1.96
+   }
+  },
+  "V7": {
+   "assoc": 198,
+   "CG": 21,
+   "P1": 39,
+   "networks": 5,
+   "exercised": true,
+   "holds": true
+  },
+  "rows": [
+   {
+    "net": "C1",
+    "assoc": 1701,
+    "P3": 0,
+    "CG": 3,
+    "CG-D": 0,
+    "c05": 0,
+    "diff": 0.18,
+    "ci": [
+     0.0,
+     0.37
+    ],
+    "chance_share": 0.031,
+    "holm_p": 0.003,
+    "outage_assoc": 2
+   },
+   {
+    "net": "JP",
+    "assoc": 1660,
+    "P3": 649,
+    "CG": 1002,
+    "CG-D": 734,
+    "c05": 720,
+    "diff": 21.27,
+    "ci": [
+     19.11,
+     23.58
+    ],
+    "chance_share": 0.943,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "AV",
+    "assoc": 1387,
+    "P3": 50,
+    "CG": 93,
+    "CG-D": 69,
+    "c05": 68,
+    "diff": 3.1,
+    "ci": [
+     2.24,
+     4.05
+    ],
+    "chance_share": 0.026,
+    "holm_p": 1.0,
+    "outage_assoc": 0
+   },
+   {
+    "net": "KR",
+    "assoc": 540,
+    "P3": 2,
+    "CG": 9,
+    "CG-D": 6,
+    "c05": 6,
+    "diff": 1.3,
+    "ci": [
+     0.4,
+     2.37
+    ],
+    "chance_share": 0.045,
+    "holm_p": 0.012,
+    "outage_assoc": 35
+   },
+   {
+    "net": "IV",
+    "assoc": 438,
+    "P3": 154,
+    "CG": 182,
+    "CG-D": 155,
+    "c05": 154,
+    "diff": 6.39,
+    "ci": [
+     4.13,
+     8.8
+    ],
+    "chance_share": 0.339,
+    "holm_p": 1.0,
+    "outage_assoc": 39
+   },
+   {
+    "net": "AU",
+    "assoc": 186,
+    "P3": 1,
+    "CG": 1,
+    "CG-D": 1,
+    "c05": 1,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "chance_share": 0.018,
+    "holm_p": 0.003,
+    "outage_assoc": 73
+   }
+  ]
+ }
+}

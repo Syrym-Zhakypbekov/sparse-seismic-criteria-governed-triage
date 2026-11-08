@@ -1,0 +1,147 @@
+{
+ "network": "UW",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-4",
+ "platform": "p10-fleet-4-sUW",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "UW",
+   "RVSD",
+   "",
+   "HHZ",
+   47.96477,
+   -117.3568
+  ],
+  "S1_1": [
+   "UW",
+   "BHCR",
+   "",
+   "HHZ",
+   48.12877,
+   -118.04087
+  ],
+  "S1_2": [
+   "UW",
+   "DAVN",
+   "",
+   "HHZ",
+   47.8006,
+   -118.2741
+  ],
+  "S2_1": [
+   "UW",
+   "LBRT",
+   "",
+   "HHZ",
+   47.38237,
+   -117.32492
+  ],
+  "S2_2": [
+   "UW",
+   "LMONT",
+   "",
+   "HHZ",
+   47.20364,
+   -117.89986
+  ],
+  "S3_1": [
+   "UW",
+   "OD2",
+   "",
+   "HHZ",
+   47.387351,
+   -118.711613
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 177,
+     "end_utc": "2026-11-07T20:18:24Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6325,
+     "end_utc": "2026-11-07T22:03:50Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 938,
+     "end_utc": "2026-11-07T22:19:58Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6351,
+     "end_utc": "2026-11-07T22:05:15Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 933,
+     "end_utc": "2026-11-07T22:21:19Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:15:27Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 10.652504475168064,
+  "S1_1": 4.474214262550684,
+  "S1_2": 10.270272448102277,
+  "S2_1": 4.537838128295018,
+  "S2_2": 5.362788442009825,
+  "S3_1": 4.964041099520407
+ },
+ "finished_utc": "2026-11-07T22:21:19Z"
+}

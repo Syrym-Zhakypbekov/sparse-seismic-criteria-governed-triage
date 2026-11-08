@@ -1,0 +1,138 @@
+{
+ "network": "WU",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-sWU",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "WU",
+   "TYNO",
+   "",
+   "HHZ",
+   43.09489,
+   -79.86992
+  ],
+  "S1_1": [
+   "WU",
+   "ACTO",
+   "",
+   "HHZ",
+   43.60869,
+   -80.0623
+  ],
+  "S2_1": [
+   "WU",
+   "MEDO",
+   "",
+   "HHZ",
+   43.16454,
+   -78.45465
+  ],
+  "S3_1": [
+   "WU",
+   "PKRO",
+   "",
+   "HHZ",
+   43.96427,
+   -79.07157
+  ],
+  "S3_2": [
+   "WU",
+   "DRCO",
+   "",
+   "HHZ",
+   43.87645,
+   -78.70218
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 202,
+     "end_utc": "2026-11-07T20:17:54Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 7062,
+     "end_utc": "2026-11-07T22:15:35Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 1076,
+     "end_utc": "2026-11-07T22:34:01Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6805,
+     "end_utc": "2026-11-07T22:12:19Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 1009,
+     "end_utc": "2026-11-07T22:29:38Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:14:31Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 9.485769419453412,
+  "S1_1": 7.345419955219518,
+  "S2_1": 4.458862560904519,
+  "S3_1": 6.638357648948355,
+  "S3_2": 5.099042342487069
+ },
+ "finished_utc": "2026-11-07T22:34:01Z"
+}

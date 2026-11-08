@@ -1,0 +1,99 @@
+{
+ "plan": "PLAN_calendar_ctx_2026-11-08.md (55104e4)",
+ "networks": 26,
+ "calendar_days": 182,
+ "replicates": 10000,
+ "seed": 7,
+ "observed": {
+  "H1_ctx_minus_P3_pp": -0.233,
+  "H1_ratio": 0.8978,
+  "H2_ctx_minus_c05_pp": -0.665,
+  "H2_ratio": 0.7546
+ },
+ "blocks": {
+  "1d": {
+   "H1_diff_ci95_pp": [
+    -0.993,
+    0.369
+   ],
+   "H1_ratio_ci95": [
+    0.634,
+    1.21
+   ],
+   "H2_diff_ci95_pp": [
+    -1.462,
+    -0.169
+   ],
+   "H2_ratio_ci95": [
+    0.536,
+    0.925
+   ],
+   "H1_met_margin3": true,
+   "H1_ratio_met": true,
+   "H2_fewer_than_c05": true
+  },
+  "7d": {
+   "H1_diff_ci95_pp": [
+    -0.973,
+    0.37
+   ],
+   "H1_ratio_ci95": [
+    0.635,
+    1.206
+   ],
+   "H2_diff_ci95_pp": [
+    -1.473,
+    -0.174
+   ],
+   "H2_ratio_ci95": [
+    0.537,
+    0.925
+   ],
+   "H1_met_margin3": true,
+   "H1_ratio_met": true,
+   "H2_fewer_than_c05": true
+  },
+  "14d": {
+   "H1_diff_ci95_pp": [
+    -1.012,
+    0.404
+   ],
+   "H1_ratio_ci95": [
+    0.624,
+    1.235
+   ],
+   "H2_diff_ci95_pp": [
+    -1.476,
+    -0.177
+   ],
+   "H2_ratio_ci95": [
+    0.54,
+    0.924
+   ],
+   "H1_met_margin3": true,
+   "H1_ratio_met": true,
+   "H2_fewer_than_c05": true
+  },
+  "28d": {
+   "H1_diff_ci95_pp": [
+    -0.968,
+    0.464
+   ],
+   "H1_ratio_ci95": [
+    0.638,
+    1.259
+   ],
+   "H2_diff_ci95_pp": [
+    -1.438,
+    -0.177
+   ],
+   "H2_ratio_ci95": [
+    0.545,
+    0.925
+   ],
+   "H1_met_margin3": true,
+   "H1_ratio_met": true,
+   "H2_fewer_than_c05": true
+  }
+ }
+}

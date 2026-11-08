@@ -1,0 +1,276 @@
+{
+ "plan": "PLAN_TIME_DISJOINT_2023_2026-11-08.md section 3",
+ "run_utc": "2026-11-08T11:25:21+00:00",
+ "window": [
+  "2023-05-25",
+  "2023-06-01",
+  "2023-08-30"
+ ],
+ "evaluation_days": 90,
+ "candidates": {
+  "A2": {
+   "network": "A2",
+   "datacentre": "EarthScope",
+   "window": [
+    "2023-05-25",
+    "2023-06-01",
+    "2023-08-30"
+   ],
+   "rejections": [
+    {
+     "reference": "ARZK",
+     "reason": "third site closer than 100 km (68.2)"
+    },
+    {
+     "reference": "SHMT",
+     "reason": "third site closer than 100 km (95.3)"
+    },
+    {
+     "reference": "SVZR",
+     "reason": "third site closer than 100 km (93.9)"
+    },
+    {
+     "reference": "TTJR",
+     "reason": "third site closer than 100 km (75.8)"
+    },
+    {
+     "reference": "ZRSH",
+     "reason": "third site closer than 100 km (99.5)"
+    },
+    {
+     "reference": "LRNG",
+     "reason": "reference share>=0.90 on 86.7% of days (< 90 %)"
+    }
+   ],
+   "eligible_streams_covering_window": [
+    "A2.ARZK.00.HHZ",
+    "A2.KCHK.00.HHZ",
+    "A2.LRNG.00.HHZ",
+    "A2.SHMT.00.HHZ",
+    "A2.SVZR.00.HHZ",
+    "A2.TTJR.00.HHZ",
+    "A2.ZRSH.00.HHZ"
+   ],
+   "restrictedStatus": "unknown",
+   "chosen": {
+    "window": "T23",
+    "reference": "KCHK",
+    "key": [
+     0,
+     -3,
+     -3,
+     -0.9111111111111111,
+     "KCHK"
+    ],
+    "pair": false,
+    "site_outage_days": [
+     3,
+     0,
+     0
+    ],
+    "reference_good_day_share": 0.911,
+    "reference_stream": "A2.KCHK.00.HHZ",
+    "lat": 39.610717,
+    "lon": 45.199504,
+    "sites": [
+     {
+      "dist_km": 41.6,
+      "members": [
+       {
+        "sta": "SVZR",
+        "dist_km": 41.6,
+        "stream": "A2.SVZR.00.HHZ",
+        "lat": 39.920301,
+        "lon": 45.471962
+       }
+      ]
+     },
+     {
+      "dist_km": 104.7,
+      "members": [
+       {
+        "sta": "ARZK",
+        "dist_km": 104.7,
+        "stream": "A2.ARZK.00.HHZ",
+        "lat": 40.428408,
+        "lon": 44.589914
+       }
+      ]
+     },
+     {
+      "dist_km": 110.6,
+      "members": [
+       {
+        "sta": "TTJR",
+        "dist_km": 110.6,
+        "stream": "A2.TTJR.00.HHZ",
+        "lat": 40.597151,
+        "lon": 45.365255
+       }
+      ]
+     }
+    ]
+   },
+   "passing_configurations": 1,
+   "result": "included",
+   "w3_configuration_reference": "A2.AGVN.00.HHZ"
+  },
+  "CA": {
+   "network": "CA",
+   "datacentre": "EarthScope",
+   "window": [
+    "2023-05-25",
+    "2023-06-01",
+    "2023-08-30"
+   ],
+   "rejections": [
+    {
+     "reference": "ARBS",
+     "reason": "third site closer than 100 km (63.8)"
+    },
+    {
+     "reference": "CADI",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "CARA",
+     "reason": "third site closer than 100 km (92.8)"
+    },
+    {
+     "reference": "CAVN",
+     "reason": "third site closer than 100 km (89.1)"
+    },
+    {
+     "reference": "CBEU",
+     "reason": "third site closer than 100 km (45.5)"
+    },
+    {
+     "reference": "CBRU",
+     "reason": "third site closer than 100 km (41.0)"
+    },
+    {
+     "reference": "CBUD",
+     "reason": "third site closer than 100 km (94.2)"
+    },
+    {
+     "reference": "CEST",
+     "reason": "third site closer than 100 km (89.9)"
+    },
+    {
+     "reference": "CFON",
+     "reason": "third site closer than 100 km (46.1)"
+    },
+    {
+     "reference": "CGAR",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "CLLI",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "CMAS",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "CORG",
+     "reason": "third site closer than 100 km (60.6)"
+    },
+    {
+     "reference": "CORI",
+     "reason": "third site closer than 100 km (66.6)"
+    },
+    {
+     "reference": "CPAL",
+     "reason": "third site closer than 100 km (99.4)"
+    },
+    {
+     "reference": "CSOR",
+     "reason": "third site closer than 100 km (63.2)"
+    },
+    {
+     "reference": "CTRE",
+     "reason": "third site closer than 100 km (87.4)"
+    },
+    {
+     "reference": "EBR",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "FBR",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "ICJA",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "POBL",
+     "reason": "third site closer than 100 km (78.1)"
+    },
+    {
+     "reference": "VILA",
+     "reason": "another eligible station of the network within 20 km of the reference"
+    },
+    {
+     "reference": "CCAS",
+     "reason": "no availability metadata for the reference stream"
+    },
+    {
+     "reference": "CFAR",
+     "reason": "no availability metadata for the reference stream"
+    }
+   ],
+   "eligible_streams_covering_window": [
+    "CA.ARBS..HHZ",
+    "CA.CADI..BHZ",
+    "CA.CARA..HHZ",
+    "CA.CAVN..HHZ",
+    "CA.CBEU..HHZ",
+    "CA.CBRU..HHZ",
+    "CA.CBUD..HHZ",
+    "CA.CCAS..HHZ",
+    "CA.CEST..HHZ",
+    "CA.CFAR..HHZ",
+    "CA.CFON..HHZ",
+    "CA.CGAR..HHZ",
+    "CA.CLLI..HHZ",
+    "CA.CMAS..HHZ",
+    "CA.CORG..HHZ",
+    "CA.CORI..HHZ",
+    "CA.CPAL..HHZ",
+    "CA.CSOR..HHZ",
+    "CA.CTRE..HHZ",
+    "CA.EBR..HHZ",
+    "CA.FBR..HHZ",
+    "CA.ICJA..HHZ",
+    "CA.POBL..HHZ",
+    "CA.VILA..HHZ"
+   ],
+   "result": "not included: no configuration passes sections 4-5 in the 2023 window",
+   "w3_configuration_reference": "CA.CCAS..HHZ"
+  },
+  "OT": {
+   "network": "OT",
+   "datacentre": "INGV",
+   "window": [
+    "2023-05-25",
+    "2023-06-01",
+    "2023-08-30"
+   ],
+   "rejections": [],
+   "eligible_streams_covering_window": [
+    "OT.CGL1..HHZ",
+    "OT.MASS..HHZ",
+    "OT.TAR1..HHZ"
+   ],
+   "result": "not included: fewer than 4 eligible stations covering the window (3)",
+   "w3_configuration_reference": "OT.TAR1..HHZ"
+  }
+ },
+ "log": [
+  "A2 included A2.KCHK.00.HHZ",
+  "CA not included: no configuration passes sections 4-5 in the 2023 window ",
+  "OT not included: fewer than 4 eligible stations covering the window (3) "
+ ]
+}

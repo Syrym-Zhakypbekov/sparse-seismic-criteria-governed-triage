@@ -1,0 +1,15 @@
+{
+ "_source": "first/last file modification time (UTC) of each run directory on Google Cloud VM p10-seismic (NTP-synced), read 07.11.2026 ~15:15 UTC with: find <dir> -type f -printf '%T@' | sort -n; VM creationTimestamp from results/extended/vm_2025/gcp_instance_record.yaml; Kaggle version created time from the Kaggle API (ListKernelVersions).",
+ "extended_MAKZ_vm_created": "2026-11-07T11:38:46Z",
+ "extended_MAKZ_kaggle_2026h1_version_created": "2026-11-07T11:39:11Z",
+ "extended_MAKZ_rerun_2025-09": "2026-11-07T11:59:23Z",
+ "kurk_extended_first_chunk": "2026-11-07T12:09:47Z",
+ "blast_features": "2026-11-07T13:15:56Z",
+ "y2024_MAKZ_first_chunk": "2026-11-07T13:23:53Z",
+ "y2024_MAKZ_last_file": "2026-11-07T13:33:26Z",
+ "y2024_KURK_first_chunk": "2026-11-07T13:26:50Z",
+ "y2024_KURK_last_file": "2026-11-07T13:36:40Z",
+ "kz_tuning_first_file": "2026-11-07T14:03:32Z",
+ "heldout_kaggle_version_created": "2026-11-07T10:17:40Z",
+ "_note_heldout": "PREREGISTRATION.md first pushed as cc0b46f (before the 10:22:43Z force push that rewrote author trailers); file content identical to 06a2746 in current history (git diff cc0b46f 06a2746 -- PREREGISTRATION.md is empty)."
+}

@@ -1,0 +1,111 @@
+{
+ "network": "EE",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-4",
+ "platform": "p10-fleet-4-a",
+ "fdsn_base": "https://geofon.gfz.de",
+ "stations": {
+  "MAKZ": [
+   "EE",
+   "EE02",
+   "",
+   "HHZ",
+   59.19057,
+   24.69683
+  ],
+  "S1_1": [
+   "EE",
+   "MTSE",
+   "",
+   "BHZ",
+   58.7144,
+   23.8146
+  ],
+  "S2_1": [
+   "EE",
+   "ARBE",
+   "",
+   "BHZ",
+   59.4365,
+   25.9841
+  ],
+  "S3_1": [
+   "EE",
+   "EE06",
+   "",
+   "HHZ",
+   58.9695,
+   22.8482
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 142,
+     "end_utc": "2026-11-07T19:58:56Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2209,
+     "end_utc": "2026-11-07T20:35:46Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2216,
+     "end_utc": "2026-11-07T20:36:52Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:56:34Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 4.842404050864778,
+  "S1_1": 7.508528037955921,
+  "S2_1": 7.8784676936708165,
+  "S3_1": 4.188565854409883
+ },
+ "finished_utc": "2026-11-07T20:36:52Z"
+}

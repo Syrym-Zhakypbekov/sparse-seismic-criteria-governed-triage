@@ -1,0 +1,138 @@
+{
+ "network": "CN",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "1790dba60c50",
+ "platform": "kaggle",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "CN",
+   "KGNO",
+   "",
+   "HHZ",
+   44.2272,
+   -76.4934
+  ],
+  "S1_1": [
+   "CN",
+   "WBO",
+   "",
+   "HHZ",
+   45.0012,
+   -75.2753
+  ],
+  "S2_1": [
+   "CN",
+   "OTT",
+   "",
+   "HHZ",
+   45.3939,
+   -75.7148
+  ],
+  "S2_2": [
+   "CN",
+   "ORIO",
+   "",
+   "HHZ",
+   45.4515,
+   -75.511
+  ],
+  "S3_1": [
+   "CN",
+   "CHRO",
+   "",
+   "HHZ",
+   46.0376,
+   -77.3794
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 147,
+     "end_utc": "2026-11-07T22:01:54Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 4050,
+     "end_utc": "2026-11-07T23:09:24Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 385,
+     "end_utc": "2026-11-07T23:16:19Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 4066,
+     "end_utc": "2026-11-07T23:10:41Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 386,
+     "end_utc": "2026-11-07T23:17:36Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T21:59:27Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 3.356552779557651,
+  "S1_1": 4.095240300495177,
+  "S2_1": 5.696317469800844,
+  "S2_2": 5.4652014287441055,
+  "S3_1": 4.769210218041712
+ },
+ "finished_utc": "2026-11-07T23:17:36Z"
+}

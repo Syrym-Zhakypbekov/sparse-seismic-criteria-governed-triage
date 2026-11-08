@@ -1,0 +1,64 @@
+{
+ "status": "post hoc (internal review v30); pre-specified G1/G2 unchanged",
+ "confirmed_episodes": 3943,
+ "chance_confirmed_mean": 312.17,
+ "shifts_days": [
+  -3,
+  -2,
+  -1,
+  1,
+  2,
+  3
+ ],
+ "P3": {
+  "dismissed_confirmed": 21,
+  "chance_dismissed_mean": 16.33
+ },
+ "policies": {
+  "CG": {
+   "dismissed_confirmed": 169,
+   "chance_dismissed_mean": 106.5,
+   "raw_minus_P3_pp": 3.75,
+   "raw_ci95": [
+    3.14,
+    4.41
+   ],
+   "chance_corrected_minus_P3_pp": 1.59,
+   "chance_corrected_ci95": [
+    0.88,
+    2.29
+   ],
+   "corrected_criterion_met": true
+  },
+  "CG-D": {
+   "dismissed_confirmed": 32,
+   "chance_dismissed_mean": 31.83,
+   "raw_minus_P3_pp": 0.28,
+   "raw_ci95": [
+    0.1,
+    0.46
+   ],
+   "chance_corrected_minus_P3_pp": -0.12,
+   "chance_corrected_ci95": [
+    -0.34,
+    0.09
+   ],
+   "corrected_criterion_met": true
+  },
+  "CG_c05": {
+   "dismissed_confirmed": 31,
+   "chance_dismissed_mean": 29.67,
+   "raw_minus_P3_pp": 0.25,
+   "raw_ci95": [
+    0.1,
+    0.43
+   ],
+   "chance_corrected_minus_P3_pp": -0.09,
+   "chance_corrected_ci95": [
+    -0.29,
+    0.12
+   ],
+   "corrected_criterion_met": true
+  }
+ }
+}

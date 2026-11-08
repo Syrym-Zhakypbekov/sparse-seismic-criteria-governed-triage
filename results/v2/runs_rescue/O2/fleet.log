@@ -1,0 +1,7 @@
+2026-11-08T07:07:52Z O2 rescue candidates ['2024-01-01', '2024-01-02', '2024-01-03']
+2026-11-08T07:11:14Z O2 tune attempt 1: rc=1 202s thresholds=yes
+2026-11-08T07:11:14Z O2 rescue window 2024-01-01: non-finite thresholds {'MAKZ': 5.90677425196808, 'S1_1': 7.591285469779798, 'S2_1': 5.038165420079955, 'S2_2': 4.178139682565395, 'S3_1': nan}
+2026-11-08T07:12:21Z O2 tune attempt 1: rc=1 67s thresholds=yes
+2026-11-08T07:12:21Z O2 rescue window 2024-01-02: non-finite thresholds {'MAKZ': 6.5231836089143655, 'S1_1': 7.489105126482809, 'S2_1': 5.85069138624024, 'S2_2': 4.25834383475647, 'S3_1': nan}
+2026-11-08T07:13:33Z O2 tune attempt 1: rc=1 72s thresholds=yes
+2026-11-08T07:13:33Z O2 rescue window 2024-01-03: non-finite thresholds {'MAKZ': 7.5061949082617305, 'S1_1': 7.815662174257547, 'S2_1': 6.2587227652220925, 'S2_2': 5.8703254540272205, 'S3_1': nan}

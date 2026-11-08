@@ -1,0 +1,84 @@
+{
+ "network": "CU",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "becc4d56fa91",
+ "platform": "kaggle",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "CU",
+   "SDDR",
+   "00",
+   "BHZ",
+   18.982121,
+   -71.287836
+  ],
+  "S1_1": [
+   "CU",
+   "GRTK",
+   "00",
+   "BHZ",
+   21.511472,
+   -71.13425
+  ],
+  "S2_1": [
+   "CU",
+   "GTBY",
+   "00",
+   "BHZ",
+   19.9268,
+   -75.1108
+  ],
+  "S3_1": [
+   "CU",
+   "MTDJ",
+   "00",
+   "BHZ",
+   18.22605,
+   -77.53454
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 100,
+     "end_utc": "2026-11-07T19:31:19Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:29:38Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 4.143103192079701,
+  "S1_1": NaN,
+  "S2_1": 4.346353014062105,
+  "S3_1": 4.397888609307901
+ }
+}

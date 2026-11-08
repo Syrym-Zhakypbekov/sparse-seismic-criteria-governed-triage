@@ -1,0 +1,169 @@
+thresholds {'MAKZ': 8.251656209298387, 'MK31': 8.071929016229019, 'KURK': 9.614672444383686, 'WUS': 11.59454367320804}
+{'day': '2024-04-01', 'MAKZ_valid_share': 0.9903, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-04-02', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9811, 'WUS_valid_share': 1.0}
+{'day': '2024-04-03', 'MAKZ_valid_share': 0.9867, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9998, 'WUS_valid_share': 1.0}
+{'day': '2024-04-04', 'MAKZ_valid_share': 0.9857, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9561, 'WUS_valid_share': 1.0}
+{'day': '2024-04-05', 'MAKZ_valid_share': 0.9368, 'MK31_valid_share': 0.9452, 'KURK_valid_share': 0.9433, 'WUS_valid_share': 1.0}
+{'day': '2024-04-06', 'MAKZ_valid_share': 0.9882, 'MK31_valid_share': 0.9978, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-04-07', 'MAKZ_valid_share': 0.9879, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-08', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-04-09', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.9963, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-10', 'MAKZ_valid_share': 0.9822, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-04-11', 'MAKZ_valid_share': 0.9845, 'MK31_valid_share': 0.9952, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-04-12', 'MAKZ_valid_share': 0.9964, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-13', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-14', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-04-15', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 0.9904, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-16', 'MAKZ_valid_share': 0.9893, 'MK31_valid_share': 0.8719, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-17', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 0.9918, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-18', 'MAKZ_valid_share': 0.9963, 'MK31_valid_share': 0.8158, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-19', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 0.8257, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-20', 'MAKZ_valid_share': 0.9964, 'MK31_valid_share': 0.999, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-21', 'MAKZ_valid_share': 0.994, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-22', 'MAKZ_valid_share': 0.9834, 'MK31_valid_share': 0.841, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-23', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.8501, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-24', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.9848, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-25', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.9892, 'KURK_valid_share': 0.9975, 'WUS_valid_share': 1.0}
+{'day': '2024-04-26', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.994, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-27', 'MAKZ_valid_share': 0.9964, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-28', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-04-29', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-04-30', 'MAKZ_valid_share': 0.9845, 'MK31_valid_share': 0.9817, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-01', 'MAKZ_valid_share': 0.994, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-05-02', 'MAKZ_valid_share': 0.9809, 'MK31_valid_share': 0.9526, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-03', 'MAKZ_valid_share': 0.9915, 'MK31_valid_share': 0.9735, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-04', 'MAKZ_valid_share': 0.9844, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-05-05', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-06', 'MAKZ_valid_share': 0.9844, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-07', 'MAKZ_valid_share': 0.9868, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-08', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-09', 'MAKZ_valid_share': 0.9856, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-10', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-11', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-12', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-13', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-14', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-15', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-16', 'MAKZ_valid_share': 0.9857, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-05-17', 'MAKZ_valid_share': 0.9867, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-05-18', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-19', 'MAKZ_valid_share': 0.9856, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9997, 'WUS_valid_share': 1.0}
+{'day': '2024-05-20', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-21', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-05-22', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 0.562, 'KURK_valid_share': 0.9998, 'WUS_valid_share': 1.0}
+{'day': '2024-05-23', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 0.9958, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-05-24', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-05-25', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9997, 'WUS_valid_share': 1.0}
+{'day': '2024-05-26', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9984, 'WUS_valid_share': 1.0}
+{'day': '2024-05-27', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-05-28', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-05-29', 'MAKZ_valid_share': 0.9917, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-05-30', 'MAKZ_valid_share': 0.9856, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9986, 'WUS_valid_share': 1.0}
+{'day': '2024-05-31', 'MAKZ_valid_share': 0.988, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-06-01', 'MAKZ_valid_share': 0.9868, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.4288, 'WUS_valid_share': 1.0}
+{'day': '2024-06-02', 'MAKZ_valid_share': 0.9988, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9983, 'WUS_valid_share': 1.0}
+{'day': '2024-06-03', 'MAKZ_valid_share': 0.9857, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-06-04', 'MAKZ_valid_share': 0.9857, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-06-05', 'MAKZ_valid_share': 0.9917, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-06-06', 'MAKZ_valid_share': 0.9869, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9997, 'WUS_valid_share': 1.0}
+{'day': '2024-06-07', 'MAKZ_valid_share': 0.9892, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9985, 'WUS_valid_share': 1.0}
+{'day': '2024-06-08', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-06-09', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9985, 'WUS_valid_share': 1.0}
+{'day': '2024-06-10', 'MAKZ_valid_share': 0.9813, 'MK31_valid_share': 0.9939, 'KURK_valid_share': 0.9921, 'WUS_valid_share': 1.0}
+{'day': '2024-06-11', 'MAKZ_valid_share': 0.9789, 'MK31_valid_share': 0.9913, 'KURK_valid_share': 0.9916, 'WUS_valid_share': 1.0}
+{'day': '2024-06-12', 'MAKZ_valid_share': 0.9966, 'MK31_valid_share': 0.999, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-06-13', 'MAKZ_valid_share': 0.9819, 'MK31_valid_share': 0.9571, 'KURK_valid_share': 0.9998, 'WUS_valid_share': 1.0}
+{'day': '2024-06-14', 'MAKZ_valid_share': 0.9845, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-06-15', 'MAKZ_valid_share': 0.9941, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-06-16', 'MAKZ_valid_share': 0.9917, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+{'day': '2024-06-17', 'MAKZ_valid_share': 0.9929, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9998, 'WUS_valid_share': 1.0}
+{'day': '2024-06-18', 'MAKZ_valid_share': 0.9905, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-06-19', 'MAKZ_valid_share': 0.9835, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-06-20', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9999, 'WUS_valid_share': 1.0}
+{'day': '2024-06-21', 'MAKZ_valid_share': 0.9928, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9983, 'WUS_valid_share': 1.0}
+{'day': '2024-06-22', 'MAKZ_valid_share': 0.9881, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9984, 'WUS_valid_share': 1.0}
+{'day': '2024-06-23', 'MAKZ_valid_share': 0.9869, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9988, 'WUS_valid_share': 1.0}
+{'day': '2024-06-24', 'MAKZ_valid_share': 0.9952, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-06-25', 'MAKZ_valid_share': 0.9904, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9986, 'WUS_valid_share': 1.0}
+{'day': '2024-06-26', 'MAKZ_valid_share': 0.9917, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9986, 'WUS_valid_share': 1.0}
+{'day': '2024-06-27', 'MAKZ_valid_share': 0.9917, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9989, 'WUS_valid_share': 1.0}
+{'day': '2024-06-28', 'MAKZ_valid_share': 0.9894, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9997, 'WUS_valid_share': 1.0}
+{'day': '2024-06-29', 'MAKZ_valid_share': 0.9881, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+{'day': '2024-06-30', 'MAKZ_valid_share': 0.9916, 'MK31_valid_share': 1.0, 'KURK_valid_share': 0.9987, 'WUS_valid_share': 1.0}
+MK31 distance_km 23.9 window_s 9.4
+KURK distance_km 499.6 window_s 95.8
+WUS distance_km 433.6 window_s 83.8
+{
+ "version": "v3",
+ "dev_days": 91,
+ "thresholds_q99.9": {
+  "MAKZ": 8.251656209298387,
+  "MK31": 8.071929016229019,
+  "KURK": 9.614672444383686,
+  "WUS": 11.59454367320804
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "KZ.MAKZ..BHZ"
+  ],
+  "MK31": [
+   "KZ.MKAR..BHZ"
+  ],
+  "KURK": [
+   "KZ.KURK..BHZ"
+  ],
+  "WUS": [
+   "KZ.PDGK..BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 2468,
+  "MK31": 2674,
+  "KURK": 887,
+  "WUS": 1431
+ },
+ "ref_episodes_per_day": 27.12087912087912,
+ "catalog_failures": [],
+ "fetch_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 20,
+ "catalog": {
+  "regional": 3034,
+  "tele": 99
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2024-04-01T00:00:00.000000Z",
+   "2024-04-01T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2024-04-01T00:00:00.000000Z",
+   "2024-07-01T00:00:00.000000Z"
+  ]
+ }
+}

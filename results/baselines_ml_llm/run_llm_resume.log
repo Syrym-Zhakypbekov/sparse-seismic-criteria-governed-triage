@@ -1,0 +1,41 @@
+{
+ "model": "gemini-3.8-flash",
+ "calls_made": 1343,
+ "http_failed_records_retried": 43,
+ "calls_planned": 1300,
+ "cost_usd": 0.6868,
+ "tokens": {
+  "promptTokenCount": 458257,
+  "candidatesTokenCount": 87165,
+  "thoughtsTokenCount": 4329
+ },
+ "errors_http": 43,
+ "model_versions": [
+  "None",
+  "gemini-3.8-flash"
+ ],
+ "latency_s": {
+  "median": 2.147,
+  "p95": 6.494,
+  "mean": 3.578,
+  "n": 1300
+ },
+ "cost_per_call_usd": 0.000511,
+ "cost_per_10000_episodes_usd": 5.11,
+ "L1_format": {
+  "answers": 1200,
+  "valid": 1200,
+  "invalid_or_refused": 0,
+  "valid_share_pct": 100.0,
+  "holds": true,
+  "finish_reasons": {
+   "STOP": 1200
+  }
+ },
+ "L4_repeatability": {
+  "pairs": 100,
+  "same_action": 99,
+  "share_pct": 99.0,
+  "holds": true
+ }
+}

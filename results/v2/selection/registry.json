@@ -1,0 +1,1182 @@
+{
+ "version": 1.0,
+ "datacenters": [
+  {
+   "name": "AusPass",
+   "fullName": "The Australian Passive Seismic Server at ANU",
+   "summary": "A collection of temporary arrays throughout the greater Australian plate, as well as the streaming Australian Seismometers in Schools (AUSIS) S1 and Mate (M8) permanent networks",
+   "website": "https://auspass.edu.au",
+   "repositories": [
+    {
+     "name": "ARCHIVE",
+     "description": "Primary archive and relevant services",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://auspass.edu.au/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data",
+       "compatibleWith": "fdsnws-dataselect-1"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://auspass.edu.au/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data",
+       "compatibleWith": "fdsnws-station-1"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://auspass.edu.au/fdsnws/availability/1/",
+       "description": "Access to availability information for raw time series data",
+       "compatibleWith": "fdsnws-availability-1"
+      },
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://auspass.edu.au/fdsnws/event/1/",
+       "description": "Access GeoScience Australia's event catalog (updated monthly). See also: https://earthquakes.ga.gov.au/",
+       "compatibleWith": "fdsnws-event-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BGR",
+   "fullName": "BGR Data Centre",
+   "summary": "Bundesanstalt fuer Geowissenschaften und Rohstoffe",
+   "website": "https://www.bgr.bund.de",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida.bgr.de/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida.bgr.de/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida.bgr.de/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://eida.bgr.de/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BGS",
+   "fullName": "BGS Data Centre",
+   "summary": "British Geological Survey",
+   "website": "https://eida.bgs.ac.uk",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "SEED based archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida.bgs.ac.uk/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida.bgs.ac.uk/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida.bgs.ac.uk/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog-1",
+       "url": "https://eida.bgs.ac.uk/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://eida.bgs.ac.uk/eidaws/psd/1/",
+       "description": "EIDA SeedPSD service"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CATAC",
+   "fullName": "Central American Tsunami Advisory Center",
+   "summary": "The Central American Tsunami Advisory Center (CATAC) established at INETER, Managua, Nicaragua, provides tsunami services for the Central American countries (Nicaragua, Guatemala, El Salvador, Honduras, Costa Rica, Panama) within the framework of IOC/UNESCO (Pacific Tsunami Warning System PTWS and Caribbean Tsunami Warning System CARIBE TWS). It receives seismic waveform data in real time from around 500 seismic stations in Central America and surrounding areas. It detects and characterizes earthquakes and identifies the possible generation of tsunami. The possible impact of the tsunami is evaluated with geophysical and oceanographic methods and parameters like tsunami arrival time and amplitudes are predicted and communicated to the scientific and civil protection institutions responsible for tsunamis warning in the Central American countries.",
+   "website": "http://catac.ineter.gob.ni",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": []
+    }
+   ]
+  },
+  {
+   "name": "EarthScope",
+   "fullName": "EarthScope Data Services",
+   "summary": "The Data Management Center of EarthScope Data Services",
+   "website": "https://www.earthscope.org/data/",
+   "repositories": [
+    {
+     "name": "PRIMARY",
+     "description": "Primary miniSEED archive and common services",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://service.earthscope.org/fdsnws/dataselect/1",
+       "description": "Time series data",
+       "compatibleWith": "fdsnws-dataselect-1"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://service.earthscope.org/fdsnws/station/1",
+       "description": "Metadata describing time series data",
+       "compatibleWith": "fdsnws-station-1"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "http://service.earthscope.org/fdsnws/availability/1",
+       "description": "Availability of time series data",
+       "compatibleWith": "fdsnws-availability-1"
+      },
+      {
+       "name": "irisws-fedcatalog-1",
+       "url": "http://service.earthscope.org/irisws/fedcatalog/1/",
+       "description": "Federated data catalog, discover data and resolve requests across data centers"
+      },
+      {
+       "name": "irisws-syngine-1",
+       "url": "http://service.earthscope.org/irisws/syngine/1/",
+       "description": "Synthetics Engine, on-demand synthetic seismograms"
+      },
+      {
+       "name": "irisws-timeseriesplot-1",
+       "url": "http://service.earthscope.org/irisws/timeseriesplot/1/",
+       "description": "Plots of time series"
+      },
+      {
+       "name": "irisws-evalresp-1",
+       "url": "http://service.earthscope.org/irisws/evalresp/1/",
+       "description": "Evaluated responses in various formats"
+      },
+      {
+       "name": "irisws-virtualnetwork-1",
+       "url": "http://service.earthscope.org/irisws/virtualnetwork/1/",
+       "description": "Query virtual network definitions"
+      },
+      {
+       "name": "mustang-measurements-1",
+       "url": "https://service.earthscope.org/mustang/measurements/1/",
+       "description": "The main MUSTANG web service returning measurements for metrics relating to station data quality"
+      },
+      {
+       "name": "mustang-noise-psd-1",
+       "url": "https://service.earthscope.org/mustang/noise-psd/1/",
+       "description": "Returns Power Spectral Density estimates of seismic data and can generate aggregate plots"
+      },
+      {
+       "name": "mustang-noise-pdf-1",
+       "url": "https://service.earthscope.org/mustang/noise-pdf/1/",
+       "description": "Returns Probability Density Functions in frequency `bins` and can generate aggregate plots"
+      },
+      {
+       "name": "mustang-noise-spectrogram-1",
+       "url": "https://service.earthscope.org/mustang/noise-spectrogram/1/",
+       "description": "Returns seismic spectrogram images based on daily PDF mode values"
+      },
+      {
+       "name": "mustang-noise-pdf-browser-1",
+       "url": "https://service.earthscope.org/mustang/noise-pdf-browser/1/",
+       "description": "Returns browseable views of Mustang PDF plots"
+      },
+      {
+       "name": "mustang-noise-mode-timeseries-1",
+       "url": "https://service.earthscope.org/mustang/noise-mode-timeseries/1/",
+       "description": "Returns PDF Modes and Mode Timeline Plots"
+      },
+      {
+       "name": "mustang-metrics-1",
+       "url": "https://service.earthscope.org/mustang/metrics/1/",
+       "description": "The metrics web service returns a description of available metrics in a variety of formats"
+      },
+      {
+       "name": "mustang-targets-1",
+       "url": "https://service.earthscope.org/mustang/targets/1/",
+       "description": "The targets web service returns a list of stations and channels for a given metric"
+      },
+      {
+       "name": "seedlink-4",
+       "url": "seedlink://rtserve.earthscope.org",
+       "description": "SeedLink 3.1 & 4.0 service for the EarthScope Data Center"
+      }
+     ]
+    },
+    {
+     "name": "PH5",
+     "description": "PH5-based archive",
+     "services": [
+      {
+       "name": "ph5ws-dataselect-1",
+       "url": "http://service.iris.edu/ph5ws/dataselect/1",
+       "description": "Raw time series data",
+       "compatibleWith": "fdsnws-dataselect-1"
+      },
+      {
+       "name": "ph5ws-station-1",
+       "url": "http://service.iris.edu/ph5ws/station/1",
+       "description": "Metadata describing time series data",
+       "compatibleWith": "fdsnws-station-1"
+      },
+      {
+       "name": "ph5ws-availability-1",
+       "url": "http://service.iris.edu/ph5ws/availability/1",
+       "description": "Availability of time series data",
+       "compatibleWith": "fdsnws-availability-1"
+      },
+      {
+       "name": "ph5ws-event-1",
+       "url": "http://service.iris.edu/ph5ws/event/1",
+       "description": "Active source event metadata for time series data",
+       "compatibleWith": "fdsnws-event-1"
+      },
+      {
+       "name": "ph5ws-resp-1",
+       "url": "http://service.iris.edu/irisws/resp/1/",
+       "description": "Metadata in SEED RESP format",
+       "compatibleWith": "irisws-resp-1"
+      },
+      {
+       "name": "ph5ws-evalresp-1",
+       "url": "http://service.iris.edu/irisws/evalresp/1/",
+       "description": "Evaluated responses in various formats",
+       "compatibleWith": "irisws-evalresp-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EMSC",
+   "fullName": "European-Mediterranean Seismological Centre",
+   "summary": "Data of European-Mediterranean Seismological Centre",
+   "website": "https://www.emsc-csem.org/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of parametric seismic data and common services",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://www.seismicportal.eu/fdsnws/event/1/",
+       "description": "Event parameters collected in real-time",
+       "compatibleWith": "fdsnws-event-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "EPOSFR",
+   "fullName": "EPOS France Seismological Data Centre",
+   "summary": "EPOS France Seismological Data Centre",
+   "website": "https://seismology.epos-france.fr",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "SEED based archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://seisdata.epos-france.fr/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://seisdata.epos-france.fr/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://seisdata.epos-france.fr/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "resifws-timeseriesplot-1",
+       "url": "https://seisdata.epos-france.fr/resifws/timeseriesplot/1/",
+       "description": "Plot of timeseries"
+      },
+      {
+       "name": "resifws-timeseries-1",
+       "url": "https://seisdata.epos-france.fr/resifws/timeseries/1/",
+       "description": "Processed and reformatted time series"
+      },
+      {
+       "name": "resifws-sacpz-1",
+       "url": "https://seisdata.epos-france.fr/resifws/sacpz/1/",
+       "description": "Metadata in SAC Poles and Zeros format"
+      },
+      {
+       "name": "resifws-resp-1",
+       "url": "https://seisdata.epos-france.fr/resifws/resp/1/",
+       "description": "Metadata in SEED-RESP format"
+      },
+      {
+       "name": "resifws-evalresp-1",
+       "url": "https://seisdata.epos-france.fr/resifws/evalresp/1/",
+       "description": "Evaluated responses in various formats"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://seisdata.epos-france.fr/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    },
+    {
+     "name": "event",
+     "description": "BCSF R\u00e9nass events catalog",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://api.franceseisme.fr/fdsnws/event/1/",
+       "description": "Access to events data. Service provided by BCSF-R\u00e9nass."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ETH",
+   "fullName": "ETH Data Centre",
+   "summary": "Eidgen\u00f6ssische Technische Hochschule Z\u00fcrich",
+   "website": "https://www.ethz.ch",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida.ethz.ch/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida.ethz.ch/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida.ethz.ch/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://eida.ethz.ch/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://eida.ethz.ch/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    },
+    {
+     "name": "event",
+     "description": "ETHZ / SED Event web service.",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://eida.ethz.ch/fdsnws/event/1/",
+       "description": "Event parametric data"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GEOFON",
+   "fullName": "GEOFON Program",
+   "summary": "The GEOFON Program at the GFZ in Potsdam",
+   "website": "https://geofon.gfz.de/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://geofon.gfz.de/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://geofon.gfz.de/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://geofon.gfz.de/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      }
+     ]
+    },
+    {
+     "name": "event",
+     "description": "GEOFON Event web service",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://geofon.gfz.de/fdsnws/event/1/",
+       "description": "GEOFON Event web service."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GeoNet",
+   "fullName": " New Zealand National Seismograph Network",
+   "summary": "GeoNet is a network of seismic and volcanic monitoring stations in New Zealand. It provides real-time information on earthquakes, shaking, volcanic activity and tsunami alerts.",
+   "website": "https://www.geonet.org.nz/",
+   "repositories": [
+    {
+     "name": "ARCHIVE",
+     "description": "Primary archive and relevant services",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://service.geonet.org.nz/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data - 7 days behind ",
+       "compatibleWith": "fdsnws-dataselect-1"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://service-nrt.geonet.org.nz/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data - Last 8 Days",
+       "compatibleWith": "fdsnws-dataselect-1"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://service.geonet.org.nz/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data",
+       "compatibleWith": "fdsnws-station-1"
+      },
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://service.geonet.org.nz/fdsnws/event/1/",
+       "description": "Access to event catalogs",
+       "compatibleWith": "fdsnws-event-1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GEOSHAKE",
+   "fullName": "GeoShake Data Center",
+   "summary": "GeoShake operates the data services for the GW network, a citizen seismic network of low-cost MEMS accelerometer stations hosted by private individuals.\nAll data is served anonymously under CC BY 4.0: no registration, no API key and no rate agreement. A public limit of 100 requests per 5 minutes per IP applies purely as abuse protection and is not an access restriction.\n\nTwo standard services are live: fdsnws-station (StationXML 1.1, including level=response with a nominal instrument sensitivity) and fdsnws-event (QuakeML 1.2). Real-time continuous and triggered waveforms are available over SeedLink at seedlink.geoshake.org:18000, and individual triggers can be downloaded as SAC from the station pages.\n\nfdsnws-dataselect is not implemented yet, so this data centre cannot currently serve archived waveform windows through the standard FDSN route. We would rather leave the field empty than advertise an endpoint that returns 404.",
+   "website": "https://geoshake.org/open-data",
+   "repositories": [
+    {
+     "name": "PRIMARY",
+     "description": "Station metadata, event catalogue and real-time SeedLink feed for network GW",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://api.geoshake.org/fdsnws/station/1/",
+       "description": "Metadata describing time series data (StationXML 1.1). level=response returns a nominal, datasheet-derived instrument sensitivity, not a per-unit calibration.",
+       "compatibleWith": "fdsnws-station-1"
+      },
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://api.geoshake.org/fdsnws/event/1/",
+       "description": "Event catalogue (QuakeML 1.2). Origins are published only when at least three stations associate; an empty result (HTTP 204) is normal.",
+       "compatibleWith": "fdsnws-event-1"
+      },
+      {
+       "name": "seedlink-4",
+       "url": "seedlink://seedlink.geoshake.org:18000",
+       "description": "SeedLink 3.1 & 4.0 real-time feed (RingServer 4.5.4): continuous 1 sps LNZ envelope and triggered ~110 sps ENZ/EN1/EN2 bursts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ICGC",
+   "fullName": "ICGC Data Centre",
+   "summary": "Data Centre of Institut Cartografic i Geologic de Catalunya (ICGC)",
+   "website": "https://www.icgc.cat/en/terratremols",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://ws.icgc.cat/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://ws.icgc.cat/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://ws.icgc.cat/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://ws.icgc.cat/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd",
+       "url": "https://ws.icgc.cat/eidaws/psd/1/value",
+       "description": "EIDA PSD service"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "IESDMC",
+   "fullName": "Institute of Earth Sciences, Academia Sinica, Taiwan",
+   "summary": "In mid-1992, along with several domestic and foreign institutions, began to prepare a prospectus for establishing a broadband seismic network in the Taiwan region. The network, later named \"Broadband Array in Taiwan for Seismology (BATS),\" is initially designed with 15 permanent stations located on Taiwan and the surrounding islands, covering an area of approximately 350 km by 400 km. Currently the number of permanent broadband stations operated by IES is 35, including 2 located in the South China Sea with satellite transmission.\r\n\r\n The BATS instrumentation is designed to cover a variety of research demands. All permanent stations are equipped with state-of-the-art very-broadband and strong-motion sensors and 24/26-bits digital recorders. Data streams with high sampling rates (100 sps) were recorded in triggering mode before Q330 was used. After 2002, we gradually upgrade the dataloggers to gain the ability to continuously record ground motion at high sample rates. All stations are capable of internet connection for immediate retrieval of real-time data. We fully take advantage of the Antelope software platform to operate the BATS data acquisition in the data center since 2007. Preliminary data quality control is performed at IES. Afterwards, the data are distributed to the public through the web-based data service at the official BATS website.\r\n\r\nWe have setup the IES Data Management Center (DMC-IES) which is taking care of the routine network operation, data processing, quality control, and data release, exchange, and contribution etc. The whole dataset is accessible at http://tecws1.earth.sinica.edu.tw/BATSWS in addition to the FDSN Web Service.",
+   "website": "http://batsws.earth.sinica.edu.tw/fdsnws/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://batsws.earth.sinica.edu.tw/fdsnws/station/1/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://batsws.earth.sinica.edu.tw/fdsnws/dataselect/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "IGN",
+   "fullName": "Instituto Geogr\u00e1fico Nacional",
+   "summary": "Spanish National Seismic Network at the National Geographic Institute (Instituto Geogr\u00e1fico Nacional, IGN).",
+   "website": "http://www.ign.es",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://fdsnws.sismologia.ign.es/fdsnws/station/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://fdsnws.sismologia.ign.es/fdsnws/dataselect/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "INGV",
+   "fullName": "INGV Data Centre",
+   "summary": "Istituto Nazionale di Geofisica e Vulcanologia",
+   "website": "https://www.eida.ingv.it",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://webservices.ingv.it/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://webservices.ingv.it/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://webservices.ingv.it/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "IPGP",
+   "fullName": "IPGP Data Center",
+   "summary": "Data Center of Institut de physique du globe de Paris (IPGP)",
+   "website": "http://datacenter.ipgp.fr",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://ws.ipgp.fr/fdsnws/station/1/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://ws.ipgp.fr/fdsnws/dataselect/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ISC",
+   "fullName": "International Seismological Centre",
+   "summary": "The International Seismological Centre (ISC) is a charitable organization, based in United Kingdom and charged with long-term comprehensive collection and re-processing of parametric data on earthquakes and other seismic events worldwide.",
+   "website": "http://www.isc.ac.uk",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "http://www.isc.ac.uk/fdsnws/event/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "KAGSR",
+   "fullName": "Kamchatka Regional Seismological Centre, Seismological Data Information System",
+   "summary": "Kamchatka Regional Seismological Centre, Petropavlovsk-Kamchatsky, Geophysical Survey, Russian Academy of Sciences",
+   "website": "http://sdis.emsd.ru",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "http://sdis.emsd.ru/fdsnws/event/1/"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://sdis.emsd.ru/fdsnws/station/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "KIT",
+   "fullName": "Karlsruhe Institute of Technology - Seismological Data Center",
+   "summary": "",
+   "website": "http://ws.gpi.kit.edu",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://ws.gpi.kit.edu/fdsnws/station/1"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://ws.gpi.kit.edu/fdsnws/dataselect/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "KOERI",
+   "fullName": "KOERI Data Centre",
+   "summary": "Kandilli Observatory and Earthquake Research Institute",
+   "website": "https://www.koeri.boun.edu.tr",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida.koeri.boun.edu.tr/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida.koeri.boun.edu.tr/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida.koeri.boun.edu.tr/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://eida.koeri.boun.edu.tr/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://eida.koeri.boun.edu.tr/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LMU",
+   "fullName": "Ludwig Maximilians University Munich",
+   "summary": "Geophysical Observatory, Department of Earth and Environmental Sciences",
+   "website": "https://www.geophysik.uni-muenchen.de",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://erde.geophysik.uni-muenchen.de/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://erde.geophysik.uni-muenchen.de/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://erde.geophysik.uni-muenchen.de/fdsnws/availability/1/",
+       "description": "Access to the availability of the time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://erde.geophysik.uni-muenchen.de/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://erde.geophysik.uni-muenchen.de/fdsnws/event/1/",
+       "description": "Event parametric data"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://erde.geophysik.uni-muenchen.de/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NCEDC",
+   "fullName": "Northern California Earthquake Data Center",
+   "summary": "",
+   "website": "https://ncedc.org",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://service.ncedc.org/fdsnws/event/1"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://service.ncedc.org/fdsnws/station/1"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://service.ncedc.org/fdsnws/dataselect/1"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://service.ncedc.org/fdsnws/availability/1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NIEP",
+   "fullName": "NIEP Data Centre",
+   "summary": "National Institute for Earth Physics",
+   "website": "https://www.infp.ro",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida-sc3.infp.ro/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida-sc3.infp.ro/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida-sc3.infp.ro/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://eida-sc3.infp.ro/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://eida-sc3.infp.ro/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NOA",
+   "fullName": "NOA Data Center",
+   "summary": "National Observatory of Athens",
+   "website": "https://www.noa.gr",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida.gein.noa.gr/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida.gein.noa.gr/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida.gein.noa.gr/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://eida.gein.noa.gr/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://eida.gein.noa.gr/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    },
+    {
+     "name": "event",
+     "description": "NOAIG events catalog",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://eida.gein.noa.gr/fdsnws/event/1/",
+       "description": "Access to the events catalog data of NOAIG."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "NRCAN",
+   "fullName": "Canadian National Data Centre (CNDC)",
+   "summary": "The Canadian National Data Centre (CNDC) supports the mission critical seismic monitoring needs of Natural Resources Canada, and fulfills Canada\u2019s role under the Comprehensive Nuclear-Test-Ban Treaty.",
+   "website": "https://earthquakescanada.nrcan.gc.ca/stndon/CNDC/index-en.php",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://earthquakescanada.nrcan.gc.ca/fdsnws/station/1/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://earthquakescanada.nrcan.gc.ca/fdsnws/dataselect/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ODC",
+   "fullName": "ORFEUS Data Centre",
+   "summary": "ORFEUS Data Centre at KNMI in De Bilt",
+   "website": "https://www.orfeus-eu.org/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://www.orfeus-eu.org/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://www.orfeus-eu.org/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://www.orfeus-eu.org/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://www.orfeus-eu.org/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd",
+       "url": "https://www.orfeus-eu.org/eidaws/psd/1/",
+       "description": "EIDA PSD service"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OSDC",
+   "fullName": "Ocean Seismic Data Management Center",
+   "summary": "Ocean Seismic Data Center at Southern University of Science and Technology",
+   "website": "https://obslab.sustech.edu.cn/mda/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://osdc.obslab.cn/fdsnws/station/1/query"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://osdc.obslab.cn/fdsnws/dataselect/1/queryauth"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "RASPISHAKE",
+   "fullName": "Raspberry Shake Seismic Network",
+   "summary": "Citizen scientist earthquake monitoring network. This was formerly called the Public Seismic Network (PSN) (http://psn.quake.net/) but is now dominated by the Raspberry Shake Network",
+   "website": "http://raspberryshake.org/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://data.raspberryshake.org/fdsnws/station/1/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://data.raspberryshake.org/fdsnws/dataselect/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "RSBR",
+   "fullName": "Brazillian Seismographic Network Data Center",
+   "summary": "RSBR data center is focused on serving metadata and data from the 4 permanent FDSN networks that are operated by the institutions in Brazil (USP, UnB, UFRN and ON) to bring up a country wide meta network.",
+   "website": "http://rsbr.on.br/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://rsbr.iag.usp.br/fdsnws/station/1/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://rsbr.iag.usp.br/fdsnws/dataselect/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SCEDC",
+   "fullName": "Southern California Earthquake Data Center",
+   "summary": "",
+   "website": "https://scedc.caltech.edu",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://service.scedc.caltech.edu/fdsnws/event/1/"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://service.scedc.caltech.edu/fdsnws/station/1/"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://service.scedc.caltech.edu/fdsnws/dataselect/1/"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://service.scedc.caltech.edu/fdsnws/availability/1/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "UIB-NORSAR",
+   "fullName": "UIB-NORSAR EIDA node",
+   "summary": "This node provides data from the NS and NO networks, plus temporary network data.",
+   "website": "https://eida.geo.uib.no",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismological data",
+     "services": [
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "https://eida.geo.uib.no/fdsnws/dataselect/1/",
+       "description": "Access to raw time series data"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "https://eida.geo.uib.no/fdsnws/station/1/",
+       "description": "Access to metadata describing raw time series data"
+      },
+      {
+       "name": "fdsnws-availability-1",
+       "url": "https://eida.geo.uib.no/fdsnws/availability/1/",
+       "description": "Availability of time series data"
+      },
+      {
+       "name": "eidaws-wfcatalog",
+       "url": "https://eida.geo.uib.no/eidaws/wfcatalog/1/",
+       "description": "EIDA WFCatalog service"
+      },
+      {
+       "name": "eidaws-psd-1",
+       "url": "https://eida.geo.uib.no/eidaws/psd/1/",
+       "description": "Returns Probabilisty Density Functions and spectrograms of seismic data. Generates plots or raw values."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "USGS",
+   "fullName": "USGS Earthquake Hazards Program",
+   "summary": "Advanced National Seismic System (ANSS)",
+   "website": "https://earthquake.usgs.gov/",
+   "repositories": [
+    {
+     "name": "ComCat",
+     "description": "Advanced National Seismic System (ANSS) Comprehensive Earthquake Catalog (ComCat)",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+       "description": "Access to earthquake catalog api",
+       "compatibleWith": "fdsnws-event-1"
+      },
+      {
+       "name": "realtime-feeds",
+       "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/",
+       "description": "Access to realtime earthquake feeds"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "USP",
+   "fullName": "Centro de Sismologia da Universidade de S\u00e3o Paulo",
+   "summary": "The USP Seismological Center coordinate a data center as a result of the collaboration from two distinct institutes in the University, the Instituto de Astronomia, Geof\u00edsica e Ci\u00eancias Atmosf\u00e9ricas (IAG) and Instituto de Energia e Meio Ambiente (IEE), both from Universidade de S\u00e3o Paulo, located in the city of S\u00e3o Paulo, Brazil. The center receives real time data from permanent and temporary stations mainly located in the Central, South and Southeast Brazil. It is a main contributor to the Brazilian Seismographic Network. Additional to own data, USP data center archives data from stations located in the north region of Brazil, as a agreement with the Observat\u00f3rio Sismol\u00f3gico from Universidade de Bras\u00edlia.",
+   "website": "http://www.moho.iag.usp.br/",
+   "repositories": [
+    {
+     "name": "archive",
+     "description": "Archive of continuous seismic data",
+     "services": [
+      {
+       "name": "fdsnws-event-1",
+       "url": "http://www.moho.iag.usp.br/fdsnws/event/1"
+      },
+      {
+       "name": "fdsnws-station-1",
+       "url": "http://seisrequest.iag.usp.br/fdsnws/station/1"
+      },
+      {
+       "name": "fdsnws-dataselect-1",
+       "url": "http://seisrequest.iag.usp.br/fdsnws/dataselect/1"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

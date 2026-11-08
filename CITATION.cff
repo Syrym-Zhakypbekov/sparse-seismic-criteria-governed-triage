@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "Criteria-Governed Decision-Making in Sparse Seismic Networks: code, pre-registrations and results"
+type: software
+authors:
+  - family-names: Zhakypbekov
+    given-names: Syrym
+    email: s.zhakypbekov@iitu.edu.kz
+    affiliation: "Department of Digital and Intelligent Systems, International Information Technology University, Almaty, Kazakhstan"
+    orcid: "https://orcid.org/0000-0001-9112-5922"
+  - family-names: Bykov
+    given-names: Artem
+    affiliation: "Department of Digital and Intelligent Systems, International Information Technology University, Almaty, Kazakhstan"
+    orcid: "https://orcid.org/0000-0002-9563-5185"
+  - family-names: Shaikemelova
+    given-names: Akbota
+    affiliation: "Department of Artificial Intelligence and Mathematical Modeling, International Information Technology University, Almaty, Kazakhstan"
+    orcid: "https://orcid.org/0009-0003-4446-4683"
+  - family-names: Chinibayeva
+    given-names: Tolganay
+    affiliation: "Department of Computer Engineering, International Information Technology University, Almaty, Kazakhstan"
+    orcid: "https://orcid.org/0000-0002-2657-3697"
+license: MIT
+repository-code: "https://github.com/Syrym-Zhakypbekov/sparse-seismic-criteria-governed-triage"
+version: "1.0"
+date-released: "2026-11-08"
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/Y8QXZ
+    description: "OSF registration of the test plans"
+keywords:
+  - seismic monitoring
+  - sparse seismic network
+  - criteria-governed decision-making
+  - evidence sufficiency
+  - analyst escalation
+  - pre-registration
+preferred-citation:
+  type: article
+  title: "Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation"
+  authors:
+    - family-names: Zhakypbekov
+      given-names: Syrym
+    - family-names: Bykov
+      given-names: Artem
+    - family-names: Shaikemelova
+      given-names: Akbota
+    - family-names: Chinibayeva
+      given-names: Tolganay
+  journal: "Sensors"
+  year: 2026
+  notes: "Submitted"

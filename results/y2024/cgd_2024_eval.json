@@ -1,0 +1,341 @@
+{
+ "preregistration": "PREREGISTRATION_DETECTABILITY_2024.md, commit 3853469",
+ "MAKZ": {
+  "reference": "MAKZ",
+  "chunks": [
+   {
+    "chunk": "out24_MAKZ_2024-01-01",
+    "days": 91,
+    "episodes": 3147,
+    "catalog_failures": [],
+    "outage_days": 0
+   },
+   {
+    "chunk": "out24_MAKZ_2024-04-01",
+    "days": 91,
+    "episodes": 3878,
+    "catalog_failures": [],
+    "outage_days": 0
+   },
+   {
+    "chunk": "out24_MAKZ_2024-07-01",
+    "days": 92,
+    "episodes": 3156,
+    "catalog_failures": [],
+    "outage_days": 0
+   },
+   {
+    "chunk": "out24_MAKZ_2024-10-01",
+    "days": 92,
+    "episodes": 2119,
+    "catalog_failures": [],
+    "outage_days": 0
+   }
+  ],
+  "calendar_days": 366,
+  "outage_days": 0,
+  "neighbours_km": {
+   "MK31": 24.0,
+   "KURK": 499.6,
+   "WUS": 661.1
+  },
+  "all": {
+   "P1": {
+    "episodes": 12300,
+    "assoc": 1238,
+    "missed": 47,
+    "alert_unassoc": 7732,
+    "esc_per_day": 0.0
+   },
+   "P1t": {
+    "episodes": 12300,
+    "assoc": 1238,
+    "missed": 14,
+    "alert_unassoc": 9300,
+    "esc_per_day": 0.0
+   },
+   "P3": {
+    "episodes": 12300,
+    "assoc": 1238,
+    "missed": 11,
+    "alert_unassoc": 5619,
+    "esc_per_day": 11.04
+   },
+   "P2": {
+    "episodes": 12300,
+    "assoc": 1238,
+    "missed": 28,
+    "alert_unassoc": 3380,
+    "esc_per_day": 14.58
+   },
+   "CG": {
+    "episodes": 12300,
+    "assoc": 1238,
+    "missed": 34,
+    "alert_unassoc": 1765,
+    "esc_per_day": 18.76
+   },
+   "CG-D": {
+    "episodes": 12300,
+    "assoc": 1238,
+    "missed": 17,
+    "alert_unassoc": 2507,
+    "esc_per_day": 18.96
+   }
+  },
+  "outage": {
+   "P1": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "P1t": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "P3": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "P2": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "CG": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "CG-D": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   }
+  },
+  "D1": {
+   "diff_pp": 0.48,
+   "ci95_pp": [
+    0.16,
+    0.89
+   ],
+   "holds": true,
+   "calendar_ci95_pp": [
+    0.16,
+    0.92
+   ]
+  },
+  "D2": {
+   "CG-D": 2507,
+   "P3": 5619,
+   "holds": true
+  },
+  "D3": {
+   "CG-D": 0,
+   "P1": 0,
+   "assoc": 0,
+   "holds": null
+  },
+  "D4": {
+   "CG-D": 17,
+   "CG": 34,
+   "holds": true
+  },
+  "NI_CG": {
+   "diff_pp": 1.86,
+   "ci95_pp": [
+    1.13,
+    2.64
+   ],
+   "holds": true
+  },
+  "ALLMISSING": {
+   "episodes": 0,
+   "CG_escalated": 0,
+   "holds": null
+  }
+ },
+ "KURK": {
+  "reference": "KURK",
+  "chunks": [
+   {
+    "chunk": "out24_KURK_2024-01-01",
+    "days": 91,
+    "episodes": 4605,
+    "catalog_failures": [],
+    "outage_days": 0
+   },
+   {
+    "chunk": "out24_KURK_2024-04-01",
+    "days": 91,
+    "episodes": 1935,
+    "catalog_failures": [],
+    "outage_days": 0
+   },
+   {
+    "chunk": "out24_KURK_2024-07-01",
+    "days": 92,
+    "episodes": 1760,
+    "catalog_failures": [],
+    "outage_days": 0
+   },
+   {
+    "chunk": "out24_KURK_2024-10-01",
+    "days": 92,
+    "episodes": 2022,
+    "catalog_failures": [],
+    "outage_days": 0
+   }
+  ],
+  "calendar_days": 366,
+  "outage_days": 0,
+  "neighbours_km": {
+   "MAKZ": 499.6,
+   "MK31": 512.7,
+   "WUS": 1058.6
+  },
+  "all": {
+   "P1": {
+    "episodes": 10322,
+    "assoc": 947,
+    "missed": 166,
+    "alert_unassoc": 6808,
+    "esc_per_day": 0.0
+   },
+   "P1t": {
+    "episodes": 10322,
+    "assoc": 947,
+    "missed": 20,
+    "alert_unassoc": 8482,
+    "esc_per_day": 0.0
+   },
+   "P3": {
+    "episodes": 10322,
+    "assoc": 947,
+    "missed": 13,
+    "alert_unassoc": 5235,
+    "esc_per_day": 9.79
+   },
+   "P2": {
+    "episodes": 10322,
+    "assoc": 947,
+    "missed": 70,
+    "alert_unassoc": 3131,
+    "esc_per_day": 13.19
+   },
+   "CG": {
+    "episodes": 10322,
+    "assoc": 947,
+    "missed": 101,
+    "alert_unassoc": 1799,
+    "esc_per_day": 16.19
+   },
+   "CG-D": {
+    "episodes": 10322,
+    "assoc": 947,
+    "missed": 30,
+    "alert_unassoc": 2015,
+    "esc_per_day": 18.57
+   }
+  },
+  "outage": {
+   "P1": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "P1t": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "P3": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "P2": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "CG": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   },
+   "CG-D": {
+    "episodes": 0,
+    "assoc": 0,
+    "missed": 0,
+    "alert_unassoc": 0,
+    "esc_per_day": 0.0
+   }
+  },
+  "D1": {
+   "diff_pp": 1.8,
+   "ci95_pp": [
+    1.04,
+    2.68
+   ],
+   "holds": true,
+   "calendar_ci95_pp": [
+    1.04,
+    2.68
+   ]
+  },
+  "D2": {
+   "CG-D": 2015,
+   "P3": 5235,
+   "holds": true
+  },
+  "D3": {
+   "CG-D": 0,
+   "P1": 0,
+   "assoc": 0,
+   "holds": null
+  },
+  "D4": {
+   "CG-D": 30,
+   "CG": 101,
+   "holds": true
+  },
+  "NI_CG": {
+   "diff_pp": 9.29,
+   "ci95_pp": [
+    7.48,
+    11.14
+   ],
+   "holds": false
+  },
+  "ALLMISSING": {
+   "episodes": 0,
+   "CG_escalated": 0,
+   "holds": null
+  }
+ }
+}

@@ -1,0 +1,18 @@
+[{"stream_name":"stdout","time":10.018654328,"data":"2026-11-07T21:59:27Z CN plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S2_2', 'S3_1']\n"}
+,{"stream_name":"stderr","time":10.018668415,"data":"/kaggle/working/repo/analysis/v2_fleet/run_network.py:34: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n"}
+,{"stream_name":"stderr","time":10.018748901,"data":"  def now(): return dt.datetime.utcnow().isoformat(timespec=\"seconds\") + \"Z\"\n"}
+,{"stream_name":"stdout","time":157.065211657,"data":"2026-11-07T22:01:54Z CN tune attempt 1: rc=-15 147s thresholds=yes\n"}
+,{"stream_name":"stdout","time":157.065632989,"data":"2026-11-07T22:01:54Z CN thresholds {'MAKZ': 3.356552779557651, 'S1_1': 4.095240300495177, 'S2_1': 5.696317469800844, 'S2_2': 5.4652014287441055, 'S3_1': 4.769210218041712}\n"}
+,{"stream_name":"stdout","time":4207.125871878,"data":"2026-11-07T23:09:24Z CN out_2024-01-08 attempt 1: rc=0 4050s summary=True fetch_fail=1 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":4283.553106372,"data":"2026-11-07T23:10:41Z CN out_2024-04-08 attempt 1: rc=0 4066s summary=True fetch_fail=1 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":4622.041509652,"data":"2026-11-07T23:16:19Z CN out_2024-01-08 attempt 2: rc=0 385s summary=True fetch_fail=0 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":4699.170558293,"data":"2026-11-07T23:17:36Z CN out_2024-04-08 attempt 2: rc=0 386s summary=True fetch_fail=0 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":4699.173281082,"data":"2026-11-07T23:17:36Z CN FINISHED state=done\n"}
+,{"stream_name":"stdout","time":4699.289554134,"data":"run_network rc 0\n"}
+,{"stream_name":"stderr","time":4702.654420924,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4702.654486036,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4703.252939305,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4703.253012892,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4704.527759481,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4706.225180249,"data":"[NbConvertApp] Writing 512257 bytes to __results__.html\n"}
+]

@@ -1,0 +1,91 @@
+{
+ "network": "S1",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-t",
+ "fdsn_base": "https://auspass.edu.au",
+ "stations": {
+  "MAKZ": [
+   "S1",
+   "AUDCS",
+   "",
+   "BHZ",
+   -32.2334,
+   148.6278
+  ],
+  "S1_1": [
+   "S1",
+   "AUPHS",
+   "",
+   "BHZ",
+   -31.099,
+   150.8943
+  ],
+  "S2_1": [
+   "S1",
+   "AUTKS",
+   "",
+   "BHZ",
+   -33.7846,
+   151.0254
+  ],
+  "S2_2": [
+   "S1",
+   "AUKHS",
+   "",
+   "BHZ",
+   -33.4642,
+   151.3827
+  ],
+  "S3_1": [
+   "S1",
+   "AULRC",
+   "",
+   "BHZ",
+   -29.4262,
+   147.979
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 152,
+     "end_utc": "2026-11-07T19:33:24Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:52Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 11.494500604334672,
+  "S1_1": NaN,
+  "S2_1": 4.452926859163078,
+  "S2_2": 4.563651183328746,
+  "S3_1": NaN
+ }
+}

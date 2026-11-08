@@ -1,0 +1,147 @@
+{
+ "network": "PE",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-4",
+ "platform": "p10-fleet-4-b",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "PE",
+   "PACH",
+   "",
+   "HHZ",
+   41.75666,
+   -79.171432
+  ],
+  "S1_1": [
+   "PE",
+   "PACC",
+   "",
+   "HHZ",
+   41.32273,
+   -79.0769
+  ],
+  "S1_2": [
+   "PE",
+   "POV3",
+   "00",
+   "HHZ",
+   41.216468,
+   -78.60259
+  ],
+  "S2_1": [
+   "PE",
+   "PAOC",
+   "",
+   "HHZ",
+   41.515961,
+   -79.681091
+  ],
+  "S3_1": [
+   "PE",
+   "PAKC",
+   "",
+   "HHZ",
+   41.37471,
+   -77.932533
+  ],
+  "S3_2": [
+   "PE",
+   "PALR",
+   "",
+   "HHZ",
+   41.725094,
+   -77.760063
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 197,
+     "end_utc": "2026-11-07T20:17:56Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6424,
+     "end_utc": "2026-11-07T22:04:59Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 975,
+     "end_utc": "2026-11-07T22:21:45Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 6535,
+     "end_utc": "2026-11-07T22:07:51Z",
+     "summary": true,
+     "fetch_failures": 1,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 984,
+     "end_utc": "2026-11-07T22:24:44Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:14:38Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 11.993319439924807,
+  "S1_1": 7.533268868957869,
+  "S1_2": 4.295757670646499,
+  "S2_1": 6.681259886047456,
+  "S3_1": 6.37640585696654,
+  "S3_2": 6.152786759948751
+ },
+ "finished_utc": "2026-11-07T22:24:44Z"
+}

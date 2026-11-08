@@ -1,0 +1,5 @@
+2026-11-08T07:07:07Z S1 rescue candidates ['2024-01-17', '2024-01-18', '2024-01-19']
+2026-11-08T07:10:24Z S1 tune attempt 1: rc=1 197s thresholds=yes
+2026-11-08T07:10:24Z S1 rescue thresholds {'MAKZ': 8.678074948546762, 'S1_1': 6.012934016094869, 'S2_1': 4.650510434754832, 'S2_2': 4.63826918225721, 'S3_1': 9.508085958701622} (window 2024-01-17)
+2026-11-08T07:52:09Z S1 out_2024-01-24 attempt 1: rc=0 2505s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:21:23Z S1 out_2024-04-24 attempt 1: rc=0 4200s summary=True fetch_fail=0 cat_fail=['USGS']

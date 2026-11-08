@@ -1,0 +1,61 @@
+ground_truth_v2.py score start 2026-11-07T19:05:49+00:00
+self-check: actions reproduce results/ak/ak_eval.json for P1, P1t, P2, P3, CG, CG-D
+self-check: p_pred reproduces the pipeline on 200 AK catalogue rows, max error 0.0000 s
+labels: {'CONFIRMED': 42705, 'REJECTED': 2226, 'DELETED_DUPLICATE': 1488, 'AUTOMATIC_CURRENT': 1}
+{
+ "episode_classes": {
+  "CONFIRMED": 0,
+  "REJECTED": 0,
+  "UNLABELLED": 17126
+ },
+ "G1_CG_vs_P3_confirmed_dismissed": {
+  "exercised": false,
+  "confirmed": 0
+ },
+ "G2_CGD_vs_P3_confirmed_dismissed": {
+  "exercised": false,
+  "confirmed": 0
+ },
+ "G3_rejected_alert_share": {
+  "exercised": false,
+  "rejected": 0
+ },
+ "control_shifted_labels": {
+  "per_shift_days": {
+   "-3": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "-2": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "-1": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "1": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "2": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   },
+   "3": {
+    "CONFIRMED": 0,
+    "REJECTED": 0
+   }
+  },
+  "mean": {
+   "CONFIRMED": 0.0,
+   "REJECTED": 0.0
+  },
+  "chance_fraction": {
+   "CONFIRMED": null,
+   "REJECTED": null
+  },
+  "rejected_dominated_by_chance": null,
+  "confirmed_dominated_by_chance": null
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "network": "SI",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-3",
+ "platform": "p10-fleet-3-b",
+ "fdsn_base": "https://webservices.ingv.it",
+ "stations": {
+  "MAKZ": [
+   "SI",
+   "LUSI",
+   "",
+   "HHZ",
+   45.9595,
+   10.9436
+  ],
+  "S1_1": [
+   "SI",
+   "KOSI",
+   "",
+   "BHZ",
+   46.463,
+   11.3778
+  ],
+  "S1_2": [
+   "SI",
+   "BOSI",
+   "",
+   "BHZ",
+   46.4952,
+   11.3185
+  ],
+  "S2_1": [
+   "SI",
+   "MOSI",
+   "",
+   "BHZ",
+   46.6164,
+   10.5495
+  ],
+  "S3_1": [
+   "SI",
+   "ROSI",
+   "",
+   "BHZ",
+   46.9281,
+   11.4118
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 207,
+     "end_utc": "2026-11-07T19:34:18Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2680,
+     "end_utc": "2026-11-07T20:18:58Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2481,
+     "end_utc": "2026-11-07T20:16:39Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:51Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 4.232122895224139,
+  "S1_1": 4.168023375565565,
+  "S1_2": 4.912340310149944,
+  "S2_1": 6.146357127700004,
+  "S3_1": 6.3175781291252076
+ },
+ "finished_utc": "2026-11-07T20:18:58Z"
+}

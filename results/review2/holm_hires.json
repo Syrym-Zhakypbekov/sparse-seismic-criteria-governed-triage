@@ -1,0 +1,174 @@
+{
+ "plan": "PLAN_holm_hires_2026-11-08.md (55104e4)",
+ "resamples": 20000,
+ "alpha_one_sided": 0.025,
+ "family_size": 113,
+ "min_resolvable_p": 5e-05,
+ "holm_first_threshold": 0.000221,
+ "met_unadjusted": 68,
+ "met_after_holm": 53,
+ "met_after_BY": 60,
+ "key": {
+  "reviewed_pooled:CG": {
+   "resamples": 20000,
+   "seeds": "7..26 (1000 each)",
+   "ci95_pp": [
+    2.34,
+    5.741
+   ],
+   "p_one_sided": 0.848157592120394,
+   "H0": "difference >= 3.0",
+   "holm": 1.0,
+   "BY": 1.0
+  },
+  "reviewed_pooled:CG-D": {
+   "resamples": 20000,
+   "seeds": "7..26 (1000 each)",
+   "ci95_pp": [
+    0.422,
+    1.573
+   ],
+   "p_one_sided": 4.999750012499375e-05,
+   "H0": "difference >= 3.0",
+   "holm": 0.00565,
+   "BY": 0.00058
+  },
+  "reviewed_pooled:CG_c05": {
+   "resamples": 20000,
+   "seeds": "7..26 (1000 each)",
+   "ci95_pp": [
+    0.225,
+    1.311
+   ],
+   "p_one_sided": 4.999750012499375e-05,
+   "H0": "difference >= 3.0",
+   "holm": 0.00565,
+   "BY": 0.00058
+  },
+  "ctx_T1:H1_vs_P3": {
+   "resamples": 20000,
+   "seeds": "7..26 (1000 each)",
+   "ci95_pp": [
+    -0.872,
+    0.287
+   ],
+   "p_one_sided": 4.999750012499375e-05,
+   "H0": "difference >= 3.0",
+   "holm": 0.00565,
+   "BY": 0.00058
+  },
+  "ctx_T1:H2_vs_c05": {
+   "resamples": 20000,
+   "seeds": "7..26 (1000 each)",
+   "ci95_pp": [
+    -1.331,
+    -0.206
+   ],
+   "p_one_sided": 0.00024998750062496874,
+   "H0": "difference >= 0.0",
+   "holm": 0.01525,
+   "BY": 0.00283
+  }
+ },
+ "earlier9": {
+  "earlier9:E3": {
+   "p": 0.07446,
+   "holm": 1.0,
+   "BY": 0.58013
+  },
+  "earlier9:K3": {
+   "p": 1.0,
+   "holm": 1.0,
+   "BY": 1.0
+  },
+  "earlier9:D1 IU.MAKZ": {
+   "p": 0.0005,
+   "holm": 0.03,
+   "BY": 0.00517
+  },
+  "earlier9:D1 II.KURK": {
+   "p": 0.004,
+   "holm": 0.212,
+   "BY": 0.03934
+  },
+  "earlier9:N3": {
+   "p": 0.97051,
+   "holm": 1.0,
+   "BY": 1.0
+  },
+  "earlier9:N5": {
+   "p": 0.0005,
+   "holm": 0.03,
+   "BY": 0.00517
+  },
+  "earlier9:R3": {
+   "p": 0.0005,
+   "holm": 0.03,
+   "BY": 0.00517
+  },
+  "earlier9:R5": {
+   "p": 0.0005,
+   "holm": 0.03,
+   "BY": 0.00517
+  },
+  "earlier9:R6": {
+   "p": 0.0005,
+   "holm": 0.03,
+   "BY": 0.00517
+  }
+ },
+ "per_network_met_after_holm": [
+  "reviewed_net:AG:CG-D",
+  "reviewed_net:AG:CG_c05",
+  "reviewed_net:AU:CG",
+  "reviewed_net:AU:CG-D",
+  "reviewed_net:AU:CG_c05",
+  "reviewed_net:BW:CG-D",
+  "reviewed_net:BW:CG_c05",
+  "reviewed_net:C1:CG-D",
+  "reviewed_net:C1:CG_c05",
+  "reviewed_net:CN:CG",
+  "reviewed_net:CN:CG-D",
+  "reviewed_net:CN:CG_c05",
+  "reviewed_net:EE:CG-D",
+  "reviewed_net:EE:CG_c05",
+  "reviewed_net:ET:CG",
+  "reviewed_net:ET:CG-D",
+  "reviewed_net:ET:CG_c05",
+  "reviewed_net:HC:CG-D",
+  "reviewed_net:HC:CG_c05",
+  "reviewed_net:HE:CG-D",
+  "reviewed_net:HE:CG_c05",
+  "reviewed_net:IW:CG-D",
+  "reviewed_net:IW:CG_c05",
+  "reviewed_net:KR:CG",
+  "reviewed_net:KR:CG-D",
+  "reviewed_net:KR:CG_c05",
+  "reviewed_net:MB:CG_c05",
+  "reviewed_net:ND:CG",
+  "reviewed_net:ND:CG-D",
+  "reviewed_net:ND:CG_c05",
+  "reviewed_net:NE:CG-D",
+  "reviewed_net:NE:CG_c05",
+  "reviewed_net:NS:CG",
+  "reviewed_net:NS:CG-D",
+  "reviewed_net:NS:CG_c05",
+  "reviewed_net:NY:CG",
+  "reviewed_net:NY:CG-D",
+  "reviewed_net:NY:CG_c05",
+  "reviewed_net:OH:CG",
+  "reviewed_net:OH:CG-D",
+  "reviewed_net:OH:CG_c05",
+  "reviewed_net:OK:CG_c05",
+  "reviewed_net:PL:CG-D",
+  "reviewed_net:PL:CG_c05",
+  "reviewed_net:RV:CG-D",
+  "reviewed_net:RV:CG_c05",
+  "reviewed_net:SI:CG_c05",
+  "reviewed_net:UO:CG-D",
+  "reviewed_net:UO:CG_c05"
+ ],
+ "wall_seconds": 138,
+ "machine": "p10-seismic",
+ "processes": 8
+}

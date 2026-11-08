@@ -1,0 +1,430 @@
+{
+ "plan": "PLAN_TIME_DISJOINT_2023_2026-11-08.md",
+ "checked_utc": "2026-11-08T11:18:06Z",
+ "download_span_checked": [
+  "2023-05-25",
+  "2023-08-30"
+ ],
+ "window": [
+  "2023-06-01",
+  "2023-08-30"
+ ],
+ "artefacts_scanned": {
+  "status.json": 146,
+  "summary.json": 298,
+  "availability.csv": 297,
+  "plan_files": 43
+ },
+ "units": {
+  "AE": {
+   "records": 11,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "AG": {
+   "records": 8,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "AU": {
+   "records": 13,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "AV": {
+   "records": 18,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "BW": {
+   "records": 15,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "C0": {
+   "records": 6,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "C1": {
+   "records": 18,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "CN": {
+   "records": 45,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "EE": {
+   "records": 8,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "ET": {
+   "records": 8,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "FN": {
+   "records": 15,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "HC": {
+   "records": 11,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "HE": {
+   "records": 16,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "HL": {
+   "records": 28,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 15,
+   "bucket_raw_mseed": 0
+  },
+  "IV": {
+   "records": 45,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "IW": {
+   "records": 31,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "JP": {
+   "records": 18,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "KR": {
+   "records": 36,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "MB": {
+   "records": 11,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "ND": {
+   "records": 15,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "NE": {
+   "records": 15,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "NM": {
+   "records": 40,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 15,
+   "bucket_raw_mseed": 0
+  },
+  "NS": {
+   "records": 8,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "NY": {
+   "records": 24,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "OH": {
+   "records": 33,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "OK": {
+   "records": 13,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 20,
+   "bucket_raw_mseed": 0
+  },
+  "PL": {
+   "records": 23,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "RV": {
+   "records": 31,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "SI": {
+   "records": 8,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "UO": {
+   "records": 15,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2025-01-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 18,
+   "bucket_raw_mseed": 0
+  },
+  "UU": {
+   "records": 32,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "UW": {
+   "records": 6,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "WW": {
+   "records": 11,
+   "earliest_day_touched": "2024-01-01",
+   "latest_day_touched": "2024-07-08",
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "A2": {
+   "records": 0,
+   "earliest_day_touched": null,
+   "latest_day_touched": null,
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "CA": {
+   "records": 0,
+   "earliest_day_touched": null,
+   "latest_day_touched": null,
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  },
+  "OT": {
+   "records": 0,
+   "earliest_day_touched": null,
+   "latest_day_touched": null,
+   "any_overlap_with_span": false,
+   "bucket_objects": 0,
+   "bucket_raw_mseed": 0
+  }
+ },
+ "bucket": {
+  "listing_file": "bucket_listing_before_plan.txt",
+  "objects": 635,
+  "objects_with_2023_in_path": [],
+  "unit_network_prefixes": {
+   "BW": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "CN": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "FN": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "HL": {
+    "objects": 15,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "IW": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "ND": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "NE": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "NM": {
+    "objects": 15,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "OK": {
+    "objects": 20,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "PL": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "RV": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   },
+   "UO": {
+    "objects": 18,
+    "raw_mseed": 0,
+    "dated_names_first_last": null
+   }
+  }
+ },
+ "plan_file_dates_inside_span": [
+  {
+   "file": "SELECTION_RULE_V2_2026-11-08.md",
+   "line": 17,
+   "date": "2023-07-01",
+   "text": "W1 tuning 2023-07-01 .. 07-08, evaluation 2023-07-08 .. 2024-07-08; W2 tuning 2024-01-01 .. 01-08, evaluation 2024-01-08 .."
+  },
+  {
+   "file": "SELECTION_RULE_V2_2026-11-08.md",
+   "line": 17,
+   "date": "2023-07-08",
+   "text": "W1 tuning 2023-07-01 .. 07-08, evaluation 2023-07-08 .. 2024-07-08; W2 tuning 2024-01-01 .. 01-08, evaluation 2024-01-08 .."
+  }
+ ],
+ "selection_metadata_windows": {
+  "AE": "W1",
+  "AG": "W2",
+  "AU": "W1",
+  "AV": "W1",
+  "BW": "W1",
+  "C0": "W1",
+  "C1": "W1",
+  "CN": "W1",
+  "EE": "W2",
+  "ET": "W1",
+  "FN": "W1",
+  "HC": "W1",
+  "HE": "W1",
+  "HL": "W1",
+  "IV": "W1",
+  "IW": "W1",
+  "JP": "W2",
+  "KR": "W1",
+  "MB": "W1",
+  "ND": "W1",
+  "NE": "W2",
+  "NM": "W1",
+  "NS": "W2",
+  "NY": "W1",
+  "OH": "W1",
+  "OK": "W1",
+  "PL": "W1",
+  "RV": "W1",
+  "SI": "W1",
+  "UO": "W2",
+  "UU": "W1",
+  "UW": "W1",
+  "WW": "W1",
+  "A2": "W3",
+  "CA": "W3",
+  "OT": "W3"
+ },
+ "note_selection_windows": "W1 = metadata (station epochs + daily availability) over 2023-07-01 .. 2024-07-08, read by analysis/v2_select_networks.py; no waveform, event or decision. W2 = 2024-01-01 .. 2025-01-08, W3 = 2024-07-01 .. 2025-07-09.",
+ "all_disjoint": true,
+ "any_run_artefact_in_span_any_network": []
+}

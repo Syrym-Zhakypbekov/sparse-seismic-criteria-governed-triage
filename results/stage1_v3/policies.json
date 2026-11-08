@@ -1,0 +1,308 @@
+{
+ "tau_db_insample": 10.5,
+ "tau_p1t_insample": 8.0,
+ "cv_taus": [
+  {
+   "fold": 0,
+   "tau_P2": 11.5,
+   "tau_P1tuned": 11.5
+  },
+  {
+   "fold": 1,
+   "tau_P2": 7.5,
+   "tau_P1tuned": 7.5
+  },
+  {
+   "fold": 2,
+   "tau_P2": 8.0,
+   "tau_P1tuned": 7.5
+  },
+  {
+   "fold": 3,
+   "tau_P2": 8.0,
+   "tau_P1tuned": 7.5
+  },
+  {
+   "fold": 4,
+   "tau_P2": 12.5,
+   "tau_P1tuned": 10.5
+  }
+ ],
+ "neighbours": [
+  "MK31",
+  "KURK",
+  "WUS"
+ ],
+ "days_by_regime": {
+  "normal": 65,
+  "outage": 18,
+  "partial": 2
+ },
+ "policies": {
+  "P0_all_to_analyst": {
+   "all": {
+    "episodes": 1077,
+    "per_day": 12.670588235294117,
+    "alert": 0,
+    "escalate": 1077,
+    "dismiss": 0,
+    "analyst_per_day": 12.670588235294117,
+    "automated_share": 0.0,
+    "assoc": 141,
+    "unsafe_dismissed_assoc": 0,
+    "unsafe_dismissed_regional": 0,
+    "unsafe_rate": 0.0,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "normal": {
+    "episodes": 908,
+    "per_day": 13.96923076923077,
+    "alert": 0,
+    "escalate": 908,
+    "dismiss": 0,
+    "analyst_per_day": 13.96923076923077,
+    "automated_share": 0.0,
+    "assoc": 115,
+    "unsafe_dismissed_assoc": 0,
+    "unsafe_dismissed_regional": 0,
+    "unsafe_rate": 0.0,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "outage": {
+    "episodes": 156,
+    "per_day": 8.666666666666666,
+    "alert": 0,
+    "escalate": 156,
+    "dismiss": 0,
+    "analyst_per_day": 8.666666666666666,
+    "automated_share": 0.0,
+    "assoc": 25,
+    "unsafe_dismissed_assoc": 0,
+    "unsafe_dismissed_regional": 0,
+    "unsafe_rate": 0.0,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "P1_classic_coincidence": {
+   "all": {
+    "episodes": 1077,
+    "per_day": 12.670588235294117,
+    "alert": 564,
+    "escalate": 0,
+    "dismiss": 513,
+    "analyst_per_day": 0.0,
+    "automated_share": 1.0,
+    "assoc": 141,
+    "unsafe_dismissed_assoc": 18,
+    "unsafe_dismissed_regional": 15,
+    "unsafe_rate": 0.1276595744680851,
+    "unsafe_rate_ci95": [
+     0.06716417910447761,
+     0.19870860927152298
+    ]
+   },
+   "normal": {
+    "episodes": 908,
+    "per_day": 13.96923076923077,
+    "alert": 511,
+    "escalate": 0,
+    "dismiss": 397,
+    "analyst_per_day": 0.0,
+    "automated_share": 1.0,
+    "assoc": 115,
+    "unsafe_dismissed_assoc": 7,
+    "unsafe_dismissed_regional": 5,
+    "unsafe_rate": 0.06086956521739131,
+    "unsafe_rate_ci95": [
+     0.017695233659369664,
+     0.11290322580645161
+    ]
+   },
+   "outage": {
+    "episodes": 156,
+    "per_day": 8.666666666666666,
+    "alert": 45,
+    "escalate": 0,
+    "dismiss": 111,
+    "analyst_per_day": 0.0,
+    "automated_share": 1.0,
+    "assoc": 25,
+    "unsafe_dismissed_assoc": 11,
+    "unsafe_dismissed_regional": 10,
+    "unsafe_rate": 0.44,
+    "unsafe_rate_ci95": [
+     0.2757836990595611,
+     0.6
+    ]
+   }
+  },
+  "P1t_tuned_coincidence_cv": {
+   "all": {
+    "episodes": 1077,
+    "per_day": 12.670588235294117,
+    "alert": 780,
+    "escalate": 0,
+    "dismiss": 297,
+    "analyst_per_day": 0.0,
+    "automated_share": 1.0,
+    "assoc": 141,
+    "unsafe_dismissed_assoc": 9,
+    "unsafe_dismissed_regional": 7,
+    "unsafe_rate": 0.06382978723404255,
+    "unsafe_rate_ci95": [
+     0.024193548387096774,
+     0.10791853004083217
+    ]
+   },
+   "normal": {
+    "episodes": 908,
+    "per_day": 13.96923076923077,
+    "alert": 671,
+    "escalate": 0,
+    "dismiss": 237,
+    "analyst_per_day": 0.0,
+    "automated_share": 1.0,
+    "assoc": 115,
+    "unsafe_dismissed_assoc": 6,
+    "unsafe_dismissed_regional": 4,
+    "unsafe_rate": 0.05217391304347826,
+    "unsafe_rate_ci95": [
+     0.00952156334231806,
+     0.0990990990990991
+    ]
+   },
+   "outage": {
+    "episodes": 156,
+    "per_day": 8.666666666666666,
+    "alert": 100,
+    "escalate": 0,
+    "dismiss": 56,
+    "analyst_per_day": 0.0,
+    "automated_share": 1.0,
+    "assoc": 25,
+    "unsafe_dismissed_assoc": 3,
+    "unsafe_dismissed_regional": 3,
+    "unsafe_rate": 0.12,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.25
+    ]
+   }
+  },
+  "P2_availability_aware_cv": {
+   "all": {
+    "episodes": 1077,
+    "per_day": 12.670588235294117,
+    "alert": 415,
+    "escalate": 340,
+    "dismiss": 322,
+    "analyst_per_day": 4.0,
+    "automated_share": 0.6843082636954503,
+    "assoc": 141,
+    "unsafe_dismissed_assoc": 9,
+    "unsafe_dismissed_regional": 7,
+    "unsafe_rate": 0.06382978723404255,
+    "unsafe_rate_ci95": [
+     0.022058823529411766,
+     0.11429001721170393
+    ]
+   },
+   "normal": {
+    "episodes": 908,
+    "per_day": 13.96923076923077,
+    "alert": 375,
+    "escalate": 272,
+    "dismiss": 261,
+    "analyst_per_day": 4.184615384615385,
+    "automated_share": 0.7004405286343612,
+    "assoc": 115,
+    "unsafe_dismissed_assoc": 6,
+    "unsafe_dismissed_regional": 4,
+    "unsafe_rate": 0.05217391304347826,
+    "unsafe_rate_ci95": [
+     0.015384615384615385,
+     0.09821428571428571
+    ]
+   },
+   "outage": {
+    "episodes": 156,
+    "per_day": 8.666666666666666,
+    "alert": 37,
+    "escalate": 62,
+    "dismiss": 57,
+    "analyst_per_day": 3.4444444444444446,
+    "automated_share": 0.6025641025641025,
+    "assoc": 25,
+    "unsafe_dismissed_assoc": 3,
+    "unsafe_dismissed_regional": 3,
+    "unsafe_rate": 0.12,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.2857142857142857
+    ]
+   }
+  },
+  "P2_availability_aware_insample": {
+   "all": {
+    "episodes": 1077,
+    "per_day": 12.670588235294117,
+    "alert": 386,
+    "escalate": 304,
+    "dismiss": 387,
+    "analyst_per_day": 3.5764705882352943,
+    "automated_share": 0.7177344475394615,
+    "assoc": 141,
+    "unsafe_dismissed_assoc": 7,
+    "unsafe_dismissed_regional": 6,
+    "unsafe_rate": 0.04964539007092199,
+    "unsafe_rate_ci95": [
+     0.01869013757473733,
+     0.0846241830065359
+    ]
+   },
+   "normal": {
+    "episodes": 908,
+    "per_day": 13.96923076923077,
+    "alert": 351,
+    "escalate": 241,
+    "dismiss": 316,
+    "analyst_per_day": 3.707692307692308,
+    "automated_share": 0.7345814977973568,
+    "assoc": 115,
+    "unsafe_dismissed_assoc": 5,
+    "unsafe_dismissed_regional": 4,
+    "unsafe_rate": 0.043478260869565216,
+    "unsafe_rate_ci95": [
+     0.009708737864077669,
+     0.08335084033613435
+    ]
+   },
+   "outage": {
+    "episodes": 156,
+    "per_day": 8.666666666666666,
+    "alert": 32,
+    "escalate": 57,
+    "dismiss": 67,
+    "analyst_per_day": 3.1666666666666665,
+    "automated_share": 0.6346153846153846,
+    "assoc": 25,
+    "unsafe_dismissed_assoc": 2,
+    "unsafe_dismissed_regional": 2,
+    "unsafe_rate": 0.08,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.2
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+2026-11-08T07:07:46Z PQ rescue candidates ['2024-02-17', '2024-03-15']
+2026-11-08T07:10:23Z PQ tune attempt 1: rc=1 157s thresholds=yes
+2026-11-08T07:10:23Z PQ rescue thresholds {'MAKZ': 8.639869259247606, 'S1_1': 8.875391647119216, 'S2_1': 15.91543730343325, 'S3_1': 7.986448696960238} (window 2024-02-17)
+2026-11-08T08:04:54Z PQ out_2024-05-24 attempt 1: rc=0 3211s summary=True fetch_fail=1 cat_fail=[]
+2026-11-08T08:09:46Z PQ out_2024-05-24 attempt 2: rc=0 262s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:18:43Z PQ out_2024-02-24 attempt 1: rc=0 4100s summary=True fetch_fail=1 cat_fail=[]
+2026-11-08T08:26:22Z PQ out_2024-02-24 attempt 2: rc=0 429s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:26:22Z PQ FINISHED state=done

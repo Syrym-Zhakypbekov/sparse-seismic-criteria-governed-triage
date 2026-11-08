@@ -1,0 +1,6 @@
+2026-11-08T07:32:17Z HC_EXT12B plan base=https://eida.gein.noa.gr tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1', 'S3_2']
+2026-11-08T07:32:17Z HC_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 5.242063862056188, 'S1_1': 7.008077389212351, 'S2_1': 7.256652667968655, 'S3_1': 6.285858803958149, 'S3_2': 9.126211296447126}
+2026-11-08T08:06:47Z HC_EXT12B out_2024-10-08 attempt 1: rc=1 2010s summary=False fetch_fail=None cat_fail=None
+2026-11-08T08:09:44Z HC_EXT12B out_2024-07-08 attempt 1: rc=0 2247s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:16:39Z HC_EXT12B out_2024-10-08 attempt 2: rc=1 562s summary=False fetch_fail=None cat_fail=None
+2026-11-08T08:25:12Z HC_EXT12B out_2024-10-08 attempt 3: rc=1 453s summary=False fetch_fail=None cat_fail=None

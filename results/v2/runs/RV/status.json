@@ -1,0 +1,129 @@
+{
+ "network": "RV",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "a797c9953476",
+ "platform": "kaggle",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "RV",
+   "STPRA",
+   "",
+   "HHZ",
+   55.660629,
+   -115.832321
+  ],
+  "S1_1": [
+   "RV",
+   "PECRA",
+   "",
+   "HHZ",
+   56.295647,
+   -117.027029
+  ],
+  "S1_2": [
+   "RV",
+   "DEDWA",
+   "",
+   "HHZ",
+   56.644562,
+   -117.389069
+  ],
+  "S2_1": [
+   "RV",
+   "SWHSA",
+   "",
+   "HHZ",
+   54.899441,
+   -116.751793
+  ],
+  "S3_1": [
+   "RV",
+   "EGLEA",
+   "",
+   "HHZ",
+   54.457111,
+   -116.440483
+  ],
+  "S3_2": [
+   "RV",
+   "FOXCA",
+   "",
+   "HHZ",
+   54.397968,
+   -116.808167
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 162,
+     "end_utc": "2026-11-07T22:01:59Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2742,
+     "end_utc": "2026-11-07T22:47:42Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2303,
+     "end_utc": "2026-11-07T22:41:23Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T21:59:17Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 8.236309500025781,
+  "S1_1": 8.006100730695996,
+  "S1_2": 7.08627273828524,
+  "S2_1": 11.459709127326644,
+  "S3_1": 8.284939395869252,
+  "S3_2": 9.671862065520981
+ },
+ "finished_utc": "2026-11-07T22:47:42Z"
+}

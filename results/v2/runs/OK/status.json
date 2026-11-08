@@ -1,0 +1,129 @@
+{
+ "network": "OK",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-3",
+ "platform": "p10-fleet-3-a",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "OK",
+   "BLOK",
+   "",
+   "HHZ",
+   36.760615,
+   -97.215026
+  ],
+  "S1_1": [
+   "OK",
+   "CROK",
+   "",
+   "HHZ",
+   36.504737,
+   -97.983354
+  ],
+  "S2_1": [
+   "OK",
+   "QUOK",
+   "",
+   "HHZ",
+   36.171423,
+   -96.707911
+  ],
+  "S2_2": [
+   "OK",
+   "DEOK",
+   "",
+   "HHZ",
+   35.842652,
+   -96.498262
+  ],
+  "S3_1": [
+   "OK",
+   "HTCH",
+   "",
+   "HHZ",
+   36.017058,
+   -98.332692
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 137,
+     "end_utc": "2026-11-07T19:36:25Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 5499,
+     "end_utc": "2026-11-07T21:08:04Z",
+     "summary": true,
+     "fetch_failures": 6,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 808,
+     "end_utc": "2026-11-07T21:22:02Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2241,
+     "end_utc": "2026-11-07T20:14:47Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:34:08Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 5.829773374637556,
+  "S1_1": 4.755133227889196,
+  "S2_1": 19.98636431678587,
+  "S2_2": 4.200179293106597,
+  "S3_1": 8.55494127160333
+ },
+ "finished_utc": "2026-11-07T21:22:03Z"
+}

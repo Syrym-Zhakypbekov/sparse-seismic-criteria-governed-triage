@@ -1,0 +1,123 @@
+thresholds {'MAKZ': 6.30181924957565, 'S1_1': 4.6497307166305495, 'S2_1': 9.256610308328707, 'S3_1': 10.24954186740773}
+{'day': '2024-07-08', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-09', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-10', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-11', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-12', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-13', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-14', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-15', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-16', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-17', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-18', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-19', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-20', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-21', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-22', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-23', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-24', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-25', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-26', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-27', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-28', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-29', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-30', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-07-31', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-01', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-02', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-03', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-04', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-05', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-06', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-07', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-08', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-09', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-10', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-11', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-12', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-13', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-14', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-15', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-16', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-17', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-18', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-19', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-20', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-21', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-22', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-23', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-24', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-25', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-26', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-27', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-28', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-29', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-30', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-08-31', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-01', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-02', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-03', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-04', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-05', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-06', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-07', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-08', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-09', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-10', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-11', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-12', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-13', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-14', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9989}
+{'day': '2024-09-15', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-16', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-17', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-18', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-19', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-20', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-21', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-22', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-23', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-24', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-25', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-26', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-27', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 0.9988, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9988}
+{'day': '2024-09-28', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-29', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-09-30', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-01', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-02', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-03', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-04', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-05', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-06', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-10-07', 'MAKZ_valid_share': 0.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+S1_1 distance_km 512.2 window_s 98.1
+S2_1 distance_km 539.6 window_s 103.1
+S3_1 distance_km 591.8 window_s 112.6
+Traceback (most recent call last):
+  File "/opt/p10/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3816, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 172, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 201, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7726, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7734, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 't_on'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/syrym/p10v2/pipeline/p10_v2_datacentre_wrapper.py", line 29, in <module>
+    runpy.run_path(PIPE, run_name="__main__")
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/syrym/p10v2/pipeline/extended_stalta_criteria.py", line 245, in <module>
+    ep[c + "_utc"] = [str(UTCDateTime(x)) for x in ep[c]]
+                                                   ~~^^^
+  File "/opt/p10/lib/python3.11/site-packages/pandas/core/frame.py", line 4330, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/p10/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3823, in get_loc
+    raise KeyError(key) from err
+KeyError: 't_on'

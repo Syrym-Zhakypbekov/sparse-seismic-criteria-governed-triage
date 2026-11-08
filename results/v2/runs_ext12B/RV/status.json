@@ -1,0 +1,115 @@
+{
+ "network": "RV_EXT12B",
+ "config_file": "results/v2/networks_ext12B.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-xb_a",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "RV",
+   "STPRA",
+   "",
+   "HHZ",
+   55.660629,
+   -115.832321
+  ],
+  "S1_1": [
+   "RV",
+   "PECRA",
+   "",
+   "HHZ",
+   56.295647,
+   -117.027029
+  ],
+  "S1_2": [
+   "RV",
+   "DEDWA",
+   "",
+   "HHZ",
+   56.644562,
+   -117.389069
+  ],
+  "S2_1": [
+   "RV",
+   "SWHSA",
+   "",
+   "HHZ",
+   54.899441,
+   -116.751793
+  ],
+  "S3_1": [
+   "RV",
+   "EGLEA",
+   "",
+   "HHZ",
+   54.457111,
+   -116.440483
+  ],
+  "S3_2": [
+   "RV",
+   "FOXCA",
+   "",
+   "HHZ",
+   54.397968,
+   -116.808167
+  ]
+ },
+ "tune": "none (frozen batch-A)",
+ "eval": [
+  "2024-07-08",
+  "2025-01-08"
+ ],
+ "chunks": {
+  "out_2024-07-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2674,
+     "end_utc": "2026-11-08T07:57:52Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-10-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2224,
+     "end_utc": "2026-11-08T07:51:21Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-08T07:13:18Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-07-08",
+   "2024-10-08"
+  ],
+  [
+   "2024-10-08",
+   "2025-01-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 8.236309500025781,
+  "S1_1": 8.006100730695996,
+  "S1_2": 7.08627273828524,
+  "S2_1": 11.459709127326644,
+  "S3_1": 8.284939395869252,
+  "S3_2": 9.671862065520981
+ },
+ "thresholds_source": "results/v2/runs/RV/status.json",
+ "finished_utc": "2026-11-08T07:57:52Z"
+}

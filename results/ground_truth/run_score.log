@@ -1,0 +1,91 @@
+ground_truth_v2.py score start 2026-11-07T19:44:12+00:00
+self-check: actions reproduce results/ak/ak_eval.json for P1, P1t, P2, P3, CG, CG-D
+self-check: p_pred reproduces the pipeline on 200 AK catalogue rows, max error 0.0000 s
+labels: {'CONFIRMED': 42705, 'REJECTED': 3485, 'DELETED_DUPLICATE': 229, 'AUTOMATIC_CURRENT': 1}
+{
+ "episode_classes": {
+  "CONFIRMED": 3943,
+  "REJECTED": 114,
+  "UNLABELLED": 13069
+ },
+ "G1_CG_vs_P3_confirmed_dismissed": {
+  "diff_pp": 3.75,
+  "ci95_pp": [
+   3.14,
+   4.41
+  ],
+  "holds": false,
+  "confirmed": 3943
+ },
+ "G2_CGD_vs_P3_confirmed_dismissed": {
+  "diff_pp": 0.28,
+  "ci95_pp": [
+   0.1,
+   0.46
+  ],
+  "holds": true,
+  "confirmed": 3943
+ },
+ "G3_rejected_alert_share": {
+  "P1t": {
+   "CG_pct": 9.65,
+   "P1t_pct": 98.25,
+   "diff_pp": -88.6,
+   "ci95_pp": [
+    -94.0,
+    -82.3
+   ],
+   "holds": true
+  },
+  "P3": {
+   "CG_pct": 9.65,
+   "P3_pct": 67.54,
+   "diff_pp": -57.89,
+   "ci95_pp": [
+    -67.18,
+    -48.7
+   ],
+   "holds": true
+  },
+  "holds": true,
+  "rejected": 114
+ },
+ "control_shifted_labels": {
+  "per_shift_days": {
+   "-3": {
+    "CONFIRMED": 323,
+    "REJECTED": 19
+   },
+   "-2": {
+    "CONFIRMED": 330,
+    "REJECTED": 16
+   },
+   "-1": {
+    "CONFIRMED": 299,
+    "REJECTED": 26
+   },
+   "1": {
+    "CONFIRMED": 299,
+    "REJECTED": 22
+   },
+   "2": {
+    "CONFIRMED": 319,
+    "REJECTED": 24
+   },
+   "3": {
+    "CONFIRMED": 303,
+    "REJECTED": 24
+   }
+  },
+  "mean": {
+   "CONFIRMED": 312.1666666666667,
+   "REJECTED": 21.833333333333332
+  },
+  "chance_fraction": {
+   "CONFIRMED": 0.079,
+   "REJECTED": 0.192
+  },
+  "rejected_dominated_by_chance": false,
+  "confirmed_dominated_by_chance": false
+ }
+}

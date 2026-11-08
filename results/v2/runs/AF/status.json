@@ -1,0 +1,82 @@
+{
+ "network": "AF",
+ "config_file": "results/v2/networks.json",
+ "host": "p10-seismic",
+ "platform": "p10-seismic-t",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "AF",
+   "ALKP",
+   "",
+   "BHZ",
+   -29.941839,
+   22.24667
+  ],
+  "S1_1": [
+   "AF",
+   "UPI",
+   "",
+   "BHZ",
+   -28.362,
+   21.253
+  ],
+  "S2_1": [
+   "AF",
+   "CVNA",
+   "",
+   "BHZ",
+   -31.482,
+   19.762
+  ],
+  "S3_1": [
+   "AF",
+   "HVD",
+   "00",
+   "BHZ",
+   -30.60454,
+   25.49506
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 72,
+     "end_utc": "2026-11-07T19:32:05Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:53Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": NaN,
+  "S1_1": NaN,
+  "S2_1": NaN,
+  "S3_1": NaN
+ }
+}

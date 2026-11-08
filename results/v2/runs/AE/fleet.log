@@ -1,0 +1,6 @@
+2026-11-07T19:29:39Z AE plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T19:31:37Z AE tune attempt 1: rc=0 119s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T19:31:37Z AE thresholds {'MAKZ': 6.3657850669752625, 'S1_1': 5.040362093622987, 'S2_1': 6.333332153605122, 'S3_1': 7.083071820891001}
+2026-11-07T19:53:48Z AE out_2024-01-08 attempt 1: rc=0 1330s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T19:56:15Z AE out_2024-04-08 attempt 1: rc=0 1418s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T19:56:15Z AE FINISHED state=done

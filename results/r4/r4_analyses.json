@@ -1,0 +1,661 @@
+{
+ "A_frontier": {
+  "grid": {
+   "P3/P2 tau_A, tau_D": "0..30 dB step 1, tau_D <= tau_A",
+   "P1t tau": "0..30 dB step 0.5",
+   "CG theta_D": "0..0.60 step 0.02",
+   "CG theta_A": "0.30..1.00 step 0.05"
+  },
+  "best": {
+   "missed<=5, esc/day<=0.0": {
+    "P1t": {
+     "alert_unassoc": 725,
+     "esc_per_day": 0.0,
+     "missed": 5,
+     "param_alert": 7.5,
+     "param_dismiss": 7.5
+    },
+    "P3": null,
+    "P2": null,
+    "CG": null
+   },
+   "missed<=5, esc/day<=2.0": {
+    "P1t": {
+     "alert_unassoc": 725,
+     "esc_per_day": 0.0,
+     "missed": 5,
+     "param_alert": 7.5,
+     "param_dismiss": 7.5
+    },
+    "P3": null,
+    "P2": null,
+    "CG": null
+   },
+   "missed<=5, esc/day<=3.0": {
+    "P1t": {
+     "alert_unassoc": 725,
+     "esc_per_day": 0.0,
+     "missed": 5,
+     "param_alert": 7.5,
+     "param_dismiss": 7.5
+    },
+    "P3": null,
+    "P2": null,
+    "CG": {
+     "alert_unassoc": 428,
+     "esc_per_day": 2.88,
+     "missed": 5,
+     "param_alert": 0.35,
+     "param_dismiss": 0.14
+    }
+   },
+   "missed<=5, esc/day<=4.0": {
+    "P1t": {
+     "alert_unassoc": 725,
+     "esc_per_day": 0.0,
+     "missed": 5,
+     "param_alert": 7.5,
+     "param_dismiss": 7.5
+    },
+    "P3": null,
+    "P2": null,
+    "CG": {
+     "alert_unassoc": 389,
+     "esc_per_day": 3.35,
+     "missed": 5,
+     "param_alert": 0.4,
+     "param_dismiss": 0.14
+    }
+   },
+   "missed<=5, esc/day<=5.0": {
+    "P1t": {
+     "alert_unassoc": 725,
+     "esc_per_day": 0.0,
+     "missed": 5,
+     "param_alert": 7.5,
+     "param_dismiss": 7.5
+    },
+    "P3": {
+     "alert_unassoc": 364,
+     "esc_per_day": 4.96,
+     "missed": 3,
+     "param_alert": 8.0,
+     "param_dismiss": 7.0
+    },
+    "P2": {
+     "alert_unassoc": 364,
+     "esc_per_day": 5.0,
+     "missed": 3,
+     "param_alert": 8.0,
+     "param_dismiss": 7.0
+    },
+    "CG": {
+     "alert_unassoc": 271,
+     "esc_per_day": 4.91,
+     "missed": 5,
+     "param_alert": 0.5,
+     "param_dismiss": 0.14
+    }
+   },
+   "missed<=5, esc/day<=6.0": {
+    "P1t": {
+     "alert_unassoc": 725,
+     "esc_per_day": 0.0,
+     "missed": 5,
+     "param_alert": 7.5,
+     "param_dismiss": 7.5
+    },
+    "P3": {
+     "alert_unassoc": 298,
+     "esc_per_day": 5.84,
+     "missed": 3,
+     "param_alert": 10.0,
+     "param_dismiss": 7.0
+    },
+    "P2": {
+     "alert_unassoc": 298,
+     "esc_per_day": 5.87,
+     "missed": 3,
+     "param_alert": 10.0,
+     "param_dismiss": 7.0
+    },
+    "CG": {
+     "alert_unassoc": 216,
+     "esc_per_day": 5.75,
+     "missed": 5,
+     "param_alert": 0.6,
+     "param_dismiss": 0.14
+    }
+   },
+   "missed<=7, esc/day<=0.0": {
+    "P1t": {
+     "alert_unassoc": 691,
+     "esc_per_day": 0.0,
+     "missed": 7,
+     "param_alert": 8.0,
+     "param_dismiss": 8.0
+    },
+    "P3": null,
+    "P2": null,
+    "CG": null
+   },
+   "missed<=7, esc/day<=2.0": {
+    "P1t": {
+     "alert_unassoc": 691,
+     "esc_per_day": 0.0,
+     "missed": 7,
+     "param_alert": 8.0,
+     "param_dismiss": 8.0
+    },
+    "P3": null,
+    "P2": null,
+    "CG": {
+     "alert_unassoc": 450,
+     "esc_per_day": 1.88,
+     "missed": 6,
+     "param_alert": 0.3,
+     "param_dismiss": 0.16
+    }
+   },
+   "missed<=7, esc/day<=3.0": {
+    "P1t": {
+     "alert_unassoc": 691,
+     "esc_per_day": 0.0,
+     "missed": 7,
+     "param_alert": 8.0,
+     "param_dismiss": 8.0
+    },
+    "P3": null,
+    "P2": null,
+    "CG": {
+     "alert_unassoc": 389,
+     "esc_per_day": 2.62,
+     "missed": 6,
+     "param_alert": 0.4,
+     "param_dismiss": 0.16
+    }
+   },
+   "missed<=7, esc/day<=4.0": {
+    "P1t": {
+     "alert_unassoc": 691,
+     "esc_per_day": 0.0,
+     "missed": 7,
+     "param_alert": 8.0,
+     "param_dismiss": 8.0
+    },
+    "P3": null,
+    "P2": {
+     "alert_unassoc": 298,
+     "esc_per_day": 3.58,
+     "missed": 7,
+     "param_alert": 10.0,
+     "param_dismiss": 10.0
+    },
+    "CG": {
+     "alert_unassoc": 323,
+     "esc_per_day": 3.47,
+     "missed": 6,
+     "param_alert": 0.45,
+     "param_dismiss": 0.16
+    }
+   },
+   "missed<=7, esc/day<=5.0": {
+    "P1t": {
+     "alert_unassoc": 691,
+     "esc_per_day": 0.0,
+     "missed": 7,
+     "param_alert": 8.0,
+     "param_dismiss": 8.0
+    },
+    "P3": {
+     "alert_unassoc": 298,
+     "esc_per_day": 4.88,
+     "missed": 7,
+     "param_alert": 10.0,
+     "param_dismiss": 8.0
+    },
+    "P2": {
+     "alert_unassoc": 217,
+     "esc_per_day": 4.62,
+     "missed": 7,
+     "param_alert": 12.0,
+     "param_dismiss": 10.0
+    },
+    "CG": {
+     "alert_unassoc": 232,
+     "esc_per_day": 4.74,
+     "missed": 6,
+     "param_alert": 0.55,
+     "param_dismiss": 0.16
+    }
+   },
+   "missed<=7, esc/day<=6.0": {
+    "P1t": {
+     "alert_unassoc": 691,
+     "esc_per_day": 0.0,
+     "missed": 7,
+     "param_alert": 8.0,
+     "param_dismiss": 8.0
+    },
+    "P3": {
+     "alert_unassoc": 217,
+     "esc_per_day": 5.93,
+     "missed": 7,
+     "param_alert": 12.0,
+     "param_dismiss": 8.0
+    },
+    "P2": {
+     "alert_unassoc": 143,
+     "esc_per_day": 5.75,
+     "missed": 7,
+     "param_alert": 15.0,
+     "param_dismiss": 10.0
+    },
+    "CG": {
+     "alert_unassoc": 147,
+     "esc_per_day": 5.94,
+     "missed": 6,
+     "param_alert": 0.7,
+     "param_dismiss": 0.16
+    }
+   }
+  }
+ },
+ "B_common_tau": {
+  "tau=6": {
+   "P3": {
+    "missed": 0,
+    "alert_unassoc": 421,
+    "escalate": 426,
+    "esc_per_day": 5.01
+   },
+   "P2": {
+    "missed": 0,
+    "alert_unassoc": 421,
+    "escalate": 427,
+    "esc_per_day": 5.02
+   }
+  },
+  "tau=7.5": {
+   "P3": {
+    "missed": 5,
+    "alert_unassoc": 375,
+    "escalate": 366,
+    "esc_per_day": 4.31
+   },
+   "P2": {
+    "missed": 4,
+    "alert_unassoc": 375,
+    "escalate": 370,
+    "esc_per_day": 4.35
+   }
+  },
+  "tau=8": {
+   "P3": {
+    "missed": 7,
+    "alert_unassoc": 364,
+    "escalate": 341,
+    "esc_per_day": 4.01
+   },
+   "P2": {
+    "missed": 6,
+    "alert_unassoc": 364,
+    "escalate": 345,
+    "esc_per_day": 4.06
+   }
+  },
+  "tau=10": {
+   "P3": {
+    "missed": 8,
+    "alert_unassoc": 298,
+    "escalate": 297,
+    "esc_per_day": 3.49
+   },
+   "P2": {
+    "missed": 7,
+    "alert_unassoc": 298,
+    "escalate": 304,
+    "esc_per_day": 3.58
+   }
+  },
+  "tau=10.5": {
+   "P3": {
+    "missed": 8,
+    "alert_unassoc": 275,
+    "escalate": 297,
+    "esc_per_day": 3.49
+   },
+   "P2": {
+    "missed": 7,
+    "alert_unassoc": 275,
+    "escalate": 304,
+    "esc_per_day": 3.58
+   }
+  },
+  "tau=12": {
+   "P3": {
+    "missed": 10,
+    "alert_unassoc": 217,
+    "escalate": 313,
+    "esc_per_day": 3.68
+   },
+   "P2": {
+    "missed": 9,
+    "alert_unassoc": 217,
+    "escalate": 320,
+    "esc_per_day": 3.76
+   }
+  },
+  "tau=14": {
+   "P3": {
+    "missed": 14,
+    "alert_unassoc": 156,
+    "escalate": 351,
+    "esc_per_day": 4.13
+   },
+   "P2": {
+    "missed": 13,
+    "alert_unassoc": 156,
+    "escalate": 358,
+    "esc_per_day": 4.21
+   }
+  }
+ },
+ "B_factorial_gate_x_quality": {
+  "gate=on, quality_factor=on": {
+   "missed": 6,
+   "alert_unassoc": 216,
+   "escalate": 427,
+   "esc_per_day": 5.02,
+   "outage_missed": 1
+  },
+  "gate=on, quality_factor=off": {
+   "missed": 10,
+   "alert_unassoc": 127,
+   "escalate": 433,
+   "esc_per_day": 5.09,
+   "outage_missed": 4
+  },
+  "gate=off, quality_factor=on": {
+   "missed": 6,
+   "alert_unassoc": 217,
+   "escalate": 425,
+   "esc_per_day": 5.0,
+   "outage_missed": 1
+  },
+  "gate=off, quality_factor=off": {
+   "missed": 10,
+   "alert_unassoc": 127,
+   "escalate": 433,
+   "esc_per_day": 5.09,
+   "outage_missed": 4
+  }
+ },
+ "B_binary_snr": {
+  "6 dB": {
+   "missed": 0,
+   "alert_unassoc": 494,
+   "escalate": 344,
+   "esc_per_day": 4.05
+  },
+  "8 dB": {
+   "missed": 6,
+   "alert_unassoc": 415,
+   "escalate": 286,
+   "esc_per_day": 3.36
+  },
+  "10 dB": {
+   "missed": 7,
+   "alert_unassoc": 330,
+   "escalate": 264,
+   "esc_per_day": 3.11
+  },
+  "12 dB": {
+   "missed": 9,
+   "alert_unassoc": 234,
+   "escalate": 296,
+   "esc_per_day": 3.48
+  },
+  "15 dB": {
+   "missed": 14,
+   "alert_unassoc": 150,
+   "escalate": 353,
+   "esc_per_day": 4.15
+  },
+  "20 dB": {
+   "missed": 16,
+   "alert_unassoc": 68,
+   "escalate": 454,
+   "esc_per_day": 5.34
+  }
+ },
+ "C_masking_changed_actions": {
+  "KURK|CG": {
+   "changed": 276,
+   "changed_associated": 28
+  },
+  "KURK|P1": {
+   "changed": 65,
+   "changed_associated": 2
+  },
+  "KURK|P1t": {
+   "changed": 22,
+   "changed_associated": 0
+  },
+  "KURK|P2": {
+   "changed": 67,
+   "changed_associated": 2
+  },
+  "KURK|P3": {
+   "changed": 65,
+   "changed_associated": 2
+  },
+  "MK31|CG": {
+   "changed": 287,
+   "changed_associated": 16
+  },
+  "MK31|P1": {
+   "changed": 187,
+   "changed_associated": 28
+  },
+  "MK31|P1t": {
+   "changed": 35,
+   "changed_associated": 2
+  },
+  "MK31|P2": {
+   "changed": 187,
+   "changed_associated": 28
+  },
+  "MK31|P3": {
+   "changed": 187,
+   "changed_associated": 28
+  },
+  "MK31+KURK+WUS|CG": {
+   "changed": 582,
+   "changed_associated": 84
+  },
+  "MK31+KURK+WUS|P1": {
+   "changed": 511,
+   "changed_associated": 108
+  },
+  "MK31+KURK+WUS|P1t": {
+   "changed": 74,
+   "changed_associated": 3
+  },
+  "MK31+KURK+WUS|P2": {
+   "changed": 667,
+   "changed_associated": 101
+  },
+  "MK31+KURK+WUS|P3": {
+   "changed": 511,
+   "changed_associated": 108
+  },
+  "none|CG": {
+   "changed": 0,
+   "changed_associated": 0
+  },
+  "none|P1": {
+   "changed": 0,
+   "changed_associated": 0
+  },
+  "none|P1t": {
+   "changed": 0,
+   "changed_associated": 0
+  },
+  "none|P2": {
+   "changed": 0,
+   "changed_associated": 0
+  },
+  "none|P3": {
+   "changed": 0,
+   "changed_associated": 0
+  }
+ },
+ "C_masking_new_associated_dismissals": {
+  "KURK|CG": 0,
+  "KURK|P1": 2,
+  "KURK|P1t": 0,
+  "KURK|P2": 0,
+  "KURK|P3": 0,
+  "MK31|CG": 2,
+  "MK31|P1": 28,
+  "MK31|P1t": 2,
+  "MK31|P2": 6,
+  "MK31|P3": 2,
+  "MK31+KURK+WUS|CG": 0,
+  "MK31+KURK+WUS|P1": 108,
+  "MK31+KURK+WUS|P1t": 3,
+  "MK31+KURK+WUS|P2": 0,
+  "MK31+KURK+WUS|P3": 3,
+  "none|CG": 0,
+  "none|P1": 0,
+  "none|P1t": 0,
+  "none|P2": 0,
+  "none|P3": 0
+ },
+ "D_shift_distribution": {
+  "n_shifts": 22,
+  "min": 0,
+  "median": 2.0,
+  "max": 5,
+  "mean": 2.09,
+  "ratio_to_real_percent": 1.48
+ },
+ "E_E3_block_bootstrap_ci95_pp": {
+  "observed_pp": 2.44,
+  "block=1d": [
+   1.74,
+   3.18
+  ],
+  "block=3d": [
+   1.68,
+   3.23
+  ],
+  "block=7d": [
+   1.67,
+   3.3
+  ],
+  "block=14d": [
+   1.61,
+   3.31
+  ]
+ },
+ "F_detector_crosstabs": [
+  {
+   "period": "dev",
+   "assoc": false,
+   "action": "ALERT",
+   "n": 216,
+   "eqt": 92,
+   "phasenet": 111
+  },
+  {
+   "period": "dev",
+   "assoc": false,
+   "action": "DISMISS",
+   "n": 369,
+   "eqt": 47,
+   "phasenet": 30
+  },
+  {
+   "period": "dev",
+   "assoc": false,
+   "action": "ESCALATE",
+   "n": 351,
+   "eqt": 123,
+   "phasenet": 90
+  },
+  {
+   "period": "dev",
+   "assoc": true,
+   "action": "ALERT",
+   "n": 93,
+   "eqt": 47,
+   "phasenet": 53
+  },
+  {
+   "period": "dev",
+   "assoc": true,
+   "action": "DISMISS",
+   "n": 7,
+   "eqt": 0,
+   "phasenet": 0
+  },
+  {
+   "period": "dev",
+   "assoc": true,
+   "action": "ESCALATE",
+   "n": 41,
+   "eqt": 14,
+   "phasenet": 24
+  },
+  {
+   "period": "heldout",
+   "assoc": false,
+   "action": "ALERT",
+   "n": 93,
+   "eqt": 30,
+   "phasenet": 45
+  },
+  {
+   "period": "heldout",
+   "assoc": false,
+   "action": "DISMISS",
+   "n": 68,
+   "eqt": 8,
+   "phasenet": 8
+  },
+  {
+   "period": "heldout",
+   "assoc": false,
+   "action": "ESCALATE",
+   "n": 99,
+   "eqt": 39,
+   "phasenet": 31
+  },
+  {
+   "period": "heldout",
+   "assoc": true,
+   "action": "ALERT",
+   "n": 43,
+   "eqt": 17,
+   "phasenet": 26
+  },
+  {
+   "period": "heldout",
+   "assoc": true,
+   "action": "DISMISS",
+   "n": 2,
+   "eqt": 1,
+   "phasenet": 1
+  },
+  {
+   "period": "heldout",
+   "assoc": true,
+   "action": "ESCALATE",
+   "n": 12,
+   "eqt": 2,
+   "phasenet": 4
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+2026-11-07T20:01:09Z AG plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T20:02:56Z AG tune attempt 1: rc=-15 107s thresholds=yes
+2026-11-07T20:02:56Z AG thresholds {'MAKZ': 9.724146699635147, 'S1_1': 5.235430659495747, 'S2_1': 4.71118213872145, 'S3_1': 7.768024681338662}
+2026-11-07T20:25:51Z AG out_2024-01-08 attempt 1: rc=0 1375s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:26:27Z AG out_2024-04-08 attempt 1: rc=0 1351s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:26:27Z AG FINISHED state=done

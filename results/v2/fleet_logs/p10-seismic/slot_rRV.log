@@ -1,0 +1,8 @@
+2026-11-07T21:42:35Z RV plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S3_1', 'S3_2']
+2026-11-07T22:06:57Z RV tune attempt 1: rc=-15 1462s thresholds=yes
+2026-11-07T22:06:57Z RV thresholds {'MAKZ': 8.236309500025781, 'S1_1': 8.006100730695996, 'S1_2': 7.08627273828524, 'S2_1': 11.459709127326644, 'S3_1': 8.284939395869252, 'S3_2': 9.671862065520981}
+2026-11-07T23:17:24Z RV out_2024-04-08 attempt 1: rc=0 4167s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T23:21:42Z RV out_2024-01-08 attempt 1: rc=0 4484s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T23:24:56Z RV out_2024-04-08 attempt 2: rc=0 422s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T23:33:47Z RV out_2024-01-08 attempt 2: rc=0 695s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T23:33:47Z RV FINISHED state=done

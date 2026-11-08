@@ -1,0 +1,1778 @@
+{
+ "rule": "SELECTION_RULE_V2_2026-11-08.md",
+ "run_utc": "2026-11-07T19:08:34Z",
+ "datacentres": 38,
+ "datacentres_usable": 26,
+ "networks_seen": 481,
+ "networks_eligible": 269,
+ "networks_with_geometry": 155,
+ "networks_passing": 57,
+ "networks_chosen": 24,
+ "regions_chosen": [
+  "Africa",
+  "Alaska-Aleutians-Canada",
+  "Antarctica",
+  "Caucasus-Turkey-Iran",
+  "Central Asia",
+  "East Asia-West Pacific",
+  "Europe incl. Alps-Balkans",
+  "New Zealand-SW Pacific",
+  "South America",
+  "USA-Mexico"
+ ],
+ "rejection_reason_counts": {
+  "temporary network code": 136,
+  "network already used in the study": 11,
+  "network already taken from data centre BGS": 2,
+  "network already taken from data centre AusPass": 4,
+  "network already taken from data centre BGR": 1,
+  "network already taken from data centre EarthScope": 50,
+  "network already taken from data centre EPOSFR": 4,
+  "data centre offers no daily availability metadata #": 4,
+  "third site closer than # km #": 3564,
+  "fewer than # eligible stations covering the window #": 236,
+  "another eligible station of the network within # km of the reference": 6323,
+  "fewer than # neighbour sites within #-# km #": 772,
+  "availability request failed: b'HTTP #'": 5,
+  "availability request failed: b'The read operation timed out'": 1,
+  "no availability metadata for the reference stream": 325,
+  "neighbour SVZR has data on fewer than # % of days": 3,
+  "reference share>=# on # of days #": 2498,
+  "no site with >= # outage days #": 640,
+  "neighbour BARN has data on fewer than # % of days": 6,
+  "neighbour Y#A has data on fewer than # % of days": 3,
+  "neighbour TONTO has data on fewer than # % of days": 3,
+  "neighbour PRCT has data on fewer than # % of days": 1,
+  "neighbour SOE has data on fewer than # % of days": 1,
+  "neighbour CER has data on fewer than # % of days": 2,
+  "neighbour MUSN has data on fewer than # % of days": 2,
+  "neighbour SWZ has data on fewer than # % of days": 3,
+  "neighbour BAT# has data on fewer than # % of days": 4,
+  "neighbour EN# has data on fewer than # % of days": 1,
+  "neighbour MID has data on fewer than # % of days": 4,
+  "neighbour CHGN has data on fewer than # % of days": 2,
+  "neighbour CRAG has data on fewer than # % of days": 2,
+  "neighbour SVW# has data on fewer than # % of days": 2,
+  "neighbour SKAG has data on fewer than # % of days": 2,
+  "neighbour BRAT has data on fewer than # % of days": 11,
+  "neighbour WRKA has data on fewer than # % of days": 1,
+  "neighbour GNGN has data on fewer than # % of days": 7,
+  "neighbour KIM# has data on fewer than # % of days": 8,
+  "neighbour MULG has data on fewer than # % of days": 3,
+  "neighbour NAPP has data on fewer than # % of days": 12,
+  "neighbour KLGHH has data on fewer than # % of days": 5,
+  "neighbour KLGGI has data on fewer than # % of days": 5,
+  "neighbour WR# has data on fewer than # % of days": 3,
+  "neighbour BW#H has data on fewer than # % of days": 2,
+  "neighbour MTN has data on fewer than # % of days": 1,
+  "neighbour BBOO has data on fewer than # % of days": 2,
+  "neighbour ANPB has data on fewer than # % of days": 1,
+  "neighbour WAZA has data on fewer than # % of days": 2,
+  "neighbour Q#K has data on fewer than # % of days": 6,
+  "neighbour FRFJ has data on fewer than # % of days": 4,
+  "neighbour HINH has data on fewer than # % of days": 5,
+  "neighbour WRNG has data on fewer than # % of days": 2,
+  "neighbour GO# has data on fewer than # % of days": 1,
+  "neighbour COCH has data on fewer than # % of days": 1,
+  "neighbour HUNY has data on fewer than # % of days": 2,
+  "neighbour FAR# has data on fewer than # % of days": 2,
+  "neighbour AC# has data on fewer than # % of days": 1,
+  "neighbour IN# has data on fewer than # % of days": 8,
+  "no availability metadata for neighbour TA#": 9,
+  "neighbour LC# has data on fewer than # % of days": 7,
+  "neighbour LL# has data on fewer than # % of days": 2,
+  "neighbour MG# has data on fewer than # % of days": 1,
+  "neighbour BO# has data on fewer than # % of days": 2,
+  "neighbour SPLB has data on fewer than # % of days": 3,
+  "neighbour WCNB has data on fewer than # % of days": 3,
+  "neighbour SRNB has data on fewer than # % of days": 3,
+  "neighbour GAAQ has data on fewer than # % of days": 1,
+  "neighbour EBR has data on fewer than # % of days": 3,
+  "neighbour CBEU has data on fewer than # % of days": 1,
+  "neighbour BNALP has data on fewer than # % of days": 7,
+  "neighbour BRANT has data on fewer than # % of days": 3,
+  "neighbour SHR has data on fewer than # % of days": 3,
+  "neighbour PRA has data on fewer than # % of days": 2,
+  "neighbour OCA has data on fewer than # % of days": 2,
+  "no availability metadata for neighbour ARGC": 1,
+  "no availability metadata for neighbour CRJC": 1,
+  "neighbour DLBC has data on fewer than # % of days": 3,
+  "neighbour MOBC has data on fewer than # % of days": 3,
+  "neighbour YUK# has data on fewer than # % of days": 5,
+  "neighbour INK has data on fewer than # % of days": 1,
+  "neighbour SADO has data on fewer than # % of days": 6,
+  "neighbour ULM has data on fewer than # % of days": 3,
+  "neighbour BBB has data on fewer than # % of days": 3,
+  "neighbour BPEB has data on fewer than # % of days": 3,
+  "neighbour HNYB has data on fewer than # % of days": 6,
+  "neighbour BOIB has data on fewer than # % of days": 1,
+  "neighbour MORQ has data on fewer than # % of days": 3,
+  "neighbour ATKO has data on fewer than # % of days": 3,
+  "neighbour RES has data on fewer than # % of days": 3,
+  "neighbour PCLB has data on fewer than # % of days": 4,
+  "neighbour EAGLY has data on fewer than # % of days": 3,
+  "neighbour HG#B has data on fewer than # % of days": 1,
+  "neighbour HLIO has data on fewer than # % of days": 4,
+  "neighbour WPB has data on fewer than # % of days": 2,
+  "neighbour ATIO has data on fewer than # % of days": 4,
+  "neighbour A# has data on fewer than # % of days": 3,
+  "neighbour FNSB has data on fewer than # % of days": 1,
+  "neighbour BAIB has data on fewer than # % of days": 1,
+  "neighbour PAF# has data on fewer than # % of days": 2,
+  "neighbour GRTK has data on fewer than # % of days": 1,
+  "neighbour GNEO has data on fewer than # % of days": 1,
+  "neighbour RCC has data on fewer than # % of days": 1,
+  "no availability metadata for neighbour PX#": 3,
+  "no availability metadata for neighbour HMBCX": 2,
+  "neighbour NKC has data on fewer than # % of days": 1,
+  "neighbour GDH has data on fewer than # % of days": 1,
+  "neighbour CUIC has data on fewer than # % of days": 4,
+  "neighbour SAGO has data on fewer than # % of days": 1,
+  "no availability metadata for neighbour VSU": 6,
+  "neighbour IMIC has data on fewer than # % of days": 13,
+  "neighbour IGLA has data on fewer than # % of days": 1,
+  "neighbour PUL has data on fewer than # % of days": 3,
+  "neighbour HUEH has data on fewer than # % of days": 4,
+  "neighbour IZAB has data on fewer than # % of days": 1,
+  "neighbour PETP has data on fewer than # % of days": 2,
+  "neighbour HUBA has data on fewer than # % of days": 1,
+  "neighbour DDFL has data on fewer than # % of days": 1,
+  "neighbour KTHR has data on fewer than # % of days": 1,
+  "no availability metadata for neighbour VAF": 6,
+  "no availability metadata for neighbour VJF": 6,
+  "no availability metadata for neighbour SUF": 3,
+  "no availability metadata for neighbour KEF": 3,
+  "no availability metadata for neighbour JOF": 3,
+  "neighbour CACD has data on fewer than # % of days": 1,
+  "neighbour CELB has data on fewer than # % of days": 2,
+  "neighbour LPDG has data on fewer than # % of days": 1,
+  "neighbour BOB has data on fewer than # % of days": 3,
+  "no availability metadata for neighbour CELI": 2,
+  "no availability metadata for neighbour CTI": 3,
+  "neighbour ROVR has data on fewer than # % of days": 1,
+  "neighbour CLTA has data on fewer than # % of days": 1,
+  "neighbour MTGR has data on fewer than # % of days": 1,
+  "neighbour PGHD has data on fewer than # % of days": 2,
+  "neighbour MPG has data on fewer than # % of days": 1,
+  "neighbour FLWY has data on fewer than # % of days": 1,
+  "neighbour FXWY has data on fewer than # % of days": 3,
+  "neighbour SCAI has data on fewer than # % of days": 1,
+  "neighbour GIOM has data on fewer than # % of days": 2,
+  "neighbour KARS has data on fewer than # % of days": 3,
+  "neighbour PRZ# has data on fewer than # % of days": 1,
+  "neighbour NAWB has data on fewer than # % of days": 12,
+  "neighbour KSPA has data on fewer than # % of days": 3,
+  "neighbour WUPA has data on fewer than # % of days": 3,
+  "neighbour NCB has data on fewer than # % of days": 2,
+  "neighbour CFNY has data on fewer than # % of days": 2,
+  "neighbour WVNY has data on fewer than # % of days": 1,
+  "neighbour UCCT has data on fewer than # % of days": 1,
+  "no availability metadata for neighbour SKO": 6,
+  "neighbour MDY has data on fewer than # % of days": 4,
+  "neighbour TRI has data on fewer than # % of days": 3,
+  "neighbour PDG has data on fewer than # % of days": 3,
+  "neighbour BNI has data on fewer than # % of days": 5,
+  "neighbour SENA has data on fewer than # % of days": 1,
+  "neighbour TIP has data on fewer than # % of days": 1,
+  "neighbour VAE has data on fewer than # % of days": 1,
+  "neighbour KIR# has data on fewer than # % of days": 2,
+  "neighbour SLY# has data on fewer than # % of days": 1,
+  "neighbour SJQ has data on fewer than # % of days": 5,
+  "neighbour SPIG has data on fewer than # % of days": 4,
+  "neighbour T#A has data on fewer than # % of days": 8,
+  "neighbour E#A has data on fewer than # % of days": 3,
+  "neighbour K#A has data on fewer than # % of days": 1,
+  "neighbour ORNO has data on fewer than # % of days": 6,
+  "neighbour DUNH has data on fewer than # % of days": 8,
+  "neighbour CGM# has data on fewer than # % of days": 9,
+  "neighbour X# has data on fewer than # % of days": 5,
+  "neighbour TWAR has data on fewer than # % of days": 3,
+  "neighbour BRH# has data on fewer than # % of days": 3,
+  "neighbour RYN has data on fewer than # % of days": 1,
+  "neighbour OUT# has data on fewer than # % of days": 1,
+  "neighbour MOHS has data on fewer than # % of days": 6,
+  "neighbour R#A has data on fewer than # % of days": 2,
+  "neighbour V#A has data on fewer than # % of days": 1,
+  "no availability metadata for neighbour BAS#": 10,
+  "no availability metadata for neighbour BJO": 2,
+  "no availability metadata for neighbour ODLO": 6,
+  "no availability metadata for neighbour VERL": 1,
+  "neighbour CORN has data on fewer than # % of days": 2,
+  "neighbour ACON has data on fewer than # % of days": 3,
+  "neighbour MATN has data on fewer than # % of days": 3,
+  "neighbour RCPN has data on fewer than # % of days": 1,
+  "neighbour CQS# has data on fewer than # % of days": 3,
+  "neighbour STN# has data on fewer than # % of days": 6,
+  "neighbour MMPY has data on fewer than # % of days": 3,
+  "neighbour P#A has data on fewer than # % of days": 2,
+  "neighbour M#A has data on fewer than # % of days": 2,
+  "neighbour O#A has data on fewer than # % of days": 4,
+  "neighbour VLOH has data on fewer than # % of days": 2,
+  "neighbour X#A has data on fewer than # % of days": 8,
+  "neighbour MPRI has data on fewer than # % of days": 3,
+  "neighbour BEL has data on fewer than # % of days": 3,
+  "neighbour CHGQ has data on fewer than # % of days": 1,
+  "neighbour NBC# has data on fewer than # % of days": 2,
+  "neighbour JRDRB has data on fewer than # % of days": 2,
+  "neighbour IMPR has data on fewer than # % of days": 2,
+  "neighbour TONYA has data on fewer than # % of days": 3,
+  "neighbour REDDA has data on fewer than # % of days": 3,
+  "neighbour HSPGA has data on fewer than # % of days": 6,
+  "neighbour BSLNA has data on fewer than # % of days": 1,
+  "neighbour SWHSA has data on fewer than # % of days": 1,
+  "neighbour AUUHS has data on fewer than # % of days": 2,
+  "neighbour SRGE has data on fewer than # % of days": 2,
+  "neighbour RH# has data on fewer than # % of days": 2,
+  "neighbour MOSI has data on fewer than # % of days": 4,
+  "no availability metadata for neighbour BEO": 3,
+  "no availability metadata for neighbour JES": 1,
+  "no availability metadata for neighbour SPC": 4,
+  "neighbour VYHS has data on fewer than # % of days": 3,
+  "neighbour TD#A has data on fewer than # % of days": 2,
+  "neighbour PHUB has data on fewer than # % of days": 3,
+  "neighbour TATO has data on fewer than # % of days": 3,
+  "neighbour BW# has data on fewer than # % of days": 3,
+  "neighbour LKWY has data on fewer than # % of days": 1,
+  "neighbour LBNH has data on fewer than # % of days": 2,
+  "neighbour DSLB has data on fewer than # % of days": 3,
+  "neighbour SFS# has data on fewer than # % of days": 6,
+  "neighbour DRCO has data on fewer than # % of days": 2,
+  "neighbour YDD has data on fewer than # % of days": 2,
+  "neighbour YHH has data on fewer than # % of days": 1,
+  "passed the rule but not chosen #": 33
+ },
+ "chosen": [
+  {
+   "window": "W1",
+   "reference": "BSPO",
+   "pair": true,
+   "site_outage_days": [
+    136,
+    0,
+    33
+   ],
+   "reference_good_day_share": 0.984,
+   "reference_stream": "OH.BSPO..HHZ",
+   "lat": 40.04307,
+   "lon": -81.009361,
+   "sites": [
+    {
+     "dist_km": 28.7,
+     "members": [
+      {
+       "sta": "O53A",
+       "dist_km": 28.7,
+       "stream": "OH.O53A..BHZ",
+       "lat": 40.249298,
+       "lon": -81.212898
+      }
+     ]
+    },
+    {
+     "dist_km": 111.2,
+     "members": [
+      {
+       "sta": "WODO",
+       "dist_km": 111.2,
+       "stream": "OH.WODO.10.HHZ",
+       "lat": 39.529552,
+       "lon": -82.126205
+      },
+      {
+       "sta": "FOXO",
+       "dist_km": 130.1,
+       "stream": "OH.FOXO.10.HHZ",
+       "lat": 39.304695,
+       "lon": -82.187988
+      }
+     ]
+    },
+    {
+     "dist_km": 121.8,
+     "members": [
+      {
+       "sta": "SROH",
+       "dist_km": 121.8,
+       "stream": "OH.SROH..HHZ",
+       "lat": 39.127095,
+       "lon": -81.789765
+      }
+     ]
+    }
+   ],
+   "network": "OH",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "USA-Mexico"
+  },
+  {
+   "window": "W1",
+   "reference": "CGL",
+   "pair": true,
+   "site_outage_days": [
+    165,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "IV.CGL..BHZ",
+   "lat": 39.366,
+   "lon": 9.296,
+   "sites": [
+    {
+     "dist_km": 109.1,
+     "members": [
+      {
+       "sta": "DGI",
+       "dist_km": 109.1,
+       "stream": "IV.DGI..HHZ",
+       "lat": 40.31802,
+       "lon": 9.60668
+      }
+     ]
+    },
+    {
+     "dist_km": 196.1,
+     "members": [
+      {
+       "sta": "AGLI",
+       "dist_km": 196.1,
+       "stream": "IV.AGLI..HHZ",
+       "lat": 41.1269,
+       "lon": 9.1733
+      }
+     ]
+    },
+    {
+     "dist_km": 336.0,
+     "members": [
+      {
+       "sta": "MARS",
+       "dist_km": 336.0,
+       "stream": "IV.MARS..HHZ",
+       "lat": 37.7532,
+       "lon": 12.5647
+      },
+      {
+       "sta": "MTGR",
+       "dist_km": 342.5,
+       "stream": "IV.MTGR..HHZ",
+       "lat": 37.89337,
+       "lon": 12.75932
+      }
+     ]
+    }
+   ],
+   "network": "IV",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 4,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  {
+   "window": "W1",
+   "reference": "TELL",
+   "pair": true,
+   "site_outage_days": [
+    66,
+    29,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "AB.TELL.00.HHZ",
+   "lat": 41.760905,
+   "lon": 48.643566,
+   "sites": [
+    {
+     "dist_km": 72.0,
+     "members": [
+      {
+       "sta": "YLVJ",
+       "dist_km": 72.0,
+       "stream": "AB.YLVJ.00.HHZ",
+       "lat": 41.214037,
+       "lon": 49.106073
+      }
+     ]
+    },
+    {
+     "dist_km": 109.7,
+     "members": [
+      {
+       "sta": "ZRNV",
+       "dist_km": 109.7,
+       "stream": "AB.ZRNV.00.HHZ",
+       "lat": 40.800111,
+       "lon": 48.346606
+      }
+     ]
+    },
+    {
+     "dist_km": 131.7,
+     "members": [
+      {
+       "sta": "SHUR",
+       "dist_km": 131.7,
+       "stream": "AB.SHUR.00.HHZ",
+       "lat": 40.756199,
+       "lon": 49.477063
+      },
+      {
+       "sta": "MV12",
+       "dist_km": 148.8,
+       "stream": "AB.MV12.00.HHZ",
+       "lat": 40.505963,
+       "lon": 49.261836
+      }
+     ]
+    }
+   ],
+   "network": "AB",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  {
+   "window": "W1",
+   "reference": "RKGY",
+   "pair": true,
+   "site_outage_days": [
+    45,
+    19,
+    0
+   ],
+   "reference_good_day_share": 0.997,
+   "reference_stream": "AU.RKGY.00.BHZ",
+   "lat": -34.6094,
+   "lon": 116.9773,
+   "sites": [
+    {
+     "dist_km": 154.5,
+     "members": [
+      {
+       "sta": "ONGER",
+       "dist_km": 154.5,
+       "stream": "AU.ONGER..BHZ",
+       "lat": -33.86366,
+       "lon": 118.39563
+      }
+     ]
+    },
+    {
+     "dist_km": 188.6,
+     "members": [
+      {
+       "sta": "NWAO",
+       "dist_km": 188.6,
+       "stream": "AU.NWAO..BHZ",
+       "lat": -32.9277,
+       "lon": 117.239
+      }
+     ]
+    },
+    {
+     "dist_km": 301.1,
+     "members": [
+      {
+       "sta": "MUN",
+       "dist_km": 301.1,
+       "stream": "AU.MUN.00.BHZ",
+       "lat": -31.9783,
+       "lon": 116.212
+      },
+      {
+       "sta": "CARL",
+       "dist_km": 307.9,
+       "stream": "AU.CARL.00.BHZ",
+       "lat": -31.9835,
+       "lon": 115.926697
+      }
+     ]
+    }
+   ],
+   "network": "AU",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "New Zealand-SW Pacific"
+  },
+  {
+   "window": "W1",
+   "reference": "BO02",
+   "pair": true,
+   "site_outage_days": [
+    15,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.923,
+   "reference_stream": "C1.BO02..BHZ",
+   "lat": -34.7924,
+   "lon": -70.7814,
+   "sites": [
+    {
+     "dist_km": 52.5,
+     "members": [
+      {
+       "sta": "BO01",
+       "dist_km": 52.5,
+       "stream": "C1.BO01..BHZ",
+       "lat": -34.3917,
+       "lon": -71.0848
+      }
+     ]
+    },
+    {
+     "dist_km": 90.7,
+     "members": [
+      {
+       "sta": "BO04",
+       "dist_km": 90.7,
+       "stream": "C1.BO04..BHZ",
+       "lat": -33.98884,
+       "lon": -70.60902
+      },
+      {
+       "sta": "MT09",
+       "dist_km": 114.6,
+       "stream": "C1.MT09..BHZ",
+       "lat": -33.77622,
+       "lon": -70.98867
+      }
+     ]
+    },
+    {
+     "dist_km": 111.9,
+     "members": [
+      {
+       "sta": "MT01",
+       "dist_km": 111.9,
+       "stream": "C1.MT01..BHZ",
+       "lat": -33.8641,
+       "lon": -71.2509
+      },
+      {
+       "sta": "VA05",
+       "dist_km": 147.6,
+       "stream": "C1.VA05..BHZ",
+       "lat": -33.65711,
+       "lon": -71.61428
+      }
+     ]
+    }
+   ],
+   "network": "C1",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 9,
+   "region": "South America"
+  },
+  {
+   "window": "W1",
+   "reference": "DOL",
+   "pair": true,
+   "site_outage_days": [
+    13,
+    0,
+    9
+   ],
+   "reference_good_day_share": 0.951,
+   "reference_stream": "AV.DOL..BHZ",
+   "lat": 55.149621,
+   "lon": -161.86472,
+   "sites": [
+    {
+     "dist_km": 21.8,
+     "members": [
+      {
+       "sta": "PS4A",
+       "dist_km": 21.8,
+       "stream": "AV.PS4A..BHZ",
+       "lat": 55.34604,
+       "lon": -161.85648
+      },
+      {
+       "sta": "DTN",
+       "dist_km": 25.1,
+       "stream": "AV.DTN..BHZ",
+       "lat": 55.1448,
+       "lon": -162.259
+      }
+     ]
+    },
+    {
+     "dist_km": 35.4,
+     "members": [
+      {
+       "sta": "DEER",
+       "dist_km": 35.4,
+       "stream": "AV.DEER..BHZ",
+       "lat": 54.97127,
+       "lon": -162.32437
+      },
+      {
+       "sta": "BLDW",
+       "dist_km": 58.8,
+       "stream": "AV.BLDW..BHZ",
+       "lat": 55.190907,
+       "lon": -162.787687
+      }
+     ]
+    },
+    {
+     "dist_km": 127.1,
+     "members": [
+      {
+       "sta": "ISLZ",
+       "dist_km": 127.1,
+       "stream": "AV.ISLZ..BHZ",
+       "lat": 54.7249,
+       "lon": -163.7129
+      }
+     ]
+    }
+   ],
+   "network": "AV",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  {
+   "window": "W1",
+   "reference": "DRK",
+   "pair": false,
+   "site_outage_days": [
+    43,
+    5,
+    7
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "KR.DRK.00.HHZ",
+   "lat": 39.477613,
+   "lon": 71.799456,
+   "sites": [
+    {
+     "dist_km": 106.6,
+     "members": [
+      {
+       "sta": "BTK",
+       "dist_km": 106.6,
+       "stream": "KR.BTK..BHZ",
+       "lat": 40.06675,
+       "lon": 70.81572
+      }
+     ]
+    },
+    {
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OHH",
+       "dist_km": 143.5,
+       "stream": "KR.OHH..BHZ",
+       "lat": 40.52444,
+       "lon": 72.785
+      }
+     ]
+    },
+    {
+     "dist_km": 157.8,
+     "members": [
+      {
+       "sta": "SFK",
+       "dist_km": 157.8,
+       "stream": "KR.SFK.00.HHZ",
+       "lat": 40.017151,
+       "lon": 73.506289
+      }
+     ]
+    }
+   ],
+   "network": "KR",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "Central Asia"
+  },
+  {
+   "window": "W2",
+   "reference": "JEM",
+   "pair": false,
+   "site_outage_days": [
+    16,
+    16,
+    16
+   ],
+   "reference_good_day_share": 0.954,
+   "reference_stream": "JP.JEM..BHZ",
+   "lat": 42.018501,
+   "lon": 143.153503,
+   "sites": [
+    {
+     "dist_km": 167.4,
+     "members": [
+      {
+       "sta": "JEW",
+       "dist_km": 167.4,
+       "stream": "JP.JEW..BHZ",
+       "lat": 42.84267,
+       "lon": 141.446167
+      }
+     ]
+    },
+    {
+     "dist_km": 221.4,
+     "members": [
+      {
+       "sta": "JTM",
+       "dist_km": 221.4,
+       "stream": "JP.JTM..BHZ",
+       "lat": 40.789501,
+       "lon": 141.064667
+      }
+     ]
+    },
+    {
+     "dist_km": 237.9,
+     "members": [
+      {
+       "sta": "JKA",
+       "dist_km": 237.9,
+       "stream": "JP.JKA..BHZ",
+       "lat": 44.11883,
+       "lon": 142.593002
+      }
+     ]
+    }
+   ],
+   "network": "JP",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 17,
+   "region": "East Asia-West Pacific"
+  },
+  {
+   "window": "W1",
+   "reference": "ALKP",
+   "pair": false,
+   "site_outage_days": [
+    6,
+    119,
+    10
+   ],
+   "reference_good_day_share": 0.97,
+   "reference_stream": "AF.ALKP..BHZ",
+   "lat": -29.941839,
+   "lon": 22.24667,
+   "sites": [
+    {
+     "dist_km": 200.4,
+     "members": [
+      {
+       "sta": "UPI",
+       "dist_km": 200.4,
+       "stream": "AF.UPI..BHZ",
+       "lat": -28.362,
+       "lon": 21.253
+      }
+     ]
+    },
+    {
+     "dist_km": 292.8,
+     "members": [
+      {
+       "sta": "CVNA",
+       "dist_km": 292.8,
+       "stream": "AF.CVNA..BHZ",
+       "lat": -31.482,
+       "lon": 19.762
+      }
+     ]
+    },
+    {
+     "dist_km": 320.5,
+     "members": [
+      {
+       "sta": "HVD",
+       "dist_km": 320.5,
+       "stream": "AF.HVD.00.BHZ",
+       "lat": -30.60454,
+       "lon": 25.49506
+      }
+     ]
+    }
+   ],
+   "network": "AF",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "Africa"
+  },
+  {
+   "window": "W2",
+   "reference": "VNA1",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    96,
+    38
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "AW.VNA1..BHZ",
+   "lat": -70.672,
+   "lon": -8.29,
+   "sites": [
+    {
+     "dist_km": 43.2,
+     "members": [
+      {
+       "sta": "VNA2",
+       "dist_km": 43.2,
+       "stream": "AW.VNA2..BHZ",
+       "lat": -70.925,
+       "lon": -7.393
+      }
+     ]
+    },
+    {
+     "dist_km": 80.6,
+     "members": [
+      {
+       "sta": "VNA3",
+       "dist_km": 80.6,
+       "stream": "AW.VNA3..BHZ",
+       "lat": -71.242,
+       "lon": -9.664
+      }
+     ]
+    },
+    {
+     "dist_km": 158.9,
+     "members": [
+      {
+       "sta": "FRFJ",
+       "dist_km": 158.9,
+       "stream": "AW.FRFJ..HHZ",
+       "lat": -71.8359,
+       "lon": -5.7095
+      }
+     ]
+    }
+   ],
+   "network": "AW",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Antarctica"
+  },
+  {
+   "window": "W1",
+   "reference": "BLO",
+   "pair": true,
+   "site_outage_days": [
+    39,
+    39,
+    0
+   ],
+   "reference_good_day_share": 0.989,
+   "reference_stream": "NM.BLO..BHZ",
+   "lat": 39.1719,
+   "lon": -86.5222,
+   "sites": [
+    {
+     "dist_km": 144.8,
+     "members": [
+      {
+       "sta": "OLIL",
+       "dist_km": 144.8,
+       "stream": "NM.OLIL..BHZ",
+       "lat": 38.7338,
+       "lon": -88.0991
+      },
+      {
+       "sta": "FFIL",
+       "dist_km": 184.2,
+       "stream": "NM.FFIL.00.BHZ",
+       "lat": 38.381345,
+       "lon": -88.389648
+      }
+     ]
+    },
+    {
+     "dist_km": 167.0,
+     "members": [
+      {
+       "sta": "USIN",
+       "dist_km": 167.0,
+       "stream": "NM.USIN..BHZ",
+       "lat": 37.965,
+       "lon": -87.666
+      }
+     ]
+    },
+    {
+     "dist_km": 285.2,
+     "members": [
+      {
+       "sta": "SIUC",
+       "dist_km": 285.2,
+       "stream": "NM.SIUC.00.HHZ",
+       "lat": 37.7148,
+       "lon": -89.2174
+      }
+     ]
+    }
+   ],
+   "network": "NM",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 2,
+   "region": "USA-Mexico"
+  },
+  {
+   "window": "W2",
+   "reference": "ROEST",
+   "pair": true,
+   "site_outage_days": [
+    145,
+    18,
+    18
+   ],
+   "reference_good_day_share": 0.951,
+   "reference_stream": "NS.ROEST.00.HHZ",
+   "lat": 67.52016,
+   "lon": 12.1045,
+   "sites": [
+    {
+     "dist_km": 90.9,
+     "members": [
+      {
+       "sta": "LOF",
+       "dist_km": 90.9,
+       "stream": "NS.LOF.00.HHZ",
+       "lat": 68.1325,
+       "lon": 13.53983
+      }
+     ]
+    },
+    {
+     "dist_km": 101.3,
+     "members": [
+      {
+       "sta": "VAGH",
+       "dist_km": 101.3,
+       "stream": "NS.VAGH.00.HHZ",
+       "lat": 66.73033,
+       "lon": 13.2705
+      },
+      {
+       "sta": "GILDE",
+       "dist_km": 111.2,
+       "stream": "NS.GILDE.00.HHZ",
+       "lat": 66.92934,
+       "lon": 14.18967
+      }
+     ]
+    },
+    {
+     "dist_km": 136.6,
+     "members": [
+      {
+       "sta": "FAUS",
+       "dist_km": 136.6,
+       "stream": "NS.FAUS.00.HHZ",
+       "lat": 67.382,
+       "lon": 15.28767
+      }
+     ]
+    }
+   ],
+   "network": "NS",
+   "datacentre": "UIB-NORSAR",
+   "dataselect": "https://eida.geo.uib.no/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 11,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  {
+   "window": "W1",
+   "reference": "KOSP",
+   "pair": true,
+   "site_outage_days": [
+    4,
+    120,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "HC.KOSP..HHZ",
+   "lat": 36.881,
+   "lon": 27.281,
+   "sites": [
+    {
+     "dist_km": 215.2,
+     "members": [
+      {
+       "sta": "STIA",
+       "dist_km": 215.2,
+       "stream": "HC.STIA..HHZ",
+       "lat": 35.2021,
+       "lon": 26.0909
+      }
+     ]
+    },
+    {
+     "dist_km": 217.6,
+     "members": [
+      {
+       "sta": "THNO",
+       "dist_km": 217.6,
+       "stream": "HC.THNO..HHZ",
+       "lat": 37.6541,
+       "lon": 25.0221
+      }
+     ]
+    },
+    {
+     "dist_km": 257.6,
+     "members": [
+      {
+       "sta": "KNSS",
+       "dist_km": 257.6,
+       "stream": "HC.KNSS..HHZ",
+       "lat": 35.304187,
+       "lon": 25.18017
+      },
+      {
+       "sta": "PFKS",
+       "dist_km": 261.2,
+       "stream": "HC.PFKS..HHZ",
+       "lat": 35.0429,
+       "lon": 25.4733
+      }
+     ]
+    }
+   ],
+   "network": "HC",
+   "datacentre": "NOA",
+   "dataselect": "https://eida.gein.noa.gr/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  {
+   "window": "W1",
+   "reference": "AUDCS",
+   "pair": true,
+   "site_outage_days": [
+    38,
+    4,
+    41
+   ],
+   "reference_good_day_share": 0.962,
+   "reference_stream": "S1.AUDCS..BHZ",
+   "lat": -32.2334,
+   "lon": 148.6278,
+   "sites": [
+    {
+     "dist_km": 248.8,
+     "members": [
+      {
+       "sta": "AUPHS",
+       "dist_km": 248.8,
+       "stream": "S1.AUPHS..BHZ",
+       "lat": -31.099,
+       "lon": 150.8943
+      }
+     ]
+    },
+    {
+     "dist_km": 282.4,
+     "members": [
+      {
+       "sta": "AUTKS",
+       "dist_km": 282.4,
+       "stream": "S1.AUTKS..BHZ",
+       "lat": -33.7846,
+       "lon": 151.0254
+      },
+      {
+       "sta": "AUKHS",
+       "dist_km": 291.5,
+       "stream": "S1.AUKHS..BHZ",
+       "lat": -33.4642,
+       "lon": 151.3827
+      }
+     ]
+    },
+    {
+     "dist_km": 318.2,
+     "members": [
+      {
+       "sta": "AULRC",
+       "dist_km": 318.2,
+       "stream": "S1.AULRC..BHZ",
+       "lat": -29.4262,
+       "lon": 147.979
+      }
+     ]
+    }
+   ],
+   "network": "S1",
+   "datacentre": "AusPass",
+   "dataselect": "https://auspass.edu.au/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 8,
+   "region": "New Zealand-SW Pacific"
+  },
+  {
+   "window": "W2",
+   "reference": "GO02",
+   "pair": false,
+   "site_outage_days": [
+    194,
+    95,
+    12
+   ],
+   "reference_good_day_share": 0.907,
+   "reference_stream": "C.GO02..BHZ",
+   "lat": -25.1626,
+   "lon": -69.5904,
+   "sites": [
+    {
+     "dist_km": 277.8,
+     "members": [
+      {
+       "sta": "GO03",
+       "dist_km": 277.8,
+       "stream": "C.GO03..BHZ",
+       "lat": -27.5937,
+       "lon": -70.2347
+      }
+     ]
+    },
+    {
+     "dist_km": 569.7,
+     "members": [
+      {
+       "sta": "GO04",
+       "dist_km": 569.7,
+       "stream": "C.GO04..BHZ",
+       "lat": -30.1727,
+       "lon": -70.7993
+      }
+     ]
+    },
+    {
+     "dist_km": 612.3,
+     "members": [
+      {
+       "sta": "GO01",
+       "dist_km": 612.3,
+       "stream": "C.GO01..BHZ",
+       "lat": -19.6685,
+       "lon": -69.1942
+      }
+     ]
+    }
+   ],
+   "network": "C",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 1,
+   "region": "South America"
+  },
+  {
+   "window": "W1",
+   "reference": "STPRA",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    182,
+    0
+   ],
+   "reference_good_day_share": 0.995,
+   "reference_stream": "RV.STPRA..HHZ",
+   "lat": 55.660629,
+   "lon": -115.832321,
+   "sites": [
+    {
+     "dist_km": 102.5,
+     "members": [
+      {
+       "sta": "PECRA",
+       "dist_km": 102.5,
+       "stream": "RV.PECRA..HHZ",
+       "lat": 56.295647,
+       "lon": -117.027029
+      },
+      {
+       "sta": "DEDWA",
+       "dist_km": 145.8,
+       "stream": "RV.DEDWA..HHZ",
+       "lat": 56.644562,
+       "lon": -117.389069
+      }
+     ]
+    },
+    {
+     "dist_km": 102.7,
+     "members": [
+      {
+       "sta": "SWHSA",
+       "dist_km": 102.7,
+       "stream": "RV.SWHSA..HHZ",
+       "lat": 54.899441,
+       "lon": -116.751793
+      }
+     ]
+    },
+    {
+     "dist_km": 139.3,
+     "members": [
+      {
+       "sta": "EGLEA",
+       "dist_km": 139.3,
+       "stream": "RV.EGLEA..HHZ",
+       "lat": 54.457111,
+       "lon": -116.440483
+      },
+      {
+       "sta": "FOXCA",
+       "dist_km": 153.6,
+       "stream": "RV.FOXCA..HHZ",
+       "lat": 54.397968,
+       "lon": -116.808167
+      }
+     ]
+    }
+   ],
+   "network": "RV",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  {
+   "window": "W1",
+   "reference": "ALGA",
+   "pair": false,
+   "site_outage_days": [
+    0,
+    9,
+    5
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "QZ.ALGA.00.HHZ",
+   "lat": 49.986897,
+   "lon": 57.210083,
+   "sites": [
+    {
+     "dist_km": 409.3,
+     "members": [
+      {
+       "sta": "FDRN",
+       "dist_km": 409.3,
+       "stream": "QZ.FDRN.00.HHZ",
+       "lat": 51.26934,
+       "lon": 51.769418
+      }
+     ]
+    },
+    {
+     "dist_km": 432.9,
+     "members": [
+      {
+       "sta": "INDER",
+       "dist_km": 432.9,
+       "stream": "QZ.INDER.00.HHZ",
+       "lat": 48.501565,
+       "lon": 51.694986
+      }
+     ]
+    },
+    {
+     "dist_km": 633.0,
+     "members": [
+      {
+       "sta": "AKST",
+       "dist_km": 633.0,
+       "stream": "QZ.AKST.00.HHZ",
+       "lat": 45.734274,
+       "lon": 62.857266
+      }
+     ]
+    }
+   ],
+   "network": "QZ",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 4,
+   "region": "Central Asia"
+  },
+  {
+   "window": "W1",
+   "reference": "KGNO",
+   "pair": true,
+   "site_outage_days": [
+    34,
+    0,
+    5
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "CN.KGNO..HHZ",
+   "lat": 44.2272,
+   "lon": -76.4934,
+   "sites": [
+    {
+     "dist_km": 129.2,
+     "members": [
+      {
+       "sta": "WBO",
+       "dist_km": 129.2,
+       "stream": "CN.WBO..HHZ",
+       "lat": 45.0012,
+       "lon": -75.2753
+      }
+     ]
+    },
+    {
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OTT",
+       "dist_km": 143.5,
+       "stream": "CN.OTT..HHZ",
+       "lat": 45.3939,
+       "lon": -75.7148
+      },
+      {
+       "sta": "ORIO",
+       "dist_km": 156.6,
+       "stream": "CN.ORIO..HHZ",
+       "lat": 45.4515,
+       "lon": -75.511
+      }
+     ]
+    },
+    {
+     "dist_km": 213.0,
+     "members": [
+      {
+       "sta": "CHRO",
+       "dist_km": 213.0,
+       "stream": "CN.CHRO..HHZ",
+       "lat": 46.0376,
+       "lon": -77.3794
+      }
+     ]
+    }
+   ],
+   "network": "CN",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 16,
+   "region": "USA-Mexico"
+  },
+  {
+   "window": "W3",
+   "reference": "TAR1",
+   "pair": true,
+   "site_outage_days": [
+    64,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.937,
+   "reference_stream": "OT.TAR1..HHZ",
+   "lat": 40.5259,
+   "lon": 17.2846,
+   "sites": [
+    {
+     "dist_km": 23.9,
+     "members": [
+      {
+       "sta": "CGL1",
+       "dist_km": 23.9,
+       "stream": "OT.CGL1..HHZ",
+       "lat": 40.648402,
+       "lon": 17.517326
+      }
+     ]
+    },
+    {
+     "dist_km": 168.6,
+     "members": [
+      {
+       "sta": "OT12",
+       "dist_km": 168.6,
+       "stream": "OT.OT12..HHZ",
+       "lat": 41.631801,
+       "lon": 15.90782
+      },
+      {
+       "sta": "OT05",
+       "dist_km": 189.1,
+       "stream": "OT.OT05..HHZ",
+       "lat": 41.65917,
+       "lon": 15.60256
+      }
+     ]
+    },
+    {
+     "dist_km": 229.1,
+     "members": [
+      {
+       "sta": "OT16",
+       "dist_km": 229.1,
+       "stream": "OT.OT16..HHZ",
+       "lat": 41.8344,
+       "lon": 15.1703
+      }
+     ]
+    }
+   ],
+   "network": "OT",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 2,
+   "region": "Europe incl. Alps-Balkans"
+  },
+  {
+   "window": "W3",
+   "reference": "AGVN",
+   "pair": true,
+   "site_outage_days": [
+    0,
+    18,
+    0
+   ],
+   "reference_good_day_share": 0.926,
+   "reference_stream": "A2.AGVN.00.HHZ",
+   "lat": 39.359078,
+   "lon": 46.318143,
+   "sites": [
+    {
+     "dist_km": 95.6,
+     "members": [
+      {
+       "sta": "SVZR",
+       "dist_km": 95.6,
+       "stream": "A2.SVZR.00.HHZ",
+       "lat": 39.920301,
+       "lon": 45.471962
+      },
+      {
+       "sta": "KCHK",
+       "dist_km": 100.0,
+       "stream": "A2.KCHK.00.HHZ",
+       "lat": 39.610717,
+       "lon": 45.199504
+      }
+     ]
+    },
+    {
+     "dist_km": 159.8,
+     "members": [
+      {
+       "sta": "TTJR",
+       "dist_km": 159.8,
+       "stream": "A2.TTJR.00.HHZ",
+       "lat": 40.597151,
+       "lon": 45.365255
+      }
+     ]
+    },
+    {
+     "dist_km": 189.4,
+     "members": [
+      {
+       "sta": "ARZK",
+       "dist_km": 189.4,
+       "stream": "A2.ARZK.00.HHZ",
+       "lat": 40.428408,
+       "lon": 44.589914
+      }
+     ]
+    }
+   ],
+   "network": "A2",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 3,
+   "region": "Caucasus-Turkey-Iran"
+  },
+  {
+   "window": "W1",
+   "reference": "PINNC",
+   "pair": true,
+   "site_outage_days": [
+    1,
+    3,
+    2
+   ],
+   "reference_good_day_share": 0.97,
+   "reference_stream": "ND.PINNC.00.BHZ",
+   "lat": -22.6129,
+   "lon": 167.4465,
+   "sites": [
+    {
+     "dist_km": 65.8,
+     "members": [
+      {
+       "sta": "OUENC",
+       "dist_km": 65.8,
+       "stream": "ND.OUENC.00.BHZ",
+       "lat": -22.4183,
+       "lon": 166.8416
+      },
+      {
+       "sta": "ONTNC",
+       "dist_km": 107.5,
+       "stream": "ND.ONTNC.00.BHZ",
+       "lat": -22.3073,
+       "lon": 166.454
+      }
+     ]
+    },
+    {
+     "dist_km": 139.5,
+     "members": [
+      {
+       "sta": "MARNC",
+       "dist_km": 139.5,
+       "stream": "ND.MARNC.00.BHZ",
+       "lat": -21.4809,
+       "lon": 168.0305
+      }
+     ]
+    },
+    {
+     "dist_km": 399.2,
+     "members": [
+      {
+       "sta": "KOUNC",
+       "dist_km": 399.2,
+       "stream": "ND.KOUNC.00.BHZ",
+       "lat": -20.5507,
+       "lon": 164.2861
+      }
+     ]
+    }
+   ],
+   "network": "ND",
+   "datacentre": "EPOSFR",
+   "dataselect": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 4,
+   "region": "New Zealand-SW Pacific"
+  },
+  {
+   "window": "W1",
+   "reference": "NAB1",
+   "pair": false,
+   "site_outage_days": [
+    146,
+    7,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "PQ.NAB1..HHZ",
+   "lat": 56.76629,
+   "lon": -121.25867,
+   "sites": [
+    {
+     "dist_km": 61.0,
+     "members": [
+      {
+       "sta": "NBC7",
+       "dist_km": 61.0,
+       "stream": "PQ.NBC7..HHZ",
+       "lat": 56.26779,
+       "lon": -120.84262
+      }
+     ]
+    },
+    {
+     "dist_km": 73.2,
+     "members": [
+      {
+       "sta": "NBC8",
+       "dist_km": 73.2,
+       "stream": "PQ.NBC8..HHZ",
+       "lat": 56.57308,
+       "lon": -122.40441
+      }
+     ]
+    },
+    {
+     "dist_km": 120.0,
+     "members": [
+      {
+       "sta": "NBC5",
+       "dist_km": 120.0,
+       "stream": "PQ.NBC5..HHZ",
+       "lat": 57.523109,
+       "lon": -122.677628
+      }
+     ]
+    }
+   ],
+   "network": "PQ",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 6,
+   "region": "Alaska-Aleutians-Canada"
+  },
+  {
+   "window": "W1",
+   "reference": "Q24A",
+   "pair": true,
+   "site_outage_days": [
+    31,
+    0,
+    21
+   ],
+   "reference_good_day_share": 1.0,
+   "reference_stream": "C0.Q24A.00.HHZ",
+   "lat": 38.9641,
+   "lon": -105.1492,
+   "sites": [
+    {
+     "dist_km": 170.5,
+     "members": [
+      {
+       "sta": "CHIL",
+       "dist_km": 170.5,
+       "stream": "C0.CHIL.00.HHZ",
+       "lat": 40.446466,
+       "lon": -104.638217
+      }
+     ]
+    },
+    {
+     "dist_km": 182.3,
+     "members": [
+      {
+       "sta": "MCSU",
+       "dist_km": 182.3,
+       "stream": "C0.MCSU.00.HHZ",
+       "lat": 40.568455,
+       "lon": -105.587774
+      },
+      {
+       "sta": "N23A",
+       "dist_km": 225.1,
+       "stream": "C0.N23A.00.HHZ",
+       "lat": 40.8947,
+       "lon": -105.944
+      }
+     ]
+    },
+    {
+     "dist_km": 187.4,
+     "members": [
+      {
+       "sta": "SPVA",
+       "dist_km": 187.4,
+       "stream": "C0.SPVA.00.HHZ",
+       "lat": 39.472632,
+       "lon": -107.223353
+      }
+     ]
+    }
+   ],
+   "network": "C0",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "restrictedStatus": "unknown",
+   "passing_configurations_in_window": 5,
+   "region": "USA-Mexico"
+  },
+  {
+   "window": "W1",
+   "reference": "AJAC",
+   "pair": true,
+   "site_outage_days": [
+    44,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.981,
+   "reference_stream": "FR.AJAC.00.HHZ",
+   "lat": 41.9279,
+   "lon": 8.763,
+   "sites": [
+    {
+     "dist_km": 46.9,
+     "members": [
+      {
+       "sta": "SMPL",
+       "dist_km": 46.9,
+       "stream": "FR.SMPL.00.BHZ",
+       "lat": 42.0945,
+       "lon": 9.2847
+      }
+     ]
+    },
+    {
+     "dist_km": 124.2,
+     "members": [
+      {
+       "sta": "MORSI",
+       "dist_km": 124.2,
+       "stream": "FR.MORSI.00.HHZ",
+       "lat": 42.953,
+       "lon": 9.363
+      }
+     ]
+    },
+    {
+     "dist_km": 224.1,
+     "members": [
+      {
+       "sta": "EILF",
+       "dist_km": 224.1,
+       "stream": "FR.EILF.00.BHZ",
+       "lat": 43.5479,
+       "lon": 7.1312
+      },
+      {
+       "sta": "MON",
+       "dist_km": 228.2,
+       "stream": "FR.MON.00.BHZ",
+       "lat": 43.730343,
+       "lon": 7.424688
+      }
+     ]
+    }
+   ],
+   "network": "FR",
+   "datacentre": "EPOSFR",
+   "dataselect": "https://seisdata.epos-france.fr/fdsnws/dataselect/1/",
+   "restrictedStatus": "open",
+   "passing_configurations_in_window": 6,
+   "region": "Europe incl. Alps-Balkans"
+  }
+ ]
+}

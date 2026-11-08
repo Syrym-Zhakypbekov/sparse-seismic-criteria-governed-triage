@@ -1,0 +1,37 @@
+{
+ "episodes": 317,
+ "associated": 57,
+ "calendar_days": 37,
+ "table6": {
+  "P1": {
+   "assoc_dismissed": 3,
+   "unassoc_alerts": 175,
+   "escalations": 0,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "assoc_dismissed": 0,
+   "unassoc_alerts": 222,
+   "escalations": 0,
+   "esc_per_day": 0.0
+  },
+  "P2": {
+   "assoc_dismissed": 2,
+   "unassoc_alerts": 99,
+   "escalations": 96,
+   "esc_per_day": 2.59
+  },
+  "P3": {
+   "assoc_dismissed": 0,
+   "unassoc_alerts": 149,
+   "escalations": 81,
+   "esc_per_day": 2.19
+  },
+  "CG": {
+   "assoc_dismissed": 2,
+   "unassoc_alerts": 93,
+   "escalations": 111,
+   "esc_per_day": 3.0
+  }
+ }
+}

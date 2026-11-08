@@ -1,0 +1,7 @@
+{
+ "episodes_compared": 3000,
+ "max_abs_diff_det": 3.680586814880371e-06,
+ "mean_abs_diff_det": 1.214946120980807e-07,
+ "same_decision_at_0.5": 1.0,
+ "pearson": 0.9999999999994208
+}

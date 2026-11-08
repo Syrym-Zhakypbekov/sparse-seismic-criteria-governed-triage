@@ -1,0 +1,6 @@
+2026-11-08T07:22:05Z CU rescue candidates ['2024-02-07', '2024-02-08', '2024-02-09']
+2026-11-08T07:23:37Z CU tune attempt 1: rc=-15 92s thresholds=yes
+2026-11-08T07:23:37Z CU rescue thresholds {'MAKZ': 5.167010739217597, 'S1_1': 4.632026851363474, 'S2_1': 5.10246535546148, 'S3_1': 4.484822453548602} (window 2024-02-07)
+2026-11-08T07:37:56Z CU out_2024-05-14 attempt 1: rc=0 799s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:45:52Z CU out_2024-02-14 attempt 1: rc=0 1335s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:45:52Z CU FINISHED state=done

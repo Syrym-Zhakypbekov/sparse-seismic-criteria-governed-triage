@@ -1,0 +1,98 @@
+{
+ "network": "US",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-b",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "US",
+   "ACSO",
+   "00",
+   "BHZ",
+   40.2319,
+   -82.982
+  ],
+  "S1_1": [
+   "US",
+   "AAM",
+   "00",
+   "BHZ",
+   42.3012,
+   -83.6567
+  ],
+  "S2_1": [
+   "US",
+   "MCWV",
+   "00",
+   "BHZ",
+   39.6581,
+   -79.8456
+  ],
+  "S3_1": [
+   "US",
+   "ERPA",
+   "00",
+   "BHZ",
+   42.1175,
+   -79.9891
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 97,
+     "end_utc": "2026-11-07T20:07:11Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:05:34Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "tune_nan_evidence": {
+  "S1_1": {
+   "stream": "US.AAM.00.BHZ",
+   "no_data_days": [
+    "2024-01-01",
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-06",
+    "2024-01-07"
+   ],
+   "fetch_failed_days": [],
+   "data_days": []
+  }
+ },
+ "thresholds": {
+  "MAKZ": 6.266265681905566,
+  "S1_1": NaN,
+  "S2_1": 7.119113452536725,
+  "S3_1": 3.769455429732793
+ }
+}

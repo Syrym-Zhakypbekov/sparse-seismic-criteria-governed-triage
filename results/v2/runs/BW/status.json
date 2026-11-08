@@ -1,0 +1,129 @@
+{
+ "network": "BW",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-b",
+ "fdsn_base": "https://erde.geophysik.uni-muenchen.de",
+ "stations": {
+  "MAKZ": [
+   "BW",
+   "WARN",
+   "",
+   "BHZ",
+   48.705232,
+   10.558995
+  ],
+  "S1_1": [
+   "BW",
+   "GELB",
+   "",
+   "BHZ",
+   48.1629,
+   11.2514
+  ],
+  "S1_2": [
+   "BW",
+   "BIB",
+   "",
+   "BHZ",
+   48.1522,
+   11.2473
+  ],
+  "S2_1": [
+   "BW",
+   "WRNG",
+   "",
+   "BHZ",
+   47.826206,
+   11.731584
+  ],
+  "S3_1": [
+   "BW",
+   "PART",
+   "",
+   "BHZ",
+   47.4964529,
+   11.1155508
+  ],
+  "S3_2": [
+   "BW",
+   "ZUGS",
+   "",
+   "HHZ",
+   47.416721,
+   10.979318
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 137,
+     "end_utc": "2026-11-07T19:33:06Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1942,
+     "end_utc": "2026-11-07T20:05:28Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1887,
+     "end_utc": "2026-11-07T20:05:33Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:49Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 4.988521550496504,
+  "S1_1": 7.000941380111526,
+  "S1_2": 8.420137119075026,
+  "S2_1": 5.793888169646712,
+  "S3_1": 6.220811154250687,
+  "S3_2": 9.836485754685297
+ },
+ "finished_utc": "2026-11-07T20:05:33Z"
+}

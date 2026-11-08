@@ -1,0 +1,61 @@
+{
+ "weights": {
+  "MK31": 0.25,
+  "KURK": 0.2,
+  "WUS": 0.15,
+  "SNR": 0.4
+ },
+ "delta": 0.45,
+ "snr_full_db": 30.0,
+ "theta_A": 0.6,
+ "theta_D_heldout": 0.16,
+ "development_cv": {
+  "thetas_D": [
+   0.21,
+   0.16,
+   0.16,
+   0.16,
+   0.16
+  ],
+  "policy": {
+   "n": 1077,
+   "assoc": 141,
+   "missed_assoc": 7,
+   "alert": 309,
+   "alert_unassoc": 216,
+   "escalate": 392,
+   "esc_per_day": 4.61,
+   "dismiss": 376
+  },
+  "checks": {
+   "stmt2_2_max_abs_error": 2.220446049250313e-16,
+   "stmt2_3_weights_sum_err": 1.1102230246251565e-16,
+   "stmt2_3_D_within_min_max": true,
+   "stmt2_5_grad_le_1_over_delta": true
+  },
+  "E5_undefined_escalations": 10
+ },
+ "heldout_exploratory": {
+  "thetas_D": [
+   0.16
+  ],
+  "policy": {
+   "n": 317,
+   "assoc": 57,
+   "missed_assoc": 2,
+   "alert": 136,
+   "alert_unassoc": 93,
+   "escalate": 111,
+   "esc_per_day": 3.08,
+   "dismiss": 70
+  },
+  "checks": {
+   "stmt2_2_max_abs_error": 2.220446049250313e-16,
+   "stmt2_3_weights_sum_err": 1.1102230246251565e-16,
+   "stmt2_3_D_within_min_max": true,
+   "stmt2_5_grad_le_1_over_delta": true
+  },
+  "E5_undefined_escalations": 0
+ },
+ "note": "held-out use of this model is exploratory: the model was specified after the pre-registration of P2"
+}

@@ -1,0 +1,124 @@
+{
+ "network": "SC",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "e99a4e33b795",
+ "platform": "kaggle",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "SC",
+   "GDL2",
+   "00",
+   "HHZ",
+   32.200802,
+   -104.363701
+  ],
+  "S1_1": [
+   "SC",
+   "DAG",
+   "00",
+   "HHZ",
+   32.591,
+   -104.691704
+  ],
+  "S2_1": [
+   "SC",
+   "CL7",
+   "00",
+   "HHZ",
+   32.413,
+   -103.8084
+  ],
+  "S2_2": [
+   "SC",
+   "PDB",
+   "00",
+   "HHZ",
+   32.0722,
+   -103.59662
+  ],
+  "S3_1": [
+   "SC",
+   "CPRX",
+   "00",
+   "HHZ",
+   33.0308,
+   -103.867302
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 157,
+     "end_utc": "2026-11-08T07:24:10Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1938,
+     "end_utc": "2026-11-08T07:56:28Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2300,
+     "end_utc": "2026-11-08T08:03:30Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-08T07:21:33Z",
+ "state": "done",
+ "rescue_plan": "PREREGISTRATION_V2_RESCUE_2026-11-08.md",
+ "rate_fix": false,
+ "rescue_window_rule": "unchanged (batch-B tuning week)",
+ "rescue_window_try": 1,
+ "thresholds": {
+  "MAKZ": 13.098952060070218,
+  "S1_1": 12.869858680447939,
+  "S2_1": 7.720500504424409,
+  "S2_2": 6.925961187171191,
+  "S3_1": 7.629622040986917
+ },
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "finished_utc": "2026-11-08T08:03:30Z"
+}

@@ -1,0 +1,16 @@
+2026-11-08T07:04:35Z RV_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S3_1', 'S3_2']
+2026-11-08T07:04:35Z RV_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 8.236309500025781, 'S1_1': 8.006100730695996, 'S1_2': 7.08627273828524, 'S2_1': 11.459709127326644, 'S3_1': 8.284939395869252, 'S3_2': 9.671862065520981}
+2026-11-08T07:04:38Z RV_EXT12B out_2024-07-08 attempt 1: rc=1 3s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:05:08Z RV_EXT12B out_2024-07-08 attempt 2: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:05:36Z RV_EXT12B out_2024-10-08 attempt 1: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:06:06Z RV_EXT12B out_2024-10-08 attempt 2: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:06:09Z RV_EXT12B out_2024-07-08 attempt 3: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:07:06Z RV_EXT12B out_2024-10-08 attempt 3: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:07:39Z RV_EXT12B out_2024-07-08 attempt 4: rc=1 0s summary=False fetch_fail=None cat_fail=None
+2026-11-08T07:13:18Z RV_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S3_1', 'S3_2']
+2026-11-08T07:13:18Z RV_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 8.236309500025781, 'S1_1': 8.006100730695996, 'S1_2': 7.08627273828524, 'S2_1': 11.459709127326644, 'S3_1': 8.284939395869252, 'S3_2': 9.671862065520981}
+2026-11-08T07:51:21Z RV_EXT12B out_2024-10-08 attempt 1: rc=0 2224s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:57:52Z RV_EXT12B out_2024-07-08 attempt 1: rc=0 2674s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:57:52Z RV_EXT12B FINISHED state=done
+2026-11-08T07:57:52Z C0_EXT12B plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S2_2', 'S3_1']
+2026-11-08T07:57:52Z C0_EXT12B EXT12 frozen batch-A thresholds {'MAKZ': 5.752928617003533, 'S1_1': 7.737510824498093, 'S2_1': 12.05300626339135, 'S2_2': 11.606469448313485, 'S3_1': 6.551437451196002}

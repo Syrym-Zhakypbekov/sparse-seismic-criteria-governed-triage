@@ -1,0 +1,2407 @@
+{
+ "status": "post hoc (internal review v30)",
+ "networks": 33,
+ "episodes": 263303,
+ "reviewed_associated": 4321,
+ "totals": {
+  "P1": {
+   "all": {
+    "A": 39995,
+    "D": 223308,
+    "E": 0
+   },
+   "reviewed_associated": {
+    "A": 3873,
+    "D": 448,
+    "E": 0
+   }
+  },
+  "P3": {
+   "all": {
+    "A": 26617,
+    "D": 123447,
+    "E": 113239
+   },
+   "reviewed_associated": {
+    "A": 3572,
+    "D": 151,
+    "E": 598
+   }
+  },
+  "CG": {
+   "all": {
+    "A": 10823,
+    "D": 175347,
+    "E": 77133
+   },
+   "reviewed_associated": {
+    "A": 2747,
+    "D": 319,
+    "E": 1255
+   }
+  },
+  "CG-D": {
+   "all": {
+    "A": 12801,
+    "D": 138449,
+    "E": 112053
+   },
+   "reviewed_associated": {
+    "A": 2993,
+    "D": 193,
+    "E": 1135
+   }
+  },
+  "CG_c05": {
+   "all": {
+    "A": 13991,
+    "D": 135996,
+    "E": 113316
+   },
+   "reviewed_associated": {
+    "A": 3065,
+    "D": 183,
+    "E": 1073
+   }
+  }
+ },
+ "escalations_per_day_per_network": {
+  "P1": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "P3": {
+   "median": 10.57,
+   "min": 1.63,
+   "max": 203.42
+  },
+  "CG": {
+   "median": 7.64,
+   "min": 1.48,
+   "max": 119.1
+  },
+  "CG-D": {
+   "median": 10.62,
+   "min": 1.51,
+   "max": 183.6
+  },
+  "CG_c05": {
+   "median": 10.69,
+   "min": 1.5,
+   "max": 186.47
+  }
+ },
+ "per_network": {
+  "AE": {
+   "days": 182,
+   "episodes": 3642,
+   "reviewed_associated": 242,
+   "P1": {
+    "all": {
+     "A": 1267,
+     "D": 2375,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 222,
+     "D": 20,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1057,
+     "D": 1113,
+     "E": 1472
+    },
+    "reviewed_associated": {
+     "A": 211,
+     "D": 5,
+     "E": 26
+    },
+    "escalations_per_day": 8.09
+   },
+   "CG": {
+    "all": {
+     "A": 398,
+     "D": 2056,
+     "E": 1188
+    },
+    "reviewed_associated": {
+     "A": 116,
+     "D": 18,
+     "E": 108
+    },
+    "escalations_per_day": 6.53
+   },
+   "CG-D": {
+    "all": {
+     "A": 445,
+     "D": 1380,
+     "E": 1817
+    },
+    "reviewed_associated": {
+     "A": 120,
+     "D": 9,
+     "E": 113
+    },
+    "escalations_per_day": 9.98
+   },
+   "CG_c05": {
+    "all": {
+     "A": 535,
+     "D": 1347,
+     "E": 1760
+    },
+    "reviewed_associated": {
+     "A": 144,
+     "D": 8,
+     "E": 90
+    },
+    "escalations_per_day": 9.67
+   }
+  },
+  "AG": {
+   "days": 182,
+   "episodes": 7418,
+   "reviewed_associated": 37,
+   "P1": {
+    "all": {
+     "A": 627,
+     "D": 6791,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 31,
+     "D": 6,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 481,
+     "D": 2165,
+     "E": 4772
+    },
+    "reviewed_associated": {
+     "A": 31,
+     "D": 3,
+     "E": 3
+    },
+    "escalations_per_day": 26.22
+   },
+   "CG": {
+    "all": {
+     "A": 77,
+     "D": 4828,
+     "E": 2513
+    },
+    "reviewed_associated": {
+     "A": 26,
+     "D": 6,
+     "E": 5
+    },
+    "escalations_per_day": 13.81
+   },
+   "CG-D": {
+    "all": {
+     "A": 95,
+     "D": 2897,
+     "E": 4426
+    },
+    "reviewed_associated": {
+     "A": 27,
+     "D": 3,
+     "E": 7
+    },
+    "escalations_per_day": 24.32
+   },
+   "CG_c05": {
+    "all": {
+     "A": 124,
+     "D": 2800,
+     "E": 4494
+    },
+    "reviewed_associated": {
+     "A": 28,
+     "D": 3,
+     "E": 6
+    },
+    "escalations_per_day": 24.69
+   }
+  },
+  "AU": {
+   "days": 182,
+   "episodes": 4301,
+   "reviewed_associated": 90,
+   "P1": {
+    "all": {
+     "A": 775,
+     "D": 3526,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 90,
+     "D": 0,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 220,
+     "D": 3521,
+     "E": 560
+    },
+    "reviewed_associated": {
+     "A": 64,
+     "D": 0,
+     "E": 26
+    },
+    "escalations_per_day": 3.08
+   },
+   "CG": {
+    "all": {
+     "A": 272,
+     "D": 3524,
+     "E": 505
+    },
+    "reviewed_associated": {
+     "A": 74,
+     "D": 0,
+     "E": 16
+    },
+    "escalations_per_day": 2.77
+   },
+   "CG-D": {
+    "all": {
+     "A": 286,
+     "D": 3522,
+     "E": 493
+    },
+    "reviewed_associated": {
+     "A": 78,
+     "D": 0,
+     "E": 12
+    },
+    "escalations_per_day": 2.71
+   },
+   "CG_c05": {
+    "all": {
+     "A": 284,
+     "D": 3522,
+     "E": 495
+    },
+    "reviewed_associated": {
+     "A": 77,
+     "D": 0,
+     "E": 13
+    },
+    "escalations_per_day": 2.72
+   }
+  },
+  "AV": {
+   "days": 182,
+   "episodes": 2264,
+   "reviewed_associated": 433,
+   "P1": {
+    "all": {
+     "A": 1425,
+     "D": 839,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 397,
+     "D": 36,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1125,
+     "D": 607,
+     "E": 532
+    },
+    "reviewed_associated": {
+     "A": 362,
+     "D": 17,
+     "E": 54
+    },
+    "escalations_per_day": 2.92
+   },
+   "CG": {
+    "all": {
+     "A": 657,
+     "D": 824,
+     "E": 783
+    },
+    "reviewed_associated": {
+     "A": 264,
+     "D": 34,
+     "E": 135
+    },
+    "escalations_per_day": 4.3
+   },
+   "CG-D": {
+    "all": {
+     "A": 825,
+     "D": 695,
+     "E": 744
+    },
+    "reviewed_associated": {
+     "A": 299,
+     "D": 26,
+     "E": 108
+    },
+    "escalations_per_day": 4.09
+   },
+   "CG_c05": {
+    "all": {
+     "A": 824,
+     "D": 688,
+     "E": 752
+    },
+    "reviewed_associated": {
+     "A": 296,
+     "D": 26,
+     "E": 111
+    },
+    "escalations_per_day": 4.13
+   }
+  },
+  "BW": {
+   "days": 182,
+   "episodes": 12395,
+   "reviewed_associated": 99,
+   "P1": {
+    "all": {
+     "A": 1063,
+     "D": 11332,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 83,
+     "D": 16,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 594,
+     "D": 6206,
+     "E": 5595
+    },
+    "reviewed_associated": {
+     "A": 73,
+     "D": 5,
+     "E": 21
+    },
+    "escalations_per_day": 30.74
+   },
+   "CG": {
+    "all": {
+     "A": 107,
+     "D": 9480,
+     "E": 2808
+    },
+    "reviewed_associated": {
+     "A": 42,
+     "D": 13,
+     "E": 44
+    },
+    "escalations_per_day": 15.43
+   },
+   "CG-D": {
+    "all": {
+     "A": 116,
+     "D": 7064,
+     "E": 5215
+    },
+    "reviewed_associated": {
+     "A": 42,
+     "D": 5,
+     "E": 52
+    },
+    "escalations_per_day": 28.65
+   },
+   "CG_c05": {
+    "all": {
+     "A": 169,
+     "D": 6646,
+     "E": 5580
+    },
+    "reviewed_associated": {
+     "A": 47,
+     "D": 4,
+     "E": 48
+    },
+    "escalations_per_day": 30.66
+   }
+  },
+  "C0": {
+   "days": 182,
+   "episodes": 5486,
+   "reviewed_associated": 92,
+   "P1": {
+    "all": {
+     "A": 777,
+     "D": 4709,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 77,
+     "D": 15,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 513,
+     "D": 2242,
+     "E": 2731
+    },
+    "reviewed_associated": {
+     "A": 68,
+     "D": 4,
+     "E": 20
+    },
+    "escalations_per_day": 15.01
+   },
+   "CG": {
+    "all": {
+     "A": 51,
+     "D": 4160,
+     "E": 1275
+    },
+    "reviewed_associated": {
+     "A": 32,
+     "D": 12,
+     "E": 48
+    },
+    "escalations_per_day": 7.01
+   },
+   "CG-D": {
+    "all": {
+     "A": 69,
+     "D": 2878,
+     "E": 2539
+    },
+    "reviewed_associated": {
+     "A": 33,
+     "D": 6,
+     "E": 53
+    },
+    "escalations_per_day": 13.95
+   },
+   "CG_c05": {
+    "all": {
+     "A": 137,
+     "D": 2788,
+     "E": 2561
+    },
+    "reviewed_associated": {
+     "A": 43,
+     "D": 5,
+     "E": 44
+    },
+    "escalations_per_day": 14.07
+   }
+  },
+  "C1": {
+   "days": 182,
+   "episodes": 4862,
+   "reviewed_associated": 190,
+   "P1": {
+    "all": {
+     "A": 2929,
+     "D": 1933,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 185,
+     "D": 5,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 2929,
+     "D": 9,
+     "E": 1924
+    },
+    "reviewed_associated": {
+     "A": 185,
+     "D": 0,
+     "E": 5
+    },
+    "escalations_per_day": 10.57
+   },
+   "CG": {
+    "all": {
+     "A": 2073,
+     "D": 388,
+     "E": 2401
+    },
+    "reviewed_associated": {
+     "A": 177,
+     "D": 2,
+     "E": 11
+    },
+    "escalations_per_day": 13.19
+   },
+   "CG-D": {
+    "all": {
+     "A": 2182,
+     "D": 30,
+     "E": 2650
+    },
+    "reviewed_associated": {
+     "A": 179,
+     "D": 0,
+     "E": 11
+    },
+    "escalations_per_day": 14.56
+   },
+   "CG_c05": {
+    "all": {
+     "A": 2416,
+     "D": 29,
+     "E": 2417
+    },
+    "reviewed_associated": {
+     "A": 182,
+     "D": 0,
+     "E": 8
+    },
+    "escalations_per_day": 13.28
+   }
+  },
+  "CN": {
+   "days": 182,
+   "episodes": 7279,
+   "reviewed_associated": 55,
+   "P1": {
+    "all": {
+     "A": 1509,
+     "D": 5770,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 52,
+     "D": 3,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 314,
+     "D": 4977,
+     "E": 1988
+    },
+    "reviewed_associated": {
+     "A": 32,
+     "D": 3,
+     "E": 20
+    },
+    "escalations_per_day": 10.92
+   },
+   "CG": {
+    "all": {
+     "A": 125,
+     "D": 5672,
+     "E": 1482
+    },
+    "reviewed_associated": {
+     "A": 40,
+     "D": 3,
+     "E": 12
+    },
+    "escalations_per_day": 8.14
+   },
+   "CG-D": {
+    "all": {
+     "A": 149,
+     "D": 5279,
+     "E": 1851
+    },
+    "reviewed_associated": {
+     "A": 41,
+     "D": 3,
+     "E": 11
+    },
+    "escalations_per_day": 10.17
+   },
+   "CG_c05": {
+    "all": {
+     "A": 144,
+     "D": 5247,
+     "E": 1888
+    },
+    "reviewed_associated": {
+     "A": 41,
+     "D": 3,
+     "E": 11
+    },
+    "escalations_per_day": 10.37
+   }
+  },
+  "EE": {
+   "days": 182,
+   "episodes": 13990,
+   "reviewed_associated": 73,
+   "P1": {
+    "all": {
+     "A": 898,
+     "D": 13092,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 69,
+     "D": 4,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 402,
+     "D": 10968,
+     "E": 2620
+    },
+    "reviewed_associated": {
+     "A": 61,
+     "D": 3,
+     "E": 9
+    },
+    "escalations_per_day": 14.4
+   },
+   "CG": {
+    "all": {
+     "A": 226,
+     "D": 12817,
+     "E": 947
+    },
+    "reviewed_associated": {
+     "A": 53,
+     "D": 4,
+     "E": 16
+    },
+    "escalations_per_day": 5.2
+   },
+   "CG-D": {
+    "all": {
+     "A": 261,
+     "D": 11930,
+     "E": 1799
+    },
+    "reviewed_associated": {
+     "A": 56,
+     "D": 3,
+     "E": 14
+    },
+    "escalations_per_day": 9.88
+   },
+   "CG_c05": {
+    "all": {
+     "A": 253,
+     "D": 11848,
+     "E": 1889
+    },
+    "reviewed_associated": {
+     "A": 54,
+     "D": 3,
+     "E": 16
+    },
+    "escalations_per_day": 10.38
+   }
+  },
+  "ET": {
+   "days": 182,
+   "episodes": 4644,
+   "reviewed_associated": 69,
+   "P1": {
+    "all": {
+     "A": 1292,
+     "D": 3352,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 64,
+     "D": 5,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 861,
+     "D": 2201,
+     "E": 1582
+    },
+    "reviewed_associated": {
+     "A": 61,
+     "D": 3,
+     "E": 5
+    },
+    "escalations_per_day": 8.69
+   },
+   "CG": {
+    "all": {
+     "A": 206,
+     "D": 3048,
+     "E": 1390
+    },
+    "reviewed_associated": {
+     "A": 31,
+     "D": 3,
+     "E": 35
+    },
+    "escalations_per_day": 7.64
+   },
+   "CG-D": {
+    "all": {
+     "A": 295,
+     "D": 2359,
+     "E": 1990
+    },
+    "reviewed_associated": {
+     "A": 39,
+     "D": 3,
+     "E": 27
+    },
+    "escalations_per_day": 10.93
+   },
+   "CG_c05": {
+    "all": {
+     "A": 313,
+     "D": 2355,
+     "E": 1976
+    },
+    "reviewed_associated": {
+     "A": 42,
+     "D": 3,
+     "E": 24
+    },
+    "escalations_per_day": 10.86
+   }
+  },
+  "FN": {
+   "days": 182,
+   "episodes": 4792,
+   "reviewed_associated": 101,
+   "P1": {
+    "all": {
+     "A": 2051,
+     "D": 2741,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 100,
+     "D": 1,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1148,
+     "D": 2543,
+     "E": 1101
+    },
+    "reviewed_associated": {
+     "A": 95,
+     "D": 0,
+     "E": 6
+    },
+    "escalations_per_day": 6.05
+   },
+   "CG": {
+    "all": {
+     "A": 734,
+     "D": 2720,
+     "E": 1338
+    },
+    "reviewed_associated": {
+     "A": 94,
+     "D": 1,
+     "E": 6
+    },
+    "escalations_per_day": 7.35
+   },
+   "CG-D": {
+    "all": {
+     "A": 854,
+     "D": 2656,
+     "E": 1282
+    },
+    "reviewed_associated": {
+     "A": 94,
+     "D": 1,
+     "E": 6
+    },
+    "escalations_per_day": 7.04
+   },
+   "CG_c05": {
+    "all": {
+     "A": 839,
+     "D": 2644,
+     "E": 1309
+    },
+    "reviewed_associated": {
+     "A": 94,
+     "D": 1,
+     "E": 6
+    },
+    "escalations_per_day": 7.19
+   }
+  },
+  "HC": {
+   "days": 182,
+   "episodes": 5591,
+   "reviewed_associated": 90,
+   "P1": {
+    "all": {
+     "A": 931,
+     "D": 4660,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 88,
+     "D": 2,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 411,
+     "D": 3127,
+     "E": 2053
+    },
+    "reviewed_associated": {
+     "A": 83,
+     "D": 0,
+     "E": 7
+    },
+    "escalations_per_day": 11.28
+   },
+   "CG": {
+    "all": {
+     "A": 109,
+     "D": 4378,
+     "E": 1104
+    },
+    "reviewed_associated": {
+     "A": 68,
+     "D": 1,
+     "E": 21
+    },
+    "escalations_per_day": 6.07
+   },
+   "CG-D": {
+    "all": {
+     "A": 144,
+     "D": 3619,
+     "E": 1828
+    },
+    "reviewed_associated": {
+     "A": 78,
+     "D": 0,
+     "E": 12
+    },
+    "escalations_per_day": 10.04
+   },
+   "CG_c05": {
+    "all": {
+     "A": 137,
+     "D": 3556,
+     "E": 1898
+    },
+    "reviewed_associated": {
+     "A": 78,
+     "D": 0,
+     "E": 12
+    },
+    "escalations_per_day": 10.43
+   }
+  },
+  "HE": {
+   "days": 182,
+   "episodes": 4647,
+   "reviewed_associated": 112,
+   "P1": {
+    "all": {
+     "A": 2819,
+     "D": 1828,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 108,
+     "D": 4,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1673,
+     "D": 1536,
+     "E": 1438
+    },
+    "reviewed_associated": {
+     "A": 105,
+     "D": 2,
+     "E": 5
+    },
+    "escalations_per_day": 7.9
+   },
+   "CG": {
+    "all": {
+     "A": 568,
+     "D": 1770,
+     "E": 2309
+    },
+    "reviewed_associated": {
+     "A": 96,
+     "D": 4,
+     "E": 12
+    },
+    "escalations_per_day": 12.69
+   },
+   "CG-D": {
+    "all": {
+     "A": 714,
+     "D": 1660,
+     "E": 2273
+    },
+    "reviewed_associated": {
+     "A": 102,
+     "D": 2,
+     "E": 8
+    },
+    "escalations_per_day": 12.49
+   },
+   "CG_c05": {
+    "all": {
+     "A": 718,
+     "D": 1650,
+     "E": 2279
+    },
+    "reviewed_associated": {
+     "A": 102,
+     "D": 2,
+     "E": 8
+    },
+    "escalations_per_day": 12.52
+   }
+  },
+  "HL": {
+   "days": 182,
+   "episodes": 4719,
+   "reviewed_associated": 263,
+   "P1": {
+    "all": {
+     "A": 1085,
+     "D": 3634,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 222,
+     "D": 41,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 874,
+     "D": 1119,
+     "E": 2726
+    },
+    "reviewed_associated": {
+     "A": 217,
+     "D": 2,
+     "E": 44
+    },
+    "escalations_per_day": 14.98
+   },
+   "CG": {
+    "all": {
+     "A": 243,
+     "D": 2687,
+     "E": 1789
+    },
+    "reviewed_associated": {
+     "A": 158,
+     "D": 17,
+     "E": 88
+    },
+    "escalations_per_day": 9.83
+   },
+   "CG-D": {
+    "all": {
+     "A": 285,
+     "D": 1537,
+     "E": 2897
+    },
+    "reviewed_associated": {
+     "A": 177,
+     "D": 6,
+     "E": 80
+    },
+    "escalations_per_day": 15.92
+   },
+   "CG_c05": {
+    "all": {
+     "A": 311,
+     "D": 1485,
+     "E": 2923
+    },
+    "reviewed_associated": {
+     "A": 180,
+     "D": 4,
+     "E": 79
+    },
+    "escalations_per_day": 16.06
+   }
+  },
+  "IV": {
+   "days": 182,
+   "episodes": 7149,
+   "reviewed_associated": 122,
+   "P1": {
+    "all": {
+     "A": 785,
+     "D": 6364,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 98,
+     "D": 24,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 221,
+     "D": 5977,
+     "E": 951
+    },
+    "reviewed_associated": {
+     "A": 78,
+     "D": 16,
+     "E": 28
+    },
+    "escalations_per_day": 5.23
+   },
+   "CG": {
+    "all": {
+     "A": 102,
+     "D": 6289,
+     "E": 758
+    },
+    "reviewed_associated": {
+     "A": 46,
+     "D": 23,
+     "E": 53
+    },
+    "escalations_per_day": 4.16
+   },
+   "CG-D": {
+    "all": {
+     "A": 137,
+     "D": 6079,
+     "E": 933
+    },
+    "reviewed_associated": {
+     "A": 59,
+     "D": 19,
+     "E": 44
+    },
+    "escalations_per_day": 5.13
+   },
+   "CG_c05": {
+    "all": {
+     "A": 139,
+     "D": 6066,
+     "E": 944
+    },
+    "reviewed_associated": {
+     "A": 59,
+     "D": 18,
+     "E": 45
+    },
+    "escalations_per_day": 5.19
+   }
+  },
+  "IW": {
+   "days": 182,
+   "episodes": 4948,
+   "reviewed_associated": 245,
+   "P1": {
+    "all": {
+     "A": 2743,
+     "D": 2205,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 240,
+     "D": 5,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 2543,
+     "D": 295,
+     "E": 2110
+    },
+    "reviewed_associated": {
+     "A": 238,
+     "D": 0,
+     "E": 7
+    },
+    "escalations_per_day": 11.59
+   },
+   "CG": {
+    "all": {
+     "A": 606,
+     "D": 1280,
+     "E": 3062
+    },
+    "reviewed_associated": {
+     "A": 191,
+     "D": 3,
+     "E": 51
+    },
+    "escalations_per_day": 16.82
+   },
+   "CG-D": {
+    "all": {
+     "A": 804,
+     "D": 537,
+     "E": 3607
+    },
+    "reviewed_associated": {
+     "A": 212,
+     "D": 0,
+     "E": 33
+    },
+    "escalations_per_day": 19.82
+   },
+   "CG_c05": {
+    "all": {
+     "A": 909,
+     "D": 499,
+     "E": 3540
+    },
+    "reviewed_associated": {
+     "A": 219,
+     "D": 0,
+     "E": 26
+    },
+    "escalations_per_day": 19.45
+   }
+  },
+  "JP": {
+   "days": 182,
+   "episodes": 75455,
+   "reviewed_associated": 218,
+   "P1": {
+    "all": {
+     "A": 3796,
+     "D": 71659,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 103,
+     "D": 115,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1924,
+     "D": 36509,
+     "E": 37022
+    },
+    "reviewed_associated": {
+     "A": 56,
+     "D": 48,
+     "E": 114
+    },
+    "escalations_per_day": 203.42
+   },
+   "CG": {
+    "all": {
+     "A": 89,
+     "D": 53690,
+     "E": 21676
+    },
+    "reviewed_associated": {
+     "A": 10,
+     "D": 83,
+     "E": 125
+    },
+    "escalations_per_day": 119.1
+   },
+   "CG-D": {
+    "all": {
+     "A": 133,
+     "D": 41907,
+     "E": 33415
+    },
+    "reviewed_associated": {
+     "A": 14,
+     "D": 57,
+     "E": 147
+    },
+    "escalations_per_day": 183.6
+   },
+   "CG_c05": {
+    "all": {
+     "A": 308,
+     "D": 41210,
+     "E": 33937
+    },
+    "reviewed_associated": {
+     "A": 23,
+     "D": 56,
+     "E": 139
+    },
+    "escalations_per_day": 186.47
+   }
+  },
+  "KR": {
+   "days": 182,
+   "episodes": 2616,
+   "reviewed_associated": 206,
+   "P1": {
+    "all": {
+     "A": 721,
+     "D": 1895,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 204,
+     "D": 2,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 706,
+     "D": 208,
+     "E": 1702
+    },
+    "reviewed_associated": {
+     "A": 204,
+     "D": 0,
+     "E": 2
+    },
+    "escalations_per_day": 9.35
+   },
+   "CG": {
+    "all": {
+     "A": 400,
+     "D": 931,
+     "E": 1285
+    },
+    "reviewed_associated": {
+     "A": 180,
+     "D": 0,
+     "E": 26
+    },
+    "escalations_per_day": 7.06
+   },
+   "CG-D": {
+    "all": {
+     "A": 486,
+     "D": 332,
+     "E": 1798
+    },
+    "reviewed_associated": {
+     "A": 192,
+     "D": 0,
+     "E": 14
+    },
+    "escalations_per_day": 9.88
+   },
+   "CG_c05": {
+    "all": {
+     "A": 511,
+     "D": 311,
+     "E": 1794
+    },
+    "reviewed_associated": {
+     "A": 198,
+     "D": 0,
+     "E": 8
+    },
+    "escalations_per_day": 9.86
+   }
+  },
+  "MB": {
+   "days": 182,
+   "episodes": 1654,
+   "reviewed_associated": 129,
+   "P1": {
+    "all": {
+     "A": 817,
+     "D": 837,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 123,
+     "D": 6,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 720,
+     "D": 500,
+     "E": 434
+    },
+    "reviewed_associated": {
+     "A": 120,
+     "D": 2,
+     "E": 7
+    },
+    "escalations_per_day": 2.38
+   },
+   "CG": {
+    "all": {
+     "A": 417,
+     "D": 672,
+     "E": 565
+    },
+    "reviewed_associated": {
+     "A": 100,
+     "D": 6,
+     "E": 23
+    },
+    "escalations_per_day": 3.1
+   },
+   "CG-D": {
+    "all": {
+     "A": 455,
+     "D": 528,
+     "E": 671
+    },
+    "reviewed_associated": {
+     "A": 104,
+     "D": 3,
+     "E": 22
+    },
+    "escalations_per_day": 3.69
+   },
+   "CG_c05": {
+    "all": {
+     "A": 473,
+     "D": 486,
+     "E": 695
+    },
+    "reviewed_associated": {
+     "A": 104,
+     "D": 2,
+     "E": 23
+    },
+    "escalations_per_day": 3.82
+   }
+  },
+  "ND": {
+   "days": 182,
+   "episodes": 4683,
+   "reviewed_associated": 284,
+   "P1": {
+    "all": {
+     "A": 1015,
+     "D": 3668,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 282,
+     "D": 2,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 960,
+     "D": 470,
+     "E": 3253
+    },
+    "reviewed_associated": {
+     "A": 275,
+     "D": 0,
+     "E": 9
+    },
+    "escalations_per_day": 17.87
+   },
+   "CG": {
+    "all": {
+     "A": 517,
+     "D": 2256,
+     "E": 1910
+    },
+    "reviewed_associated": {
+     "A": 232,
+     "D": 1,
+     "E": 51
+    },
+    "escalations_per_day": 10.49
+   },
+   "CG-D": {
+    "all": {
+     "A": 625,
+     "D": 911,
+     "E": 3147
+    },
+    "reviewed_associated": {
+     "A": 260,
+     "D": 0,
+     "E": 24
+    },
+    "escalations_per_day": 17.29
+   },
+   "CG_c05": {
+    "all": {
+     "A": 621,
+     "D": 838,
+     "E": 3224
+    },
+    "reviewed_associated": {
+     "A": 262,
+     "D": 0,
+     "E": 22
+    },
+    "escalations_per_day": 17.71
+   }
+  },
+  "NE": {
+   "days": 182,
+   "episodes": 5349,
+   "reviewed_associated": 42,
+   "P1": {
+    "all": {
+     "A": 536,
+     "D": 4813,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 40,
+     "D": 2,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 160,
+     "D": 4262,
+     "E": 927
+    },
+    "reviewed_associated": {
+     "A": 34,
+     "D": 1,
+     "E": 7
+    },
+    "escalations_per_day": 5.09
+   },
+   "CG": {
+    "all": {
+     "A": 41,
+     "D": 4692,
+     "E": 616
+    },
+    "reviewed_associated": {
+     "A": 22,
+     "D": 2,
+     "E": 18
+    },
+    "escalations_per_day": 3.38
+   },
+   "CG-D": {
+    "all": {
+     "A": 68,
+     "D": 4445,
+     "E": 836
+    },
+    "reviewed_associated": {
+     "A": 29,
+     "D": 1,
+     "E": 12
+    },
+    "escalations_per_day": 4.59
+   },
+   "CG_c05": {
+    "all": {
+     "A": 70,
+     "D": 4432,
+     "E": 847
+    },
+    "reviewed_associated": {
+     "A": 28,
+     "D": 1,
+     "E": 13
+    },
+    "escalations_per_day": 4.65
+   }
+  },
+  "NM": {
+   "days": 182,
+   "episodes": 4207,
+   "reviewed_associated": 37,
+   "P1": {
+    "all": {
+     "A": 575,
+     "D": 3632,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 28,
+     "D": 9,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 195,
+     "D": 2978,
+     "E": 1034
+    },
+    "reviewed_associated": {
+     "A": 25,
+     "D": 5,
+     "E": 7
+    },
+    "escalations_per_day": 5.68
+   },
+   "CG": {
+    "all": {
+     "A": 62,
+     "D": 3283,
+     "E": 862
+    },
+    "reviewed_associated": {
+     "A": 15,
+     "D": 5,
+     "E": 17
+    },
+    "escalations_per_day": 4.74
+   },
+   "CG-D": {
+    "all": {
+     "A": 86,
+     "D": 3014,
+     "E": 1107
+    },
+    "reviewed_associated": {
+     "A": 16,
+     "D": 5,
+     "E": 16
+    },
+    "escalations_per_day": 6.08
+   },
+   "CG_c05": {
+    "all": {
+     "A": 93,
+     "D": 2997,
+     "E": 1117
+    },
+    "reviewed_associated": {
+     "A": 15,
+     "D": 5,
+     "E": 17
+    },
+    "escalations_per_day": 6.14
+   }
+  },
+  "NS": {
+   "days": 182,
+   "episodes": 3457,
+   "reviewed_associated": 60,
+   "P1": {
+    "all": {
+     "A": 377,
+     "D": 3080,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 58,
+     "D": 2,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 88,
+     "D": 3073,
+     "E": 296
+    },
+    "reviewed_associated": {
+     "A": 39,
+     "D": 2,
+     "E": 19
+    },
+    "escalations_per_day": 1.63
+   },
+   "CG": {
+    "all": {
+     "A": 109,
+     "D": 3078,
+     "E": 270
+    },
+    "reviewed_associated": {
+     "A": 43,
+     "D": 2,
+     "E": 15
+    },
+    "escalations_per_day": 1.48
+   },
+   "CG-D": {
+    "all": {
+     "A": 110,
+     "D": 3072,
+     "E": 275
+    },
+    "reviewed_associated": {
+     "A": 43,
+     "D": 2,
+     "E": 15
+    },
+    "escalations_per_day": 1.51
+   },
+   "CG_c05": {
+    "all": {
+     "A": 111,
+     "D": 3073,
+     "E": 273
+    },
+    "reviewed_associated": {
+     "A": 43,
+     "D": 2,
+     "E": 15
+    },
+    "escalations_per_day": 1.5
+   }
+  },
+  "NY": {
+   "days": 182,
+   "episodes": 4303,
+   "reviewed_associated": 38,
+   "P1": {
+    "all": {
+     "A": 412,
+     "D": 3891,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 28,
+     "D": 10,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 412,
+     "D": 2,
+     "E": 3889
+    },
+    "reviewed_associated": {
+     "A": 28,
+     "D": 0,
+     "E": 10
+    },
+    "escalations_per_day": 21.37
+   },
+   "CG": {
+    "all": {
+     "A": 139,
+     "D": 52,
+     "E": 4112
+    },
+    "reviewed_associated": {
+     "A": 27,
+     "D": 0,
+     "E": 11
+    },
+    "escalations_per_day": 22.59
+   },
+   "CG-D": {
+    "all": {
+     "A": 195,
+     "D": 5,
+     "E": 4103
+    },
+    "reviewed_associated": {
+     "A": 30,
+     "D": 0,
+     "E": 8
+    },
+    "escalations_per_day": 22.54
+   },
+   "CG_c05": {
+    "all": {
+     "A": 312,
+     "D": 1,
+     "E": 3990
+    },
+    "reviewed_associated": {
+     "A": 30,
+     "D": 0,
+     "E": 8
+    },
+    "escalations_per_day": 21.92
+   }
+  },
+  "OH": {
+   "days": 182,
+   "episodes": 5617,
+   "reviewed_associated": 53,
+   "P1": {
+    "all": {
+     "A": 1275,
+     "D": 4342,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 50,
+     "D": 3,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 458,
+     "D": 3547,
+     "E": 1612
+    },
+    "reviewed_associated": {
+     "A": 39,
+     "D": 2,
+     "E": 12
+    },
+    "escalations_per_day": 8.86
+   },
+   "CG": {
+    "all": {
+     "A": 382,
+     "D": 3734,
+     "E": 1501
+    },
+    "reviewed_associated": {
+     "A": 38,
+     "D": 2,
+     "E": 13
+    },
+    "escalations_per_day": 8.25
+   },
+   "CG-D": {
+    "all": {
+     "A": 439,
+     "D": 3314,
+     "E": 1864
+    },
+    "reviewed_associated": {
+     "A": 39,
+     "D": 2,
+     "E": 12
+    },
+    "escalations_per_day": 10.24
+   },
+   "CG_c05": {
+    "all": {
+     "A": 476,
+     "D": 3415,
+     "E": 1726
+    },
+    "reviewed_associated": {
+     "A": 39,
+     "D": 2,
+     "E": 12
+    },
+    "escalations_per_day": 9.48
+   }
+  },
+  "OK": {
+   "days": 182,
+   "episodes": 5902,
+   "reviewed_associated": 81,
+   "P1": {
+    "all": {
+     "A": 834,
+     "D": 5068,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 76,
+     "D": 5,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 531,
+     "D": 2717,
+     "E": 2654
+    },
+    "reviewed_associated": {
+     "A": 68,
+     "D": 2,
+     "E": 11
+    },
+    "escalations_per_day": 14.58
+   },
+   "CG": {
+    "all": {
+     "A": 178,
+     "D": 4293,
+     "E": 1431
+    },
+    "reviewed_associated": {
+     "A": 59,
+     "D": 4,
+     "E": 18
+    },
+    "escalations_per_day": 7.86
+   },
+   "CG-D": {
+    "all": {
+     "A": 217,
+     "D": 3264,
+     "E": 2421
+    },
+    "reviewed_associated": {
+     "A": 63,
+     "D": 3,
+     "E": 15
+    },
+    "escalations_per_day": 13.3
+   },
+   "CG_c05": {
+    "all": {
+     "A": 220,
+     "D": 3200,
+     "E": 2482
+    },
+    "reviewed_associated": {
+     "A": 62,
+     "D": 2,
+     "E": 17
+    },
+    "escalations_per_day": 13.64
+   }
+  },
+  "PL": {
+   "days": 182,
+   "episodes": 3226,
+   "reviewed_associated": 97,
+   "P1": {
+    "all": {
+     "A": 1101,
+     "D": 2125,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 85,
+     "D": 12,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 744,
+     "D": 1102,
+     "E": 1380
+    },
+    "reviewed_associated": {
+     "A": 81,
+     "D": 4,
+     "E": 12
+    },
+    "escalations_per_day": 7.58
+   },
+   "CG": {
+    "all": {
+     "A": 270,
+     "D": 1450,
+     "E": 1506
+    },
+    "reviewed_associated": {
+     "A": 51,
+     "D": 5,
+     "E": 41
+    },
+    "escalations_per_day": 8.27
+   },
+   "CG-D": {
+    "all": {
+     "A": 316,
+     "D": 985,
+     "E": 1925
+    },
+    "reviewed_associated": {
+     "A": 52,
+     "D": 4,
+     "E": 41
+    },
+    "escalations_per_day": 10.58
+   },
+   "CG_c05": {
+    "all": {
+     "A": 341,
+     "D": 1014,
+     "E": 1871
+    },
+    "reviewed_associated": {
+     "A": 55,
+     "D": 4,
+     "E": 38
+    },
+    "escalations_per_day": 10.28
+   }
+  },
+  "RV": {
+   "days": 182,
+   "episodes": 7015,
+   "reviewed_associated": 72,
+   "P1": {
+    "all": {
+     "A": 706,
+     "D": 6309,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 65,
+     "D": 7,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 595,
+     "D": 1476,
+     "E": 4944
+    },
+    "reviewed_associated": {
+     "A": 63,
+     "D": 0,
+     "E": 9
+    },
+    "escalations_per_day": 27.16
+   },
+   "CG": {
+    "all": {
+     "A": 190,
+     "D": 2764,
+     "E": 4061
+    },
+    "reviewed_associated": {
+     "A": 52,
+     "D": 1,
+     "E": 19
+    },
+    "escalations_per_day": 22.31
+   },
+   "CG-D": {
+    "all": {
+     "A": 202,
+     "D": 1589,
+     "E": 5224
+    },
+    "reviewed_associated": {
+     "A": 52,
+     "D": 0,
+     "E": 20
+    },
+    "escalations_per_day": 28.7
+   },
+   "CG_c05": {
+    "all": {
+     "A": 320,
+     "D": 1274,
+     "E": 5421
+    },
+    "reviewed_associated": {
+     "A": 54,
+     "D": 0,
+     "E": 18
+    },
+    "escalations_per_day": 29.79
+   }
+  },
+  "SI": {
+   "days": 182,
+   "episodes": 26984,
+   "reviewed_associated": 170,
+   "P1": {
+    "all": {
+     "A": 1871,
+     "D": 25113,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 147,
+     "D": 23,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1139,
+     "D": 14386,
+     "E": 11459
+    },
+    "reviewed_associated": {
+     "A": 128,
+     "D": 12,
+     "E": 30
+    },
+    "escalations_per_day": 62.96
+   },
+   "CG": {
+    "all": {
+     "A": 391,
+     "D": 19884,
+     "E": 6709
+    },
+    "reviewed_associated": {
+     "A": 83,
+     "D": 20,
+     "E": 67
+    },
+    "escalations_per_day": 36.86
+   },
+   "CG-D": {
+    "all": {
+     "A": 475,
+     "D": 16013,
+     "E": 10496
+    },
+    "reviewed_associated": {
+     "A": 95,
+     "D": 13,
+     "E": 62
+    },
+    "escalations_per_day": 57.67
+   },
+   "CG_c05": {
+    "all": {
+     "A": 519,
+     "D": 15794,
+     "E": 10671
+    },
+    "reviewed_associated": {
+     "A": 98,
+     "D": 12,
+     "E": 60
+    },
+    "escalations_per_day": 58.63
+   }
+  },
+  "UO": {
+   "days": 182,
+   "episodes": 2575,
+   "reviewed_associated": 123,
+   "P1": {
+    "all": {
+     "A": 457,
+     "D": 2118,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 119,
+     "D": 4,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 368,
+     "D": 946,
+     "E": 1261
+    },
+    "reviewed_associated": {
+     "A": 115,
+     "D": 1,
+     "E": 7
+    },
+    "escalations_per_day": 6.93
+   },
+   "CG": {
+    "all": {
+     "A": 174,
+     "D": 1439,
+     "E": 962
+    },
+    "reviewed_associated": {
+     "A": 87,
+     "D": 2,
+     "E": 34
+    },
+    "escalations_per_day": 5.29
+   },
+   "CG-D": {
+    "all": {
+     "A": 223,
+     "D": 1110,
+     "E": 1242
+    },
+    "reviewed_associated": {
+     "A": 105,
+     "D": 1,
+     "E": 17
+    },
+    "escalations_per_day": 6.82
+   },
+   "CG_c05": {
+    "all": {
+     "A": 222,
+     "D": 1095,
+     "E": 1258
+    },
+    "reviewed_associated": {
+     "A": 100,
+     "D": 1,
+     "E": 22
+    },
+    "escalations_per_day": 6.91
+   }
+  },
+  "UU": {
+   "days": 182,
+   "episodes": 3583,
+   "reviewed_associated": 245,
+   "P1": {
+    "all": {
+     "A": 1816,
+     "D": 1767,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 225,
+     "D": 20,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 1669,
+     "D": 542,
+     "E": 1372
+    },
+    "reviewed_associated": {
+     "A": 223,
+     "D": 1,
+     "E": 21
+    },
+    "escalations_per_day": 7.54
+   },
+   "CG": {
+    "all": {
+     "A": 723,
+     "D": 1387,
+     "E": 1473
+    },
+    "reviewed_associated": {
+     "A": 157,
+     "D": 16,
+     "E": 72
+    },
+    "escalations_per_day": 8.09
+   },
+   "CG-D": {
+    "all": {
+     "A": 899,
+     "D": 752,
+     "E": 1932
+    },
+    "reviewed_associated": {
+     "A": 177,
+     "D": 4,
+     "E": 64
+    },
+    "escalations_per_day": 10.62
+   },
+   "CG_c05": {
+    "all": {
+     "A": 915,
+     "D": 722,
+     "E": 1946
+    },
+    "reviewed_associated": {
+     "A": 176,
+     "D": 4,
+     "E": 65
+    },
+    "escalations_per_day": 10.69
+   }
+  },
+  "UW": {
+   "days": 182,
+   "episodes": 3857,
+   "reviewed_associated": 35,
+   "P1": {
+    "all": {
+     "A": 181,
+     "D": 3676,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 26,
+     "D": 9,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 166,
+     "D": 542,
+     "E": 3149
+    },
+    "reviewed_associated": {
+     "A": 26,
+     "D": 3,
+     "E": 6
+    },
+    "escalations_per_day": 17.3
+   },
+   "CG": {
+    "all": {
+     "A": 44,
+     "D": 2428,
+     "E": 1385
+    },
+    "reviewed_associated": {
+     "A": 24,
+     "D": 8,
+     "E": 3
+    },
+    "escalations_per_day": 7.61
+   },
+   "CG-D": {
+    "all": {
+     "A": 49,
+     "D": 1003,
+     "E": 2805
+    },
+    "reviewed_associated": {
+     "A": 24,
+     "D": 4,
+     "E": 7
+    },
+    "escalations_per_day": 15.41
+   },
+   "CG_c05": {
+    "all": {
+     "A": 55,
+     "D": 934,
+     "E": 2868
+    },
+    "reviewed_associated": {
+     "A": 24,
+     "D": 4,
+     "E": 7
+    },
+    "escalations_per_day": 15.76
+   }
+  },
+  "WW": {
+   "days": 182,
+   "episodes": 4693,
+   "reviewed_associated": 118,
+   "P1": {
+    "all": {
+     "A": 529,
+     "D": 4164,
+     "E": 0
+    },
+    "reviewed_associated": {
+     "A": 88,
+     "D": 30,
+     "E": 0
+    },
+    "escalations_per_day": 0.0
+   },
+   "P3": {
+    "all": {
+     "A": 416,
+     "D": 1581,
+     "E": 2696
+    },
+    "reviewed_associated": {
+     "A": 84,
+     "D": 5,
+     "E": 29
+    },
+    "escalations_per_day": 14.81
+   },
+   "CG": {
+    "all": {
+     "A": 143,
+     "D": 3393,
+     "E": 1157
+    },
+    "reviewed_associated": {
+     "A": 59,
+     "D": 18,
+     "E": 41
+    },
+    "escalations_per_day": 6.36
+   },
+   "CG-D": {
+    "all": {
+     "A": 162,
+     "D": 2083,
+     "E": 2448
+    },
+    "reviewed_associated": {
+     "A": 62,
+     "D": 8,
+     "E": 48
+    },
+    "escalations_per_day": 13.45
+   },
+   "CG_c05": {
+    "all": {
+     "A": 172,
+     "D": 2030,
+     "E": 2491
+    },
+    "reviewed_associated": {
+     "A": 68,
+     "D": 8,
+     "E": 42
+    },
+    "escalations_per_day": 13.69
+   }
+  }
+ }
+}

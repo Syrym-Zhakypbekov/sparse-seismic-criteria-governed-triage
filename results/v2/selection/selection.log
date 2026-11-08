@@ -1,0 +1,176 @@
+station BGS archive 113 []
+station ETH archive 221 []
+station EPOSFR archive 719 []
+station ICGC archive 66 []
+station BGR archive 335 []
+station GeoNet ARCHIVE 166 []
+station AusPass ARCHIVE 796 []
+station EarthScope PRIMARY 10046 []
+station IPGP archive 170 []
+station IGN archive 0 []
+station IESDMC archive 0 []
+station LMU archive 388 []
+station NIEP archive 399 []
+station NOA archive 330 []
+station RASPISHAKE archive 0 []
+station ODC archive 1391 []
+station NRCAN archive 186 []
+station KOERI archive 208 []
+station RSBR archive 124 []
+station USP archive 101 []
+station UIB-NORSAR archive 218 []
+station INGV archive 757 []
+station GEOFON archive 1789 []
+station NCEDC archive 0 ['BHZ: HTTP 400']
+station SCEDC archive 0 ['BHZ: HTTP 400']
+station KIT archive 0 ['BHZ: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>']
+networks seen 481 eligible 269 with geometry 155
+availability A0 0 streams
+availability A2 8 streams
+availability AB 17 streams
+availability AC 9 streams
+availability AE 18 streams
+availability AF 39 streams
+availability AG 12 streams
+availability AT 16 streams
+availability AU 97 streams
+availability AV 54 streams
+availability AW 4 streams
+availability AY 4 streams
+availability BC 14 streams
+availability BK 43 streams
+availability BN 6 streams
+availability BQ 0 streams
+availability BS 0 streams
+availability BW 24 streams
+availability BX 21 streams
+availability C 18 streams
+availability C0 9 streams
+availability C1 53 streams
+availability C8 19 streams
+availability CA 12 streams
+availability CB 15 streams
+availability CC 7 streams
+availability CH 10 streams
+availability CI 11 streams
+availability CK 1 streams
+availability CM 12 streams
+availability CN 116 streams
+availability CO 9 streams
+availability CQ 5 streams
+availability CU 4 streams
+availability CW 15 streams
+availability CX 17 streams
+availability CZ 18 streams
+availability DK 16 streams
+availability EC 22 streams
+availability EE 5 streams
+availability EI 10 streams
+availability EP 8 streams
+availability ET 4 streams
+availability FN 9 streams
+availability FR 68 streams
+availability GB 48 streams
+availability GE 39 streams
+availability GH 6 streams
+availability GI 19 streams
+availability GO 18 streams
+availability GR 0 streams
+availability HA 11 streams
+availability HC 13 streams
+availability HE 13 streams
+availability HL 4 streams
+availability HT 6 streams
+availability HU 15 streams
+availability HV 6 streams
+availability I0 7 streams
+availability IE 11 streams
+availability IQ 0 streams
+availability IS 0 streams
+availability IV 54 streams
+availability IW 8 streams
+availability IY 8 streams
+availability JM 6 streams
+availability JP 19 streams
+availability JS 0 streams
+availability KN 6 streams
+availability KO 10 streams
+availability KQ 0 streams
+availability KR 22 streams
+availability KS 5 streams
+availability KV 0 streams
+availability LD 36 streams
+availability LE 0 streams
+availability MB 10 streams
+availability MI 6 streams
+availability MK 8 streams
+availability MM 9 streams
+availability MN 25 streams
+availability MP 12 streams
+availability MU 10 streams
+availability MX 11 streams
+availability N4 143 streams
+availability NC 41 streams
+availability ND 5 streams
+availability NE 10 streams
+availability NJ 5 streams
+availability NM 28 streams
+availability NN 36 streams
+availability NR 37 streams
+availability NS 36 streams
+availability NU 20 streams
+availability NV 6 streams
+availability NX 6 streams
+availability NY 4 streams
+availability NZ 8 streams
+availability O2 23 streams
+availability OA 0 streams
+availability OH 29 streams
+availability OK 18 streams
+availability ON 20 streams
+availability OT 8 streams
+availability OX 7 streams
+availability OZ 37 streams
+availability PE 24 streams
+availability PL 7 streams
+availability PN 66 streams
+availability PO 30 streams
+availability PQ 21 streams
+availability PR 20 streams
+availability PT 11 streams
+availability QZ 10 streams
+availability RB 20 streams
+availability RD 0 streams
+availability RE 6 streams
+availability RV 23 streams
+availability S1 41 streams
+availability SC 10 streams
+availability SI 6 streams
+availability SJ 6 streams
+availability SK 5 streams
+availability SL 6 streams
+availability SN 12 streams
+availability SV 6 streams
+availability SX 0 streams
+availability TC 15 streams
+availability TD 8 streams
+availability TH 0 streams
+availability TJ 6 streams
+availability TM 18 streams
+availability TR 14 streams
+availability TW 18 streams
+availability TX 55 streams
+availability UD 0 streams
+availability UK 4 streams
+availability UO 27 streams
+availability UR 5 streams
+availability US 56 streams
+availability UU 37 streams
+availability UW 30 streams
+availability VE 55 streams
+availability WG 4 streams
+availability WI 15 streams
+availability WM 4 streams
+availability WU 20 streams
+availability WW 5 streams
+availability WY 11 streams

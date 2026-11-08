@@ -1,0 +1,13 @@
+[{"stream_name":"stdout","time":10.038145052,"data":"2026-11-07T19:29:38Z CU plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']\n"}
+,{"stream_name":"stderr","time":10.038192948,"data":"/kaggle/working/repo/analysis/v2_fleet/run_network.py:34: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n"}
+,{"stream_name":"stderr","time":10.038199659,"data":"  def now(): return dt.datetime.utcnow().isoformat(timespec=\"seconds\") + \"Z\"\n"}
+,{"stream_name":"stdout","time":110.203393417,"data":"2026-11-07T19:31:19Z CU tune attempt 1: rc=0 100s summary=True fetch_fail=0 cat_fail=[]\n"}
+,{"stream_name":"stdout","time":110.204575053,"data":"2026-11-07T19:31:19Z CU TUNING FAILED thr={'MAKZ': 4.143103192079701, 'S1_1': nan, 'S2_1': 4.346353014062105, 'S3_1': 4.397888609307901}\n"}
+,{"stream_name":"stdout","time":110.245346386,"data":"run_network rc 0\n"}
+,{"stream_name":"stderr","time":113.1780993,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":113.178141546,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":113.670420641,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":113.670458244,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":114.871309196,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":116.447723062,"data":"[NbConvertApp] Writing 506765 bytes to __results__.html\n"}
+]

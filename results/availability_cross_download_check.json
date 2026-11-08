@@ -1,0 +1,30 @@
+{
+ "MAKZ": {
+  "common_days": 546,
+  "zero_days_A": 17,
+  "zero_days_B": 17,
+  "zero_days_both": 17,
+  "max_abs_valid_share_diff": 0.0
+ },
+ "MK31": {
+  "common_days": 546,
+  "zero_days_A": 24,
+  "zero_days_B": 24,
+  "zero_days_both": 24,
+  "max_abs_valid_share_diff": 0.0
+ },
+ "KURK": {
+  "common_days": 546,
+  "zero_days_A": 0,
+  "zero_days_B": 0,
+  "zero_days_both": 0,
+  "max_abs_valid_share_diff": 0.0
+ },
+ "WUS": {
+  "common_days": 546,
+  "zero_days_A": 160,
+  "zero_days_B": 160,
+  "zero_days_both": 160,
+  "max_abs_valid_share_diff": 0.0
+ }
+}

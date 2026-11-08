@@ -1,0 +1,891 @@
+{
+ "preregistration": "PREREGISTRATION_EXPLOSIONS_2026-11-08.md",
+ "scorer": "analysis/explosions_v2.py",
+ "primary": "AK replication, AK.CUT, results/ak/outAK_20*",
+ "episodes": 17126,
+ "calendar_days_with_episodes": 537,
+ "label_consistency": {
+  "explosion_filter_rows": 429,
+  "explosion_in_unfiltered": 429,
+  "explosion_filter_ids_missing_from_unfiltered": 0,
+  "earthquake_filter_rows": 41420,
+  "earthquake_in_unfiltered": 41420
+ },
+ "labels_by_class": {
+  "EARTHQUAKE": 41420,
+  "OTHER_NONEQ": 857,
+  "EXPLOSION": 429
+ },
+ "labels_by_type": {
+  "earthquake": 41420,
+  "ice quake": 815,
+  "explosion": 429,
+  "landslide": 22,
+  "other event": 20
+ },
+ "explosion_labels_by_status": {
+  "reviewed": 429
+ },
+ "explosion_label_magnitude_quantiles": {
+  "0.1": 0.9,
+  "0.5": 1.2,
+  "0.9": 1.52
+ },
+ "episode_classes": {
+  "EXPLOSION": 9,
+  "EARTHQUAKE": 3927,
+  "OTHER_NONEQ": 6,
+  "MIXED": 1,
+  "UNLABELLED": 13183
+ },
+ "explosion_episodes_by_type": {
+  "explosion": 9
+ },
+ "cross_with_original_association": {
+  "EXPLOSION": {
+   "associated": 3,
+   "unassociated": 6
+  },
+  "EARTHQUAKE": {
+   "associated": 1802,
+   "unassociated": 2125
+  },
+  "OTHER_NONEQ": {
+   "associated": 0,
+   "unassociated": 6
+  },
+  "MIXED": {
+   "associated": 1,
+   "unassociated": 0
+  },
+  "UNLABELLED": {
+   "associated": 228,
+   "unassociated": 12955
+  }
+ },
+ "chance_control": {
+  "EXPLOSION": {
+   "real": 9,
+   "shifted_counts": [
+    4,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "mean": 2.17,
+   "dominated_by_chance": false
+  },
+  "EARTHQUAKE": {
+   "real": 3927,
+   "shifted_counts": [
+    312,
+    322,
+    296,
+    287,
+    314,
+    294
+   ],
+   "mean": 304.17,
+   "dominated_by_chance": false
+  },
+  "OTHER_NONEQ": {
+   "real": 6,
+   "shifted_counts": [
+    7,
+    6,
+    2,
+    9,
+    3,
+    7
+   ],
+   "mean": 5.67,
+   "dominated_by_chance": true
+  }
+ },
+ "action_share_within_class_pct": {
+  "P1": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 22.22,
+    "ESCALATE": 0.0,
+    "ALERT": 77.78
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 15.51,
+    "ESCALATE": 0.0,
+    "ALERT": 84.49
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 66.67,
+    "ESCALATE": 0.0,
+    "ALERT": 33.33
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 82.3,
+    "ESCALATE": 0.0,
+    "ALERT": 17.7
+   }
+  },
+  "P1t": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 0.69,
+    "ESCALATE": 0.0,
+    "ALERT": 99.31
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 9.71,
+    "ESCALATE": 0.0,
+    "ALERT": 90.29
+   }
+  },
+  "P2": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 11.11,
+    "ESCALATE": 22.22,
+    "ALERT": 66.67
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 2.95,
+    "ESCALATE": 16.53,
+    "ALERT": 80.52
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 16.67,
+    "ESCALATE": 50.0,
+    "ALERT": 33.33
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 32.74,
+    "ESCALATE": 54.68,
+    "ALERT": 12.58
+   }
+  },
+  "P3": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 0.0,
+    "ESCALATE": 22.22,
+    "ALERT": 77.78
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 0.53,
+    "ESCALATE": 15.38,
+    "ALERT": 84.08
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 0.0,
+    "ESCALATE": 66.67,
+    "ALERT": 33.33
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 6.22,
+    "ESCALATE": 76.96,
+    "ALERT": 16.82
+   }
+  },
+  "P3_8.0": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 0.0,
+    "ESCALATE": 22.22,
+    "ALERT": 77.78
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 0.69,
+    "ESCALATE": 15.48,
+    "ALERT": 83.83
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 0.0,
+    "ESCALATE": 66.67,
+    "ALERT": 33.33
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 9.71,
+    "ESCALATE": 73.81,
+    "ALERT": 16.48
+   }
+  },
+  "CG": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 11.11,
+    "ESCALATE": 44.44,
+    "ALERT": 44.44
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 4.25,
+    "ESCALATE": 64.58,
+    "ALERT": 31.17
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 16.67,
+    "ESCALATE": 83.33,
+    "ALERT": 0.0
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 43.5,
+    "ESCALATE": 53.49,
+    "ALERT": 3.01
+   }
+  },
+  "CG-D": {
+   "EXPLOSION": {
+    "n": 9,
+    "DISMISS": 0.0,
+    "ESCALATE": 44.44,
+    "ALERT": 55.56
+   },
+   "EARTHQUAKE": {
+    "n": 3927,
+    "DISMISS": 0.81,
+    "ESCALATE": 57.42,
+    "ALERT": 41.76
+   },
+   "OTHER_NONEQ": {
+    "n": 6,
+    "DISMISS": 0.0,
+    "ESCALATE": 100.0,
+    "ALERT": 0.0
+   },
+   "MIXED": {
+    "n": 1,
+    "DISMISS": 0.0,
+    "ESCALATE": 0.0,
+    "ALERT": 100.0
+   },
+   "UNLABELLED": {
+    "n": 13183,
+    "DISMISS": 12.66,
+    "ESCALATE": 83.93,
+    "ALERT": 3.41
+   }
+  }
+ },
+ "explosion_share_ci95": {
+  "P1": {
+   "DISMISS": [
+    0.0,
+    55.56
+   ],
+   "ESCALATE": [
+    0.0,
+    0.0
+   ],
+   "ALERT": [
+    44.44,
+    100.0
+   ]
+  },
+  "P1t": {
+   "DISMISS": [
+    0.0,
+    0.0
+   ],
+   "ESCALATE": [
+    0.0,
+    0.0
+   ],
+   "ALERT": [
+    100.0,
+    100.0
+   ]
+  },
+  "P2": {
+   "DISMISS": [
+    0.0,
+    40.0
+   ],
+   "ESCALATE": [
+    0.0,
+    57.14
+   ],
+   "ALERT": [
+    33.33,
+    100.0
+   ]
+  },
+  "P3": {
+   "DISMISS": [
+    0.0,
+    0.0
+   ],
+   "ESCALATE": [
+    0.0,
+    55.56
+   ],
+   "ALERT": [
+    44.44,
+    100.0
+   ]
+  },
+  "P3_8.0": {
+   "DISMISS": [
+    0.0,
+    0.0
+   ],
+   "ESCALATE": [
+    0.0,
+    55.56
+   ],
+   "ALERT": [
+    44.44,
+    100.0
+   ]
+  },
+  "CG": {
+   "DISMISS": [
+    0.0,
+    40.0
+   ],
+   "ESCALATE": [
+    11.11,
+    80.0
+   ],
+   "ALERT": [
+    10.0,
+    80.0
+   ]
+  },
+  "CG-D": {
+   "DISMISS": [
+    0.0,
+    0.0
+   ],
+   "ESCALATE": [
+    11.11,
+    80.0
+   ],
+   "ALERT": [
+    20.0,
+    88.89
+   ]
+  }
+ },
+ "unassociated_alerts_by_class": {
+  "P1": {
+   "EXPLOSION": 4,
+   "EARTHQUAKE": 1653,
+   "OTHER_NONEQ": 2,
+   "MIXED": 0,
+   "UNLABELLED": 2142
+  },
+  "P1t": {
+   "EXPLOSION": 6,
+   "EARTHQUAKE": 2101,
+   "OTHER_NONEQ": 6,
+   "MIXED": 0,
+   "UNLABELLED": 11677
+  },
+  "P2": {
+   "EXPLOSION": 3,
+   "EARTHQUAKE": 1530,
+   "OTHER_NONEQ": 2,
+   "MIXED": 0,
+   "UNLABELLED": 1477
+  },
+  "P3": {
+   "EXPLOSION": 4,
+   "EARTHQUAKE": 1639,
+   "OTHER_NONEQ": 2,
+   "MIXED": 0,
+   "UNLABELLED": 2026
+  },
+  "P3_8.0": {
+   "EXPLOSION": 4,
+   "EARTHQUAKE": 1631,
+   "OTHER_NONEQ": 2,
+   "MIXED": 0,
+   "UNLABELLED": 1983
+  },
+  "CG": {
+   "EXPLOSION": 1,
+   "EARTHQUAKE": 293,
+   "OTHER_NONEQ": 0,
+   "MIXED": 0,
+   "UNLABELLED": 226
+  },
+  "CG-D": {
+   "EXPLOSION": 2,
+   "EARTHQUAKE": 492,
+   "OTHER_NONEQ": 0,
+   "MIXED": 0,
+   "UNLABELLED": 274
+  }
+ },
+ "explosion_episode_hour_utc": {
+  "0": 4,
+  "20": 1,
+  "22": 2,
+  "23": 2
+ },
+ "explosion_episode_snr_db_quantiles": {
+  "0.1": 9.0,
+  "0.5": 15.72,
+  "0.9": 17.46
+ },
+ "earthquake_episode_snr_db_quantiles": {
+  "0.1": 11.35,
+  "0.5": 18.6,
+  "0.9": 32.79
+ },
+ "X1_CG_vs_P3_dismiss_explosion": {
+  "diff_pp": 11.11,
+  "ci95_pp": [
+   0.0,
+   40.0
+  ],
+  "margin_pp": 3.0,
+  "exercised": false,
+  "holds": null
+ },
+ "X2_CGD_vs_P3_dismiss_explosion": {
+  "diff_pp": 0.0,
+  "ci95_pp": [
+   0.0,
+   0.0
+  ],
+  "margin_pp": 3.0,
+  "exercised": false,
+  "holds": null
+ },
+ "X3_alert_explosion": {
+  "CG_minus_P1t": {
+   "diff_pp": -55.56,
+   "ci95_pp": [
+    -90.0,
+    -20.0
+   ]
+  },
+  "CG_minus_P3": {
+   "diff_pp": -33.33,
+   "ci95_pp": [
+    -66.67,
+    0.0
+   ]
+  },
+  "exercised": false,
+  "holds": null
+ },
+ "X4_CG_escalate_explosion_minus_earthquake": {
+  "diff_pp": -20.13,
+  "ci95_pp": [
+   -53.36,
+   15.8
+  ],
+  "exercised": false,
+  "holds": null
+ },
+ "descriptive_all_policies": {
+  "dismiss_vs_P3_explosion": {
+   "P1": {
+    "diff_pp": 22.22,
+    "ci95_pp": [
+     0.0,
+     55.56
+    ]
+   },
+   "P1t": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "P2": {
+    "diff_pp": 11.11,
+    "ci95_pp": [
+     0.0,
+     40.0
+    ]
+   },
+   "P3_8.0": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "CG": {
+    "diff_pp": 11.11,
+    "ci95_pp": [
+     0.0,
+     40.0
+    ]
+   },
+   "CG-D": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "escalate_explosion_minus_earthquake": {
+   "P1": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "P1t": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "P2": {
+    "diff_pp": 5.7,
+    "ci95_pp": [
+     -17.1,
+     40.09
+    ]
+   },
+   "P3": {
+    "diff_pp": 6.84,
+    "ci95_pp": [
+     -16.04,
+     39.9
+    ]
+   },
+   "P3_8.0": {
+    "diff_pp": 6.74,
+    "ci95_pp": [
+     -16.19,
+     39.89
+    ]
+   },
+   "CG": {
+    "diff_pp": -20.13,
+    "ci95_pp": [
+     -53.36,
+     15.8
+    ]
+   },
+   "CG-D": {
+    "diff_pp": -12.98,
+    "ci95_pp": [
+     -45.76,
+     22.62
+    ]
+   }
+  },
+  "dismiss_explosion_minus_earthquake": {
+   "P1": {
+    "diff_pp": 6.71,
+    "ci95_pp": [
+     -16.17,
+     39.81
+    ]
+   },
+   "P1t": {
+    "diff_pp": -0.69,
+    "ci95_pp": [
+     -0.97,
+     -0.42
+    ]
+   },
+   "P2": {
+    "diff_pp": 8.16,
+    "ci95_pp": [
+     -3.46,
+     36.84
+    ]
+   },
+   "P3": {
+    "diff_pp": -0.53,
+    "ci95_pp": [
+     -0.79,
+     -0.3
+    ]
+   },
+   "P3_8.0": {
+    "diff_pp": -0.69,
+    "ci95_pp": [
+     -0.97,
+     -0.42
+    ]
+   },
+   "CG": {
+    "diff_pp": 6.86,
+    "ci95_pp": [
+     -4.83,
+     35.42
+    ]
+   },
+   "CG-D": {
+    "diff_pp": -0.81,
+    "ci95_pp": [
+     -1.11,
+     -0.54
+    ]
+   }
+  }
+ },
+ "chance_note": "",
+ "secondary_MAKZ_NNC_descriptive": {
+  "status": "descriptive; NNC labels already seen in run 23 (dismiss/alert counts of P1, P1t, P2, P3, CG published in results/nnc/nnc_eval.json); new here: ESCALATE shares, CG-D, P3 8.0, intervals",
+  "episodes": 15208,
+  "classes": {
+   "EXPLOSION": 308,
+   "EARTHQUAKE": 1007,
+   "NO_NNC_EVENT": 13893
+  },
+  "action_share_within_class_pct": {
+   "P1t": {
+    "EXPLOSION": {
+     "n": 308,
+     "DISMISS": 1.62,
+     "ESCALATE": 0.0,
+     "ALERT": 98.38
+    },
+    "EARTHQUAKE": {
+     "n": 1007,
+     "DISMISS": 2.38,
+     "ESCALATE": 0.0,
+     "ALERT": 97.62
+    }
+   },
+   "P3": {
+    "EXPLOSION": {
+     "n": 308,
+     "DISMISS": 0.97,
+     "ESCALATE": 12.01,
+     "ALERT": 87.01
+    },
+    "EARTHQUAKE": {
+     "n": 1007,
+     "DISMISS": 1.69,
+     "ESCALATE": 17.78,
+     "ALERT": 80.54
+    }
+   },
+   "P3_8.0": {
+    "EXPLOSION": {
+     "n": 308,
+     "DISMISS": 1.62,
+     "ESCALATE": 12.34,
+     "ALERT": 86.04
+    },
+    "EARTHQUAKE": {
+     "n": 1007,
+     "DISMISS": 2.38,
+     "ESCALATE": 18.37,
+     "ALERT": 79.25
+    }
+   },
+   "CG": {
+    "EXPLOSION": {
+     "n": 308,
+     "DISMISS": 1.62,
+     "ESCALATE": 69.16,
+     "ALERT": 29.22
+    },
+    "EARTHQUAKE": {
+     "n": 1007,
+     "DISMISS": 4.57,
+     "ESCALATE": 68.52,
+     "ALERT": 26.91
+    }
+   },
+   "CG-D": {
+    "EXPLOSION": {
+     "n": 308,
+     "DISMISS": 1.3,
+     "ESCALATE": 58.12,
+     "ALERT": 40.58
+    },
+    "EARTHQUAKE": {
+     "n": 1007,
+     "DISMISS": 1.89,
+     "ESCALATE": 53.33,
+     "ALERT": 44.79
+    }
+   }
+  },
+  "explosion_share_ci95": {
+   "P1t": {
+    "DISMISS": [
+     0.33,
+     3.13
+    ],
+    "ESCALATE": [
+     0.0,
+     0.0
+    ],
+    "ALERT": [
+     96.87,
+     99.67
+    ]
+   },
+   "P3": {
+    "DISMISS": [
+     0.0,
+     2.08
+    ],
+    "ESCALATE": [
+     7.95,
+     16.33
+    ],
+    "ALERT": [
+     82.7,
+     91.1
+    ]
+   },
+   "P3_8.0": {
+    "DISMISS": [
+     0.33,
+     3.13
+    ],
+    "ESCALATE": [
+     8.36,
+     16.62
+    ],
+    "ALERT": [
+     81.61,
+     90.24
+    ]
+   },
+   "CG": {
+    "DISMISS": [
+     0.33,
+     3.07
+    ],
+    "ESCALATE": [
+     63.9,
+     73.95
+    ],
+    "ALERT": [
+     24.43,
+     34.18
+    ]
+   },
+   "CG-D": {
+    "DISMISS": [
+     0.3,
+     2.6
+    ],
+    "ESCALATE": [
+     52.1,
+     63.49
+    ],
+    "ALERT": [
+     35.42,
+     46.43
+    ]
+   }
+  },
+  "CG_minus_P3_dismiss_explosion": {
+   "diff_pp": 0.65,
+   "ci95_pp": [
+    0.0,
+    1.61
+   ]
+  },
+  "CGD_minus_P3_dismiss_explosion": {
+   "diff_pp": 0.32,
+   "ci95_pp": [
+    -0.71,
+    1.36
+   ]
+  },
+  "CG_minus_P1t_alert_explosion": {
+   "diff_pp": -69.16,
+   "ci95_pp": [
+    -74.05,
+    -63.99
+   ]
+  },
+  "CG_minus_P3_alert_explosion": {
+   "diff_pp": -57.79,
+   "ci95_pp": [
+    -63.9,
+    -51.85
+   ]
+  },
+  "CG_escalate_explosion_minus_earthquake": {
+   "diff_pp": 0.64,
+   "ci95_pp": [
+    -5.46,
+    6.45
+   ]
+  },
+  "CGD_escalate_explosion_minus_earthquake": {
+   "diff_pp": 4.79,
+   "ci95_pp": [
+    -2.22,
+    11.16
+   ]
+  }
+ }
+}

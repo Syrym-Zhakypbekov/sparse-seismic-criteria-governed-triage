@@ -1,0 +1,6 @@
+2026-11-08T07:59:13Z CZ rescue candidates ['2024-01-01', '2024-01-02', '2024-01-03']
+2026-11-08T08:01:30Z CZ tune attempt 1: rc=-15 137s thresholds=yes
+2026-11-08T08:01:30Z CZ rescue thresholds {'MAKZ': 5.272934152879962, 'S1_1': 12.045071541310064, 'S2_1': 8.745431301130992, 'S3_1': 3.777412330559737, 'S3_2': 6.250958608900778} (window 2024-01-01)
+2026-11-08T08:31:24Z CZ out_2024-01-08 attempt 1: rc=0 1793s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:32:22Z CZ out_2024-04-08 attempt 1: rc=0 1791s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:32:22Z CZ FINISHED state=done

@@ -1,0 +1,8 @@
+2026-11-08T07:07:52Z KO rescue candidates ['2024-02-07', '2024-02-08', '2024-02-09']
+2026-11-08T07:10:49Z KO tune attempt 1: rc=1 177s thresholds=yes
+2026-11-08T07:10:49Z KO rescue thresholds {'MAKZ': 7.034042338484104, 'S1_1': 14.216503648234701, 'S2_1': 5.059443690269385, 'S3_1': 8.12157774767369} (window 2024-02-07)
+2026-11-08T08:12:56Z KO out_2024-05-14 attempt 1: rc=0 3668s summary=True fetch_fail=1 cat_fail=[]
+2026-11-08T08:21:36Z KO out_2024-05-14 attempt 2: rc=0 490s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:24:50Z KO out_2024-02-14 attempt 1: rc=0 4441s summary=True fetch_fail=1 cat_fail=[]
+2026-11-08T08:37:01Z KO out_2024-02-14 attempt 2: rc=0 701s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T08:37:01Z KO FINISHED state=done

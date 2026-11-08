@@ -1,0 +1,8 @@
+2026-11-07T20:15:28Z HL plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T20:17:05Z HL tune attempt 1: rc=-15 97s thresholds=yes
+2026-11-07T20:17:05Z HL thresholds {'MAKZ': 6.30181924957565, 'S1_1': 4.6497307166305495, 'S2_1': 9.256610308328707, 'S3_1': 10.24954186740773}
+2026-11-07T22:07:39Z HL out_2024-01-08 attempt 1: rc=0 6633s summary=True fetch_fail=4 cat_fail=[]
+2026-11-07T22:08:48Z HL out_2024-04-08 attempt 1: rc=0 6643s summary=True fetch_fail=4 cat_fail=[]
+2026-11-07T22:16:36Z HL out_2024-01-08 attempt 2: rc=0 507s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T22:18:20Z HL out_2024-04-08 attempt 2: rc=0 541s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T22:18:20Z HL FINISHED state=done

@@ -1,0 +1,341 @@
+{
+ "downloaded_utc": "2026-11-07T19:16:59+00:00",
+ "queries": [
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-01-07T23:50:00&endtime=2024-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 31,
+   "sha256": "c90f4fa92d7a2f4488bc940fd398523cc53941ed12e4dd9a6285cfcb46ea4043"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-02-01T00:00:00&endtime=2024-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 39,
+   "sha256": "49d7da11eb86296977b12042b6373cc667c484642d1d1316d9a59919f769bad8"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-03-01T00:00:00&endtime=2024-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 43,
+   "sha256": "f8b28805c280a080f9c03a9d9ee126300ef8b7fe6401c37896de7927cf575802"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-04-01T00:00:00&endtime=2024-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 39,
+   "sha256": "a34e242e3fdee13451c548ff1688be1b5419bab27fd45a62cd96d513c7945dbc"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-05-01T00:00:00&endtime=2024-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 38,
+   "sha256": "2b79e84c47ccc9aa4d465017d847ef16ab134c4ae2ca317a287f7f95036a73dd"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-06-01T00:00:00&endtime=2024-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 33,
+   "sha256": "95f5f7766c053bf4c2857e4c37044e6099da15d3e31eda6ffedac63c74c4e8f8"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-07-01T00:00:00&endtime=2024-08-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 25,
+   "sha256": "9cd91deac84c0b15b7e76d6e96c4597b89bf3d546872e639d70f5749cfe96b22"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-08-01T00:00:00&endtime=2024-09-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 25,
+   "sha256": "50ffec9fd0a4c22b8f0ddbad199c7f13821e32222c769075e224f5c5135196d9"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-09-01T00:00:00&endtime=2024-10-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 25,
+   "sha256": "32b5da1e0b32320d537f08f48bebb2acb0312982a12b1b01df7a554f55c54e5e"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-10-01T00:00:00&endtime=2024-11-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 24,
+   "sha256": "fcf57bf13c1b7521d0679890dd6b5e3daaa0beddd7b56c65ffc22060f8c80ca7"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-11-01T00:00:00&endtime=2024-12-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 26,
+   "sha256": "21a9970c1f0296839d6bb7be984c6dc5226c8beed1ce85cd9283242c22ddf51a"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-12-01T00:00:00&endtime=2025-01-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 19,
+   "sha256": "0cb36d3ca8d2188a8cca862d95ded61bb1634d155d0d8dcb62959adb99f19b70"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-01-01T00:00:00&endtime=2025-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 18,
+   "sha256": "1722c7a0ef2d9a6ddbd3bdf026631a231d6451635e7c15f5a63b5df97081a9df"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-02-01T00:00:00&endtime=2025-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 19,
+   "sha256": "20684b78c717c767907429d7a1ac6f2c36b0818c2bea0ecae76b7ed0cb3b0329"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-03-01T00:00:00&endtime=2025-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 21,
+   "sha256": "918a0bec5c6ef881251309a5c6da5df579d4e62b2df4f1b92434f5150d367328"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-04-01T00:00:00&endtime=2025-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 0,
+   "sha256": "d0011b19654d4069505c5263bdbd23d0992301571b783f489577472ebd3a7f17"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-05-01T00:00:00&endtime=2025-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 3,
+   "sha256": "71afce48fa3f7cb03fde94059e5eb96e1bc102158a897efbec66fe8a5408e6a7"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-06-01T00:00:00&endtime=2025-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=accidental%20explosion%2Cchemical%20explosion%2Cchemical_explosion%2Cexperimental%20explosion%2Cexplosion%2Cindustrial%20explosion%2Cmining%20explosion%2Cmining_explosion%2Cnuclear%20explosion%2Cnuclear_explosion%2Cquarry%2Cquarry%20blast%2Cquarry_blast%2Crock%20burst%2Crock_burst%2Cmine%20collapse%2Cmine_collapse%2Canthropogenic_event",
+   "rows": 1,
+   "sha256": "b4b754b786e679ad078b6682fc95e70f493a02c8b9e0b0e6e99d652b1182d4ab"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-01-07T23:50:00&endtime=2024-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2637,
+   "sha256": "2aea5f927f8adfd78abc1ae692ef6c36d522e326f36c80eb7b354cbe3340bdd0"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-02-01T00:00:00&endtime=2024-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2410,
+   "sha256": "d0cd2dc65f6bc57896534310e53b30ef972846bb1cbdbb0d14f592814efa7e74"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-03-01T00:00:00&endtime=2024-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2806,
+   "sha256": "0ce36a4fd6aa562be35ff0cce8928427d2a6cf638e6d0846596e9b85e55f0b43"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-04-01T00:00:00&endtime=2024-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2589,
+   "sha256": "d79fc6f79f247371e9c987e0a19d82d81205c3ecf25e1a7d8eed26a705c1dc60"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-05-01T00:00:00&endtime=2024-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2517,
+   "sha256": "80a370d44d3e32d44157dcb3938a76f268cd39b3c1cd0e6155842408725fed7e"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-06-01T00:00:00&endtime=2024-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2202,
+   "sha256": "8c98bc65f97393d1bf873bcd38295ded6918fb3addd4af90818c9f8f3339ab6b"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-07-01T00:00:00&endtime=2024-08-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2108,
+   "sha256": "d1a7a791b7943576685b1dc1f4151435b5eecef5cd96dd60c5d05aeab24508d7"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-08-01T00:00:00&endtime=2024-09-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2062,
+   "sha256": "ca1c6dbe69668b431594a674bd5188718b377c6b90a577a16f099f9282e28bc5"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-09-01T00:00:00&endtime=2024-10-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2367,
+   "sha256": "aaec2c2f392995ca1c4cf9716a844b8435daa0c63b6abb3bcc6cfe484656cff8"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-10-01T00:00:00&endtime=2024-11-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 3078,
+   "sha256": "295c8173a3f5d2002cf348fcb9dfe6e12f913249d43e93f31b5ca800bc7c80cd"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-11-01T00:00:00&endtime=2024-12-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2212,
+   "sha256": "475a152fd0c3eb0de6648f1806073558989d9dd1ee1095ec0d63013607b44d69"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-12-01T00:00:00&endtime=2025-01-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2731,
+   "sha256": "f07bb7b247badde05880e004d5f1566d6eba7b010642e031bef0ab83617d9c65"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-01-01T00:00:00&endtime=2025-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2724,
+   "sha256": "3a09c40d07f499cafaee2a912d0b506cf9bf94ba8f23ffbd2306c8cc6c2aceba"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-02-01T00:00:00&endtime=2025-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2507,
+   "sha256": "6a233f71ae77943ea2ce18d0f2c51b4f5618955a55177acaf82dcded5b3ed255"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-03-01T00:00:00&endtime=2025-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 2425,
+   "sha256": "c2ffc12492fba5eb63efa77d83edbe54a5fd5ac0695d6ecbd7a81b73987f9da2"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-04-01T00:00:00&endtime=2025-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 1344,
+   "sha256": "7a76a1e4cf73d3db9e30baf173080c8bb93c6efa85acdc25bd9b74dbca4b20f8"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-05-01T00:00:00&endtime=2025-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 1484,
+   "sha256": "0dc1a02890d2a21c9504a72b151ff6cb93a67068398310a20dfe6ae54c7befe4"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-06-01T00:00:00&endtime=2025-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&eventtype=earthquake",
+   "rows": 1217,
+   "sha256": "0ef513475965f78bfae1eae434ab94edda1c90871e638959b55d321ed9c41259"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-01-07T23:50:00&endtime=2024-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2736,
+   "sha256": "62ad0c5d0db7150a1709778a117ff109a0f17025c13e73db302d228e02946344"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-02-01T00:00:00&endtime=2024-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2498,
+   "sha256": "c00b0c4939654d6f1e500e92ab6b6428b7ff3a4519d09644e6ba02994516055a"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-03-01T00:00:00&endtime=2024-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2935,
+   "sha256": "e2d780e7a35bc7020ab9e7938dbee009e1200449b3b217326a69245bae822f87"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-04-01T00:00:00&endtime=2024-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2727,
+   "sha256": "e58992854f86f0ad774b83b7d6efe35add065baef1eca9cf830d3507b4dce820"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-05-01T00:00:00&endtime=2024-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2613,
+   "sha256": "ab02b852bb6b5b1d3a836de54d76f1ca161c1d275e06936310a52707f361ab97"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-06-01T00:00:00&endtime=2024-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2265,
+   "sha256": "95938e7ddd178ecd0c212f8f596631c2f623b9b1af20e3e474caf5ba16cce248"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-07-01T00:00:00&endtime=2024-08-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2171,
+   "sha256": "c99275fea9da0d7eb6ad9ca022c369cc0ff54bfb9ac9e0a62410f7f65156e8d2"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-08-01T00:00:00&endtime=2024-09-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2153,
+   "sha256": "4a4fb3a8280e241d8181a8b0a3e28f10a380bab16d740d820348fd9e4204ffd0"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-09-01T00:00:00&endtime=2024-10-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2497,
+   "sha256": "d2bacbbae748e173db66489d4659bdd1d7e323781e026ad32ca027c9a0c65efd"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-10-01T00:00:00&endtime=2024-11-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 3162,
+   "sha256": "afa814f46957d51c0f3384e60014e7df2aee79ed492ec830452ac7e1ff9fcc14"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-11-01T00:00:00&endtime=2024-12-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2269,
+   "sha256": "9f016cfa58d4556f0e00fab90554c151e41e36ddba8e66e6e36aea66442df04e"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-12-01T00:00:00&endtime=2025-01-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2790,
+   "sha256": "63819e41b851e7a4287b5a52034871f1eeca2562397c2200e1064708214fef3b"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-01-01T00:00:00&endtime=2025-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2773,
+   "sha256": "ccbef011c195882f06583aa3584daf2e08cfc150b44dd1cbb852e8cc6acd6598"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-02-01T00:00:00&endtime=2025-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2551,
+   "sha256": "45d2c85722b78df5f297e3565747c09242558f7ba7cd49672fc9dcd704d04884"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-03-01T00:00:00&endtime=2025-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2475,
+   "sha256": "120be47cc5f2b0832502d3f8cdffbbf9c487e98a6ab387c2560700f4d4b72f87"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-04-01T00:00:00&endtime=2025-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 1362,
+   "sha256": "4691a1d4b957799ee16c8fea6841149023911507548bc8d9a37c10c2798fff83"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-05-01T00:00:00&endtime=2025-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 1502,
+   "sha256": "96078df14f0508335e5f194c4ebda704cf5ddf6134ee812bbe1a4ce537101052"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-06-01T00:00:00&endtime=2025-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 1227,
+   "sha256": "8386e0f2c56bcabf03fb9017eb793da160bede921d3b8d4f20d86915b4407549"
+  },
+  {
+   "file": "comcat_explosion_family.csv",
+   "sha256_file": "2b2844a7a6e1004debebd128d14c7ce07b54e1c618cbddea887f5658c6014900"
+  },
+  {
+   "file": "comcat_earthquake.csv",
+   "sha256_file": "345221f393201db4af5b3cf68d6f3fdde39bb50e06f7ee99ed12def9fd6fc060"
+  },
+  {
+   "file": "comcat_all_types.csv",
+   "sha256_file": "96cea0240a54b36ebbf50bc2c274dc6c995c65380a3abdfca741f3f001e5b6fb"
+  }
+ ]
+}

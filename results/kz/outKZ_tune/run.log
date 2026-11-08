@@ -1,0 +1,79 @@
+thresholds {'MAKZ': 8.251656209298387, 'MK31': 8.071929016229019, 'KURK': 9.614672444383686, 'WUS': 11.59454367320804}
+{'day': '2024-01-08', 'MAKZ_valid_share': 0.989, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 1.0}
+MK31 distance_km 23.9 window_s 9.4
+KURK distance_km 499.6 window_s 95.8
+WUS distance_km 433.6 window_s 83.8
+{
+ "version": "v3",
+ "dev_days": 1,
+ "thresholds_q99.9": {
+  "MAKZ": 8.251656209298387,
+  "MK31": 8.071929016229019,
+  "KURK": 9.614672444383686,
+  "WUS": 11.59454367320804
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "KZ.MAKZ..BHZ"
+  ],
+  "MK31": [
+   "KZ.MKAR..BHZ"
+  ],
+  "KURK": [
+   "KZ.KURK..BHZ"
+  ],
+  "WUS": [
+   "KZ.PDGK..BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 23,
+  "MK31": 25,
+  "KURK": 21,
+  "WUS": 18
+ },
+ "ref_episodes_per_day": 23.0,
+ "catalog_failures": [],
+ "fetch_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 0,
+ "catalog": {
+  "regional": 12,
+  "tele": 1
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2024-01-01T00:00:00.000000Z",
+   "2024-01-08T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2024-01-08T00:00:00.000000Z",
+   "2024-01-09T00:00:00.000000Z"
+  ]
+ }
+}

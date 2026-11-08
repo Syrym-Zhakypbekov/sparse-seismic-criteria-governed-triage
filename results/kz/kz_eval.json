@@ -1,0 +1,186 @@
+{
+ "preregistration": "PREREGISTRATION_KZ_NETWORK.md, commit f947bfa",
+ "chunks": [
+  {
+   "chunk": "outKZ_2024-01-08",
+   "days": 84,
+   "episodes": 1855,
+   "catalog_failures": [],
+   "outage_days": 2
+  },
+  {
+   "chunk": "outKZ_2024-04-01",
+   "days": 91,
+   "episodes": 2468,
+   "catalog_failures": [],
+   "outage_days": 0
+  },
+  {
+   "chunk": "outKZ_2024-07-01",
+   "days": 92,
+   "episodes": 1995,
+   "catalog_failures": [],
+   "outage_days": 0
+  },
+  {
+   "chunk": "outKZ_2024-10-01",
+   "days": 92,
+   "episodes": 1384,
+   "catalog_failures": [],
+   "outage_days": 0
+  },
+  {
+   "chunk": "outKZ_2025-01-01",
+   "days": 90,
+   "episodes": 1791,
+   "catalog_failures": [],
+   "outage_days": 0
+  },
+  {
+   "chunk": "outKZ_2025-04-01",
+   "days": 91,
+   "episodes": 2212,
+   "catalog_failures": [],
+   "outage_days": 0
+  },
+  {
+   "chunk": "outKZ_2025-07-01",
+   "days": 92,
+   "episodes": 4034,
+   "catalog_failures": [],
+   "outage_days": 0
+  }
+ ],
+ "calendar_days": 632,
+ "outage_days": 2,
+ "neighbours_km": {
+  "MK31": 23.9,
+  "WUS": 433.6,
+  "KURK": 499.6
+ },
+ "all": {
+  "P1": {
+   "episodes": 15739,
+   "assoc": 2250,
+   "missed": 167,
+   "alert_unassoc": 6013,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "episodes": 15739,
+   "assoc": 2250,
+   "missed": 24,
+   "alert_unassoc": 11104,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "episodes": 15739,
+   "assoc": 2250,
+   "missed": 17,
+   "alert_unassoc": 5541,
+   "esc_per_day": 9.84
+  },
+  "P2": {
+   "episodes": 15739,
+   "assoc": 2250,
+   "missed": 71,
+   "alert_unassoc": 4262,
+   "esc_per_day": 8.41
+  },
+  "CG": {
+   "episodes": 15739,
+   "assoc": 2250,
+   "missed": 102,
+   "alert_unassoc": 2442,
+   "esc_per_day": 10.86
+  },
+  "CG-D": {
+   "episodes": 15739,
+   "assoc": 2250,
+   "missed": 36,
+   "alert_unassoc": 3037,
+   "esc_per_day": 13.17
+  }
+ },
+ "outage": {
+  "P1": {
+   "episodes": 0,
+   "assoc": 0,
+   "missed": 0,
+   "alert_unassoc": 0,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "episodes": 0,
+   "assoc": 0,
+   "missed": 0,
+   "alert_unassoc": 0,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "episodes": 0,
+   "assoc": 0,
+   "missed": 0,
+   "alert_unassoc": 0,
+   "esc_per_day": 0.0
+  },
+  "P2": {
+   "episodes": 0,
+   "assoc": 0,
+   "missed": 0,
+   "alert_unassoc": 0,
+   "esc_per_day": 0.0
+  },
+  "CG": {
+   "episodes": 0,
+   "assoc": 0,
+   "missed": 0,
+   "alert_unassoc": 0,
+   "esc_per_day": 0.0
+  },
+  "CG-D": {
+   "episodes": 0,
+   "assoc": 0,
+   "missed": 0,
+   "alert_unassoc": 0,
+   "esc_per_day": 0.0
+  }
+ },
+ "N1": {
+  "CG": 0,
+  "P1": 0,
+  "assoc": 0,
+  "holds": null
+ },
+ "N2": {
+  "CG": 2442,
+  "P3": 5541,
+  "P1t": 11104,
+  "holds": true
+ },
+ "N3_CG_noninferiority": {
+  "diff_pp": 3.78,
+  "ci95_pp": [
+   2.98,
+   4.69
+  ],
+  "holds": false
+ },
+ "N4": {
+  "episodes": 0,
+  "CG_escalated": 0,
+  "holds": null
+ },
+ "N5_CGD_noninferiority": {
+  "diff_pp": 0.84,
+  "ci95_pp": [
+   0.5,
+   1.23
+  ],
+  "holds": true,
+  "calendar_ci95_pp": [
+   0.49,
+   1.23
+  ]
+ }
+}

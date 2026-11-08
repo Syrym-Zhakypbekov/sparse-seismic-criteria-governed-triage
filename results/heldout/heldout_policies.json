@@ -1,0 +1,114 @@
+{
+ "frozen": {
+  "tau_P2": 10.5,
+  "tau_P1t": 8.0
+ },
+ "days_by_regime": {
+  "normal": 36,
+  "partial": 1
+ },
+ "policies": {
+  "P1_classic_coincidence": {
+   "all": {
+    "episodes": 317,
+    "days": 37,
+    "alert": 229,
+    "escalate": 0,
+    "dismiss": 88,
+    "analyst_per_day": 0.0,
+    "assoc": 57,
+    "unsafe": 3,
+    "unassoc_alerts": 175,
+    "unsafe_rate": 0.05263157894736842,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.1176719840478563
+    ]
+   },
+   "normal": {
+    "episodes": 309,
+    "days": 36,
+    "alert": 226,
+    "escalate": 0,
+    "dismiss": 83,
+    "analyst_per_day": 0.0,
+    "assoc": 56,
+    "unsafe": 3,
+    "unassoc_alerts": 173,
+    "unsafe_rate": 0.05357142857142857,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.12
+    ]
+   }
+  },
+  "P1t_tuned_coincidence": {
+   "all": {
+    "episodes": 317,
+    "days": 37,
+    "alert": 279,
+    "escalate": 0,
+    "dismiss": 38,
+    "analyst_per_day": 0.0,
+    "assoc": 57,
+    "unsafe": 0,
+    "unassoc_alerts": 222,
+    "unsafe_rate": 0.0,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "normal": {
+    "episodes": 309,
+    "days": 36,
+    "alert": 272,
+    "escalate": 0,
+    "dismiss": 37,
+    "analyst_per_day": 0.0,
+    "assoc": 56,
+    "unsafe": 0,
+    "unassoc_alerts": 216,
+    "unsafe_rate": 0.0,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "P2_availability_aware": {
+   "all": {
+    "episodes": 317,
+    "days": 37,
+    "alert": 149,
+    "escalate": 96,
+    "dismiss": 72,
+    "analyst_per_day": 2.5945945945945947,
+    "assoc": 57,
+    "unsafe": 2,
+    "unassoc_alerts": 99,
+    "unsafe_rate": 0.03508771929824561,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.09095117845117823
+    ]
+   },
+   "normal": {
+    "episodes": 309,
+    "days": 36,
+    "alert": 146,
+    "escalate": 94,
+    "dismiss": 69,
+    "analyst_per_day": 2.611111111111111,
+    "assoc": 56,
+    "unsafe": 2,
+    "unassoc_alerts": 97,
+    "unsafe_rate": 0.03571428571428571,
+    "unsafe_rate_ci95": [
+     0.0,
+     0.09259259259259259
+    ]
+   }
+  }
+ }
+}

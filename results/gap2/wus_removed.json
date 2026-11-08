@@ -1,0 +1,171 @@
+{
+ "plan": "PLAN_GAP2_2026-11-08.md",
+ "E_MAKZ": {
+  "published": {
+   "E2": {
+    "CG": 2870,
+    "P3": 6350,
+    "P1t": 12452,
+    "holds": true
+   },
+   "E3": {
+    "diff_pp": 2.44,
+    "ci95_pp": [
+     1.74,
+     3.18
+    ],
+    "margin_pp": 3.0,
+    "holds": false
+   },
+   "all": {
+    "P1": {
+     "missed": 244,
+     "alert_unassoc": 8147,
+     "escalate": 0
+    },
+    "P1t": {
+     "missed": 50,
+     "alert_unassoc": 12452,
+     "escalate": 0
+    },
+    "P3": {
+     "missed": 38,
+     "alert_unassoc": 6350,
+     "escalate": 6943
+    },
+    "CG": {
+     "missed": 98,
+     "alert_unassoc": 2870,
+     "escalate": 8849
+    }
+   }
+  },
+  "wus_missing": {
+   "E2": {
+    "CG": 3028,
+    "P3": 4988,
+    "P1t": 11259,
+    "holds": true
+   },
+   "E3": {
+    "diff_pp": 3.71,
+    "ci95_pp": [
+     2.91,
+     4.55
+    ],
+    "margin_pp": 3.0,
+    "holds": false
+   },
+   "all": {
+    "P1": {
+     "missed": 367,
+     "alert_unassoc": 5760,
+     "escalate": 0
+    },
+    "P1t": {
+     "missed": 77,
+     "alert_unassoc": 11259,
+     "escalate": 0
+    },
+    "P3": {
+     "missed": 61,
+     "alert_unassoc": 4988,
+     "escalate": 7363
+    },
+    "CG": {
+     "missed": 152,
+     "alert_unassoc": 3028,
+     "escalate": 7367
+    }
+   }
+  }
+ },
+ "K_KURK": {
+  "published": {
+   "K2": {
+    "CG": 3511,
+    "P3": 7444,
+    "P1t": 13225,
+    "holds": true
+   },
+   "K3": {
+    "diff_pp": 10.19,
+    "ci95_pp": [
+     8.72,
+     11.76
+    ],
+    "margin_pp": 3.0,
+    "holds": false,
+    "calendar_sensitivity_ci95_pp": [
+     8.72,
+     11.76
+    ]
+   },
+   "all": {
+    "P1": {
+     "missed": 434,
+     "alert_unassoc": 8924,
+     "escalate": 0
+    },
+    "P1t": {
+     "missed": 68,
+     "alert_unassoc": 13225,
+     "escalate": 0
+    },
+    "P3": {
+     "missed": 49,
+     "alert_unassoc": 7444,
+     "escalate": 6672
+    },
+    "CG": {
+     "missed": 228,
+     "alert_unassoc": 3511,
+     "escalate": 8185
+    }
+   }
+  },
+  "wus_missing": {
+   "K2": {
+    "CG": 3587,
+    "P3": 5432,
+    "P1t": 12170,
+    "holds": true
+   },
+   "K3": {
+    "diff_pp": 11.44,
+    "ci95_pp": [
+     10.0,
+     12.94
+    ],
+    "margin_pp": 3.0,
+    "holds": false,
+    "calendar_sensitivity_ci95_pp": [
+     10.0,
+     12.94
+    ]
+   },
+   "all": {
+    "P1": {
+     "missed": 612,
+     "alert_unassoc": 6035,
+     "escalate": 0
+    },
+    "P1t": {
+     "missed": 104,
+     "alert_unassoc": 12170,
+     "escalate": 0
+    },
+    "P3": {
+     "missed": 73,
+     "alert_unassoc": 5432,
+     "escalate": 7937
+    },
+    "CG": {
+     "missed": 274,
+     "alert_unassoc": 3587,
+     "escalate": 6776
+    }
+   }
+  }
+ }
+}

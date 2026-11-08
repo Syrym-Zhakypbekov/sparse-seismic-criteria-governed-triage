@@ -1,0 +1,111 @@
+{
+ "network": "NY",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-1",
+ "platform": "p10-fleet-1-b",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "NY",
+   "MAYO",
+   "",
+   "HHZ",
+   63.59581,
+   -135.89209
+  ],
+  "S1_1": [
+   "NY",
+   "MMPY",
+   "",
+   "HHZ",
+   62.61891,
+   -131.26246
+  ],
+  "S2_1": [
+   "NY",
+   "TGTN",
+   "",
+   "HHZ",
+   61.5267,
+   -128.27268
+  ],
+  "S3_1": [
+   "NY",
+   "WTLY",
+   "",
+   "HHZ",
+   60.11326,
+   -128.79605
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 107,
+     "end_utc": "2026-11-07T19:32:38Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 4416,
+     "end_utc": "2026-11-07T20:46:14Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 5849,
+     "end_utc": "2026-11-07T21:11:07Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:30:51Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 14.880217105353283,
+  "S1_1": 10.11637590930273,
+  "S2_1": 7.73917551519386,
+  "S3_1": 15.522552881125259
+ },
+ "finished_utc": "2026-11-07T21:11:07Z"
+}

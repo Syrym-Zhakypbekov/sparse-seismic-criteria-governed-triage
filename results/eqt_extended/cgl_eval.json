@@ -1,0 +1,46 @@
+{
+ "preregistration": "PREREGISTRATION_LEARNED_CRITERION.md, commit d11004c",
+ "episodes": 18637,
+ "associated": 2455,
+ "eqt_scored": 18636,
+ "eqt_failed_or_missing": 1,
+ "days": 546,
+ "CG-L": {
+  "missed": 66,
+  "alert_unassoc": 2059,
+  "esc_per_day": 20.02
+ },
+ "CG-D": {
+  "missed": 38,
+  "alert_unassoc": 3390,
+  "esc_per_day": 18.56
+ },
+ "P3": {
+  "missed": 38,
+  "alert_unassoc": 6350,
+  "esc_per_day": 12.72
+ },
+ "L1": {
+  "diff_pp": 1.14,
+  "ci95_pp": [
+   0.63,
+   1.73
+  ],
+  "holds": true
+ },
+ "L2": {
+  "CG-L": 2059,
+  "P3": 6350,
+  "holds": true
+ },
+ "L3": {
+  "CG-L": 20.02,
+  "CG-D": 18.56,
+  "holds": false
+ },
+ "L4": {
+  "eqt_failed": 1,
+  "decided_or_escalated": 1,
+  "holds": true
+ }
+}

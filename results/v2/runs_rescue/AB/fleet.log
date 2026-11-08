@@ -1,0 +1,6 @@
+2026-11-08T07:22:04Z AB rescue candidates ['2024-01-07', '2024-01-08', '2024-01-09']
+2026-11-08T07:24:26Z AB tune attempt 1: rc=-15 142s thresholds=yes
+2026-11-08T07:24:26Z AB rescue thresholds {'MAKZ': 5.3710066470056255, 'S1_1': 8.52396068415976, 'S2_1': 8.678355177258396, 'S3_1': 4.987810501756656, 'S3_2': 7.141544334127583} (window 2024-01-07)
+2026-11-08T07:52:30Z AB out_2024-04-14 attempt 1: rc=0 1624s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:54:26Z AB out_2024-01-14 attempt 1: rc=0 1800s summary=True fetch_fail=0 cat_fail=[]
+2026-11-08T07:54:26Z AB FINISHED state=done

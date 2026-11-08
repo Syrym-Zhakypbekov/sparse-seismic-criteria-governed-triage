@@ -1,0 +1,202 @@
+{
+ "model": "gemini-3.8-flash",
+ "calls_made": 1343,
+ "http_failed_records_retried": 43,
+ "calls_planned": 1300,
+ "cost_usd": 0.6868,
+ "tokens": {
+  "promptTokenCount": 458257,
+  "candidatesTokenCount": 87165,
+  "thoughtsTokenCount": 4329
+ },
+ "errors_http": 43,
+ "model_versions": [
+  "None",
+  "gemini-3.8-flash"
+ ],
+ "latency_s": {
+  "median": 2.147,
+  "p95": 6.494,
+  "mean": 3.578,
+  "n": 1300
+ },
+ "cost_per_call_usd": 0.000511,
+ "cost_per_10000_episodes_usd": 5.11,
+ "L1_format": {
+  "answers": 1200,
+  "valid": 1200,
+  "invalid_or_refused": 0,
+  "valid_share_pct": 100.0,
+  "holds": true,
+  "finish_reasons": {
+   "STOP": 1200
+  }
+ },
+ "sets": {
+  "AK-GT": {
+   "n": 600,
+   "positives": 486,
+   "negatives": 114,
+   "L2_CG_minus_LLM_dismissed_among_positives": {
+    "share_a_pct": 3.29,
+    "share_b_pct": 8.85,
+    "diff_pp": -5.56,
+    "ci95_pp": [
+     -7.82,
+     -3.5
+    ],
+    "n": 486,
+    "holds": true
+   },
+   "L3_CG_minus_LLM_alert_among_negatives": {
+    "share_a_pct": 9.65,
+    "share_b_pct": 65.79,
+    "diff_pp": -56.14,
+    "ci95_pp": [
+     -64.91,
+     -47.37
+    ],
+    "n": 114,
+    "holds": true
+   },
+   "actions_positives": {
+    "LLM": {
+     "ALERT": 405,
+     "DISMISS": 43,
+     "ESCALATE": 38
+    },
+    "CG": {
+     "ESCALATE": 317,
+     "ALERT": 153,
+     "DISMISS": 16
+    },
+    "P3": {
+     "ALERT": 414,
+     "ESCALATE": 68,
+     "DISMISS": 4
+    }
+   },
+   "actions_negatives": {
+    "LLM": {
+     "ALERT": 75,
+     "DISMISS": 25,
+     "ESCALATE": 14
+    },
+    "CG": {
+     "ESCALATE": 91,
+     "DISMISS": 12,
+     "ALERT": 11
+    },
+    "P3": {
+     "ALERT": 77,
+     "ESCALATE": 37
+    }
+   },
+   "L5_agreement_pct": 39.33,
+   "L5_kappa": 0.154,
+   "confusion_LLM_rows_CG_cols": {
+    "ALERT": {
+     "ALERT": 163,
+     "DISMISS": 0,
+     "ESCALATE": 1
+    },
+    "DISMISS": {
+     "ALERT": 0,
+     "DISMISS": 25,
+     "ESCALATE": 3
+    },
+    "ESCALATE": {
+     "ALERT": 317,
+     "DISMISS": 43,
+     "ESCALATE": 48
+    }
+   }
+  },
+  "EXT-MAKZ": {
+   "n": 600,
+   "positives": 300,
+   "negatives": 300,
+   "L2_CG_minus_LLM_dismissed_among_positives": {
+    "share_a_pct": 3.0,
+    "share_b_pct": 5.33,
+    "diff_pp": -2.33,
+    "ci95_pp": [
+     -4.0,
+     -0.67
+    ],
+    "n": 300,
+    "holds": true
+   },
+   "L3_CG_minus_LLM_alert_among_negatives": {
+    "share_a_pct": 17.0,
+    "share_b_pct": 28.67,
+    "diff_pp": -11.67,
+    "ci95_pp": [
+     -15.67,
+     -8.0
+    ],
+    "n": 300,
+    "holds": true
+   },
+   "actions_positives": {
+    "LLM": {
+     "ALERT": 255,
+     "ESCALATE": 29,
+     "DISMISS": 16
+    },
+    "CG": {
+     "ALERT": 146,
+     "ESCALATE": 145,
+     "DISMISS": 9
+    },
+    "P3": {
+     "ALERT": 262,
+     "ESCALATE": 36,
+     "DISMISS": 2
+    }
+   },
+   "actions_negatives": {
+    "LLM": {
+     "DISMISS": 129,
+     "ALERT": 86,
+     "ESCALATE": 85
+    },
+    "CG": {
+     "ESCALATE": 153,
+     "DISMISS": 96,
+     "ALERT": 51
+    },
+    "P3": {
+     "ALERT": 123,
+     "ESCALATE": 123,
+     "DISMISS": 54
+    }
+   },
+   "L5_agreement_pct": 66.67,
+   "L5_kappa": 0.507,
+   "confusion_LLM_rows_CG_cols": {
+    "ALERT": {
+     "ALERT": 194,
+     "DISMISS": 0,
+     "ESCALATE": 3
+    },
+    "DISMISS": {
+     "ALERT": 0,
+     "DISMISS": 100,
+     "ESCALATE": 5
+    },
+    "ESCALATE": {
+     "ALERT": 147,
+     "DISMISS": 45,
+     "ESCALATE": 106
+    }
+   }
+  }
+ },
+ "L4_repeatability": {
+  "pairs": 100,
+  "same_action": 99,
+  "share_pct": 99.0,
+  "holds": true
+ }
+}

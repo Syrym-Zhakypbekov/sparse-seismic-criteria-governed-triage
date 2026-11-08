@@ -1,0 +1,231 @@
+{
+ "plan": "PLAN_REVIEW4_2026-11-08.md (a0ea136)",
+ "networks": 33,
+ "episodes": 263303,
+ "by_delta": {
+  "0.45": {
+   "CG": {
+    "dismissed_reviewed_associated": 319,
+    "escalations": 77133,
+    "unassociated_alerts": 8076,
+    "all_dismissals": 175347,
+    "alerts": 10823,
+    "alerts_plus_escalations": 87956,
+    "decisions_changed_vs_frozen": 0,
+    "reviewed_associated_decisions_changed": 0
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 183,
+    "escalations": 113316,
+    "unassociated_alerts": 10926,
+    "all_dismissals": 135996,
+    "alerts": 13991,
+    "alerts_plus_escalations": 127307,
+    "decisions_changed_vs_frozen": 0,
+    "reviewed_associated_decisions_changed": 0
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 193,
+    "escalations": 112053,
+    "unassociated_alerts": 9808,
+    "all_dismissals": 138449,
+    "alerts": 12801,
+    "alerts_plus_escalations": 124854,
+    "decisions_changed_vs_frozen": 0,
+    "reviewed_associated_decisions_changed": 0
+   }
+  },
+  "0.55": {
+   "CG": {
+    "dismissed_reviewed_associated": 319,
+    "escalations": 77144,
+    "unassociated_alerts": 8073,
+    "all_dismissals": 175339,
+    "alerts": 10820,
+    "alerts_plus_escalations": 87964,
+    "decisions_changed_vs_frozen": 11,
+    "reviewed_associated_decisions_changed": 0
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 183,
+    "escalations": 114354,
+    "unassociated_alerts": 10784,
+    "all_dismissals": 135103,
+    "alerts": 13846,
+    "alerts_plus_escalations": 128200,
+    "decisions_changed_vs_frozen": 1038,
+    "reviewed_associated_decisions_changed": 3
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 188,
+    "escalations": 114128,
+    "unassociated_alerts": 9726,
+    "all_dismissals": 136459,
+    "alerts": 12716,
+    "alerts_plus_escalations": 126844,
+    "decisions_changed_vs_frozen": 2075,
+    "reviewed_associated_decisions_changed": 8
+   }
+  },
+  "0.60": {
+   "CG": {
+    "dismissed_reviewed_associated": 319,
+    "escalations": 77937,
+    "unassociated_alerts": 7987,
+    "all_dismissals": 174643,
+    "alerts": 10723,
+    "alerts_plus_escalations": 88660,
+    "decisions_changed_vs_frozen": 804,
+    "reviewed_associated_decisions_changed": 11
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 175,
+    "escalations": 118895,
+    "unassociated_alerts": 10642,
+    "all_dismissals": 130714,
+    "alerts": 13694,
+    "alerts_plus_escalations": 132589,
+    "decisions_changed_vs_frozen": 5579,
+    "reviewed_associated_decisions_changed": 21
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 185,
+    "escalations": 117275,
+    "unassociated_alerts": 9659,
+    "all_dismissals": 133389,
+    "alerts": 12639,
+    "alerts_plus_escalations": 129914,
+    "decisions_changed_vs_frozen": 5222,
+    "reviewed_associated_decisions_changed": 21
+   }
+  },
+  "0.65": {
+   "CG": {
+    "dismissed_reviewed_associated": 319,
+    "escalations": 78410,
+    "unassociated_alerts": 7944,
+    "all_dismissals": 174218,
+    "alerts": 10675,
+    "alerts_plus_escalations": 89085,
+    "decisions_changed_vs_frozen": 1277,
+    "reviewed_associated_decisions_changed": 16
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 170,
+    "escalations": 124865,
+    "unassociated_alerts": 10465,
+    "all_dismissals": 124926,
+    "alerts": 13512,
+    "alerts_plus_escalations": 138377,
+    "decisions_changed_vs_frozen": 11549,
+    "reviewed_associated_decisions_changed": 31
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 178,
+    "escalations": 123863,
+    "unassociated_alerts": 9620,
+    "all_dismissals": 126845,
+    "alerts": 12595,
+    "alerts_plus_escalations": 136458,
+    "decisions_changed_vs_frozen": 11810,
+    "reviewed_associated_decisions_changed": 33
+   }
+  },
+  "0.75": {
+   "CG": {
+    "dismissed_reviewed_associated": 319,
+    "escalations": 78445,
+    "unassociated_alerts": 7927,
+    "all_dismissals": 174205,
+    "alerts": 10653,
+    "alerts_plus_escalations": 89098,
+    "decisions_changed_vs_frozen": 1312,
+    "reviewed_associated_decisions_changed": 21
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 0,
+    "escalations": 250231,
+    "unassociated_alerts": 10076,
+    "all_dismissals": 0,
+    "alerts": 13072,
+    "alerts_plus_escalations": 263303,
+    "decisions_changed_vs_frozen": 136915,
+    "reviewed_associated_decisions_changed": 252
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 0,
+    "escalations": 250923,
+    "unassociated_alerts": 9435,
+    "all_dismissals": 0,
+    "alerts": 12380,
+    "alerts_plus_escalations": 263303,
+    "decisions_changed_vs_frozen": 138870,
+    "reviewed_associated_decisions_changed": 241
+   }
+  },
+  "0.85": {
+   "CG": {
+    "dismissed_reviewed_associated": 292,
+    "escalations": 93839,
+    "unassociated_alerts": 6913,
+    "all_dismissals": 160133,
+    "alerts": 9331,
+    "alerts_plus_escalations": 103170,
+    "decisions_changed_vs_frozen": 16706,
+    "reviewed_associated_decisions_changed": 356
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 0,
+    "escalations": 252443,
+    "unassociated_alerts": 8219,
+    "all_dismissals": 0,
+    "alerts": 10860,
+    "alerts_plus_escalations": 263303,
+    "decisions_changed_vs_frozen": 139127,
+    "reviewed_associated_decisions_changed": 607
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 0,
+    "escalations": 252168,
+    "unassociated_alerts": 8480,
+    "all_dismissals": 0,
+    "alerts": 11135,
+    "alerts_plus_escalations": 263303,
+    "decisions_changed_vs_frozen": 140115,
+    "reviewed_associated_decisions_changed": 531
+   }
+  },
+  "0.95": {
+   "CG": {
+    "dismissed_reviewed_associated": 290,
+    "escalations": 94393,
+    "unassociated_alerts": 6850,
+    "all_dismissals": 159651,
+    "alerts": 9259,
+    "alerts_plus_escalations": 103652,
+    "decisions_changed_vs_frozen": 17260,
+    "reviewed_associated_decisions_changed": 367
+   },
+   "CG_c05": {
+    "dismissed_reviewed_associated": 0,
+    "escalations": 256818,
+    "unassociated_alerts": 4620,
+    "all_dismissals": 0,
+    "alerts": 6485,
+    "alerts_plus_escalations": 263303,
+    "decisions_changed_vs_frozen": 143502,
+    "reviewed_associated_decisions_changed": 1383
+   },
+   "CG-D": {
+    "dismissed_reviewed_associated": 0,
+    "escalations": 254799,
+    "unassociated_alerts": 6265,
+    "all_dismissals": 0,
+    "alerts": 8504,
+    "alerts_plus_escalations": 263303,
+    "decisions_changed_vs_frozen": 142746,
+    "reviewed_associated_decisions_changed": 947
+   }
+  }
+ }
+}

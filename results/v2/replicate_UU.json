@@ -1,0 +1,246 @@
+{
+ "network": "UU",
+ "run_a": {
+  "dir": "results/v2/runs/UU",
+  "platform": "kaggle",
+  "host": "4dc14512cbba",
+  "state": "done"
+ },
+ "run_b": {
+  "dir": "results/v2/_replicates/UU_fleet6",
+  "platform": "p10-fleet-6-rUU",
+  "host": "p10-fleet-6",
+  "state": "done"
+ },
+ "thresholds_identical": true,
+ "thresholds": {
+  "a": {
+   "MAKZ": 6.46925395609976,
+   "S1_1": 7.642766629243007,
+   "S1_2": 2.571129852462623,
+   "S2_1": 8.572923294377556,
+   "S2_2": 9.679536760469386,
+   "S3_1": 7.868690669444382
+  },
+  "b": {
+   "MAKZ": 6.46925395609976,
+   "S1_1": 7.642766629243007,
+   "S1_2": 2.571129852462623,
+   "S2_1": 8.572923294377556,
+   "S2_2": 9.679536760469386,
+   "S3_1": 7.868690669444382
+  }
+ },
+ "files_byte_identical": {
+  "out_2024-01-08/availability.csv": true,
+  "out_2024-01-08/catalog.csv": false,
+  "out_2024-01-08/episodes.csv": false,
+  "out_2024-04-08/availability.csv": true,
+  "out_2024-04-08/catalog.csv": false,
+  "out_2024-04-08/episodes.csv": true
+ },
+ "files_identical_ignoring_line_endings": {
+  "out_2024-01-08/availability.csv": true,
+  "out_2024-01-08/catalog.csv": false,
+  "out_2024-01-08/episodes.csv": false,
+  "out_2024-04-08/availability.csv": true,
+  "out_2024-04-08/catalog.csv": false,
+  "out_2024-04-08/episodes.csv": true
+ },
+ "max_abs_threshold_diff": 0.0,
+ "episodes": [
+  3583,
+  3583
+ ],
+ "associated": [
+  278,
+  278
+ ],
+ "episodes_only_a": 0,
+ "episodes_only_b": 0,
+ "matched_episodes": 3583,
+ "columns_differing_on_matched": {
+  "assoc_residual_s": 7
+ },
+ "actions": {
+  "P1": {
+   "a": {
+    "A": 1816,
+    "D": 1767,
+    "E": 0
+   },
+   "b": {
+    "A": 1816,
+    "D": 1767,
+    "E": 0
+   },
+   "dismissed_assoc": [
+    25,
+    25
+   ]
+  },
+  "P1t": {
+   "a": {
+    "A": 2936,
+    "D": 647,
+    "E": 0
+   },
+   "b": {
+    "A": 2936,
+    "D": 647,
+    "E": 0
+   },
+   "dismissed_assoc": [
+    4,
+    4
+   ]
+  },
+  "P3": {
+   "a": {
+    "A": 1669,
+    "D": 542,
+    "E": 1372
+   },
+   "b": {
+    "A": 1669,
+    "D": 542,
+    "E": 1372
+   },
+   "dismissed_assoc": [
+    3,
+    3
+   ]
+  },
+  "P3_8.0": {
+   "a": {
+    "A": 1631,
+    "D": 647,
+    "E": 1305
+   },
+   "b": {
+    "A": 1631,
+    "D": 647,
+    "E": 1305
+   },
+   "dismissed_assoc": [
+    4,
+    4
+   ]
+  },
+  "P2": {
+   "a": {
+    "A": 1290,
+    "D": 1159,
+    "E": 1134
+   },
+   "b": {
+    "A": 1290,
+    "D": 1159,
+    "E": 1134
+   },
+   "dismissed_assoc": [
+    13,
+    13
+   ]
+  },
+  "CG": {
+   "a": {
+    "A": 723,
+    "D": 1387,
+    "E": 1473
+   },
+   "b": {
+    "A": 723,
+    "D": 1387,
+    "E": 1473
+   },
+   "dismissed_assoc": [
+    19,
+    19
+   ]
+  },
+  "CG-D": {
+   "a": {
+    "A": 899,
+    "D": 752,
+    "E": 1932
+   },
+   "b": {
+    "A": 899,
+    "D": 752,
+    "E": 1932
+   },
+   "dismissed_assoc": [
+    6,
+    6
+   ]
+  },
+  "CG_c05": {
+   "a": {
+    "A": 915,
+    "D": 722,
+    "E": 1946
+   },
+   "b": {
+    "A": 915,
+    "D": 722,
+    "E": 1946
+   },
+   "dismissed_assoc": [
+    6,
+    6
+   ]
+  }
+ },
+ "max_abs_diff_numeric_on_matched": {
+  "peak_cft": 0.0,
+  "snr_db": 0.0,
+  "cov_S1_1": 0.0,
+  "cov_S1_2": 0.0,
+  "cov_S2_1": 0.0,
+  "cov_S2_2": 0.0,
+  "cov_S3_1": 0.0,
+  "assoc_event": 0.0,
+  "assoc_residual_s": 4.76837158203125e-07
+ },
+ "catalog_max_abs_diff_or_mismatches": {
+  "out_2024-01-08": {
+   "rows": [
+    2118,
+    2118
+   ],
+   "kind": 0,
+   "source": 0,
+   "time": 0.0,
+   "lat": 0.0,
+   "lon": 0.0,
+   "depth_km": 0.0,
+   "mag": 0.0,
+   "mag_type": 0,
+   "dist_deg": 1.2862700771165692e-07,
+   "p_pred": 4.76837158203125e-07,
+   "assoc_episode": 0,
+   "makz_valid_at_p": 0
+  },
+  "out_2024-04-08": {
+   "rows": [
+    2177,
+    2177
+   ],
+   "kind": 0,
+   "source": 0,
+   "time": 0.0,
+   "lat": 0.0,
+   "lon": 0.0,
+   "depth_km": 0.0,
+   "mag": 0.0,
+   "mag_type": 0,
+   "dist_deg": 1.3435469270461908e-07,
+   "p_pred": 4.76837158203125e-07,
+   "assoc_episode": 0,
+   "makz_valid_at_p": 0
+  }
+ },
+ "actions_identical": true,
+ "identical_all": false
+}

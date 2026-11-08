@@ -1,0 +1,13 @@
+{
+ "id": "syrym95/p10-seismic-eqtransformer",
+ "title": "p10-seismic-eqtransformer",
+ "code_file": "p10_eqt.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": []
+}

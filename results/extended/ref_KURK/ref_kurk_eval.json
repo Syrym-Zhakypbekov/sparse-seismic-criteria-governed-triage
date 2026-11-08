@@ -1,0 +1,83 @@
+{
+ "reference": "II.KURK",
+ "neighbours_by_distance_km": {
+  "MAKZ": 499.6,
+  "MK31": 512.7,
+  "WUS": 1058.6
+ },
+ "weights": {
+  "MAKZ": 0.25,
+  "MK31": 0.2,
+  "WUS": 0.15,
+  "SNR": 0.4
+ },
+ "days": 85,
+ "outage_days": 18,
+ "episodes": 1653,
+ "episodes_per_day": 19.4,
+ "all": {
+  "P1": {
+   "assoc": 114,
+   "missed": 23,
+   "alert_unassoc": 449,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "assoc": 114,
+   "missed": 4,
+   "alert_unassoc": 1232,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "assoc": 114,
+   "missed": 1,
+   "alert_unassoc": 427,
+   "esc_per_day": 10.66
+  },
+  "P2": {
+   "assoc": 114,
+   "missed": 12,
+   "alert_unassoc": 323,
+   "esc_per_day": 6.71
+  },
+  "CG": {
+   "assoc": 114,
+   "missed": 9,
+   "alert_unassoc": 244,
+   "esc_per_day": 9.16
+  }
+ },
+ "outage": {
+  "P1": {
+   "assoc": 17,
+   "missed": 6,
+   "alert_unassoc": 36,
+   "esc_per_day": 0.0
+  },
+  "P1t": {
+   "assoc": 17,
+   "missed": 1,
+   "alert_unassoc": 220,
+   "esc_per_day": 0.0
+  },
+  "P3": {
+   "assoc": 17,
+   "missed": 0,
+   "alert_unassoc": 34,
+   "esc_per_day": 11.67
+  },
+  "P2": {
+   "assoc": 17,
+   "missed": 3,
+   "alert_unassoc": 25,
+   "esc_per_day": 6.39
+  },
+  "CG": {
+   "assoc": 17,
+   "missed": 1,
+   "alert_unassoc": 24,
+   "esc_per_day": 11.39
+  }
+ },
+ "all_missing_episodes": 0
+}

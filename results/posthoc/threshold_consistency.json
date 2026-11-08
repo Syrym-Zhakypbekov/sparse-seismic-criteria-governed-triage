@@ -1,0 +1,717 @@
+{
+ "status": "post hoc after the internal review (08.11.2026); pre-specified results unchanged",
+ "thresholds_dB": {
+  "frozen": {
+   "P1t": 8.0,
+   "P2": 10.5,
+   "P3": 7.5
+  },
+  "A_full_development": {
+   "P1t": 8.0,
+   "P2": 10.5,
+   "P3": 8.0
+  },
+  "B_cv_median": {
+   "P1t": 7.5,
+   "P2": 8.0,
+   "P3": 7.5
+  },
+  "B_folds": {
+   "P1t": [
+    7.5,
+    7.5,
+    7.5,
+    10.5,
+    7.5
+   ],
+   "P2": [
+    11.5,
+    8.0,
+    8.0,
+    10.5,
+    8.0
+   ],
+   "P3": [
+    7.5,
+    7.5,
+    7.5,
+    10.5,
+    7.5
+   ]
+  }
+ },
+ "tests": {
+  "extended IU.MAKZ": {
+   "episodes": 18637,
+   "associated": 2455,
+   "frozen": {
+    "P1t": {
+     "dismissed_assoc": 50,
+     "unassoc_alerts": 12452,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 124,
+     "unassoc_alerts": 4070,
+     "esc_per_day": 12.91
+    },
+    "P3": {
+     "dismissed_assoc": 38,
+     "unassoc_alerts": 6350,
+     "esc_per_day": 12.72
+    },
+    "CG_minus_P3": [
+     2.44,
+     [
+      1.75,
+      3.14
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.0,
+     [
+      -0.37,
+      0.32
+     ]
+    ]
+   },
+   "A_full_development": {
+    "P1t": {
+     "dismissed_assoc": 50,
+     "unassoc_alerts": 12452,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 124,
+     "unassoc_alerts": 4070,
+     "esc_per_day": 12.91
+    },
+    "P3": {
+     "dismissed_assoc": 50,
+     "unassoc_alerts": 5957,
+     "esc_per_day": 12.51
+    },
+    "CG_minus_P3": [
+     1.96,
+     [
+      1.28,
+      2.63
+     ]
+    ],
+    "CGD_minus_P3": [
+     -0.49,
+     [
+      -0.87,
+      -0.13
+     ]
+    ]
+   },
+   "B_cv_median": {
+    "P1t": {
+     "dismissed_assoc": 38,
+     "unassoc_alerts": 12968,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 50,
+     "unassoc_alerts": 5957,
+     "esc_per_day": 12.51
+    },
+    "P3": {
+     "dismissed_assoc": 38,
+     "unassoc_alerts": 6350,
+     "esc_per_day": 12.72
+    },
+    "CG_minus_P3": [
+     2.44,
+     [
+      1.75,
+      3.14
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.0,
+     [
+      -0.37,
+      0.32
+     ]
+    ]
+   },
+   "CG": {
+    "dismissed_assoc": 98,
+    "unassoc_alerts": 2870,
+    "esc_per_day": 16.21
+   },
+   "CG-D": {
+    "dismissed_assoc": 38,
+    "unassoc_alerts": 3390,
+    "esc_per_day": 18.56
+   },
+   "P2_vs_P3_decisions_differing_at_common_tau": {
+    "7.5": 0,
+    "8.0": 0,
+    "10.5": 0
+   }
+  },
+  "extended II.KURK": {
+   "episodes": 17488,
+   "associated": 1757,
+   "frozen": {
+    "P1t": {
+     "dismissed_assoc": 68,
+     "unassoc_alerts": 13225,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 221,
+     "unassoc_alerts": 5131,
+     "esc_per_day": 11.79
+    },
+    "P3": {
+     "dismissed_assoc": 49,
+     "unassoc_alerts": 7444,
+     "esc_per_day": 12.22
+    },
+    "CG_minus_P3": [
+     10.19,
+     [
+      8.66,
+      11.7
+     ]
+    ],
+    "CGD_minus_P3": [
+     1.2,
+     [
+      0.73,
+      1.72
+     ]
+    ]
+   },
+   "A_full_development": {
+    "P1t": {
+     "dismissed_assoc": 68,
+     "unassoc_alerts": 13225,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 221,
+     "unassoc_alerts": 5131,
+     "esc_per_day": 11.79
+    },
+    "P3": {
+     "dismissed_assoc": 68,
+     "unassoc_alerts": 7091,
+     "esc_per_day": 12.09
+    },
+    "CG_minus_P3": [
+     9.11,
+     [
+      7.62,
+      10.58
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.11,
+     [
+      -0.4,
+      0.62
+     ]
+    ]
+   },
+   "B_cv_median": {
+    "P1t": {
+     "dismissed_assoc": 49,
+     "unassoc_alerts": 13667,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 68,
+     "unassoc_alerts": 7091,
+     "esc_per_day": 12.09
+    },
+    "P3": {
+     "dismissed_assoc": 49,
+     "unassoc_alerts": 7444,
+     "esc_per_day": 12.22
+    },
+    "CG_minus_P3": [
+     10.19,
+     [
+      8.66,
+      11.7
+     ]
+    ],
+    "CGD_minus_P3": [
+     1.2,
+     [
+      0.73,
+      1.72
+     ]
+    ]
+   },
+   "CG": {
+    "dismissed_assoc": 228,
+    "unassoc_alerts": 3511,
+    "esc_per_day": 14.99
+   },
+   "CG-D": {
+    "dismissed_assoc": 70,
+    "unassoc_alerts": 3805,
+    "esc_per_day": 18.98
+   },
+   "P2_vs_P3_decisions_differing_at_common_tau": {
+    "7.5": 0,
+    "8.0": 0,
+    "10.5": 0
+   }
+  },
+  "2024 IU.MAKZ": {
+   "episodes": 12300,
+   "associated": 1238,
+   "frozen": {
+    "P1t": {
+     "dismissed_assoc": 14,
+     "unassoc_alerts": 9300,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 28,
+     "unassoc_alerts": 3380,
+     "esc_per_day": 14.58
+    },
+    "P3": {
+     "dismissed_assoc": 11,
+     "unassoc_alerts": 5619,
+     "esc_per_day": 11.04
+    },
+    "CG_minus_P3": [
+     1.86,
+     [
+      1.12,
+      2.68
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.48,
+     [
+      0.16,
+      0.91
+     ]
+    ]
+   },
+   "A_full_development": {
+    "P1t": {
+     "dismissed_assoc": 14,
+     "unassoc_alerts": 9300,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 28,
+     "unassoc_alerts": 3380,
+     "esc_per_day": 14.58
+    },
+    "P3": {
+     "dismissed_assoc": 14,
+     "unassoc_alerts": 5202,
+     "esc_per_day": 11.58
+    },
+    "CG_minus_P3": [
+     1.62,
+     [
+      0.91,
+      2.41
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.24,
+     [
+      0.0,
+      0.54
+     ]
+    ]
+   },
+   "B_cv_median": {
+    "P1t": {
+     "dismissed_assoc": 11,
+     "unassoc_alerts": 9530,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 14,
+     "unassoc_alerts": 5202,
+     "esc_per_day": 11.58
+    },
+    "P3": {
+     "dismissed_assoc": 11,
+     "unassoc_alerts": 5619,
+     "esc_per_day": 11.04
+    },
+    "CG_minus_P3": [
+     1.86,
+     [
+      1.12,
+      2.68
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.48,
+     [
+      0.16,
+      0.91
+     ]
+    ]
+   },
+   "CG": {
+    "dismissed_assoc": 34,
+    "unassoc_alerts": 1765,
+    "esc_per_day": 18.76
+   },
+   "CG-D": {
+    "dismissed_assoc": 17,
+    "unassoc_alerts": 2507,
+    "esc_per_day": 18.96
+   },
+   "P2_vs_P3_decisions_differing_at_common_tau": {
+    "7.5": 0,
+    "8.0": 0,
+    "10.5": 0
+   }
+  },
+  "2024 II.KURK": {
+   "episodes": 10322,
+   "associated": 947,
+   "frozen": {
+    "P1t": {
+     "dismissed_assoc": 20,
+     "unassoc_alerts": 8482,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 70,
+     "unassoc_alerts": 3131,
+     "esc_per_day": 13.19
+    },
+    "P3": {
+     "dismissed_assoc": 13,
+     "unassoc_alerts": 5235,
+     "esc_per_day": 9.79
+    },
+    "CG_minus_P3": [
+     9.29,
+     [
+      7.43,
+      11.3
+     ]
+    ],
+    "CGD_minus_P3": [
+     1.8,
+     [
+      1.02,
+      2.66
+     ]
+    ]
+   },
+   "A_full_development": {
+    "P1t": {
+     "dismissed_assoc": 20,
+     "unassoc_alerts": 8482,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 70,
+     "unassoc_alerts": 3131,
+     "esc_per_day": 13.19
+    },
+    "P3": {
+     "dismissed_assoc": 20,
+     "unassoc_alerts": 4873,
+     "esc_per_day": 10.45
+    },
+    "CG_minus_P3": [
+     8.55,
+     [
+      6.85,
+      10.4
+     ]
+    ],
+    "CGD_minus_P3": [
+     1.06,
+     [
+      0.44,
+      1.72
+     ]
+    ]
+   },
+   "B_cv_median": {
+    "P1t": {
+     "dismissed_assoc": 13,
+     "unassoc_alerts": 8620,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 20,
+     "unassoc_alerts": 4873,
+     "esc_per_day": 10.45
+    },
+    "P3": {
+     "dismissed_assoc": 13,
+     "unassoc_alerts": 5235,
+     "esc_per_day": 9.79
+    },
+    "CG_minus_P3": [
+     9.29,
+     [
+      7.43,
+      11.3
+     ]
+    ],
+    "CGD_minus_P3": [
+     1.8,
+     [
+      1.02,
+      2.66
+     ]
+    ]
+   },
+   "CG": {
+    "dismissed_assoc": 101,
+    "unassoc_alerts": 1799,
+    "esc_per_day": 16.19
+   },
+   "CG-D": {
+    "dismissed_assoc": 30,
+    "unassoc_alerts": 2015,
+    "esc_per_day": 18.57
+   },
+   "P2_vs_P3_decisions_differing_at_common_tau": {
+    "7.5": 0,
+    "8.0": 0,
+    "10.5": 0
+   }
+  },
+  "KZ network": {
+   "episodes": 15739,
+   "associated": 2250,
+   "frozen": {
+    "P1t": {
+     "dismissed_assoc": 24,
+     "unassoc_alerts": 11104,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 71,
+     "unassoc_alerts": 4262,
+     "esc_per_day": 8.41
+    },
+    "P3": {
+     "dismissed_assoc": 17,
+     "unassoc_alerts": 5541,
+     "esc_per_day": 9.84
+    },
+    "CG_minus_P3": [
+     3.78,
+     [
+      2.99,
+      4.62
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.84,
+     [
+      0.49,
+      1.24
+     ]
+    ]
+   },
+   "A_full_development": {
+    "P1t": {
+     "dismissed_assoc": 24,
+     "unassoc_alerts": 11104,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 71,
+     "unassoc_alerts": 4262,
+     "esc_per_day": 8.41
+    },
+    "P3": {
+     "dismissed_assoc": 24,
+     "unassoc_alerts": 5387,
+     "esc_per_day": 9.4
+    },
+    "CG_minus_P3": [
+     3.47,
+     [
+      2.69,
+      4.25
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.53,
+     [
+      0.26,
+      0.87
+     ]
+    ]
+   },
+   "B_cv_median": {
+    "P1t": {
+     "dismissed_assoc": 17,
+     "unassoc_alerts": 11543,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 24,
+     "unassoc_alerts": 5387,
+     "esc_per_day": 9.4
+    },
+    "P3": {
+     "dismissed_assoc": 17,
+     "unassoc_alerts": 5541,
+     "esc_per_day": 9.84
+    },
+    "CG_minus_P3": [
+     3.78,
+     [
+      2.99,
+      4.62
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.84,
+     [
+      0.49,
+      1.24
+     ]
+    ]
+   },
+   "CG": {
+    "dismissed_assoc": 102,
+    "unassoc_alerts": 2442,
+    "esc_per_day": 10.86
+   },
+   "CG-D": {
+    "dismissed_assoc": 36,
+    "unassoc_alerts": 3037,
+    "esc_per_day": 13.17
+   },
+   "P2_vs_P3_decisions_differing_at_common_tau": {
+    "7.5": 0,
+    "8.0": 0,
+    "10.5": 0
+   }
+  },
+  "AK network": {
+   "episodes": 17126,
+   "associated": 2034,
+   "frozen": {
+    "P1t": {
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 13790,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 18,
+     "unassoc_alerts": 3012,
+     "esc_per_day": 14.56
+    },
+    "P3": {
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 3671,
+     "esc_per_day": 19.92
+    },
+    "CG_minus_P3": [
+     1.47,
+     [
+      0.97,
+      2.04
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.1,
+     [
+      -0.1,
+      0.3
+     ]
+    ]
+   },
+   "A_full_development": {
+    "P1t": {
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 13790,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 18,
+     "unassoc_alerts": 3012,
+     "esc_per_day": 14.56
+    },
+    "P3": {
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 3620,
+     "esc_per_day": 19.16
+    },
+    "CG_minus_P3": [
+     1.38,
+     [
+      0.9,
+      1.91
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.0,
+     [
+      -0.15,
+      0.15
+     ]
+    ]
+   },
+   "B_cv_median": {
+    "P1t": {
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 14254,
+     "esc_per_day": 0.0
+    },
+    "P2": {
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 3620,
+     "esc_per_day": 19.16
+    },
+    "P3": {
+     "dismissed_assoc": 3,
+     "unassoc_alerts": 3671,
+     "esc_per_day": 19.92
+    },
+    "CG_minus_P3": [
+     1.47,
+     [
+      0.97,
+      2.04
+     ]
+    ],
+    "CGD_minus_P3": [
+     0.1,
+     [
+      -0.1,
+      0.3
+     ]
+    ]
+   },
+   "CG": {
+    "dismissed_assoc": 33,
+    "unassoc_alerts": 520,
+    "esc_per_day": 17.77
+   },
+   "CG-D": {
+    "dismissed_assoc": 5,
+    "unassoc_alerts": 768,
+    "esc_per_day": 24.68
+   },
+   "P2_vs_P3_decisions_differing_at_common_tau": {
+    "7.5": 0,
+    "8.0": 0,
+    "10.5": 2
+   }
+  }
+ }
+}

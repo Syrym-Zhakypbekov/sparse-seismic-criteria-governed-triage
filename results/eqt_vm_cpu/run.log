@@ -1,0 +1,95 @@
+Downloading:   0%|          | 0.00/1.52M [00:00<?, ?B/s]Downloading:   1%|          | 16.0k/1.52M [00:00<00:10, 149kB/s]Downloading:   6%|▌         | 97.0k/1.52M [00:00<00:03, 494kB/s]Downloading:  14%|█▍        | 225k/1.52M [00:00<00:01, 793kB/s] Downloading:  31%|███       | 481k/1.52M [00:00<00:00, 1.39MB/s]Downloading:  65%|██████▍   | 0.98M/1.52M [00:00<00:00, 2.60MB/s]Downloading: 100%|██████████| 1.52M/1.52M [00:00<00:00, 2.78MB/s]
+seisbench model loaded on cpu
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+0 3000 1 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+100 3000 49 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+200 3000 88 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+300 3000 131 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+400 3000 173 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+500 3000 214 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+600 3000 255 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+700 3000 295 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+800 3000 334 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+900 3000 372 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1000 3000 408 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1100 3000 447 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1200 3000 482 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1300 3000 520 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1400 3000 558 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1500 3000 595 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1600 3000 640 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1700 3000 686 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1800 3000 727 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+1900 3000 768 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2000 3000 808 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2100 3000 848 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2200 3000 886 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2300 3000 924 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2400 3000 965 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2500 3000 1003 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2600 3000 1045 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2700 3000 1084 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2800 3000 1122 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+2900 3000 1161 s
+/opt/p10/lib/python3.11/site-packages/obspy/signal/filter.py:87: UserWarning: Selected high corner frequency (45) of bandpass is at or above Nyquist (20.0). Applying a high-pass instead.
+  warnings.warn(msg)
+done 3000 errors 0 device cpu seconds 1197

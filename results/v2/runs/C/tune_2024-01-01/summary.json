@@ -1,0 +1,68 @@
+{
+ "version": "v3",
+ "dev_days": 1,
+ "thresholds_q99.9": {
+  "MAKZ": 8.9546977509117,
+  "S1_1": NaN,
+  "S2_1": NaN,
+  "S3_1": 15.822349065952196
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "C.GO02..BHZ"
+  ],
+  "S3_1": [
+   "C.GO01..BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 10,
+  "S1_1": 0,
+  "S2_1": 0,
+  "S3_1": 35
+ },
+ "ref_episodes_per_day": 10.0,
+ "catalog_failures": [],
+ "fetch_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 0,
+ "catalog": {
+  "regional": 18,
+  "tele": 1
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2024-01-01T00:00:00.000000Z",
+   "2024-01-08T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2024-01-08T00:00:00.000000Z",
+   "2024-01-09T00:00:00.000000Z"
+  ]
+ }
+}

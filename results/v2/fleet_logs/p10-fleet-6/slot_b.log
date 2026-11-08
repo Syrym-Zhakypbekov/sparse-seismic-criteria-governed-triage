@@ -1,0 +1,23 @@
+2026-11-07T19:21:19Z C plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T19:22:54Z C tune attempt 1: rc=0 95s summary=True fetch_fail=0 cat_fail=[]
+Traceback (most recent call last):
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 185, in <module>
+    n = Net(sys.argv[1]); n.run(dry="--dry" in sys.argv)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 167, in run
+    thr = self.thresholds(tdir)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 156, in thresholds
+    d = {k: float(v) for k, v in re.findall(r"'(\w+)': (?:np\.float64\()?([-\d.einf]+|nan)", line[-1])}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 156, in <dictcomp>
+    d = {k: float(v) for k, v in re.findall(r"'(\w+)': (?:np\.float64\()?([-\d.einf]+|nan)", line[-1])}
+            ^^^^^^^^
+ValueError: could not convert string to float: 'n'
+2026-11-07T19:22:54Z LD plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T19:25:24Z LD tune attempt 1: rc=0 150s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T19:25:24Z LD thresholds {'MAKZ': 2.211995435716881, 'S1_1': 4.411936602246827, 'S1_2': 3.751031959067581, 'S2_1': 3.9326199231983163, 'S2_2': 4.444444712657771, 'S3_1': 8.754958565736617}
+2026-11-07T20:11:16Z LD out_2024-04-08 attempt 1: rc=0 2691s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:12:26Z LD out_2024-01-08 attempt 1: rc=0 2822s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T20:18:21Z LD out_2024-01-08 attempt 2: rc=0 325s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:18:21Z LD FINISHED state=done

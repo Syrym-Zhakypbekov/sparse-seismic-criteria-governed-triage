@@ -1,0 +1,66 @@
+{
+ "retrieved_utc": "2026-11-07T17:45:35Z",
+ "source": "GitHub REST API repos/{owner}/{repo}/activity (server-side push log)",
+ "records": [
+  {
+   "id": 49382601964,
+   "node_id": "PSH_kwLOVmC-x88AAAALf2607A",
+   "before": "9d8d3a463f99b49b25eb3928dece481913b6946a",
+   "after": "4c04855c93dcded6b53be1294be17f8c54b47bb3",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-11-07T17:36:41Z",
+   "activity_type": "push",
+   "actor": {
+    "login": "Syrym-Zhakypbekov",
+    "id": 43728607,
+    "node_id": "MDQ6VXNlcjQzNzI4NjA3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/43728607?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Syrym-Zhakypbekov",
+    "html_url": "https://github.com/Syrym-Zhakypbekov",
+    "followers_url": "https://api.github.com/users/Syrym-Zhakypbekov/followers",
+    "following_url": "https://api.github.com/users/Syrym-Zhakypbekov/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Syrym-Zhakypbekov/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Syrym-Zhakypbekov/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Syrym-Zhakypbekov/subscriptions",
+    "organizations_url": "https://api.github.com/users/Syrym-Zhakypbekov/orgs",
+    "repos_url": "https://api.github.com/users/Syrym-Zhakypbekov/repos",
+    "events_url": "https://api.github.com/users/Syrym-Zhakypbekov/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Syrym-Zhakypbekov/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+   }
+  },
+  {
+   "id": 49378752615,
+   "node_id": "PSH_kwLOVmC-x88AAAALfzP4Zw",
+   "before": "e235eb987f7f406c82bae8502b2c6a5e14487398",
+   "after": "6825835475650e93e446b0596ff68735e3fc8349",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-11-07T16:46:31Z",
+   "activity_type": "push",
+   "actor": {
+    "login": "Syrym-Zhakypbekov",
+    "id": 43728607,
+    "node_id": "MDQ6VXNlcjQzNzI4NjA3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/43728607?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Syrym-Zhakypbekov",
+    "html_url": "https://github.com/Syrym-Zhakypbekov",
+    "followers_url": "https://api.github.com/users/Syrym-Zhakypbekov/followers",
+    "following_url": "https://api.github.com/users/Syrym-Zhakypbekov/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Syrym-Zhakypbekov/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Syrym-Zhakypbekov/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Syrym-Zhakypbekov/subscriptions",
+    "organizations_url": "https://api.github.com/users/Syrym-Zhakypbekov/orgs",
+    "repos_url": "https://api.github.com/users/Syrym-Zhakypbekov/repos",
+    "events_url": "https://api.github.com/users/Syrym-Zhakypbekov/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Syrym-Zhakypbekov/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+   }
+  }
+ ]
+}

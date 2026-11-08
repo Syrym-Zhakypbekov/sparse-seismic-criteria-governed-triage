@@ -1,0 +1,129 @@
+{
+ "network": "C0",
+ "config_file": "results\\v2\\networks_batchB.json",
+ "host": "prime",
+ "platform": "laptop",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "C0",
+   "Q24A",
+   "00",
+   "HHZ",
+   38.9641,
+   -105.1492
+  ],
+  "S1_1": [
+   "C0",
+   "CHIL",
+   "00",
+   "HHZ",
+   40.446466,
+   -104.638217
+  ],
+  "S2_1": [
+   "C0",
+   "MCSU",
+   "00",
+   "HHZ",
+   40.568455,
+   -105.587774
+  ],
+  "S2_2": [
+   "C0",
+   "N23A",
+   "00",
+   "HHZ",
+   40.8947,
+   -105.944
+  ],
+  "S3_1": [
+   "C0",
+   "SPVA",
+   "00",
+   "HHZ",
+   39.472632,
+   -107.223353
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 1,
+     "seconds": 217,
+     "end_utc": "2026-11-07T20:18:01Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 2800,
+     "end_utc": "2026-11-07T21:04:41Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 3248,
+     "end_utc": "2026-11-07T21:13:09Z",
+     "summary": true,
+     "fetch_failures": 2,
+     "catalog_failures": []
+    },
+    {
+     "attempt": 2,
+     "rc": 0,
+     "seconds": 710,
+     "end_utc": "2026-11-07T21:25:29Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:14:24Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 5.752928617003533,
+  "S1_1": 7.737510824498093,
+  "S2_1": 12.05300626339135,
+  "S2_2": 11.606469448313485,
+  "S3_1": 6.551437451196002
+ },
+ "finished_utc": "2026-11-07T21:25:29Z"
+}

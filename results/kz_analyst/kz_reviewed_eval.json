@@ -1,0 +1,504 @@
+{
+ "preregistration": "PREREGISTRATION_KZ_ANALYST_LABELS_2026-11-08.md (7ee7f5c)",
+ "cutoff_utc": "2024-11-01",
+ "runs": {
+  "K-MAKZ_L1": {
+   "label": "L1",
+   "chunks": [
+    "out24_MAKZ_2024-01-01",
+    "out24_MAKZ_2024-04-01",
+    "out24_MAKZ_2024-07-01",
+    "out24_MAKZ_2024-10-01"
+   ],
+   "episodes": 10958,
+   "assoc_catalogue": 1056,
+   "assoc_label": 628,
+   "rows": 12519,
+   "rows_labelled": 1328,
+   "agreement_min": 1.0,
+   "calendar_days": 305,
+   "outage_days": 0,
+   "exercised": true,
+   "KR1_CG": {
+    "diff_pp": 1.27,
+    "ci95_pp": [
+     0.49,
+     2.25
+    ],
+    "holds": true
+   },
+   "KR2_CGD": {
+    "diff_pp": 0.64,
+    "ci95_pp": [
+     0.15,
+     1.31
+    ],
+    "holds": true,
+    "calendar_ci95_pp": [
+     0.15,
+     1.38
+    ]
+   },
+   "KR3_CGc05": {
+    "diff_pp": 0.64,
+    "ci95_pp": [
+     0.15,
+     1.31
+    ],
+    "holds": true,
+    "dismissed": 7,
+    "P3_dismissed": 3
+   },
+   "CG_selfcheck_reimplemented": {
+    "diff_pp": 1.27,
+    "ci95_pp": [
+     0.49,
+     2.25
+    ],
+    "holds": true,
+    "dismissed": 11,
+    "P3_dismissed": 3
+   },
+   "KR4_outage": {
+    "CG": 0,
+    "P1": 0,
+    "assoc": 0,
+    "exercised": false,
+    "holds": null
+   },
+   "unassoc_alerts": {
+    "CG": 1704,
+    "CG-D": 2441,
+    "P3": 5344,
+    "P1t": 8762
+   },
+   "esc_per_day": {
+    "CG": 20.18,
+    "CG-D": 20.51,
+    "P3": 12.09
+   },
+   "chance_control": {
+    "chance_associated_mean": 10.31,
+    "label_associated": 628,
+    "chance_CG_minus_P3_excess_mean": 1.11,
+    "real_CG_minus_P3_excess": 8,
+    "chance_corrected_CG_minus_P3_pp": 1.12
+   }
+  },
+  "K-KURK_L1": {
+   "label": "L1",
+   "chunks": [
+    "out24_KURK_2024-01-01",
+    "out24_KURK_2024-04-01",
+    "out24_KURK_2024-07-01",
+    "out24_KURK_2024-10-01"
+   ],
+   "episodes": 8851,
+   "assoc_catalogue": 800,
+   "assoc_label": 306,
+   "rows": 12224,
+   "rows_labelled": 1001,
+   "agreement_min": 1.0,
+   "calendar_days": 305,
+   "outage_days": 0,
+   "exercised": true,
+   "KR1_CG": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "holds": true
+   },
+   "KR2_CGD": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "holds": true,
+    "calendar_ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "KR3_CGc05": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "holds": true,
+    "dismissed": 0,
+    "P3_dismissed": 0
+   },
+   "CG_selfcheck_reimplemented": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "holds": true,
+    "dismissed": 0,
+    "P3_dismissed": 0
+   },
+   "KR4_outage": {
+    "CG": 0,
+    "P1": 0,
+    "assoc": 0,
+    "exercised": false,
+    "holds": null
+   },
+   "unassoc_alerts": {
+    "CG": 1657,
+    "CG-D": 1845,
+    "P3": 4865,
+    "P1t": 7784
+   },
+   "esc_per_day": {
+    "CG": 16.95,
+    "CG-D": 19.19,
+    "P3": 9.97
+   },
+   "chance_control": {
+    "chance_associated_mean": 7.51,
+    "label_associated": 306,
+    "chance_CG_minus_P3_excess_mean": 0.97,
+    "real_CG_minus_P3_excess": 0,
+    "chance_corrected_CG_minus_P3_pp": -0.32
+   }
+  },
+  "K-KZ_L1": {
+   "label": "L1",
+   "chunks": [
+    "outKZ_2024-01-08",
+    "outKZ_2024-04-01",
+    "outKZ_2024-07-01",
+    "outKZ_2024-10-01"
+   ],
+   "episodes": 6844,
+   "assoc_catalogue": 887,
+   "assoc_label": 549,
+   "rows": 12343,
+   "rows_labelled": 1302,
+   "agreement_min": 1.0,
+   "calendar_days": 298,
+   "outage_days": 2,
+   "exercised": true,
+   "KR1_CG": {
+    "diff_pp": 3.1,
+    "ci95_pp": [
+     1.72,
+     4.65
+    ],
+    "holds": false
+   },
+   "KR2_CGD": {
+    "diff_pp": 0.91,
+    "ci95_pp": [
+     0.19,
+     1.8
+    ],
+    "holds": true,
+    "calendar_ci95_pp": [
+     0.19,
+     1.79
+    ]
+   },
+   "KR3_CGc05": {
+    "diff_pp": 0.91,
+    "ci95_pp": [
+     0.19,
+     1.8
+    ],
+    "holds": true,
+    "dismissed": 6,
+    "P3_dismissed": 1
+   },
+   "CG_selfcheck_reimplemented": {
+    "diff_pp": 3.1,
+    "ci95_pp": [
+     1.72,
+     4.65
+    ],
+    "holds": false,
+    "dismissed": 18,
+    "P3_dismissed": 1
+   },
+   "KR4_outage": {
+    "CG": 0,
+    "P1": 0,
+    "assoc": 0,
+    "exercised": false,
+    "holds": null
+   },
+   "unassoc_alerts": {
+    "CG": 1357,
+    "CG-D": 1702,
+    "P3": 3025,
+    "P1t": 5197
+   },
+   "esc_per_day": {
+    "CG": 9.24,
+    "CG-D": 11.36,
+    "P3": 8.15
+   },
+   "chance_control": {
+    "chance_associated_mean": 6.49,
+    "label_associated": 549,
+    "chance_CG_minus_P3_excess_mean": 1.22,
+    "real_CG_minus_P3_excess": 17,
+    "chance_corrected_CG_minus_P3_pp": 2.91
+   }
+  },
+  "K-MAKZ_L2": {
+   "label": "L2",
+   "chunks": [
+    "out24_MAKZ_2024-01-01",
+    "out24_MAKZ_2024-04-01",
+    "out24_MAKZ_2024-07-01",
+    "out24_MAKZ_2024-10-01"
+   ],
+   "episodes": 10958,
+   "assoc_catalogue": 1056,
+   "assoc_label": 248,
+   "rows": 12519,
+   "rows_labelled": 1880,
+   "agreement_min": 1.0,
+   "calendar_days": 305,
+   "outage_days": 0,
+   "exercised": true,
+   "KR1_CG": {
+    "diff_pp": 1.61,
+    "ci95_pp": [
+     0.37,
+     3.42
+    ],
+    "holds": false
+   },
+   "KR2_CGD": {
+    "diff_pp": 0.4,
+    "ci95_pp": [
+     0.0,
+     1.3
+    ],
+    "holds": true,
+    "calendar_ci95_pp": [
+     0.0,
+     1.29
+    ]
+   },
+   "KR3_CGc05": {
+    "diff_pp": 0.4,
+    "ci95_pp": [
+     0.0,
+     1.3
+    ],
+    "holds": true,
+    "dismissed": 3,
+    "P3_dismissed": 2
+   },
+   "CG_selfcheck_reimplemented": {
+    "diff_pp": 1.61,
+    "ci95_pp": [
+     0.37,
+     3.42
+    ],
+    "holds": false,
+    "dismissed": 6,
+    "P3_dismissed": 2
+   },
+   "KR4_outage": {
+    "CG": 0,
+    "P1": 0,
+    "assoc": 0,
+    "exercised": false,
+    "holds": null
+   },
+   "unassoc_alerts": {
+    "CG": 2098,
+    "CG-D": 2825,
+    "P3": 5722,
+    "P1t": 9139
+   },
+   "esc_per_day": {
+    "CG": 20.18,
+    "CG-D": 20.51,
+    "P3": 12.09
+   },
+   "chance_control": {
+    "chance_associated_mean": 14.58,
+    "label_associated": 248,
+    "chance_CG_minus_P3_excess_mean": 1.53,
+    "real_CG_minus_P3_excess": 4,
+    "chance_corrected_CG_minus_P3_pp": 1.06
+   }
+  },
+  "K-KURK_L2": {
+   "label": "L2",
+   "chunks": [
+    "out24_KURK_2024-01-01",
+    "out24_KURK_2024-04-01",
+    "out24_KURK_2024-07-01",
+    "out24_KURK_2024-10-01"
+   ],
+   "episodes": 8851,
+   "assoc_catalogue": 800,
+   "assoc_label": 323,
+   "rows": 12224,
+   "rows_labelled": 1808,
+   "agreement_min": 1.0,
+   "calendar_days": 305,
+   "outage_days": 0,
+   "exercised": true,
+   "KR1_CG": {
+    "diff_pp": 16.1,
+    "ci95_pp": [
+     12.19,
+     20.4
+    ],
+    "holds": false
+   },
+   "KR2_CGD": {
+    "diff_pp": 3.1,
+    "ci95_pp": [
+     1.34,
+     5.08
+    ],
+    "holds": false,
+    "calendar_ci95_pp": [
+     1.34,
+     5.08
+    ]
+   },
+   "KR3_CGc05": {
+    "diff_pp": 3.1,
+    "ci95_pp": [
+     1.34,
+     5.08
+    ],
+    "holds": false,
+    "dismissed": 14,
+    "P3_dismissed": 4
+   },
+   "CG_selfcheck_reimplemented": {
+    "diff_pp": 16.1,
+    "ci95_pp": [
+     12.19,
+     20.4
+    ],
+    "holds": false,
+    "dismissed": 56,
+    "P3_dismissed": 4
+   },
+   "KR4_outage": {
+    "CG": 0,
+    "P1": 0,
+    "assoc": 0,
+    "exercised": false,
+    "holds": null
+   },
+   "unassoc_alerts": {
+    "CG": 1885,
+    "CG-D": 2066,
+    "P3": 4961,
+    "P1t": 7775
+   },
+   "esc_per_day": {
+    "CG": 16.95,
+    "CG-D": 19.19,
+    "P3": 9.97
+   },
+   "chance_control": {
+    "chance_associated_mean": 12.11,
+    "label_associated": 323,
+    "chance_CG_minus_P3_excess_mean": 1.32,
+    "real_CG_minus_P3_excess": 52,
+    "chance_corrected_CG_minus_P3_pp": 16.3
+   }
+  },
+  "K-KZ_L2": {
+   "label": "L2",
+   "chunks": [
+    "outKZ_2024-01-08",
+    "outKZ_2024-04-01",
+    "outKZ_2024-07-01",
+    "outKZ_2024-10-01"
+   ],
+   "episodes": 6844,
+   "assoc_catalogue": 887,
+   "assoc_label": 191,
+   "rows": 12343,
+   "rows_labelled": 1822,
+   "agreement_min": 1.0,
+   "calendar_days": 298,
+   "outage_days": 2,
+   "exercised": true,
+   "KR1_CG": {
+    "diff_pp": 1.57,
+    "ci95_pp": [
+     0.0,
+     3.41
+    ],
+    "holds": false
+   },
+   "KR2_CGD": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "holds": true,
+    "calendar_ci95_pp": [
+     0.0,
+     0.0
+    ]
+   },
+   "KR3_CGc05": {
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     0.0,
+     0.0
+    ],
+    "holds": true,
+    "dismissed": 1,
+    "P3_dismissed": 1
+   },
+   "CG_selfcheck_reimplemented": {
+    "diff_pp": 1.57,
+    "ci95_pp": [
+     0.0,
+     3.41
+    ],
+    "holds": false,
+    "dismissed": 4,
+    "P3_dismissed": 1
+   },
+   "KR4_outage": {
+    "CG": 0,
+    "P1": 0,
+    "assoc": 0,
+    "exercised": false,
+    "holds": null
+   },
+   "unassoc_alerts": {
+    "CG": 1716,
+    "CG-D": 2052,
+    "P3": 3363,
+    "P1t": 5552
+   },
+   "esc_per_day": {
+    "CG": 9.24,
+    "CG-D": 11.36,
+    "P3": 8.15
+   },
+   "chance_control": {
+    "chance_associated_mean": 9.27,
+    "label_associated": 191,
+    "chance_CG_minus_P3_excess_mean": 1.66,
+    "real_CG_minus_P3_excess": 3,
+    "chance_corrected_CG_minus_P3_pp": 0.74
+   }
+  }
+ }
+}

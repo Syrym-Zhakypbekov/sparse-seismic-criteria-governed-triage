@@ -1,0 +1,203 @@
+{
+ "status": "post hoc, descriptive",
+ "MAKZ": {
+  "neighbours": {
+   "MK31": {
+    "distance_km": 24.0,
+    "assoc_valid": 2288,
+    "no_share": 0.141,
+    "by_snr_bin": {
+     "<5": {
+      "n": 12,
+      "no_share": 0.417
+     },
+     "5-10": {
+      "n": 411,
+      "no_share": 0.392
+     },
+     "10-15": {
+      "n": 696,
+      "no_share": 0.175
+     },
+     "15-20": {
+      "n": 413,
+      "no_share": 0.073
+     },
+     ">=20": {
+      "n": 753,
+      "no_share": 0.007
+     }
+    }
+   },
+   "KURK": {
+    "distance_km": 499.6,
+    "assoc_valid": 2455,
+    "no_share": 0.599,
+    "by_snr_bin": {
+     "<5": {
+      "n": 13,
+      "no_share": 1.0
+     },
+     "5-10": {
+      "n": 448,
+      "no_share": 0.786
+     },
+     "10-15": {
+      "n": 742,
+      "no_share": 0.782
+     },
+     "15-20": {
+      "n": 443,
+      "no_share": 0.632
+     },
+     ">=20": {
+      "n": 806,
+      "no_share": 0.301
+     }
+    }
+   },
+   "WUS": {
+    "distance_km": 661.1,
+    "assoc_valid": 1543,
+    "no_share": 0.271,
+    "by_snr_bin": {
+     "<5": {
+      "n": 9,
+      "no_share": 0.111
+     },
+     "5-10": {
+      "n": 272,
+      "no_share": 0.438
+     },
+     "10-15": {
+      "n": 474,
+      "no_share": 0.359
+     },
+     "15-20": {
+      "n": 280,
+      "no_share": 0.261
+     },
+     ">=20": {
+      "n": 505,
+      "no_share": 0.109
+     }
+    }
+   }
+  },
+  "excess_dismissals": 62,
+  "excess_with_NO_from": {
+   "MK31": 62,
+   "KURK": 62,
+   "WUS": 26
+  },
+  "excess_only_far_NO_gt_400km": 0,
+  "excess_with_near_NO_le_400km": 62,
+  "excess_ref_snr_bins": {
+   "<5": 0,
+   "5-10": 45,
+   "10-15": 17,
+   "15-20": 0,
+   ">=20": 0
+  }
+ },
+ "KURK": {
+  "neighbours": {
+   "MAKZ": {
+    "distance_km": 499.6,
+    "assoc_valid": 1698,
+    "no_share": 0.506,
+    "by_snr_bin": {
+     "<5": {
+      "n": 6,
+      "no_share": 0.833
+     },
+     "5-10": {
+      "n": 413,
+      "no_share": 0.765
+     },
+     "10-15": {
+      "n": 527,
+      "no_share": 0.639
+     },
+     "15-20": {
+      "n": 264,
+      "no_share": 0.492
+     },
+     ">=20": {
+      "n": 488,
+      "no_share": 0.148
+     }
+    }
+   },
+   "MK31": {
+    "distance_km": 512.7,
+    "assoc_valid": 1672,
+    "no_share": 0.37,
+    "by_snr_bin": {
+     "<5": {
+      "n": 6,
+      "no_share": 0.833
+     },
+     "5-10": {
+      "n": 407,
+      "no_share": 0.646
+     },
+     "10-15": {
+      "n": 515,
+      "no_share": 0.491
+     },
+     "15-20": {
+      "n": 261,
+      "no_share": 0.299
+     },
+     ">=20": {
+      "n": 483,
+      "no_share": 0.039
+     }
+    }
+   },
+   "WUS": {
+    "distance_km": 1058.6,
+    "assoc_valid": 1128,
+    "no_share": 0.369,
+    "by_snr_bin": {
+     "<5": {
+      "n": 5,
+      "no_share": 0.2
+     },
+     "5-10": {
+      "n": 276,
+      "no_share": 0.5
+     },
+     "10-15": {
+      "n": 348,
+      "no_share": 0.483
+     },
+     "15-20": {
+      "n": 173,
+      "no_share": 0.358
+     },
+     ">=20": {
+      "n": 326,
+      "no_share": 0.144
+     }
+    }
+   }
+  },
+  "excess_dismissals": 180,
+  "excess_with_NO_from": {
+   "MAKZ": 179,
+   "MK31": 180,
+   "WUS": 115
+  },
+  "excess_only_far_NO_gt_400km": 180,
+  "excess_with_near_NO_le_400km": 0,
+  "excess_ref_snr_bins": {
+   "<5": 0,
+   "5-10": 124,
+   "10-15": 56,
+   "15-20": 0,
+   ">=20": 0
+  }
+ }
+}

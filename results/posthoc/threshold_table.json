@@ -1,0 +1,731 @@
+[
+ {
+  "pattern": "Y/Y/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 0.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 0.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 0.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/Y/N",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 11.25,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.88,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.88,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/Y/M",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 4.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 4.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 4.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/N/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 15.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 10.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 9.15,
+   "dismiss_all_below": true,
+   "alert_all_above": false
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/N/N",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 26.25,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 18.38,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 22.08,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/N/M",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 19.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 15.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 14.66,
+   "dismiss_all_below": true,
+   "alert_all_above": false
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/M/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 6.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 6.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 6.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/M/N",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 17.25,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 13.88,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 15.01,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "Y/M/M",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 10.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 10.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 10.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/Y/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 18.75,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 13.13,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 17.96,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/Y/N",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 30.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 21.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 26.38,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/Y/M",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 23.25,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 17.63,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 23.01,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/N/Y",
+  "CG": {
+   "dismiss_max_db": 0.75,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 23.63,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/N/N",
+  "CG": {
+   "dismiss_max_db": 11.99,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 8.39,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 8.54,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/N/M",
+  "CG": {
+   "dismiss_max_db": 10.2,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 7.5,
+   "alert_min_db": 28.13,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 7.64,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/M/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 24.75,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 19.13,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 24.51,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/M/N",
+  "CG": {
+   "dismiss_max_db": 9.6,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 7.2,
+   "alert_min_db": 27.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 7.7,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "N/M/M",
+  "CG": {
+   "dismiss_max_db": 7.8,
+   "alert_min_db": 29.25,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 6.3,
+   "alert_min_db": 23.63,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 6.8,
+   "alert_min_db": 29.01,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/Y/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/Y/N",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 18.75,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 15.38,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 16.51,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/Y/M",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 12.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 12.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 12.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/N/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 22.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 18.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 19.51,
+   "dismiss_all_below": true,
+   "alert_all_above": false
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/N/N",
+  "CG": {
+   "dismiss_max_db": 9.0,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 6.89,
+   "alert_min_db": 25.88,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 6.54,
+   "alert_min_db": 29.58,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/N/M",
+  "CG": {
+   "dismiss_max_db": 7.2,
+   "alert_min_db": 27.0,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 5.99,
+   "alert_min_db": 22.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 5.64,
+   "alert_min_db": 26.2,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/M/Y",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": 13.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": 13.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": 13.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": null,
+   "alert_min_db": 7.5,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/M/N",
+  "CG": {
+   "dismiss_max_db": 6.6,
+   "alert_min_db": 24.75,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": 5.7,
+   "alert_min_db": 21.38,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": 5.7,
+   "alert_min_db": 21.38,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ },
+ {
+  "pattern": "M/M/M",
+  "CG": {
+   "dismiss_max_db": null,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG_c05": {
+   "dismiss_max_db": null,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "CG-D": {
+   "dismiss_max_db": null,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  },
+  "P3": {
+   "dismiss_max_db": 7.49,
+   "alert_min_db": null,
+   "dismiss_all_below": true,
+   "alert_all_above": true
+  }
+ }
+]

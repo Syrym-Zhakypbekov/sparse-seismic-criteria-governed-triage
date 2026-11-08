@@ -1,0 +1,13 @@
+period,assoc,action,n,eqt,phasenet
+dev,False,ALERT,216,92,111
+dev,False,DISMISS,369,47,30
+dev,False,ESCALATE,351,123,90
+dev,True,ALERT,93,47,53
+dev,True,DISMISS,7,0,0
+dev,True,ESCALATE,41,14,24
+heldout,False,ALERT,93,30,45
+heldout,False,DISMISS,68,8,8
+heldout,False,ESCALATE,99,39,31
+heldout,True,ALERT,43,17,26
+heldout,True,DISMISS,2,1,1
+heldout,True,ESCALATE,12,2,4

@@ -1,0 +1,97 @@
+{
+ "network": "PL_EXT12B",
+ "config_file": "results/v2/networks_ext12B.json",
+ "host": "p10-seismic",
+ "platform": "p10-seismic-xb_a",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "PL",
+   "KSP",
+   "",
+   "BHZ",
+   50.8428,
+   16.2931
+  ],
+  "S1_1": [
+   "PL",
+   "OJC",
+   "",
+   "BHZ",
+   50.219501,
+   19.798401
+  ],
+  "S2_1": [
+   "PL",
+   "GKP",
+   "",
+   "BHZ",
+   53.269699,
+   17.2367
+  ],
+  "S3_1": [
+   "PL",
+   "NIE",
+   "",
+   "BHZ",
+   49.4189,
+   20.313101
+  ]
+ },
+ "tune": "none (frozen batch-A)",
+ "eval": [
+  "2024-07-08",
+  "2025-01-08"
+ ],
+ "chunks": {
+  "out_2024-07-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1093,
+     "end_utc": "2026-11-08T07:31:32Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-10-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1079,
+     "end_utc": "2026-11-08T07:32:18Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-08T07:13:19Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-07-08",
+   "2024-10-08"
+  ],
+  [
+   "2024-10-08",
+   "2025-01-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 5.004907948648306,
+  "S1_1": 9.36826977566829,
+  "S2_1": 6.035676415561358,
+  "S3_1": 6.601467133180756
+ },
+ "thresholds_source": "results/v2/runs/PL/status.json",
+ "finished_utc": "2026-11-08T07:32:18Z"
+}

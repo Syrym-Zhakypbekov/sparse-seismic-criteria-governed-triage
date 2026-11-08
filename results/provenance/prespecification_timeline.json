@@ -1,0 +1,135 @@
+{
+ "source": "GitHub repository activity API, server timestamps",
+ "force_pushes": [
+  [
+   "2026-11-07T10:22:43Z",
+   "1050f3c"
+  ],
+  {
+   "plan": "PREREGISTRATION_AK_NETWORK.md",
+   "plan_commit": "6825835",
+   "plan_push_utc_host": "2026-11-07T16:46:31Z",
+   "runs": {
+    "run_script_launch_utc (authors' machine, not host)": "2026-11-07T16:47:07Z"
+   },
+   "results_commit": "4c04855",
+   "results_push_utc_host": "2026-11-07T17:36:41Z",
+   "source": "results/provenance/ak_host_activity.json (added 08.11.2026, review R17)"
+  }
+ ],
+ "rows": [
+  {
+   "document": "PREREGISTRATION (held-out)",
+   "commit": "cc0b46f",
+   "github_push_utc": "2026-11-07T10:17:29Z",
+   "runs": {
+    "heldout_kaggle_version_created": {
+     "time": "2026-11-07T10:17:40Z",
+     "seconds_after_push": 11
+    }
+   }
+  },
+  {
+   "document": "PREREGISTRATION_EXTENDED",
+   "commit": "84e93ce",
+   "github_push_utc": "2026-11-07T11:38:16Z",
+   "runs": {
+    "extended_MAKZ_vm_created": {
+     "time": "2026-11-07T11:38:46Z",
+     "seconds_after_push": 30
+    },
+    "extended_MAKZ_kaggle_2026h1_version_created": {
+     "time": "2026-11-07T11:39:11Z",
+     "seconds_after_push": 55
+    }
+   }
+  },
+  {
+   "document": "PREREGISTRATION_KURK_EXTENDED",
+   "commit": "a53686d",
+   "github_push_utc": "2026-11-07T12:09:20Z",
+   "runs": {
+    "kurk_extended_first_chunk": {
+     "time": "2026-11-07T12:09:47Z",
+     "seconds_after_push": 27
+    }
+   }
+  },
+  {
+   "document": "ANALYSIS_PLAN_NNC",
+   "commit": "9ad4cc0",
+   "github_push_utc": "2026-11-07T12:26:36Z",
+   "runs": {}
+  },
+  {
+   "document": "PREREGISTRATION_BLAST",
+   "commit": "3f77906",
+   "github_push_utc": "2026-11-07T13:14:11Z",
+   "runs": {
+    "blast_features": {
+     "time": "2026-11-07T13:15:56Z",
+     "seconds_after_push": 105
+    }
+   }
+  },
+  {
+   "document": "PREREGISTRATION_DETECTABILITY_2024",
+   "commit": "3853469",
+   "github_push_utc": "2026-11-07T13:23:24Z",
+   "runs": {
+    "y2024_MAKZ_first_chunk": {
+     "time": "2026-11-07T13:23:53Z",
+     "seconds_after_push": 29
+    },
+    "y2024_KURK_first_chunk": {
+     "time": "2026-11-07T13:26:50Z",
+     "seconds_after_push": 206
+    }
+   }
+  },
+  {
+   "document": "CG-D scorer 3e0f2f3 (D1-D4 computation)",
+   "commit": "3e0f2f3",
+   "github_push_utc": "2026-11-07T13:34:03Z",
+   "runs": {
+    "y2024_MAKZ_last_file": {
+     "time": "2026-11-07T13:33:26Z",
+     "seconds_after_push": -37
+    },
+    "y2024_KURK_last_file": {
+     "time": "2026-11-07T13:36:40Z",
+     "seconds_after_push": 157
+    }
+   }
+  },
+  {
+   "document": "CG-D scorer 133d6f1 (adds KZ scorer, NI_CG, ALLMISSING; D1-D4 unchanged)",
+   "commit": "133d6f1",
+   "github_push_utc": "2026-11-07T13:36:24Z",
+   "runs": {
+    "y2024_KURK_last_file": {
+     "time": "2026-11-07T13:36:40Z",
+     "seconds_after_push": 16
+    }
+   }
+  },
+  {
+   "document": "PREREGISTRATION_KZ_NETWORK",
+   "commit": "f947bfa",
+   "github_push_utc": "2026-11-07T13:34:58Z",
+   "runs": {
+    "kz_tuning_first_file": {
+     "time": "2026-11-07T14:03:32Z",
+     "seconds_after_push": 1714
+    }
+   }
+  },
+  {
+   "document": "PREREGISTRATION_LEARNED_CRITERION",
+   "commit": "d11004c",
+   "github_push_utc": "2026-11-07T13:40:26Z",
+   "runs": {}
+  }
+ ],
+ "plan_after_run": []
+}

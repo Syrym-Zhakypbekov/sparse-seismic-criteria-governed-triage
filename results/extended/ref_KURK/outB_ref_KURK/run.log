@@ -1,0 +1,165 @@
+thresholds {'MAKZ': 7.010976992583281, 'MK31': 7.384667866501045, 'KURK': 6.796057548188755, 'WUS': 3.4907107357963656}
+{'day': '2026-07-08', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0112}
+{'day': '2026-07-09', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0024}
+{'day': '2026-07-10', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0051}
+{'day': '2026-07-11', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0115}
+{'day': '2026-07-12', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0024}
+{'day': '2026-07-13', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0149}
+{'day': '2026-07-14', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0217}
+{'day': '2026-07-15', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0061}
+{'day': '2026-07-16', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0131}
+{'day': '2026-07-17', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0038}
+{'day': '2026-07-18', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0161}
+{'day': '2026-07-19', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0004}
+{'day': '2026-07-20', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0018}
+{'day': '2026-07-21', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0126}
+{'day': '2026-07-22', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0052}
+{'day': '2026-07-23', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0119}
+{'day': '2026-07-24', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0268}
+/opt/p10/lib/python3.11/site-packages/obspy/io/mseed/core.py:1096: UserWarning: File will be written with more than one different record lengths.
+This might have a negative influence on the compatibility with other programs.
+  warnings.warn(msg % 'record lengths')
+{'day': '2026-07-25', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0023}
+{'day': '2026-07-26', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0168}
+{'day': '2026-07-27', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0105}
+{'day': '2026-07-28', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0189}
+{'day': '2026-07-29', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.003}
+{'day': '2026-07-30', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.991, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0073}
+{'day': '2026-07-31', 'MAKZ_valid_share': 0.9956, 'MK31_valid_share': 0.9974, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0143}
+{'day': '2026-08-01', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0233}
+{'day': '2026-08-02', 'MAKZ_valid_share': 0.9972, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0004}
+{'day': '2026-08-03', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0038}
+{'day': '2026-08-04', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0054}
+{'day': '2026-08-05', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9965, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0031}
+{'day': '2026-08-06', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9989, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0158}
+{'day': '2026-08-07', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9949, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0023}
+{'day': '2026-08-08', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9966, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0212}
+{'day': '2026-08-09', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0287}
+{'day': '2026-08-10', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9961, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0045}
+{'day': '2026-08-11', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.006}
+{'day': '2026-08-12', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0095}
+{'day': '2026-08-13', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0004}
+{'day': '2026-08-14', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0134}
+{'day': '2026-08-15', 'MAKZ_valid_share': 0.9975, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0051}
+{'day': '2026-08-16', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0031}
+{'day': '2026-08-17', 'MAKZ_valid_share': 0.7353, 'MK31_valid_share': 0.973, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0103}
+{'day': '2026-08-18', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.008}
+{'day': '2026-08-19', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0053}
+{'day': '2026-08-20', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0087}
+{'day': '2026-08-21', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0155}
+{'day': '2026-08-22', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0038}
+{'day': '2026-08-23', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0114}
+{'day': '2026-08-24', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0045}
+{'day': '2026-08-25', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0175}
+{'day': '2026-08-26', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0154}
+{'day': '2026-08-27', 'MAKZ_valid_share': 0.9975, 'MK31_valid_share': 0.2477, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0017}
+{'day': '2026-08-28', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0105}
+{'day': '2026-08-29', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0125}
+{'day': '2026-08-30', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0052}
+{'day': '2026-08-31', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 0.3163, 'WUS_valid_share': 0.0129}
+{'day': '2026-09-01', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 0.3933, 'WUS_valid_share': 0.0052}
+{'day': '2026-09-02', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0018}
+{'day': '2026-09-03', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0051}
+{'day': '2026-09-04', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0026}
+{'day': '2026-09-05', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0103}
+{'day': '2026-09-06', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0176}
+{'day': '2026-09-07', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0211}
+{'day': '2026-09-08', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0017}
+{'day': '2026-09-09', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0078}
+{'day': '2026-09-10', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0102}
+{'day': '2026-09-11', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0186}
+{'day': '2026-09-12', 'MAKZ_valid_share': 0.9976, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0}
+{'day': '2026-09-13', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0}
+{'day': '2026-09-14', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0374}
+{'day': '2026-09-15', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.3968, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0051}
+{'day': '2026-09-16', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0133}
+{'day': '2026-09-17', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0053}
+{'day': '2026-09-18', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0237}
+{'day': '2026-09-19', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0104}
+{'day': '2026-09-20', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9987, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0134}
+{'day': '2026-09-21', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 0.9988, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0053}
+{'day': '2026-09-22', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0025}
+{'day': '2026-09-23', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0158}
+{'day': '2026-09-24', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0177}
+{'day': '2026-09-25', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0156}
+{'day': '2026-09-26', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.012}
+{'day': '2026-09-27', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0103}
+{'day': '2026-09-28', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0129}
+{'day': '2026-09-29', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0046}
+{'day': '2026-09-30', 'MAKZ_valid_share': 1.0, 'MK31_valid_share': 1.0, 'KURK_valid_share': 1.0, 'WUS_valid_share': 0.0026}
+MAKZ distance_km 499.6 window_s 95.8
+MK31 distance_km 512.7 window_s 98.2
+WUS distance_km 1058.6 window_s 197.5
+{
+ "version": "v3",
+ "dev_days": 85,
+ "thresholds_q99.9": {
+  "MAKZ": 7.010976992583281,
+  "MK31": 7.384667866501045,
+  "KURK": 6.796057548188755,
+  "WUS": 3.4907107357963656
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "IU.MAKZ.00.BHZ"
+  ],
+  "MK31": [
+   "IM.MK31..BHZ"
+  ],
+  "KURK": [
+   "II.KURK.00.BHZ"
+  ],
+  "WUS": [
+   "G.WUS.00.BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 1077,
+  "MK31": 1136,
+  "KURK": 1653,
+  "WUS": 147
+ },
+ "ref_episodes_per_day": 19.44705882352941,
+ "catalog_failures": [],
+ "reference": "KURK",
+ "snr_invalid": 0,
+ "catalog": {
+  "regional": 323,
+  "tele": 113
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2026-07-01T00:00:00.000000Z",
+   "2026-07-08T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2026-07-08T00:00:00.000000Z",
+   "2026-10-01T00:00:00.000000Z"
+  ]
+ }
+}

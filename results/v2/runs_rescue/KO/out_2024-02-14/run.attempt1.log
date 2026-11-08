@@ -1,0 +1,171 @@
+thresholds {'MAKZ': 7.034042338484104, 'S1_1': 14.216503648234701, 'S2_1': 5.059443690269385, 'S3_1': 8.12157774767369}
+{'day': '2024-02-14', 'MAKZ_valid_share': 0.9977, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9979}
+{'day': '2024-02-15', 'MAKZ_valid_share': 0.9941, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9949, 'S3_1_valid_share': 0.9979}
+{'day': '2024-02-16', 'MAKZ_valid_share': 0.9952, 'S1_1_valid_share': 0.4998, 'S2_1_valid_share': 0.9977, 'S3_1_valid_share': 0.992}
+{'day': '2024-02-17', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-02-18', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0011, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9989}
+{'day': '2024-02-19', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0013, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-02-20', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0056, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9989}
+{'day': '2024-02-21', 'MAKZ_valid_share': 0.9967, 'S1_1_valid_share': 0.0037, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9988}
+{'day': '2024-02-22', 'MAKZ_valid_share': 0.9979, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9989}
+{'day': '2024-02-23', 'MAKZ_valid_share': 0.9934, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9941, 'S3_1_valid_share': 0.9988}
+{'day': '2024-02-24', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9989}
+{'day': '2024-02-25', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0045, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-02-26', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 0.9989}
+{'day': '2024-02-27', 'MAKZ_valid_share': 0.9796, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9794, 'S3_1_valid_share': 1.0}
+{'day': '2024-02-28', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 0.9989}
+{'day': '2024-02-29', 'MAKZ_valid_share': 0.996, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9949, 'S3_1_valid_share': 0.8776}
+{'day': '2024-03-01', 'MAKZ_valid_share': 0.9846, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9817, 'S3_1_valid_share': 0.0008}
+{'day': '2024-03-02', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-03', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-04', 'MAKZ_valid_share': 0.9973, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9983, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-05', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-06', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9953, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-07', 'MAKZ_valid_share': 0.9972, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.995, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-08', 'MAKZ_valid_share': 0.9903, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9943, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-09', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-10', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-11', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-12', 'MAKZ_valid_share': 0.6546, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.6548, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-13', 'MAKZ_valid_share': 0.894, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.8922, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-14', 'MAKZ_valid_share': 0.9883, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9864, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-15', 'MAKZ_valid_share': 0.9416, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9411, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-16', 'MAKZ_valid_share': 0.8715, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.8706, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-17', 'MAKZ_valid_share': 0.5281, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.5254, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-18', 'MAKZ_valid_share': 0.8874, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.8823, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-19', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-20', 'MAKZ_valid_share': 0.601, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.5991, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-21', 'MAKZ_valid_share': 0.697, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.7211, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-22', 'MAKZ_valid_share': 0.862, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.8618, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-23', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-24', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-25', 'MAKZ_valid_share': 0.9951, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.996, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-26', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.0, 'S2_1_valid_share': 0.9976, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-27', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.5921, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.0}
+{'day': '2024-03-28', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.8191, 'S2_1_valid_share': 0.9967, 'S3_1_valid_share': 0.4}
+{'day': '2024-03-29', 'MAKZ_valid_share': 0.9933, 'S1_1_valid_share': 0.9636, 'S2_1_valid_share': 0.9969, 'S3_1_valid_share': 0.9918}
+{'day': '2024-03-30', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9916, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9967}
+{'day': '2024-03-31', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.8215, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9967}
+{'day': '2024-04-01', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.4319, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9979}
+{'day': '2024-04-02', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.5231, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9978}
+{'day': '2024-04-03', 'MAKZ_valid_share': 0.9978, 'S1_1_valid_share': 0.5126, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-04', 'MAKZ_valid_share': 0.9958, 'S1_1_valid_share': 0.7765, 'S2_1_valid_share': 0.9947, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-05', 'MAKZ_valid_share': 0.9964, 'S1_1_valid_share': 0.9788, 'S2_1_valid_share': 0.995, 'S3_1_valid_share': 0.9956}
+{'day': '2024-04-06', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.963, 'S2_1_valid_share': 0.9968, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-07', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9863, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9979}
+{'day': '2024-04-08', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.7125, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-09', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9961, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-10', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-11', 'MAKZ_valid_share': 0.9967, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 0.9929, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-12', 'MAKZ_valid_share': 0.9962, 'S1_1_valid_share': 0.9933, 'S2_1_valid_share': 0.9965, 'S3_1_valid_share': 0.9965}
+{'day': '2024-04-13', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9978}
+{'day': '2024-04-14', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9964}
+{'day': '2024-04-15', 'MAKZ_valid_share': 0.9973, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 0.9921, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-16', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-17', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9978, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-18', 'MAKZ_valid_share': 0.9492, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 0.9513, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-19', 'MAKZ_valid_share': 0.982, 'S1_1_valid_share': 0.995, 'S2_1_valid_share': 0.9817, 'S3_1_valid_share': 0.9938}
+{'day': '2024-04-20', 'MAKZ_valid_share': 0.9967, 'S1_1_valid_share': 0.9914, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-21', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9979, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-22', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-23', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9979, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-24', 'MAKZ_valid_share': 0.9978, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9967, 'S3_1_valid_share': 1.0}
+{'day': '2024-04-25', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.9978, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-26', 'MAKZ_valid_share': 0.996, 'S1_1_valid_share': 0.9899, 'S2_1_valid_share': 0.9954, 'S3_1_valid_share': 0.9917}
+{'day': '2024-04-27', 'MAKZ_valid_share': 0.9932, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 0.9939, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-28', 'MAKZ_valid_share': 0.9978, 'S1_1_valid_share': 0.9979, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9989}
+{'day': '2024-04-29', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.9978, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9978}
+{'day': '2024-04-30', 'MAKZ_valid_share': 0.9898, 'S1_1_valid_share': 0.9961, 'S2_1_valid_share': 0.9892, 'S3_1_valid_share': 0.9961}
+{'day': '2024-05-01', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9965, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9986}
+{'day': '2024-05-02', 'MAKZ_valid_share': 0.9867, 'S1_1_valid_share': 0.9891, 'S2_1_valid_share': 0.9874, 'S3_1_valid_share': 0.9902}
+{'day': '2024-05-03', 'MAKZ_valid_share': 0.9817, 'S1_1_valid_share': 0.9849, 'S2_1_valid_share': 0.9791, 'S3_1_valid_share': 0.9861}
+{'day': '2024-05-04', 'MAKZ_valid_share': 0.9973, 'S1_1_valid_share': 0.9968, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-05-05', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.9958, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 1.0}
+{'day': '2024-05-06', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 0.9978}
+{'day': '2024-05-07', 'MAKZ_valid_share': 0.9989, 'S1_1_valid_share': 0.9979, 'S2_1_valid_share': 0.9989, 'S3_1_valid_share': 0.9989}
+{'day': '2024-05-08', 'MAKZ_valid_share': 0.989, 'S1_1_valid_share': 0.9966, 'S2_1_valid_share': 0.9903, 'S3_1_valid_share': 0.9989}
+{'day': '2024-05-09', 'MAKZ_valid_share': 0.9967, 'S1_1_valid_share': 0.9978, 'S2_1_valid_share': 0.9967, 'S3_1_valid_share': 0.9989}
+{'day': '2024-05-10', 'MAKZ_valid_share': 0.9957, 'S1_1_valid_share': 0.9955, 'S2_1_valid_share': 0.995, 'S3_1_valid_share': 0.9984}
+{'day': '2024-05-11', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-05-12', 'MAKZ_valid_share': 1.0, 'S1_1_valid_share': 1.0, 'S2_1_valid_share': 1.0, 'S3_1_valid_share': 1.0}
+{'day': '2024-05-13', 'MAKZ_valid_share': 0.9969, 'S1_1_valid_share': 0.9989, 'S2_1_valid_share': 0.9969, 'S3_1_valid_share': 1.0}
+S1_1 distance_km 369.1 window_s 72.1
+S2_1 distance_km 428.2 window_s 82.9
+S3_1 distance_km 572.6 window_s 109.1
+ISC regional catalog error (attempt 1 ) Could not parse '<_io.BytesIO object at 0x0000021EA5FDA610>' to an etree element.
+{
+ "version": "v3",
+ "dev_days": 90,
+ "thresholds_q99.9": {
+  "MAKZ": 7.034042338484104,
+  "S1_1": 14.216503648234701,
+  "S2_1": 5.059443690269385,
+  "S3_1": 8.12157774767369
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "KO.ELL..HHZ"
+  ],
+  "S1_1": [
+   "KO.DKL..HHZ"
+  ],
+  "S2_1": [
+   "KO.MDUB..HHZ"
+  ],
+  "S3_1": [
+   "KO.BNN..HHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 2011,
+  "S1_1": 1606,
+  "S2_1": 2953,
+  "S3_1": 2007
+ },
+ "ref_episodes_per_day": 22.344444444444445,
+ "catalog_failures": [],
+ "fetch_failures": [
+  "S3_1 2024-03-24"
+ ],
+ "reference": "MAKZ",
+ "snr_invalid": 4,
+ "catalog": {
+  "regional": 5214,
+  "tele": 89
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2024-02-14T00:00:00.000000Z",
+   "2024-02-14T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2024-02-14T00:00:00.000000Z",
+   "2024-05-14T00:00:00.000000Z"
+  ]
+ }
+}

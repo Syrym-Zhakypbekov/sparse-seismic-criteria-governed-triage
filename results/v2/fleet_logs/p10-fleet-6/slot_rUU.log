@@ -1,0 +1,6 @@
+2026-11-07T21:56:37Z UU plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T21:59:49Z UU tune attempt 1: rc=-15 192s thresholds=yes
+2026-11-07T21:59:49Z UU thresholds {'MAKZ': 6.46925395609976, 'S1_1': 7.642766629243007, 'S1_2': 2.571129852462623, 'S2_1': 8.572923294377556, 'S2_2': 9.679536760469386, 'S3_1': 7.868690669444382}
+2026-11-07T22:37:29Z UU out_2024-01-08 attempt 1: rc=0 2260s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T22:38:24Z UU out_2024-04-08 attempt 1: rc=0 2255s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T22:38:24Z UU FINISHED state=done

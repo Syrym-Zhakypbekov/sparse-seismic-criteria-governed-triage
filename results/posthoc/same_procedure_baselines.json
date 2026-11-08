@@ -1,0 +1,529 @@
+{
+ "status": "post hoc after the internal review (08.11.2026); pre-specified results unchanged",
+ "thresholds_dB": {
+  "frozen": {
+   "P1t": 8.0,
+   "P2": 10.5,
+   "P3": 7.5
+  },
+  "one_procedure_fold_median": {
+   "P1t": 7.5,
+   "P2": 8.0,
+   "P3": 7.5
+  }
+ },
+ "single_network": {
+  "extended IU.MAKZ": {
+   "hypothesis": "E2",
+   "CG_unassoc_alerts": 2870,
+   "P1t_unassoc_alerts": {
+    "frozen_8.0": 12452,
+    "one_procedure_7.5": 12968
+   },
+   "P2": {
+    "frozen_10.5": {
+     "dismissed_assoc": 124,
+     "unassoc_alerts": 4070,
+     "esc_per_day": 12.91
+    },
+    "one_procedure_8.0": {
+     "dismissed_assoc": 50,
+     "unassoc_alerts": 5957,
+     "esc_per_day": 12.51
+    }
+   },
+   "CG_fewer_than_P1t": {
+    "frozen": true,
+    "one_procedure": true
+   },
+   "CG_minus_P3_pp": {
+    "frozen": [
+     2.44,
+     [
+      1.75,
+      3.14
+     ]
+    ],
+    "one_procedure": [
+     2.44,
+     [
+      1.75,
+      3.14
+     ]
+    ]
+   },
+   "CGD_minus_P3_pp": {
+    "frozen": [
+     0.0,
+     [
+      -0.37,
+      0.32
+     ]
+    ],
+    "one_procedure": [
+     0.0,
+     [
+      -0.37,
+      0.32
+     ]
+    ]
+   }
+  },
+  "extended II.KURK": {
+   "hypothesis": "K2",
+   "CG_unassoc_alerts": 3511,
+   "P1t_unassoc_alerts": {
+    "frozen_8.0": 13225,
+    "one_procedure_7.5": 13667
+   },
+   "P2": {
+    "frozen_10.5": {
+     "dismissed_assoc": 221,
+     "unassoc_alerts": 5131,
+     "esc_per_day": 11.79
+    },
+    "one_procedure_8.0": {
+     "dismissed_assoc": 68,
+     "unassoc_alerts": 7091,
+     "esc_per_day": 12.09
+    }
+   },
+   "CG_fewer_than_P1t": {
+    "frozen": true,
+    "one_procedure": true
+   },
+   "CG_minus_P3_pp": {
+    "frozen": [
+     10.19,
+     [
+      8.66,
+      11.7
+     ]
+    ],
+    "one_procedure": [
+     10.19,
+     [
+      8.66,
+      11.7
+     ]
+    ]
+   },
+   "CGD_minus_P3_pp": {
+    "frozen": [
+     1.2,
+     [
+      0.73,
+      1.72
+     ]
+    ],
+    "one_procedure": [
+     1.2,
+     [
+      0.73,
+      1.72
+     ]
+    ]
+   }
+  },
+  "2024 IU.MAKZ": {
+   "hypothesis": "D (no P1t hypothesis)",
+   "CG_unassoc_alerts": 1765,
+   "P1t_unassoc_alerts": {
+    "frozen_8.0": 9300,
+    "one_procedure_7.5": 9530
+   },
+   "P2": {
+    "frozen_10.5": {
+     "dismissed_assoc": 28,
+     "unassoc_alerts": 3380,
+     "esc_per_day": 14.58
+    },
+    "one_procedure_8.0": {
+     "dismissed_assoc": 14,
+     "unassoc_alerts": 5202,
+     "esc_per_day": 11.58
+    }
+   },
+   "CG_fewer_than_P1t": {
+    "frozen": true,
+    "one_procedure": true
+   },
+   "CG_minus_P3_pp": {
+    "frozen": [
+     1.86,
+     [
+      1.12,
+      2.68
+     ]
+    ],
+    "one_procedure": [
+     1.86,
+     [
+      1.12,
+      2.68
+     ]
+    ]
+   },
+   "CGD_minus_P3_pp": {
+    "frozen": [
+     0.48,
+     [
+      0.16,
+      0.91
+     ]
+    ],
+    "one_procedure": [
+     0.48,
+     [
+      0.16,
+      0.91
+     ]
+    ]
+   }
+  },
+  "2024 II.KURK": {
+   "hypothesis": "D (no P1t hypothesis)",
+   "CG_unassoc_alerts": 1799,
+   "P1t_unassoc_alerts": {
+    "frozen_8.0": 8482,
+    "one_procedure_7.5": 8620
+   },
+   "P2": {
+    "frozen_10.5": {
+     "dismissed_assoc": 70,
+     "unassoc_alerts": 3131,
+     "esc_per_day": 13.19
+    },
+    "one_procedure_8.0": {
+     "dismissed_assoc": 20,
+     "unassoc_alerts": 4873,
+     "esc_per_day": 10.45
+    }
+   },
+   "CG_fewer_than_P1t": {
+    "frozen": true,
+    "one_procedure": true
+   },
+   "CG_minus_P3_pp": {
+    "frozen": [
+     9.29,
+     [
+      7.43,
+      11.3
+     ]
+    ],
+    "one_procedure": [
+     9.29,
+     [
+      7.43,
+      11.3
+     ]
+    ]
+   },
+   "CGD_minus_P3_pp": {
+    "frozen": [
+     1.8,
+     [
+      1.02,
+      2.66
+     ]
+    ],
+    "one_procedure": [
+     1.8,
+     [
+      1.02,
+      2.66
+     ]
+    ]
+   }
+  },
+  "KZ network": {
+   "hypothesis": "N2",
+   "CG_unassoc_alerts": 2442,
+   "P1t_unassoc_alerts": {
+    "frozen_8.0": 11104,
+    "one_procedure_7.5": 11543
+   },
+   "P2": {
+    "frozen_10.5": {
+     "dismissed_assoc": 71,
+     "unassoc_alerts": 4262,
+     "esc_per_day": 8.41
+    },
+    "one_procedure_8.0": {
+     "dismissed_assoc": 24,
+     "unassoc_alerts": 5387,
+     "esc_per_day": 9.4
+    }
+   },
+   "CG_fewer_than_P1t": {
+    "frozen": true,
+    "one_procedure": true
+   },
+   "CG_minus_P3_pp": {
+    "frozen": [
+     3.78,
+     [
+      2.99,
+      4.62
+     ]
+    ],
+    "one_procedure": [
+     3.78,
+     [
+      2.99,
+      4.62
+     ]
+    ]
+   },
+   "CGD_minus_P3_pp": {
+    "frozen": [
+     0.84,
+     [
+      0.49,
+      1.24
+     ]
+    ],
+    "one_procedure": [
+     0.84,
+     [
+      0.49,
+      1.24
+     ]
+    ]
+   }
+  },
+  "AK network": {
+   "hypothesis": "R2",
+   "CG_unassoc_alerts": 520,
+   "P1t_unassoc_alerts": {
+    "frozen_8.0": 13790,
+    "one_procedure_7.5": 14254
+   },
+   "P2": {
+    "frozen_10.5": {
+     "dismissed_assoc": 18,
+     "unassoc_alerts": 3012,
+     "esc_per_day": 14.56
+    },
+    "one_procedure_8.0": {
+     "dismissed_assoc": 5,
+     "unassoc_alerts": 3620,
+     "esc_per_day": 19.16
+    }
+   },
+   "CG_fewer_than_P1t": {
+    "frozen": true,
+    "one_procedure": true
+   },
+   "CG_minus_P3_pp": {
+    "frozen": [
+     1.47,
+     [
+      0.97,
+      2.04
+     ]
+    ],
+    "one_procedure": [
+     1.47,
+     [
+      0.97,
+      2.04
+     ]
+    ]
+   },
+   "CGD_minus_P3_pp": {
+    "frozen": [
+     0.1,
+     [
+      -0.1,
+      0.3
+     ]
+    ],
+    "one_procedure": [
+     0.1,
+     [
+      -0.1,
+      0.3
+     ]
+    ]
+   }
+  }
+ },
+ "multi_network": {
+  "A": {
+   "preregistration": "PREREGISTRATION_V2_NETWORKS_2026-11-08.md (batch A, amendment A1 run list networks.json)",
+   "networks_included": 7,
+   "totals": {
+    "CG": {
+     "dismissed_assoc": 1088,
+     "unassoc_alerts": 2392
+    },
+    "CG-D": {
+     "dismissed_assoc": 800,
+     "unassoc_alerts": 2797
+    },
+    "CG_c05": {
+     "dismissed_assoc": 786,
+     "unassoc_alerts": 3211
+    },
+    "P3": {
+     "dismissed_assoc": 705,
+     "unassoc_alerts": 5597
+    },
+    "P1t": {
+     "dismissed_assoc": 750,
+     "unassoc_alerts": 45747
+    },
+    "P1t_sp": {
+     "dismissed_assoc": 710,
+     "unassoc_alerts": 48698
+    },
+    "P2": {
+     "dismissed_assoc": 973,
+     "unassoc_alerts": 4286
+    },
+    "P2_sp": {
+     "dismissed_assoc": 745,
+     "unassoc_alerts": 5344
+    }
+   },
+   "V6_CG_fewer_than_P1t": {
+    "frozen_pooled": true,
+    "one_procedure_pooled": true,
+    "frozen_networks": "7/7",
+    "one_procedure_networks": "7/7"
+   }
+  },
+  "B": {
+   "preregistration": "PREREGISTRATION_V2_BATCHB_2026-11-08.md (batch B)",
+   "networks_included": 31,
+   "totals": {
+    "CG": {
+     "dismissed_assoc": 948,
+     "unassoc_alerts": 4807
+    },
+    "CG-D": {
+     "dismissed_assoc": 601,
+     "unassoc_alerts": 6317
+    },
+    "CG_c05": {
+     "dismissed_assoc": 576,
+     "unassoc_alerts": 7284
+    },
+    "P3": {
+     "dismissed_assoc": 498,
+     "unassoc_alerts": 19385
+    },
+    "P1t": {
+     "dismissed_assoc": 566,
+     "unassoc_alerts": 98079
+    },
+    "P1t_sp": {
+     "dismissed_assoc": 498,
+     "unassoc_alerts": 104901
+    },
+    "P2": {
+     "dismissed_assoc": 853,
+     "unassoc_alerts": 12101
+    },
+    "P2_sp": {
+     "dismissed_assoc": 566,
+     "unassoc_alerts": 18073
+    }
+   },
+   "V6_CG_fewer_than_P1t": {
+    "frozen_pooled": true,
+    "one_procedure_pooled": true,
+    "frozen_networks": "31/31",
+    "one_procedure_networks": "31/31"
+   }
+  },
+  "EXT": {
+   "preregistration": "PREREGISTRATION_V2_EXT12_2026-11-08.md (ext period alone)",
+   "networks_included": 6,
+   "totals": {
+    "CG": {
+     "dismissed_assoc": 206,
+     "unassoc_alerts": 1555
+    },
+    "CG-D": {
+     "dismissed_assoc": 169,
+     "unassoc_alerts": 1819
+    },
+    "CG_c05": {
+     "dismissed_assoc": 167,
+     "unassoc_alerts": 2067
+    },
+    "P3": {
+     "dismissed_assoc": 155,
+     "unassoc_alerts": 2962
+    },
+    "P1t": {
+     "dismissed_assoc": 169,
+     "unassoc_alerts": 10879
+    },
+    "P1t_sp": {
+     "dismissed_assoc": 156,
+     "unassoc_alerts": 11351
+    },
+    "P2": {
+     "dismissed_assoc": 199,
+     "unassoc_alerts": 2487
+    },
+    "P2_sp": {
+     "dismissed_assoc": 168,
+     "unassoc_alerts": 2879
+    }
+   },
+   "V6_CG_fewer_than_P1t": {
+    "frozen_pooled": true,
+    "one_procedure_pooled": true,
+    "frozen_networks": "6/6",
+    "one_procedure_networks": "6/6"
+   }
+  }
+ },
+ "reviewed_bulletin": {
+  "networks_included": 33,
+  "totals": {
+   "CG": {
+    "dismissed_assoc": 319,
+    "unassoc_alerts": 8076
+   },
+   "CG-D": {
+    "dismissed_assoc": 193,
+    "unassoc_alerts": 9808
+   },
+   "CG_c05": {
+    "dismissed_assoc": 183,
+    "unassoc_alerts": 10926
+   },
+   "P3": {
+    "dismissed_assoc": 151,
+    "unassoc_alerts": 23045
+   },
+   "P1t": {
+    "dismissed_assoc": 175,
+    "unassoc_alerts": 126624
+   },
+   "P1t_sp": {
+    "dismissed_assoc": 151,
+    "unassoc_alerts": 135468
+   },
+   "P2": {
+    "dismissed_assoc": 283,
+    "unassoc_alerts": 15173
+   },
+   "P2_sp": {
+    "dismissed_assoc": 175,
+    "unassoc_alerts": 21594
+   }
+  },
+  "V6_CG_fewer_than_P1t": {
+   "frozen": true,
+   "one_procedure": true
+  },
+  "note": "primary R1-R3 compare CG with P3, whose threshold is 7.5 dB under both procedures"
+ }
+}

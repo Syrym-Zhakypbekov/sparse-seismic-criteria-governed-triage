@@ -1,0 +1,107 @@
+{
+ "network": "O2",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-5",
+ "platform": "p10-fleet-5-sO2",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "O2",
+   "STIG",
+   "",
+   "HHZ",
+   35.3406,
+   -95.1056
+  ],
+  "S1_1": [
+   "O2",
+   "QUIN",
+   "",
+   "HHZ",
+   35.2021,
+   -95.4692
+  ],
+  "S2_1": [
+   "O2",
+   "DUST",
+   "",
+   "HHZ",
+   35.2803,
+   -96.1087
+  ],
+  "S2_2": [
+   "O2",
+   "DRIP",
+   "",
+   "HHZ",
+   35.6127,
+   -96.065
+  ],
+  "S3_1": [
+   "O2",
+   "SAND",
+   "",
+   "HHZ",
+   36.0576,
+   -96.2499
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 152,
+     "end_utc": "2026-11-07T20:13:43Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:11:11Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "tune_nan_evidence": {
+  "S3_1": {
+   "stream": "O2.SAND..HHZ",
+   "no_data_days": [],
+   "fetch_failed_days": [],
+   "data_days": [
+    "2024-01-01",
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-06",
+    "2024-01-07"
+   ]
+  }
+ },
+ "thresholds": {
+  "MAKZ": 5.906774251968142,
+  "S1_1": 7.591285469779513,
+  "S2_1": 5.03816542008015,
+  "S2_2": 4.178139682565383,
+  "S3_1": NaN
+ }
+}

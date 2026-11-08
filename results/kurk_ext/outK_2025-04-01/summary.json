@@ -1,0 +1,73 @@
+{
+ "version": "v3",
+ "dev_days": 91,
+ "thresholds_q99.9": {
+  "MAKZ": 7.010977,
+  "MK31": 7.384668,
+  "KURK": 6.796058,
+  "WUS": 3.490711
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "IU.MAKZ.00.BHZ"
+  ],
+  "MK31": [
+   "IM.MK31..BHZ"
+  ],
+  "KURK": [
+   "II.KURK.00.BHZ"
+  ],
+  "WUS": [
+   "G.WUS.00.BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 3457,
+  "MK31": 2656,
+  "KURK": 1722,
+  "WUS": 18224
+ },
+ "ref_episodes_per_day": 18.923076923076923,
+ "catalog_failures": [],
+ "reference": "KURK",
+ "snr_invalid": 0,
+ "catalog": {
+  "regional": 2881,
+  "tele": 108
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2025-04-01T00:00:00.000000Z",
+   "2025-04-01T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2025-04-01T00:00:00.000000Z",
+   "2025-07-01T00:00:00.000000Z"
+  ]
+ }
+}

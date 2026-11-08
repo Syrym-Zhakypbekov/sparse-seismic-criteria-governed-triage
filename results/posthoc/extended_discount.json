@@ -1,0 +1,175 @@
+{
+ "status": "post hoc, specified after E3/K3/D1 were known; frozen parameters; not a confirmatory test",
+ "MAKZ": {
+  "reference": "MAKZ",
+  "calendar_days": 546,
+  "episodes": 18637,
+  "assoc": 2455,
+  "outage_days_with_episodes": 24,
+  "assoc_outage": 149,
+  "neighbours_km": {
+   "MK31": 24.0,
+   "KURK": 499.6,
+   "WUS": 661.1
+  },
+  "P3": {
+   "missed": 38,
+   "alert_unassoc": 6350,
+   "esc_per_day": 12.72,
+   "missed_outage": 8
+  },
+  "P1_missed_outage": 99,
+  "c=1.0": {
+   "missed": 98,
+   "alert_unassoc": 2870,
+   "esc_per_day": 16.21,
+   "missed_outage": 6,
+   "diff_vs_P3_pp": 2.44,
+   "ci95": [
+    1.74,
+    3.18
+   ]
+  },
+  "c=0.75": {
+   "missed": 68,
+   "alert_unassoc": 3159,
+   "esc_per_day": 16.96,
+   "missed_outage": 4,
+   "diff_vs_P3_pp": 1.22,
+   "ci95": [
+    0.73,
+    1.79
+   ]
+  },
+  "c=0.5": {
+   "missed": 38,
+   "alert_unassoc": 3630,
+   "esc_per_day": 18.24,
+   "missed_outage": 3,
+   "diff_vs_P3_pp": 0.0,
+   "ci95": [
+    -0.29,
+    0.27
+   ]
+  },
+  "c=0.25": {
+   "missed": 16,
+   "alert_unassoc": 4453,
+   "esc_per_day": 19.21,
+   "missed_outage": 1,
+   "diff_vs_P3_pp": -0.9,
+   "ci95": [
+    -1.31,
+    -0.53
+   ]
+  },
+  "c=0.0": {
+   "missed": 0,
+   "alert_unassoc": 4694,
+   "esc_per_day": 22.03,
+   "missed_outage": 0,
+   "diff_vs_P3_pp": -1.55,
+   "ci95": [
+    -2.07,
+    -1.07
+   ]
+  },
+  "CG-D table": {
+   "missed": 38,
+   "alert_unassoc": 3390,
+   "esc_per_day": 18.56,
+   "missed_outage": 1,
+   "diff_vs_P3_pp": 0.0,
+   "ci95": [
+    -0.36,
+    0.32
+   ]
+  }
+ },
+ "KURK": {
+  "reference": "KURK",
+  "calendar_days": 546,
+  "episodes": 17488,
+  "assoc": 1757,
+  "outage_days_with_episodes": 24,
+  "assoc_outage": 71,
+  "neighbours_km": {
+   "MAKZ": 499.6,
+   "MK31": 512.7,
+   "WUS": 1058.6
+  },
+  "P3": {
+   "missed": 49,
+   "alert_unassoc": 7444,
+   "esc_per_day": 12.22,
+   "missed_outage": 2
+  },
+  "P1_missed_outage": 37,
+  "c=1.0": {
+   "missed": 228,
+   "alert_unassoc": 3511,
+   "esc_per_day": 14.99,
+   "missed_outage": 2,
+   "diff_vs_P3_pp": 10.19,
+   "ci95": [
+    8.72,
+    11.76
+   ]
+  },
+  "c=0.75": {
+   "missed": 148,
+   "alert_unassoc": 3701,
+   "esc_per_day": 16.75,
+   "missed_outage": 2,
+   "diff_vs_P3_pp": 5.63,
+   "ci95": [
+    4.6,
+    6.76
+   ]
+  },
+  "c=0.5": {
+   "missed": 69,
+   "alert_unassoc": 3966,
+   "esc_per_day": 18.71,
+   "missed_outage": 2,
+   "diff_vs_P3_pp": 1.14,
+   "ci95": [
+    0.68,
+    1.67
+   ]
+  },
+  "c=0.25": {
+   "missed": 13,
+   "alert_unassoc": 4406,
+   "esc_per_day": 20.16,
+   "missed_outage": 0,
+   "diff_vs_P3_pp": -2.05,
+   "ci95": [
+    -2.79,
+    -1.43
+   ]
+  },
+  "c=0.0": {
+   "missed": 0,
+   "alert_unassoc": 5191,
+   "esc_per_day": 20.55,
+   "missed_outage": 0,
+   "diff_vs_P3_pp": -2.79,
+   "ci95": [
+    -3.6,
+    -2.05
+   ]
+  },
+  "CG-D table": {
+   "missed": 70,
+   "alert_unassoc": 3805,
+   "esc_per_day": 18.98,
+   "missed_outage": 2,
+   "diff_vs_P3_pp": 1.2,
+   "ci95": [
+    0.71,
+    1.72
+   ]
+  }
+ }
+}

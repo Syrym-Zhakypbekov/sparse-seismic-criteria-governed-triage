@@ -1,0 +1,39 @@
+2026-11-07T19:20:47Z OH plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T19:23:12Z OH tune attempt 1: rc=0 145s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T19:23:12Z OH thresholds {'MAKZ': 3.7748954631558216, 'S1_1': 6.49128780125223, 'S2_1': 5.3354646884427845, 'S2_2': 4.45805054210468, 'S3_1': 4.928592907177728}
+2026-11-07T20:04:08Z OH out_2024-01-08 attempt 1: rc=0 2457s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:06:26Z OH out_2024-04-08 attempt 1: rc=0 2534s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:06:26Z OH FINISHED state=done
+2026-11-07T20:06:28Z RV plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S3_1', 'S3_2']
+2026-11-07T20:08:55Z RV tune attempt 1: rc=-15 147s thresholds=yes
+2026-11-07T20:08:55Z RV thresholds {'MAKZ': 8.236309500025781, 'S1_1': 8.006100730695996, 'S1_2': 7.08627273828524, 'S2_1': 11.459709127326644, 'S3_1': 8.284939395869252, 'S3_2': 9.671862065520981}
+Traceback (most recent call last):
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 245, in <module>
+    n = Net(sys.argv[1]); n.run(dry="--dry" in sys.argv)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 229, in run
+    self.run_eval(ch, thr)
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 236, in run_eval
+    with ThreadPoolExecutor(par) as ex: res = list(ex.map(go, enumerate(ch)))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 235, in go
+    return self.run_chunk(f"out_{x}", self.env(x, x, x, y, os.path.join(self.dir, f"out_{x}"), thr))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/syrym/p10v2/analysis/v2_fleet/run_network.py", line 143, in run_chunk
+    b, x = os.path.splitext(fn); open(os.path.join(out, f"{b}.attempt{att}{x}"), "wb").write(open(p, "rb").read())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device

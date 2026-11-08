@@ -1,0 +1,78 @@
+{
+ "dev": [
+  {
+   "assoc": false,
+   "action": "ALERT",
+   "sum": 92,
+   "count": 216
+  },
+  {
+   "assoc": false,
+   "action": "DISMISS",
+   "sum": 47,
+   "count": 369
+  },
+  {
+   "assoc": false,
+   "action": "ESCALATE",
+   "sum": 123,
+   "count": 351
+  },
+  {
+   "assoc": true,
+   "action": "ALERT",
+   "sum": 47,
+   "count": 93
+  },
+  {
+   "assoc": true,
+   "action": "DISMISS",
+   "sum": 0,
+   "count": 7
+  },
+  {
+   "assoc": true,
+   "action": "ESCALATE",
+   "sum": 14,
+   "count": 41
+  }
+ ],
+ "heldout": [
+  {
+   "assoc": false,
+   "action": "ALERT",
+   "sum": 30,
+   "count": 93
+  },
+  {
+   "assoc": false,
+   "action": "DISMISS",
+   "sum": 8,
+   "count": 68
+  },
+  {
+   "assoc": false,
+   "action": "ESCALATE",
+   "sum": 39,
+   "count": 99
+  },
+  {
+   "assoc": true,
+   "action": "ALERT",
+   "sum": 17,
+   "count": 43
+  },
+  {
+   "assoc": true,
+   "action": "DISMISS",
+   "sum": 1,
+   "count": 2
+  },
+  {
+   "assoc": true,
+   "action": "ESCALATE",
+   "sum": 2,
+   "count": 12
+  }
+ ]
+}

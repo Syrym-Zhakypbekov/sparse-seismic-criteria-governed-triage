@@ -1,0 +1,84 @@
+{
+ "network": "C",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-6",
+ "platform": "p10-fleet-6-r",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "C",
+   "GO02",
+   "",
+   "BHZ",
+   -25.1626,
+   -69.5904
+  ],
+  "S1_1": [
+   "C",
+   "GO03",
+   "",
+   "BHZ",
+   -27.5937,
+   -70.2347
+  ],
+  "S2_1": [
+   "C",
+   "GO04",
+   "",
+   "BHZ",
+   -30.1727,
+   -70.7993
+  ],
+  "S3_1": [
+   "C",
+   "GO01",
+   "",
+   "BHZ",
+   -19.6685,
+   -69.1942
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 92,
+     "end_utc": "2026-11-07T19:29:44Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:28:12Z",
+ "state": "tuning_failed",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 8.9546977509117,
+  "S1_1": NaN,
+  "S2_1": NaN,
+  "S3_1": 15.822349065952196
+ }
+}

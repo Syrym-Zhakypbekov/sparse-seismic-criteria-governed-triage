@@ -1,0 +1,13 @@
+cache/
+*.mseed
+__pycache__/
+.venv/
+out/
+_test*/
+results/posthoc/_collect_*
+figures/gif/_frames/
+results/*/labels/*.xml
+results/*/labels/*.csv
+results/*/labels/*.json
+!results/*/labels/download_record.json
+results/nnc/raw/*.xml

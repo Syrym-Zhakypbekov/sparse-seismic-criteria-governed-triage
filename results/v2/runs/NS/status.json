@@ -1,0 +1,120 @@
+{
+ "network": "NS",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "p10-fleet-3",
+ "platform": "p10-fleet-3-t",
+ "fdsn_base": "https://eida.geo.uib.no",
+ "stations": {
+  "MAKZ": [
+   "NS",
+   "ROEST",
+   "00",
+   "HHZ",
+   67.52016,
+   12.1045
+  ],
+  "S1_1": [
+   "NS",
+   "LOF",
+   "00",
+   "HHZ",
+   68.1325,
+   13.53983
+  ],
+  "S2_1": [
+   "NS",
+   "VAGH",
+   "00",
+   "HHZ",
+   66.73033,
+   13.2705
+  ],
+  "S2_2": [
+   "NS",
+   "GILDE",
+   "00",
+   "HHZ",
+   66.92934,
+   14.18967
+  ],
+  "S3_1": [
+   "NS",
+   "FAUS",
+   "00",
+   "HHZ",
+   67.382,
+   15.28767
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": -15,
+     "seconds": 277,
+     "end_utc": "2026-11-07T20:06:07Z",
+     "thresholds_line": true,
+     "stopped_after_thresholds": true
+    }
+   ]
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 4478,
+     "end_utc": "2026-11-07T21:20:45Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 4426,
+     "end_utc": "2026-11-07T21:20:53Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T20:01:30Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 4.32630775897177,
+  "S1_1": 4.523302259732247,
+  "S2_1": 4.364925109280282,
+  "S2_2": 4.580896329838367,
+  "S3_1": 4.647185483491391
+ },
+ "finished_utc": "2026-11-07T21:20:53Z"
+}

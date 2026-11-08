@@ -1,0 +1,156 @@
+{
+ "MAKZ": {
+  "c=1.0": {
+   "missed": 34,
+   "alert_unassoc": 1765,
+   "esc_per_day": 18.76,
+   "diff_vs_P3_pp": 1.86,
+   "ci95": [
+    1.13,
+    2.64
+   ]
+  },
+  "c=0.9": {
+   "missed": 29,
+   "alert_unassoc": 1867,
+   "esc_per_day": 18.77,
+   "diff_vs_P3_pp": 1.45,
+   "ci95": [
+    0.85,
+    2.13
+   ]
+  },
+  "c=0.75": {
+   "missed": 23,
+   "alert_unassoc": 2077,
+   "esc_per_day": 18.77,
+   "diff_vs_P3_pp": 0.97,
+   "ci95": [
+    0.47,
+    1.52
+   ]
+  },
+  "c=0.5": {
+   "missed": 17,
+   "alert_unassoc": 2518,
+   "esc_per_day": 19.04,
+   "diff_vs_P3_pp": 0.48,
+   "ci95": [
+    0.16,
+    0.89
+   ]
+  },
+  "c=0.25": {
+   "missed": 8,
+   "alert_unassoc": 3088,
+   "esc_per_day": 19.66,
+   "diff_vs_P3_pp": -0.24,
+   "ci95": [
+    -0.55,
+    0.0
+   ]
+  },
+  "c=0.0": {
+   "missed": 0,
+   "alert_unassoc": 3839,
+   "esc_per_day": 20.25,
+   "diff_vs_P3_pp": -0.89,
+   "ci95": [
+    -1.42,
+    -0.43
+   ]
+  },
+  "CG-D table": {
+   "missed": 17,
+   "alert_unassoc": 2507,
+   "esc_per_day": 18.96,
+   "diff_vs_P3_pp": 0.48,
+   "ci95": [
+    0.16,
+    0.89
+   ]
+  },
+  "P3": {
+   "missed": 11,
+   "alert_unassoc": 5619,
+   "esc_per_day": 11.04
+  }
+ },
+ "KURK": {
+  "c=1.0": {
+   "missed": 101,
+   "alert_unassoc": 1799,
+   "esc_per_day": 16.19,
+   "diff_vs_P3_pp": 9.29,
+   "ci95": [
+    7.48,
+    11.14
+   ]
+  },
+  "c=0.9": {
+   "missed": 84,
+   "alert_unassoc": 1843,
+   "esc_per_day": 16.51,
+   "diff_vs_P3_pp": 7.5,
+   "ci95": [
+    5.83,
+    9.19
+   ]
+  },
+  "c=0.75": {
+   "missed": 63,
+   "alert_unassoc": 1934,
+   "esc_per_day": 17.18,
+   "diff_vs_P3_pp": 5.28,
+   "ci95": [
+    3.93,
+    6.69
+   ]
+  },
+  "c=0.5": {
+   "missed": 30,
+   "alert_unassoc": 2118,
+   "esc_per_day": 18.28,
+   "diff_vs_P3_pp": 1.8,
+   "ci95": [
+    1.04,
+    2.68
+   ]
+  },
+  "c=0.25": {
+   "missed": 6,
+   "alert_unassoc": 2426,
+   "esc_per_day": 18.7,
+   "diff_vs_P3_pp": -0.74,
+   "ci95": [
+    -1.29,
+    -0.22
+   ]
+  },
+  "c=0.0": {
+   "missed": 0,
+   "alert_unassoc": 3023,
+   "esc_per_day": 18.3,
+   "diff_vs_P3_pp": -1.37,
+   "ci95": [
+    -2.14,
+    -0.71
+   ]
+  },
+  "CG-D table": {
+   "missed": 30,
+   "alert_unassoc": 2015,
+   "esc_per_day": 18.57,
+   "diff_vs_P3_pp": 1.8,
+   "ci95": [
+    1.04,
+    2.68
+   ]
+  },
+  "P3": {
+   "missed": 13,
+   "alert_unassoc": 5235,
+   "esc_per_day": 9.79
+  }
+ }
+}

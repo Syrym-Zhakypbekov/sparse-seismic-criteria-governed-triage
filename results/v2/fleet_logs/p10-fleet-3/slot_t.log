@@ -1,0 +1,12 @@
+2026-11-07T19:30:54Z AU plan base=EARTHSCOPE tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1', 'S3_2']
+2026-11-07T19:32:46Z AU tune attempt 1: rc=-15 112s thresholds=yes
+2026-11-07T19:32:46Z AU thresholds {'MAKZ': 4.6640712308954555, 'S1_1': 5.685287992381959, 'S2_1': 4.558678848627855, 'S3_1': 4.517449364825817, 'S3_2': 8.609239015565594}
+2026-11-07T19:57:38Z AU out_2024-01-08 attempt 1: rc=0 1491s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:01:29Z AU out_2024-04-08 attempt 1: rc=0 1663s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:01:29Z AU FINISHED state=done
+2026-11-07T20:01:30Z NS plan base=https://eida.geo.uib.no tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T20:06:07Z NS tune attempt 1: rc=-15 277s thresholds=yes
+2026-11-07T20:06:07Z NS thresholds {'MAKZ': 4.32630775897177, 'S1_1': 4.523302259732247, 'S2_1': 4.364925109280282, 'S2_2': 4.580896329838367, 'S3_1': 4.647185483491391}
+2026-11-07T21:20:45Z NS out_2024-01-08 attempt 1: rc=0 4478s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T21:20:53Z NS out_2024-04-08 attempt 1: rc=0 4426s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T21:20:53Z NS FINISHED state=done

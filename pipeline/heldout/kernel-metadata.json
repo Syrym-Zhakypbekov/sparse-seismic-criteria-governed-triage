@@ -1,0 +1,13 @@
+{
+ "id": "syrym95/p10-seismic-heldout",
+ "title": "p10-seismic-heldout",
+ "code_file": "p10_heldout.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_internet": true,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": []
+}

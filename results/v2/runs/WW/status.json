@@ -1,0 +1,113 @@
+{
+ "network": "WW",
+ "config_file": "results/v2/networks_batchB.json",
+ "host": "07037cff1d56",
+ "platform": "kaggle",
+ "fdsn_base": "EARTHSCOPE",
+ "stations": {
+  "MAKZ": [
+   "WW",
+   "TBID",
+   "00",
+   "HHZ",
+   46.70853,
+   -116.93362
+  ],
+  "S1_1": [
+   "WW",
+   "BILL",
+   "00",
+   "HHZ",
+   47.033115,
+   -116.337673
+  ],
+  "S2_1": [
+   "WW",
+   "TYLR",
+   "00",
+   "HHZ",
+   45.101977,
+   -114.851741
+  ],
+  "S3_1": [
+   "WW",
+   "CTNW",
+   "00",
+   "HHZ",
+   44.06506,
+   -116.36919
+  ]
+ },
+ "tune": [
+  "2024-01-01",
+  "2024-01-08"
+ ],
+ "eval": [
+  "2024-01-08",
+  "2024-07-08"
+ ],
+ "chunks": {
+  "tune": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 134,
+     "end_utc": "2026-11-07T19:31:58Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-01-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1487,
+     "end_utc": "2026-11-07T19:56:45Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  },
+  "out_2024-04-08": {
+   "attempts": [
+    {
+     "attempt": 1,
+     "rc": 0,
+     "seconds": 1514,
+     "end_utc": "2026-11-07T19:58:11Z",
+     "summary": true,
+     "fetch_failures": 0,
+     "catalog_failures": []
+    }
+   ],
+   "ok": true
+  }
+ },
+ "deviations": [],
+ "started_utc": "2026-11-07T19:29:44Z",
+ "state": "done",
+ "chunk_plan": [
+  [
+   "2024-01-08",
+   "2024-04-08"
+  ],
+  [
+   "2024-04-08",
+   "2024-07-08"
+  ]
+ ],
+ "thresholds": {
+  "MAKZ": 6.65915076317332,
+  "S1_1": 8.925270753213008,
+  "S2_1": 9.279124011065191,
+  "S3_1": 9.29845396398586
+ },
+ "finished_utc": "2026-11-07T19:58:11Z"
+}

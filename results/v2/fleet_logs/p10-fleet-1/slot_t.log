@@ -1,0 +1,9 @@
+2026-11-07T19:30:54Z AW plan base=https://geofon.gfz.de tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1']
+2026-11-07T19:32:46Z AW tune attempt 1: rc=-15 112s thresholds=yes
+2026-11-07T19:32:46Z AW TUNING FAILED thr={'MAKZ': 5.108999950037172, 'S1_1': 8.325737065771984, 'S2_1': 7.147775734465867, 'S3_1': nan}
+2026-11-07T19:32:46Z IV plan base=https://webservices.ingv.it tune 2024-01-01..2024-01-08 eval 2024-01-08..2024-07-08 chunks=2 roles=['MAKZ', 'S1_1', 'S2_1', 'S3_1', 'S3_2']
+2026-11-07T19:38:18Z IV tune attempt 1: rc=-15 332s thresholds=yes
+2026-11-07T19:38:18Z IV thresholds {'MAKZ': 3.9337584650993733, 'S1_1': 4.338362800770845, 'S2_1': 4.45111259840932, 'S3_1': 4.482808486156803, 'S3_2': 5.080867683810387}
+2026-11-07T20:38:20Z IV out_2024-04-08 attempt 1: rc=0 3542s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:39:12Z IV out_2024-01-08 attempt 1: rc=0 3654s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T20:39:12Z IV FINISHED state=done

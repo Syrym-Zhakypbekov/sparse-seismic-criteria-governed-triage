@@ -1,0 +1,1869 @@
+{
+ "status": "post hoc (internal review v30); pre-specified control extended per policy",
+ "sets": {
+  "reviewed": {
+   "networks": 33,
+   "assoc": 4321,
+   "chance_assoc_mean": 359.6,
+   "chance_share_assoc": 0.0832,
+   "CG": {
+    "raw_pooled_minus_P3_pp": 3.888,
+    "chance_corrected_pooled_minus_P3_pp": 2.171,
+    "dismissed": 319,
+    "chance_dismissed_mean": 214.69
+   },
+   "CG-D": {
+    "raw_pooled_minus_P3_pp": 0.972,
+    "chance_corrected_pooled_minus_P3_pp": 0.479,
+    "dismissed": 193,
+    "chance_dismissed_mean": 155.71
+   },
+   "CG_c05": {
+    "raw_pooled_minus_P3_pp": 0.741,
+    "chance_corrected_pooled_minus_P3_pp": 0.32,
+    "dismissed": 183,
+    "chance_dismissed_mean": 152.02
+   },
+   "P3": {
+    "dismissed": 151,
+    "chance_dismissed_mean": 132.69
+   },
+   "per_network": {
+    "AE": {
+     "assoc": 242,
+     "chance_assoc": 10.12,
+     "dismissed": {
+      "CG": 18,
+      "CG-D": 9,
+      "CG_c05": 8,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 5.22,
+      "CG-D": 3.42,
+      "CG_c05": 3.29,
+      "P3": 2.76
+     }
+    },
+    "AG": {
+     "assoc": 37,
+     "chance_assoc": 6.23,
+     "dismissed": {
+      "CG": 6,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 4.05,
+      "CG-D": 2.44,
+      "CG_c05": 2.4,
+      "P3": 1.92
+     }
+    },
+    "AU": {
+     "assoc": 90,
+     "chance_assoc": 0.77,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.66,
+      "CG-D": 0.66,
+      "CG_c05": 0.66,
+      "P3": 0.66
+     }
+    },
+    "AV": {
+     "assoc": 433,
+     "chance_assoc": 10.98,
+     "dismissed": {
+      "CG": 34,
+      "CG-D": 26,
+      "CG_c05": 26,
+      "P3": 17
+     },
+     "chance_dismissed": {
+      "CG": 3.45,
+      "CG-D": 3.0,
+      "CG_c05": 2.93,
+      "P3": 2.57
+     }
+    },
+    "BW": {
+     "assoc": 99,
+     "chance_assoc": 6.19,
+     "dismissed": {
+      "CG": 13,
+      "CG-D": 5,
+      "CG_c05": 4,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 4.48,
+      "CG-D": 3.33,
+      "CG_c05": 3.07,
+      "P3": 2.9
+     }
+    },
+    "C0": {
+     "assoc": 92,
+     "chance_assoc": 14.3,
+     "dismissed": {
+      "CG": 12,
+      "CG-D": 6,
+      "CG_c05": 5,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 10.6,
+      "CG-D": 7.16,
+      "CG_c05": 6.97,
+      "P3": 5.68
+     }
+    },
+    "C1": {
+     "assoc": 190,
+     "chance_assoc": 3.81,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.25,
+      "CG-D": 0.01,
+      "CG_c05": 0.01,
+      "P3": 0.01
+     }
+    },
+    "CN": {
+     "assoc": 55,
+     "chance_assoc": 2.85,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 2.2,
+      "CG-D": 1.92,
+      "CG_c05": 1.92,
+      "P3": 1.76
+     }
+    },
+    "EE": {
+     "assoc": 73,
+     "chance_assoc": 3.15,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 2.81,
+      "CG-D": 2.55,
+      "CG_c05": 2.52,
+      "P3": 2.29
+     }
+    },
+    "ET": {
+     "assoc": 69,
+     "chance_assoc": 2.56,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 1.69,
+      "CG-D": 1.35,
+      "CG_c05": 1.34,
+      "P3": 1.22
+     }
+    },
+    "FN": {
+     "assoc": 101,
+     "chance_assoc": 1.18,
+     "dismissed": {
+      "CG": 1,
+      "CG-D": 1,
+      "CG_c05": 1,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.72,
+      "CG-D": 0.7,
+      "CG_c05": 0.7,
+      "P3": 0.63
+     }
+    },
+    "HC": {
+     "assoc": 90,
+     "chance_assoc": 5.1,
+     "dismissed": {
+      "CG": 1,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 3.83,
+      "CG-D": 3.12,
+      "CG_c05": 3.06,
+      "P3": 2.54
+     }
+    },
+    "HE": {
+     "assoc": 112,
+     "chance_assoc": 1.15,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 0.36,
+      "CG-D": 0.35,
+      "CG_c05": 0.32,
+      "P3": 0.29
+     }
+    },
+    "HL": {
+     "assoc": 263,
+     "chance_assoc": 4.49,
+     "dismissed": {
+      "CG": 17,
+      "CG-D": 6,
+      "CG_c05": 4,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 2.47,
+      "CG-D": 1.28,
+      "CG_c05": 1.23,
+      "P3": 0.86
+     }
+    },
+    "IV": {
+     "assoc": 122,
+     "chance_assoc": 4.71,
+     "dismissed": {
+      "CG": 23,
+      "CG-D": 19,
+      "CG_c05": 18,
+      "P3": 16
+     },
+     "chance_dismissed": {
+      "CG": 4.16,
+      "CG-D": 4.03,
+      "CG_c05": 4.02,
+      "P3": 3.96
+     }
+    },
+    "IW": {
+     "assoc": 245,
+     "chance_assoc": 13.92,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 2.89,
+      "CG-D": 1.3,
+      "CG_c05": 1.22,
+      "P3": 0.84
+     }
+    },
+    "JP": {
+     "assoc": 218,
+     "chance_assoc": 162.34,
+     "dismissed": {
+      "CG": 83,
+      "CG-D": 57,
+      "CG_c05": 56,
+      "P3": 48
+     },
+     "chance_dismissed": {
+      "CG": 109.02,
+      "CG-D": 81.28,
+      "CG_c05": 79.72,
+      "P3": 70.14
+     }
+    },
+    "KR": {
+     "assoc": 206,
+     "chance_assoc": 3.74,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 1.41,
+      "CG-D": 0.48,
+      "CG_c05": 0.42,
+      "P3": 0.3
+     }
+    },
+    "MB": {
+     "assoc": 129,
+     "chance_assoc": 3.69,
+     "dismissed": {
+      "CG": 6,
+      "CG-D": 3,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 1.29,
+      "CG-D": 0.97,
+      "CG_c05": 0.92,
+      "P3": 0.9
+     }
+    },
+    "ND": {
+     "assoc": 284,
+     "chance_assoc": 8.61,
+     "dismissed": {
+      "CG": 1,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 4.02,
+      "CG-D": 1.62,
+      "CG_c05": 1.53,
+      "P3": 0.88
+     }
+    },
+    "NE": {
+     "assoc": 42,
+     "chance_assoc": 1.73,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 1,
+      "CG_c05": 1,
+      "P3": 1
+     },
+     "chance_dismissed": {
+      "CG": 1.39,
+      "CG-D": 1.25,
+      "CG_c05": 1.25,
+      "P3": 1.23
+     }
+    },
+    "NM": {
+     "assoc": 37,
+     "chance_assoc": 2.8,
+     "dismissed": {
+      "CG": 5,
+      "CG-D": 5,
+      "CG_c05": 5,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 2.14,
+      "CG-D": 1.87,
+      "CG_c05": 1.86,
+      "P3": 1.88
+     }
+    },
+    "NS": {
+     "assoc": 60,
+     "chance_assoc": 0.7,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 0.59,
+      "CG-D": 0.59,
+      "CG_c05": 0.59,
+      "P3": 0.59
+     }
+    },
+    "NY": {
+     "assoc": 38,
+     "chance_assoc": 9.44,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.1,
+      "CG-D": 0.03,
+      "CG_c05": 0.01,
+      "P3": 0.02
+     }
+    },
+    "OH": {
+     "assoc": 53,
+     "chance_assoc": 2.39,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 1.66,
+      "CG-D": 1.42,
+      "CG_c05": 1.45,
+      "P3": 1.53
+     }
+    },
+    "OK": {
+     "assoc": 81,
+     "chance_assoc": 6.41,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 3,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 4.54,
+      "CG-D": 3.36,
+      "CG_c05": 3.29,
+      "P3": 2.71
+     }
+    },
+    "PL": {
+     "assoc": 97,
+     "chance_assoc": 1.68,
+     "dismissed": {
+      "CG": 5,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 0.6,
+      "CG-D": 0.33,
+      "CG_c05": 0.35,
+      "P3": 0.4
+     }
+    },
+    "RV": {
+     "assoc": 72,
+     "chance_assoc": 7.11,
+     "dismissed": {
+      "CG": 1,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 2.55,
+      "CG-D": 1.51,
+      "CG_c05": 1.2,
+      "P3": 1.41
+     }
+    },
+    "SI": {
+     "assoc": 170,
+     "chance_assoc": 23.63,
+     "dismissed": {
+      "CG": 20,
+      "CG-D": 13,
+      "CG_c05": 12,
+      "P3": 12
+     },
+     "chance_dismissed": {
+      "CG": 16.89,
+      "CG-D": 13.28,
+      "CG_c05": 13.07,
+      "P3": 11.79
+     }
+    },
+    "UO": {
+     "assoc": 123,
+     "chance_assoc": 6.16,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 1,
+      "CG_c05": 1,
+      "P3": 1
+     },
+     "chance_dismissed": {
+      "CG": 3.38,
+      "CG-D": 2.46,
+      "CG_c05": 2.4,
+      "P3": 2.05
+     }
+    },
+    "UU": {
+     "assoc": 245,
+     "chance_assoc": 11.16,
+     "dismissed": {
+      "CG": 16,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 1
+     },
+     "chance_dismissed": {
+      "CG": 4.11,
+      "CG-D": 2.22,
+      "CG_c05": 2.13,
+      "P3": 1.67
+     }
+    },
+    "UW": {
+     "assoc": 35,
+     "chance_assoc": 6.77,
+     "dismissed": {
+      "CG": 8,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 4.19,
+      "CG-D": 1.88,
+      "CG_c05": 1.73,
+      "P3": 0.97
+     }
+    },
+    "WW": {
+     "assoc": 118,
+     "chance_assoc": 9.73,
+     "dismissed": {
+      "CG": 18,
+      "CG-D": 8,
+      "CG_c05": 8,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 6.97,
+      "CG-D": 4.54,
+      "CG_c05": 4.44,
+      "P3": 3.33
+     }
+    }
+   }
+  },
+  "A": {
+   "networks": 7,
+   "assoc": 3782,
+   "chance_assoc_mean": 1627.19,
+   "chance_share_assoc": 0.4302,
+   "CG": {
+    "raw_pooled_minus_P3_pp": 10.127,
+    "chance_corrected_pooled_minus_P3_pp": 1.048,
+    "dismissed": 1088,
+    "chance_dismissed_mean": 1071.89
+   },
+   "CG-D": {
+    "raw_pooled_minus_P3_pp": 2.512,
+    "chance_corrected_pooled_minus_P3_pp": -0.515,
+    "dismissed": 800,
+    "chance_dismissed_mean": 817.58
+   },
+   "CG_c05": {
+    "raw_pooled_minus_P3_pp": 2.142,
+    "chance_corrected_pooled_minus_P3_pp": -0.499,
+    "dismissed": 786,
+    "chance_dismissed_mean": 803.24
+   },
+   "P3": {
+    "dismissed": 705,
+    "chance_dismissed_mean": 711.48
+   },
+   "per_network": {
+    "AU": {
+     "assoc": 104,
+     "chance_assoc": 1.53,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 1.23,
+      "CG-D": 1.23,
+      "CG_c05": 1.23,
+      "P3": 1.23
+     }
+    },
+    "AV": {
+     "assoc": 677,
+     "chance_assoc": 18.12,
+     "dismissed": {
+      "CG": 42,
+      "CG-D": 32,
+      "CG_c05": 32,
+      "P3": 22
+     },
+     "chance_dismissed": {
+      "CG": 5.57,
+      "CG-D": 4.74,
+      "CG_c05": 4.66,
+      "P3": 4.08
+     }
+    },
+    "C1": {
+     "assoc": 874,
+     "chance_assoc": 27.45,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 2.05,
+      "CG-D": 0.21,
+      "CG_c05": 0.2,
+      "P3": 0.06
+     }
+    },
+    "IV": {
+     "assoc": 217,
+     "chance_assoc": 73.02,
+     "dismissed": {
+      "CG": 90,
+      "CG-D": 77,
+      "CG_c05": 76,
+      "P3": 74
+     },
+     "chance_dismissed": {
+      "CG": 64.19,
+      "CG-D": 61.62,
+      "CG_c05": 61.55,
+      "P3": 60.46
+     }
+    },
+    "JP": {
+     "assoc": 1576,
+     "chance_assoc": 1490.15,
+     "dismissed": {
+      "CG": 945,
+      "CG-D": 684,
+      "CG_c05": 671,
+      "P3": 604
+     },
+     "chance_dismissed": {
+      "CG": 991.41,
+      "CG-D": 745.68,
+      "CG_c05": 731.56,
+      "P3": 641.91
+     }
+    },
+    "KR": {
+     "assoc": 269,
+     "chance_assoc": 12.49,
+     "dismissed": {
+      "CG": 5,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 1
+     },
+     "chance_dismissed": {
+      "CG": 4.54,
+      "CG-D": 1.6,
+      "CG_c05": 1.44,
+      "P3": 1.03
+     }
+    },
+    "OH": {
+     "assoc": 65,
+     "chance_assoc": 4.43,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 2.9,
+      "CG-D": 2.5,
+      "CG_c05": 2.6,
+      "P3": 2.71
+     }
+    }
+   }
+  },
+  "B": {
+   "networks": 31,
+   "assoc": 5453,
+   "chance_assoc_mean": 907.93,
+   "chance_share_assoc": 0.1665,
+   "CG": {
+    "raw_pooled_minus_P3_pp": 8.252,
+    "chance_corrected_pooled_minus_P3_pp": 5.335,
+    "dismissed": 948,
+    "chance_dismissed_mean": 575.67
+   },
+   "CG-D": {
+    "raw_pooled_minus_P3_pp": 1.889,
+    "chance_corrected_pooled_minus_P3_pp": 1.005,
+    "dismissed": 601,
+    "chance_dismissed_mean": 425.47
+   },
+   "CG_c05": {
+    "raw_pooled_minus_P3_pp": 1.43,
+    "chance_corrected_pooled_minus_P3_pp": 0.679,
+    "dismissed": 576,
+    "chance_dismissed_mean": 415.29
+   },
+   "P3": {
+    "dismissed": 498,
+    "chance_dismissed_mean": 368.16
+   },
+   "per_network": {
+    "AE": {
+     "assoc": 300,
+     "chance_assoc": 18.67,
+     "dismissed": {
+      "CG": 26,
+      "CG-D": 14,
+      "CG_c05": 13,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 9.74,
+      "CG-D": 6.36,
+      "CG_c05": 6.14,
+      "P3": 5.08
+     }
+    },
+    "AG": {
+     "assoc": 56,
+     "chance_assoc": 15.07,
+     "dismissed": {
+      "CG": 13,
+      "CG-D": 7,
+      "CG_c05": 7,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 9.66,
+      "CG-D": 5.87,
+      "CG_c05": 5.78,
+      "P3": 4.46
+     }
+    },
+    "BW": {
+     "assoc": 260,
+     "chance_assoc": 95.8,
+     "dismissed": {
+      "CG": 105,
+      "CG-D": 67,
+      "CG_c05": 62,
+      "P3": 56
+     },
+     "chance_dismissed": {
+      "CG": 71.27,
+      "CG-D": 52.19,
+      "CG_c05": 49.25,
+      "P3": 45.38
+     }
+    },
+    "C0": {
+     "assoc": 118,
+     "chance_assoc": 27.61,
+     "dismissed": {
+      "CG": 26,
+      "CG-D": 14,
+      "CG_c05": 12,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 20.23,
+      "CG-D": 13.73,
+      "CG_c05": 13.37,
+      "P3": 10.8
+     }
+    },
+    "CN": {
+     "assoc": 64,
+     "chance_assoc": 5.15,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 4.0,
+      "CG-D": 3.5,
+      "CG_c05": 3.49,
+      "P3": 3.23
+     }
+    },
+    "CO": {
+     "assoc": 34,
+     "chance_assoc": 4.42,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 2.74,
+      "CG-D": 1.57,
+      "CG_c05": 1.55,
+      "P3": 1.14
+     }
+    },
+    "EE": {
+     "assoc": 88,
+     "chance_assoc": 17.33,
+     "dismissed": {
+      "CG": 12,
+      "CG-D": 9,
+      "CG_c05": 9,
+      "P3": 8
+     },
+     "chance_dismissed": {
+      "CG": 15.45,
+      "CG-D": 14.15,
+      "CG_c05": 14.03,
+      "P3": 13.0
+     }
+    },
+    "ET": {
+     "assoc": 79,
+     "chance_assoc": 5.16,
+     "dismissed": {
+      "CG": 8,
+      "CG-D": 8,
+      "CG_c05": 8,
+      "P3": 7
+     },
+     "chance_dismissed": {
+      "CG": 3.25,
+      "CG-D": 2.52,
+      "CG_c05": 2.56,
+      "P3": 2.3
+     }
+    },
+    "FN": {
+     "assoc": 218,
+     "chance_assoc": 5.39,
+     "dismissed": {
+      "CG": 20,
+      "CG-D": 19,
+      "CG_c05": 19,
+      "P3": 16
+     },
+     "chance_dismissed": {
+      "CG": 2.96,
+      "CG-D": 2.85,
+      "CG_c05": 2.84,
+      "P3": 2.73
+     }
+    },
+    "HC": {
+     "assoc": 318,
+     "chance_assoc": 74.27,
+     "dismissed": {
+      "CG": 109,
+      "CG-D": 75,
+      "CG_c05": 73,
+      "P3": 66
+     },
+     "chance_dismissed": {
+      "CG": 57.49,
+      "CG-D": 46.85,
+      "CG_c05": 45.86,
+      "P3": 39.96
+     }
+    },
+    "HE": {
+     "assoc": 179,
+     "chance_assoc": 5.71,
+     "dismissed": {
+      "CG": 6,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 1.91,
+      "CG-D": 1.79,
+      "CG_c05": 1.76,
+      "P3": 1.63
+     }
+    },
+    "HL": {
+     "assoc": 684,
+     "chance_assoc": 67.05,
+     "dismissed": {
+      "CG": 118,
+      "CG-D": 37,
+      "CG_c05": 32,
+      "P3": 17
+     },
+     "chance_dismissed": {
+      "CG": 35.64,
+      "CG-D": 19.73,
+      "CG_c05": 19.2,
+      "P3": 14.33
+     }
+    },
+    "IW": {
+     "assoc": 354,
+     "chance_assoc": 30.25,
+     "dismissed": {
+      "CG": 6,
+      "CG-D": 1,
+      "CG_c05": 1,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 6.36,
+      "CG-D": 2.85,
+      "CG_c05": 2.67,
+      "P3": 1.68
+     }
+    },
+    "MB": {
+     "assoc": 187,
+     "chance_assoc": 7.02,
+     "dismissed": {
+      "CG": 9,
+      "CG-D": 5,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 2.37,
+      "CG-D": 1.75,
+      "CG_c05": 1.68,
+      "P3": 1.67
+     }
+    },
+    "N4": {
+     "assoc": 34,
+     "chance_assoc": 5.13,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 3.07,
+      "CG-D": 2.03,
+      "CG_c05": 2.1,
+      "P3": 2.06
+     }
+    },
+    "ND": {
+     "assoc": 299,
+     "chance_assoc": 11.5,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 1,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 5.33,
+      "CG-D": 2.02,
+      "CG_c05": 1.89,
+      "P3": 1.07
+     }
+    },
+    "NE": {
+     "assoc": 51,
+     "chance_assoc": 3.07,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 2.58,
+      "CG-D": 2.38,
+      "CG_c05": 2.38,
+      "P3": 2.32
+     }
+    },
+    "NM": {
+     "assoc": 42,
+     "chance_assoc": 5.05,
+     "dismissed": {
+      "CG": 9,
+      "CG-D": 8,
+      "CG_c05": 8,
+      "P3": 8
+     },
+     "chance_dismissed": {
+      "CG": 3.85,
+      "CG-D": 3.38,
+      "CG_c05": 3.34,
+      "P3": 3.33
+     }
+    },
+    "NS": {
+     "assoc": 71,
+     "chance_assoc": 3.86,
+     "dismissed": {
+      "CG": 7,
+      "CG-D": 7,
+      "CG_c05": 7,
+      "P3": 7
+     },
+     "chance_dismissed": {
+      "CG": 3.42,
+      "CG-D": 3.41,
+      "CG_c05": 3.41,
+      "P3": 3.41
+     }
+    },
+    "NY": {
+     "assoc": 51,
+     "chance_assoc": 16.65,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.26,
+      "CG-D": 0.03,
+      "CG_c05": 0.01,
+      "P3": 0.02
+     }
+    },
+    "OK": {
+     "assoc": 135,
+     "chance_assoc": 14.1,
+     "dismissed": {
+      "CG": 8,
+      "CG-D": 6,
+      "CG_c05": 5,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 9.7,
+      "CG-D": 7.12,
+      "CG_c05": 6.94,
+      "P3": 5.82
+     }
+    },
+    "PE": {
+     "assoc": 35,
+     "chance_assoc": 4.9,
+     "dismissed": {
+      "CG": 1,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.41,
+      "CG-D": 0.15,
+      "CG_c05": 0.13,
+      "P3": 0.06
+     }
+    },
+    "PL": {
+     "assoc": 149,
+     "chance_assoc": 25.88,
+     "dismissed": {
+      "CG": 17,
+      "CG-D": 9,
+      "CG_c05": 9,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 10.42,
+      "CG-D": 7.05,
+      "CG_c05": 7.3,
+      "P3": 8.11
+     }
+    },
+    "QZ": {
+     "assoc": 31,
+     "chance_assoc": 14.0,
+     "dismissed": {
+      "CG": 7,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 4.92,
+      "CG-D": 2.3,
+      "CG_c05": 2.17,
+      "P3": 1.74
+     }
+    },
+    "RV": {
+     "assoc": 161,
+     "chance_assoc": 17.84,
+     "dismissed": {
+      "CG": 5,
+      "CG-D": 2,
+      "CG_c05": 1,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 6.91,
+      "CG-D": 4.08,
+      "CG_c05": 3.21,
+      "P3": 3.82
+     }
+    },
+    "SI": {
+     "assoc": 758,
+     "chance_assoc": 338.07,
+     "dismissed": {
+      "CG": 351,
+      "CG-D": 266,
+      "CG_c05": 260,
+      "P3": 230
+     },
+     "chance_dismissed": {
+      "CG": 243.28,
+      "CG-D": 193.14,
+      "CG_c05": 190.5,
+      "P3": 172.58
+     }
+    },
+    "TX": {
+     "assoc": 35,
+     "chance_assoc": 4.19,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 2.71,
+      "CG-D": 1.37,
+      "CG_c05": 1.23,
+      "P3": 0.93
+     }
+    },
+    "UO": {
+     "assoc": 156,
+     "chance_assoc": 12.3,
+     "dismissed": {
+      "CG": 11,
+      "CG-D": 7,
+      "CG_c05": 7,
+      "P3": 7
+     },
+     "chance_dismissed": {
+      "CG": 6.79,
+      "CG-D": 5.13,
+      "CG_c05": 5.0,
+      "P3": 4.31
+     }
+    },
+    "UU": {
+     "assoc": 278,
+     "chance_assoc": 21.05,
+     "dismissed": {
+      "CG": 19,
+      "CG-D": 6,
+      "CG_c05": 6,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 7.65,
+      "CG-D": 4.16,
+      "CG_c05": 3.93,
+      "P3": 2.98
+     }
+    },
+    "UW": {
+     "assoc": 46,
+     "chance_assoc": 12.76,
+     "dismissed": {
+      "CG": 10,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 7.98,
+      "CG-D": 3.51,
+      "CG_c05": 3.27,
+      "P3": 1.86
+     }
+    },
+    "WW": {
+     "assoc": 182,
+     "chance_assoc": 18.68,
+     "dismissed": {
+      "CG": 31,
+      "CG-D": 14,
+      "CG_c05": 14,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 13.32,
+      "CG-D": 8.5,
+      "CG_c05": 8.3,
+      "P3": 6.35
+     }
+    }
+   }
+  },
+  "A+B": {
+   "networks": 38,
+   "assoc": 9235,
+   "chance_assoc_mean": 2535.12,
+   "chance_share_assoc": 0.2745,
+   "CG": {
+    "raw_pooled_minus_P3_pp": 9.02,
+    "chance_corrected_pooled_minus_P3_pp": 3.956,
+    "dismissed": 2036,
+    "chance_dismissed_mean": 1647.56
+   },
+   "CG-D": {
+    "raw_pooled_minus_P3_pp": 2.144,
+    "chance_corrected_pooled_minus_P3_pp": 0.516,
+    "dismissed": 1401,
+    "chance_dismissed_mean": 1243.05
+   },
+   "CG_c05": {
+    "raw_pooled_minus_P3_pp": 1.722,
+    "chance_corrected_pooled_minus_P3_pp": 0.3,
+    "dismissed": 1362,
+    "chance_dismissed_mean": 1218.53
+   },
+   "P3": {
+    "dismissed": 1203,
+    "chance_dismissed_mean": 1079.64
+   },
+   "per_network": {
+    "AE": {
+     "assoc": 300,
+     "chance_assoc": 18.67,
+     "dismissed": {
+      "CG": 26,
+      "CG-D": 14,
+      "CG_c05": 13,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 9.74,
+      "CG-D": 6.36,
+      "CG_c05": 6.14,
+      "P3": 5.08
+     }
+    },
+    "AG": {
+     "assoc": 56,
+     "chance_assoc": 15.07,
+     "dismissed": {
+      "CG": 13,
+      "CG-D": 7,
+      "CG_c05": 7,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 9.66,
+      "CG-D": 5.87,
+      "CG_c05": 5.78,
+      "P3": 4.46
+     }
+    },
+    "AU": {
+     "assoc": 104,
+     "chance_assoc": 1.53,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 1.23,
+      "CG-D": 1.23,
+      "CG_c05": 1.23,
+      "P3": 1.23
+     }
+    },
+    "AV": {
+     "assoc": 677,
+     "chance_assoc": 18.12,
+     "dismissed": {
+      "CG": 42,
+      "CG-D": 32,
+      "CG_c05": 32,
+      "P3": 22
+     },
+     "chance_dismissed": {
+      "CG": 5.57,
+      "CG-D": 4.74,
+      "CG_c05": 4.66,
+      "P3": 4.08
+     }
+    },
+    "BW": {
+     "assoc": 260,
+     "chance_assoc": 95.8,
+     "dismissed": {
+      "CG": 105,
+      "CG-D": 67,
+      "CG_c05": 62,
+      "P3": 56
+     },
+     "chance_dismissed": {
+      "CG": 71.27,
+      "CG-D": 52.19,
+      "CG_c05": 49.25,
+      "P3": 45.38
+     }
+    },
+    "C0": {
+     "assoc": 118,
+     "chance_assoc": 27.61,
+     "dismissed": {
+      "CG": 26,
+      "CG-D": 14,
+      "CG_c05": 12,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 20.23,
+      "CG-D": 13.73,
+      "CG_c05": 13.37,
+      "P3": 10.8
+     }
+    },
+    "C1": {
+     "assoc": 874,
+     "chance_assoc": 27.45,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 2.05,
+      "CG-D": 0.21,
+      "CG_c05": 0.2,
+      "P3": 0.06
+     }
+    },
+    "CN": {
+     "assoc": 64,
+     "chance_assoc": 5.15,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 4.0,
+      "CG-D": 3.5,
+      "CG_c05": 3.49,
+      "P3": 3.23
+     }
+    },
+    "CO": {
+     "assoc": 34,
+     "chance_assoc": 4.42,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 2.74,
+      "CG-D": 1.57,
+      "CG_c05": 1.55,
+      "P3": 1.14
+     }
+    },
+    "EE": {
+     "assoc": 88,
+     "chance_assoc": 17.33,
+     "dismissed": {
+      "CG": 12,
+      "CG-D": 9,
+      "CG_c05": 9,
+      "P3": 8
+     },
+     "chance_dismissed": {
+      "CG": 15.45,
+      "CG-D": 14.15,
+      "CG_c05": 14.03,
+      "P3": 13.0
+     }
+    },
+    "ET": {
+     "assoc": 79,
+     "chance_assoc": 5.16,
+     "dismissed": {
+      "CG": 8,
+      "CG-D": 8,
+      "CG_c05": 8,
+      "P3": 7
+     },
+     "chance_dismissed": {
+      "CG": 3.25,
+      "CG-D": 2.52,
+      "CG_c05": 2.56,
+      "P3": 2.3
+     }
+    },
+    "FN": {
+     "assoc": 218,
+     "chance_assoc": 5.39,
+     "dismissed": {
+      "CG": 20,
+      "CG-D": 19,
+      "CG_c05": 19,
+      "P3": 16
+     },
+     "chance_dismissed": {
+      "CG": 2.96,
+      "CG-D": 2.85,
+      "CG_c05": 2.84,
+      "P3": 2.73
+     }
+    },
+    "HC": {
+     "assoc": 318,
+     "chance_assoc": 74.27,
+     "dismissed": {
+      "CG": 109,
+      "CG-D": 75,
+      "CG_c05": 73,
+      "P3": 66
+     },
+     "chance_dismissed": {
+      "CG": 57.49,
+      "CG-D": 46.85,
+      "CG_c05": 45.86,
+      "P3": 39.96
+     }
+    },
+    "HE": {
+     "assoc": 179,
+     "chance_assoc": 5.71,
+     "dismissed": {
+      "CG": 6,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 1.91,
+      "CG-D": 1.79,
+      "CG_c05": 1.76,
+      "P3": 1.63
+     }
+    },
+    "HL": {
+     "assoc": 684,
+     "chance_assoc": 67.05,
+     "dismissed": {
+      "CG": 118,
+      "CG-D": 37,
+      "CG_c05": 32,
+      "P3": 17
+     },
+     "chance_dismissed": {
+      "CG": 35.64,
+      "CG-D": 19.73,
+      "CG_c05": 19.2,
+      "P3": 14.33
+     }
+    },
+    "IV": {
+     "assoc": 217,
+     "chance_assoc": 73.02,
+     "dismissed": {
+      "CG": 90,
+      "CG-D": 77,
+      "CG_c05": 76,
+      "P3": 74
+     },
+     "chance_dismissed": {
+      "CG": 64.19,
+      "CG-D": 61.62,
+      "CG_c05": 61.55,
+      "P3": 60.46
+     }
+    },
+    "IW": {
+     "assoc": 354,
+     "chance_assoc": 30.25,
+     "dismissed": {
+      "CG": 6,
+      "CG-D": 1,
+      "CG_c05": 1,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 6.36,
+      "CG-D": 2.85,
+      "CG_c05": 2.67,
+      "P3": 1.68
+     }
+    },
+    "JP": {
+     "assoc": 1576,
+     "chance_assoc": 1490.15,
+     "dismissed": {
+      "CG": 945,
+      "CG-D": 684,
+      "CG_c05": 671,
+      "P3": 604
+     },
+     "chance_dismissed": {
+      "CG": 991.41,
+      "CG-D": 745.68,
+      "CG_c05": 731.56,
+      "P3": 641.91
+     }
+    },
+    "KR": {
+     "assoc": 269,
+     "chance_assoc": 12.49,
+     "dismissed": {
+      "CG": 5,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 1
+     },
+     "chance_dismissed": {
+      "CG": 4.54,
+      "CG-D": 1.6,
+      "CG_c05": 1.44,
+      "P3": 1.03
+     }
+    },
+    "MB": {
+     "assoc": 187,
+     "chance_assoc": 7.02,
+     "dismissed": {
+      "CG": 9,
+      "CG-D": 5,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 2.37,
+      "CG-D": 1.75,
+      "CG_c05": 1.68,
+      "P3": 1.67
+     }
+    },
+    "N4": {
+     "assoc": 34,
+     "chance_assoc": 5.13,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 3.07,
+      "CG-D": 2.03,
+      "CG_c05": 2.1,
+      "P3": 2.06
+     }
+    },
+    "ND": {
+     "assoc": 299,
+     "chance_assoc": 11.5,
+     "dismissed": {
+      "CG": 2,
+      "CG-D": 1,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 5.33,
+      "CG-D": 2.02,
+      "CG_c05": 1.89,
+      "P3": 1.07
+     }
+    },
+    "NE": {
+     "assoc": 51,
+     "chance_assoc": 3.07,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 2.58,
+      "CG-D": 2.38,
+      "CG_c05": 2.38,
+      "P3": 2.32
+     }
+    },
+    "NM": {
+     "assoc": 42,
+     "chance_assoc": 5.05,
+     "dismissed": {
+      "CG": 9,
+      "CG-D": 8,
+      "CG_c05": 8,
+      "P3": 8
+     },
+     "chance_dismissed": {
+      "CG": 3.85,
+      "CG-D": 3.38,
+      "CG_c05": 3.34,
+      "P3": 3.33
+     }
+    },
+    "NS": {
+     "assoc": 71,
+     "chance_assoc": 3.86,
+     "dismissed": {
+      "CG": 7,
+      "CG-D": 7,
+      "CG_c05": 7,
+      "P3": 7
+     },
+     "chance_dismissed": {
+      "CG": 3.42,
+      "CG-D": 3.41,
+      "CG_c05": 3.41,
+      "P3": 3.41
+     }
+    },
+    "NY": {
+     "assoc": 51,
+     "chance_assoc": 16.65,
+     "dismissed": {
+      "CG": 0,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.26,
+      "CG-D": 0.03,
+      "CG_c05": 0.01,
+      "P3": 0.02
+     }
+    },
+    "OH": {
+     "assoc": 65,
+     "chance_assoc": 4.43,
+     "dismissed": {
+      "CG": 4,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 4
+     },
+     "chance_dismissed": {
+      "CG": 2.9,
+      "CG-D": 2.5,
+      "CG_c05": 2.6,
+      "P3": 2.71
+     }
+    },
+    "OK": {
+     "assoc": 135,
+     "chance_assoc": 14.1,
+     "dismissed": {
+      "CG": 8,
+      "CG-D": 6,
+      "CG_c05": 5,
+      "P3": 5
+     },
+     "chance_dismissed": {
+      "CG": 9.7,
+      "CG-D": 7.12,
+      "CG_c05": 6.94,
+      "P3": 5.82
+     }
+    },
+    "PE": {
+     "assoc": 35,
+     "chance_assoc": 4.9,
+     "dismissed": {
+      "CG": 1,
+      "CG-D": 0,
+      "CG_c05": 0,
+      "P3": 0
+     },
+     "chance_dismissed": {
+      "CG": 0.41,
+      "CG-D": 0.15,
+      "CG_c05": 0.13,
+      "P3": 0.06
+     }
+    },
+    "PL": {
+     "assoc": 149,
+     "chance_assoc": 25.88,
+     "dismissed": {
+      "CG": 17,
+      "CG-D": 9,
+      "CG_c05": 9,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 10.42,
+      "CG-D": 7.05,
+      "CG_c05": 7.3,
+      "P3": 8.11
+     }
+    },
+    "QZ": {
+     "assoc": 31,
+     "chance_assoc": 14.0,
+     "dismissed": {
+      "CG": 7,
+      "CG-D": 3,
+      "CG_c05": 3,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 4.92,
+      "CG-D": 2.3,
+      "CG_c05": 2.17,
+      "P3": 1.74
+     }
+    },
+    "RV": {
+     "assoc": 161,
+     "chance_assoc": 17.84,
+     "dismissed": {
+      "CG": 5,
+      "CG-D": 2,
+      "CG_c05": 1,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 6.91,
+      "CG-D": 4.08,
+      "CG_c05": 3.21,
+      "P3": 3.82
+     }
+    },
+    "SI": {
+     "assoc": 758,
+     "chance_assoc": 338.07,
+     "dismissed": {
+      "CG": 351,
+      "CG-D": 266,
+      "CG_c05": 260,
+      "P3": 230
+     },
+     "chance_dismissed": {
+      "CG": 243.28,
+      "CG-D": 193.14,
+      "CG_c05": 190.5,
+      "P3": 172.58
+     }
+    },
+    "TX": {
+     "assoc": 35,
+     "chance_assoc": 4.19,
+     "dismissed": {
+      "CG": 3,
+      "CG-D": 2,
+      "CG_c05": 2,
+      "P3": 2
+     },
+     "chance_dismissed": {
+      "CG": 2.71,
+      "CG-D": 1.37,
+      "CG_c05": 1.23,
+      "P3": 0.93
+     }
+    },
+    "UO": {
+     "assoc": 156,
+     "chance_assoc": 12.3,
+     "dismissed": {
+      "CG": 11,
+      "CG-D": 7,
+      "CG_c05": 7,
+      "P3": 7
+     },
+     "chance_dismissed": {
+      "CG": 6.79,
+      "CG-D": 5.13,
+      "CG_c05": 5.0,
+      "P3": 4.31
+     }
+    },
+    "UU": {
+     "assoc": 278,
+     "chance_assoc": 21.05,
+     "dismissed": {
+      "CG": 19,
+      "CG-D": 6,
+      "CG_c05": 6,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 7.65,
+      "CG-D": 4.16,
+      "CG_c05": 3.93,
+      "P3": 2.98
+     }
+    },
+    "UW": {
+     "assoc": 46,
+     "chance_assoc": 12.76,
+     "dismissed": {
+      "CG": 10,
+      "CG-D": 4,
+      "CG_c05": 4,
+      "P3": 3
+     },
+     "chance_dismissed": {
+      "CG": 7.98,
+      "CG-D": 3.51,
+      "CG_c05": 3.27,
+      "P3": 1.86
+     }
+    },
+    "WW": {
+     "assoc": 182,
+     "chance_assoc": 18.68,
+     "dismissed": {
+      "CG": 31,
+      "CG-D": 14,
+      "CG_c05": 14,
+      "P3": 10
+     },
+     "chance_dismissed": {
+      "CG": 13.32,
+      "CG-D": 8.5,
+      "CG_c05": 8.3,
+      "P3": 6.35
+     }
+    }
+   }
+  }
+ }
+}

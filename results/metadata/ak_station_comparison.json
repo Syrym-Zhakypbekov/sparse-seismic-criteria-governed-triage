@@ -1,0 +1,54 @@
+{
+ "retrieved_utc": "2026-11-07T17:45:58Z",
+ "service": "EarthScope FDSN station service, level=response",
+ "rows": [
+  {
+   "stream": "AK.CUT..BHZ",
+   "start": "2014-06-10",
+   "end": null,
+   "lat": "62.4058",
+   "lon": "-150.2625",
+   "depth_m": "2.5",
+   "sample_rate": "5E01",
+   "sensor": "Nanometrics Trillium 120 Sec Response/Quanterra 33",
+   "datalogger": null,
+   "url": "https://service.earthscope.org/fdsnws/station/1/query?net=AK&sta=CUT&cha=BHZ&starttime=2024-01-01&endtime=2025-07-02&level=response"
+  },
+  {
+   "stream": "AK.L22K..BHZ",
+   "start": "2021-08-19",
+   "end": null,
+   "lat": "62.5258",
+   "lon": "-150.7703",
+   "depth_m": "2.7",
+   "sample_rate": "5E01",
+   "sensor": "Nanometrics Trillium 120 Sec PH Response/Quanterra",
+   "datalogger": null,
+   "url": "https://service.earthscope.org/fdsnws/station/1/query?net=AK&sta=L22K&cha=BHZ&starttime=2024-01-01&endtime=2025-07-02&level=response"
+  },
+  {
+   "stream": "AK.COLD..BHZ",
+   "start": "2016-08-11",
+   "end": null,
+   "lat": "67.2278",
+   "lon": "-150.207",
+   "depth_m": "2.5",
+   "sample_rate": "5E01",
+   "sensor": "Nanometrics Trillium 120 Sec Response/Quanterra 33",
+   "datalogger": null,
+   "url": "https://service.earthscope.org/fdsnws/station/1/query?net=AK&sta=COLD&cha=BHZ&starttime=2024-01-01&endtime=2025-07-02&level=response"
+  },
+  {
+   "stream": "AK.E22K..BHZ",
+   "start": "2020-10-21",
+   "end": null,
+   "lat": "68.1343",
+   "lon": "-151.8132",
+   "depth_m": "1.6",
+   "sample_rate": "5E01",
+   "sensor": "Nanometrics Trillium 120 Sec PH Response/Quanterra",
+   "datalogger": null,
+   "url": "https://service.earthscope.org/fdsnws/station/1/query?net=AK&sta=E22K&cha=BHZ&starttime=2024-01-01&endtime=2025-07-02&level=response"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "downloaded_utc": "2026-11-07T19:05:44+00:00",
+ "queries": [
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-01-07T23:50:00&endtime=2024-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2736,
+   "sha256": "62ad0c5d0db7150a1709778a117ff109a0f17025c13e73db302d228e02946344"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-02-01T00:00:00&endtime=2024-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2498,
+   "sha256": "c00b0c4939654d6f1e500e92ab6b6428b7ff3a4519d09644e6ba02994516055a"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-03-01T00:00:00&endtime=2024-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2935,
+   "sha256": "e2d780e7a35bc7020ab9e7938dbee009e1200449b3b217326a69245bae822f87"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-04-01T00:00:00&endtime=2024-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2727,
+   "sha256": "e58992854f86f0ad774b83b7d6efe35add065baef1eca9cf830d3507b4dce820"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-05-01T00:00:00&endtime=2024-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2613,
+   "sha256": "ab02b852bb6b5b1d3a836de54d76f1ca161c1d275e06936310a52707f361ab97"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-06-01T00:00:00&endtime=2024-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2265,
+   "sha256": "95938e7ddd178ecd0c212f8f596631c2f623b9b1af20e3e474caf5ba16cce248"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-07-01T00:00:00&endtime=2024-08-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2171,
+   "sha256": "c99275fea9da0d7eb6ad9ca022c369cc0ff54bfb9ac9e0a62410f7f65156e8d2"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-08-01T00:00:00&endtime=2024-09-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2153,
+   "sha256": "4a4fb3a8280e241d8181a8b0a3e28f10a380bab16d740d820348fd9e4204ffd0"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-09-01T00:00:00&endtime=2024-10-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2497,
+   "sha256": "d2bacbbae748e173db66489d4659bdd1d7e323781e026ad32ca027c9a0c65efd"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-10-01T00:00:00&endtime=2024-11-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 3162,
+   "sha256": "afa814f46957d51c0f3384e60014e7df2aee79ed492ec830452ac7e1ff9fcc14"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-11-01T00:00:00&endtime=2024-12-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2269,
+   "sha256": "9f016cfa58d4556f0e00fab90554c151e41e36ddba8e66e6e36aea66442df04e"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-12-01T00:00:00&endtime=2025-01-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2790,
+   "sha256": "63819e41b851e7a4287b5a52034871f1eeca2562397c2200e1064708214fef3b"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-01-01T00:00:00&endtime=2025-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2773,
+   "sha256": "ccbef011c195882f06583aa3584daf2e08cfc150b44dd1cbb852e8cc6acd6598"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-02-01T00:00:00&endtime=2025-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2551,
+   "sha256": "45d2c85722b78df5f297e3565747c09242558f7ba7cd49672fc9dcd704d04884"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-03-01T00:00:00&endtime=2025-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 2475,
+   "sha256": "120be47cc5f2b0832502d3f8cdffbbf9c487e98a6ab387c2560700f4d4b72f87"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-04-01T00:00:00&endtime=2025-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 1362,
+   "sha256": "4691a1d4b957799ee16c8fea6841149023911507548bc8d9a37c10c2798fff83"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-05-01T00:00:00&endtime=2025-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 1502,
+   "sha256": "96078df14f0508335e5f194c4ebda704cf5ddf6134ee812bbe1a4ce537101052"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-06-01T00:00:00&endtime=2025-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0",
+   "rows": 1227,
+   "sha256": "8386e0f2c56bcabf03fb9017eb793da160bede921d3b8d4f20d86915b4407549"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-01-07T23:50:00&endtime=2024-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 65,
+   "sha256": "57dfd27c38758923a064a09e46cd806270ae55045aeb435a3baa9befa3472095"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-02-01T00:00:00&endtime=2024-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 65,
+   "sha256": "69485424890c01643b81a04806f91fd78b8c21c965c78e61c97a9ec9bd275692"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-03-01T00:00:00&endtime=2024-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 84,
+   "sha256": "23db25ba72420e7d8c69dfbccf63a77d15e98b0893dbfa801ede4b3e9ed6ef4a"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-04-01T00:00:00&endtime=2024-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 123,
+   "sha256": "ed57cfab278060592eafa5e77d0a3742f340156de43e86687ad7755748fc8df2"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-05-01T00:00:00&endtime=2024-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 127,
+   "sha256": "44531ff32b071b03a54f4b7f58df78012793d64a82a5be870c8d02466e368e85"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-06-01T00:00:00&endtime=2024-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 117,
+   "sha256": "41d33d2f08398d9242771080f7c94983bfcad2eee136f17c8406a0ffbf557855"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-07-01T00:00:00&endtime=2024-08-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 94,
+   "sha256": "15503e1b8ac43b606c99a2e43becd0bd20a7f17644c2932e6b350d3462d87720"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-08-01T00:00:00&endtime=2024-09-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 90,
+   "sha256": "9ac4c9ba719dd37806e13a715a8410df793d51077c50187a72fabd053c58bcd2"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-09-01T00:00:00&endtime=2024-10-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 104,
+   "sha256": "c3b11cd4e3baacafc274570b013061b62474c6e6a10f960840a326f23796ab6c"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-10-01T00:00:00&endtime=2024-11-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 104,
+   "sha256": "a6c69bf343dad21f3a56a359ddcb2b1a935486a23f66f89500b2c17f246a0035"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-11-01T00:00:00&endtime=2024-12-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 264,
+   "sha256": "6bcc358baee0be065fedbdf3d0ae35ca8d2e22e08c0209d3df55ab1055b48c8a"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2024-12-01T00:00:00&endtime=2025-01-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 195,
+   "sha256": "c9cf1b43452e8df26ce295a54dd1ff376d4d6d167b3e5a11a6af5b96e7175e72"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-01-01T00:00:00&endtime=2025-02-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 134,
+   "sha256": "76657b3479e02b55a498d05058348c26c72e1af9132dce6ef3fb3878011911cd"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-02-01T00:00:00&endtime=2025-03-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 302,
+   "sha256": "3e76b998aad01760c29ba46ad78180f7f8a8fcbe2da60091de59595143d995b6"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-03-01T00:00:00&endtime=2025-04-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 311,
+   "sha256": "a920aa46022eee30c3c31a3fbdad47985bf7bf9690a18dd0abb4755cc49d1283"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-04-01T00:00:00&endtime=2025-05-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 509,
+   "sha256": "03715f8ce433e0f1bb88daad6abe12231770bc116e91957c48af82d7d78820fd"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-05-01T00:00:00&endtime=2025-06-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 542,
+   "sha256": "41771d708bfcf322652d6639173a3ab9c4004ab86971e0cd6101a75a6cf94a77"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&orderby=time-asc&starttime=2025-06-01T00:00:00&endtime=2025-07-01T00:00:00&latitude=62.4058&longitude=-150.2625&maxradius=5.0&includedeleted=only",
+   "rows": 484,
+   "sha256": "29b8a8bd8018fff4f39a7c14bcf19456cd045f84007f7d9d091be6a4ff03f54a"
+  },
+  {
+   "file": "comcat_current.csv",
+   "sha256": "96cea0240a54b36ebbf50bc2c274dc6c995c65380a3abdfca741f3f001e5b6fb"
+  },
+  {
+   "file": "comcat_deleted.csv",
+   "sha256": "be437e2366befd6d8ef8a1dc4554532e987d696a72434774e934bd59bfc825e9"
+  }
+ ]
+}

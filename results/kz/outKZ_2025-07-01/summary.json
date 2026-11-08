@@ -1,0 +1,74 @@
+{
+ "version": "v3",
+ "dev_days": 92,
+ "thresholds_q99.9": {
+  "MAKZ": 8.251656209298387,
+  "MK31": 8.071929016229019,
+  "KURK": 9.614672444383686,
+  "WUS": 11.59454367320804
+ },
+ "channel_ids": {
+  "MAKZ": [
+   "KZ.MAKZ..BHZ"
+  ],
+  "MK31": [
+   "KZ.MKAR..BHZ"
+  ],
+  "KURK": [
+   "KZ.KURK..BHZ"
+  ],
+  "WUS": [
+   "KZ.PDGK..BHZ"
+  ]
+ },
+ "episodes": {
+  "MAKZ": 4034,
+  "MK31": 3504,
+  "KURK": 2154,
+  "WUS": 1578
+ },
+ "ref_episodes_per_day": 43.84782608695652,
+ "catalog_failures": [],
+ "fetch_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 0,
+ "catalog": {
+  "regional": 3173,
+  "tele": 185
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2025-07-01T00:00:00.000000Z",
+   "2025-07-01T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2025-07-01T00:00:00.000000Z",
+   "2025-10-01T00:00:00.000000Z"
+  ]
+ }
+}

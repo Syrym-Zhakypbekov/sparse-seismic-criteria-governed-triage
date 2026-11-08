@@ -1,0 +1,7 @@
+2026-11-07T20:22:00Z AV_EXT12 plan base=EARTHSCOPE tune 2024-01-01..2024-07-08 eval 2024-07-08..2025-01-08 chunks=2 roles=['MAKZ', 'S1_1', 'S1_2', 'S2_1', 'S2_2', 'S3_1']
+2026-11-07T20:22:00Z AV_EXT12 EXT12 frozen batch-A thresholds {'MAKZ': 5.709676985246788, 'S1_1': 5.156819764578658, 'S1_2': 4.89973947097502, 'S2_1': 5.278277241947054, 'S2_2': 4.538879133339432, 'S3_1': 5.177753391967141}
+2026-11-07T22:07:29Z AV_EXT12 out_2024-07-08 attempt 1: rc=0 6329s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T22:09:21Z AV_EXT12 out_2024-10-08 attempt 1: rc=0 6381s summary=True fetch_fail=1 cat_fail=[]
+2026-11-07T22:19:33Z AV_EXT12 out_2024-07-08 attempt 2: rc=0 694s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T22:21:25Z AV_EXT12 out_2024-10-08 attempt 2: rc=0 694s summary=True fetch_fail=0 cat_fail=[]
+2026-11-07T22:21:25Z AV_EXT12 FINISHED state=done

@@ -1,0 +1,241 @@
+{
+ "network": "TX",
+ "run_a": {
+  "dir": "results/v2/runs/TX",
+  "platform": "p10-fleet-3-sTX",
+  "host": "p10-fleet-3",
+  "state": "done"
+ },
+ "run_b": {
+  "dir": "results/v2/_replicate_TX_laptop/TX",
+  "platform": "laptop",
+  "host": "prime",
+  "state": "done"
+ },
+ "thresholds_identical": false,
+ "thresholds": {
+  "a": {
+   "MAKZ": 7.1801345622988695,
+   "S1_1": 17.305593510453285,
+   "S1_2": 5.309005929177759,
+   "S2_1": 6.742449711531546,
+   "S3_1": 6.003233006784134
+  },
+  "b": {
+   "MAKZ": 7.180134562298733,
+   "S1_1": 17.305593510453235,
+   "S1_2": 5.309005929176145,
+   "S2_1": 6.742449711531539,
+   "S3_1": 6.003233006784109
+  }
+ },
+ "files_byte_identical": {
+  "out_2024-01-08/availability.csv": false,
+  "out_2024-01-08/catalog.csv": false,
+  "out_2024-01-08/episodes.csv": false,
+  "out_2024-04-08/availability.csv": false,
+  "out_2024-04-08/catalog.csv": false,
+  "out_2024-04-08/episodes.csv": false
+ },
+ "files_identical_ignoring_line_endings": {
+  "out_2024-01-08/availability.csv": true,
+  "out_2024-01-08/catalog.csv": false,
+  "out_2024-01-08/episodes.csv": false,
+  "out_2024-04-08/availability.csv": true,
+  "out_2024-04-08/catalog.csv": false,
+  "out_2024-04-08/episodes.csv": false
+ },
+ "max_abs_threshold_diff": 1.6138201885951275e-12,
+ "episodes": [
+  2014,
+  2014
+ ],
+ "associated": [
+  35,
+  35
+ ],
+ "episodes_only_a": 0,
+ "episodes_only_b": 0,
+ "matched_episodes": 2014,
+ "columns_differing_on_matched": {},
+ "actions": {
+  "P1": {
+   "a": {
+    "A": 232,
+    "D": 1782,
+    "E": 0
+   },
+   "b": {
+    "A": 232,
+    "D": 1782,
+    "E": 0
+   },
+   "dismissed_assoc": [
+    4,
+    4
+   ]
+  },
+  "P1t": {
+   "a": {
+    "A": 1417,
+    "D": 597,
+    "E": 0
+   },
+   "b": {
+    "A": 1417,
+    "D": 597,
+    "E": 0
+   },
+   "dismissed_assoc": [
+    2,
+    2
+   ]
+  },
+  "P3": {
+   "a": {
+    "A": 184,
+    "D": 481,
+    "E": 1349
+   },
+   "b": {
+    "A": 184,
+    "D": 481,
+    "E": 1349
+   },
+   "dismissed_assoc": [
+    2,
+    2
+   ]
+  },
+  "P3_8.0": {
+   "a": {
+    "A": 169,
+    "D": 597,
+    "E": 1248
+   },
+   "b": {
+    "A": 169,
+    "D": 597,
+    "E": 1248
+   },
+   "dismissed_assoc": [
+    2,
+    2
+   ]
+  },
+  "P2": {
+   "a": {
+    "A": 98,
+    "D": 1127,
+    "E": 789
+   },
+   "b": {
+    "A": 98,
+    "D": 1127,
+    "E": 789
+   },
+   "dismissed_assoc": [
+    2,
+    2
+   ]
+  },
+  "CG": {
+   "a": {
+    "A": 44,
+    "D": 1314,
+    "E": 656
+   },
+   "b": {
+    "A": 44,
+    "D": 1314,
+    "E": 656
+   },
+   "dismissed_assoc": [
+    3,
+    3
+   ]
+  },
+  "CG-D": {
+   "a": {
+    "A": 51,
+    "D": 707,
+    "E": 1256
+   },
+   "b": {
+    "A": 51,
+    "D": 707,
+    "E": 1256
+   },
+   "dismissed_assoc": [
+    2,
+    2
+   ]
+  },
+  "CG_c05": {
+   "a": {
+    "A": 55,
+    "D": 659,
+    "E": 1300
+   },
+   "b": {
+    "A": 55,
+    "D": 659,
+    "E": 1300
+   },
+   "dismissed_assoc": [
+    2,
+    2
+   ]
+  }
+ },
+ "max_abs_diff_numeric_on_matched": {
+  "peak_cft": 1.709921093606681e-11,
+  "snr_db": 1.850786190971121e-11,
+  "cov_S1_1": 0.0,
+  "cov_S1_2": 0.0,
+  "cov_S2_1": 0.0,
+  "cov_S3_1": 0.0,
+  "assoc_event": 0.0,
+  "assoc_residual_s": 0.0
+ },
+ "catalog_max_abs_diff_or_mismatches": {
+  "out_2024-01-08": {
+   "rows": [
+    896,
+    896
+   ],
+   "kind": 0,
+   "source": 0,
+   "time": 0.0,
+   "lat": 0.0,
+   "lon": 0.0,
+   "depth_km": 0.0,
+   "mag": 0.0,
+   "mag_type": 0,
+   "dist_deg": 1.4210854715202004e-14,
+   "p_pred": 0.0,
+   "assoc_episode": 0,
+   "makz_valid_at_p": 0
+  },
+  "out_2024-04-08": {
+   "rows": [
+    775,
+    775
+   ],
+   "kind": 0,
+   "source": 0,
+   "time": 0.0,
+   "lat": 0.0,
+   "lon": 0.0,
+   "depth_km": 0.0,
+   "mag": 0.0,
+   "mag_type": 0,
+   "dist_deg": 2.842170943040401e-14,
+   "p_pred": 0.0,
+   "assoc_episode": 0,
+   "makz_valid_at_p": 0
+  }
+ },
+ "actions_identical": true,
+ "identical_all": false
+}

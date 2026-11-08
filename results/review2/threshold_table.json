@@ -1,0 +1,15 @@
+{
+ "plan": "PLAN_threshold_table_2026-11-08.md (55104e4)",
+ "cells_checked": 81,
+ "cell_mismatches": [],
+ "episode_check": {
+  "CG": {
+   "valid_snr_episodes": 263019,
+   "mismatches": 0
+  },
+  "CG_c05": {
+   "valid_snr_episodes": 263019,
+   "mismatches": 0
+  }
+ }
+}

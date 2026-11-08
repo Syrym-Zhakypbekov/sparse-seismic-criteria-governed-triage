@@ -1,0 +1,210 @@
+{
+ "cv": "5 contiguous day blocks",
+ "taus": {
+  "P1": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "P1t": [
+   7.5,
+   7.5,
+   7.5,
+   10.5,
+   7.5
+  ],
+  "P2": [
+   11.5,
+   8.0,
+   8.0,
+   10.5,
+   8.0
+  ],
+  "P3": [
+   7.5,
+   7.5,
+   7.5,
+   10.5,
+   7.5
+  ]
+ },
+ "policies": {
+  "P1": {
+   "all": {
+    "unsafe": 18,
+    "assoc": 141,
+    "alert": 564,
+    "alert_unassoc": 441,
+    "escalate": 0,
+    "esc_per_day": 0.0,
+    "retained_unassoc": 441
+   },
+   "normal": {
+    "unsafe": 7,
+    "assoc": 115,
+    "alert": 511,
+    "alert_unassoc": 403,
+    "escalate": 0,
+    "esc_per_day": 0.0,
+    "retained_unassoc": 403
+   },
+   "outage": {
+    "unsafe": 11,
+    "assoc": 25,
+    "alert": 45,
+    "alert_unassoc": 31,
+    "escalate": 0,
+    "esc_per_day": 0.0,
+    "retained_unassoc": 31
+   }
+  },
+  "P1t": {
+   "all": {
+    "unsafe": 5,
+    "assoc": 141,
+    "alert": 827,
+    "alert_unassoc": 691,
+    "escalate": 0,
+    "esc_per_day": 0.0,
+    "retained_unassoc": 691
+   },
+   "normal": {
+    "unsafe": 2,
+    "assoc": 115,
+    "alert": 736,
+    "alert_unassoc": 623,
+    "escalate": 0,
+    "esc_per_day": 0.0,
+    "retained_unassoc": 623
+   },
+   "outage": {
+    "unsafe": 3,
+    "assoc": 25,
+    "alert": 82,
+    "alert_unassoc": 60,
+    "escalate": 0,
+    "esc_per_day": 0.0,
+    "retained_unassoc": 60
+   }
+  },
+  "P2": {
+   "all": {
+    "unsafe": 8,
+    "assoc": 141,
+    "alert": 441,
+    "alert_unassoc": 325,
+    "escalate": 292,
+    "esc_per_day": 3.44,
+    "retained_unassoc": 600
+   },
+   "normal": {
+    "unsafe": 6,
+    "assoc": 115,
+    "alert": 402,
+    "alert_unassoc": 301,
+    "escalate": 233,
+    "esc_per_day": 3.58,
+    "retained_unassoc": 526
+   },
+   "outage": {
+    "unsafe": 2,
+    "assoc": 25,
+    "alert": 32,
+    "alert_unassoc": 18,
+    "escalate": 57,
+    "esc_per_day": 3.17,
+    "retained_unassoc": 66
+   }
+  },
+  "P3": {
+   "all": {
+    "unsafe": 5,
+    "assoc": 141,
+    "alert": 486,
+    "alert_unassoc": 366,
+    "escalate": 341,
+    "esc_per_day": 4.01,
+    "retained_unassoc": 691
+   },
+   "normal": {
+    "unsafe": 2,
+    "assoc": 115,
+    "alert": 447,
+    "alert_unassoc": 342,
+    "escalate": 289,
+    "esc_per_day": 4.45,
+    "retained_unassoc": 623
+   },
+   "outage": {
+    "unsafe": 3,
+    "assoc": 25,
+    "alert": 32,
+    "alert_unassoc": 18,
+    "escalate": 50,
+    "esc_per_day": 2.78,
+    "retained_unassoc": 60
+   }
+  }
+ },
+ "paired_differences": {
+  "P2-P1t": {
+   "unsafe_diff": 3,
+   "unsafe_ci95": [
+    -1.0,
+    8.0
+   ],
+   "unassoc_alert_diff": -366,
+   "unassoc_alert_ci95": [
+    -437.0,
+    -301.97500000000014
+   ]
+  },
+  "P2-P3": {
+   "unsafe_diff": 3,
+   "unsafe_ci95": [
+    -1.0,
+    8.0
+   ],
+   "unassoc_alert_diff": -41,
+   "unassoc_alert_ci95": [
+    -59.0,
+    -25.0
+   ]
+  },
+  "P3-P1t": {
+   "unsafe_diff": 0,
+   "unsafe_ci95": [
+    0.0,
+    0.0
+   ],
+   "unassoc_alert_diff": -325,
+   "unassoc_alert_ci95": [
+    -383.0,
+    -268.0
+   ]
+  },
+  "P2-P1": {
+   "unsafe_diff": -10,
+   "unsafe_ci95": [
+    -18.0,
+    -3.0
+   ],
+   "unassoc_alert_diff": -116,
+   "unassoc_alert_ci95": [
+    -142.025,
+    -92.0
+   ]
+  }
+ },
+ "P2_dismiss_with_missing_neighbour": {
+  "episodes": 73,
+  "associated": 2
+ },
+ "confirmation_window_s": {
+  "MK31": 9.4,
+  "KURK": 95.8,
+  "WUS": 125.2
+ }
+}

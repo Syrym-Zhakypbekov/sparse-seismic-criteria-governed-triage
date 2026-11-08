@@ -1,0 +1,818 @@
+{
+ "amendment": "A1 (compute budget): uniform 6-month period, 10 networks; written before any data",
+ "period": {
+  "tune_start": "2024-01-01",
+  "eval_start": "2024-01-08",
+  "eval_end_exclusive": "2024-07-08",
+  "days": 182
+ },
+ "networks": [
+  {
+   "network": "OH",
+   "region": "USA-Mexico",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "OH.BSPO..HHZ",
+   "lat": 40.04307,
+   "lon": -81.009361,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    136,
+    0,
+    33
+   ],
+   "reference_good_day_share": 0.984,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 28.7,
+     "members": [
+      {
+       "sta": "O53A",
+       "dist_km": 28.7,
+       "stream": "OH.O53A..BHZ",
+       "lat": 40.249298,
+       "lon": -81.212898
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 111.2,
+     "members": [
+      {
+       "sta": "WODO",
+       "dist_km": 111.2,
+       "stream": "OH.WODO.10.HHZ",
+       "lat": 39.529552,
+       "lon": -82.126205
+      },
+      {
+       "sta": "FOXO",
+       "dist_km": 130.1,
+       "stream": "OH.FOXO.10.HHZ",
+       "lat": 39.304695,
+       "lon": -82.187988
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 121.8,
+     "members": [
+      {
+       "sta": "SROH",
+       "dist_km": 121.8,
+       "stream": "OH.SROH..HHZ",
+       "lat": 39.127095,
+       "lon": -81.789765
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "OH.BSPO..HHZ",
+    "S1_1": "OH.O53A..BHZ",
+    "S2_1": "OH.WODO.10.HHZ",
+    "S2_2": "OH.FOXO.10.HHZ",
+    "S3_1": "OH.SROH..HHZ"
+   }
+  },
+  {
+   "network": "IV",
+   "region": "Europe incl. Alps-Balkans",
+   "datacentre": "INGV",
+   "dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/",
+   "fdsn_base": "https://webservices.ingv.it",
+   "reference_stream": "IV.CGL..BHZ",
+   "lat": 39.366,
+   "lon": 9.296,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    165,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.981,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 109.1,
+     "members": [
+      {
+       "sta": "DGI",
+       "dist_km": 109.1,
+       "stream": "IV.DGI..HHZ",
+       "lat": 40.31802,
+       "lon": 9.60668
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 196.1,
+     "members": [
+      {
+       "sta": "AGLI",
+       "dist_km": 196.1,
+       "stream": "IV.AGLI..HHZ",
+       "lat": 41.1269,
+       "lon": 9.1733
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 336.0,
+     "members": [
+      {
+       "sta": "MARS",
+       "dist_km": 336.0,
+       "stream": "IV.MARS..HHZ",
+       "lat": 37.7532,
+       "lon": 12.5647
+      },
+      {
+       "sta": "MTGR",
+       "dist_km": 342.5,
+       "stream": "IV.MTGR..HHZ",
+       "lat": 37.89337,
+       "lon": 12.75932
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "IV.CGL..BHZ",
+    "S1_1": "IV.DGI..HHZ",
+    "S2_1": "IV.AGLI..HHZ",
+    "S3_1": "IV.MARS..HHZ",
+    "S3_2": "IV.MTGR..HHZ"
+   }
+  },
+  {
+   "network": "AB",
+   "region": "Caucasus-Turkey-Iran",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AB.TELL.00.HHZ",
+   "lat": 41.760905,
+   "lon": 48.643566,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    66,
+    29,
+    0
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 72.0,
+     "members": [
+      {
+       "sta": "YLVJ",
+       "dist_km": 72.0,
+       "stream": "AB.YLVJ.00.HHZ",
+       "lat": 41.214037,
+       "lon": 49.106073
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 109.7,
+     "members": [
+      {
+       "sta": "ZRNV",
+       "dist_km": 109.7,
+       "stream": "AB.ZRNV.00.HHZ",
+       "lat": 40.800111,
+       "lon": 48.346606
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 131.7,
+     "members": [
+      {
+       "sta": "SHUR",
+       "dist_km": 131.7,
+       "stream": "AB.SHUR.00.HHZ",
+       "lat": 40.756199,
+       "lon": 49.477063
+      },
+      {
+       "sta": "MV12",
+       "dist_km": 148.8,
+       "stream": "AB.MV12.00.HHZ",
+       "lat": 40.505963,
+       "lon": 49.261836
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "AB.TELL.00.HHZ",
+    "S1_1": "AB.YLVJ.00.HHZ",
+    "S2_1": "AB.ZRNV.00.HHZ",
+    "S3_1": "AB.SHUR.00.HHZ",
+    "S3_2": "AB.MV12.00.HHZ"
+   }
+  },
+  {
+   "network": "AU",
+   "region": "New Zealand-SW Pacific",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AU.RKGY.00.BHZ",
+   "lat": -34.6094,
+   "lon": 116.9773,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    45,
+    19,
+    0
+   ],
+   "reference_good_day_share": 0.997,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 154.5,
+     "members": [
+      {
+       "sta": "ONGER",
+       "dist_km": 154.5,
+       "stream": "AU.ONGER..BHZ",
+       "lat": -33.86366,
+       "lon": 118.39563
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 188.6,
+     "members": [
+      {
+       "sta": "NWAO",
+       "dist_km": 188.6,
+       "stream": "AU.NWAO..BHZ",
+       "lat": -32.9277,
+       "lon": 117.239
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 301.1,
+     "members": [
+      {
+       "sta": "MUN",
+       "dist_km": 301.1,
+       "stream": "AU.MUN.00.BHZ",
+       "lat": -31.9783,
+       "lon": 116.212
+      },
+      {
+       "sta": "CARL",
+       "dist_km": 307.9,
+       "stream": "AU.CARL.00.BHZ",
+       "lat": -31.9835,
+       "lon": 115.926697
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "AU.RKGY.00.BHZ",
+    "S1_1": "AU.ONGER..BHZ",
+    "S2_1": "AU.NWAO..BHZ",
+    "S3_1": "AU.MUN.00.BHZ",
+    "S3_2": "AU.CARL.00.BHZ"
+   }
+  },
+  {
+   "network": "C1",
+   "region": "South America",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "C1.BO02..BHZ",
+   "lat": -34.7924,
+   "lon": -70.7814,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    15,
+    0,
+    0
+   ],
+   "reference_good_day_share": 0.923,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 52.5,
+     "members": [
+      {
+       "sta": "BO01",
+       "dist_km": 52.5,
+       "stream": "C1.BO01..BHZ",
+       "lat": -34.3917,
+       "lon": -71.0848
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 90.7,
+     "members": [
+      {
+       "sta": "BO04",
+       "dist_km": 90.7,
+       "stream": "C1.BO04..BHZ",
+       "lat": -33.98884,
+       "lon": -70.60902
+      },
+      {
+       "sta": "MT09",
+       "dist_km": 114.6,
+       "stream": "C1.MT09..BHZ",
+       "lat": -33.77622,
+       "lon": -70.98867
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 111.9,
+     "members": [
+      {
+       "sta": "MT01",
+       "dist_km": 111.9,
+       "stream": "C1.MT01..BHZ",
+       "lat": -33.8641,
+       "lon": -71.2509
+      },
+      {
+       "sta": "VA05",
+       "dist_km": 147.6,
+       "stream": "C1.VA05..BHZ",
+       "lat": -33.65711,
+       "lon": -71.61428
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "C1.BO02..BHZ",
+    "S1_1": "C1.BO01..BHZ",
+    "S2_1": "C1.BO04..BHZ",
+    "S2_2": "C1.MT09..BHZ",
+    "S3_1": "C1.MT01..BHZ",
+    "S3_2": "C1.VA05..BHZ"
+   }
+  },
+  {
+   "network": "AV",
+   "region": "Alaska-Aleutians-Canada",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AV.DOL..BHZ",
+   "lat": 55.149621,
+   "lon": -161.86472,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    13,
+    0,
+    9
+   ],
+   "reference_good_day_share": 0.951,
+   "has_merged_pair": true,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 21.8,
+     "members": [
+      {
+       "sta": "PS4A",
+       "dist_km": 21.8,
+       "stream": "AV.PS4A..BHZ",
+       "lat": 55.34604,
+       "lon": -161.85648
+      },
+      {
+       "sta": "DTN",
+       "dist_km": 25.1,
+       "stream": "AV.DTN..BHZ",
+       "lat": 55.1448,
+       "lon": -162.259
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 35.4,
+     "members": [
+      {
+       "sta": "DEER",
+       "dist_km": 35.4,
+       "stream": "AV.DEER..BHZ",
+       "lat": 54.97127,
+       "lon": -162.32437
+      },
+      {
+       "sta": "BLDW",
+       "dist_km": 58.8,
+       "stream": "AV.BLDW..BHZ",
+       "lat": 55.190907,
+       "lon": -162.787687
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 127.1,
+     "members": [
+      {
+       "sta": "ISLZ",
+       "dist_km": 127.1,
+       "stream": "AV.ISLZ..BHZ",
+       "lat": 54.7249,
+       "lon": -163.7129
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "AV.DOL..BHZ",
+    "S1_1": "AV.PS4A..BHZ",
+    "S1_2": "AV.DTN..BHZ",
+    "S2_1": "AV.DEER..BHZ",
+    "S2_2": "AV.BLDW..BHZ",
+    "S3_1": "AV.ISLZ..BHZ"
+   }
+  },
+  {
+   "network": "KR",
+   "region": "Central Asia",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "KR.DRK.00.HHZ",
+   "lat": 39.477613,
+   "lon": 71.799456,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    43,
+    5,
+    7
+   ],
+   "reference_good_day_share": 0.995,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 106.6,
+     "members": [
+      {
+       "sta": "BTK",
+       "dist_km": 106.6,
+       "stream": "KR.BTK..BHZ",
+       "lat": 40.06675,
+       "lon": 70.81572
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 143.5,
+     "members": [
+      {
+       "sta": "OHH",
+       "dist_km": 143.5,
+       "stream": "KR.OHH..BHZ",
+       "lat": 40.52444,
+       "lon": 72.785
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 157.8,
+     "members": [
+      {
+       "sta": "SFK",
+       "dist_km": 157.8,
+       "stream": "KR.SFK.00.HHZ",
+       "lat": 40.017151,
+       "lon": 73.506289
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "KR.DRK.00.HHZ",
+    "S1_1": "KR.BTK..BHZ",
+    "S2_1": "KR.OHH..BHZ",
+    "S3_1": "KR.SFK.00.HHZ"
+   }
+  },
+  {
+   "network": "JP",
+   "region": "East Asia-West Pacific",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "JP.JEM..BHZ",
+   "lat": 42.018501,
+   "lon": 143.153503,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    16,
+    16,
+    16
+   ],
+   "reference_good_day_share": 0.954,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 167.4,
+     "members": [
+      {
+       "sta": "JEW",
+       "dist_km": 167.4,
+       "stream": "JP.JEW..BHZ",
+       "lat": 42.84267,
+       "lon": 141.446167
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 221.4,
+     "members": [
+      {
+       "sta": "JTM",
+       "dist_km": 221.4,
+       "stream": "JP.JTM..BHZ",
+       "lat": 40.789501,
+       "lon": 141.064667
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 237.9,
+     "members": [
+      {
+       "sta": "JKA",
+       "dist_km": 237.9,
+       "stream": "JP.JKA..BHZ",
+       "lat": 44.11883,
+       "lon": 142.593002
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "JP.JEM..BHZ",
+    "S1_1": "JP.JEW..BHZ",
+    "S2_1": "JP.JTM..BHZ",
+    "S3_1": "JP.JKA..BHZ"
+   }
+  },
+  {
+   "network": "AF",
+   "region": "Africa",
+   "datacentre": "EarthScope",
+   "dataselect": "https://service.earthscope.org/fdsnws/dataselect/1",
+   "fdsn_base": "",
+   "reference_stream": "AF.ALKP..BHZ",
+   "lat": -29.941839,
+   "lon": 22.24667,
+   "selection_window": "W1",
+   "site_outage_days_in_selection_window": [
+    6,
+    119,
+    10
+   ],
+   "reference_good_day_share": 0.97,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 200.4,
+     "members": [
+      {
+       "sta": "UPI",
+       "dist_km": 200.4,
+       "stream": "AF.UPI..BHZ",
+       "lat": -28.362,
+       "lon": 21.253
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 292.8,
+     "members": [
+      {
+       "sta": "CVNA",
+       "dist_km": 292.8,
+       "stream": "AF.CVNA..BHZ",
+       "lat": -31.482,
+       "lon": 19.762
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 320.5,
+     "members": [
+      {
+       "sta": "HVD",
+       "dist_km": 320.5,
+       "stream": "AF.HVD.00.BHZ",
+       "lat": -30.60454,
+       "lon": 25.49506
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "AF.ALKP..BHZ",
+    "S1_1": "AF.UPI..BHZ",
+    "S2_1": "AF.CVNA..BHZ",
+    "S3_1": "AF.HVD.00.BHZ"
+   }
+  },
+  {
+   "network": "AW",
+   "region": "Antarctica",
+   "datacentre": "GEOFON",
+   "dataselect": "https://geofon.gfz.de/fdsnws/dataselect/1/",
+   "fdsn_base": "https://geofon.gfz.de",
+   "reference_stream": "AW.VNA1..BHZ",
+   "lat": -70.672,
+   "lon": -8.29,
+   "selection_window": "W2",
+   "site_outage_days_in_selection_window": [
+    0,
+    96,
+    38
+   ],
+   "reference_good_day_share": 1.0,
+   "has_merged_pair": false,
+   "sites": [
+    {
+     "rank": 1,
+     "dist_km": 43.2,
+     "members": [
+      {
+       "sta": "VNA2",
+       "dist_km": 43.2,
+       "stream": "AW.VNA2..BHZ",
+       "lat": -70.925,
+       "lon": -7.393
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "dist_km": 80.6,
+     "members": [
+      {
+       "sta": "VNA3",
+       "dist_km": 80.6,
+       "stream": "AW.VNA3..BHZ",
+       "lat": -71.242,
+       "lon": -9.664
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "dist_km": 158.9,
+     "members": [
+      {
+       "sta": "FRFJ",
+       "dist_km": 158.9,
+       "stream": "AW.FRFJ..HHZ",
+       "lat": -71.8359,
+       "lon": -5.7095
+      }
+     ]
+    }
+   ],
+   "tune_start": "2024-01-01",
+   "eval_start": "2024-01-08",
+   "eval_end": "2024-07-08",
+   "roles": {
+    "MAKZ": "AW.VNA1..BHZ",
+    "S1_1": "AW.VNA2..BHZ",
+    "S2_1": "AW.VNA3..BHZ",
+    "S3_1": "AW.FRFJ..HHZ"
+   }
+  }
+ ],
+ "eligible_not_run_compute_budget": [
+  "AE",
+  "AG",
+  "BW",
+  "C",
+  "C0",
+  "CN",
+  "CO",
+  "CU",
+  "CZ",
+  "EE",
+  "EI",
+  "ET",
+  "FN",
+  "FR",
+  "HC",
+  "HE",
+  "HL",
+  "IW",
+  "KO",
+  "LD",
+  "MB",
+  "N4",
+  "ND",
+  "NE",
+  "NM",
+  "NS",
+  "NY",
+  "O2",
+  "OK",
+  "PE",
+  "PL",
+  "PQ",
+  "QZ",
+  "RV",
+  "S1",
+  "SC",
+  "SI",
+  "TX",
+  "UO",
+  "US",
+  "UU",
+  "UW",
+  "WU",
+  "WW"
+ ],
+ "eligible_period_not_covered": [
+  "A2",
+  "CA",
+  "OT"
+ ],
+ "regions": [
+  "Africa",
+  "Alaska-Aleutians-Canada",
+  "Antarctica",
+  "Caucasus-Turkey-Iran",
+  "Central Asia",
+  "East Asia-West Pacific",
+  "Europe incl. Alps-Balkans",
+  "New Zealand-SW Pacific",
+  "South America",
+  "USA-Mexico"
+ ]
+}
