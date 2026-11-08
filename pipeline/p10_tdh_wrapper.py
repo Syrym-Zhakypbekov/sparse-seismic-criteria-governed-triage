@@ -15,7 +15,7 @@ import obspy.clients.fdsn as fdsn
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PIPE = os.environ.get("P10_PIPELINE", os.path.join(HERE, "extended_stalta_criteria.py"))
-FROZEN_SHA256 = "1dca53557217715edeb61dc9beb95ebf55467bfeea80dbf169ea14c336d82193"   # LF-normalised; frozen at 9a8436c as 4c8c9a71...; only the first comment line differs (see README)
+FROZEN_SHA256 = "4c8c9a715bdfc94c7790ac0793f85360ae6a75489ca197acc2aad92483168284"   # LF-normalised, as committed at 9a8436c
 got = hashlib.sha256(open(PIPE, "rb").read().replace(b"\r\n", b"\n")).hexdigest()
 if got != FROZEN_SHA256:
     sys.exit(f"pipeline sha256 {got} differs from the frozen {FROZEN_SHA256}")

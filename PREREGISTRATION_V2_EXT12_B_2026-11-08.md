@@ -52,7 +52,7 @@ from ComCat only, and labelled as such. Code: a wrapper around analysis/v2_revie
 months; no decision rule changes.
 
 ## 7. Compute and stopping
-GCP VMs of project the authors' Google Cloud project (europe-west zones first; US VMs were throttled by EarthScope on 07-08.11), Colab, and Kaggle
+GCP VMs of project astra-placement-iitu (europe-west zones first; US VMs were throttled by EarthScope on 07-08.11), Colab, and Kaggle
 kernels not used by the parallel rescue run. Platform per network is logged in FLEET_DEVIATIONS.md / EXPERIMENT_LEDGER.md and does
 not change code or parameters. A network not finished by 08.11.2026 23:00 Almaty is reported "not completed (compute)", never
 replaced. Analysis is run once per mode after every network has finished or been declared not completed; scorer bugs found later are

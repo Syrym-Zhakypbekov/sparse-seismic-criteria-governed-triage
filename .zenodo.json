@@ -1,7 +1,7 @@
 {
-  "title": "Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation (code, decision records and results)",
+  "title": "Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation (code, pre-registrations and results)",
   "upload_type": "software",
-  "description": "Code, per-episode decision records, results and provenance for the manuscript «Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation» (S. Zhakypbekov, A. Bykov, A. Shaikemelova, T. Chinibayeva; in preparation for MDPI Sensors). Pre-registered tests on 38 seismic networks in eight regions (incl. Kazakhstan, Kyrgyzstan, Alaska) against catalogue association and analyst-reviewed bulletins; test plans registered on OSF: https://osf.io/y8qxz.",
+  "description": "Code, pre-registered test plans, per-episode decision records and result files for the manuscript \"Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation\" (S. Zhakypbekov, A. Bykov, A. Shaikemelova, T. Chinibayeva; submitted to Sensors, MDPI). Pre-specified tests at two Kazakhstan reference stations, a second Kazakhstan network, Alaska and 38 seismic networks in eight regions selected by a metadata rule, scored against catalogue association and against analyst-reviewed bulletins (ISC Reviewed Bulletin, USGS ComCat); post hoc robustness analyses, including a stress test with controlled loss of neighbour evidence. Test plans are registered on OSF: https://osf.io/y8qxz (DOI 10.17605/OSF.IO/Y8QXZ). Source repository: https://github.com/Syrym-Zhakypbekov/sparse-seismic-criteria-governed-triage",
   "creators": [
     {
       "name": "Zhakypbekov, Syrym",
@@ -36,7 +36,13 @@
     "STA/LTA",
     "pre-specification",
     "Kazakhstan",
-    "Alaska"
+    "Alaska",
+    "criteria-governed decision-making",
+    "evidence sufficiency",
+    "analyst escalation",
+    "abstention",
+    "non-inferiority",
+    "reproducible research"
   ],
   "license": "MIT",
   "access_right": "open",
@@ -78,9 +84,20 @@
       "scheme": "doi"
     },
     {
-      "identifier": "https://osf.io/y8qxz",
+      "identifier": "10.5066/F7MS3QZH",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/Y8QXZ",
       "relation": "isDocumentedBy",
-      "resource_type": "publication-preregistration"
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://osf.io/6ay27",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
     }
-  ]
+  ],
+  "version": "v1.0.0"
 }

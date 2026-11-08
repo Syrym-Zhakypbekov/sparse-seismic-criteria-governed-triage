@@ -1,5 +1,5 @@
 # HELD-OUT RUN: tuning 2026-07-01..07-07 (thresholds), evaluation 2026-10-01..11-06. Run once; do not tune on it.
-# P10 Sensors — stage 1, v3 (07.11.2026): measurement chain repaired (phase A of the fix plan).
+# P10 Sensors — stage 1, v3 (07.11.2026): measurement chain repaired after Codex review R1 (phase A of FIX_PLAN.md).
 # Fixes:
 #   M05 — no zero fill; padded day windows (continuity across midnight); split at gaps; warm-up masked; validity mask.
 #   M04 — SNR = RMS(signal)/RMS(noise) in dB with a guard gap; INVALID when either window touches a gap.

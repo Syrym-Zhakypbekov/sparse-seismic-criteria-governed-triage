@@ -1,7 +1,7 @@
 # Plan (post hoc, method fixed before computing): two-threshold abstaining baseline, alert-threshold separation, total analyst items
 
 Date: 2026-11-08. Written and pushed before any of the numbers below were computed. It answers points raised by the fair
-internal review on v32: a comparator with its own reject band, the share of the alert gain that
+review panel on v32 (C:/review_p10/cold_v32_0811): a comparator with its own reject band, the share of the alert gain that
 comes from the fixed alert threshold θA rather than from the weight c, and analyst items when an automatic ALERT is also reviewed.
 Descriptive; adds no hypothesis to the confirmatory family; frozen decisions and frozen pipeline outputs only.
 

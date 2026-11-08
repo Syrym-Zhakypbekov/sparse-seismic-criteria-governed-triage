@@ -7,7 +7,7 @@ then applied by that script to metadata only. The outputs of that application ar
 file.
 
 ## 1. Why
-Post hoc analysis 4 of the internal review (results/posthoc/review_posthoc.json, block "4_KURK_merged_site") showed that on
+Post hoc analysis 4 of the cold review panel (results/posthoc/cold_panel_posthoc.json, block "4_KURK_merged_site") showed that on
 the II.KURK reference IU.MAKZ and IM.MK31, 24 km apart, are in the same state in 75 % of episodes, and that 179 of the 180 excess
 dismissals of CG against P3 had a NO from both. Counting them as two independent neighbours explained more than half of the K3
 failure (CG - P3: 10.19 pp frozen; 4.72 pp with the pair merged and weights re-ranked; 3.24 pp with G.WUS keeping 0.15). That was
@@ -116,7 +116,7 @@ network, 2000 resamples, seed 7 (analysis/v2_networks.py, cluster_boot).
 Holm step-down across the included networks at one-sided alpha 0.025; unadjusted results also reported.
 
 ## 6. Chance-association control (fixed now)
-Procedure of analysis/review_posthoc.py block 1, fixed: per network, predicted P arrivals of the catalogue shifted by uniform
+Procedure of analysis/cold_panel_posthoc.py block 1, fixed: per network, predicted P arrivals of the catalogue shifted by uniform
 1..7 days with random sign, 100 shifts, seed 7, wrapped circularly in the network's calendar span, re-associated with the pipeline
 rule; reported: expected chance-associated episodes, expected chance CG - P3 excess dismissals, and the chance-corrected CG - P3
 difference in pp. It is a reported control, not a hypothesis; a primary result whose chance-corrected point difference crosses

@@ -1,4 +1,4 @@
-# Plan (post hoc, written before computing): review4 — answers to the final internal review of v33 (afb1eb0)
+# Plan (post hoc, written before computing): review4 — answers to the final cold-panel review of v33 (Fable, afb1eb0)
 
 Data: the 33 reviewed-bulletin networks (results/v2_reviewed), frozen rule v2 (W_RANK 0.25/0.20/0.15, W_SNR 0.40,
 theta_A 0.60, theta_D 0.16), pooled two-stage cluster bootstrap (2000, seed 7), margin 3 points. Descriptive, post hoc.

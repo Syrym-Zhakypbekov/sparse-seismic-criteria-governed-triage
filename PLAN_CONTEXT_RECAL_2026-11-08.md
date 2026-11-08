@@ -1,6 +1,6 @@
 # Plan (post hoc, method fixed before computing): recalibration of the context-dependent reliability c_j(x)
 
-Written 2026-11-08 before any result below was computed. Answers the v33 internal review (point M3, minor points 1-2):
+Written 2026-11-08 before any result below was computed. Answers the v33 cold panel (Fable MAJOR 3, Codex Astra minors 1-2):
 the T1 reliability bins show the context model under-predicting confirmation, so "lower Brier score" may be resolution, not calibration.
 Nothing in analysis/context_c.py, the frozen model or the features changes; no test data enter any fit.
 

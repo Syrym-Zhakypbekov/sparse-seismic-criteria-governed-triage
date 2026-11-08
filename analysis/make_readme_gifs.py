@@ -599,9 +599,121 @@ def blind():
         "adjudication/blind_v1/")
 
 
+def sufficiency():
+    s = J("results", "sufficiency", "stress.json")
+    t = J("results", "sufficiency", "thin_subset.json")
+    hi = s["hypotheses_independent_p05"]
+    rows = [
+        ("S1: P1 minus CG c = 0.5", hi["S1"]["mean_pp"], *hi["S1"]["ci95_pp"], COL["P1"]),
+        ("S2: delta 0 minus delta 0.45", hi["S2"]["mean_pp"], *hi["S2"]["ci95_pp"], COL["CG_c05"]),
+        ("S3: rise, c = 0.5 minus P3-2t", hi["S3"]["mean_pp"], *hi["S3"]["ci95_pp"], COL["P3_2t"]),
+    ]
+    frames = forest_frames(f"Half of neighbour states masked ({s['networks']} networks, {len(s['seeds'])} seeds)",
+                           rows, xlabel="contrast (percentage points of dismissed reviewed-associated alarms)", margin=None,
+                           xlim=(min(r[2] for r in rows) - 2.0, max(r[3] for r in rows) + 2.0),
+                           note="Source: results/sufficiency/stress.json (post hoc, PLAN_SUFFICIENCY_STRESS_2026-11-08.md)")
+    r = t["rules"]
+    keys = [k for k in ("P1", "P3", "P3_2t") if k in r]
+    vals = {lab(k): r[k]["assoc_dismissed"] for k in keys}
+    for k in r:
+        if k.startswith("CG"):
+            vals[lab(k.split("|")[0]) + (", delta " + k.split("|")[1] if "|" in k else "")] = r[k]["assoc_dismissed"]
+    n = r["P1"]["assoc"]
+    frames += bars_frames(f"Real thin subset: {t['episodes']} episodes with at least two neighbour sites missing",
+                          [(f"reviewed-associated alarms dismissed (of {n})", vals)],
+                          "dismissed", note="Source: results/sufficiency/thin_subset.json")
+    save("23_sufficiency_stress", frames)
+    tab("Evidence-sufficiency stress test", "What happens when neighbour evidence is lost?",
+        "S1-S3 held under independent and whole-day masking; delta changed no reviewed-associated decision on real data",
+        f"S1 {hi['S1']['mean_pp']:.2f} [{hi['S1']['ci95_pp'][0]:.2f}, {hi['S1']['ci95_pp'][1]:.2f}]; "
+        f"S2 {hi['S2']['mean_pp']:.2f} [{hi['S2']['ci95_pp'][0]:.2f}, {hi['S2']['ci95_pp'][1]:.2f}]; "
+        f"S3 {hi['S3']['mean_pp']:.2f}; thin subset P1 {r['P1']['assoc_dismissed']} of {n}",
+        "results/sufficiency/stress.json")
+
+
+def ground_truth_ak():
+    g = J("results", "ground_truth", "ground_truth_eval.json")
+    rows = [row(g["G1_CG_vs_P3_confirmed_dismissed"], "G1: CG minus P3", COL["CG"]),
+            row(g["G2_CGD_vs_P3_confirmed_dismissed"], "G2: CG-D minus P3", COL["CG-D"])]
+    frames = forest_frames("Alaska: dismissed analyst-confirmed events (ComCat reviewed)", rows,
+                           xlabel="policy minus P3 (percentage points of confirmed events dismissed)",
+                           note="Source: results/ground_truth/ground_truth_eval.json")
+    g3 = g["G3_rejected_alert_share"]
+    frames += bars_frames("Alaska: analyst-deleted (REJECTED) events raised as automatic alerts",
+                          [(f"share of {g3['rejected']} REJECTED events alerted (%)",
+                            {"P1t": g3["P1t"]["P1t_pct"], "P3": g3["P3"]["P3_pct"], "CG": g3["P1t"]["CG_pct"]})],
+                          "%", fmt="{:.1f}", note="Source: results/ground_truth/ground_truth_eval.json")
+    save("24_alaska_analyst_ground_truth", frames)
+    g1, g2 = g["G1_CG_vs_P3_confirmed_dismissed"], g["G2_CGD_vs_P3_confirmed_dismissed"]
+    tab("Alaska analyst ground truth (confirmed vs deleted events)", "Does CG keep confirmed events and stop deleted ones?",
+        "G1 not met (CG c = 1); G2, G3, G4 held",
+        f"G1 {g1['diff_pp']} [{g1['ci95_pp'][0]}, {g1['ci95_pp'][1]}]; G2 {g2['diff_pp']}; REJECTED alerted CG {g3['P1t']['CG_pct']}% vs P1t {g3['P1t']['P1t_pct']}%",
+        "results/ground_truth/ground_truth_eval.json")
+
+
+def ml_llm():
+    l = J("results", "baselines_ml_llm", "llm_eval.json")
+    lat = J("results", "baselines_ml_llm", "latency.json")
+    groups = []
+    for name, sv in l["sets"].items():
+        l2, l3 = sv["L2_CG_minus_LLM_dismissed_among_positives"], sv["L3_CG_minus_LLM_alert_among_negatives"]
+        groups.append((f"{name}: positives dismissed (%)", {"CG": l2["share_a_pct"], "LLM": l2["share_b_pct"]}))
+        groups.append((f"{name}: negatives alerted (%)", {"CG": l3["share_a_pct"], "LLM": l3["share_b_pct"]}))
+    frames = bars_frames(f"Pre-registered LLM triage baseline ({l['model']}, {l['calls_made']} calls, ${l['cost_usd']})",
+                         groups, "%", fmt="{:.2f}", note="Source: results/baselines_ml_llm/llm_eval.json")
+    save("25_ml_llm_baselines", frames)
+    ak = l["sets"]["AK-GT"]["L2_CG_minus_LLM_dismissed_among_positives"]
+    tab("Pre-registered ML and LLM baselines, latency", "Do learned models or an LLM triage alarms better?",
+        "LLM dismissed more confirmed and alerted more rejected events than CG; CG fastest per episode",
+        f"AK-GT confirmed dismissed CG {ak['share_a_pct']}% vs LLM {ak['share_b_pct']}%; CG median {lat['single_episode']['CG_python_scalar']['median_us']} us per episode",
+        "results/baselines_ml_llm/llm_eval.json")
+
+
+def explosions():
+    e = J("results", "explosions", "explosions_eval.json")
+    a = e["action_share_within_class_pct"]
+    sec = e["secondary_MAKZ_NNC_descriptive"]["action_share_within_class_pct"]
+    groups = []
+    for pol in ("P1t", "P3", "CG", "CG-D"):
+        if pol in sec:
+            groups.append((f"IU.MAKZ, {sec[pol]['EXPLOSION']['n']} mining-explosion episodes (NNC labels): {lab(pol)}",
+                           {k: sec[pol]["EXPLOSION"][k] for k in ("DISMISS", "ESCALATE", "ALERT")}))
+    frames = bars_frames("Explosion-associated alarms by action (descriptive)", groups, "% of explosion episodes",
+                         fmt="{:.1f}", note="Source: results/explosions/explosions_eval.json")
+    save("26_explosions", frames)
+    n_ak = e["episode_classes"]["EXPLOSION"]
+    cg = sec["CG"]["EXPLOSION"]
+    tab("Explosion-associated alarms", "What do the policies do with explosions?",
+        f"pre-specified tests not exercised ({n_ak} AK explosion episodes); descriptive only",
+        f"MAKZ/NNC {cg['n']} explosions: CG dismiss {cg['DISMISS']}%, escalate {cg['ESCALATE']}%, alert {cg['ALERT']}%; P1t alert {sec['P1t']['EXPLOSION']['ALERT']}%",
+        "results/explosions/explosions_eval.json")
+
+
+def review4():
+    r = J("results", "review4", "dev_two_threshold.json")
+    b = r["test_batchB"]
+    d = b["CG_c05_minus_P3_2t_dev"]
+    frames = forest_frames(f"Two-threshold rule chosen on {len(r['training_networks'])} training networks, {d['networks']} held-out networks",
+                           [row(d, "CG c = 0.5 minus P3 two-threshold", COL["CG_c05"])],
+                           xlabel="difference (percentage points of dismissed reviewed-associated alarms)",
+                           note="Source: results/review4/dev_two_threshold.json (post hoc, PLAN_REVIEW4_2026-11-08.md)")
+    order = ["P3", "P3_2t", "CG_c05", "CG-D"]
+    key = {"P3": "P3", "P3_2t": "P3_2t_dev", "CG_c05": "CG_c05", "CG-D": "CG-D"}
+    for metric, title, fmt in (("dismissed_reviewed_associated", "reviewed-associated alarms dismissed", "{:.0f}"),
+                               ("unassociated_alerts_per_network_day", "automatic alerts without a reviewed event per network-day", "{:.2f}"),
+                               ("escalations_per_network_day", "escalations per network-day", "{:.2f}")):
+        frames += bars_frames("Held-out networks", [(title, {k: b[key[k]][metric] for k in order})], title.split(" per")[0],
+                              order=order, fmt=fmt, note="Source: results/review4/dev_two_threshold.json")
+    save("27_training_chosen_two_threshold", frames)
+    tab("Training-chosen two-threshold rule (matched operating point)", "Is c = 0.5 different from a tuned two-threshold rule?",
+        "same dismissals; c = 0.5 forwards more alerts without a reviewed event and escalates fewer",
+        f"diff {d['pooled_diff_pp']} [{d['pooled_ci95_pp'][0]}, {d['pooled_ci95_pp'][1]}]; dismissed {b['CG_c05']['dismissed_reviewed_associated']} vs {b['P3_2t_dev']['dismissed_reviewed_associated']}",
+        "results/review4/dev_two_threshold.json")
+
+
 ALL = [single_network, batches, reviewed33, ext12b, rescue, context_c, regions, workload, gap, sensitivity,
        twothreshold, detprob, gap2, learned, calendar_holm, margin_cost, rule_checks, schorlemmer, costopt,
-       draelos, kz_reviewed, blind]
+       draelos, kz_reviewed, blind, sufficiency, ground_truth_ak, ml_llm, explosions, review4]
 
 
 def main():

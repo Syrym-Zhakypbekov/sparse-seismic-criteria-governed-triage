@@ -81,7 +81,7 @@ CG cannot decrease under these changes by construction; the counts are computed 
 
 ## 5. LLM triage baseline (Google Gemini only, Vertex AI)
 
-Model **gemini-3.8-flash**, Vertex AI, project the authors' Google Cloud project, location global, temperature 0, thinking level low,
+Model **gemini-3.8-flash**, Vertex AI, project astra-placement-iitu, location global, temperature 0, thinking level low,
 response MIME type JSON (no response schema, so format errors can occur and are counted). Price used for the cost
 figure: $0.75 per million input tokens, $3.75 per million output tokens (output includes thinking tokens), as listed for
 this model; every usage record is saved.

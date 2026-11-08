@@ -1,4 +1,4 @@
-# PLAN learned_rejectband (post hoc; v33 internal reviews; written and pushed before any computation)
+# PLAN learned_rejectband (post hoc; v33 review panels; written and pushed before any computation)
 
 Question: do learned classifiers given a reject band (two thresholds) beat the criteria-governed rule at a matched analyst budget?
 

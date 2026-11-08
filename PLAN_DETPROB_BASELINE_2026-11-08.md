@@ -1,7 +1,7 @@
 # Plan (post hoc, method fixed before computing): detection-probability likelihood baseline with a reject band
 
 Date: 2026-11-08. Written and pushed before the baseline is fitted or scored.
-Motivation: internal review on v32 (internal review of v32, item 5). The closest prior work, Cohen et al. [42],
+Motivation: review panel on v32 (C:/review_p10/cold_v32_0811, reviewer F, item 5). The closest prior work, Cohen et al. [42],
 separates inactive, detecting and non-detecting stations and weights a non-detection by the station's detection probability
 inside a likelihood score. NET-VISA (Arora, Russell & Sudderth 2013, doi:10.1785/0120120107) uses station detection
 probabilities in a Bayesian network-processing model. Neither had been compared head to head with the criteria-governed rules.

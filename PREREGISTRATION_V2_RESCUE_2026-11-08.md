@@ -44,4 +44,4 @@ Holm, chance-shift control, outage hypothesis rule (>= 10 episodes from >= 2 net
 
 ## 5. Compute
 Kaggle CPU kernels (analysis/v2_fleet/make_kaggle.py <NET> --rescue --suffix rescue) and, if useful, GCP VMs of project
-the authors' Google Cloud project (stopped after use). The first run of each network to complete is the scored run; others are replicates.
+astra-placement-iitu (stopped after use). The first run of each network to complete is the scored run; others are replicates.

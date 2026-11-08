@@ -6,17 +6,18 @@ adds this file (read back from the remote and recorded in RESULT_TIME_DISJOINT_2
 that commit are committed and pushed after it and before their first use; their commit times are recorded in the result.
 
 ## 1. Why
-The internal review of manuscript v34 raised three major points that new analyses of already-scored data cannot answer:
+The cold review of manuscript v34 (C:/review_p10/cold_v34_0811, reviewer files panel_files/fable.md findings 1–3 and
+hostile_opponent/astra.md findings 5, 7, 8) raised three MAJOR points that new analyses of already-scored data cannot answer:
 1. No test is confirmatory on data untouched by earlier analyses; the 33-network reviewed-bulletin test re-labels decisions that
-   had already been analysed (event-disjoint and time-disjoint validation is needed).
+   had already been analysed (Fable 3, Astra 5, Astra 7 "use event-disjoint and time-disjoint validation").
 2. The dismissal threshold theta_D = 0.16 was frozen on a sparse development catalogue, so the verdicts on the weight c of a
    non-confirmation are calibration-transfer results. A comparison of rules is meaningful only at matched operating points, with
-   every rule tuned by ONE procedure on the same tuning window.
+   every rule tuned by ONE procedure on the same tuning window (Fable 1, Astra 8).
 3. The endpoint "dismissed reviewed-associated alarms" is dominated by chance time matches (shifted-catalogue control: 132.7 of
    P3's 151 such dismissals expected by chance) and the shifted-catalogue correction saturates; a per-episode, non-saturating
-   chance correction is needed, with a pre-set exclusion of chance-dominated networks.
-Two minor points are answered in the same test: a pre-set alarm-rate bound and the chance-YES control from stored
-neighbour trigger times.
+   chance correction is needed, with a pre-set exclusion of chance-dominated networks (Fable 2).
+Two minor points are answered in the same test: a pre-set alarm-rate bound (Fable 8) and the chance-YES control from stored
+neighbour trigger times (Fable 9).
 
 ## 2. Disjointness of the test period (verified before this plan was written)
 Script analysis/tdh2023/verify_disjoint.py, output results/tdh2023/disjoint_check.json (run 2026-11-08 ~11:20 UTC, before this
@@ -61,7 +62,7 @@ files under results/ (all run, rescue, replicate, staging and Kaggle copies), th
 - Days 1–30 (2023-06-01 .. 06-30): TUNING window for the decision thresholds (section 7). Days 31–90 (2023-07-01 .. 08-29, 60
   days): TEST window. A network-day is a calendar day present in the network's availability.csv.
 
-## 5. Data: download once, store, compute from the bucket (data rule of 08.11.2026)
+## 5. Data: download once, store, compute from the bucket (owner rule 08.11.2026)
 - analysis/tdh2023/download_raw.py, run on the fleet VMs, requests every role-day once from the network's own data centre with the
   pipeline's own request: Client(<data centre> or "EARTHSCOPE").get_waveforms(net, sta, loc, cha, day − 1800 s, day + 86400 s +
   1800 s), first vertical channel id in sorted order, written as MiniSEED. HTTP 204 / "No data" -> empty file (true absence);
@@ -183,7 +184,7 @@ manuscript can report a non-saturating correction of the existing headline. Outp
 labelled POST HOC; it enters no hypothesis of this plan.
 
 ## 12. Compute, cutoff, chronology
-- Machines: VMs p10-fleet-1 .. p10-fleet-6 (project the authors' Google Cloud project), started for this run and stopped (never deleted) when it
+- Machines: VMs p10-fleet-1 .. p10-fleet-6 (project astra-placement-iitu), started for this run and stopped (never deleted) when it
   ends or at the latest 8 hours after start; the laptop; Kaggle as a spare. VM p10-seismic is not used.
 - Cutoff: 2026-11-08 20:30 UTC. A network whose chunk is not finished by then is "not completed (compute)"; nothing is started in
   its place.
