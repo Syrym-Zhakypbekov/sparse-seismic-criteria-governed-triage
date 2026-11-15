@@ -1,0 +1,58 @@
+{
+ "status": "post hoc (15.11.2026), not pre-specified; intervals for the approximate chance-corrected differences of Appendix B",
+ "method": "(the method of analysis/ak_chance_by_policy.py, applied to catalogue association):\n  catalogue predicted P arrivals are shifted by random offsets (100 offsets, uniform 1..7 days, random sign, seed 7 --\n  the offsets of cold_panel_posthoc.py block 1) and re-associated with the pipeline rule; for policy k\n  corrected share_k = (D_k&assoc - mean_s D_k&assoc_s) / (n_assoc - mean_s n_assoc_s),\n  corrected difference = corrected share_CG - corrected share_P3 (percentage points).\nInterval: day bootstrap over days with episodes (2000 resamples, seed 7, as every test in the paper), the correction\nrecomputed inside each resample from per-day counts. Criterion: upper bound <= 3 points (the registered margin).\nOutput: results/paper1/chance_corrected_ci.json",
+ "contrasts": {
+  "E3": {
+   "set": "extended IU.MAKZ",
+   "days_with_episodes": 529,
+   "associated": 2455,
+   "expected_chance_associated": 119.6,
+   "raw_CG_minus_P3_pp": 2.44,
+   "chance_corrected_CG_minus_P3_pp": 1.96,
+   "ci95_pp": [
+    1.25,
+    2.73
+   ],
+   "upper_bound_within_3pt_margin": true
+  },
+  "K3": {
+   "set": "extended II.KURK",
+   "days_with_episodes": 546,
+   "associated": 1757,
+   "expected_chance_associated": 107.4,
+   "raw_CG_minus_P3_pp": 10.19,
+   "chance_corrected_CG_minus_P3_pp": 9.86,
+   "ci95_pp": [
+    8.3,
+    11.52
+   ],
+   "upper_bound_within_3pt_margin": false
+  },
+  "N3": {
+   "set": "KZ network",
+   "days_with_episodes": 625,
+   "associated": 2250,
+   "expected_chance_associated": 116.5,
+   "raw_CG_minus_P3_pp": 3.78,
+   "chance_corrected_CG_minus_P3_pp": 2.93,
+   "ci95_pp": [
+    2.07,
+    3.88
+   ],
+   "upper_bound_within_3pt_margin": false
+  },
+  "R3": {
+   "set": "AK network",
+   "days_with_episodes": 537,
+   "associated": 2034,
+   "expected_chance_associated": 91.6,
+   "raw_CG_minus_P3_pp": 1.47,
+   "chance_corrected_CG_minus_P3_pp": 0.27,
+   "ci95_pp": [
+    -0.21,
+    0.84
+   ],
+   "upper_bound_within_3pt_margin": true
+  }
+ }
+}
