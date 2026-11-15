@@ -36,14 +36,14 @@ if len(mk):
     ax.axvspan(mk.min(), mk.max() + 1, ymin=0, ymax=1, fill=False, ec=C["bad"], lw=1.5)
     ax.text(mk.min() + 0.5, len(cols) - 0.65, "MK31 outage", color=C["bad"], fontsize=9, va="bottom")
 ax.set_title("Share of valid one-second samples per station and day (black = complete), 2026-07-08 to 09-30", fontsize=10, loc="left", pad=8)
-fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig1_availability.png"), dpi=200); plt.close(fig)
+fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig1_availability.png"), dpi=600); plt.close(fig)
 
 # ---------- fig 2: policies (code/09_cg_evaluation.py) ----------
 r = json.load(open(os.path.join(root, "results", "criteria_governed", "cg_evaluation.json")))
 Dv = r["development"]
 C.update({"P3": "#7a9a6a", "CG": "#a42421", "P2": "#c98f8d"})
 names = [("P1", "P1\nclassic", C["P1"]), ("P1t", "P1t\ntuned", C["P1t"]),
-         ("P3", "P3\nabstaining", C["P3"]), ("P2", "P2\ncrisp rule", C["P2"]),
+         ("P3", "P3\nabstaining", C["P3"]),
          ("CG", "CG\nmodel", C["CG"])]
 unassoc = [Dv[k]["all"]["alert_unassoc"] for k, _, _ in names]
 unsafe_out = [Dv[k]["outage"]["missed"] for k, _, _ in names]
@@ -60,7 +60,7 @@ for ax, vals, title, fmt in [(axs[0], unassoc, "Automatic alerts without\na cata
         ax.text(i, v, fmt.format(v), ha="center", va="bottom", fontsize=8)
     ax.set_yticks([])
 fig.suptitle("Development period 2026-07-08 to 09-30; thresholds by five-fold contiguous-block cross-validation", fontsize=9, x=0.01, ha="left")
-fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig2_policies.png"), dpi=200); plt.close(fig)
+fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig2_policies.png"), dpi=600); plt.close(fig)
 
 # ---------- fig 3: one real event during the outage ----------
 from obspy import UTCDateTime

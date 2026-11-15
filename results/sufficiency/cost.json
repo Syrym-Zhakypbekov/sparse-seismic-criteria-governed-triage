@@ -1,0 +1,74 @@
+{
+ "status": "POST HOC (cold review v34_7f6b540); derived from stress.json and thin_subset.json, no new scoring",
+ "reviewed_associated": 4321,
+ "masked": {
+  "independent_p0.5": {
+   "CG_c05": {
+    "thin_automatic_decisions_removed": 13282.4,
+    "additional_escalations": 13370.6,
+    "additional_escalations_pct": 9.68,
+    "escalations_per_removed_thin_decision": 1.007,
+    "reviewed_associated_dismissals_avoided": 15.86,
+    "escalations_per_avoided_reviewed_associated_dismissal": 843.0,
+    "alerts_without_reviewed_event_removed": 3247.62,
+    "automatic_dismissals_removed": 9862.02
+   },
+   "CG-D": {
+    "thin_automatic_decisions_removed": 13282.4,
+    "additional_escalations": 13370.6,
+    "additional_escalations_pct": 9.6,
+    "escalations_per_removed_thin_decision": 1.007,
+    "reviewed_associated_dismissals_avoided": 15.86,
+    "escalations_per_avoided_reviewed_associated_dismissal": 843.0,
+    "alerts_without_reviewed_event_removed": 3247.62,
+    "automatic_dismissals_removed": 9862.02
+   }
+  },
+  "correlated_p0.5": {
+   "CG_c05": {
+    "thin_automatic_decisions_removed": 13249.7,
+    "additional_escalations": 13338.32,
+    "additional_escalations_pct": 9.66,
+    "escalations_per_removed_thin_decision": 1.007,
+    "reviewed_associated_dismissals_avoided": 16.42,
+    "escalations_per_avoided_reviewed_associated_dismissal": 812.3,
+    "alerts_without_reviewed_event_removed": 3187.68,
+    "automatic_dismissals_removed": 9893.0
+   },
+   "CG-D": {
+    "thin_automatic_decisions_removed": 13249.7,
+    "additional_escalations": 13338.32,
+    "additional_escalations_pct": 9.58,
+    "escalations_per_removed_thin_decision": 1.007,
+    "reviewed_associated_dismissals_avoided": 16.42,
+    "escalations_per_avoided_reviewed_associated_dismissal": 812.3,
+    "alerts_without_reviewed_event_removed": 3187.68,
+    "automatic_dismissals_removed": 9893.0
+   }
+  }
+ },
+ "real_thin_subset": {
+  "episodes": 3062,
+  "networks": 16,
+  "CG_c05": {
+   "thin_automatic_decisions_removed": 62,
+   "additional_escalations": 62,
+   "additional_escalations_pct": 3.34,
+   "escalations_per_removed_thin_decision": 1.0,
+   "reviewed_associated_dismissals_avoided": 0,
+   "escalations_per_avoided_reviewed_associated_dismissal": null,
+   "alerts_without_reviewed_event_removed": 32,
+   "automatic_dismissals_removed": 30
+  },
+  "CG-D": {
+   "thin_automatic_decisions_removed": 62,
+   "additional_escalations": 62,
+   "additional_escalations_pct": 3.24,
+   "escalations_per_removed_thin_decision": 1.0,
+   "reviewed_associated_dismissals_avoided": 0,
+   "escalations_per_avoided_reviewed_associated_dismissal": null,
+   "alerts_without_reviewed_event_removed": 32,
+   "automatic_dismissals_removed": 30
+  }
+ }
+}

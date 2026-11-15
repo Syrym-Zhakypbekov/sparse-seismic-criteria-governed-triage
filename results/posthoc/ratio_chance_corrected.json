@@ -1,0 +1,152 @@
+{
+ "status": "POST HOC (cold review v34_7f6b540, Fable finding 1); computed from existing outputs, no new decisions; not a pre-specified test",
+ "criterion": "pre-specified ratio criterion: upper 95% bound of dismissals rule/P3 <= 1.5 (B2/B3, V1r/R1r)",
+ "bootstrap": {
+  "resamples": 2000,
+  "seed": 7,
+  "unit": "network (33), percentile interval, as G2 in results/gap/gap_reviewed.json"
+ },
+ "A_shifted_catalogue": {
+  "source": "results/posthoc/chance_by_policy.json",
+  "networks": 33,
+  "reviewed_associated": 4321,
+  "chance_associated_expected": 359.6,
+  "corrected_reviewed_associated": 3961.4,
+  "margin_3pp_in_corrected_alarms": 118.8,
+  "P3": {
+   "dismissed": 151,
+   "chance_expected": 132.69,
+   "corrected_dismissed": 18.31,
+   "negative_corrected_networks": [
+    "AU",
+    "C0",
+    "C1",
+    "FN",
+    "HC",
+    "IW",
+    "JP",
+    "KR",
+    "ND",
+    "NE",
+    "NY",
+    "OK",
+    "RV",
+    "UO",
+    "UU"
+   ]
+  },
+  "CG": {
+   "dismissed": 319,
+   "chance_expected": 214.69,
+   "corrected_dismissed": 104.31,
+   "corrected_excess_over_P3": 86.0,
+   "raw_ratio": 2.113,
+   "corrected_ratio": 5.697,
+   "corrected_ratio_ci95": [
+    2.293,
+    40.803
+   ],
+   "resamples_ratio_undefined": 536,
+   "ratio_criterion_upper_le_1_5": false
+  },
+  "CG-D": {
+   "dismissed": 193,
+   "chance_expected": 155.71,
+   "corrected_dismissed": 37.29,
+   "corrected_excess_over_P3": 18.98,
+   "raw_ratio": 1.278,
+   "corrected_ratio": 2.037,
+   "corrected_ratio_ci95": [
+    1.242,
+    8.375
+   ],
+   "resamples_ratio_undefined": 536,
+   "ratio_criterion_upper_le_1_5": false
+  },
+  "CG_c05": {
+   "dismissed": 183,
+   "chance_expected": 152.02,
+   "corrected_dismissed": 30.98,
+   "corrected_excess_over_P3": 12.67,
+   "raw_ratio": 1.212,
+   "corrected_ratio": 1.692,
+   "corrected_ratio_ci95": [
+    0.944,
+    5.554
+   ],
+   "resamples_ratio_undefined": 536,
+   "ratio_criterion_upper_le_1_5": false
+  }
+ },
+ "B_per_episode": {
+  "source": "results/posthoc/chance_per_episode_33net.json",
+  "networks": 33,
+  "reviewed_associated": 4321,
+  "chance_associated_expected": 346.71,
+  "corrected_reviewed_associated": 3974.29,
+  "margin_3pp_in_corrected_alarms": 119.2,
+  "P3": {
+   "dismissed": 151,
+   "chance_expected": 130.72,
+   "corrected_dismissed": 20.28,
+   "negative_corrected_networks": [
+    "AU",
+    "C0",
+    "C1",
+    "FN",
+    "HC",
+    "IW",
+    "JP",
+    "KR",
+    "ND",
+    "NE",
+    "OK",
+    "RV",
+    "UO",
+    "UU"
+   ]
+  },
+  "CG": {
+   "dismissed": 319,
+   "chance_expected": 209.47,
+   "corrected_dismissed": 109.53,
+   "corrected_excess_over_P3": 89.25,
+   "raw_ratio": 2.113,
+   "corrected_ratio": 5.401,
+   "corrected_ratio_ci95": [
+    2.293,
+    36.304
+   ],
+   "resamples_ratio_undefined": 504,
+   "ratio_criterion_upper_le_1_5": false
+  },
+  "CG-D": {
+   "dismissed": 193,
+   "chance_expected": 153.11,
+   "corrected_dismissed": 39.89,
+   "corrected_excess_over_P3": 19.61,
+   "raw_ratio": 1.278,
+   "corrected_ratio": 1.967,
+   "corrected_ratio_ci95": [
+    1.255,
+    7.48
+   ],
+   "resamples_ratio_undefined": 504,
+   "ratio_criterion_upper_le_1_5": false
+  },
+  "CG_c05": {
+   "dismissed": 183,
+   "chance_expected": 149.69,
+   "corrected_dismissed": 33.31,
+   "corrected_excess_over_P3": 13.03,
+   "raw_ratio": 1.212,
+   "corrected_ratio": 1.643,
+   "corrected_ratio_ci95": [
+    0.957,
+    5.074
+   ],
+   "resamples_ratio_undefined": 504,
+   "ratio_criterion_upper_le_1_5": false
+  }
+ }
+}
