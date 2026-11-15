@@ -1,0 +1,19 @@
+{
+ "status": "post hoc bookkeeping for Paper 1 v5 Section 3.6",
+ "all_chunks": {
+  "episodes": 18637,
+  "three_valid": 10640,
+  "share": 0.5709,
+  "associated": 2455,
+  "associated_three_valid": 1532,
+  "associated_share": 0.624
+ },
+ "usable_chunks": {
+  "episodes": 18637,
+  "three_valid": 10640,
+  "share": 0.5709,
+  "associated": 2455,
+  "associated_three_valid": 1532,
+  "associated_share": 0.624
+ }
+}
