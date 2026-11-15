@@ -1,0 +1,750 @@
+{
+ "registered_method_time_shift": "BLOCKED: neighbour trigger times are not stored (episodes.csv keeps only n_<station> state); regenerating them requires the raw waveforms (not downloaded by rule)",
+ "poisson_substitute": {
+  "dev 2026 (stage1_v3)": {
+   "MAKZ<-MK31": {
+    "triggers": 1136,
+    "valid_days": 65.58,
+    "window_s_each_side": 9.4,
+    "triggers_per_valid_day": 17.32,
+    "chance_yes": 0.00375,
+    "ci95": [
+     0.00353,
+     0.00397
+    ]
+   },
+   "MAKZ<-KURK": {
+    "triggers": 1653,
+    "valid_days": 83.71,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 19.75,
+    "chance_yes": 0.04286,
+    "ci95": [
+     0.04086,
+     0.04493
+    ]
+   },
+   "MAKZ<-WUS": {
+    "triggers": 147,
+    "valid_days": 0.84,
+    "window_s_each_side": 125.2,
+    "triggers_per_valid_day": 175.17,
+    "chance_yes": 0.3981,
+    "ci95": [
+     0.34878,
+     0.44936
+    ]
+   },
+   "KURK<-MAKZ": {
+    "triggers": 1077,
+    "valid_days": 84.72,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 12.71,
+    "chance_yes": 0.02781,
+    "ci95": [
+     0.02619,
+     0.02949
+    ]
+   },
+   "KURK<-MK31": {
+    "triggers": 1136,
+    "valid_days": 65.58,
+    "window_s_each_side": 98.2,
+    "triggers_per_valid_day": 17.32,
+    "chance_yes": 0.03862,
+    "ci95": [
+     0.03645,
+     0.04088
+    ]
+   },
+   "KURK<-WUS": {
+    "triggers": 147,
+    "valid_days": 0.84,
+    "window_s_each_side": 197.5,
+    "triggers_per_valid_day": 175.17,
+    "chance_yes": 0.55099,
+    "ci95": [
+     0.49161,
+     0.60981
+    ]
+   }
+  },
+  "2024 2024-01-01": {
+   "MAKZ<-MK31": {
+    "triggers": 2899,
+    "valid_days": 89.91,
+    "window_s_each_side": 9.4,
+    "triggers_per_valid_day": 32.24,
+    "chance_yes": 0.00696,
+    "ci95": [
+     0.00671,
+     0.00722
+    ]
+   },
+   "MAKZ<-KURK": {
+    "triggers": 4605,
+    "valid_days": 91.0,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 50.6,
+    "chance_yes": 0.10619,
+    "ci95": [
+     0.10331,
+     0.10913
+    ]
+   },
+   "MAKZ<-WUS": {
+    "triggers": 20431,
+    "valid_days": 91.0,
+    "window_s_each_side": 125.2,
+    "triggers_per_valid_day": 224.52,
+    "chance_yes": 0.47831,
+    "ci95": [
+     0.47365,
+     0.48298
+    ]
+   },
+   "KURK<-MAKZ": {
+    "triggers": 3147,
+    "valid_days": 88.99,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 35.36,
+    "chance_yes": 0.07545,
+    "ci95": [
+     0.07294,
+     0.07803
+    ]
+   },
+   "KURK<-MK31": {
+    "triggers": 2899,
+    "valid_days": 89.91,
+    "window_s_each_side": 98.2,
+    "triggers_per_valid_day": 32.24,
+    "chance_yes": 0.07068,
+    "ci95": [
+     0.06822,
+     0.07321
+    ]
+   },
+   "KURK<-WUS": {
+    "triggers": 20431,
+    "valid_days": 91.0,
+    "window_s_each_side": 197.5,
+    "triggers_per_valid_day": 224.52,
+    "chance_yes": 0.64167,
+    "ci95": [
+     0.63661,
+     0.64671
+    ]
+   }
+  },
+  "2024 2024-04-01": {
+   "MAKZ<-MK31": {
+    "triggers": 3081,
+    "valid_days": 90.61,
+    "window_s_each_side": 9.4,
+    "triggers_per_valid_day": 34.0,
+    "chance_yes": 0.00734,
+    "ci95": [
+     0.00709,
+     0.00761
+    ]
+   },
+   "MAKZ<-KURK": {
+    "triggers": 1935,
+    "valid_days": 91.0,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 21.26,
+    "chance_yes": 0.04608,
+    "ci95": [
+     0.04409,
+     0.04813
+    ]
+   },
+   "MAKZ<-WUS": {
+    "triggers": 19604,
+    "valid_days": 91.0,
+    "window_s_each_side": 125.2,
+    "triggers_per_valid_day": 215.44,
+    "chance_yes": 0.4644,
+    "ci95": [
+     0.45971,
+     0.46909
+    ]
+   },
+   "KURK<-MAKZ": {
+    "triggers": 3878,
+    "valid_days": 90.1,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 43.04,
+    "chance_yes": 0.09107,
+    "ci95": [
+     0.08835,
+     0.09384
+    ]
+   },
+   "KURK<-MK31": {
+    "triggers": 3081,
+    "valid_days": 90.61,
+    "window_s_each_side": 98.2,
+    "triggers_per_valid_day": 34.0,
+    "chance_yes": 0.07439,
+    "ci95": [
+     0.07188,
+     0.07696
+    ]
+   },
+   "KURK<-WUS": {
+    "triggers": 19604,
+    "valid_days": 91.0,
+    "window_s_each_side": 197.5,
+    "triggers_per_valid_day": 215.44,
+    "chance_yes": 0.62648,
+    "ci95": [
+     0.62131,
+     0.63163
+    ]
+   }
+  },
+  "2024 2024-07-01": {
+   "MAKZ<-MK31": {
+    "triggers": 3118,
+    "valid_days": 91.72,
+    "window_s_each_side": 9.4,
+    "triggers_per_valid_day": 33.99,
+    "chance_yes": 0.00734,
+    "ci95": [
+     0.00709,
+     0.0076
+    ]
+   },
+   "MAKZ<-KURK": {
+    "triggers": 1760,
+    "valid_days": 92.0,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 19.13,
+    "chance_yes": 0.04155,
+    "ci95": [
+     0.03967,
+     0.0435
+    ]
+   },
+   "MAKZ<-WUS": {
+    "triggers": 22425,
+    "valid_days": 92.0,
+    "window_s_each_side": 125.2,
+    "triggers_per_valid_day": 243.75,
+    "chance_yes": 0.5066,
+    "ci95": [
+     0.50203,
+     0.51117
+    ]
+   },
+   "KURK<-MAKZ": {
+    "triggers": 3156,
+    "valid_days": 86.16,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 36.63,
+    "chance_yes": 0.07804,
+    "ci95": [
+     0.07545,
+     0.0807
+    ]
+   },
+   "KURK<-MK31": {
+    "triggers": 3118,
+    "valid_days": 91.72,
+    "window_s_each_side": 98.2,
+    "triggers_per_valid_day": 33.99,
+    "chance_yes": 0.07438,
+    "ci95": [
+     0.07188,
+     0.07693
+    ]
+   },
+   "KURK<-WUS": {
+    "triggers": 22425,
+    "valid_days": 92.0,
+    "window_s_each_side": 197.5,
+    "triggers_per_valid_day": 243.75,
+    "chance_yes": 0.67183,
+    "ci95": [
+     0.66703,
+     0.67662
+    ]
+   }
+  },
+  "2024 2024-10-01": {
+   "MAKZ<-MK31": {
+    "triggers": 2434,
+    "valid_days": 91.26,
+    "window_s_each_side": 9.4,
+    "triggers_per_valid_day": 26.67,
+    "chance_yes": 0.00576,
+    "ci95": [
+     0.00554,
+     0.006
+    ]
+   },
+   "MAKZ<-KURK": {
+    "triggers": 2022,
+    "valid_days": 92.0,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 21.98,
+    "chance_yes": 0.04759,
+    "ci95": [
+     0.04558,
+     0.04965
+    ]
+   },
+   "MAKZ<-WUS": {
+    "triggers": 18832,
+    "valid_days": 92.0,
+    "window_s_each_side": 125.2,
+    "triggers_per_valid_day": 204.7,
+    "chance_yes": 0.44746,
+    "ci95": [
+     0.44278,
+     0.45216
+    ]
+   },
+   "KURK<-MAKZ": {
+    "triggers": 2119,
+    "valid_days": 91.23,
+    "window_s_each_side": 95.8,
+    "triggers_per_valid_day": 23.23,
+    "chance_yes": 0.05022,
+    "ci95": [
+     0.04816,
+     0.05235
+    ]
+   },
+   "KURK<-MK31": {
+    "triggers": 2434,
+    "valid_days": 91.26,
+    "window_s_each_side": 98.2,
+    "triggers_per_valid_day": 26.67,
+    "chance_yes": 0.05884,
+    "ci95": [
+     0.05659,
+     0.06115
+    ]
+   },
+   "KURK<-WUS": {
+    "triggers": 18832,
+    "valid_days": 92.0,
+    "window_s_each_side": 197.5,
+    "triggers_per_valid_day": 204.7,
+    "chance_yes": 0.60768,
+    "ci95": [
+     0.60243,
+     0.61293
+    ]
+   }
+  }
+ },
+ "empirical_yes_share_unassociated": {
+  "dev 2026 IU.MAKZ": {
+   "MK31": {
+    "unassoc_valid": 795,
+    "yes": 343,
+    "yes_share": 0.43145,
+    "ci95": [
+     0.39743,
+     0.46612
+    ]
+   },
+   "KURK": {
+    "unassoc_valid": 927,
+    "yes": 279,
+    "yes_share": 0.30097,
+    "ci95": [
+     0.27231,
+     0.33127
+    ]
+   },
+   "WUS": {
+    "unassoc_valid": 8,
+    "yes": 4,
+    "yes_share": 0.5,
+    "ci95": [
+     0.21522,
+     0.78478
+    ]
+   }
+  },
+  "extended IU.MAKZ": {
+   "MK31": {
+    "unassoc_valid": 15089,
+    "yes": 4540,
+    "yes_share": 0.30088,
+    "ci95": [
+     0.29361,
+     0.30825
+    ]
+   },
+   "KURK": {
+    "unassoc_valid": 16182,
+    "yes": 3959,
+    "yes_share": 0.24465,
+    "ci95": [
+     0.23809,
+     0.25134
+    ]
+   },
+   "WUS": {
+    "unassoc_valid": 9239,
+    "yes": 4312,
+    "yes_share": 0.46672,
+    "ci95": [
+     0.45656,
+     0.4769
+    ]
+   }
+  },
+  "extended II.KURK": {
+   "MAKZ": {
+    "unassoc_valid": 15042,
+    "yes": 4176,
+    "yes_share": 0.27762,
+    "ci95": [
+     0.27052,
+     0.28484
+    ]
+   },
+   "MK31": {
+    "unassoc_valid": 14974,
+    "yes": 5058,
+    "yes_share": 0.33779,
+    "ci95": [
+     0.33025,
+     0.3454
+    ]
+   },
+   "WUS": {
+    "unassoc_valid": 9516,
+    "yes": 5113,
+    "yes_share": 0.53731,
+    "ci95": [
+     0.52727,
+     0.54731
+    ]
+   }
+  },
+  "2024 IU.MAKZ": {
+   "MK31": {
+    "unassoc_valid": 10985,
+    "yes": 3891,
+    "yes_share": 0.35421,
+    "ci95": [
+     0.34532,
+     0.3632
+    ]
+   },
+   "KURK": {
+    "unassoc_valid": 11062,
+    "yes": 2096,
+    "yes_share": 0.18948,
+    "ci95": [
+     0.18228,
+     0.19689
+    ]
+   },
+   "WUS": {
+    "unassoc_valid": 11062,
+    "yes": 5925,
+    "yes_share": 0.53562,
+    "ci95": [
+     0.52631,
+     0.5449
+    ]
+   }
+  },
+  "2024 II.KURK": {
+   "MAKZ": {
+    "unassoc_valid": 9075,
+    "yes": 2309,
+    "yes_share": 0.25444,
+    "ci95": [
+     0.24558,
+     0.2635
+    ]
+   },
+   "MK31": {
+    "unassoc_valid": 9238,
+    "yes": 2660,
+    "yes_share": 0.28794,
+    "ci95": [
+     0.2788,
+     0.29726
+    ]
+   },
+   "WUS": {
+    "unassoc_valid": 9375,
+    "yes": 5868,
+    "yes_share": 0.62592,
+    "ci95": [
+     0.61608,
+     0.63566
+    ]
+   }
+  }
+ },
+ "wus_removed_sensitivity": {
+  "extended IU.MAKZ": {
+   "frozen": {
+    "diff_pp": 2.44,
+    "ci95_pp": [
+     1.74,
+     3.18
+    ],
+    "p_one_sided_H0_ge_margin": 0.07446,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 2870,
+     "P3": 6350
+    },
+    "escalations": {
+     "CG": 8849,
+     "P3": 6943
+    },
+    "dismissed_assoc": {
+     "CG": 98,
+     "P3": 38
+    },
+    "esc_per_day_diff": 3.603,
+    "esc_ci95": [
+     3.079,
+     4.131
+    ],
+    "alerts_per_day_diff": -8.242,
+    "alerts_ci95": [
+     -8.779,
+     -7.724
+    ]
+   },
+   "WUS_missing": {
+    "diff_pp": 3.71,
+    "ci95_pp": [
+     2.91,
+     4.55
+    ],
+    "p_one_sided_H0_ge_margin": 0.96252,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 3028,
+     "P3": 4988
+    },
+    "escalations": {
+     "CG": 7367,
+     "P3": 7363
+    },
+    "dismissed_assoc": {
+     "CG": 152,
+     "P3": 61
+    },
+    "esc_per_day_diff": 0.008,
+    "esc_ci95": [
+     -0.427,
+     0.423
+    ],
+    "alerts_per_day_diff": -5.314,
+    "alerts_ci95": [
+     -5.577,
+     -5.038
+    ]
+   }
+  },
+  "extended II.KURK": {
+   "frozen": {
+    "diff_pp": 10.19,
+    "ci95_pp": [
+     8.72,
+     11.76
+    ],
+    "p_one_sided_H0_ge_margin": 1.0,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 3511,
+     "P3": 7444
+    },
+    "escalations": {
+     "CG": 8185,
+     "P3": 6672
+    },
+    "dismissed_assoc": {
+     "CG": 228,
+     "P3": 49
+    },
+    "esc_per_day_diff": 2.771,
+    "esc_ci95": [
+     2.199,
+     3.361
+    ],
+    "alerts_per_day_diff": -7.995,
+    "alerts_ci95": [
+     -8.625,
+     -7.416
+    ]
+   },
+   "WUS_missing": {
+    "diff_pp": 11.44,
+    "ci95_pp": [
+     10.0,
+     12.94
+    ],
+    "p_one_sided_H0_ge_margin": 1.0,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 3587,
+     "P3": 5432
+    },
+    "escalations": {
+     "CG": 6776,
+     "P3": 7937
+    },
+    "dismissed_assoc": {
+     "CG": 274,
+     "P3": 73
+    },
+    "esc_per_day_diff": -2.126,
+    "esc_ci95": [
+     -2.601,
+     -1.656
+    ],
+    "alerts_per_day_diff": -3.863,
+    "alerts_ci95": [
+     -4.302,
+     -3.502
+    ]
+   }
+  },
+  "2024 IU.MAKZ": {
+   "frozen": {
+    "diff_pp": 1.86,
+    "ci95_pp": [
+     1.13,
+     2.64
+    ],
+    "p_one_sided_H0_ge_margin": 0.0035,
+    "noninferior": true,
+    "unassoc_alerts": {
+     "CG": 1765,
+     "P3": 5619
+    },
+    "escalations": {
+     "CG": 6866,
+     "P3": 4039
+    },
+    "dismissed_assoc": {
+     "CG": 34,
+     "P3": 11
+    },
+    "esc_per_day_diff": 7.809,
+    "esc_ci95": [
+     7.317,
+     8.351
+    ],
+    "alerts_per_day_diff": -11.732,
+    "alerts_ci95": [
+     -12.373,
+     -11.135
+    ]
+   },
+   "WUS_missing": {
+    "diff_pp": 3.55,
+    "ci95_pp": [
+     2.52,
+     4.61
+    ],
+    "p_one_sided_H0_ge_margin": 0.84658,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 1766,
+     "P3": 3862
+    },
+    "escalations": {
+     "CG": 4743,
+     "P3": 4419
+    },
+    "dismissed_assoc": {
+     "CG": 71,
+     "P3": 27
+    },
+    "esc_per_day_diff": 0.895,
+    "esc_ci95": [
+     0.24,
+     1.506
+    ],
+    "alerts_per_day_diff": -6.776,
+    "alerts_ci95": [
+     -7.16,
+     -6.42
+    ]
+   }
+  },
+  "2024 II.KURK": {
+   "frozen": {
+    "diff_pp": 9.29,
+    "ci95_pp": [
+     7.48,
+     11.14
+    ],
+    "p_one_sided_H0_ge_margin": 1.0,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 1799,
+     "P3": 5235
+    },
+    "escalations": {
+     "CG": 5927,
+     "P3": 3583
+    },
+    "dismissed_assoc": {
+     "CG": 101,
+     "P3": 13
+    },
+    "esc_per_day_diff": 6.404,
+    "esc_ci95": [
+     5.577,
+     7.282
+    ],
+    "alerts_per_day_diff": -10.213,
+    "alerts_ci95": [
+     -11.232,
+     -9.259
+    ]
+   },
+   "WUS_missing": {
+    "diff_pp": 10.77,
+    "ci95_pp": [
+     8.79,
+     12.77
+    ],
+    "p_one_sided_H0_ge_margin": 1.0,
+    "noninferior": false,
+    "unassoc_alerts": {
+     "CG": 1893,
+     "P3": 2749
+    },
+    "escalations": {
+     "CG": 3948,
+     "P3": 5012
+    },
+    "dismissed_assoc": {
+     "CG": 142,
+     "P3": 40
+    },
+    "esc_per_day_diff": -2.907,
+    "esc_ci95": [
+     -3.516,
+     -2.347
+    ],
+    "alerts_per_day_diff": -2.754,
+    "alerts_ci95": [
+     -2.986,
+     -2.519
+    ]
+   }
+  }
+ }
+}

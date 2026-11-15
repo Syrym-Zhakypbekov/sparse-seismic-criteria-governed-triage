@@ -1,0 +1,17 @@
+{
+ "network": "AK",
+ "chunk": [
+  "2023-01-01",
+  "2023-04-01"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "rc": 0,
+   "seconds": 362,
+   "end_utc": "2026-11-09T03:23:50+00:00",
+   "ok": true
+  }
+ ],
+ "ok": true
+}

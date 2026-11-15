@@ -1,0 +1,31 @@
+{
+ "reference": "MAKZ",
+ "triggers_per_role": {
+  "MAKZ": 3279,
+  "MK31": 3037,
+  "KURK": 2216,
+  "WUS": 21494
+ },
+ "yes_window": {
+  "MK31": {
+   "distance_km": 23.989817189586052,
+   "window_s": 9.361784943561101
+  },
+  "KURK": {
+   "distance_km": 499.59058971224266,
+   "window_s": 95.8346526749532
+  },
+  "WUS": {
+   "distance_km": 661.0888755370871,
+   "window_s": 125.19797737037948
+  }
+ },
+ "span": [
+  "2023-07-01T00:00:00.000000Z",
+  "2023-10-01T00:00:00.000000Z"
+ ],
+ "offline": true,
+ "episodes_csv_sha256_at_dump": "45976e7b66fce9afbae4f44a2ba8dd76fff2e26904ac579410e69fe4b6cc4002",
+ "wrapper": "pipeline/p10_tdh_wrapper.py",
+ "written_utc": "2026-11-09T03:15:30+00:00"
+}

@@ -1,0 +1,44 @@
+{
+ "family": "F-P10X",
+ "alpha_one_sided": 0.025,
+ "p": {
+  "P10X-01": 1.0,
+  "P10X-02": 1.0,
+  "P10X-03a": 0.0035,
+  "P10X-03b": 0.9900049975012494,
+  "P10X-05a": 0.05997001499250375,
+  "P10X-05b": 0.0004997501249375312,
+  "P10X-05c": 0.0004997501249375312,
+  "P10X-06a": 0.0
+ },
+ "p_holm": {
+  "P10X-06a": 0.0,
+  "P10X-05b": 0.0035,
+  "P10X-05c": 0.0035,
+  "P10X-03a": 0.0175,
+  "P10X-05a": 0.23988,
+  "P10X-03b": 1.0,
+  "P10X-01": 1.0,
+  "P10X-02": 1.0
+ },
+ "verdict_unadjusted": {
+  "P10X-01": "inconclusive",
+  "P10X-02": "inconclusive",
+  "P10X-03a": "HELD",
+  "P10X-03b": "not held",
+  "P10X-05a": "inconclusive",
+  "P10X-05b": "HELD",
+  "P10X-05c": "HELD",
+  "P10X-06a": "HELD"
+ },
+ "verdict": {
+  "P10X-01": "inconclusive",
+  "P10X-02": "inconclusive",
+  "P10X-03a": "HELD",
+  "P10X-03b": "not held",
+  "P10X-05a": "inconclusive",
+  "P10X-05b": "HELD",
+  "P10X-05c": "HELD",
+  "P10X-06a": "HELD"
+ }
+}

@@ -39,7 +39,7 @@ ax.set_title("Share of valid one-second samples per station and day (black = com
 fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig1_availability.png"), dpi=200); plt.close(fig)
 
 # ---------- fig 2: policies (code/09_cg_evaluation.py) ----------
-r = json.load(open(os.path.join(root, "results", "dissertation_model", "cg_evaluation.json")))
+r = json.load(open(os.path.join(root, "results", "criteria_governed", "cg_evaluation.json")))
 Dv = r["development"]
 C.update({"P3": "#7a9a6a", "CG": "#a42421", "P2": "#c98f8d"})
 names = [("P1", "P1\nclassic", C["P1"]), ("P1t", "P1t\ntuned", C["P1t"]),

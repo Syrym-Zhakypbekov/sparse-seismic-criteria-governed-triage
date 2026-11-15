@@ -1,0 +1,61 @@
+{
+ "version": "v3",
+ "dev_days": 92,
+ "thresholds_q99.9": {
+  "MAKZ": 7.010977,
+  "MK31": 7.384668,
+  "KURK": 6.796058,
+  "WUS": 3.490711
+ },
+ "channel_ids": {},
+ "episodes": {
+  "MAKZ": 3279,
+  "MK31": 3037,
+  "KURK": 2216,
+  "WUS": 21494
+ },
+ "ref_episodes_per_day": 35.641304347826086,
+ "catalog_failures": [],
+ "fetch_failures": [],
+ "reference": "MAKZ",
+ "snr_invalid": 23,
+ "catalog": {
+  "regional": 3297,
+  "tele": 109
+ },
+ "params": {
+  "sta": 1.0,
+  "lta": 30.0,
+  "q": 99.9,
+  "gap_s": 20.0,
+  "band": [
+   1.0,
+   8.0
+  ],
+  "pad_s": 1800.0,
+  "warm_s": 90.0,
+  "v_min": 5.5,
+  "pick_tol": 5.0,
+  "noise": [
+   -35.0,
+   -5.0
+  ],
+  "signal": [
+   0.0,
+   10.0
+  ],
+  "cover_min": 0.9,
+  "assoc": [
+   -15.0,
+   0.0
+  ],
+  "tune": [
+   "2023-07-01T00:00:00.000000Z",
+   "2023-07-01T00:00:00.000000Z"
+  ],
+  "dev": [
+   "2023-07-01T00:00:00.000000Z",
+   "2023-10-01T00:00:00.000000Z"
+  ]
+ }
+}

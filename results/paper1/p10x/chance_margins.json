@@ -1,0 +1,242 @@
+{
+ "A_shifted_catalogue_primary": {
+  "networks": 33,
+  "CG": {
+   "diff_pp": 2.171,
+   "ci95": [
+    1.041,
+    3.21
+   ],
+   "margins": {
+    "1": {
+     "p_one_sided": 0.9790104947526237,
+     "verdict": "not held"
+    },
+    "2": {
+     "p_one_sided": 0.6191904047976012,
+     "verdict": "not held"
+    },
+    "3": {
+     "p_one_sided": 0.05997001499250375,
+     "verdict": "inconclusive"
+    },
+    "5": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    }
+   },
+   "ratio": 5.697,
+   "ratio_ci95": [
+    2.293,
+    42.956
+   ],
+   "ratio_undefined_resamples": 535,
+   "ratio_le_1_5": false
+  },
+  "CG_c05": {
+   "diff_pp": 0.32,
+   "ci95": [
+    -0.126,
+    0.756
+   ],
+   "margins": {
+    "1": {
+     "p_one_sided": 0.001999000499750125,
+     "verdict": "HELD"
+    },
+    "2": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "3": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "5": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    }
+   },
+   "ratio": 1.692,
+   "ratio_ci95": [
+    0.945,
+    5.613
+   ],
+   "ratio_undefined_resamples": 535,
+   "ratio_le_1_5": false
+  },
+  "CG-D": {
+   "diff_pp": 0.479,
+   "ci95": [
+    0.014,
+    0.899
+   ],
+   "margins": {
+    "1": {
+     "p_one_sided": 0.00849575212393803,
+     "verdict": "HELD"
+    },
+    "2": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "3": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "5": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    }
+   },
+   "ratio": 2.037,
+   "ratio_ci95": [
+    1.242,
+    8.729
+   ],
+   "ratio_undefined_resamples": 535,
+   "ratio_le_1_5": false
+  }
+ },
+ "B_per_episode": {
+  "networks": 33,
+  "CG": {
+   "diff_pp": 2.246,
+   "ci95": [
+    1.144,
+    3.256
+   ],
+   "margins": {
+    "1": {
+     "p_one_sided": 0.9865067466266867,
+     "verdict": "not held"
+    },
+    "2": {
+     "p_one_sided": 0.6796601699150425,
+     "verdict": "not held"
+    },
+    "3": {
+     "p_one_sided": 0.07296351824087956,
+     "verdict": "inconclusive"
+    },
+    "5": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    }
+   },
+   "ratio": 5.401,
+   "ratio_ci95": [
+    2.293,
+    36.304
+   ],
+   "ratio_undefined_resamples": 504,
+   "ratio_le_1_5": false
+  },
+  "CG_c05": {
+   "diff_pp": 0.328,
+   "ci95": [
+    -0.125,
+    0.764
+   ],
+   "margins": {
+    "1": {
+     "p_one_sided": 0.001999000499750125,
+     "verdict": "HELD"
+    },
+    "2": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "3": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "5": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    }
+   },
+   "ratio": 1.643,
+   "ratio_ci95": [
+    0.957,
+    5.074
+   ],
+   "ratio_undefined_resamples": 504,
+   "ratio_le_1_5": false
+  },
+  "CG-D": {
+   "diff_pp": 0.493,
+   "ci95": [
+    0.023,
+    0.914
+   ],
+   "margins": {
+    "1": {
+     "p_one_sided": 0.009495252373813094,
+     "verdict": "HELD"
+    },
+    "2": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "3": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    },
+    "5": {
+     "p_one_sided": 0.0004997501249375312,
+     "verdict": "HELD"
+    }
+   },
+   "ratio": 1.967,
+   "ratio_ci95": [
+    1.255,
+    7.48
+   ],
+   "ratio_undefined_resamples": 504,
+   "ratio_le_1_5": false
+  }
+ },
+ "inputs_sha256": {
+  "chance_by_policy.json": "62af702694085ad7ed0ece3c665e7e7f80b5162fd5584ed549457b1f1e1489b6",
+  "chance_per_episode_33net.json": "35f84d0d675649dd22251741de1b9d798364a50b13b6ea23cd4472926681fbc9"
+ },
+ "selfcheck_vs_G2": {
+  "CG": [
+   2.171,
+   [
+    1.041,
+    3.21
+   ],
+   2.171,
+   [
+    1.041,
+    3.21
+   ]
+  ],
+  "CG_c05": [
+   0.32,
+   [
+    -0.126,
+    0.756
+   ],
+   0.32,
+   [
+    -0.126,
+    0.756
+   ]
+  ],
+  "CG-D": [
+   0.479,
+   [
+    0.014,
+    0.899
+   ],
+   0.479,
+   [
+    0.014,
+    0.899
+   ]
+  ]
+ }
+}

@@ -1,29 +1,40 @@
 cff-version: 1.2.0
 message: "If you use this code or these results, please cite them as below."
-title: "Criteria-Governed Decision-Making in Sparse Seismic Networks: code, pre-registrations and results"
+title: "Criteria-governed seismic alarm triage in sparse networks: code, pre-specified test plans and results"
 type: software
 authors:
   - family-names: Zhakypbekov
     given-names: Syrym
-    email: s.zhakypbekov@iitu.edu.kz
     affiliation: "Department of Digital and Intelligent Systems, International Information Technology University, Almaty, Kazakhstan"
     orcid: "https://orcid.org/0000-0001-9112-5922"
   - family-names: Bykov
     given-names: Artem
     affiliation: "Department of Digital and Intelligent Systems, International Information Technology University, Almaty, Kazakhstan"
     orcid: "https://orcid.org/0000-0002-9563-5185"
+  - family-names: Abzhanova
+    given-names: Ainagul
+    affiliation: "Department of Information Systems, L.N. Gumilyov Eurasian National University, Astana, Kazakhstan"
+    orcid: "https://orcid.org/0009-0003-7796-1862"
+  - family-names: Imanbekova
+    given-names: Tokhtabubi
+    affiliation: "Department of Intelligent Telecommunications, International Information Technology University, Almaty, Kazakhstan"
+    orcid: "https://orcid.org/0000-0002-3698-3956"
+  - family-names: Lavrov
+    given-names: Evgeniy
+    affiliation: "Department of Computer Science, Sumy State University, Sumy, Ukraine; Department of Computer Engineering, International Information Technology University, Almaty, Kazakhstan"
+    orcid: "https://orcid.org/0000-0001-9117-5727"
   - family-names: Shaikemelova
     given-names: Akbota
     affiliation: "Department of Artificial Intelligence and Mathematical Modeling, International Information Technology University, Almaty, Kazakhstan"
     orcid: "https://orcid.org/0009-0003-4446-4683"
-  - family-names: Chinibayeva
-    given-names: Tolganay
+  - family-names: Mametova
+    given-names: Rashidam
     affiliation: "Department of Computer Engineering, International Information Technology University, Almaty, Kazakhstan"
-    orcid: "https://orcid.org/0000-0002-2657-3697"
+    orcid: "https://orcid.org/0009-0009-7909-3660"
 license: MIT
 repository-code: "https://github.com/Syrym-Zhakypbekov/sparse-seismic-criteria-governed-triage"
-version: "1.0.0"
-date-released: "2026-11-08"
+version: "1.1.0"
+date-released: "2026-11-15"
 doi: 10.5281/zenodo.24053125
 identifiers:
   - type: doi
@@ -34,7 +45,7 @@ identifiers:
     description: "Zenodo concept DOI, all versions"
   - type: doi
     value: 10.17605/OSF.IO/Y8QXZ
-    description: "OSF registration of the test plans"
+    description: "OSF registration of the 38-network test plan (companion study)"
 keywords:
   - seismic monitoring
   - sparse seismic network
@@ -44,16 +55,21 @@ keywords:
   - pre-registration
 preferred-citation:
   type: article
-  title: "Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation"
+  title: "Missing versus Non-Confirming Neighbour Evidence in Sparse Seismic Alarm Triage: A Criteria-Governed Rule Tested at Kazakhstan and Alaska Stations"
   authors:
     - family-names: Zhakypbekov
       given-names: Syrym
     - family-names: Bykov
       given-names: Artem
+    - family-names: Abzhanova
+      given-names: Ainagul
+    - family-names: Imanbekova
+      given-names: Tokhtabubi
+    - family-names: Lavrov
+      given-names: Evgeniy
     - family-names: Shaikemelova
       given-names: Akbota
-    - family-names: Chinibayeva
-      given-names: Tolganay
+    - family-names: Mametova
+      given-names: Rashidam
   journal: "Sensors"
-  year: 2026
-  notes: "Submitted"
+  notes: "Manuscript prepared for Sensors (MDPI); cite this archive until it is published"

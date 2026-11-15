@@ -1,0 +1,248 @@
+{
+ "family": "descriptive (not in Holm)",
+ "id": "P10X-04",
+ "chain": "B",
+ "data": "IU.MAKZ/II.KURK ledgers: development 2026, 2024 quarters, extended 2025-26 (P10 a97d376); trigger counts from summary.json",
+ "metric": "chance-YES of G.WUS seen from IU.MAKZ, Poisson substitute (registered), 2024 Q1; plus G.WUS-removed CG-P3 sensitivity",
+ "est": 0.47831,
+ "ci": [
+  0.47365,
+  0.48298
+ ],
+ "p": null,
+ "verdict": "inconclusive",
+ "summary": {
+  "WUS_from_MAKZ_2024_quarters": [
+   0.47831,
+   0.4644,
+   0.5066,
+   0.44746
+  ],
+  "MK31_KURK_from_MAKZ_2024_quarters": [
+   0.00696,
+   0.10619,
+   0.00734,
+   0.04608,
+   0.00734,
+   0.04155,
+   0.00576,
+   0.04759
+  ],
+  "WUS_from_MAKZ_dev2026": {
+   "triggers": 147,
+   "valid_days": 0.84,
+   "window_s_each_side": 125.2,
+   "triggers_per_valid_day": 175.17,
+   "chance_yes": 0.3981,
+   "ci95": [
+    0.34878,
+    0.44936
+   ]
+  },
+  "WUS_from_KURK_2024_Q1": {
+   "triggers": 20431,
+   "valid_days": 91.0,
+   "window_s_each_side": 197.5,
+   "triggers_per_valid_day": 224.52,
+   "chance_yes": 0.64167,
+   "ci95": [
+    0.63661,
+    0.64671
+   ]
+  },
+  "empirical_WUS_yes_share_unassoc": {
+   "dev 2026 IU.MAKZ": {
+    "unassoc_valid": 8,
+    "yes": 4,
+    "yes_share": 0.5,
+    "ci95": [
+     0.21522,
+     0.78478
+    ]
+   },
+   "extended IU.MAKZ": {
+    "unassoc_valid": 9239,
+    "yes": 4312,
+    "yes_share": 0.46672,
+    "ci95": [
+     0.45656,
+     0.4769
+    ]
+   },
+   "extended II.KURK": {
+    "unassoc_valid": 9516,
+    "yes": 5113,
+    "yes_share": 0.53731,
+    "ci95": [
+     0.52727,
+     0.54731
+    ]
+   },
+   "2024 IU.MAKZ": {
+    "unassoc_valid": 11062,
+    "yes": 5925,
+    "yes_share": 0.53562,
+    "ci95": [
+     0.52631,
+     0.5449
+    ]
+   },
+   "2024 II.KURK": {
+    "unassoc_valid": 9375,
+    "yes": 5868,
+    "yes_share": 0.62592,
+    "ci95": [
+     0.61608,
+     0.63566
+    ]
+   }
+  },
+  "E3_K3_wus_missing": {
+   "extended IU.MAKZ": {
+    "frozen": [
+     2.44,
+     [
+      1.74,
+      3.18
+     ],
+     3.603,
+     [
+      3.079,
+      4.131
+     ],
+     -8.242,
+     [
+      -8.779,
+      -7.724
+     ]
+    ],
+    "WUS_missing": [
+     3.71,
+     [
+      2.91,
+      4.55
+     ],
+     0.008,
+     [
+      -0.427,
+      0.423
+     ],
+     -5.314,
+     [
+      -5.577,
+      -5.038
+     ]
+    ]
+   },
+   "extended II.KURK": {
+    "frozen": [
+     10.19,
+     [
+      8.72,
+      11.76
+     ],
+     2.771,
+     [
+      2.199,
+      3.361
+     ],
+     -7.995,
+     [
+      -8.625,
+      -7.416
+     ]
+    ],
+    "WUS_missing": [
+     11.44,
+     [
+      10.0,
+      12.94
+     ],
+     -2.126,
+     [
+      -2.601,
+      -1.656
+     ],
+     -3.863,
+     [
+      -4.302,
+      -3.502
+     ]
+    ]
+   },
+   "2024 IU.MAKZ": {
+    "frozen": [
+     1.86,
+     [
+      1.13,
+      2.64
+     ],
+     7.809,
+     [
+      7.317,
+      8.351
+     ],
+     -11.732,
+     [
+      -12.373,
+      -11.135
+     ]
+    ],
+    "WUS_missing": [
+     3.55,
+     [
+      2.52,
+      4.61
+     ],
+     0.895,
+     [
+      0.24,
+      1.506
+     ],
+     -6.776,
+     [
+      -7.16,
+      -6.42
+     ]
+    ]
+   },
+   "2024 II.KURK": {
+    "frozen": [
+     9.29,
+     [
+      7.48,
+      11.14
+     ],
+     6.404,
+     [
+      5.577,
+      7.282
+     ],
+     -10.213,
+     [
+      -11.232,
+      -9.259
+     ]
+    ],
+    "WUS_missing": [
+     10.77,
+     [
+      8.79,
+      12.77
+     ],
+     -2.907,
+     [
+      -3.516,
+      -2.347
+     ],
+     -2.754,
+     [
+      -2.986,
+      -2.519
+     ]
+    ]
+   }
+  }
+ },
+ "note": "Descriptive row. The registered time-shifted trigger method is BLOCKED (see plan/BLOCKERS_P10X.md); the Poisson value assumes triggers uniform in valid time (clustering would change it) and is a deviation from the requested method. Lists: [diff_pp, ci, esc/day diff, ci, alerts/day diff, ci] for CG - P3."
+}

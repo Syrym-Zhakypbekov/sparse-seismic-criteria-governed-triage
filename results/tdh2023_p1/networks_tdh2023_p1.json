@@ -1,0 +1,17 @@
+{
+ "plan": "PREREGISTRATION_TDH2023_PAPER1_2026-11-09.md",
+ "period": ["2023-01-01", "2024-01-01"],
+ "chunks": ["2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01"],
+ "networks": {
+  "IU_MAKZ": {
+   "stations": {"MAKZ": ["IU", "MAKZ", "00", "BHZ", 46.808, 81.977], "MK31": ["IM", "MK31", "*", "?HZ", 46.793682, 82.290565],
+                "KURK": ["II", "KURK", "00", "BHZ", 50.7154, 78.6202], "WUS": ["G", "WUS", "00", "BHZ", 41.200716, 79.216498]},
+   "frozen_thresholds": {"MAKZ": 7.010977, "MK31": 7.384668, "KURK": 6.796058, "WUS": 3.490711},
+   "thresholds_source": "results/extended/vm_2025/p10_run.sh (extended and 2024 tests)"},
+  "AK": {
+   "stations": {"MAKZ": ["AK", "CUT", "", "BHZ", 62.4058, -150.2625], "MK31": ["AK", "L22K", "", "BHZ", 62.5258, -150.7703],
+                "KURK": ["AK", "COLD", "", "BHZ", 67.2278, -150.207], "WUS": ["AK", "E22K", "", "BHZ", 68.1343, -151.8132]},
+   "frozen_thresholds": {"MAKZ": 10.931966748358949, "MK31": 10.614749965111498, "KURK": 8.705359582398017, "WUS": 8.8048861838634},
+   "thresholds_source": "results/ak/outAK_tune/thresholds.txt (AK tuning week 2024-01-01..07)"}
+ }
+}

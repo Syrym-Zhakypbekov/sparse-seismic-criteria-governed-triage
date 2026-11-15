@@ -1,0 +1,128 @@
+{
+ "thresholds_one_procedure": {
+  "P1t": 8.0,
+  "P2": 10.5,
+  "P3": 8.0,
+  "CG_theta_D": 0.16
+ },
+ "frozen": {
+  "P3": 7.5,
+  "CG_theta_D": 0.16
+ },
+ "E3_frozen_selfcheck": {
+  "diff_pp": 2.44,
+  "ci95_pp": [
+   1.74,
+   3.18
+  ],
+  "p_one_sided_H0_ge_margin": 0.07446,
+  "noninferior": false,
+  "counts": {
+   "CG_dismissed_assoc": 98,
+   "P3_dismissed_assoc": 38
+  }
+ },
+ "E3_one_procedure": {
+  "diff_pp": 1.96,
+  "ci95_pp": [
+   1.29,
+   2.66
+  ],
+  "p_one_sided_H0_ge_margin": 0.0035,
+  "noninferior": true,
+  "counts": {
+   "CG_dismissed_assoc": 98,
+   "P3_dismissed_assoc": 50
+  }
+ },
+ "pickle_sha256": "325cb484706603a62f93cb4e5aab7a6ff804f65df08e3da479de821a123ee016",
+ "reviewed_frozen_selfcheck": {
+  "networks": 33,
+  "pooled_diff_pp": 3.89,
+  "pooled_ci95_pp": [
+   2.31,
+   5.728
+  ],
+  "pooled_noninferior": false,
+  "equal_weight_diff_pp": 3.54,
+  "equal_weight_ci95_pp": [
+   2.121,
+   5.204
+  ],
+  "ratio": 2.109,
+  "ratio_ci95": [
+   1.749,
+   2.891
+  ],
+  "ratio_criterion_holds": false
+ },
+ "reviewed_one_procedure": {
+  "CG": {
+   "networks": 33,
+   "pooled_diff_pp": 3.33,
+   "pooled_ci95_pp": [
+    1.911,
+    5.132
+   ],
+   "pooled_noninferior": false,
+   "equal_weight_diff_pp": 3.06,
+   "equal_weight_ci95_pp": [
+    1.728,
+    4.558
+   ],
+   "ratio": 1.821,
+   "ratio_ci95": [
+    1.54,
+    2.326
+   ],
+   "ratio_criterion_holds": false
+  },
+  "CG_c05": {
+   "networks": 33,
+   "pooled_diff_pp": 0.19,
+   "pooled_ci95_pp": [
+    -0.127,
+    0.6
+   ],
+   "pooled_noninferior": true,
+   "equal_weight_diff_pp": 0.03,
+   "equal_weight_ci95_pp": [
+    -0.372,
+    0.394
+   ],
+   "ratio": 1.046,
+   "ratio_ci95": [
+    0.956,
+    1.124
+   ],
+   "ratio_criterion_holds": true
+  },
+  "CG-D": {
+   "networks": 33,
+   "pooled_diff_pp": 0.42,
+   "pooled_ci95_pp": [
+    0.05,
+    0.882
+   ],
+   "pooled_noninferior": true,
+   "equal_weight_diff_pp": 0.25,
+   "equal_weight_ci95_pp": [
+    -0.193,
+    0.672
+   ],
+   "ratio": 1.103,
+   "ratio_ci95": [
+    1.015,
+    1.201
+   ],
+   "ratio_criterion_holds": true
+  }
+ },
+ "reviewed_one_procedure_counts": {
+  "P3": 175,
+  "CG": 319,
+  "CG_c05": 183,
+  "CG-D": 193
+ },
+ "note_CG-D": "CG-D keeps its frozen actions: its theta_D is that of CG; if the one-procedure CG theta_D differs, CG-D is re-scored is NOT done (see JSON thresholds)."
+}

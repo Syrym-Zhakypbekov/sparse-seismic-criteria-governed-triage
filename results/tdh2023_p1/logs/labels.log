@@ -1,0 +1,29 @@
+ISC 1 24 ISC_IU_MAKZ_2022-12-31.xml
+ISC 2 24 ISC_IU_MAKZ_2023-02-01.xml
+ISC 3 24 ISC_IU_MAKZ_2023-03-01.xml
+ISC 4 24 ISC_IU_MAKZ_2023-04-01.xml
+ISC 5 24 ISC_IU_MAKZ_2023-05-01.xml
+ISC 6 24 ISC_IU_MAKZ_2023-06-01.xml
+ISC 7 24 ISC_IU_MAKZ_2023-07-01.xml
+ISC 8 24 ISC_IU_MAKZ_2023-08-01.xml
+ISC 9 24 ISC_IU_MAKZ_2023-09-01.xml
+ISC 10 24 ISC_IU_MAKZ_2023-10-01.xml
+ISC 11 24 ISC_IU_MAKZ_2023-11-01.xml
+ISC 12 24 ISC_IU_MAKZ_2023-12-01.xml
+ISC 13 24 ISC_AK_2022-12-31.xml
+ISC 14 24 ISC_AK_2023-02-01.xml
+ISC 15 24 ISC_AK_2023-03-01.xml
+ISC 16 24 ISC_AK_2023-04-01.xml
+ISC 17 24 ISC_AK_2023-05-01.xml
+ISC 18 24 ISC_AK_2023-06-01.xml
+ISC 19 24 ISC_AK_2023-07-01.xml
+ISC 20 24 ISC_AK_2023-08-01.xml
+ISC 21 24 ISC_AK_2023-09-01.xml
+ISC 22 24 ISC_AK_2023-10-01.xml
+ISC 23 24 ISC_AK_2023-11-01.xml
+ISC 24 24 ISC_AK_2023-12-01.xml
+labels 60 bucket rc 0 file://C:\dev\p10-seismic-alarm-triage\results\tdh2023_p1\labels\USGS_IU_MAKZ_2023-12-01.json to gs://p10-raw-waveforms/tdh2023_p1/_labels/USGS_IU_MAKZ_2023-12-01.json
+.....................................................................................................
+
+Average throughput: 5.1MiB/s
+

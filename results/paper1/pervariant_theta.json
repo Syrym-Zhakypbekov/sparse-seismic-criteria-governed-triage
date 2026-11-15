@@ -1,0 +1,225 @@
+{
+ "plan": "addendum 3",
+ "theta_D_rule4_per_variant": {
+  "CG": 0.16,
+  "CG c=0.5": 0.22,
+  "CG-D": 0.2
+ },
+ "dev": {
+  "CG": {
+   "dismissed_assoc": 6,
+   "escalations": 427,
+   "dismissed_assoc_at_0.16": 6
+  },
+  "CG c=0.5": {
+   "dismissed_assoc": 7,
+   "escalations": 368,
+   "dismissed_assoc_at_0.16": 2
+  },
+  "CG-D": {
+   "dismissed_assoc": 6,
+   "escalations": 414,
+   "dismissed_assoc_at_0.16": 2
+  }
+ },
+ "sets": {
+  "extended IU.MAKZ": {
+   "CG": {
+    "diff_pp": 1.96,
+    "ci95_pp": [
+     1.29,
+     2.66
+    ],
+    "p_one_sided": 0.0035,
+    "dismissed": 98,
+    "esc_per_day": 16.21
+   },
+   "CG c=0.5": {
+    "diff_pp": 2.44,
+    "ci95_pp": [
+     1.77,
+     3.11
+    ],
+    "p_one_sided": 0.05897,
+    "dismissed": 110,
+    "esc_per_day": 14.14
+   },
+   "CG-D": {
+    "diff_pp": 2.12,
+    "ci95_pp": [
+     1.43,
+     2.81
+    ],
+    "p_one_sided": 0.0085,
+    "dismissed": 102,
+    "esc_per_day": 14.83
+   },
+   "P3-2t dismissed": 50
+  },
+  "extended II.KURK": {
+   "CG": {
+    "diff_pp": 9.11,
+    "ci95_pp": [
+     7.69,
+     10.61
+    ],
+    "p_one_sided": 1.0,
+    "dismissed": 228,
+    "esc_per_day": 14.99
+   },
+   "CG c=0.5": {
+    "diff_pp": 9.16,
+    "ci95_pp": [
+     7.79,
+     10.67
+    ],
+    "p_one_sided": 1.0,
+    "dismissed": 229,
+    "esc_per_day": 13.99
+   },
+   "CG-D": {
+    "diff_pp": 9.85,
+    "ci95_pp": [
+     8.28,
+     11.47
+    ],
+    "p_one_sided": 1.0,
+    "dismissed": 241,
+    "esc_per_day": 14.08
+   },
+   "P3-2t dismissed": 68
+  },
+  "2024 IU.MAKZ": {
+   "CG": {
+    "diff_pp": 1.62,
+    "ci95_pp": [
+     0.93,
+     2.35
+    ],
+    "p_one_sided": 0.001,
+    "dismissed": 34,
+    "esc_per_day": 18.76
+   },
+   "CG c=0.5": {
+    "diff_pp": 1.37,
+    "ci95_pp": [
+     0.78,
+     2.01
+    ],
+    "p_one_sided": 0.0005,
+    "dismissed": 31,
+    "esc_per_day": 16.56
+   },
+   "CG-D": {
+    "diff_pp": 1.53,
+    "ci95_pp": [
+     0.86,
+     2.26
+    ],
+    "p_one_sided": 0.001,
+    "dismissed": 33,
+    "esc_per_day": 16.39
+   },
+   "P3-2t dismissed": 14
+  },
+  "2024 II.KURK": {
+   "CG": {
+    "diff_pp": 8.55,
+    "ci95_pp": [
+     6.86,
+     10.3
+    ],
+    "p_one_sided": 1.0,
+    "dismissed": 101,
+    "esc_per_day": 16.19
+   },
+   "CG c=0.5": {
+    "diff_pp": 7.5,
+    "ci95_pp": [
+     5.81,
+     9.22
+    ],
+    "p_one_sided": 1.0,
+    "dismissed": 91,
+    "esc_per_day": 15.45
+   },
+   "CG-D": {
+    "diff_pp": 9.61,
+    "ci95_pp": [
+     7.73,
+     11.47
+    ],
+    "p_one_sided": 1.0,
+    "dismissed": 111,
+    "esc_per_day": 15.25
+   },
+   "P3-2t dismissed": 20
+  },
+  "KZ network": {
+   "CG": {
+    "diff_pp": 3.47,
+    "ci95_pp": [
+     2.7,
+     4.32
+    ],
+    "p_one_sided": 0.88106,
+    "dismissed": 102,
+    "esc_per_day": 10.86
+   },
+   "CG c=0.5": {
+    "diff_pp": 2.89,
+    "ci95_pp": [
+     2.17,
+     3.67
+    ],
+    "p_one_sided": 0.38031,
+    "dismissed": 89,
+    "esc_per_day": 9.54
+   },
+   "CG-D": {
+    "diff_pp": 3.6,
+    "ci95_pp": [
+     2.82,
+     4.47
+    ],
+    "p_one_sided": 0.93453,
+    "dismissed": 105,
+    "esc_per_day": 9.61
+   },
+   "P3-2t dismissed": 24
+  },
+  "AK network": {
+   "CG": {
+    "diff_pp": 1.38,
+    "ci95_pp": [
+     0.9,
+     1.9
+    ],
+    "p_one_sided": 0.0005,
+    "dismissed": 33,
+    "esc_per_day": 17.77
+   },
+   "CG c=0.5": {
+    "diff_pp": 0.98,
+    "ci95_pp": [
+     0.59,
+     1.43
+    ],
+    "p_one_sided": 0.0005,
+    "dismissed": 25,
+    "esc_per_day": 16.58
+   },
+   "CG-D": {
+    "diff_pp": 1.33,
+    "ci95_pp": [
+     0.87,
+     1.83
+    ],
+    "p_one_sided": 0.0005,
+    "dismissed": 32,
+    "esc_per_day": 17.0
+   },
+   "P3-2t dismissed": 5
+  }
+ }
+}

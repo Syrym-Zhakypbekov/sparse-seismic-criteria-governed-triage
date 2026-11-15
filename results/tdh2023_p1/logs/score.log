@@ -1,0 +1,80 @@
+IU_MAKZ done
+AK done
+{
+ "T1-IU.MAKZ-CG": {
+  "diff_pp": 1.01,
+  "ci95_pp": [
+   0.38,
+   1.77
+  ],
+  "p_one_sided": 0.0005,
+  "exercised": true,
+  "p_holm": 0.003,
+  "met_after_holm": true
+ },
+ "T1-IU.MAKZ-CG c=0.5": {
+  "diff_pp": 0.0,
+  "ci95_pp": [
+   0.0,
+   0.0
+  ],
+  "p_one_sided": 0.0005,
+  "exercised": true,
+  "p_holm": 0.003,
+  "met_after_holm": true
+ },
+ "T1-IU.MAKZ-CG-D": {
+  "diff_pp": 0.0,
+  "ci95_pp": [
+   0.0,
+   0.0
+  ],
+  "p_one_sided": 0.0005,
+  "exercised": true,
+  "p_holm": 0.003,
+  "met_after_holm": true
+ },
+ "T2-IU.MAKZ": {
+  "exercised": false,
+  "rev_assoc_outage": 0,
+  "outage_days_with_rev_assoc": 0
+ },
+ "T1-AK-CG": {
+  "diff_pp": 1.18,
+  "ci95_pp": [
+   0.42,
+   1.96
+  ],
+  "p_one_sided": 0.0005,
+  "exercised": true,
+  "p_holm": 0.003,
+  "met_after_holm": true
+ },
+ "T1-AK-CG c=0.5": {
+  "diff_pp": 0.0,
+  "ci95_pp": [
+   0.0,
+   0.0
+  ],
+  "p_one_sided": 0.0005,
+  "exercised": true,
+  "p_holm": 0.003,
+  "met_after_holm": true
+ },
+ "T1-AK-CG-D": {
+  "diff_pp": 0.0,
+  "ci95_pp": [
+   0.0,
+   0.0
+  ],
+  "p_one_sided": 0.0005,
+  "exercised": true,
+  "p_holm": 0.003,
+  "met_after_holm": true
+ },
+ "T2-AK": {
+  "exercised": false,
+  "rev_assoc_outage": 0,
+  "outage_days_with_rev_assoc": 0
+ }
+}

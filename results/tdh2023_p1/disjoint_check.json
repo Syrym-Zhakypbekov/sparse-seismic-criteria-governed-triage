@@ -1,0 +1,112 @@
+{
+ "checked_utc": "2026-11-09T02:49:47+00:00",
+ "files_scanned": {
+  "availability": 309,
+  "episodes": 309,
+  "summary": 310
+ },
+ "files_with_2023_days": [
+  {
+   "file": "results\\tdh2023\\runs\\A2\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AE\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AG\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AU\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AV\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\C1\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\EE\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\FN\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\HC\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\HE\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\ND\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\NS\\out_2023-06-01\\availability.csv",
+   "days_2023": 90
+  },
+  {
+   "file": "results\\tdh2023\\runs\\A2\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 2045
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AE\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 1981
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AG\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 2149
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AU\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 2199
+  },
+  {
+   "file": "results\\tdh2023\\runs\\AV\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 930
+  },
+  {
+   "file": "results\\tdh2023\\runs\\C1\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 925
+  },
+  {
+   "file": "results\\tdh2023\\runs\\EE\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 5947
+  },
+  {
+   "file": "results\\tdh2023\\runs\\FN\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 2617
+  },
+  {
+   "file": "results\\tdh2023\\runs\\HC\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 3569
+  },
+  {
+   "file": "results\\tdh2023\\runs\\HE\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 3223
+  },
+  {
+   "file": "results\\tdh2023\\runs\\ND\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 2624
+  },
+  {
+   "file": "results\\tdh2023\\runs\\NS\\out_2023-06-01\\episodes.csv",
+   "episodes_2023": 1720
+  }
+ ],
+ "of_which_paper1_networks": [],
+ "summary_json_with_station_codes_and_2023": [],
+ "bucket_objects": 7478,
+ "bucket_rc": 0,
+ "bucket_objects_paper1_2023": [],
+ "all_disjoint": true
+}

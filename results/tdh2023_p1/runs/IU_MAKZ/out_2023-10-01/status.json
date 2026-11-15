@@ -1,0 +1,17 @@
+{
+ "network": "IU_MAKZ",
+ "chunk": [
+  "2023-10-01",
+  "2024-01-01"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "rc": 0,
+   "seconds": 454,
+   "end_utc": "2026-11-09T03:15:45+00:00",
+   "ok": true
+  }
+ ],
+ "ok": true
+}

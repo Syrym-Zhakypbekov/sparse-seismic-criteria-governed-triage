@@ -1,0 +1,107 @@
+{
+ "family": "F-P10X",
+ "id": "P10X-03",
+ "chain": "C",
+ "data": "rule (4) on whole IU.MAKZ development (stage1_v3); 03a extended IU.MAKZ 2025-26; 03b 33 reviewed networks (P10 a97d376)",
+ "metric": "03a: E3 CG - P3 dismissed share of associated (pp), day bootstrap, margin 3; 03b: pooled CG - P3 reviewed (pp), cluster bootstrap, margin 3 and ratio <= 1.5",
+ "est": 1.96,
+ "ci": [
+  1.29,
+  2.66
+ ],
+ "p": 0.0035,
+ "verdict_unadjusted": "HELD",
+ "verdict": null,
+ "sub": {
+  "03a": {
+   "est": 1.96,
+   "ci": [
+    1.29,
+    2.66
+   ],
+   "p": 0.0035,
+   "verdict_unadjusted": "HELD",
+   "frozen_selfcheck": {
+    "diff_pp": 2.44,
+    "ci95_pp": [
+     1.74,
+     3.18
+    ],
+    "p_one_sided_H0_ge_margin": 0.07446,
+    "noninferior": false,
+    "counts": {
+     "CG_dismissed_assoc": 98,
+     "P3_dismissed_assoc": 38
+    }
+   },
+   "frozen_verdict": "not established (published)",
+   "counts": {
+    "CG_dismissed_assoc": 98,
+    "P3_dismissed_assoc": 50
+   }
+  },
+  "03b": {
+   "est": 3.33,
+   "ci": [
+    1.911,
+    5.132
+   ],
+   "ratio": 1.821,
+   "ratio_ci": [
+    1.54,
+    2.326
+   ],
+   "p": 0.9900049975012494,
+   "verdict_unadjusted": "not held",
+   "c05_and_CGD": {
+    "CG_c05": {
+     "networks": 33,
+     "pooled_diff_pp": 0.19,
+     "pooled_ci95_pp": [
+      -0.127,
+      0.6
+     ],
+     "pooled_noninferior": true,
+     "equal_weight_diff_pp": 0.03,
+     "equal_weight_ci95_pp": [
+      -0.372,
+      0.394
+     ],
+     "ratio": 1.046,
+     "ratio_ci95": [
+      0.956,
+      1.124
+     ],
+     "ratio_criterion_holds": true
+    },
+    "CG-D": {
+     "networks": 33,
+     "pooled_diff_pp": 0.42,
+     "pooled_ci95_pp": [
+      0.05,
+      0.882
+     ],
+     "pooled_noninferior": true,
+     "equal_weight_diff_pp": 0.25,
+     "equal_weight_ci95_pp": [
+      -0.193,
+      0.672
+     ],
+     "ratio": 1.103,
+     "ratio_ci95": [
+      1.015,
+      1.201
+     ],
+     "ratio_criterion_holds": true
+    }
+   }
+  }
+ },
+ "thresholds_one_procedure": {
+  "P1t": 8.0,
+  "P2": 10.5,
+  "P3": 8.0,
+  "CG_theta_D": 0.16
+ },
+ "note": "03a re-computes a known result (Table B2); it is not independent confirmation. Final verdicts after Holm (holm.py)."
+}

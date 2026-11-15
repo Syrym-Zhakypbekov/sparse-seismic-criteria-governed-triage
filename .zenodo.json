@@ -1,27 +1,42 @@
 {
-  "title": "Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation (code, pre-registrations and results)",
+  "title": "Criteria-governed seismic alarm triage in sparse networks: code, pre-specified test plans and results",
   "upload_type": "software",
-  "description": "Code, pre-registered test plans, per-episode decision records and result files for the manuscript \"Criteria-Governed Decision-Making in Sparse Seismic Networks: Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation\" (S. Zhakypbekov, A. Bykov, A. Shaikemelova, T. Chinibayeva; submitted to Sensors, MDPI). Pre-specified tests at two Kazakhstan reference stations, a second Kazakhstan network, Alaska and 38 seismic networks in eight regions selected by a metadata rule, scored against catalogue association and against analyst-reviewed bulletins (ISC Reviewed Bulletin, USGS ComCat); post hoc robustness analyses, including a stress test with controlled loss of neighbour evidence. Test plans are registered on OSF: https://osf.io/y8qxz (DOI 10.17605/OSF.IO/Y8QXZ). Source repository: https://github.com/Syrym-Zhakypbekov/sparse-seismic-criteria-governed-triage",
+  "description": "Code, pre-specified test plans, per-episode decision records and result files for the manuscript \"Missing versus Non-Confirming Neighbour Evidence in Sparse Seismic Alarm Triage: A Criteria-Governed Rule Tested at Kazakhstan and Alaska Stations\" (S. Zhakypbekov, A. Bykov, A. Abzhanova, T. Imanbekova, E. Lavrov, A. Shaikemelova, R. Mametova; prepared for Sensors, MDPI) and for a companion study of 38 seismic networks. Paper 1 tests a rule that gives a missing neighbour record no weight and a valid non-confirmation a reliability weight, at two Kazakhstan reference stations, a second Kazakhstan network, Alaska and a time-disjoint 2023 period. MANIFEST_PAPER1.md maps every table of Paper 1 to its script and result file; results/provenance/prespecification_timeline.json dates each pre-specified plan by its push time and the first data request. The test plan of the 38-network study is registered on OSF: https://osf.io/y8qxz (DOI 10.17605/OSF.IO/Y8QXZ). Source repository: https://github.com/Syrym-Zhakypbekov/sparse-seismic-criteria-governed-triage",
   "creators": [
     {
       "name": "Zhakypbekov, Syrym",
-      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "affiliation": "Department of Digital and Intelligent Systems, International Information Technology University, Almaty, Kazakhstan",
       "orcid": "0000-0001-9112-5922"
     },
     {
       "name": "Bykov, Artem",
-      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "affiliation": "Department of Digital and Intelligent Systems, International Information Technology University, Almaty, Kazakhstan",
       "orcid": "0000-0002-9563-5185"
     },
     {
+      "name": "Abzhanova, Ainagul",
+      "affiliation": "Department of Information Systems, L.N. Gumilyov Eurasian National University, Astana, Kazakhstan",
+      "orcid": "0009-0003-7796-1862"
+    },
+    {
+      "name": "Imanbekova, Tokhtabubi",
+      "affiliation": "Department of Intelligent Telecommunications, International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0000-0002-3698-3956"
+    },
+    {
+      "name": "Lavrov, Evgeniy",
+      "affiliation": "Department of Computer Science, Sumy State University, Sumy, Ukraine; Department of Computer Engineering, International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0000-0001-9117-5727"
+    },
+    {
       "name": "Shaikemelova, Akbota",
-      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
+      "affiliation": "Department of Artificial Intelligence and Mathematical Modeling, International Information Technology University, Almaty, Kazakhstan",
       "orcid": "0009-0003-4446-4683"
     },
     {
-      "name": "Chinibayeva, Tolganay",
-      "affiliation": "International Information Technology University, Almaty, Kazakhstan",
-      "orcid": "0000-0002-2657-3697"
+      "name": "Mametova, Rashidam",
+      "affiliation": "Department of Computer Engineering, International Information Technology University, Almaty, Kazakhstan",
+      "orcid": "0009-0009-7909-3660"
     }
   ],
   "keywords": [
@@ -42,7 +57,9 @@
     "analyst escalation",
     "abstention",
     "non-inferiority",
-    "reproducible research"
+    "reproducible research",
+    "intelligent sensor systems",
+    "reject option"
   ],
   "license": "MIT",
   "access_right": "open",
@@ -94,5 +111,5 @@
       "scheme": "doi"
     }
   ],
-  "version": "v1.0.0"
+  "version": "1.1.0"
 }

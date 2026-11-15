@@ -7,15 +7,13 @@
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
 [![Networks](https://img.shields.io/badge/seismic%20networks-38-green.svg)](results/v2/NETWORK_CHECK.md)
 
-Code, pre-registered test plans, per-episode decision records and result files for the paper
+Code, pre-specified test plans, per-episode decision records and result files for the manuscript
 
-> Zhakypbekov, S.; Bykov, A.; Shaikemelova, A.; Chinibayeva, T. Criteria-Governed Decision-Making in Sparse Seismic Networks:
-> Evidence Sufficiency, Non-Confirmation Reliability, and Analyst Escalation. Submitted to *Sensors* (MDPI), 2026.
+> Zhakypbekov, S.; Bykov, A.; Abzhanova, A.; Imanbekova, T.; Lavrov, E.; Shaikemelova, A.; Mametova, R. Missing versus Non-Confirming Neighbour Evidence in Sparse Seismic Alarm Triage: A Criteria-Governed Rule Tested at Kazakhstan and Alaska Stations. Prepared for *Sensors* (MDPI), 2026.
 
-International Information Technology University, Almaty, Kazakhstan. Correspondence: s.zhakypbekov@iitu.edu.kz.
-Test plans are registered on OSF: https://osf.io/y8qxz (DOI [10.17605/OSF.IO/Y8QXZ](https://doi.org/10.17605/OSF.IO/Y8QXZ)).
-Archived release v1.0.0: Zenodo, DOI [10.5281/zenodo.24053125](https://doi.org/10.5281/zenodo.24053125)
-(all versions: [10.5281/zenodo.24053124](https://doi.org/10.5281/zenodo.24053124)).
+and for a companion study of 38 seismic networks. [MANIFEST_PAPER1.md](MANIFEST_PAPER1.md) maps every table of that manuscript to its script and result file; [MANIFEST.md](MANIFEST.md) maps the earlier combined build v35 (not submitted).
+Pre-specification: each plan is dated by its push time and the first data request in [results/provenance/prespecification_timeline.json](results/provenance/prespecification_timeline.json). The test plan of the 38-network study is registered on OSF: https://osf.io/y8qxz (DOI [10.17605/OSF.IO/Y8QXZ](https://doi.org/10.17605/OSF.IO/Y8QXZ)).
+Archive: Zenodo, all versions DOI [10.5281/zenodo.24053124](https://doi.org/10.5281/zenodo.24053124).
 
 ## Claim
 
@@ -694,8 +692,7 @@ Code: MIT ([LICENSE](LICENSE)). Results, tables and figures in `results/` and `f
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). Until the paper is published, please cite this repository (Zenodo DOI
-10.5281/zenodo.24053125) and the OSF registration (DOI 10.17605/OSF.IO/Y8QXZ).
+See [CITATION.cff](CITATION.cff). Until the paper is published, please cite this archive (Zenodo concept DOI 10.5281/zenodo.24053124).
 
 Related work by the authors: Zhakypbekov, S.; Bykov, A.; Yermakova, V.; Zhuginissova, A.; Vasquez, M.A. A Criteria-Governed
 Human-in-the-Loop Information System Architecture for Explainable AI-Assisted Learning and Preliminary Assessment.

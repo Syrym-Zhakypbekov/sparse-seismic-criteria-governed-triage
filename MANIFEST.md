@@ -1,6 +1,6 @@
 # Manifest: table, figure or section of the paper → script → result file
 
-Numbering follows the manuscript version submitted to *Sensors* (v35, 8 November 2026). Run every script from the repository
+Numbering follows manuscript build v35 (8 November 2026), an earlier combined version that was not submitted. For the Sensors manuscript (Paper 1, v5 of 15 November 2026) use [MANIFEST_PAPER1.md](MANIFEST_PAPER1.md). Run every script from the repository
 root with the environment in `requirements.txt`. "Post hoc" marks analyses added after an earlier result; the paper labels them
 the same way. Scripts not listed here produced intermediate files or earlier versions of an analysis and are kept for the record.
 

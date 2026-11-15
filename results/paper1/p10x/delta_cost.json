@@ -1,0 +1,200 @@
+{
+ "pickle_sha256": "325cb484706603a62f93cb4e5aab7a6ff804f65df08e3da479de821a123ee016",
+ "delta_off_definition": "delta = 0: escalate only when the evidence mass is 0 (analysis/sufficiency_stress.py)",
+ "06a_archive_exact": {
+  "CG": {
+   "assoc_dismiss_status_changed": 0,
+   "assoc_dismissed_on": 319,
+   "assoc_dismissed_off": 319,
+   "decisions_changed": 105
+  },
+  "CG_c05": {
+   "assoc_dismiss_status_changed": 0,
+   "assoc_dismissed_on": 183,
+   "assoc_dismissed_off": 183,
+   "decisions_changed": 250
+  },
+  "CG-D": {
+   "assoc_dismiss_status_changed": 0,
+   "assoc_dismissed_on": 193,
+   "assoc_dismissed_off": 193,
+   "decisions_changed": 250
+  }
+ },
+ "06b_archive_cost": {
+  "CG": {
+   "added_esc_per_nd": {
+    "est": 0.0176,
+    "ci": [
+     0.0072,
+     0.0302
+    ]
+   },
+   "removed_alerts_per_nd": {
+    "est": 0.0064,
+    "ci": [
+     0.0015,
+     0.0125
+    ]
+   },
+   "removed_dismissals_per_nd": {
+    "est": 0.0112,
+    "ci": [
+     0.0033,
+     0.0221
+    ]
+   },
+   "removed_unassoc_alerts_per_nd": {
+    "est": 0.0062,
+    "ci": [
+     0.0013,
+     0.0124
+    ]
+   },
+   "totals": {
+    "added_escalations": 105,
+    "removed_alerts": 38,
+    "removed_dismissals": 67,
+    "network_days_with_episodes": 5979
+   }
+  },
+  "CG_c05": {
+   "added_esc_per_nd": {
+    "est": 0.0418,
+    "ci": [
+     0.0214,
+     0.0674
+    ]
+   },
+   "removed_alerts_per_nd": {
+    "est": 0.0079,
+    "ci": [
+     0.002,
+     0.0154
+    ]
+   },
+   "removed_dismissals_per_nd": {
+    "est": 0.034,
+    "ci": [
+     0.0154,
+     0.0588
+    ]
+   },
+   "removed_unassoc_alerts_per_nd": {
+    "est": 0.0077,
+    "ci": [
+     0.0018,
+     0.0154
+    ]
+   },
+   "totals": {
+    "added_escalations": 250,
+    "removed_alerts": 47,
+    "removed_dismissals": 203,
+    "network_days_with_episodes": 5979
+   }
+  },
+  "CG-D": {
+   "added_esc_per_nd": {
+    "est": 0.0418,
+    "ci": [
+     0.0214,
+     0.0674
+    ]
+   },
+   "removed_alerts_per_nd": {
+    "est": 0.0079,
+    "ci": [
+     0.002,
+     0.0154
+    ]
+   },
+   "removed_dismissals_per_nd": {
+    "est": 0.034,
+    "ci": [
+     0.0154,
+     0.0588
+    ]
+   },
+   "removed_unassoc_alerts_per_nd": {
+    "est": 0.0077,
+    "ci": [
+     0.0018,
+     0.0154
+    ]
+   },
+   "totals": {
+    "added_escalations": 250,
+    "removed_alerts": 47,
+    "removed_dismissals": 203,
+    "network_days_with_episodes": 5979
+   }
+  }
+ },
+ "06b_masked_p05_independent": {
+  "CG": {
+   "avoided_assoc_dismissals_mean": 15.86,
+   "avoided_ci95_network_boot": [
+    6.28,
+    28.7
+   ],
+   "added_escalations_mean": 13329.3,
+   "added_esc_pct": 11.75,
+   "removed_alerts_mean": 3502.3,
+   "removed_unassoc_alerts_mean": 3241.4,
+   "esc_per_avoided_dismissal": 840.4,
+   "esc_per_avoided_ci95": [
+    635.4,
+    1392.3
+   ],
+   "ratio_undefined_resamples": 0,
+   "avoided_seed_range": [
+    9.0,
+    23.0
+   ]
+  },
+  "CG_c05": {
+   "avoided_assoc_dismissals_mean": 15.86,
+   "avoided_ci95_network_boot": [
+    6.28,
+    28.7
+   ],
+   "added_escalations_mean": 13370.6,
+   "added_esc_pct": 9.68,
+   "removed_alerts_mean": 3508.6,
+   "removed_unassoc_alerts_mean": 3247.6,
+   "esc_per_avoided_dismissal": 843.0,
+   "esc_per_avoided_ci95": [
+    638.3,
+    1398.2
+   ],
+   "ratio_undefined_resamples": 0,
+   "avoided_seed_range": [
+    9.0,
+    23.0
+   ]
+  },
+  "CG-D": {
+   "avoided_assoc_dismissals_mean": 15.86,
+   "avoided_ci95_network_boot": [
+    6.28,
+    28.7
+   ],
+   "added_escalations_mean": 13370.6,
+   "added_esc_pct": 9.6,
+   "removed_alerts_mean": 3508.6,
+   "removed_unassoc_alerts_mean": 3247.6,
+   "esc_per_avoided_dismissal": 843.0,
+   "esc_per_avoided_ci95": [
+    638.3,
+    1398.2
+   ],
+   "ratio_undefined_resamples": 0,
+   "avoided_seed_range": [
+    9.0,
+    23.0
+   ]
+  }
+ },
+ "masking": "independent per site-episode, p = 0.5, seeds 7..56 (rng [seed, 0]); per-network seed means, network bootstrap 2000 seed 7"
+}
