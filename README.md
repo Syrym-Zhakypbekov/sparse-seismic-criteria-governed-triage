@@ -1,9 +1,9 @@
-# Criteria-Governed Decision-Making in Sparse Seismic Networks
+# Criteria-governed seismic alarm triage in sparse networks: code, plans and results
 
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Results: CC BY 4.0](https://img.shields.io/badge/results-CC%20BY%204.0-lightgrey.svg)](LICENSE-results.md)
 [![OSF registration](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FY8QXZ-blue.svg)](https://doi.org/10.17605/OSF.IO/Y8QXZ)
-[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24053125.svg)](https://doi.org/10.5281/zenodo.24053125)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24053124.svg)](https://doi.org/10.5281/zenodo.24053124)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
 [![Networks](https://img.shields.io/badge/seismic%20networks-38-green.svg)](results/v2/NETWORK_CHECK.md)
 
@@ -31,7 +31,11 @@ Checked on 15 November 2026 in a fresh `git clone` of this repository (Python en
 
 The raw ISC and USGS catalogue copies are not redistributed; `labels.py` downloads them. MANIFEST_PAPER1.md maps every table to its script and result file.
 
-## Claim
+## Companion study: 38 networks (separate manuscript in preparation)
+
+Everything from here to the end of the key-number table belongs to the companion study, not to the Sensors manuscript above. Its hypothesis labels (R1-R7, V6) are its own: they are not the R1-R6 of Paper 1 (Alaska replication), and its numbers are not used in Paper 1. For Paper 1 use MANIFEST_PAPER1.md.
+
+### Claim
 
 A sparse seismic network confirms a trigger at one station by checking its neighbours. A neighbour with no data and a
 neighbour that recorded and did not trigger are different evidence; classic coincidence counts both as "no confirmation".
@@ -42,7 +46,7 @@ to an analyst. Tested against analyst-reviewed bulletins on 33 networks, the rul
 discounted non-confirmation (c = 0.5, or development-table weights CG-D) it stayed within 3 points of an abstaining SNR rule
 while raising fewer automatic alerts without a reviewed event, and it kept dismissals low when neighbour data were missing.
 
-## Key numbers
+### Key numbers
 
 Every number is read from the result file named in the same row. Differences are percentage points of reviewed-associated
 alarms dismissed, policy minus P3, with 95% cluster-bootstrap intervals (networks, then days; 2,000 draws, seed 7).
