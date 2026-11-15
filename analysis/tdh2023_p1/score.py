@@ -8,6 +8,9 @@ import numpy as np, pandas as pd
 
 here = os.path.dirname(os.path.abspath(__file__)); root = os.path.dirname(os.path.dirname(here)); R = os.path.join(root, "results")
 OUT = os.path.join(R, "tdh2023_p1"); RUNS = os.path.join(OUT, "runs"); LAB_DIR = os.path.join(OUT, "labels")
+if not glob.glob(os.path.join(LAB_DIR, "ISC_*.xml")):
+    sys.exit("No catalogue labels in results/tdh2023_p1/labels/: the raw ISC/USGS copies are not redistributed. "
+             "Run python analysis/tdh2023_p1/labels.py first; it downloads them and SHA256.txt in that folder lists the expected hashes.")
 sys.path.insert(0, os.path.join(root, "analysis"))
 spec = importlib.util.spec_from_file_location("vr", os.path.join(root, "analysis", "v2_reviewed_bulletin.py"))
 vr = importlib.util.module_from_spec(spec); sys.modules["vr"] = vr; spec.loader.exec_module(vr); v2 = vr.v2
