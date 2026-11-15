@@ -15,6 +15,22 @@ and for a companion study of 38 seismic networks. [MANIFEST_PAPER1.md](MANIFEST_
 Pre-specification: each plan is dated by its push time and the first data request in [results/provenance/prespecification_timeline.json](results/provenance/prespecification_timeline.json). The test plan of the 38-network study is registered on OSF: https://osf.io/y8qxz (DOI [10.17605/OSF.IO/Y8QXZ](https://doi.org/10.17605/OSF.IO/Y8QXZ)).
 Archive: Zenodo, all versions DOI [10.5281/zenodo.24053124](https://doi.org/10.5281/zenodo.24053124).
 
+## Reproduce Paper 1 from a clean clone
+
+Checked on 15 November 2026 in a fresh `git clone` of this repository (Python environment from `requirements.txt`):
+
+| Step | Command | Result in the clean clone |
+|---|---|---|
+| Comparisons, primary Holm family, Tables 6-8 | `python analysis/paper1_harmonised.py` | identical to results/paper1/harmonised.json |
+| Matched operating point (Table 7) | `python analysis/paper1_matched_c05.py` | identical |
+| Per-variant thresholds | `python analysis/paper1_pervariant_theta.py` | identical |
+| Three-valid-neighbour share (Section 3.6) | `python analysis/paper1_three_valid.py` | identical |
+| Chance confirmation (Table 10) | `python src/p10x/chanceyes.py` | byte-identical |
+| 2023 catalogue labels | `python analysis/tdh2023_p1/labels.py` | 60 of 60 files match labels/SHA256.txt |
+| 2023 test (Table 11) | `python analysis/tdh2023_p1/score.py` | identical verdicts and numbers; only the `chronology` block differs (it records the commit times of the clone) |
+
+The raw ISC and USGS catalogue copies are not redistributed; `labels.py` downloads them. MANIFEST_PAPER1.md maps every table to its script and result file.
+
 ## Claim
 
 A sparse seismic network confirms a trigger at one station by checking its neighbours. A neighbour with no data and a
