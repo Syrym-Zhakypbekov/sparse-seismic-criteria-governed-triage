@@ -24,5 +24,8 @@ with ThreadPoolExecutor(2) as ex:
 with open(os.path.join(LAB, "SHA256.txt"), "w") as h:
     for f in sorted(glob.glob(os.path.join(LAB, "*.*"))):
         if not f.endswith("SHA256.txt"): h.write(hashlib.sha256(open(f, "rb").read()).hexdigest() + "  " + os.path.basename(f) + "\n")
-r = subprocess.run([GCLOUD, "storage", "rsync", LAB, "gs://p10-raw-waveforms/tdh2023_p1/_labels", "--no-clobber", "--quiet"], capture_output=True, text=True)
-print("labels", len(jobs), "bucket rc", r.returncode, r.stderr[-300:])
+if os.path.exists(GCLOUD):   # authors' archive copy only; not needed to reproduce the paper
+    r = subprocess.run([GCLOUD, "storage", "rsync", LAB, "gs://p10-raw-waveforms/tdh2023_p1/_labels", "--no-clobber", "--quiet"], capture_output=True, text=True)
+    print("labels", len(jobs), "bucket rc", r.returncode, r.stderr[-300:])
+else:
+    print("labels", len(jobs), "(no gcloud: bucket copy skipped; check files against SHA256.txt)")
